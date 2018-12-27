@@ -1,0 +1,163 @@
+---
+title: "Video 1a, syllabus review"
+author: "Steve Simon"
+date: "December 26, 2018"
+output: ioslides_presentation
+---
+
+## Slide #1
+
+MEDB 5510
+Clinical Research Methodology
+Spring 2019
+
+<div class="notes">
+
+All right. Welcome to Clinical Research Methodology.
+
+This first recording i
+
+I'm going to 
+
+You'll find a copy of this on the course site.
+
+It shows information
+
+This is an online asynchronous course. The vast majority will be Panopto recordings, and discussion boards.
+
+I usually respond very quickly to email.
+
+Catalog information.
+
+Review introduction, course framework.
+
+This comes from the textbook. I really like this framework.
+
+It starts with general purpose,
+
+What kind of statistics are used with which studies.
+
+Discussion boards will take the place of normal classroom activities.
+
+Success depends on your participation.
+
+I will try to make the discussions relevant but the responsibility is yours.
+
+The book is ...
+
+Online sources including digital and rental options.
+
+Feel free to get the textbook in any format.
+
+There are many resources that you should review to see current events 
+
+These are the different aspects of getting points in the class. Three points for class participation each week. Post something new and comment on someone else's post.
+
+Assessment item development (3 points)
+
+Ten assignments
+
+Quizzes.
+
+Oral presentation of a research proposal that you design.
+
+Submit a file that includes a poster.
+
+Written research proposal.
+
+Show grading scale. Note that individual items may not seem to be worth that much, but these can easily add up and if you miss  even a few, it can make a difference in your grade level.
+
+Student projects and evaluations.
+
+Everything will be submitted through Canvas.
+
+First assignment is certification of your IRB training. 
+
+Be sure to include your name in the files that you submit.
+
+Discussion participation. Initial posting by Sunday at midnight. Responses to other postings by the following Wednesday.
+
+Assessment item. Develop some items that can be used to assess whether the material has been reviewed by others.
+
+Some items from each student will be compiled into one file will be the basis of one discussion forum.
+
+Assignments are due by midnight of Wednesday of the following week. If assignments are late, then you lose one point for each day late for five days, so the maximum penalty is 5 points out of 10.
+
+There may be unscheduled quizzes.
+
+Your project can range from a simple descriptive study to a fully randomized trial. You can use this for your thesis or dissertation, but DO NOT submit a proposal for work that you've already done. Instead propose an extension of work that you have already done.
+
+Oral presentation of 10 minutes. Talk about the objectives, background, what the contribution would be if this study were done.
+
+Scorecard based on the grading rubric.
+
+Students watch each other's presentations and grade/make constuctive comments. Demonstrate that you have listened to the other presentations.
+
+Only need feedback on five other students.
+
+Watching other's presentations will help you with your future presentations.
+
+Include material used to create a poster. This does not have to be a final finished poster. More for practice in assembling a proposal.
+
+Written proposal will be submitted through turnitin.com. It checks for plagiarism. We all have to work on making sure that we are presenting that information in our own words.
+
+One of the assignments is a draft literature review and that is submitted through turnitin.com as well.
+
+Structure is a truncated version of the five chapter thesis format.
+
+The School of Graduate Studies provides a useful guide, but details are not available because of differences across disciplines.
+
+Course evaluation. Please take the time to do this. It helps us a lot with revising and updating the course. Instructors will only get numerical summaries and comments will be reviewed by chair before sending to instructor.
+
+You need to install Panopto on your computer, and you need a microphone connection. Video is optional.
+
+You have to use your UMKC email account, instructor will not respond to non-UMKC accounts.
+
+Email notification of announcements.
+
+If you have never used Canvas before, here are some general guidelines, including online ettiquette.
+
+The rest of these are standard UMKC policies.
+
+The rest of the syllabus goes into details week by week.
+
+For example, there is a syllabus quiz that you need to complete by next Wednesday at midnight.
+
+A copy of this syllabus is on the Canvas site.
+
+Deadlines for final project and evaluations of other projects.
+
+Next is a recording of how to navigate the Canvas site.
+
+
+
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+

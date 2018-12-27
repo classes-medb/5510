@@ -1,0 +1,108 @@
+---
+title: "Video 1 - Introduction to Clinical Research Methods"
+author: "Steve Simon"
+date: "December 26, 2018"
+output: html_document
+---
+
+## Title Slide
+
+A little background, intro type of material. This reflects chapter 1 and some other material.
+
+## Clinical Research Introduction
+
+This talk represents material from Chapter 1 of 
+
+What do we mean when we say clinical research. The government has a definition of research: the systematic collection of data that develops or contributes to generalizable knowledge.
+
+It is a structured process.
+
+Clinical conditions, outcomes, etc. Things that have an impact on people's health. Evidence Based Practice in healthcare is a result of research. We're not relying just on clinical 
+
+Conscientous use of evidence. Allows you to develop ability to make decisions. Evidence to be current, objective (free from individual biases), verifiable, relevant, applicable.
+
+
+
+## What is clinical research?
+
+There are dichotomies.
+
+Theoretical versus applied. Theoretical research might be done to accumulate knowledge without a concern of how it might be applied today.
+
+Laboratory versus field. Lab studies are held in a controlled setting. You control the environment and you can set the conditions of the research. A field setting is a real world setting. It could be a doctor's office. It reflects the conditions under which
+
+Participant report versus researcher observation. The observation could be lab results.
+
+Quantitative versus qualitative. This is a crude dichotomy. Positivist versus constructivist. Positivist is a specific plan, constructivist uses less structure. Responding and reacting to what is discovered during the research.
+
+Objective versus subjective. Objective are things that are easily classified. Subjective could be reported differently by different people.
+
+Statistical versus descriptive. Do you have data that you can run statistical tests on?
+
+Despite these dichotomies, most research is mixed methods, where different kinds of techniques are combined.
+
+## How is clinical research used?
+
+
+## Dichotomies describing research
+
+## Mixed methods
+
+## Schematic diagram
+
+This diagram is a useful outline of the research process. It starts with the idea of exploring relationships versus gathering and describing information. The latter is used when there is novelty.
+
+There is a split between experimental and non-experimental. The former involves manipulation of an active independent variable. The latter uses an attribute independent variable. You do not have control over this independent variable.
+
+In experimental studies, there are randomized experimental versus quasi experimental designs. The latter, you still have an active independent variable, but you do not randomize this variable.
+
+In the non-experimental study, you are comparing two or more groups. You could be comparing people with the disease to people without the disease.
+
+The purpose of randomized and quasi experimental design, you are trying to determine causality. In a quasi experimental design, the strongest you can say is that you are examining causality. In associational studies, you see to what extent variables correlate with one another.
+
+The purpose of the study determines the type of statistic you use. For randomized, quasi-experimental, and comparative study, you are looking at difference inferential statistics like ANOVA or t-tests. In associational studies, you will use correlation and regression models. A descriptive study uses 
+
+As before, there is often a mix among these "paths".
+
+
+## The research process
+
+What is it that is not already known. Where is there a gap in knowledge. There is a distinction between a research question and a research hypothesis.
+
+How am I going to collect the data that addresses your research question.
+
+The most important step in this process is communicating your results.
+
+## Diagram of the research process
+
+This figure is a model of the research process. Identify the problem and research what is already known. Figure out what kind of information you need to collect. What type of sample do you need to collect.
+
+Your interpretation will lead to asking a new question. What you have done becomes part of the literature base that needs to be done.
+
+## The role of theory in research
+
+You might not think a lot about research. But it has a really important role. What a theory does is it gives you an idea of structure, provides a context where you place your results, helps explain what goes on and why it goes on, it helps you predict the results of the research, and can help you develop new knowledge (if this theory is true, I should be able to find this information). It can provide a basis of support of why your research is justified.
+
+Theory and models both represent a way of describing an important issue that we need a more complete knowledge of. The data can lead to rejection of a theory, support of the theory, or an adaptation of the theory.
+
+## Characteristics of a theory
+
+## The structure of a theory
+
+The process of theory development can be inductive versus deductive. Deductive is a downward process where you are using a broad theory to develop specific results. Inductive is an upward process where specific results are combined to develop a broad theory, an understanding, or a conceptual framework.
+
+In a new field where there is not yet a lot of understanding, much of the research is inductive. The process is very fluid. Analysis allows for concepts and themes to emerge. You are looking for patterns.
+
+A deductive process involves testing an established theory or framework in a specific setting. Test or make predictions of some new aspect of this broad theory.
+
+## A model of scientific thought
+
+## Assignment
+
+Review the syllabus. There is a syllabus quiz. Read Chapter 1. There are some exemplar articles in the book, but we have some articles that may be a bit more relevant.
+
+The next reading assignment will be the first one where you develop your assessment items in advance of the class.
+
+## Activity/discussion
+
+Introductions. Provide a brief description of your background and why you are taking this class. Tell us how you expect to use the information in this class and how this fits into your career plans.
