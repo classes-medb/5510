@@ -1,0 +1,5 @@
+### Assignment
+
+1. Complete written research proposal and submit it using “Turnitin” through Canvas by midnight on `r tue[16]`.
+
+2. Complete comments on presentation scorecards for other students and submit by midnight on `r thu[16]`.

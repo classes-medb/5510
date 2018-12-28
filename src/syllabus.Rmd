@@ -27,13 +27,13 @@ read_text <- function(fn, due="") {
 }
 ```
 
-## MEDB 5510, Clinical Research Methodology
+# Course information
 
 This is an on-line class taught, starting on `r tue[1]` and ending on `r fri[16]`.
 
-`r read_text("syllabus-instructor")`
+`r read_text("syllabus-course-instructor")`
 
-`r read_text("syllabus-catalog-information")`
+`r read_text("syllabus-course-catalog")`
 
 `r read_text("syllabus-course-description")`
 
@@ -41,201 +41,90 @@ This is an on-line class taught, starting on `r tue[1]` and ending on `r fri[16]
 
 Note: Many thanks go to Dr. Mary Gerkoich, who provided an excellent structure and format to this class that I will be following closely. 
 
-`r read_text("syllabus-course-objectives")
+`r read_text("syllabus-course-objectives")`
 
-`r read_text("syllabus-course-framework")
+`r read_text("syllabus-course-objectives1")`
 
-`r read_text("syllabus-class-structure")`
+`r read_text("syllabus-course-requirements")`
 
-# Course information
+`r read_text("syllabus-course-framework")`
 
-`r read_text("syllabus-required-materials")`
+`r read_text("syllabus-course-structure")`
 
-`r read_text("syllabus-recommended-materials")`
+`r read_text("syllabus-course-required-materials")`
 
-`r read_text("syllabus-resources")`
+`r read_text("syllabus-course-recommended-materials")`
 
-# Evaluation and Grading Criteria
+`r read_text("syllabus-course-resources")`
 
-`r read_text("syllabus-evaluation-criteria")`
+`r read_text("syllabus-course-evaluation")`
 
-`r read_text("syllabus-grading-criteria")`
+# Assignments
 
-`r read_text("syllabus-grading-criteria")`
+`r read_text("syllabus-assignments-schedule")`
 
-# Submission of work
+`r read_text("syllabus-assignments-evaluation")`
 
-`r read_text("syllabus-submission-format")`
+`r read_text("syllabus-assignments-grading")`
 
-`r read_text("syllabus-discussion-forums")`
+`r read_text("syllabus-assignments-submission")`
 
-`r read_text("syllabus-assessment-item-development")`
+`r read_text("syllabus-assignments-discussion-overview")`
 
-`r read_text("syllabus-assignments")`
+`r read_text("syllabus-assignments-discussion-evaluation")`
 
-`r read_text("syllabus-quizzes")`
+`r read_text("syllabus-assignments-assessment")`
 
-`r read_text("syllabus-quizzes")`
+`r read_text("syllabus-assignments-weekly")`
 
-`r read_text("syllabus-final-project")`
+`r read_text("syllabus-assignments-quizzes")`
 
-`r read_text("syllabus-oral-presentation")`
+# Final project
 
-`r read_text("syllabus-poster-material")`
+`r read_text("syllabus-project-overview")`
 
-`r read_text("syllabus-poster-structure")`
+`r read_text("syllabus-project-presentation")`
 
-`r read_text("syllabus-research-proposal")`
+`r read_text("syllabus-project-poster-material")`
 
-### Schedule of Course Topics Covered, Assignments, Requirements, and Assignment Deadlines
+`r read_text("syllabus-project-poster-structure")`
 
-The detailed listing of topics, assignments, and deadlines is shown in the Course Overview document in the “Course Content” section of the course Canvas site.
+`r read_text("syllabus-project-proposal")`
 
-A calendar showing all dates for submissions (assessment items, assignments, final project oral presentation, and final project written proposal) is shown in the Calendar document in the “Course Content” section of the course Canvas site.
+# Policies
 
-## Student Learning Objectives
+`r read_text("syllabus-policies-canvas")`
 
-At the end of this course, students will be able to:
+`r read_text("syllabus-policies-email")`
 
-1. Evaluate existing clinical research literature and identify issues and topics for future research
+`r read_text("syllabus-policies-discussion")`
 
-2. Develop research questions/hypotheses to address clinical research topics
+`r read_text("syllabus-policies-conduct")`
 
-3. Determine an appropriate research design to address a clinical research issue
-
-4. Develop methods and materials to conduct clinical research
-
-5. Understand issues related to managing data sets
-
-6. Select appropriate analysis methods in order to test research questions/hypotheses
-
-7. Write a proposal for a research project to address a clinical research issue
-
-8. Make a presentation of a research proposal including the background to justify the research questions/hypotheses as well as the methods planned for collecting and analyzing the research data
-
-## Course Evaluation
-
-Completion of the confidential course evaluation at the end of the semester is available for the course and strongly encouraged. You will receive information about completing the evaluation from the Department office towards the end of the semester.
-
-## Course Expectations, Course Policies, Requirements, and Standards for Student Coursework and Student Behavior –
-
-### Canvas
-
-Lecture material for weekly sessions will be posted on the Canvas course site before each class session. This material is to be reviewed before the class session – it will provide the foundation for activities that are planned for the weekly sessions.
-
-Additional materials will be made available in electronic format on the Canvas website. Announcements and schedule updates will also be posted on the website.
-
-Many materials on the website can be read and/or printed with a standard web browser. Other items require Adobe Acrobat Reader to view. Acrobat Reader may be downloaded for FREE from the [Adobe website](http://www.adobe.com/products/acrobat/readstep2.html).
-
-A PowerPoint file containing overhead material for each session will be posted on Canvas before the class. You are responsible for having the material in this file available to refer to - either by downloading the file to your computer or by printing it out in a format for note-taking. Students who are assigned to lead discussions are expected to include this material in their discussions.
-
-In order to prepare the recording of the oral presentation of your research project, you will need to use a computer on which you can install Panopto – you will need administrator’s rights to install the program. You will also need to have a microphone connected to the computer you are using for the recording – either as an “inboard” mic (e.g., most laptops) or plugged into a microphone/USB jack (e.g., many/most desktop computers). You will receive detailed information regarding how to prepare your presentation recording and upload it to the Canvas course site.
-
-## E-mail and use of Canvas Requirements
-
-You will be required to use a UMKC e-mail account for correspondence in this class. The instructor will not be responsible for the receipt of e-mails that are sent to locations other than those ending with “umkc.edu”
-
-You will also be required to be registered with Canvas in order to have access to course-related material that is posted on that site.
-
-## Course Requirements
-
-Students are responsible for reading all assignments from the text, Canvas material, internet materials, and instructor provided resources before the class period in which they are to be discussed. Each student will complete Human Subjects training, assignments, a research proposal, and an oral presentation of the research proposal that will include poster material.
-
-## Canvas Discussions
-
-During the semester, you will be expected to participate in online discussions through the course Canvas site. Online discussion forums will provided the basis for discussions and activities that normally take place during an on-campus class period. Your engagement in the discussions will be reflected in the points you earn for participation. The minimum expectation is that you will respond to the topic, using the information you have read and/or the material presented in the recordings. Full participation in the discussion topics will be demonstrated by responses you make to the entries made by other students as well as the content of your own posting, and making these contributions in a timely manner (first posting must be made by Sunday midnight following the posting of the forums. A vital discussion board should include responses between students that expand on the original posting. Think of this as the interchange that occurs when we are all in the same room.
-
-When a discussion topic is posted, please add your contribution by replying to the original topic. When you are responding to another student’s posting, use the reply function.
-
-I will regularly assign a student to be the participation leader in a specific discussion forum. The leader is expected to respond to each posting, adding to the discussion as appropriate and findings links between individual postings in a way that adds value to the overall discussion. The quality of what you do when you are the participation leader will be factored into the participation part of the course evaluation.
-
-To create an original posting in a discussion forum on the course Canvas site, click on 
-
-* “Discussion Area”
-
-* “Discussion Board”
-
-* “Create Thread”
-
-You will see the discussion topic and Participation Leader listed. Type your discussion entry into the Message box and submit it when complete. When you are responding to another student’s posting, use the reply function.
-
-## Discussion Board Guidelines – General Information
-
-The purpose of the discussion board forum is to engage students in applying the concepts of this course in an exchange of ideas and opinions that is open, honest, and that stimulates transference of ideas to your own area of expertise and interest. Discussion board conversations also serve to build a sense of community among students in the class for the purpose of examining how the concepts we are studying are relevant to our own experiences. In the best tradition of the value of learning from each other, the following guidelines should guide us all as we participate in these discussions:
-
-Participants should “listen” to others respectfully. Remember that when communicating via the computer screen, you do not have the benefit of voice intonation, facial expressions, body language or gestures to interpret the meaning behind the words. The same words spoken orally in different manners can mean different things. Remember this and give the person the benefit of the doubt when interpreting discussion board posts. Take your responsibilities seriously and offer meaningful feedback. Disagreements should focus on ideas and concepts, not the individual posting to the discussion board. If you disagree with what another student has written, strive to critique ideas in a respectful and constructive manner. When a disagreement occurs, attempt to understand other person’s perspectives rather than to simply criticize them. Treat other students with the same respect and courtesy that promotes the same thoughtful and fair treatment that is supportive of face to face discussions.
-
-Intervene politely if someone is being disrespectful or unfair to others. If you find something on the Discussion Board that strikes you as unacceptable in either tone or content, gently share your concern with the poster AND be sure to let the course instructor know about it as soon as possible Usually this kind of thing is the result of some kind of accident or misunderstanding, and I will make sure that it gets cleared up as soon as possible.
-
-Keep the content of posts relevant to the topic. While the tone of your posts may be informal and genial, the discussion board is not a chat room. If necessary for personal messages, please use Mail or other forms of direct contact.
-
-Use language, spelling and grammar that are appropriate to an educational setting. Avoid use of overly technical or discipline specific language, slang or Internet shorthand, and remember to proofread work prior to posting it for the class to read. Strive for proper spelling and grammar. Use complete sentences. Do not “shout” (i.e., type in capital letters).
-
-Read and Reply. Note that your replies to others are just as important as the expression of your own initial thoughts about the topic. Take time to read what others have written and to give them relevant feedback when appropriate. Even if you have completed the requirements for posting in a given week, go back and see what others have written since you were last there.
-
-Please be sure to bring any problems or suggestions regarding effective and courteous use of the discussion board to the attention of the course director.
-
-## Statement on Expectations Regarding Student Conduct
-
-In order to maintain a proper learning environment within the class, it is important for all students enrolled in this course to treat both the faculty and their peers with courtesy, civility and respect. Conduct for which students are subject to sanctions includes academic dishonesty, such as cheating, plagiarism, or sabotage. Please refer to the 
+Please refer to the 
 [UM System standard of conduct](http://www.umsystem.edu/ums/rules/collected_rules/programs/ch200/200.010_standard_of_conduct) for more information.
 
-Students whose behavior is deemed disruptive by their instructor may be told to leave the classroom for the remainder of the session. Zero participation points will be earned for any weekly discussion activities when a student is told to leave the discussion.
+`r read_text("syllabus-policies-honesty")`
 
-## Resources & Policy Statements
+`r read_text("syllabus-policies-attendance")`
 
-Academic Calendar: Students are encouraged to review important add, drop or withdraw dates: https://www.umkc.edu/calendar/
-
-Academic Honesty: The Board of Curators of the University of Missouri recognizes that academic honesty is essential for the intellectual life of the University. Faculty members have a special obligation to expect high standards of academic honesty in all student work. Students have a special obligation to adhere to such standards. Academic dishonesty, including cheating, plagiarism or sabotage, is adjudicated through the University of Missouri Student Conduct Code and Rules of Procedures in Student Conduct Matters.
-
-Conduct for which students are subject to sanctions includes academic dishonesty, such as cheating, plagiarism, or sabotage. In the event misconduct is confirmed, the students will receive 0 points on the exam or assignment. If academic dishonesty is admitted or confirmed by evidence the faculty are required to report the incident to the Assistant Dean for Graduate Studies, who will meet with the faculty member and student to review the event and then determine whether it should be further referred to the Dean of the School of Graduate Studies.
-
-Students enrolled in this course assume an obligation to behave in a manner compatible with the University's function as an educational institution as described in the University Collected Rules and Regulations Chapter 200 Student Conduct, section 200.010 Standard of Conduct. Conduct for which students are subject to sanctions includes academic dishonesty, such as cheating, plagiarism, or sabotage. Conduct for which students are subject to sanctions are outlined as follows:
-
-The term cheating includes but is not limited to: (i) use of any unauthorized assistance in taking quizzes, tests, or examinations; (ii) dependence upon the aid of sources beyond those authorized by the instructor in writing papers, preparing reports, solving problems, or carrying out other assignments; (iii) acquisition or possession without permission of tests or other academic material belonging to a member of the University faculty or staff; or (iv) knowingly providing any unauthorized assistance to another student on quizzes, tests, or examinations.
-
-The term plagiarism includes, but is not limited to: (i) use by paraphrase or direct quotation of the published or unpublished work of another person without fully and properly crediting the author with footnotes, citations or bibliographical reference; (ii) unacknowledged use of materials prepared by another person or agency engaged in the selling of term papers or other academic materials; or (iii) unacknowledged use of original work/material that has been produced through collaboration with others without release in writing from collaborators. In addition, the Department of Biomedical and Health Informatics includes self-plagiarism in their expanded definition. 
-
-Self-plagiarism is reuse of an existing paper that has been submitted for credit in a different course without prior discussion and consent of the course director.
-
-The term sabotage includes, but is not limited to, the unauthorized interference with, modification of, or destruction of the work or intellectual property of another member of the University community.
-
-To ensure academic integrity and prevent plagiarism, UMKC has purchased the Internet-based Turn It In. This site allows faculty and students to submit papers online to examine a paper’s originality. The site compares submitted papers with several proprietary algorithm databases to check for plagiarism. The course director reserves the right to have student assignments reviewed on Turnitin.com in this course. Submissions will have all identifying student information (name, student ID number etc.) removed from the submission to ensure that student’s rights are protected.
-
-Academic Inquiry, Course Discussion and Privacy: University of Missouri System Executive Order No. 38 lays out principles regarding the sanctity of classroom discussions at the university. The policy is described fully in Section 200.015 of the Collected Rules and Regulations. In this class, students may make audio or video recordings of course activity unless specifically prohibited by the faculty member. However, the redistribution of any audio or video recordings of statements or comments from the course to individuals who are not students in the course is prohibited without the express permission of the faculty member and of any students who are recorded, including those recordings prepared by an instructor. Students found to have violated this policy are subject to discipline in accordance with provisions of Section 200.020 of the Collected Rules and Regulations of the University of Missouri pertaining to student conduct matters.
-
-Attendance Policy: Students are expected to attend and participate in classes. Advance notice of attendance policies of academic units and individual instructors should be given, and such notice should be in writing. Students should notify instructors of excused absences in advance, where possible. Students who have an excused absence are expected to make arrangements with instructors for alternative or make-up work. Such arrangements should be made in advance of the absence, where possible. Instructors should accommodate excused absences to the extent that an accommodation can be made that does not unreasonably interfere with the learning objectives of the course or unduly burden the instructor. Attendance policies shall be applied in a non-discriminatory manner.
-
-Canvas Resources: Lecture material for weekly sessions will be posted on the Canvas course site before each class session. This material is to be reviewed before the class session – it will provide the foundation for activities that are planned for the weekly sessions. Additional materials will be made available in electronic format on the Canvas website. Announcements and schedule updates will also be posted on the website. Many materials on the website can be read and/or printed with a standard web browser. Other items require Adobe Acrobat Reader to view. Acrobat Reader may be downloaded for FREE from the [Adobe website](http://www.adobe.com/products/acrobat/readstep2.html).
-
-Campus Safety: [Inclement weather, mass notification, and emergency response guide](http://www.umkc.edu/umkcalert/).
-
-Counseling and Health Services Available at UMKC: UMKC students may experience many challenges in their lives while attending college – stress, depression, suicidality, trauma, relationship issues, health concerns, etc. As your professor I care about your success and well-being, and want to make you aware of some helpful resources on campus. The [UMKC Counseling Center](www.umkc.edu/counselingcenter), located at 4825 Troost in Room 206, offers a wide range of supportive services to students. Appointments can be made by calling 816.235.1635. [UMKC Student Health and Wellness](http://info.umkc.edu/studenthealth/), located at 4825 Troost in Room 115, offers a full range of health care and promotion services. Appointments can be
-scheduled online or by calling 816.235.6133. The [MindBody Connection](www.umkc.edu/mindbody) is located in the Atterbury Student Success Center in Room 112 and offers a variety of stress-reduction services.
-
-Disability Support Services: To obtain disability related accommodations and/or auxiliary aids, students with disabilities must contact the Office of Services for Students with Disabilities (OSSD) as soon as possible. To contact OSSD, call (816) 235-5696 or visit their website. Once verified, OSSD will notify the course instructor and outline the accommodation and/or auxiliary aids to be provided. UMKC has a [web page](http://www.umkc.edu/disability/) with more information about disability services.
+`r read_text("syllabus-policies-discrimination")`
 
 Discrimination Grievance Procedures for Students: Discrimination Grievance Procedures for Students can be found [here](http://www.umsystem.edu/ums/rules/collected_rules/grievance/ch390/grievance_390.010).
 
-The course faculty is committed to creating and maintaining a supportive learning environment. If at any time you find yourself in an environment that does not support learning, it is best to first contact the course faculty. If faculty members are unable to resolve the situation for you, you may contact: the Chair of the Department, the Associate Dean for Student Affairs, Dr. Brenda Rogers, SOM Rm M4-207, rogersbr@umkc.edu, (816) 235-1782; Sam Turner, Office of Diversity & Community Partnership, SOM Rm.M1-109, (816) 235-1780.
+`r read_text("syllabus-policies-english-proficiency")`
 
-Email Usage: You will be required to use a UMKC e-mail account for correspondence in this class. The instructor will not be responsible for the receipt of e-mails that are sent to locations other than those ending with “umkc.edu”. Any files that are submitted to an instructor via email MUST include the student's name in the filename.
+`r read_text("syllabus-policies-grade-appeal")`
 
-English Proficiency Statement: Students who encounter difficulty in their courses because of the English proficiency of their instructors should speak directly with their instructors. If additional assistance is needed, students may contact the UMKC Help Line at 816-235-2222 for assistance.
+# Resources
 
-Grade Appeal Policy: Students are responsible for meeting the standards of academic performance established for each course in which they are enrolled. The establishment of the criteria for grades and the evaluation of student academic performance are the responsibilities of the instructor.
+Academic Calendar: Students are encouraged to review important add, drop or withdraw dates: https://www.umkc.edu/calendar/
 
-The University [grade appeal procedure](https://www.umkc.edu/provost/Policy-Library/documents/tzt_Grade%20Appeal%20Policy.pdf) is available only for the review of allegedly capricious grading and not for review of the instructor's evaluation of the student's academic performance. Capricious grading, as that term is used here, comprises any of the following:
+Campus Safety: [Inclement weather, mass notification, and emergency response guide](http://www.umkc.edu/umkcalert/).
 
-* The assignment of a grade to a particular student on some basis other than the performance in the course;
+Counseling and Health Services Available at UMKC: UMKC students may experience many challenges in their lives while attending college – stress, depression, suicidality, trauma, relationship issues, health concerns, etc. As your professor I care about your success and well-being, and want to make you aware of some helpful resources on campus. The [UMKC Counseling Center](www.umkc.edu/counselingcenter), located at 4825 Troost in Room 206, offers a wide range of supportive services to students. Appointments can be made by calling 816.235.1635. [UMKC Student Health and Wellness](http://info.umkc.edu/studenthealth/), located at 4825 Troost in Room 115, offers a full range of health care and promotion services. Appointments can be scheduled online or by calling 816.235.6133. The [MindBody Connection](www.umkc.edu/mindbody) is located in the Atterbury Student Success Center in Room 112 and offers a variety of stress-reduction services.
 
-* The assignment of a grade to a particular student according to more exacting or demanding standards than were applied to other students in the course; (Note: Additional or different grading criteria may be applied to graduate students enrolled for graduate credit in 300- and 400-level courses.)
-
-* The assignment of a grade by a substantial departure from the instructor's previously announced standards.
-
-Students who have concerns about this course should first consult with the specific instructor with whom there is a problem. If the issues are not satisfactorily resolved the student should contact the course director.
-
-In the event a student would like to appeal a course grade they must follow the School of Medicine procedure for grade appeal for graduate courses, which is outlined in the student handbook or can be found at the [School of Medicine Graduate Council web page](http://med.umkc.edu/councils/graduate/documents/)
+Disability Support Services: To obtain disability related accommodations and/or auxiliary aids, students with disabilities must contact the Office of Services for Students with Disabilities (OSSD) as soon as possible. To contact OSSD, call (816) 235-5696 or visit their website. Once verified, OSSD will notify the course instructor and outline the accommodation and/or auxiliary aids to be provided. UMKC has a [web page](http://www.umkc.edu/disability/) with more information about disability services.
 
 Severe Weather Policy: Cancellation of classes will be posted on the front page of the [University’s website](www.umkc.edu) as well as through the UMKC Alert message system.
 
@@ -247,495 +136,152 @@ While most UMKC employees are required to report any known or suspected violatio
 
 ## Week 1: Course Overview and Introductions; Introduction to Clinical Research Methods
 
-### Learning objectives
-
-1. To demonstrate an understanding of the course structure and expectations
-
-2. To define clinical research
-
-3. To demonstrate an understanding of the role of clinical research in health care
-
-### Discussion questions (please submit at least one post by midnight, `r fri[1]`. The discussion board will close on midnight, `r wed[2]`)
-
-1. Briefly describe your background and explain why are you interested in this course?
-
-2. Find a research paper that is relevant to your work or area of study. This must be a paper with full free text available. Post the abstract of this article and a link to the full text. Review the dichotomies discussed in Chapter 1 and classify the paper into one of the two levels in each dichotomy, or classify it as a mixture of both levels of the dichotomies. If you are unsure about any classification, be honest about your uncertainty.
-
-3. Review at least one paper posted by another student and comment on their classifications.
-
-`r read_text("hw01", fri[1])`
+`r read_text("objectives01")`
 
 `r read_text("readings01", fri[1])`
 
+`r read_text("hw01", fri[1])`
+
+`r read_text("discussion01", fri[1])`
+
 ## Week 2: Planning a Research Project, Introduction to Key Concepts, Research Ethics
 
-### Learning objectives
+`r read_text("objectives02")`
 
-1. To describe the variety of research that can be conducted while doing clinical research.
+`r read_text("readings02", fri[1])`
 
-2. To describe what is needed in order to identify and define a research question that could be the basis for a research project
+`r read_text("hw02", fri[1])`
 
-3. To learn what is expected in terms of professional ethics & ethical research with humans
-
-### Required reading
-
-1. Chapters 2, 3, 14
-
-2. Canvas – Chen article; Price article; Lidz article; Simon article
-
-### Discussion questions
-
-1. How will you go about deciding on a research project?
-
-2. How will you decide whether you will be proposing research questions or hypotheses?
-
-3. What will you need to take into account in order to make sure you are conducting research in an ethical and responsible manner?
-
-### Assignment
-
-1. Complete the UMKC IRB training. Get to this from the [UMKC Research Support page](http://www.umkc.edu/ors/irb/training.cfm), or directly by registering on the [CITI Program web site](http://www.citiprogram.org/). Select “Group 1 – Biomedical Investigator”. Send a copy of the Certificate of Completion to Dr. Simon (simons@umkc.edu); this copy will be kept by the instructor so make sure to also print out a copy for your own file. Certificate must be submitted by midnight, Wednesday 1/31/2018 to be eligible to receive full credit.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-Rebecca Skloot. The Immortal Life of Henrietta Lacks
-
-Willyard. “Should you blow the whistle?” (Week 2 folder)
+`r read_text("discussion02", fri[1])`
 
 ## Week 3: Literature Reviews, Library Resources
 
-### Learning objectives
+`r read_text("objectives03")`
 
-1. To demonstrate knowledge of the resources available through the university library system
+`r read_text("readings03")`
 
-2. To demonstrate an understanding of skills needed in order to read and evaluate scientific literature
+`r read_text("hw03", fri[3])`
 
-
-### Required reading
-
-1. Chapters 23, 24
-
-Note – These chapters are advanced and will be covered in more detailed later in the semester. For the topic of literature reviews, focus on the “questions” presented in these chapters that can be used to evaluate literature.
-
-### Discussion questions
-
-1. How will the library resources contribute to your research activity?
-
-2. What kinds of information will you be compiling from the literature you will be reviewing for your proposal?
-
-3. How do you usually organize information when reviewing literature?
-
-### Assignment
-
-1. Work on the literature search for your research project idea
-
-2. Prepare for next week’s session
-
-### Optional reading
+`r read_text("discussion03", fri[3])`
 
 ## Week 4: Analysis of Secondary Data Sets
 
-### Learning objectives
+`r read_text("objectives04")`
 
-1. To describe possible uses of existing data sets and research findings
+`r read_text("readings04")`
 
-2. To identify sources of data sets available for secondary analyses
+`r read_text("hw04", fri[4])`
 
-### Required reading
-
-1. Canvas – Grady, D. & Hearst, N. (2007). Chapter 13, “Utilizing existing databases.” In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
-
-2. List of Secondary Dataset resources (Week 4 folder)
-
-### Discussion questions
-
-1. What are some of the pros and cons of conducting a research study using an existing dataset?
-
-2. What are some of the research questions you can think of that could be addressed using an existing data set?
-
-### Assignment
-
-1. Review available data types / topics on any web site that gives you access to secondary datasets. Using the template provided in the Week 4 folder, write a brief description of a research topic you could address using this data source. Include in your description information on the variables that would be used.
-
-2. Prepare for next week’s session
-
-### Optional reading
+`r read_text("discussion04", fri[4])`
 
 ## Week 5: Research Approaches / Designs, Randomized Experimental and Quasi-experimental Designs
 
-### Learning objectives
+`r read_text("objectives05")`
 
-1. To describe the differences between different research approaches
+`r read_text("readings05")`
 
-2. To describe what defines a randomized experimental design
+`r read_text("hw05", fri[5])`
 
-3. To distinguish a randomized experimental design from a quasi-experimental design
-
-### Required reading
-
-1. Chapters 4, 5
-
-2. Canvas – Leaf article
-
-### Discussion questions
-
-1. What kind of clinical research questions are you interested in pursuing?
-
-2. Do you have previous experiences that factor into the research questions you are interested in?
-
-3. What kind of design do you think would be most appropriate for the topic you are interested in?
-
-### Assignment
-
-1. Prepare a brief description of the topic you are planning to focus on for your research proposal. This assignment serves as a start point for the Introduction of your research proposal.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-Simon. “The problem with alternating assignment”
-
-Tucker et al. “Utility of an interactive voice response system to assess antiretroviral pharmacotherapy adherence among substance users living with HIV/AIDS in the rural south”
-
-Simon. “Some quasi-experimental alternatives to randomization”
-
-De Bruin et al. “Electronic monitoring-based counseling to enhance adherence among HIV-infected patients: A randomized controlled trial”
-
-Ioannidis. “Contradicted and initially stronger effects in highly cited clinical research”
+`r read_text("discussion05", fri[5])`
 
 ## Week 6: Non-experimental Approaches and Designs
 
-### Learning objectives
+`r read_text("objectives06")`
 
-1. To distinguish different types of quantitative non-experimental approaches
+`r read_text("readings06")`
 
-2. To discuss strengths and weaknesses of qualitative research
+`r read_text("hw06", fri[6])`
 
-### Required reading
-
-1. Chapters 7
-
-2. Canvas – Berkley-Patton et al., article
-
-3. Canvas – Eton et al., article.
-
-### Discussion questions
-
-1. What kind of research topics could be addressed using non-experimental designs?
-
-2. What kind of research topics could be addressed using qualitative methods?
-
-3. What are the ethical issues that need to be addressed when doing these types of studies?
-
-### Assignment
-
-1. Turn in the results of a literature search on the topic you are planning to focus on for your research proposal. What you turn in should provide evidence of the literature you have found that is relevant to the topic you’ve chosen for your research proposal. This assignment serves as a start for your References section.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-Wolfe et al. “Effects of HIV-related stigma among an early sample of patients receiving antiretroviral therapy in Botswana”
-
-Rowan et al. “Engagement-in-care during the first 5 years after HIV diagnosis: Data from a cohort of newly HIV-diagnosed individuals in a large US city”
-
-DiLorenzo et al. “Comparison of older and younger individuals with multiple sclerosis: A preliminary investigation”
-
-Haberer et al. “Challenges in using mobile phones for collection of antiretroviral therapy adherence data in a resource-limited setting”
+`r read_text("discussion06", fri[6])`
 
 ## Week 7: Internal Validity, Sampling and Introduction to External Validity
 
-### Learning objectives
+`r read_text("objectives07")`
 
-1. To define internal validity
+`r read_text("readings07")`
 
-2. To define external validity
+`r read_text("hw07", fri[7])`
 
-3. To discuss factors that determine the appropriate sample for a research project
-
-### Required reading
-
-1. Chapters 8, 9
-
-### Discussion questions
-
-1. What can be done to address different threats to internal validity?
-
-2. How would you evaluate the external validity of your research project?
-
-3. How will you define the appropriate sample for your research project?
-
-### Assignment
-
-1. Prepare a first draft of the literature review that supports your research topic and provides evidence of the significance of the topic. This assignment will be the starting point for the Review of the Literature section of your research proposal. This assignment will be submitted using "Turnitin" through Canvas.
-
-2. Prepare for next week’s session
-
-### Optional reading
+`r read_text("discussion07", fri[7])`
 
 ## Week 8: Measurement and Descriptive Statistics
 
-### Learning objectives
+`r read_text("objectives08")`
 
-1. To describe different manners in which data are measured
+`r read_text("readings08")`
 
-2. To discuss advantages and disadvantages of different measurement scales
+`r read_text("hw08", fri[8])`
 
-3. To describe how data can be summarized
-
-### Required reading
-
-1. Chapter 10
-
-### Discussion questions
-
-1. What kind of measurements will you use to collect data?
-
-2. If you would need to use a survey or questionnaire to do your own research study, what topics would you need to cover? Are there existing measures that could be used?
-
-### Assignment
-
-1. Prepare a brief paragraph that describes the research design you are using for your research proposal. This assignment will be used to describe the study design in the Methods section of your research proposal.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-L.G. Portney & M.P. Watkins. Chapter 4 “Principles of measurement.” Foundations of Clinical Research: Applications to Practice, 3rd ed. Upper Saddle River, New Jersey: Pearson Prentice Hall.
-
-Cummings, S.R. & Hulley, S.B. (2007). Chapter 15 “Designing questionnaires and interviews.” In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
+`r read_text("discussion08", fri[8])`
 
 ## Week 9: Measurement Reliability and Validity
 
-### Learning objectives
+`r read_text("objectives09")`
 
-1. To discuss the importance of measurement reliability
+`r read_text("readings09")`
 
-2. To describe methods of assessing measurement reliability
+`r read_text("hw09", fri[9])`
 
-3. To discuss the importance of measurement validity
-
-4. To describe methods of assessing measurement validity
-
-### Required reading
-
-1. Chapters 11, 12
-
-2. Green et al. “Development and evaluation of the Kansas City Cardiomyopathy Questionnaire: A new health status measure for heart failure”
-
-### Discussion questions
-
-1. What procedures will you put into place in order to ensure reliability and validity?
-
-2. How will reliability and validity be tested with the data that are collected?
-
-### Assignment
-
-1. Generate a list of measures that you plan to include in your research proposal. This should be a general list of measures and not necessarily a detailed list of the specific type of measure to be used. For instance, you might list the outcome measure “health” and not specify the exact measure of health status that you will use. This assignment will be a first draft of the "measures" description included in the Methods section of your research proposal.
-
-2. Prepare for next week’s session
-
-### Optional Resources
-
-Radloff. “The CES-D Scale: A self-report depression scale for research in the general population”
-
-L.G. Portney & M.P. Watkins. Chapter 5 “Reliability of measurements;” Chapter 6 “Validity of measurements.” Foundations of Clinical Research: Applications to Practice, 3rd ed. Upper Saddle River, New Jersey: Pearson Prentice Hall.
+`r read_text("discussion09", fri[9])`
 
 ## Week 10: Types of Data Collection Techniques, Practical Issues in Data Collection and Coding
 
-### Learning objectives
+`r read_text("objectives10")`
 
-1. To discuss different methods of collecting data
+`r read_text("readings10")`
 
-2. To discuss when different data collections methods are most appropriate
+`r read_text("hw10", fri[10])`
 
-3. To describe the advantages and disadvantages of different data collection methods
-
-### Required reading
-
-1. Chapters 13, 15
-
-### Discussion questions
-
-1. Discuss the data collection method that is appropriate for your research proposal.
-
-2. Discuss the procedure you would propose to collect data for your research proposal.
-
-### Assignment
-
-1. Further refine your list of variables by specifying how each will be measured. Wherever possible, include the name of a specific measure that would be appropriate. Be as specific as you can in terms of what variables/measures will be obtained. This assignment should give you a final draft of the "measures" description included in the Methods section of your research proposal. What you submit for this assignment should reflect the feedback you received on the last assignment.
-
-2. Prepare for next week’s session
-
-### Optional reading
+`r read_text("discussion10", fri[10])`
 
 ## Week 11: Spring break
 
 ## Week 12: Data Analysis and Interpretation
 
-### Learning objectives
+`r read_text("objectives12")`
 
-1. To discuss the goal of data analysis and interpretation in research projects
+`r read_text("readings12")`
 
-2. To discuss statistical power and how to determine it
+`r read_text("hw12", fri[12])`
 
-3. To describe what is needed in order to determine sample size for a research project
-
-### Required reading
-
-1. Chapters 16, 17
-
-2. Cohen. “A power primer”
-
-### Discussion questions
-
-1. What is meant by the “null hypothesis” versus a “research hypothesis”; which is being tested by the statistical analysis of the data; and can you “prove” a null hypothesis?
-
-2. Will you include research questions or research hypotheses in your research proposal?
-
-3. Do you have information available that is needed to determine sample size for your planned research project?
-
-4. What outcome variables will be the focus of your research questions/hypotheses?
-
-### Assignment
-
-1. Prepare an "outline" for your written research proposal that is the final project. The outline should include the various sections that should be in the Methods section of the proposal. Given the work done on the previous assignments, this outline should include a substantial amount of detail.
-
-2. Prepare for next week’s session
-
-### Optional reading
+`r read_text("discussion12", fri[12])`
 
 ## Week 13: Data Analysis for Clinical Research
 
-### Learning objectives
+`r read_text("objectives13")`
 
-1. To demonstrate knowledge of data analysis basic concepts
+`r read_text("readings13")`
 
-2. To describe analysis methods appropriate for exploratory, descriptive, explanatory, and quasi-experimental designs
+`r read_text("hw13", fri[13])`
 
-3. To describe analysis methods appropriate for the planned research proposal
-
-### Required reading
-
-1. Chapters 18, 19
-
-2. Chapters 20 – 22, selecting the chapter that is appropriate for your research project
-
-### Discussion questions
-
-1. What are the basic elements of a research design that help determine the appropriate statistical technique?
-
-2. What is the distinction between “significance level” and “effect size” and why are both desirable?
-
-3. What analyses will you propose for your research project?
-
-### Assignment
-
-1. Expand the "outline" for your research proposal to include information on the analyses that are appropriate for your research proposal. In addition to a description of the steps that are planned for preliminary data review (e.g., check distribution of measures, check item reliability of scales), the outline should consist of a description of analyses that are planned to address each research hypothesis/question. This assignment should reflect the feedback you received on the previous assignment.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-None.
+`r read_text("discussion13", fri[13])`
 
 ## Week 14: Writing a Research Proposal, Writing Up the Research Project, Final Project
 
-### Learning objectives
+`r read_text("objectives14")`
 
-1. To demonstrate an understanding of the basic components of a research proposal
+`r read_text("readings14")`
 
-2. To be able to outline the structure of the Methods section of a proposal
+`r read_text("hw14", fri[14])`
 
-3. To describe the expectations for the oral presentation of a research proposal
-
-4. To discuss requirements and expectations of research proposal project
-
-### Required reading
-
-1. Canvas – L.G. Portney & M.P. Watkins. Chapter 32 “Writing a research proposal.” Foundations of Clinical Research: Applications to Practice, 3rd ed. Upper Saddle River, New Jersey: Pearson Prentice Hall.
-
-2. Chapter 26
-
-3. Grading rubrics for the oral presentation and written research proposal.
-
-### Discussion questions
-
-1. What sections of a research proposal will be required in the final project?
-
-2. What is expected for the final presentation?
-
-3. What is expected for the poster material that is required with the final presentation?
-
-### Assignment
-
-1. Prepare poster material and oral presentation
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-Cummings, S.R. & Hulley, S.B. (2007). Chapter 19, “Writing and funding a research proposal.” In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
-
-L.G. Portney & M.P. Watkins. Chapter 33 “Reporting the results of clinical research.” Foundations of Clinical Research: Applications to Practice, 3rd ed. Upper Saddle River, New Jersey: Pearson Prentice Hall.
+`r read_text("discussion14", fri[14])`
 
 ## Week 15: Evaluating Research
 
-Learning objectives
+`r read_text("objectives15")`
 
-1. To describe the process of conducting a systematic review of the literature
+`r read_text("readings15")`
 
-2. To discuss how to critically evaluate a research report
+`r read_text("hw15", fri[15])`
 
-3. To discuss how critical evaluation of research contributes to evidence-based practice
-
-### Required reading
-
-1. Chapters 23, 24, 25
-
-### Discussion questions
-
-1. How are the concepts of internal and external validity used in reviewing research reports?
-
-2. How can you evaluate the theoretical basis for an intervention that has been tested?
-
-3. What level of evidence is sufficient for setting guidelines?
-
-### Assignment
-
-1. Complete preparation of poster material and oral presentation.
-
-2. Prepare for next week’s session
-
-### Optional reading
-
-Ioannidis. “Contradicted and initially stronger effects in highly cited clinical research”
+`r read_text("discussion15", fri[15])`
 
 ## Week 16, Oral Presentations
 
-### Learning objectives
+`r read_text("objectives16")`
 
-1. To demonstrate mastery of clinical research methods by making an oral presentation of a research proposal
+`r read_text("readings16")`
 
-2. To describe the planned research by preparing and presenting graphical poster material
+`r read_text("hw16", fri[16])`
 
-### Required reading
-
-None.
-
-### Discussion questions
-
-1. Are the research questions and/or hypotheses to be addressed by the research proposal clearly stated and defended?
-
-2. Are the research methods to be employed clearly explained and justified?
-
-### Assignment
-
-1. Complete written research proposal and submit it using “Turnitin” through Canvas by midnight on `r tue[16]`.
-
-2. Complete comments on presentation scorecards for other students and submit by midnight on `r thu[16]`.
-
-### Optional reading
-
-None.
+`r read_text("discussion16", fri[16])`

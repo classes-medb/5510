@@ -133,31 +133,53 @@ Next is a recording of how to navigate the Canvas site.
 
 </div>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r echo=FALSE}
+suppressMessages(suppressWarnings(library(lubridate)))
+suppressMessages(suppressWarnings(library(magrittr)))
+dat1 <- as.Date("2019-01-21", format="%Y-%m-%d")
+d <- dat1+(0:15)*7
+f <- "%A, %B %d, %Y"
+mon <- format(d, f)
+tue <- format(d+1, f)
+wed <- format(d+2, f)
+thu <- format(d+3, f)
+fri <- format(d+4, f)
+read_text <- function(fn, due="") {
+  "../data/" %>%
+    paste0(fn) %>% 
+    paste0(".txt") %>%
+    readLines %>% 
+    gsub("<<due date>>", due, .) %>% 
+    paste0(collapse="\n") %>%
+    return
+}
 ```
 
-## R Markdown
+# MEDB 5510, Clinical Research Methodology
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an on-line class taught, starting on `r tue[1]` and ending on `r fri[16]`.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+`r read_text("syllabus-instructor")`
 
-## Slide with Bullets
+`r read_text("syllabus-catalog-information")`
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+`r read_text("syllabus-course-description")`
 
-## Slide with R Output
+`r read_text("syllabus-introduction")`
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+Note: Many thanks go to Dr. Mary Gerkoich, who provided an excellent structure and format to this class that I will be following closely. 
 
-## Slide with Plot
+`r read_text("syllabus-course-objectives")
 
-```{r pressure}
-plot(pressure)
-```
+`r read_text("syllabus-course-framework")
+
+`r read_text("syllabus-class-structure")`
+
+# Course information
+
+`r read_text("syllabus-required-materials")`
+
+`r read_text("syllabus-recommended-materials")`
+
+`r read_text("syllabus-resources")`
 
