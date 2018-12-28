@@ -1,0 +1,19 @@
+## Grading criteria
+
+The student’s grade for the class will be based on the percentage of possible points the student has earned. A letter grade will be assigned based on the following scale:
+
+94 – 100, A  
+90 – < 94, A-  
+86 – < 90, B+  
+83 – < 86, B  
+80 – < 83, B-  
+76 – < 80, C+  
+73 – < 76, C  
+70 – < 73, C-  
+66 – < 70, D+  
+63 – < 66, D  
+60 – < 63, D-  
+< 60, F  
+
+If a student feels that he/she has been unfairly graded, information on the appeal process can be found in the [academic regulations information](https://catalog.umkc.edu/colleges-schools/law/academic-rules-regulations-for-juris-doctor-degree-program/appeal-of-grades/appeal-of-grades.pdf).
+
