@@ -1,4 +1,4 @@
-## Poster structure
+### Poster structure
 
 The information to be incorporated into the poster material generally should include:
 

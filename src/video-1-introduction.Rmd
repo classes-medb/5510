@@ -5,6 +5,10 @@ date: "December 26, 2018"
 output: html_document
 ---
 
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
 ## Title Slide
 
 A little background, intro type of material. This reflects chapter 1 and some other material.
@@ -106,3 +110,4 @@ The next reading assignment will be the first one where you develop your assessm
 ## Activity/discussion
 
 Introductions. Provide a brief description of your background and why you are taking this class. Tell us how you expect to use the information in this class and how this fits into your career plans.
+

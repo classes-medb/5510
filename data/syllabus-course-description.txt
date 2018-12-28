@@ -1,3 +1,6 @@
-Course Description: This course trains the student on the fundamentals of research design, planning, and implementation and provides a broad overview of clinical research in terms of definition, methodology, conduct, and applications. The course will explore basic elements of clinical research including the hierarchy of clinical research design and the conduct of clinical research. This course will be delivered asynchronously through Canvas.
+### Course Description
+
+This course trains the student on the fundamentals of research design, planning, and implementation and provides a broad overview of clinical research in terms of definition, methodology, conduct, and applications. The course will explore basic elements of clinical research including the hierarchy of clinical research design and the conduct of clinical research. This course will be delivered asynchronously through Canvas.
+
 Course topics include: conceiving the research question; study designs; questionnaire construction; research methodology; research ethics; human subjects requirements; the role of statistical analysis in clinical research; research proposal preparation; and research based on analysis of secondary data.
 

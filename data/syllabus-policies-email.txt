@@ -1,6 +1,5 @@
-## E-mail and use of Canvas Requirements
+### E-mail
 
 You will be required to use a UMKC e-mail account for correspondence in this class. The instructor will not be responsible for the receipt of e-mails that are sent to locations other than those ending with “umkc.edu”
 
-You will also be required to be registered with Canvas in order to have access to course-related material that is posted on that site.
-Email Usage: You will be required to use a UMKC e-mail account for correspondence in this class. The instructor will not be responsible for the receipt of e-mails that are sent to locations other than those ending with “umkc.edu”. Any files that are submitted to an instructor via email MUST include the student's name in the filename.
+Any files that are submitted to an instructor via email MUST include the student's name in the filename.

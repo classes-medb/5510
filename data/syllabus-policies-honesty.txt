@@ -1,4 +1,4 @@
-## Academic honesty
+### Academic honesty
 
 The Board of Curators of the University of Missouri recognizes that academic honesty is essential for the intellectual life of the University. Faculty members have a special obligation to expect high standards of academic honesty in all student work. Students have a special obligation to adhere to such standards. Academic dishonesty, including cheating, plagiarism or sabotage, is adjudicated through the University of Missouri Student Conduct Code and Rules of Procedures in Student Conduct Matters.
 
@@ -17,4 +17,3 @@ The term sabotage includes, but is not limited to, the unauthorized interference
 To ensure academic integrity and prevent plagiarism, UMKC has purchased the Internet-based Turn It In. This site allows faculty and students to submit papers online to examine a paper’s originality. The site compares submitted papers with several proprietary algorithm databases to check for plagiarism. The course director reserves the right to have student assignments reviewed on Turnitin.com in this course. Submissions will have all identifying student information (name, student ID number etc.) removed from the submission to ensure that student’s rights are protected.
 
 Academic Inquiry, Course Discussion and Privacy: University of Missouri System Executive Order No. 38 lays out principles regarding the sanctity of classroom discussions at the university. The policy is described fully in Section 200.015 of the Collected Rules and Regulations. In this class, students may make audio or video recordings of course activity unless specifically prohibited by the faculty member. However, the redistribution of any audio or video recordings of statements or comments from the course to individuals who are not students in the course is prohibited without the express permission of the faculty member and of any students who are recorded, including those recordings prepared by an instructor. Students found to have violated this policy are subject to discipline in accordance with provisions of Section 200.020 of the Collected Rules and Regulations of the University of Missouri pertaining to student conduct matters.
-
