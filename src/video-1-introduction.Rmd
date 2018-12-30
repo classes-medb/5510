@@ -1,13 +1,28 @@
 ---
 title: "Video 1 - Introduction to Clinical Research Methods"
 author: "Steve Simon"
-date: "December 26, 2018"
-output: html_document
+output: ioslides_presentation
 ---
 
 ```{r echo=FALSE}
 source("prelims.R", echo=FALSE)
 ```
+
+---
+
+`r read_text("objectives01")`
+
+---
+
+`r read_text("readings01")`
+
+---
+
+`r read_text("hw01")`
+
+---
+
+`r read_text("discussion01")`
 
 ## Title Slide
 
