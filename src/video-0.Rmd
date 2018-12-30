@@ -1,7 +1,6 @@
 ---
-title: "Syllabus for Clinical Research Methods (MEDB 5510)"
+title: "Syllabus overview"
 author: "Steve Simon"
-date: "December 26, 2018"
 output: ioslides_presentation
 ---
 
@@ -14,12 +13,18 @@ source(file="prelims.R", echo=FALSE)
 
 <div class="notes">
 
-Here are some notes.
+Here is a brief overview of my syllabus. Please read this carefully on your own. I am part-time and do a fair amount of work at home, so email is the best way to contact me.
 
 </div>
 
 ***
 `r read_text("syllabus-course-catalog")`
+
+<div class="notes">
+
+This is a three credit hour class.
+
+</div>
 
 ***
 `r read_text("syllabus-course-description")`
