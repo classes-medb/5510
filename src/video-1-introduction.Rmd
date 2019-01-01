@@ -1,7 +1,10 @@
 ---
 title: "Video 1 - Introduction to Clinical Research Methods"
 author: "Steve Simon"
-output: ioslides_presentation
+output: 
+  powerpoint_presentation:
+    reference_doc: template.pptx
+    slide_level: 3
 ---
 
 ```{r echo=FALSE}
@@ -12,13 +15,76 @@ source("prelims.R", echo=FALSE)
 
 `r read_text("objectives01")`
 
+<div class="notes">
+
+Here are the objectives for this week.
+
+</div>
+
 ---
 
 `r read_text("readings01")`
 
+<div class="notes">
+
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
+
+</div>
+
+---
+
+### What is research?
+
+* " systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to generalizable knowledge"
+
+  + [45 CFR 46.102](https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html)
+
+* "Disciplined method" or "disciplined inquiry"
+
+  + "dispassionate search for truth"
+  
+  + not dependent on surface plausibility or the status of the author.
+  
+  + [Gliner, Morgan, Leech. Research Methods in Applied Settings](https://books.google.com/books/about/Research_Methods_in_Applied_Settings.html?id=R23ADAAAQBAJ).
+  
+
+<div class="notes">
+
+Let's define the three words "clinical research methodology." Start with "research." I like the federal government's definition. The key words in this definition are "generalizable knowledge." If you don't hope to extrapolate beyond the range of the data you collect, it isn't research.
+
+Gliner, Morgan, and Leech emphasize research as a disciplined method. The quote from a 1981 source that emphasizes a dispassionate search for truth and independence from preconceived notions.
+
+Both definitions are good, but I like the government definition for its simplicity.
+
+</div>
+ 
+---
+
+### What is clinical? What is methodology?
+
+* Clinical: "concerned with or based on actual observation and treatment of disease in patients rather than experimentation or theory."
+
+  + [Dictionary.com](https://www.dictionary.com/browse/clinical)
+
+* Methodology: "a body of methods, rules, and postulates employed by a discipline : a particular procedure or set of procedures"
+
+  + [Merriam-Webster dictionary](https://www.merriam-webster.com/dictionary/methodology)
+
+<div class="notes">
+
+The classic dictionary definitions for "clinical" and "methodology" work just fine. "Clinical" places the emphasis on patients and methodology is a body of rules.
+
+</div>
+
 ---
 
 `r read_text("hw01")`
+
+<div class="notes">
+
+This is your homework assignment for this week.
+
+</div>
 
 ---
 
@@ -35,6 +101,19 @@ This talk represents material from Chapter 1 of
 What do we mean when we say clinical research. The government has a definition of research: the systematic collection of data that develops or contributes to generalizable knowledge.
 
 It is a structured process.
+
+What is clinical research
+Structured process
+Investigate facts & theories, explore connections
+Examine clinical conditions and outcomes
+How is clinical research used?
+Drug development
+Evaluation of best practices
+Health care quality assessment
+Public policy
+
+
+### New slide
 
 Clinical conditions, outcomes, etc. Things that have an impact on people's health. Evidence Based Practice in healthcare is a result of research. We're not relying just on clinical 
 

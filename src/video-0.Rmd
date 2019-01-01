@@ -1,7 +1,10 @@
 ---
 title: "Syllabus overview"
 author: "Steve Simon"
-output: ioslides_presentation
+output: 
+  powerpoint_presentation:
+    reference_doc: template.pptx
+    slide_level: 3
 ---
 
 ```{r echo=FALSE}
@@ -28,6 +31,9 @@ This is a three credit hour class.
 
 ***
 `r read_text("syllabus-course-description")`
+
+***
+`r read_text("syllabus-course-topics")`
 
 ***
 `r read_text("syllabus-introduction")`

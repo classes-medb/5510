@@ -1,0 +1,104 @@
+---
+title: "What is plagiarism and why is it a problem"
+author: "Steve Simon"
+date: "12/30/2018"
+output: powerpoint_presentation
+---
+
+### Introduction
+
+Plagiarism is a tricky area and it is easy for you to unwittingly prepare a research paper or other document that fails to properly cite and acknowledge outside resources. You can and should rely on outside resources, of course, but you need to do so carefully.
+
+### What is plagiarism?
+
+According to plagiarism.org
+
+* "an act of fraud"
+
+* "both stealing someone else's work and lying about it afterward"
+
+<div class="notes">
+
+There are varying definitions, but a ![website devoted to plagiarism](https://www.plagiarism.org/article/what-is-plagiarism) describes it "an act of fraud". It is a double crime because it is "both stealing someone else's work and lying about it afterward."
+
+</div>
+
+### Plagiarism is quite common
+
+
+
+* Plagiarism accounted for 16% (22/134) of the retraction notices from Biomed Central journals. Source: [Moylan 2016](https://bmjopen.bmj.com/content/6/11/e012047.long).
+
+
+
+<div class="notes">
+
+It is hard to get solid data on plagiarism because people who plagiarize are going to try their best to hide this.
+
+</div>
+
+### What is self-plagiarism?
+
+### How do you avoid plagiarism?
+
+* Acknowledge the source.
+
+  + Strengthens your credibility.
+  
+  + Allows your reader to dig deeper.
+  
+* Use direct quotes or a paraphrase.
+
+<div class="notes">
+
+You should always acknowledge the source of any information you provide. It's in your best interest, because citing an outside source shows that this is more than just your opinion. It also provides guidance about where to turn next for a reader who wants to learn more about your topic.
+
+</div>
+
+### "Common knowledge" exception
+
+You do not need to cite a source when the material is "common knowledge."
+
+* Information that most of your readers already know.
+
+* Context is important.
+
+  + Advanced readers versus lay audience.
+  
+  + Detailed information (dates, numbers).
+
+Source: [Academic integrity at MIT](https://integrity.mit.edu/handbook/citing-your-sources/what-common-knowledge)
+
+<div class="notes">
+
+There's an exception for material that is "common knowledge." This is information that the typical reader would be expected to know. Obviously, this changes for a  specialty journal versus an article for the lay public.
+
+This also changes for a general statement of information versus a reference of specific details. Information that includes dates or numbers is more likely to need a citation.
+
+</div>
+
+### Copyright infringement
+
+"As a general matter, copyright infringement occurs when a copyrighted work is reproduced, distributed, performed, publicly displayed, or made into a derivative work without the permission of the copyright owner." 
+
+  + from the [FAQ at copyright.gov](https://www.copyright.gov/help/faq/faq-definitions.html#infringement).
+
+<div class="notes">
+
+There is some commonality between copyright infringement and plagiarism. Copyright infringement is stealing someone else's work. But if you don't lie about it, it is not plagiarism.
+
+The flip side of the coin is that you can plagiarize works that are not copyrighted or where you are covered under the fair use provisions of the copyright law or where the material is not copyrighted.
+
+</div>
+
+### Distinctions between copyright infringement and plagiarism
+
+
+
+<div class="notes">
+
+The concept of plagiarism is closely related to the concept of copyright infringement, but there are some important distinctions.
+
+Just a quick note. This image and other images used here are from Pixabay, a site that offers public domain (Creative Commons CC0) images.
+
+</div>
