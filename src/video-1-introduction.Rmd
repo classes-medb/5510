@@ -74,6 +74,235 @@ Both definitions are good, but I like the government definition for its simplici
 
 The classic dictionary definitions for "clinical" and "methodology" work just fine. "Clinical" places the emphasis on patients and methodology is a body of rules.
 
+Now some of you may be interested in non-clinical research, such as laboratory studies or computer simulations. These types of research will not be covered explicitly in this course, but there is enough commonality that you can still learn a lot of things that will help you in your research career.
+
+</div>
+
+### Where do research ideas come from?
+
+Ronan Conroy has an excellent summary.
+
+* Exploring your environment.
+
+* Don't focus prematurely on a single idea.
+
+* Extending the ideas of others.
+
+* Getting a research idea by reading papers.
+
+<div class="notes">
+
+There's an excellent summary of how to come up with a research idea that I was asked to host on my website. It was collated from various postings on an email discussion group by Ronan Conroy.
+
+The ideas are all good, but let me emphasize the importance of reading. Almost every research paper includes suggestions for further research in their discussion section. This is free advice from researchers who have proved that they can get their work published.
+
+</div>
+
+### Uses of clinical research
+
+* Theory development.
+
+* Practical application.
+
+* Development of research tools.
+
+* Professional development.
+
+
+<div class="notes">
+
+There are many reasons to conduct research. You can develop knowledge for its own sake or for a practical application. You can also conduct research to improve the research process (this is an area I am very interested in). You can also conduct research for your own professional development. Nothing makes you a better consumer of other people's research than doing a bit of research yourself.
+
+</div>
+
+---
+
+### Research dichotomies
+
+* Dichotomies are always wrong.
+
+  + Trichotomies.
+  
+  + Monochotomies.
+  
+* But they are still useful.
+
+  + Shorthand for others.
+  
+  + Guidance for statistical analysis.
+  
+  + Helpful for critical appraisal.
+  
+* No "best" level in these dichotomies.
+
+* Mixed methods.
+
+<div class="notes">
+
+Your book emphasizes six (actually seven) research dichotomies. All dichotomies are false dichotomies. Some dichotomies are actually three levels (trichotomies) or more and some dichotomies are creating a division that doesn't really exist (monochotomies).
+
+But these are still useful because classifying research into category A versus category B provides a shorthand that helps others understand your research. It also provides guidance as to what sort of statistical analysis is most appropriate and helps with critical appraisal of the research literature.
+
+There is a tendency for some people to embrace one end of the dichotomy and sneer at anyone who adopts the other end. This is a big mistake and something that I have very little patience for. A good researcher uses more than one approach to research. To say, for example, that quantitative research is "hard" science and qualitative research is "soft" science is both inaccurate and fails to recognize that both approaches are needed if we want to make any scientific progress.
+
+There's nothing wrong with using both ends of a dichotomy in a single research study. This goes by the term "mixed methods."
+
+</div>
+
+### 
+
+---
+
+### Schematic diagram of research
+
+![Schematic diagram of research](../images/schematic-diagram-of-research.png)
+
+<div class="notes">
+
+I wanted to share this image with you early because it shows some of the dichotomies in research and how it influences what statistics you should use. I have never liked these sorts of diagrams because there are always so many exceptions to the rules they propose. But a diagram like this is still useful because it gives you a starting point for your work. Just don't let yourself be constrained too much by this diagram. Consider it a recommendation rather than a requirement.
+
+We'll come back to this diagram later in this video.
+
+</div>
+
+---
+
+### Theoretical versus applied
+
+* Theoretical: no benefit to patients now.
+
+* Applied: potential for immediate benefit.
+
+* "Experience by itself teaches nothing... Without theory, experience has no meaning. Without theory, one has no questions to ask. Hence, without theory, there is no learning."
+
+  + W. Edwards Deming, in The New Economics for Industry, Government, Education.
+
+<div class="notes">
+
+The distinction between theoretical and applied research is in when you expect to see something of value to your patients. Theoretical research has no immediate benefit to your patients, and could potentially never offer direct benefits to your patients.
+
+There's a tendency of some applied researchers to sneer at theoretical research. But this is terribly wrong as this quote from W. Edwards Deming explains. Theory is what allows us to make sense of our observations of the world.
+
+Without a theoretical framework to support it, applied research is impossible. The other value of theory is that it allows you to generalize to new settings where observations have never been made before. So I'm a big fan of theory, myself.
+
+</div>
+
+---
+
+### Laboratory versus field.
+
+* Laboratory: controlled setting
+
+  + Unnatural.
+  
+  + Control extraneous variables.
+  
+* Field setting: in the clinic
+
+* Ecologic validity: "the methods, materials and setting of the study must approximate the real-world that is being examined."
+
+  + Source: [Wikipedia](https://en.wikipedia.org/wiki/Ecological_validity).
+
+<div class="notes">
+
+The second dichotomy is laboratory versus field research. Laboratory research is done in a controlled setting and has a greater level of control. The big criticism of laboratory studies is that they are "unnatural" and do not reflect how clinical care is actually provided. In fairness, almost all research has an artificiality associated with it. It's just that the laboratory is even more artificial than field research.
+
+Field settings provide what the authors describe as "ecologic validity." This is a term I'd not heard before but the definition is quite simple. The Wikipedia definition is as good as any.
+
+</div>
+
+---
+
+### Participant report versus researcher observation
+
+* Participant report.
+
+  + Either written or oral.
+  
+  + Only practical approach for pain, quality of life.
+  
+  + Also known as Patient Reported Outcomes (PRO).
+  
+* Researcher observation.
+
+  + Also includes instruments like a heart rate monitor.
+  
+  + Perceived as more objective.
+
+<div class="notes">
+
+Another dichotomy in research involves who is providing the data for the research study. If the patient is providing the data (either through an interview or through their writing), you get something "straight from the horse's mouth." There's always the concern that patients might say things to please the researcher or hide things that they might be embarrassed about. Certain things like pain and quality of life can be measured in no other way. Note that a lot of the resources for patient report appears under the acronym PRO (Patient Reported Outcome). Two good PRO references are a chapter in the NIH Collaboratory Living Textbook of Pragmatic Clinical Trials and a nice 2011 overview article in Perspectives in Clinical Research. See the readings slide for more details.
+
+In contrast to a patient report, the physician or other care giver could provide the data. The data could also come from a machine like a blood pressure cuff or a heart rate monitor. Researcher observation is perceived by many to be more objective, but I disagree.
+
+</div>
+
+---
+
+### Quantitative research versus qualitative research
+
+Quantitative research.
+
+  + Synonym(?): Positivistic.
+  
+  + Highly structured, A priori specifications.
+  
+  + Separates the researcher from the research.
+  
+* Qualitative research.
+
+  + Synoynms(?): Constructivist, humanist.
+  
+  + Covers five sub-areas: phenomological, grounded theory, ethnographic, case study, and narrative research.
+  
+  + Open ended questions. Research guides and is guided by the research process.
+  
+* Postpositivism tries to reconcile quantitative and qualitative approaches.  
+
+<div class="notes">
+
+The next dichotomy is between qualitative research and quantitative research, but represents more of a philosohpical approach to research rather than any particular method of research. 
+
+There are synonyms for these approaches: positivism for quantitative research and constructivism for qualitative research.
+
+The quantitative/positivist approach to research tries to separate the researcher from the research process. You specify all (or as many as possible) details of the research prior to data collection so that the researcher does not influence the objective collection of data.
+
+The qualitative/constructivist approach to research rejects the idea of objective collection of data. Biases in the data collection process are inevitable because they are dependent on the paradigm or common way of thinking that researchers share. Rather than separate the researcher from the data collection once the protocol is writen, a qualitative approach inserts the researcher directly into the data collection and explicitly specifies the paradigm that should be used during the research process. The researcher influences the data collection and is simultaneously influenced by the data collection.
+
+A defining characteristic of the qualitative/constructivist approach is the use of open ended questions that allow the participants to describe things from their own perspective.
+
+There  are attempts to reconcile these two philosophies. Postpositivism recognizes that you can't totally remove the researcher from the data collection process but sees the quantitative philosophy as a way to minimize the unavoidable biases that all researchers have.
+
+I tried to find some good resources on the web that discuss the quantitative and qualitative approaches to research, but I was not happy with any of them. I'd encourage you students to google this and share any resources that you find helpful.
+
+</div>
+
+---
+
+### Qualitative data versus quantitative data
+
+* Quantitative data.
+  
+  + Synonym(?): Objective data.
+  
+  + Easily quantified or classified.
+  
+* Qualitative data.
+
+  + Synoym(?): Subjective data.
+  
+  + Perceptions, feelings, attitudes.
+
+---
+
+### Schematic diagram of research
+
+![Schematic diagram of research](../images/schematic-diagram-of-research.png)
+
+<div class="notes">
+
+Here's that diagram again.
+
 </div>
 
 ---
