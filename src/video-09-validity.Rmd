@@ -1,0 +1,647 @@
+---
+title: "Video 9 - Validity and reliability"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+***
+`r read_text("objectives09")`
+
+***
+`r read_text("readings09")`
+
+***
+### Measurement 
+
++ “Study quality also depends on the *consistency* (measurement reliability) and *accuracy* (measurement validity) of the specific instruments …”
+
+
+
+
+***
+### Measurement Reliability 
+
++ What is measurement reliability?
+	+ “… consistency of a series of measurements. ( Cronbach )
+	+ “… a property of scores and is not immutable across all conceivable uses of a given measure.” (Thompson)
++ Importance – without reliable measures, can’t have confidence in study results.
+
+
+
+
+***
+### Measurement Reliability 
+
++ Example – Want to determine change in some relevant measure after treatment/intervention.
+	+ Baseline measure
+	+ Treatment
+	+ Follow-up measure
++ C hange from baseline to follow-up –
+	+ Due to effect of treatment?
+	+ Due to random variation in the measure?
+
+
+
+
+***
+### Measurement Reliability 
+
++ Observe score
+	+ Lab value
+	+ Test result
+	+ Self-report measure
++ Classical test theory
+	+ Observed score = True score + Error
++ Change in value – due to change in true score or error?
+
+
+
+
+***
+### Measurement Reliability 
+
++ Goal – Use measure that
+	+ B est reflects the true score
+	+ As little “error” as possible
+	+ As “reliable” as possible
++ Measurement reliability –
+	+ Coefficient
+	+ Ratio – True score / Observed score
+
+
+
+
+***
+### Measurement Reliability 
+
++ How much confidence can we have that the measure we obtain reflects the true score?
+	+ Reliability of the measure
+	+ How variable is the measure
++ Standard error of measurement –
+	+ Allows you to “… establish a range of scores (i.e., confidence interval) within which should lie … true score.”
+
+
+
+
+***
+### Measurement Reliability 
+
++ Standard error of measurement –
+	+ SEM = SD * SqRt (1 – r)
+		+ SEM – Standard error of measurement
+		+ SD – standard deviation
+		+ r – correlation coefficient
+			+ r – indication of the relationship between 2 measures
+
+
+
+
+***
+### Measurement Reliability 
+
++ In order to know the range of true scores that are indicated by the observed score –
+	+ Need the SEM to compute a confidence interval around the observed score
+	+ Confidence interval –
+		+ U sually 95% CI (2 standard deviations)
+		+ To have 95% confidence that the range will include the true score
+
+
+
+
+***
+### Measurement Reliability 
+
++ Example – Intelligence test #1
+	+ SD = 15; r = .92
+	+ SEM = 4.24
+	+ Observed score = 110
+	+ 95% CI <U+F0E8> SEM * 1.96 (z score for 2 SD)
+	+ 95% CI <U+F0E8> Observed +/- SEM * 1.96
+	+ 95% CI <U+F0E8> 101.68 – 118.32
+	+ Range of scores that includes the true score given 95% CI
+
+
+
+
+***
+### Measurement Reliability 
+
++ Example – Intelligence test #2
+	+ SD = 15; r = .65 (less reliable measure)
+	+ SEM = 8.87
+	+ Observed score = 110
+	+ 95% CI <U+F0E8> SEM * 1.96 (z score for 2 SD)
+	+ 95% CI <U+F0E8> Observed +/- SEM * 1.96
+	+ 95% CI <U+F0E8> 92.61 – 127.61
+	+ Range of scores that includes the true score given 95% CI
+
+
+
+
+***
+### Measurement Reliability 
+
++ Correlation coefficient
+	+ For measurement reliability, general rules –
+		+ “reliable”	.7 <U+F0E8> 1.0
+	+ More strict criteria
+		+ > = .90	for measures used to make decisions about individuals
+		+ .80		acceptable for research
+		+ .70 - .80	somewhat lower than desirable
+	+ In practice
+		+ Measures used with reliability of .60 and higher
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test-retest
++ Parallel forms
++ Internal consistency
+	+ Split-half
+	+ Kuder -Richardson 20
+	+ Cronbach’s alpha
++ Interrater
+	+ Percentage agreement methods
+	+ Intraclass correlation coefficients
+	+ Interrater
+
+
+
+
+***
+### Measurement Reliability 
+
++ Measurement reliability
+	+ Generally established when a measure is developed
++ For your study
+	+ Check past reliability of measure
+	+ If test-retest, is time period comparable?
+	+ Is sample comparable?
+	+ Report both established reliability AND reliability coefficient found in your study
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test-retest
++ Parallel forms
++ Internal consistency
+	+ Split-half
+	+ Kuder -Richardson 20
+	+ Cronbach’s alpha
++ Interrater
+	+ Percentage agreement methods
+	+ Intraclass correlation coefficients
+	+ Interrater
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test – retest reliability
+	+ Coefficient of stability ( Cronbach )
+	+ Test score will be stable if measured at different time points
+		+ Timing of testing interval is critical
+	+ Test-retest reliability – previously established
+	+ Concern if reliability is < .70
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test-retest
++ Parallel forms
++ Internal consistency
+	+ Split-half
+	+ Kuder -Richardson 20
+	+ Cronbach’s alpha
++ Interrater
+	+ Percentage agreement methods
+	+ Intraclass correlation coefficients
+	+ Interrater
+
+
+
+
+***
+### Measurement Reliability 
+
++ Parallel forms reliability
+	+ Addresses concerns about “testing” or “carryover” effects
+	+ Second or parallel form
+		+ Reordering the items
+		+ New items
+	+ Reliability coefficient of at least .80 is desirable
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test-retest
++ Parallel forms
++ Internal consistency
+	+ Split-half
+	+ Kuder -Richardson 20
+	+ Cronbach’s alpha
++ Interrater
+	+ Percentage agreement methods
+	+ Intraclass correlation coefficients
+	+ Interrater
+
+
+
+
+***
+### Measurement Reliability 
+
++ Internal consistency – Split-Half method
+	+ Correlate 2 halves of the same test/survey
+		+ 1 st half vs 2 nd half
+		+ Odd items vs even items
+		+ Random sample of half the items vs the other half
+	+ Issue – reducing ###of items
+		+ Reduces strength of relationship
+		+ Underestimate reliability
+		+ Adjust using the Spearman-Brown formula
+
+
+
+
+***
+### Measurement Reliability 
+
++ Internal consistency – Kuder -Richardson 20
+	+ Measures inter-item reliability
+	+ Assuming instrument measures a single trait/construct
+	+ Dichotomous item score
+
+
+
+
+***
+### Measurement Reliability 
+
++ Internal consistency – Cronbach’s Alpha
+	+ Measures inter-item reliability
+	+ Assuming instrument measures a single trait/construct
+	+ Interval response scale
+	+ Alpha values .70 and higher - acceptable
+
+
+
+
+***
+### Measurement Reliability 
+
++ Test-retest
++ Parallel forms
++ Internal consistency
+	+ Split-half
+	+ Kuder -Richardson 20
+	+ Cronbach’s alpha
++ Interrater
+	+ Percentage agreement methods
+	+ Intraclass correlation coefficients
+	+ Interrater
+
+
+
+
+***
+### Measurement Reliability 
+
++ Interrater Reliability – Percentage Agreement
+	+ Two or more raters
+	+ Agreement on what will be rated
+	+ Each person rates independently
+	+ Compute ratio of agreement
+	+ Issue –
+		+ Agreement on ###of events
+		+ Agreement on when events occurred?
+
+
+
+
+***
+### Measurement Reliability 
+
++ Interrater Reliability – Intraclass Correlation Coefficients (ICCs)
+	+ Calculate reliability coefficient for more than 2 raters
+	+ Must have interval response scale
+	+ Computation – ANOVA with repeated measures
+		+ How related are the rating by different raters?
+
+
+
+
+***
+### Measurement Reliability 
+
++ Interrater Reliability – Kappa
+	+ Calculate reliability coefficient for 2 or more  raters
+	+ Nominal data
+	+ Compute agreement between 2 raters, taking into account “ marginals ”
+
+
+
+
+***
+### Measurement Reliability 
+
+
+(assets/img/image1.png)
+
+
+
+
+***
+### Measurement Reliability 
+
++ Theories
+	+ Classical test theory
+		+ Observed = True score + random error
+	+ Generalizability theory
+		+ Different components of error
+			+ Random error
+			+ Test-retest error
+			+ Rater error
+			+ Other identifiable sources of error
+	+ Item response theory
+		+ Separate test characteristics from participant characteristics
+
+
+
+
+***
+### Measurement Validity 
+
++ “… establishing evidence for the use of a particular measure or instrument in a particular setting with a particular population for a specific purpose.”
++ Providing evidence for validity
+	+ NOT “test is valid” or “test is invalid”
++ MUST have reliable measure before you can have validity
+	+ May have reliability without validity
+
+
+
+
+***
+### Measurement Validity 
+
++ Evidence of validity reported when measure is developed
+	+ Not routinely reported in research reports when measure is used
++ Types of evidence for validity –
+	+ Content
+	+ Response processes
+	+ Internal structure
+	+ Relations to other variables
+	+ Consequences
+
+
+
+
+***
+### Measurement Validity 
+
++ Content evidence –
+	+ “… whether the content that makes up the instrument is representative of the concept that one is attempting to measure.”
+	+ Include major aspects of the concept
+	+ Does not include irrelevant material
+
+
+
+
+***
+### Measurement Validity 
+
++ Content evidence –
+	+ Definition of the concept
+	+ Literature search to determine how concept has been measured previously
+	+ Generate items to represent concept
+	+ Use experts to reduce items to a final set to represent the concept
+
+
+
+
+***
+### Measurement Validity 
+
++ Response processes evidence –
+	+ “… the extent to which the types of participant responses match the intended construct.”
+		+ NOT socially desirable responses
+		+ NOT “test-taking” skills
+	+ Observe respondents as they complete measure
+	+ Question respondents about reasons for responses
+	+ Also, observation of raters / judges
+
+
+
+
+***
+### Measurement Validity 
+
++ Internal structure evidence –
+	+ “Evidence from several types of analysis, including factor analysis and differential item functioning …”
+	+ Does an analysis of the internal structure of a measure match the conceptual framework?
+
+
+
+
+***
+### Measurement Validity 
+
++ Factor analysis – Beliefs about ART measure
++ The following questions involve your personal views about the HIV medications that have been prescribed for you.  Please indicate the extent to which you agree or disagree with the following statements.
++ Response scale: 1 (strongly disagree), 2 (disagree), 3 (uncertain), 4 (agree), 5 (strongly agree)
+
+```{r tbl34, echo = FALSE, eval=FALSE}
+tbl34 <- tibble::tribble(
+~``,
+"(C) b. Having to take medicines worries me",
+"(N) c. My life would be impossible without my medicines",
+"(N) d. Without my medicines I would be very ill",
+"(C) e. I sometimes worry about long-term effects of my medicines",
+"(C) f. My medicines are a mystery to me",
+"(N) g. My health in the future will depend on my medicines",
+"(C) h. My medicines disrupt my life",
+"(C) i.  I sometimes worry about becoming too dependent on my medicines",
+"(N) j.  My medicines protect me from becoming worse"
+)
+
+kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
+```
+
+***
+### Measurement Validity 
+
++ Relations to other variables evidence –
+	+ Are there relations with other measures that would be predicted from the theoretical framework of the measure?
+	+ Test-criterion
+		+ Predictive-criterion
+		+ Concurrent-criterion
+	+ Convergent
+	+ Discriminant
+	+ Validity generalization
+
+
+
+***
+### Measurement Validity 
+
++ Motivation/Readiness/Confidence to Adhere
+(assets/img/image2.emf)
+
+
+
+
+***
+### Measurement Validity 
+
++ Consequences evidence –
+	+ “… includes both positive and negative anticipated and unanticipated consequences of measurement.”
+	+ How do the use of measures affect respondents?
+
+
+
+
+***
+### Measurement Validity 
+
++ Evaluation of measurement validity
+	+ For content, response process, internal structure, and consequence –
+		+ Subjective, depends on logical judgment by researcher
+	+ Relations with other variables –
+		+ Often correlations
+		+ Judgment; no established cut-offs
+
+
+
+
+***
+### Measurement Validity 
+
++ Evaluation of measurement validity
+	+ Cohen’s guidelines – strength of relationship
+	+ Correlation coefficient – most common
+	+ Applied behavioral sciences
+		+ r >= .5 <U+F0E8> large effect / strong support
+		+ r > .3 <U+F0E8> acceptable level of support
+		+ r > .1 <U+F0E8> weak support (if statistically significant)
+	+ Table 12.2
+
+
+
+
+***
+### Measurement Validity 
+
+
+(assets/img/image3.png)
+
+
+
+
+***
+### Measurement Validity 
+
++ Validity of diagnostic tests
++ Sensitivity
+	+ A test ’ s ability to obtain a positive result when the target condition is really present
+		+ True positive rate
++ Specificity
+	+ A test ’ s ability to obtain a negative result when the target condition is really absent
+		+ True negative rate
+
+
+
+
+***
+### Measurement Validity 
+
+
+
+(assets/img/image4.jpeg)
+
+
+.footnote[Portney & Watkins, 2009]
+
+***
+### Measurement Validity 
+
+
+
++ Sim & Wright . 2000.
+(assets/img/image5.jpeg)
+
+
+.footnote[44]
+
+***
+### Measurement 
+
++ Validity vs Reliability
+	+ The chicken and the egg!
+
+(assets/img/image6.jpeg)
+
+
+[Portney & Watkins, 2009]
+
+***
+### Measurement 
+
++ Validity vs Reliability
+	+ “ … a high degree of validity presupposes a high degree of reliability… ”
+	+ “ … reliability does *not* presuppose. ”
+	+ To establish reliability – only need to know where points are in relation to each other
+	+ To establish validity – need to know where the “ target ” is in order to evaluate how close points are to this “ target ” 
+
+
+
+
+***
+### Measurement 
+
++ Validity vs Reliability (Table 9.1)
+
+(assets/img/image7.jpeg)
+
+
+.footnote[Sim & Wright. 2000.]
+
+***
+### Assignment #7 
+
++ Generate a list of variables that you plan to include in your research proposal. Include in the list both dependent and independent variables. In the list include:
+	+ Variables you will need to describe your sample,
+	+ Variables you will need to control for in your analysis, and
+	+ Variables you will need in order to test your RQ/RH.
+
+
+
+***
+`r read_text("hw09", fri[9])`
+
+***
+`r read_text("discussion09", fri[9])`
+
+***
+
+### Additional slides

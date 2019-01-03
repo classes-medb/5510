@@ -1,0 +1,497 @@
+---
+title: "Video 13 - Data analysis, part 2"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+***
+`r read_text("objectives13")`
+
+***
+`r read_text("readings13")`
+
+***
+### Data Analysis 
+
++ Project design and planning
+	+ Determine research hypotheses / questions
+	+ Study design
+	+ Measures – IV and DV
+	+ Test research hypotheses / questions
+
+2
+
+***
+### Data Analysis 
+
++ Design Classification –
+	+ Between-Groups Designs
+		+ Each person “… is in *one and only one* condition or group.”
+	+ Within-Subjects (Repeated Measures) Designs
+		+ Each person “… *receives or experiences all of the conditions* or levels of the independent variable …”
+	+ Reason to use and not use Within-Subjects design?
+
+3
+
+***
+### Data Analysis 
+
++ Design Classification –
+	+ Mixed Designs –
+		+ At least 1 Between-Groups IV
+		+ At least 1 Within-Subjects IV
+
+4
+
+***
+### Data Analysis 
+
++ Design Considerations –
+	+ Number of IVs
+		+ Between-groups design?
+		+ Within-subjects design?
+		+ Mixed design?
+	+ Type of IVs
+		+ Active vs Attribute?
+		+ Between-groups vs Within-subjects?
+	+ Change over time
+
+5
+
+***
+### Data Analysis 
+
++ Examples –
+	+ One-Group Posttest-Only
+		+ NR	E:		X	O
+	+ Posttest-Only Nonequivalent Groups
+		+ NR	E:		X	O
+		+ NR	C:		~X	O
+	+ Pretest-Posttest Nonequivalent Comparison Group Design
+		+ NR	E:	O1	X	O2
+		+ NR	C:	O1	~X	O2
+
+6
+
+***
+### Data Analysis 
+
++ Examples –
+	+ Posttest-Only Control Group
+		+ R	E:	X	O
+		+ R	C:	X	O
+	+ Pretest-Posttest Control Group
+		+ R	E:	O1	X	O2
+		+ R	C:	O1	~X	O2
+
+7
+
+***
+### Data Analysis 
+
++ Examples –
+	+ Randomized Experimental Design with Matching
+		+ M R		E:	X	O
+		+ M R		C:	~X	O
+	+ Randomized Experimental (Crossover) Design
+		+ R	Order 1	X	O1	~X	O2
+		+ R	Order 2	~X	O1	X	O2
+
+8
+
+***
+### Data Analysis 
+
++ Diagramming Designs / Data Layout
++ Between Groups Designs - example
+	+ Control	Female	O
+	+ Control	Male		O
+	+ Treatment	Female	O
+	+ Treatment	Male		O
+
+9
+
+***
+### Data Analysis 
+
++ Diagramming Designs / Data Layout
++ Between Groups Designs - example
+
+10
+(assets/img/image1.png)
+
+***
+### Data Analysis 
+
++ Diagramming Designs / Data Layout
++ Within-Subjects Designs – example
+	+ Pretest		Posttest	Pretest	Posttest
+	+ Tx		Tx		Control	Control
++ Mixed Designs
+	+ Group 1	Tx		Pretest	Posttest
+	+ Group 2	Control	Pretest	Posttest
+
+
+
+11
+
+***
+### Data Analysis 
+
++ Labeling / Terminology
+	+ Single-Factor Designs
+		+ 1 IV
+		+ Ex – single-factor design with 4 levels
+		+ Ex – single-factor repeated measures design with 4 levels
+
+
+
+12
+
+***
+### Data Analysis 
+
++ Labeling / Terminology
+	+ Between-Groups Factorial Designs
+		+ More than 1 IV
+		+ “factorial” <U+F0E8> 2 or more IVs
+		+ List the ###of levels for each factor
+		+ Ex. 3 IVs <U+F0E8> 2 x 3 x 2
+			+ ###of groups of individuals needed for this design?
+
+
+
+13
+
+***
+### Data Analysis 
+
++ Labeling / Terminology
+	+ Within-Subjects Factorial Designs
+		+ More than 1 IV
+		+ “factorial” <U+F0E8> 2 or more IVs
+		+ List the ###of levels for each factor
+		+ Ex. 2 IVs <U+F0E8> 2 x 3
+			+ … 2 x 3 within-subjects design OR
+			+ … 2 x 3 factorial design with repeated measures on both factors
+			+ ###of groups of individuals needed for this design?
+			+ ###of data points needed from each individual?
+
+
+
+14
+
+***
+### Data Analysis 
+
++ Labeling / Terminology
+	+ Mixed Designs
+		+ Have at least 1 between-groups IV and at least 1 within-subjects IV
+		+ Traditionally, list between-groups IV(s) before within-subjects IV(s)
+		+ Ex. 2 x 3 x 4 factorial design with repeated measures on the 3 rd factor
+			+ ###of groups of individuals needed for this design?
+			+ ###of data points needed from each individual ?
+
+
+
+15
+
+***
+### Data Analysis 
+
++ Labeling / Terminology
+
+
+
+16
+(assets/img/image2.png)
+
+***
+### Data Analysis 
+
+
+
+
+17
+(assets/img/image3.png)
+
+***
+### Statistical Analysis Selection 
+
+
+
+
+18
+(assets/img/image4.png)
+
+***
+### Statistical Analysis Selection 
+
++ What are your research hypotheses / questions?
+	+ Difference?
+		+ Experimental, Quasi-experimental, or Comparative
+		+ Difference inferential statistics
+	+ Association?
+		+ Association (relation) between 2 or more variables
+		+ Associational inferential statistics
+	+ Descriptive?
+
+
+
+19
+
+***
+### Statistical Analysis Selection 
+
++ Selecting statistical analysis method
+	+ Number of IVs
+		+ One IV or >1 IV?
+	+ Levels within the IVs
+		+ IV has few levels (2 – 4) – difference question
+		+ > 4 nominal levels – usually a difference question
+		+ > 4 ordinal levels – associational question
+	+ Measurement scale of the DV
+		+ Level of measurement
+
+
+
+20
+
+***
+### Statistical Analysis Selection 
+
++ Selecting statistical analysis method
+	+ Design classifications –
+		+ Single-factor design
+			+ Between-Groups vs Within-Subjects
+		+ Factorial design (2 or more IVs)
+			+ Between-Groups vs Within-Subjects vs Mixed
+
+
+
+21
+
+***
+### Statistical Analysis Selection 
+
++ Level of measurement
+	+ Normal
+		+ Highest level of measurement
+		+ Parametric statistics assume normal distribution
+	+ Ordinal
+		+ 3 or more ordered levels
+		+ No assumption of normal distribution
+	+ Nominal
+		+ 3 or more unordered levels
+	+ Dichotomous
+		+ Special case
+		+ Nominal, but can be used as if normally distributed
+
+
+
+22
+
+***
+### Statistical Analysis Selection 
+
++ Level of measurement
+	+ Difference inferential statistical analysis
+		+ Level of measure for DV matters
+	+ Associational inferential statistical analysis
+		+ Need to consider level of measurement for all variables
+
+
+
+23
+
+***
+### Statistical Analysis Selection 
+
++ Parametric statistics – assumptions
+	+ DV values come from a population of values that is normally distributed (normality)
+	+ Variances of the groups are equal (homogeneity of variance)
+		+ Unequal group sizes and unequal variances <U+F0E8> increased Type I errors
+	+ All participants with a particular group must be independent of each other (independence)
+		+ Also an assumption for nonparametric statistics
+
+
+
+24
+
+***
+### Statistical Analysis Selection 
+
++ Parametric vs Nonparametric statistics
+
+
+
+Sim & Wright, 2002
+
+25
+(assets/img/image5.jpeg)
+
+***
+### Statistical Analysis Selection 
+
++ Selecting statistical analysis method –
+	+ RH/RQ – difference or association?
+		+ If IV has 2 – 4 levels – recommend difference approach
+		+ If IV has 5 or more ordered levels – recommend associational approach
+		+ If IV has 5 or more nominal (unordered) levels – usually difference approach
+	+ How many IVs?
+
+
+
+
+
+26
+
+***
+### Statistical Analysis Selection 
+
+
+
+
+27
+(assets/img/image6.png)
+
+***
+### Statistical Analysis Selection 
+
++ Fig 19.3 – Basic Difference
+
+
+
+28
+(assets/img/image7.png)
+
+***
+### Statistical Analysis Selection 
+
++ Fig 19.4 – Basic Associational
+
+
+
+29
+(assets/img/image8.png)
+
+***
+### Statistical Analysis Selection 
+
++ Fig 19.5 – Complex Difference
+
+
+
+30
+(assets/img/image9.png)
+
+***
+### Statistical Analysis Selection 
+
++ Fig 19.6 – Complex Associational
+
+
+
+31
+(assets/img/image10.png)
+
+***
+### Data Analysis 
+
++ What do you need to accomplish with your data analysis?
+	+ Quality check of data
+	+ Description of sample
+	+ Test of hypotheses/research questions
+	+ Additional exploratory analyses
+
+***
+### Data Analysis 
+
++ Quality check of data
+	+ Completeness of data collection
+	+ Review for responses that are ambiguous, out of range, etc
+	+ “ Edit ” responses as needed
+	+ Check response frequencies
+		+ Discover need for recoding
+		+ Scale of measurement
+	+ Check subscale coding and scores
+		+ Check inter-item reliability
+
+***
+### Data Analysis 
+
++ Predicting an
+
+outcome measure
+
+Portney & Watkins, 2009
+(assets/img/image11.jpeg)
+
+***
+### Data Analysis 
+
++ Correlations
+
+Portney & Watkins, 2009
+(assets/img/image12.jpeg)
+
+***
+### Data Analysis 
+
++ Handling missing data
+
+Sim & Wright, 2002
+(assets/img/image13.jpeg)
+
+***
+### Data Analysis 
+
++ Description of sample
+	+ Usually the first table in a manuscript
+	+ What is relevant to be included?
+	+ How should it be represented?
+
+***
+### Data Analysis 
+
++ Test of hypotheses/research questions
+	+ Testing relationships
+	+ Comparing groups
+		+ How many groups?
+		+ What kind of outcome measure?
+	+ Predicting an outcome measure
+	+ Nonparametric tests for group comparisons
+	+ Comparison of categorical variables
+
+***
+### Data Analysis 
+
++ Additional, exploratory analyses
+	+ What results to follow-up on and explore?
+	+ How to interpret these?
+
+***
+### Assignment #10 
+
++ Expand the “outline” for your research proposal to include information on the data analysis that will be needed for your proposed study. In addition to a description of the steps that are planned for preliminary data review (e.g., check distribution of measures, check item reliability of scales), the outline should consist of a description of analyses that are planned to address each research hypothesis/question. 
+
+
+.footnote[MEDB 5510 - Week 13]
+
+
+***
+`r read_text("hw13", fri[13])`
+
+***
+`r read_text("discussion13", fri[13])`
+
+***
+
+### Additional slides

@@ -18,6 +18,241 @@ source("prelims.R", echo=FALSE)
 `r read_text("readings08")`
 
 ***
+### Measurement 
+
++ What do we mean “ measurement ” ?
+	+ assignment of numbers or symbols to the different levels or values of variables according to rules. ” 
+
+
+
+
+***
+### Measurement 
+
++ Assigning a number to represent …
+	+ Continuous value
+	+ Discrete value
++ Precision of measurement
+	+ Continuous variable …
+	+ Discrete variable …
+
+
+
+
+***
+### Measurement 
+
++ What is the measurement representing?
+	+ Actual measurement …
+		+ Length, time, …
+	+ Indirect measurement
+		+ Constructs
++ Whatever you are trying to measure ..
+	+ Must be able to define it!
+
+
+
+
+***
+### Measurement 
+
++ Traditional levels (scales) of measurement
+	+ Nominal
+	+ Ordinal
+	+ Interval
+	+ Ratio
+
+
+
+
+***
+### Measurement 
+
++ Authors categorization of levels of measurement
+	+ Nominal
+	+ Dichotomous
+	+ Ordinal
+	+ Normally distributed
++ Table 10.1
+
+
+
+
+***
+### Measurement 
+
+
+(assets/img/image1.png)
+
+
+
+
+***
+### Measurement 
+
+
+(assets/img/image2.png)
+
+
+
+
+***
+### Measurement 
+
++ Why does the scale of measurement matter?
+	+ How it reflects your design and your research question
+	+ How it determines the types of statistical analyses you will do
+	+ How it defines what you can say about your results
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image3.png)
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Descriptive graphs
+	+ How to look at your data
+	+ Options for viewing your data
+		+ Frequency polygons
+		+ Histograms
+		+ Bar charts
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image4.png)
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Measures of central tendency
+	+ Mean
+	+ Median
+	+ Mode
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Measures of variability
+	+ Range
+	+ Standard deviation
+	+ Interquartile range
+	+ How many categories
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Measures of association between 2 variables
+	+ Correlation
+		+ Pearson
+		+ Spearman
+	+ Cross-tabulation
+	+ Scatterplot
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image5.png)
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image5.png)
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image6.emf)
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Properties of the normal curve
+	+ Unimodal
+	+ Mean, median, and mode are equal
+	+ Symmetric curve (skew)
+	+ Range is infinite
+	+ Shape – not too peaked or flat (kurtosis)
+
+
+
+
+***
+### Descriptive Statistics 
+
+
+(assets/img/image3.png)
+
+
+
+
+***
+### Descriptive Statistics 
+
++ Standard normal curve
+	+ Definition
+	+ How to compute
+	+ Effect size
+
+
+
+
+***
+### Measurement & Descriptive Statistics 
+
+
+(assets/img/image7.png)
+
+
+
+
+***
+### Assignment #6 
+
++ Prepare a brief paragraph that describes the research design you are using for your research proposal. This is the information that will probably appear in the Methods section of your proposal.
+
+
+
+
+
+***
 `r read_text("hw08", fri[8])`
 
 ***
