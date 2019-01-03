@@ -1,0 +1,28 @@
+---
+title: "Video 8 - Measurement and descriptive statistics"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+***
+`r read_text("objectives08")`
+
+***
+`r read_text("readings08")`
+
+***
+`r read_text("hw08", fri[8])`
+
+***
+`r read_text("discussion08", fri[8])`
+
+***
+
+### Additional slides

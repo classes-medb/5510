@@ -1,0 +1,165 @@
+---
+title: ' MEDB 5510Clinical Research Methods '
+author: Simon
+date: 2019-01-03
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Research Ethics 
+
++ **Basic sources of research ethics**
+	+ **Professional codes**
+	+ **Government regulations**
+	+ **Institutional policies**
+	+ **Personal convictions and responsibility**
+	+ **Mentors**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[2]
+
+---
+#  Research Ethics 
+
++ **Integrity of the researcher**
+	+ **“The buck stops here”**
++ **Protection of human rights in clinical research**
+	+ **Guiding Principles (Belmont Report)**
+		+ **Autonomy of each individual**
+		+ **Beneficence**
+		+ **Justice**
+	+ **Use of control groups**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[3]
+
+---
+#  Research Ethics 
+
++ **Central issues in research ethics**
+	+ **Informed consent**
+	+ **Privacy and confidentiality**
+	+ **Anonymity**
+	+ **Deception**
+	+ **Risk of harm**
+	+ **Exploitation**
++ **Vulnerable populations**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[4]
+
+---
+#  Research Ethics 
+
+
+Sim & Wright. *Research in Health Care* . 2000.
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+![](assets/img/image1.jpeg)
+
+
+.footnote[5]
+
+---
+#  Research Ethics 
+
++ **Institutional Review Board**
+	+ **Purpose**
+	+ **Composition**
+	+ **Responsibilities**
++ **Elements of Informed Consent**
+	+ **Information elements**
+	+ **Consent elements**
+	+ **Authorization**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[6]
+
+---
+#  Research Ethics 
+
+
+Portney & Watkins, 2009.
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+![](assets/img/image2.jpeg)
+
+
+.footnote[7]
+
+---
+#  Research Ethics 
+
++ **Other research ethics issues**
+	+ **Scientific misconduct**
+	+ **Conflict of interest**
+	+ **Reporting research results**
+		+ **Plagiarism**
+		+ **Duplication**
+		+ **Fragmentation**
+		+ **Authorship**
+	+ **Use of animals in research**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[8]
+
+---
+#  Research Ethics 
+
++ **NIH definition (NIH Catalyst, 2001)**
++ **Scientific/research misconduct is –**
+	+ **Fabrication – inventing data or results**
+	+ **Falsification – manipulating research materials, equipment, or processes, or changing or omitting data or results**
+	+ **Plagiarism – appropriation of ideas, processes, results, or words of another person without giving appropriate credit**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[9]
+
+---
+#  Research Ethics 
+
++ **Training –**
+	+ **CITI training – used by multiple institutions**
++ **IRBs –**
+	+ **UMKC IRB**
+	+ **IRBs at other institutions (CMH, St. Luke’s …)**
++ **Research committees –**
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+
+
+.footnote[10]
+
+---
+#  Assignment #1 
+
++ Complete the UMKC IRB training.
++ Get to this from the UMKC Research Support page
++  http://www.umkc.edu/ors/irb/training.cfm
++  http://www.citiprogram.org/
++ Select “Group 1 – Biomedical Investigator”
++ Send a copy of the Certificate of Completion to Dr. Gerkovich ( gerkovichm@umkc.edu ); this copy will be kept by me so make sure to also print out a copy for your own file.
+
+MEDB 5510 - Week 2 Part 2 - Gerkovich
+[http://www.umkc.edu/ors/irb/training.cfm](http://www.umkc.edu/ors/irb/training.cfm)
+[http://www.citiprogram.org/](mailto:gerkovichm@umkc.edu)
+[gerkovichm@umkc.edu](http://www.citiprogram.org/)
+
+
+.footnote[11]

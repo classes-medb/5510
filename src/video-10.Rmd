@@ -1,0 +1,25 @@
+---
+title: "Video 10"
+author: "Steve Simon"
+output: ioslides_presentation
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+***
+`r read_text("objectives10")`
+
+***
+`r read_text("readings10")`
+
+***
+`r read_text("hw10", fri[10])`
+
+***
+`r read_text("discussion10", fri[10])`
+
+***
+
+### Additional slides

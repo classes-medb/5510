@@ -1,0 +1,100 @@
+---
+title: "Video 3 - Literature review"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+***
+`r read_text("objectives03")`
+
+***
+`r read_text("readings03")`
+
+***
+#  Literature Reviews 
+
++ Additional Resources
+	+ L.G. Portney & M.P. Watkins. Chapter 34, ?Evaluating research reports.? *Foundations of Clinical Research: Applications to Practice, 3rd ed.* Upper Saddle River, New Jersey: Pearson Prentice Hall.
+***
+#  Literature Reviews 
+
++ Step 2 ? Conduct literature review
++ Purposes of literature review
++ What a literature review is ?
++ What a literature review is NOT ?
++ Sources to be used in literature review
+***
+#  Literature Reviews 
+
++ Reviewing the literature
+	+ What is known
+	+ What questions remain
+	+ Evaluating research reports
+		+ Journal quality
+		+ What is the study about?
+		+ Are the results of the study valid?
+		+ Are the results meaningful?
+		+ What does it all mean and how does it contribute to what you want to do?
+***
+#  Evaluating Research Validity 
+
++ Evaluation of the quality of the design and analysis of a study
++ GM&L framework ?
+	+ designed to be used with both experimental and non-experimental research
++ Assess research validity
+	+ Series of continua
++ Emphasis on methods and results
+***
+#  Evaluating Research Validity 
+
++ GM&L framework ?
+	+ 19 questions
+	+ 8 rating scales
++ 19 questions <U+F0E8> 3 main groups
+	+ Key aspects of the design and methods (1 ? 8)
+	+ Evaluative ratings (9 ? 16)
+	+ General evaluation questions (17 ? 19)
++ ?? merit or worth of the study as a whole??
+***
+#  Evaluating Research Validity 
+
+(assets/img/image1.png)
+
+***
+#  Evaluating Research Validity 
+
++ GM&L fram ework document
+***
+#  Evaluating Research Reports 
+
+
+Portney & Watkins, 2009
+assets/img/image2.png)
+***
+#  Evaluating Research Validity 
+
++ Other Options - examples
+	+ MEDB 5511 Literature review form
+	+ MEDB 5511 .xls template
+	+ Proposal literature review file
+***
+#  Assignment 
+
++ Nothing to be turned in next week
++ Work on identifying a research topic you want to work on for the final project .
+***
+`r read_text("hw03", fri[3])`
+
+***
+`r read_text("discussion03", fri[3])`
+
+***
+
+### Additional slides

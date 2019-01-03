@@ -1,0 +1,239 @@
+---
+title: ' MEDB 5510Clinical Research Methods '
+author: Simon
+date: 2019-01-03
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Validity 
+
+
+![](assets/img/image1.png)
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **“The extent to which we can infer that the independent variable** ***caused*** **the dependent variable.”**
+	+ **For non-experimental studies –**
+		+ **How “well designed and conducted” was the study?**
++ **Three criteria for causality**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **“The extent to which we can infer that the independent variable** ***caused*** **the dependent variable.”**
++ **Three criteria for causality**
+	+ **IV** ***must precede*** **the outcome variable**
+	+ **IV** ***must be related*** **to the outcome**
+	+ **There must** **be no other variables that could explain why the IV is related to the** **outcome**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Three criteria for causality –**
+	+ **IV** ***must precede*** **the outcome variable**
+	+ **IV** ***must be related*** **to the outcome**
+	+ **There must** **be no other variables that could explain why the IV is related to the** **outcome**
++ **By Research Approach –**
+	+ **Randomized** **Exp**
+	+ **Quasi-** **Exp**
+	+ **Comparative**
+	+ **Associational**
+	+ **Descriptive**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
+
+
+```{r tbl5, echo = FALSE}
+tbl5 <- tibble::tribble(
+~`Criteria for Causality`, ~`Randomized Exp`, ~`Quasi-Exp`, ~`Comparative`, ~`Associational`, ~`Descriptive`,
+"IV must precede the outcome variable","Met","Often met","Sometimes met, but order might not be clear","Sometimes met, but order might not be clear","NA",
+"IV must be related to the outcome","Met","Usually met","Usually met","Usually met","NA",
+"There must be no other variables that could explain why the IV is related to the outcome","Met","Met in the strongest designs","Not possible","Not possible","NA"
+)
+
+kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
+```
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Meeting the 3 causality criteria based on –**
+	+ **Strength of the research design**
+	+ **Internal validity**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Internal validity -**
+	+ **Most often discussed with reference to randomized experimental and quasi-experimental designs**
+	+ **Can also be applied to non-experimental studies**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Evaluating the internal validity of a study –**
+	+ **Equivalence of the groups on participant characteristics**
+	+ **Control of extraneous experiences and environmental variables**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Equivalence of the groups on participant characteristics –**
+	+ **Are groups equivalent prior to introduction of IV?**
+		+ **Randomized experimental design –**
+			+ **Random assignment**
+		+ **Quasi-experimental design –**
+			+ **Random assignment of treatments**
+			+ **Matching**
+			+ **Checking pretest scores**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Equivalence of the groups on participant characteristics –**
+	+ **Are groups equivalent prior to introduction of IV?**
+		+ **Comparative design –**
+			+ **Statistical adjustment (ANCOVA) to adjust DV scores to make groups more nearly equivalent**
+			+ **Matching participants on variables other than the primary IV**
+				+ **E.g. Case-control study**
+			+ **Check after the study for comparability**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Equivalence of the groups on participant characteristics –**
+	+ **Are groups equivalent prior to introduction of IV?**
+		+ **Associational design –**
+			+ **Only 1 group**
+			+ **Not able to provide evidence of causation**
+			+ **“Equivalence” – “… whether those who score high on the IV … are similar to those … who score low in terms of other attributes that may be related to the DV.”**
+			+ **May be able to provide some statistical control**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Control of extraneous experiences and environmental** **variables** **–**
+	+ **Extraneous variables – variables other than the IV and DV**
+	+ **Environmental variables – conditions/variables that occur during the study**
+	+ **Contamination**
+	+ **Issue – Is one group affected more than the other(s)?**
+	+ **Less of an issue with a more controlled research setting**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Rating the dimensions of internal validity**
+	+ **Figure 8.2**
+	+ **Evaluating Research Validity framework**
+	+ **“Good” study – moderate to high internal validity on both dimensions**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Internal Validity 
+
++ **Rating the dimensions of internal validity**
+![](assets/img/image2.png)
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Threats to Internal Validity 
+
+
+![](assets/img/image3.emf)
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Threats to Internal Validity 
+
++ **Equivalence of Groups**
+	+ **Use of extreme groups**
+	+ **Participant dropouts or attrition during the study**
+	+ **Bias in assignment to groups**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Threats to Internal Validity 
+
++ **Control of extraneous/environmental variables**
+	+ **Changes due to time or growth and development**
+	+ **Extraneous environmental events**
+	+ **Repeated testing, carryover effects**
+	+ **Instrument or observer inconsistency**
+	+ **Combinations of two or more threats**
+	+ **Did the IV actually occur before the DV?**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Threats to Internal Validity 
+
++ **Other threats**
+	+ **Effects of being in the control group**
+	+ **Expectation effect**
+		+ **Control for expectation**
+	+ **Observer / experimenter bias**
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]
+
+---
+#  Validity 
+
+
+![](assets/img/image1.png)
+
+
+.footnote[MEDB 5510 - Week 7 - Part 1]

@@ -1,9 +1,26 @@
 project_name <- getwd()
-src <- paste(project_name, "src", sep="/")
-results <- paste(project_name, "results", sep="/")
-html_list <- list.files(src, pattern="*.html")
+src_path <- paste(project_name, "src", sep="/")
+res_path <- paste(project_name, "results", sep="/")
+doc_path <- paste(project_name, "doc", sep="/")
+html_list <- list.files(src_path, pattern="*.html")
 for (i in html_list) {
-  file.copy(paste(src, i, sep="/"), results, overwrite=TRUE)
-  file.remove(paste(src, i, sep="/"))
+  fn <- paste(src_path, i, sep="/")
+  file.copy(fn, res_path, overwrite=TRUE)
+  file.remove(fn)
 }
-cat("\n\n", length(html_list), " file(s) moved: ", paste(html_list, collapse=", "), sep="")
+cat("\n\n")
+cat(length(html_list))
+cat(" html file(s) moved: ")
+cat(paste(html_list, collapse=", "))
+
+pptx_list <- list.files(src_path, pattern="*.pptx")
+for (i in pptx_list) {
+  fn <- paste(src_path, i, sep="/")
+  file.copy(fn, doc_path, overwrite=TRUE)
+  file.remove(fn)
+}
+cat("\n\n")
+cat(length(pptx_list))
+cat(" pptx file(s) moved: ")
+cat(paste(html_list, collapse=", "))
+

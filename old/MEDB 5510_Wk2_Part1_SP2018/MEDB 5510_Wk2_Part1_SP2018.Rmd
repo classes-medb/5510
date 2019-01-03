@@ -1,0 +1,186 @@
+---
+title: ' MEDB 5510Clinical Research Methods '
+author: Simon
+date: 2019-01-03
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Planning a Research Project 
+
+
+![](assets/img/image1.png)
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Planning a Research Project 
+
++ **Step 1 – Identify a research problem**
++ **What is a research problem?**
++ **Sources of research problems –**
+	+ **Existing research literature**
+	+ **Theory**
+	+ **Personal experience**
+	+ **Clinical observation**
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Planning a Research Project 
+
++ **Characteristics of a good research problem?**
+	+ **Broad vs Narrow**
+	+ **Widespread vs Limited interest**
+	+ **Well-researched vs Unknown territory**
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Planning a Research Project 
+
++ **Considerations in Choosing a Topic**
+	+ **Interest and enthusiasm**
+	+ **Time**
+	+ **Cost**
+	+ **Scope of the problem**
+	+ **Contribution to the profession**
+	+ **Support and expertise**
+	+ **Access issues/human subjects**
+	+ **Degree of control**
+	+ **Design considerations**
+	+ **Values and comfort level of the researcher**
+
+Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+
+
+.footnote[5]
+
+---
+#  Planning a Research Project 
+
++ **What should NOT drive picking a research question**
+	+ **A specific research methodology**
+	+ **A specific funding opportunity**
+	+ **A publication-focused motivation**
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+
+
+.footnote[6]
+
+---
+#  Planning a Research Project 
+
++ **Importance and feasibility of the research question**
+	+ **“So What” test**
+	+ **Is the question answerable?**
+	+ **Is it feasible?**
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+
+
+.footnote[7]
+
+---
+#  Planning a Research Project 
+
++ **Characteristics of a good research project**
++ **FINER**
+	+ **Feasible**
+	+ **Interesting**
+	+ **Novel**
+	+ **Ethical**
+	+ **Relevant**
+
+Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+
+
+.footnote[8]
+
+---
+#  Planning a Research Project 
+
+
+Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+![](assets/img/image2.jpeg)
+
+
+.footnote[9]
+
+---
+#  Planning a Research Project 
+
++ **Step 2 – Conduct literature review**
++ **Purposes of literature review**
++ **What a literature review is NOT …**
++ **What a literature review is …**
++ **Sources to be used in literature review**
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Planning a Research Project 
+
++ **Reviewing the literature**
+	+ **What is known**
+	+ **What questions remain**
+	+ **Evaluating research reports**
+		+ **Journal quality**
+		+ **What is the study about?**
+		+ **Are the results of the study valid?**
+		+ **Are the results meaningful?**
+		+ **What does it all mean and how does it contribute to what you want to do?**
+
+MEDB 5510 - Week 2 Part 1 - Gerkovich
+
+
+.footnote[11]
+
+---
+#  Research Project – Key Concepts 
+
++ **Variables**
+	+ **Independent variables**
+		+ **Active or Manipulated**
+		+ **Attribute or Measured**
+	+ **Dependent variables**
+	+ **Extraneous variables**
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Research Project – Key Concepts 
+
++ **Research Hypotheses vs Research Questions**
+	+ **Difference**
+	+ **Associational**
+	+ **Descriptive**
++ **Analyses associated with each type of RH/RQ**
+
+
+.footnote[MEDB 5510 - Week 2 Part 1 - Gerkovich]
+
+---
+#  Clinical Research Introduction 
+
++ MEDB 5510 - Week 2 Part 1 - Gerkovich
+![](assets/img/image3.emf)
+
+
+.footnote[14]

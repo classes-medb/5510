@@ -1,0 +1,141 @@
+---
+title: ' MEDB 5510Clinical Research Methods '
+author: Simon
+date: 2019-01-03
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+  nature:
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false
+---
+#  Clinical Research Introduction 
+
++ **What is clinical research**
+	+ **Structured process**
+	+ **Investigate facts & theories, explore connections**
+	+ **Examine clinical conditions and outcomes**
++ **How is clinical research used?**
+	+ **Drug development**
+	+ **Evaluation of best practices**
+	+ **Health care quality assessment**
+	+ **Public policy**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[2]
+
+---
+#  Clinical Research Introduction 
+
++ **Dichotomies describing research**
+	+ **Theoretical vs Applied**
+	+ **Laboratory vs Field**
+	+ **Participant Report vs Researcher Observation**
+	+ **Quantitative vs Qualitative**
+		+ **Positivist vs Constructivist (theoretical framework)**
+		+ **Objective vs Subjective (data collection methods)**
+		+ **Statistical vs Descriptive (data analysis)**
++ **Mixed methods**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[3]
+
+---
+#  Clinical Research Introduction 
+
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+![](assets/img/image1.emf)
+
+
+.footnote[4]
+
+---
+#  Clinical Research Introduction 
+
++ **The research process**
+	+ **Identify the research question**
+	+ **Design the study**
+	+ **Conduct the study**
+	+ **Analyze the data**
+	+ **Communicate the results**
+		+ **Importance of dissemination**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[5]
+
+---
+#  Clinical Research Introduction 
+
+
+Portney & Watkins (2009)
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+![](assets/img/image2.jpeg)
+
+
+.footnote[6]
+
+---
+#  Clinical Research Introduction 
+
++ **The role of theory in research**
+	+ **Summarize**
+	+ **Explain**
+	+ **Predict**
+	+ **Development of new knowledge**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[7]
+
+---
+#  Clinical Research Introduction 
+
++ **Characteristics of a theory**
+	+ **Economical**
+	+ **Important**
+	+ **Acceptance can change**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[8]
+
+---
+#  Clinical Research Introduction 
+
++ **The structure of a theory**
+	+ **“Process” of a theory**
+		+ **Inductive – Theory development (specific** **<U+F0E8> general)**
+		+ **Deductive – Theory testing (general <U+F0E8> specific)**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[9]
+
+---
+#  Clinical Research Introduction 
+
+
+Portney & Watkins (2009)
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+![](assets/img/image3.jpeg)
+
+
+.footnote[10]
+
+---
+#  Assignment 
+
++ **Blackboard –**
+	+ **Review syllabus**
+	+ **Complete syllabus quiz**
+	+ **Read Chapter 1**
+	+ **Discussion Forum**
+	+ **Prepare for Week 2**
++ Wk1 - Intro_MEDB 5510 - Gerkovich
+
+
+.footnote[11]
