@@ -21,7 +21,7 @@ source("prelims.R", echo=FALSE)
 ### Planning a Research Project 
 
 
-(assets/img/image1.png)
+![](../images/image-02-01.png)
 
 ***
 ### Planning a Research Project 
@@ -96,7 +96,7 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
-(assets/img/image2.jpeg)
+![](../images/image-02-02.jpg)
 
 ***
 ### Planning a Research Project 
@@ -142,7 +142,7 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 ***
 ### Clinical Research Introduction 
 
-(assets/img/image3.emf)
+![](../images/image-02-03.png)
 
 
 ### Research Ethics 
@@ -184,8 +184,7 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 Sim & Wright. *Research in Health Care* . 2000.
 
-MEDB 5510 - Week 2 Part 2 - Gerkovich
-![](assets/img/image1.jpeg)
+![](../images/image-02-04.png)
 
 
 ***
@@ -206,7 +205,7 @@ MEDB 5510 - Week 2 Part 2 - Gerkovich
 
 Portney & Watkins, 2009.
 
-(assets/img/image2.jpeg)
+![](../images/image-02-05.png)
 ***
 ### Research Ethics 
 
