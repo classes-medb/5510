@@ -144,7 +144,7 @@ source("prelims.R", echo=FALSE)
 
 + Portney & Watkins, 2009
 
-![](../images/image-05-06.jpg)
+![](../images/image-05-06.png)
 
 ***
 ### Quasi-Experimental Designs 
@@ -222,7 +222,7 @@ source("prelims.R", echo=FALSE)
 
 + Sim & Wright. *Research in Health Care* . 2000. Table 4.2
 
-![](../images/image-05-08.jpg)
+![](../images/image-05-08.png)
 
 ***
 ### Research Design 
