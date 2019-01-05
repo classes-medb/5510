@@ -14,26 +14,50 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives02")`
 
+<div class="notes">
+
+Welcome back. Here's what we plan to cover in this video.
+
+</div>
+
 ***
 `r read_text("readings02")`
 
+<div class="notes">
+
+If you haven't done these readings yet, please do so before continuing with this video.
+
+</div>
+
 ***
 ### Planning a Research Project 
-
 
 ![](../images/image-02-01.png)
 
+<div class="notes">
+
+This figure from your book provides a nice overview of the research process. The first two steps, identifying a research problem and conducting a literature review are steps we will discuss today. The remaining steps are topics for later weeks. This table includes the chapters associated with each step.
+
+`r read_text("image-02-01", path="images")`
+
+</div>
+
 ***
 ### Planning a Research Project 
 
-+ Step 1 ? Identify a research problem
++ Step 1 - Identify a research problem
 + What is a research problem?
-+ Sources of research problems ?
++ Sources of research problems
 	+ Existing research literature
 	+ Theory
 	+ Personal experience
 	+ Clinical observation
 
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Planning a Research Project 
@@ -43,6 +67,11 @@ source("prelims.R", echo=FALSE)
 	+ Widespread vs Limited interest
 	+ Well-researched vs Unknown territory
 
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Planning a Research Project 
@@ -61,6 +90,12 @@ source("prelims.R", echo=FALSE)
 
 Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Planning a Research Project 
 
@@ -69,6 +104,12 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 	+ A specific funding opportunity
 	+ A publication-focused motivation
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Planning a Research Project 
 
@@ -76,6 +117,12 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 	+ ?So What? test
 	+ Is the question answerable?
 	+ Is it feasible?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Planning a Research Project 
@@ -90,6 +137,12 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
 Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Planning a Research Project 
 
@@ -97,6 +150,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
 ![](../images/image-02-02.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Planning a Research Project 
@@ -106,6 +165,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 + What a literature review is NOT ?
 + What a literature review is ?
 + Sources to be used in literature review
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Planning a Research Project 
@@ -120,6 +185,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 		+ Are the results meaningful?
 		+ What does it all mean and how does it contribute to what you want to do?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Project ? Key Concepts 
 
@@ -130,6 +201,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 	+ Dependent variables
 	+ Extraneous variables
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Project ? Key Concepts 
 
@@ -139,12 +216,24 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 	+ Descriptive
 + Analyses associated with each type of RH/RQ
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Clinical Research Introduction 
 
 ![](../images/image-02-03.png)
 
+<div class="notes">
 
+
+
+</div>
+
+***
 ### Research Ethics 
 
 + Basic sources of research ethics
@@ -153,6 +242,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 	+ Institutional policies
 	+ Personal convictions and responsibility
 	+ Mentors
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Research Ethics 
@@ -166,6 +261,12 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 		+ Justice
 	+ Use of control groups
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Ethics 
 
@@ -178,14 +279,22 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 	+ Exploitation
 + Vulnerable populations
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Ethics 
 
+![](../images/image-02-04.png)
+
+<div class="notes">
 
 Sim & Wright. *Research in Health Care* . 2000.
 
-![](../images/image-02-04.png)
-
+</div>
 
 ***
 ### Research Ethics 
@@ -199,13 +308,23 @@ Sim & Wright. *Research in Health Care* . 2000.
 	+ Consent elements
 	+ Authorization
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Ethics 
 
+![](../images/image-02-05.png)
+
+<div class="notes">
 
 Portney & Watkins, 2009.
 
-![](../images/image-02-05.png)
+</div>
+
 ***
 ### Research Ethics 
 
@@ -219,6 +338,12 @@ Portney & Watkins, 2009.
 		+ Authorship
 	+ Use of animals in research
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Ethics 
 
@@ -227,6 +352,12 @@ Portney & Watkins, 2009.
 	+ Fabrication ? inventing data or results
 	+ Falsification ? manipulating research materials, equipment, or processes, or changing or omitting data or results
 	+ Plagiarism ? appropriation of ideas, processes, results, or words of another person without giving appropriate credit
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Research Ethics 
@@ -237,6 +368,12 @@ Portney & Watkins, 2009.
 	+ UMKC IRB
 	+ IRBs at other institutions (CMH, St. Luke?s ?)
 + Research committees ?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Assignment #1 
@@ -252,13 +389,26 @@ Portney & Watkins, 2009.
 [http://www.citiprogram.org/](mailto:gerkovichm@umkc.edu)
 [gerkovichm@umkc.edu](http://www.citiprogram.org/)
 
+<div class="notes">
+
+
+
+</div>
 
 ***
 `r read_text("hw02", fri[2])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion02", fri[2])`
 
-***
+<div class="notes">
 
-### Additional slides
+
+
+</div>

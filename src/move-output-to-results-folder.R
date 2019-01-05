@@ -8,10 +8,13 @@ for (i in html_list) {
   file.copy(fn, res_path, overwrite=TRUE)
   file.remove(fn)
 }
-cat("\n\n")
-cat(length(html_list))
-cat(" html file(s) moved: ")
-cat(paste(html_list, collapse=", "))
+
+{
+  cat("\n\n")
+  cat(length(html_list))
+  cat(" html file(s) moved: ")
+  cat(paste(html_list, collapse=", "))
+}
 
 pptx_list <- list.files(src_path, pattern="*.pptx")
 for (i in pptx_list) {
@@ -19,8 +22,10 @@ for (i in pptx_list) {
   file.copy(fn, doc_path, overwrite=TRUE)
   file.remove(fn)
 }
-cat("\n\n")
-cat(length(pptx_list))
-cat(" pptx file(s) moved: ")
-cat(paste(pptx_list, collapse=", "))
 
+{
+  cat("\n\n")
+  cat(length(pptx_list))
+  cat(" pptx file(s) moved: ")
+  cat(paste(pptx_list, collapse=", "))
+}

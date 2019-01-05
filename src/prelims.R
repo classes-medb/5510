@@ -8,8 +8,10 @@ tue <- format(d+1, f)
 wed <- format(d+2, f)
 thu <- format(d+3, f)
 fri <- format(d+4, f)
-read_text <- function(fn, due="") {
-  "../data/" %>%
+read_text <- function(fn, due="", path="data") {
+  "../" %>%
+    paste0(path) %>%
+    paste0("/") %>%
     paste0(fn) %>% 
     paste0(".txt") %>%
     readLines %>% 

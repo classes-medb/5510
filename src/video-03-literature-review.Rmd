@@ -14,14 +14,29 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives03")`
 
+<div class="notes">
+
+
+</div>
+
 ***
 `r read_text("readings03")`
 
+<div class="notes">
+
+
+
+</div>
 ***
 ### Literature Reviews 
 
 + Additional Resources
 	+ L.G. Portney & M.P. Watkins. Chapter 34, ?Evaluating research reports.? *Foundations of Clinical Research: Applications to Practice, 3rd ed.* Upper Saddle River, New Jersey: Pearson Prentice Hall.
+
+<div class="notes">
+
+
+</div>
 
 ***
 ### Literature Reviews 
@@ -31,6 +46,12 @@ source("prelims.R", echo=FALSE)
 + What a literature review is ?
 + What a literature review is NOT ?
 + Sources to be used in literature review
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Literature Reviews 
@@ -45,6 +66,12 @@ source("prelims.R", echo=FALSE)
 		+ Are the results meaningful?
 		+ What does it all mean and how does it contribute to what you want to do?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Evaluating Research Validity 
 
@@ -54,6 +81,12 @@ source("prelims.R", echo=FALSE)
 + Assess research validity
 	+ Series of continua
 + Emphasis on methods and results
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Validity 
@@ -67,15 +100,33 @@ source("prelims.R", echo=FALSE)
 	+ General evaluation questions (17 ? 19)
 + ?? merit or worth of the study as a whole??
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Evaluating Research Validity 
 
 ![](../images/image-03-01.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Evaluating Research Validity 
 
 + GM&L framework document
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Reports 
@@ -83,6 +134,12 @@ source("prelims.R", echo=FALSE)
 
 Portney & Watkins, 2009
 ![](../images/image-03-02.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Validity 
@@ -92,17 +149,41 @@ Portney & Watkins, 2009
 	+ MEDB 5511 .xls template
 	+ Proposal literature review file
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Assignment 
 
 + Nothing to be turned in next week
 + Work on identifying a research topic you want to work on for the final project .
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw03", fri[3])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion03", fri[3])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 
