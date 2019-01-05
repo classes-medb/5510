@@ -19,20 +19,12 @@ source("prelims.R", echo=FALSE)
 
 ### Research Approaches 
 
-
-(assets/img/image1.png)
-
-
-
+![](../images/image-06-01.png)
 
 ***
 ### Nonexperimental Designs 
 
-
-(assets/img/image2.png)
-
-
-
+![](../images/image-06-02.png)
 
 ***
 ### Research Approaches 
@@ -41,9 +33,6 @@ source("prelims.R", echo=FALSE)
 	+ Purpose?
 	+ How is this approach similar to randomized experimental and quasi-experimental?
 	+ C an this approach tell you anything about cause and effect?
-
-
-
 
 ***
 ### Nonexperimental Designs 
@@ -57,9 +46,6 @@ source("prelims.R", echo=FALSE)
 + Usually – research that is reported will contain elements of more than one design
 	+ Example – Haberer et al., 2010 article
 
-
-
-
 ***
 ### Research Approaches 
 
@@ -67,9 +53,6 @@ source("prelims.R", echo=FALSE)
 	+ Purpose?
 	+ Characteristics of the variables measured?
 	+ Can this approach tell you anything about cause and effect?
-
-
-
 
 ***
 ### Nonexperimental Designs 
@@ -82,9 +65,6 @@ source("prelims.R", echo=FALSE)
 		+ Multiple regression when there are multiple Ivs
 	+ Example – Rowan et al. 2014 article
 
-
-
-
 ***
 ### Research Approaches 
 
@@ -93,9 +73,6 @@ source("prelims.R", echo=FALSE)
 	+ When usually used?
 	+ Characteristics of the variables measured?
 	+ Can this approach tell you anything about cause and effect?
-
-
-
 
 ***
 ### Nonexperimental Designs 
@@ -111,9 +88,6 @@ source("prelims.R", echo=FALSE)
 		+ Describe the sample …
 	+ Example – Wolfe et al, 2006 study
 
-
-
-
 ***
 ### Nonexperimental Designs 
 
@@ -124,9 +98,6 @@ source("prelims.R", echo=FALSE)
 	+ Case study
 	+ Narrative
 
-
-
-
 ***
 ### Nonexperimental Designs 
 
@@ -135,9 +106,6 @@ source("prelims.R", echo=FALSE)
 	+ Goal – “… explain the essence of experiences lived by the participants.”
 	+ Method – usually interviews
 
-
-
-
 ***
 ### Nonexperimental Designs 
 
@@ -145,9 +113,6 @@ source("prelims.R", echo=FALSE)
 	+ Goal – “… generate theory from data collected from participants.”
 	+ “… focus on the process, actions, and interactions experienced by … participants.”
 	+ Method – usually interviews
-
-
-
 
 ***
 ### Nonexperimental Designs 
@@ -160,9 +125,6 @@ source("prelims.R", echo=FALSE)
 	+ Research maintains skepticism, seeks disconfirming examples
 	+ Ultimate purpose – construct coherent theory from the data
 
-
-
-
 ***
 ### Nonexperimental Designs 
 
@@ -173,9 +135,6 @@ source("prelims.R", echo=FALSE)
 + Qualitative – Narrative
 	+ Goal – “… identify and report stories from the participants.”
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -183,9 +142,6 @@ source("prelims.R", echo=FALSE)
 	+ Start with the specific (raw data / transcript)
 	+ Develop a theoretical framework from the data
 	+ Conceptual categories emerge from the data
-
-
-
 
 ***
 ### Analysis of Qualitative Data 
@@ -198,9 +154,6 @@ source("prelims.R", echo=FALSE)
 	+ “ Iterative ” process
 		+ e.g. , as you are developing categories, check them back against the raw data – do they continue to reflect the original data?
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -211,9 +164,6 @@ source("prelims.R", echo=FALSE)
 	+ Q ualitative form of analysis
 		+ Content analysis – analysis of the content of communication
 		+ Thematic analysis – identifying patterns or themes in the data
-
-
-
 
 ***
 ### Analysis of Qualitative Data 
@@ -229,9 +179,6 @@ source("prelims.R", echo=FALSE)
 	+ Cross-reference categories back to text
 		+ Makes it easier to revise coding as needed
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -242,9 +189,6 @@ source("prelims.R", echo=FALSE)
 		+ Generality vs Specificity
 		+ Inclusivity vs Exclusivity
 	+ Number of times idea mentioned does NOT necessarily reflect importance
-
-
-
 
 ***
 ### Analysis of Qualitative Data 
@@ -258,9 +202,6 @@ source("prelims.R", echo=FALSE)
 	+ Revision – may end up dividing or combining categories
 	+ May establish criteria for category coding
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -273,9 +214,6 @@ source("prelims.R", echo=FALSE)
 	+ Help if “ stuck ”
 	+ Document analysis process
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -287,9 +225,6 @@ source("prelims.R", echo=FALSE)
 	+ Low-inference descriptors
 	+ Look for “ negative cases ”
 
-
-
-
 ***
 ### Analysis of Qualitative Data 
 
@@ -298,9 +233,6 @@ source("prelims.R", echo=FALSE)
 	+ When quantifying might be of value
 	+ Simple frequency of occurrence does NOT necessarily reflect importance
 
-
-
-
 ***
 ### Eton Article 
 
@@ -308,9 +240,6 @@ source("prelims.R", echo=FALSE)
 + Semi-structured qualitative interviews
 	+ “identify issues … illustrative of burden of treatment …”
 	+ “inform derivation of a general, patient-reported measure of burden of treatment flexible enough for application across any disease or treatment regimen.”
-
-
-
 
 ***
 ### Eton Article 
@@ -324,9 +253,6 @@ source("prelims.R", echo=FALSE)
 	+ Thematic content saturation
 + Resulting major themes and subthemes
 
-
-
-
 ***
 ### Berkley-Patton Article 
 
@@ -334,9 +260,6 @@ source("prelims.R", echo=FALSE)
 	+ Information + Motivation <U+F0E8> Behavioral Skills <U+F0E8> Adherence
 + Focus Groups
 + Content analysis – “… identify themes on expectations and information, personal and social motivation, and behavioral skills related to ART adherence.”
-
-
-
 
 ***
 ### Berkley-Patton Article 
@@ -347,9 +270,6 @@ source("prelims.R", echo=FALSE)
 + Themes for each of these areas?
 + Value obtained from this kind of study?
 
-
-
-
 ***
 ### Nonexperimental - CBPR / PAR 
 
@@ -359,9 +279,6 @@ source("prelims.R", echo=FALSE)
 	+ Designed to meet the needs of the community in which the research is conducted
 	+ Value for the participants that goes beyond the value of the collected information
 
-
-
-
 ***
 ### Nonexperimental - CBPR / PAR 
 
@@ -369,9 +286,6 @@ source("prelims.R", echo=FALSE)
 	+ May not reflect conditions (e.g., disease incidence) in the community of interest
 	+ May not reflect underlying risk factors
 	+ May not indicate how an intervention will work in a specific community
-
-
-
 
 ***
 ### Nonexperimental - CBPR / PAR 
@@ -381,9 +295,6 @@ source("prelims.R", echo=FALSE)
 + Practice-Based Research Networks (PBRNs)
 	+ Physicians from community settings work together to study research questions of mutual interest
 
-
-
-
 ***
 ### Nonexperimental - CBPR / PAR 
 
@@ -392,9 +303,6 @@ source("prelims.R", echo=FALSE)
 	+ To whom is the research important?
 	+ Ripple effect of the research process
 	+ Level of engagement of the target population
-
-
-
 
 ***
 ### Nonexperimental - CBPR / PAR 
@@ -407,18 +315,12 @@ source("prelims.R", echo=FALSE)
 		+ Top-down
 		+ Bottom-up
 
-
-
-
 ***
 ### Nonexperimental - CBPR / PAR 
 
 + CBPR/PAR – especially appropriate for research involving health disparities
 	+ Multiple individual and community-level determinants
 + Mechanism to translate basic health psychology conceptual models into interventions
-
-
-
 
 ***
 ### Nonexperimental - CBPR / PAR 
@@ -431,9 +333,6 @@ source("prelims.R", echo=FALSE)
 		+ Action
 	+ Help community get in touch with resources
 
-
-
-
 ***
 ### Nonexperimental - CBPR / PAR 
 
@@ -443,9 +342,6 @@ source("prelims.R", echo=FALSE)
 	+ Provide “ real world ” feedback/reaction
 	+ Provide guidance for adapting programs/interventions to the community
 + Community involvement <U+F0E8> community capacity <U+F0E8> sustainability
-
-
-
 
 ***
 ### Assignment #4 

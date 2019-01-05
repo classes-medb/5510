@@ -19,11 +19,7 @@ source("prelims.R", echo=FALSE)
 
 ### Validity 
 
-
-(assets/img/image1.png)
-
-
-
+![](../images/image-07-01.png)
 
 ***
 ### Internal Validity 
@@ -33,9 +29,6 @@ source("prelims.R", echo=FALSE)
 		+ How “well designed and conducted” was the study?
 + Three criteria for causality
 
-
-
-
 ***
 ### Internal Validity 
 
@@ -44,9 +37,6 @@ source("prelims.R", echo=FALSE)
 	+ IV *must precede* the outcome variable
 	+ IV *must be related* to the outcome
 	+ There must be no other variables that could explain why the IV is related to the outcome
-
-
-
 
 ***
 ### Internal Validity 
@@ -62,13 +52,8 @@ source("prelims.R", echo=FALSE)
 	+ Associational
 	+ Descriptive
 
-
-
-
 ***
 ### Internal Validity 
-
-
 
 ```{r tbl5, echo = FALSE, eval=FALSE}
 tbl5 <- tibble::tribble(
@@ -81,18 +66,12 @@ tbl5 <- tibble::tribble(
 kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 ```
 
-
-
-
 ***
 ### Internal Validity 
 
 + Meeting the 3 causality criteria based on –
 	+ Strength of the research design
 	+ Internal validity
-
-
-
 
 ***
 ### Internal Validity 
@@ -101,18 +80,12 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Most often discussed with reference to randomized experimental and quasi-experimental designs
 	+ Can also be applied to non-experimental studies
 
-
-
-
 ***
 ### Internal Validity 
 
 + Evaluating the internal validity of a study –
 	+ Equivalence of the groups on participant characteristics
 	+ Control of extraneous experiences and environmental variables
-
-
-
 
 ***
 ### Internal Validity 
@@ -126,9 +99,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 			+ Matching
 			+ Checking pretest scores
 
-
-
-
 ***
 ### Internal Validity 
 
@@ -139,9 +109,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 			+ Matching participants on variables other than the primary IV
 				+ E.g. Case-control study
 			+ Check after the study for comparability
-
-
-
 
 ***
 ### Internal Validity 
@@ -154,9 +121,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 			+ “Equivalence” – “… whether those who score high on the IV … are similar to those … who score low in terms of other attributes that may be related to the DV.”
 			+ May be able to provide some statistical control
 
-
-
-
 ***
 ### Internal Validity 
 
@@ -167,9 +131,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Issue – Is one group affected more than the other(s)?
 	+ Less of an issue with a more controlled research setting
 
-
-
-
 ***
 ### Internal Validity 
 
@@ -178,26 +139,15 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Evaluating Research Validity framework
 	+ “Good” study – moderate to high internal validity on both dimensions
 
-
-
-
 ***
 ### Internal Validity 
 
-+ Rating the dimensions of internal validity
-(assets/img/image2.png)
-
-
-
+![Rating the dimensions of internal validity](../images/image-07-02.png)
 
 ***
 ### Threats to Internal Validity 
 
-
-(assets/img/image3.emf)
-
-
-
+![](../images/image-07-03.png)
 
 ***
 ### Threats to Internal Validity 
@@ -206,9 +156,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Use of extreme groups
 	+ Participant dropouts or attrition during the study
 	+ Bias in assignment to groups
-
-
-
 
 ***
 ### Threats to Internal Validity 
@@ -221,9 +168,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Combinations of two or more threats
 	+ Did the IV actually occur before the DV?
 
-
-
-
 ***
 ### Threats to Internal Validity 
 
@@ -233,32 +177,20 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 		+ Control for expectation
 	+ Observer / experimenter bias
 
-
-
-
 ***
+### Validity 
+
+![](../images/image-07-04.png)
 
 ### Validity 
 
-
-(assets/img/image1.png)
-
-### Validity 
-
-
-(assets/img/image1.png)
-
-
-
+![](../images/image-07-05.png)
 
 ***
 ### Sampling 
 
 + “… process of selecting *part* of a larger group of participants with the intent of generalizing from the sample (the smaller group) to the population (the larger group).”
 	+ “… representativeness of the sample is more important than its size …”
-
-
-
 
 ***
 ### Sampling 
@@ -268,17 +200,10 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Time
 	+ Quality control
 
-
-
-
 ***
 ### Sampling 
 
-
-(assets/img/image2.emf)
-
-
-
+![](../images/image-07-06.png)
 
 ***
 ### Sampling 
@@ -288,8 +213,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Systematic random sampling
 	+ Stratified random sampling
 	+ Cluster (random) sampling
-+ MEDB 5510 - Week 7 - Part 2
-
 
 ***
 ### Sampling 
@@ -299,6 +222,7 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Purposive sampling
 		+ Purposeful sampling
 	+ Convenience sampling
+
 ***
 ### Sampling 
 
@@ -309,7 +233,6 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ Generally –
 		+ Need sample to be large enough so you don’t miss important findings
 		+ If very large sample, need to distinguish statistical significance vs clinically important
-+ MEDB 5510 - Week 7 - Part 2
 
 ***
 ### External Validity 
@@ -328,6 +251,7 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 	+ How participants were selected for the study?
 	+ Is sample representative of the target population?
 	+ Validity framework
+
 ***
 ### External Validity 
 
@@ -339,27 +263,23 @@ kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
 ***
 ### External Validity 
 
-(assets/img/image3.png)
+![](../images/image-07-07.png)
 
 ***
 ### Sampling and Validity 
 
-(assets/img/image4.emf)
+![](../images/image-07-08.png)
 
 ***
 ### Sampling 
 
 + Portney & Watkins (2009)
-(assets/img/image5.jpeg)
+![](../images/image-07-09.png)
 
 ***
 ### Assignment #5 
 
 + Prepare a first draft of the literature review that supports your research topic and provides evidence of the significance of the topic. Submit this assignment using “ Turnitin ” through Blackboard.
-
-
-
-
 
 ***
 `r read_text("hw07", fri[7])`
