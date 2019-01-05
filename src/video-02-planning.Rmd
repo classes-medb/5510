@@ -32,13 +32,13 @@ If you haven't done these readings yet, please do so before continuing with this
 ***
 ### Planning a Research Project 
 
-![](../images/image-02-01.png)
+![](../images/gliner-2017-figure-2-1.png)
 
 <div class="notes">
 
 This figure from your book provides a nice overview of the research process. The first two steps, identifying a research problem and conducting a literature review are steps we will discuss today. The remaining steps are topics for later weeks. This table includes the chapters associated with each step.
 
-`r read_text("image-02-01", path="images")`
+`r read_text("gliner-2017-figure-2-1", path="images")`
 
 </div>
 
