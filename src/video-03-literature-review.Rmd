@@ -18,20 +18,22 @@ source("prelims.R", echo=FALSE)
 `r read_text("readings03")`
 
 ***
-#  Literature Reviews 
+### Literature Reviews 
 
 + Additional Resources
 	+ L.G. Portney & M.P. Watkins. Chapter 34, ?Evaluating research reports.? *Foundations of Clinical Research: Applications to Practice, 3rd ed.* Upper Saddle River, New Jersey: Pearson Prentice Hall.
+
 ***
-#  Literature Reviews 
+### Literature Reviews 
 
 + Step 2 ? Conduct literature review
 + Purposes of literature review
 + What a literature review is ?
 + What a literature review is NOT ?
 + Sources to be used in literature review
+
 ***
-#  Literature Reviews 
+### Literature Reviews 
 
 + Reviewing the literature
 	+ What is known
@@ -42,8 +44,9 @@ source("prelims.R", echo=FALSE)
 		+ Are the results of the study valid?
 		+ Are the results meaningful?
 		+ What does it all mean and how does it contribute to what you want to do?
+
 ***
-#  Evaluating Research Validity 
+### Evaluating Research Validity 
 
 + Evaluation of the quality of the design and analysis of a study
 + GM&L framework ?
@@ -51,8 +54,9 @@ source("prelims.R", echo=FALSE)
 + Assess research validity
 	+ Series of continua
 + Emphasis on methods and results
+
 ***
-#  Evaluating Research Validity 
+### Evaluating Research Validity 
 
 + GM&L framework ?
 	+ 19 questions
@@ -62,33 +66,38 @@ source("prelims.R", echo=FALSE)
 	+ Evaluative ratings (9 ? 16)
 	+ General evaluation questions (17 ? 19)
 + ?? merit or worth of the study as a whole??
-***
-#  Evaluating Research Validity 
-
-(assets/img/image1.png)
 
 ***
-#  Evaluating Research Validity 
+### Evaluating Research Validity 
 
-+ GM&L fram ework document
+![](../images/image-03-01.png)
+
 ***
-#  Evaluating Research Reports 
+### Evaluating Research Validity 
+
++ GM&L framework document
+
+***
+### Evaluating Research Reports 
 
 
 Portney & Watkins, 2009
-assets/img/image2.png)
+![](../images/image-03-02.png)
+
 ***
-#  Evaluating Research Validity 
+### Evaluating Research Validity 
 
 + Other Options - examples
 	+ MEDB 5511 Literature review form
 	+ MEDB 5511 .xls template
 	+ Proposal literature review file
+
 ***
-#  Assignment 
+### Assignment 
 
 + Nothing to be turned in next week
 + Work on identifying a research topic you want to work on for the final project .
+
 ***
 `r read_text("hw03", fri[3])`
 
