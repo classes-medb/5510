@@ -22,5 +22,5 @@ for (i in pptx_list) {
 cat("\n\n")
 cat(length(pptx_list))
 cat(" pptx file(s) moved: ")
-cat(paste(html_list, collapse=", "))
+cat(paste(pptx_list, collapse=", "))
 

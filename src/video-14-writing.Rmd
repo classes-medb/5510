@@ -20,11 +20,13 @@ source("prelims.R", echo=FALSE)
 ***
 ### Research Proposal 
 
+![](../images/image-14-01.png)
+
+<div class="notes">
+
 + Portney & Watkins, 2009
-(assets/img/image1.jpeg)
 
-
-
+</div>
 
 ***
 ### Research Proposal 
@@ -36,11 +38,6 @@ source("prelims.R", echo=FALSE)
 		+ Statement of the problem
 	+ Purpose, Hypotheses, and Specific Aims
 	+ Background
-
-
-
-
-
 
 ***
 ### Research Proposal 
@@ -54,19 +51,16 @@ source("prelims.R", echo=FALSE)
 		+ References
 	+ Informed consent plans
 
-
-
-
-
-
 ***
 ### Research Proposal 
 
+![](../images/image-14-02.png)
+
+<div class="notes">
+
 + Portney & Watkins, 2009
-(assets/img/image2.jpeg)
 
-
-
+</div>
 
 ***
 ### Research Proposal 
@@ -75,9 +69,6 @@ source("prelims.R", echo=FALSE)
 	+ Timeline
 	+ Protocol Schedule
 	+ Measures
-
-
-
 
 ***
 ### Research Proposal 
@@ -89,9 +80,6 @@ source("prelims.R", echo=FALSE)
 + Proposal presentation style
 	+ Format – rules and suggestions
 
-
-
-
 ***
 ### Research Proposal 
 
@@ -101,9 +89,6 @@ source("prelims.R", echo=FALSE)
 	+ Other government agencies
 	+ Foundations
 	+ Internal funding mechanisms
-
-
-
 
 ***
 ### Writing Style 
@@ -117,9 +102,6 @@ source("prelims.R", echo=FALSE)
 	+ Tone
 		+ Positive, persuasive, scholarly
 
-
-
-
 ***
 ### Writing Style 
 
@@ -128,10 +110,10 @@ source("prelims.R", echo=FALSE)
 		+ People first
 		+ Active vs passive voice
 		+ Simplicity of language
-(assets/img/image3.png)
 
+### Writing Style
 
-
+![](../images/image-14-03.png)
 
 ***
 ### Reporting Clinical Research 
@@ -141,17 +123,16 @@ source("prelims.R", echo=FALSE)
 	+ Preparing the submission
 		+ Structure and content (P & W, Table 33.1)
 
-
-
-
 ***
 ### Reporting Clinical Research 
 
-+ MEDB 5510 - Week 14
-(assets/img/image4.jpeg)
+![](../images/image-14-04.png)
 
+<div class="notes">
 
 .footnote[Portney & Watkins, 2009]
+
+</div>
 
 ***
 ### Reporting Clinical Research 
@@ -162,26 +143,15 @@ source("prelims.R", echo=FALSE)
 		+ Tables and graphs
 	+ Publishing thesis and/or dissertation
 
+***
+### Reporting Clinical Research 
 
-
+![](../images/image-14-05.png)
 
 ***
 ### Reporting Clinical Research 
 
-
-(assets/img/image5.png)
-
-
-
-
-***
-### Reporting Clinical Research 
-
-
-(assets/img/image6.png)
-
-
-
+![](../images/image-14-06.png)
 
 ***
 ### Reporting Clinical Research 
@@ -190,17 +160,16 @@ source("prelims.R", echo=FALSE)
 	+ Content and layout
 	+ Materials
 
-
-
-
 ***
 ### Reporting Clinical Research 
 
+![](../images/image-14-07.png)
+
+<div class="notes">
+
 + Portney & Watkins, 2009
-(assets/img/image7.jpeg)
 
-
-
+</div>
 
 ***
 ### Reporting Clinical Research 
@@ -215,17 +184,16 @@ source("prelims.R", echo=FALSE)
 		+ Backgrounds and colors
 	+ Rehearsal
 
-
-
-
 ***
 ### Reporting Clinical Research 
 
+![](../images/image-14-08.png)
+
+<div class="notes">
+
 + Portney & Watkins, 2009
-(assets/img/image8.jpeg)
 
-
-
+</div>
 
 ***
 ### Final Projects 
@@ -239,9 +207,6 @@ source("prelims.R", echo=FALSE)
 	+ Paper – Finals week
 		+ Section 0002 – Tuesday , May 10, 2018
 
-
-
-
 ***
 ### Final Projects 
 
@@ -252,9 +217,6 @@ source("prelims.R", echo=FALSE)
 	+ Structure: Objectives, Background, Methods, Planned analyses, Implications
 	+ Prepare “slides” for visual support
 
-
-
-
 ***
 ### Final Projects 
 
@@ -262,9 +224,6 @@ source("prelims.R", echo=FALSE)
 	+ Overlap between poster material and presentation visual material
 	+ Submit poster material as a PowerPoint file (.ppt or .pptx)
 	+ Due on the day of presentations
-
-
-
 
 ***
 ### Final Projects 
@@ -278,9 +237,6 @@ source("prelims.R", echo=FALSE)
 		+ Proposed implications of the study
 		+ References
 
-
-
-
 ***
 ### Final Projects 
 
@@ -293,9 +249,6 @@ source("prelims.R", echo=FALSE)
 		+ Publication - May be the only part of the article read by most
 		+ Proposal – needs to present a summary of the proposed study
 
-
-
-
 ***
 ### Final Projects 
 
@@ -305,9 +258,6 @@ source("prelims.R", echo=FALSE)
 		+ How your proposed project will address the “critical need”
 		+ Aims / goals / objectives of proposed study
 		+ Expectations / Impact of findings
-
-
-
 
 ***
 ### Final Projects 
@@ -323,9 +273,6 @@ source("prelims.R", echo=FALSE)
 			+ How your proposed study will address those gaps
 			+ Describe your research hypotheses / questions
 
-
-
-
 ***
 ### Final Projects 
 
@@ -335,9 +282,6 @@ source("prelims.R", echo=FALSE)
 			+ Annotated bibliography
 		+ Must represent your own words and thoughts –
 			+ Reminder of what constitutes plagiarism
-
-
-
 
 ***
 ### Final Projects 
@@ -353,9 +297,6 @@ source("prelims.R", echo=FALSE)
 			+ Inclusion and exclusion criteria
 			+ Power analysis information could be included here
 
-
-
-
 ***
 ### Final Projects 
 
@@ -370,9 +311,6 @@ source("prelims.R", echo=FALSE)
 				+ Outcome measures
 				+ Independent variables
 				+ Other measures
-
-
-
 
 ***
 ### Final Projects 
@@ -391,9 +329,6 @@ source("prelims.R", echo=FALSE)
 			+ Description of groups / interventions
 			+ Compensation / payment if appropriate
 
-
-
-
 ***
 ### Final Projects 
 
@@ -408,9 +343,6 @@ source("prelims.R", echo=FALSE)
 		+ What will be the impact of your study?
 		+ What could be the next step after this study?
 
-
-
-
 ***
 ### Assignment 
 
@@ -418,8 +350,6 @@ source("prelims.R", echo=FALSE)
 	+ Oral presentation
 	+ Poster material
 	+ Written proposal
-
-
 
 ***
 `r read_text("hw14", fri[14])`

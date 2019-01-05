@@ -26,20 +26,17 @@ source("prelims.R", echo=FALSE)
 	+ Are the results of the study valid?
 	+ Are the results meaningful?
 	+ What does it all mean and how does it contribute to what you want to do?
-+ MEDB 5510 - Week 15
-
-
-.footnote[2]
 
 ***
 ### Evaluating Research Reports 
 
-+ MEDB 5510 - Week 15
+![](../images/image-15-01.png)
+
+<div class="notes">
+
 + Portney & Watkins, 2009
-(assets/img/image1.png)
 
-
-.footnote[3]
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -52,10 +49,6 @@ source("prelims.R", echo=FALSE)
 	+ What does “ meta analysis ” refer to?
 	+ How does it relate to “ systematic review ” ?
 	+ P&W, Fig 16.1
-+ MEDB 5510 - Week 15
-
-
-.footnote[4]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -66,10 +59,6 @@ source("prelims.R", echo=FALSE)
 		+ If review of intervention, specify: treatment, outcome measures, and population characteristics
 		+ If review of prognosis, specify: prognostic factors and outcomes of interest
 		+ Can also be done for qualitative studies/outcomes
-+ MEDB 5510 - Week 15
-
-
-.footnote[5]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -83,10 +72,6 @@ source("prelims.R", echo=FALSE)
 			+ What is the level of published evidence?
 				+ Cochrane Collaboration – RCT
 				+ AHRQ – nonrandomized studies
-+ MEDB 5510 - Week 15
-
-
-.footnote[6]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -101,10 +86,6 @@ source("prelims.R", echo=FALSE)
 			+ Wider confidence intervals
 			+ Inconsistent findings
 		+ Overall grade
-+ MEDB 5510 - Week 15
-
-
-.footnote[7]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -114,10 +95,6 @@ source("prelims.R", echo=FALSE)
 	+ Internal Validity vs External Validity
 	+ Multiple Studies vs Single Study
 	+ Large Sample Size vs Small Sample Size
-+ MEDB 5510 - Week 15
-
-
-.footnote[8]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -130,10 +107,6 @@ source("prelims.R", echo=FALSE)
 		+ Practical importance
 	+ Special populations
 	+ Special applications – education / community
-+ MEDB 5510 - Week 15
-
-
-.footnote[9]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -144,10 +117,6 @@ source("prelims.R", echo=FALSE)
 	+ Define “ intervention ” in a way that allows a reasonable selection of studies to include
 + Types of outcome measures
 	+ Usually have a specific outcome measure all studies have in common; other outcomes may vary
-+ MEDB 5510 - Week 15
-
-
-.footnote[10]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -159,10 +128,6 @@ source("prelims.R", echo=FALSE)
 	+ Limitations? (e.g., language)
 	+ Report specifics of search process
 	+ Build on previous reviews
-+ MEDB 5510 - Week 15
-
-
-.footnote[11]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -174,10 +139,6 @@ source("prelims.R", echo=FALSE)
 		+ Exclude all irrelevant
 			+ Document what was excluded and why
 	+ Publication bias – value in looking for unpublished sources
-+ MEDB 5510 - Week 15
-
-
-.footnote[12]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -187,10 +148,6 @@ source("prelims.R", echo=FALSE)
 		+ Assess content;
 		+ Rate quality and applicability
 	+ Data extraction form (Fig 16.2)
-+ MEDB 5510 - Week 15
-
-
-.footnote[13]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -204,10 +161,6 @@ source("prelims.R", echo=FALSE)
 		+ Attrition bias – differential loss of participants between groups
 			+ Intention to treat analysis
 		+ Detection bias – outcome assessment differs across groups
-+ MEDB 5510 - Week 15
-
-
-.footnote[14]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -218,10 +171,6 @@ source("prelims.R", echo=FALSE)
 		+ Jadad Scale (Table 16.2) –randomization, blinding, and attrition
 		+ PEDro Scale (Table 16.3) – randomization, blinding, attrition, design, and statistics
 		+ QUADAS Scale (Table 16.4) – used for studies of diagnostic test accuracy
-+ MEDB 5510 - Week 15
-
-
-.footnote[15]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -233,10 +182,6 @@ source("prelims.R", echo=FALSE)
 		+ Degree of heterogeneity/homogeneity?
 		+ How consistent are findings? (ex. Table 16.6)
 			+ What can affect findings? Sample size, choice of measures, sample characteristics
-+ MEDB 5510 - Week 15
-
-
-.footnote[16]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -261,10 +206,6 @@ source("prelims.R", echo=FALSE)
 			+ Clinical trials
 			+ Evaluation of diagnostic tests
 			+ Epidemiologic studies
-+ MEDB 5510 - Week 15
-
-
-.footnote[18]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -277,10 +218,6 @@ source("prelims.R", echo=FALSE)
 		+ Improve estimates of effect size
 		+ Resolve uncertainty when conflicting results occur
 		+ Improve generalizability of findings
-+ MEDB 5510 - Week 15
-
-
-.footnote[19]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -293,10 +230,6 @@ source("prelims.R", echo=FALSE)
 			+ Study samples drawn from truly different populations
 		+ Heterogeneity statistic – most often chi-square
 			+ Nonsignificant – there is a common treatment effect across the studies; observed differences represent chance differences
-+ MEDB 5510 - Week 15
-
-
-.footnote[20]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -306,10 +239,6 @@ source("prelims.R", echo=FALSE)
 		+ Continuous measure – means or correlations
 		+ Dichotomous measure – relative risk or odds ratios
 	+ Combine estimates from individual studies to reflect overall effect size of the independent variable (e.g., intervention)
-+ MEDB 5510 - Week 15
-
-
-.footnote[21]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -321,10 +250,6 @@ source("prelims.R", echo=FALSE)
 			+ Means (quantitative variables)
 			+ Proportions / frequencies (categorical data)
 			+ Correlation values (measures of association)
-+ MEDB 5510 - Week 15
-
-
-.footnote[22]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -333,10 +258,6 @@ source("prelims.R", echo=FALSE)
 	+ Weighting effect size
 		+ Combine effect size for each study to form common effect size estimate
 		+ Calculation adjustments – used to weight the contributions of each study
-+ MEDB 5510 - Week 15
-
-
-.footnote[23]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -349,10 +270,6 @@ source("prelims.R", echo=FALSE)
 			+ Meta-analysis key assumptions – reanalyze using different statistical approaches
 			+ If findings remain consistent – strengthens conclusions
 			+ If findings change – interpret with caution
-+ MEDB 5510 - Week 15
-
-
-.footnote[24]
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -364,10 +281,6 @@ source("prelims.R", echo=FALSE)
 		+ Are the results of the study valid?
 		+ What are the results?
 		+ Will the results help me in caring for my patients?
-+ MEDB 5510 - Week 15
-
-
-.footnote[25]
 
 ***
 ### Literature Reviews 
@@ -381,10 +294,6 @@ source("prelims.R", echo=FALSE)
 		+ Are the results of the study valid?
 		+ Are the results meaningful?
 		+ What does it all mean and how does it contribute to what you want to do?
-+ MEDB 5510 - Week 15
-
-
-.footnote[26]
 
 ***
 ### Evaluating Research Validity 
@@ -395,10 +304,6 @@ source("prelims.R", echo=FALSE)
 + Assess research validity
 	+ Series of continua
 + Emphasis on methods and results
-+ MEDB 5510 - Week 15
-
-
-.footnote[27]
 
 ***
 ### Evaluating Research Validity 
@@ -411,10 +316,6 @@ source("prelims.R", echo=FALSE)
 	+ Evaluative ratings (9 – 16)
 	+ General evaluation questions (17 – 19)
 + “… merit or worth of the study as a whole…”
-+ MEDB 5510 - Week 15
-
-
-.footnote[28]
 
 ***
 ### Evaluating Research Validity 
@@ -424,10 +325,6 @@ source("prelims.R", echo=FALSE)
 		+ Variables and measurement levels
 		+ RH/RQ, Approach, & Design
 		+ Measurement reliability & validity
-+ MEDB 5510 - Week 15
-
-
-.footnote[29]
 
 ***
 ### Evaluating Research Validity 
@@ -442,10 +339,6 @@ source("prelims.R", echo=FALSE)
 		+ Peer review
 		+ Theoretical importance / practical relevance
 		+ Interpretation
-+ MEDB 5510 - Week 15
-
-
-.footnote[30]
 
 ***
 ### Ioannidis Article 
@@ -458,10 +351,6 @@ source("prelims.R", echo=FALSE)
 	+ Contradicted
 	+ Initially stronger effects
 	+ Replicated effects
-+ MEDB 5510 - Week 15
-
-
-.footnote[31]
 
 ***
 ### Ioannidis Article 
@@ -473,10 +362,6 @@ source("prelims.R", echo=FALSE)
 		+ 39 – RCT
 		+ 4 – Prospective cohorts
 		+ 2 – Case series
-+ MEDB 5510 - Week 15
-
-
-.footnote[32]
 
 ***
 ### Ioannidis Article 
@@ -487,10 +372,6 @@ source("prelims.R", echo=FALSE)
 		+ 11/45 (24%) – unchallenged
 		+ 7/45 (16%) – contradicted
 		+ 7/45 (16%) – initially stronger effects
-+ MEDB 5510 - Week 15
-
-
-.footnote[33]
 
 ***
 ### Ioannidis Article 
@@ -504,10 +385,6 @@ source("prelims.R", echo=FALSE)
 			+ Sample size – p = .009 (smaller)
 			+ Publication date – p = .06 (older)
 			+ Citations per year – p = .07 (fewer citations per year)
-+ MEDB 5510 - Week 15
-
-
-.footnote[34]
 
 ***
 ### Assignment 
@@ -517,8 +394,6 @@ source("prelims.R", echo=FALSE)
 	+ Section 0002 – Thursday, May 3, 2018
 + Final written proposal – Finals week
 	+ Section 0002 - Tuesday, May 8, 2018
-
-
 
 ***
 `r read_text("hw15", fri[15])`

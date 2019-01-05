@@ -1,7 +1,10 @@
 ---
 title: "Video 16"
 author: "Steve Simon"
-output: ioslides_presentation
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
 ---
 
 ```{r echo=FALSE}
