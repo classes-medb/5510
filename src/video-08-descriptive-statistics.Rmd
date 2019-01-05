@@ -81,20 +81,12 @@ source("prelims.R", echo=FALSE)
 ***
 ### Measurement 
 
-
-(assets/img/image1.png)
-
-
-
+![](../images/image-08-01.png)
 
 ***
 ### Measurement 
 
-
-(assets/img/image2.png)
-
-
-
+![](../images/image-08-02.png)
 
 ***
 ### Measurement 
@@ -110,11 +102,7 @@ source("prelims.R", echo=FALSE)
 ***
 ### Descriptive Statistics 
 
-
-(assets/img/image3.png)
-
-
-
+![](../images/image-08-03.png)
 
 ***
 ### Descriptive Statistics 
@@ -126,17 +114,10 @@ source("prelims.R", echo=FALSE)
 		+ Histograms
 		+ Bar charts
 
-
-
-
 ***
 ### Descriptive Statistics 
 
-
-(assets/img/image4.png)
-
-
-
+![](../images/image-08-04.png)
 
 ***
 ### Descriptive Statistics 
@@ -146,9 +127,6 @@ source("prelims.R", echo=FALSE)
 	+ Median
 	+ Mode
 
-
-
-
 ***
 ### Descriptive Statistics 
 
@@ -157,9 +135,6 @@ source("prelims.R", echo=FALSE)
 	+ Standard deviation
 	+ Interquartile range
 	+ How many categories
-
-
-
 
 ***
 ### Descriptive Statistics 
@@ -171,35 +146,20 @@ source("prelims.R", echo=FALSE)
 	+ Cross-tabulation
 	+ Scatterplot
 
+***
+### Descriptive Statistics 
 
-
+![](../images/image-08-05.png)
 
 ***
 ### Descriptive Statistics 
 
-
-(assets/img/image5.png)
-
-
-
+![](../images/image-08-06.png)
 
 ***
 ### Descriptive Statistics 
 
-
-(assets/img/image5.png)
-
-
-
-
-***
-### Descriptive Statistics 
-
-
-(assets/img/image6.emf)
-
-
-
+![](../images/image-08-07.png)
 
 ***
 ### Descriptive Statistics 
@@ -211,17 +171,10 @@ source("prelims.R", echo=FALSE)
 	+ Range is infinite
 	+ Shape – not too peaked or flat (kurtosis)
 
-
-
-
 ***
 ### Descriptive Statistics 
 
-
-(assets/img/image3.png)
-
-
-
+![](../images/image-08-08.png)
 
 ***
 ### Descriptive Statistics 
@@ -231,26 +184,15 @@ source("prelims.R", echo=FALSE)
 	+ How to compute
 	+ Effect size
 
-
-
-
 ***
 ### Measurement & Descriptive Statistics 
 
-
-(assets/img/image7.png)
-
-
-
+![](../images/image-08-09.png)
 
 ***
 ### Assignment #6 
 
 + Prepare a brief paragraph that describes the research design you are using for your research proposal. This is the information that will probably appear in the Methods section of your proposal.
-
-
-
-
 
 ***
 `r read_text("hw08", fri[8])`

@@ -31,10 +31,6 @@ source("prelims.R", echo=FALSE)
 		+ Directional
 		+ Non-directional
 
-
-
-.footnote[2]
-
 ***
 ### Making Inferences - NHST 
 
@@ -48,10 +44,6 @@ source("prelims.R", echo=FALSE)
 		+ Directional positive
 		+ Directional negative
 
-
-
-.footnote[3]
-
 ***
 ### Making Inferences - NHST 
 
@@ -64,10 +56,6 @@ source("prelims.R", echo=FALSE)
 		+ Statistical analysis
 		+ Interpretation
 
-
-
-.footnote[4]
-
 ***
 ### Making Inferences - NHST 
 
@@ -77,20 +65,16 @@ source("prelims.R", echo=FALSE)
 	+ Sample
 + Inference from the study sample to the population
 
-
-
-.footnote[5]
-
 ***
 ### Making Inferences - NHST 
 
+![](../images/image-12-01.png)
+
+<div class="notes">
+
 + Example
 
-
-(assets/img/image1.emf)
-
-
-.footnote[6]
+</div>
 
 ***
 ### Making Inferences - NHST 
@@ -102,10 +86,6 @@ source("prelims.R", echo=FALSE)
 	+ Intervention group: mean = 73
 	+ Control group: mean = 65
 
-
-
-.footnote[7]
-
 ***
 ### Making Inferences - NHST 
 
@@ -116,10 +96,6 @@ source("prelims.R", echo=FALSE)
 + Fail to reject the null <U+F0E8>
 	+ We can not say that the observed difference is highly unlikely
 	+ Do NOT “accept” the null hypothesis
-
-
-
-.footnote[8]
 
 ***
 ### Making Inferences - NHST 
@@ -144,20 +120,20 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 ***
 ### Making Inferences - NHST 
 
+![](../images/image-12-02.png)
+
+<div class="notes">
+
 + Statistical testing – possible outcomes
-(assets/img/image2.emf)
 
-
-.footnote[MEDB 5510 - Week 12]
+</div>
 
 ***
 ### Making Inferences - NHST 
 
+![](../images/image-12-03.png)
+
 + Statistical testing – possible outcomes
-(assets/img/image2.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences - NHST 
@@ -167,18 +143,17 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 		+ Example – hypothesize that intervention will result in reduction of symptoms
 	+ If you made a directional positive alternative hypothesis …. ?
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences - NHST 
 
+![](../images/image-12-04.png)
+
+<div class="notes">
+
 + Statistical testing
 	+ Fig 16.4 – Non-directional
-(assets/img/image3.emf)
 
-
-.footnote[MEDB 5510 - Week 12]
+</div>
 
 ***
 ### Power Analysis 
@@ -188,9 +163,6 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 	+ Want to maximize this (within reasonable limits!)
 	+ What is power analysis
 	+ “… the probability that his investigation would lead to statistically significant results.”
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Power Analysis 
@@ -215,11 +187,10 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 ***
 ### Power Analysis 
 
+![](../images/image-12-05.png)
+
+
 + Power of a study – probability of rejecting a false null hypothesis
-(assets/img/image2.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Power Analysis 
@@ -231,9 +202,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Effect size
 + Power analysis method depends on research design
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Power Analysis 
 
@@ -243,24 +211,16 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ What significance level to you want to use for hypothesis testing?
 	+ What level of power do you want to achieve?
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Power Analysis 
 
+![](../images/image-12-06.png)
+
+<div class="notes">
+
 + Determining power (Fig 16.1)
 
-
-.footnote[MEDB 5510 - Week 12]
-
-***
-
-
-(assets/img/image4.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
+</div>
 
 ***
 ### Power Analysis 
@@ -273,26 +233,15 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 		+ Outcome measure(s)
 	+ Increase sample size
 
+***
+### Power Analysis 
 
-.footnote[MEDB 5510 - Week 12]
+![](../images/image-12-07.png)
 
 ***
 ### Power Analysis 
 
-
-(assets/img/image5.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
-
-***
-### Power Analysis 
-
-
-(assets/img/image6.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
+![](../images/image-12-08.png)
 
 ***
 ### Problems with NHST 
@@ -306,9 +255,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Interpretation of changes in the p value
 	+ Statistical significant versus clinical/ substative meaningfulness
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Improving NHST 
 
@@ -316,9 +262,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 + Use a random sample if possible
 + Use an outcome variable that has good reliability and validity
 + Have a good idea of the level of difference that will be clinically important
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences - EBA 
@@ -332,9 +275,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Effect sizes
 	+ Meta-analysis
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences - EBA 
 
@@ -343,9 +283,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 + CI <U+F0E8> An interval around the point estimate
 + CI <U+F0E8> “… range of the dependent variable scores that *should contain the true population difference between means* .”
 + CI computed using sample mean and standard deviation
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences - EBA 
@@ -356,9 +293,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ NOT – .95 probability that true population difference is within the CI computed from our single study
 	+ Option – 95% CI for a given study “… *estimates* the population mean difference with 95% confidence.”
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences - EBA 
 
@@ -366,17 +300,13 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Part of philosophy to encourage replication
 	+ Size of interval – “… how much of the estimate might be due to sampling error.”
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences - EBA 
 
+![](../images/image-12-09.png)
+
+
 + Interpreting 95% CI (Fig 17.1)
-(assets/img/image7.emf)
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences – EBA 
@@ -389,18 +319,13 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 		+ d family
 		+ Measures of risk potency
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences – EBA 
 
+![](../images/image-12-10.png)
+
 + Why is effect size at least as important as significance level?
 	+ Influence of sample size on results
-(assets/img/image8.png)
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences – EBA 
@@ -410,9 +335,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Standardized –
 		+ Standardized using pooled standard deviation of the groups
 		+ Measure that can be used to compare to other studies with different DVs
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences – EBA 
@@ -424,9 +346,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 		+ Odds ratio
 		+ Relative risk
 		+ Risk difference
-
-
-.footnote[MEDB 5510 - Week 12]
 
 ***
 ### Making Inferences – EBA 
@@ -443,9 +362,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Greater than typical
 + Also rho, phi, eta, R
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences – EBA 
 
@@ -457,9 +373,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Statistics packages will compute
 	+ Interpret like r 2 (amount of variance in DV accounted for by IV)
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences – EBA 
 
@@ -470,17 +383,16 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Risk difference – percentage difference that compares risk of an outcome between groups
 	+ Odds ratio – Odds of outcome in control group compared to odds in treatment group
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences – EBA 
 
+![](../images/image-12-11.png)
+
+<div class="notes">
+
 + Interpretation of effect sizes –
-(assets/img/image9.emf)
 
-
-.footnote[MEDB 5510 - Week 12]
+</div>
 
 ***
 ### Making Inferences – EBA 
@@ -494,9 +406,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Sample Power (part of SPSS)
 	+ Russell Lenth – U of Iowa
 
-
-.footnote[MEDB 5510 - Week 12]
-
 ***
 ### Making Inferences – EBA 
 
@@ -508,26 +417,27 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 	+ Include findings from studies that failed to find statistical significance
 	+ Increased external validity
 
+***
+### Making Inferences – EBA 
 
-.footnote[MEDB 5510 - Week 12]
+![](../images/image-12-12.png)
+
+<div class="notes">
+
++ Simoni et al., 2006
+
+</div>
 
 ***
 ### Making Inferences – EBA 
 
-+ Simoni et al., 2006
-(assets/img/image10.emf)
+![](../images/image-12-13.png)
 
-
-.footnote[MEDB 5510 - Week 12]
-
-***
-### Making Inferences – EBA 
+<div class="notes">
 
 + Simoni et al., 2006
-(assets/img/image11.emf)
 
-
-.footnote[MEDB 5510 - Week 12]
+</div>
 
 ***
 ### Assignment #9 
@@ -536,11 +446,6 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 + Available resource –
 	+ Research Proposal Structure Information document
 		+ Week by Week / General Information
-
-
-
-.footnote[43]
-
 
 ***
 `r read_text("hw12", fri[12])`

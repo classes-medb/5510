@@ -20,11 +20,7 @@ source("prelims.R", echo=FALSE)
 ***
 ### Data Collection Techniques 
 
-
-(assets/img/image1.png)
-
-
-
+![](../images/image-10-01.png)
 
 ***
 ### Data Collection Techniques 
@@ -32,9 +28,6 @@ source("prelims.R", echo=FALSE)
 + Standardized vs Investigator-Developed Instruments
 	+ Development and Use
 	+ Evidence to support investigator-developed instruments
-
-
-
 
 ***
 ### Data Collection Techniques 
@@ -44,9 +37,6 @@ source("prelims.R", echo=FALSE)
 	+ Observer “participation”
 	+ Amount of detail
 	+ Breadth of coverage
-
-
-
 
 ***
 ### Data Collection Techniques 
@@ -60,9 +50,6 @@ source("prelims.R", echo=FALSE)
 	+ Aptitude tests
 	+ Documents
 	+ Content analysis
-
-
-
 
 ***
 ### Data Collection Techniques 
@@ -78,9 +65,6 @@ source("prelims.R", echo=FALSE)
 	+ Interviews
 	+ Focus groups
 
-
-
-
 ***
 ### Descriptive Research 
 
@@ -92,9 +76,6 @@ source("prelims.R", echo=FALSE)
 		+ Research question
 		+ Review of existing instruments
 		+ Process of designing survey
-
-
-
 
 ***
 ### Data Collection Techniques 
@@ -108,125 +89,155 @@ source("prelims.R", echo=FALSE)
 		+ Scale of measurement
 		+ Response options
 
-
-
-
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-02.png)
+
+<div class="notes">
 
 + Open-ended vs Close-ended
 
-(assets/img/image2.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
 
+![](../images/image-10-03.png)
+
+<div class="notes">
+
 + Surveys – Response Options
 	+ Likert
-
-(assets/img/image3.jpeg)
-
 
 .footnote[Portney & Watkins, 2009]
 
+</div>
+
 ***
 ### Data Collection Techniques 
+
+..[](../images/image-10-04.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 	+ Likert
 
-(assets/img/image4.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-05.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 	+ Likert
 
-(assets/img/image5.jpeg)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-06.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 
-(assets/img/image6.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-07.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 
-(assets/img/image7.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-08.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 
-(assets/img/image8.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-09.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 	+ Semantic Differential
 
-(assets/img/image9.jpeg)
-
-
 .footnote[Portney & Watkins, 2009]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-10.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 	+ Semantic Differential
 
-(assets/img/image10.png)
-
-
 .footnote[Portney & Watkins, 2009]
+
+</div>
 
 ***
 ### Data Collection Techniques 
+
+![](../images/image-10-11.png)
+
+<div class="notes">
 
 + Surveys – Response Options
 	+ Visual Analogue Scale (VAS)
 
-(assets/img/image11.jpeg)
-
-
 .footnote[Portney & Watkins, 2009]
+
+</div>
 
 ***
 ### Data Collection Techniques 
 
+![](../images/image-10-12.png)
+
+<div class="notes">
+
 + Surveys – Response Options
 	+ Numerical Rating Scale
 
-(assets/img/image12.png)
-
-
 .footnote[Sim & Wright, 2002]
+
+</div>
 
 ***
 ### Descriptive Research 
@@ -241,17 +252,16 @@ source("prelims.R", echo=FALSE)
 			+ More than 1 “ unit ” in a single item
 			+ Clearly stated terms
 
-
-
-
 ***
 ### Data Collection Techniques 
 
+![](../images/image-10-13.png)
+
+<div class="notes">
+
 + Surveys
-(assets/img/image13.jpeg)
 
-
-
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -262,10 +272,7 @@ source("prelims.R", echo=FALSE)
 	+ … take all doses on the prescribed schedule?
 	+ … follow all special instructions …
 	+ … make sure you refill all of your medications on time?
-
-
-
-
+	
 ***
 ### Data Collection Techniques 
 
@@ -277,17 +284,10 @@ source("prelims.R", echo=FALSE)
 	+ Final check – do you really need all of the items?
 + Analysis of survey data
 
-
-
-
 ***
 ### Data Collection & Coding 
 
-
-(assets/img/image14.png)
-
-
-
+![](../images/image-10-14.png)
 
 ***
 ### Data Collection & Coding 
@@ -297,9 +297,6 @@ source("prelims.R", echo=FALSE)
 	+ Pilot testing
 	+ Data collection
 		+ Check for completeness if possible
-
-
-
 
 ***
 ### Data Collection & Coding 
@@ -313,17 +310,10 @@ source("prelims.R", echo=FALSE)
 	+ Data entry form
 	+ Checking entry
 
-
-
-
 ***
 ### Data Collection & Coding 
 
-
-(assets/img/image15.png)
-
-
-
+![](../images/image-10-15.png)
 
 ***
 ### Data Collection & Coding 
@@ -336,9 +326,6 @@ source("prelims.R", echo=FALSE)
 		+ Values
 	+ Codebook / documentation
 
-
-
-
 ***
 ### Data Collection & Coding 
 
@@ -348,24 +335,16 @@ source("prelims.R", echo=FALSE)
 		+ Continuous variables
 	+ Data checking – part 2
 
-
-
-
 ***
 ### Data Collection & Coding 
 
 
-(assets/img/image16.png)
-
-
-
+![](../images/image-10-16.png)
 
 ***
 ### Assignment #8 
 
 + Further refine your list of variables by specifying how each will be measured. Wherever appropriate, include the name of a specific measure. Do this by building onto the methods section of your research proposal draft. 
-
-
 
 ***
 `r read_text("hw10", fri[10])`

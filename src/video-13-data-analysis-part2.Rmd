@@ -26,8 +26,6 @@ source("prelims.R", echo=FALSE)
 	+ Measures – IV and DV
 	+ Test research hypotheses / questions
 
-2
-
 ***
 ### Data Analysis 
 
@@ -38,8 +36,6 @@ source("prelims.R", echo=FALSE)
 		+ Each person “… *receives or experiences all of the conditions* or levels of the independent variable …”
 	+ Reason to use and not use Within-Subjects design?
 
-3
-
 ***
 ### Data Analysis 
 
@@ -47,8 +43,6 @@ source("prelims.R", echo=FALSE)
 	+ Mixed Designs –
 		+ At least 1 Between-Groups IV
 		+ At least 1 Within-Subjects IV
-
-4
 
 ***
 ### Data Analysis 
@@ -63,8 +57,6 @@ source("prelims.R", echo=FALSE)
 		+ Between-groups vs Within-subjects?
 	+ Change over time
 
-5
-
 ***
 ### Data Analysis 
 
@@ -78,8 +70,6 @@ source("prelims.R", echo=FALSE)
 		+ NR	E:	O1	X	O2
 		+ NR	C:	O1	~X	O2
 
-6
-
 ***
 ### Data Analysis 
 
@@ -90,8 +80,6 @@ source("prelims.R", echo=FALSE)
 	+ Pretest-Posttest Control Group
 		+ R	E:	O1	X	O2
 		+ R	C:	O1	~X	O2
-
-7
 
 ***
 ### Data Analysis 
@@ -104,8 +92,6 @@ source("prelims.R", echo=FALSE)
 		+ R	Order 1	X	O1	~X	O2
 		+ R	Order 2	~X	O1	X	O2
 
-8
-
 ***
 ### Data Analysis 
 
@@ -116,16 +102,17 @@ source("prelims.R", echo=FALSE)
 	+ Treatment	Female	O
 	+ Treatment	Male		O
 
-9
-
 ***
 ### Data Analysis 
+
+![](../images/image-13-01.png)
+
+<div class="notes">
 
 + Diagramming Designs / Data Layout
 + Between Groups Designs - example
 
-10
-(assets/img/image1.png)
+</div>
 
 ***
 ### Data Analysis 
@@ -138,10 +125,6 @@ source("prelims.R", echo=FALSE)
 	+ Group 1	Tx		Pretest	Posttest
 	+ Group 2	Control	Pretest	Posttest
 
-
-
-11
-
 ***
 ### Data Analysis 
 
@@ -150,10 +133,6 @@ source("prelims.R", echo=FALSE)
 		+ 1 IV
 		+ Ex – single-factor design with 4 levels
 		+ Ex – single-factor repeated measures design with 4 levels
-
-
-
-12
 
 ***
 ### Data Analysis 
@@ -165,10 +144,6 @@ source("prelims.R", echo=FALSE)
 		+ List the ###of levels for each factor
 		+ Ex. 3 IVs <U+F0E8> 2 x 3 x 2
 			+ ###of groups of individuals needed for this design?
-
-
-
-13
 
 ***
 ### Data Analysis 
@@ -184,10 +159,6 @@ source("prelims.R", echo=FALSE)
 			+ ###of groups of individuals needed for this design?
 			+ ###of data points needed from each individual?
 
-
-
-14
-
 ***
 ### Data Analysis 
 
@@ -199,37 +170,26 @@ source("prelims.R", echo=FALSE)
 			+ ###of groups of individuals needed for this design?
 			+ ###of data points needed from each individual ?
 
-
-
-15
-
 ***
 ### Data Analysis 
+
+![](../images/image-13-02.png)
+
+<div class="notes">
 
 + Labeling / Terminology
 
-
-
-16
-(assets/img/image2.png)
+</div>
 
 ***
 ### Data Analysis 
 
-
-
-
-17
-(assets/img/image3.png)
+![](../images/image-13-03.png)
 
 ***
 ### Statistical Analysis Selection 
 
-
-
-
-18
-(assets/img/image4.png)
+![](../images/image-13-04.png)
 
 ***
 ### Statistical Analysis Selection 
@@ -242,10 +202,6 @@ source("prelims.R", echo=FALSE)
 		+ Association (relation) between 2 or more variables
 		+ Associational inferential statistics
 	+ Descriptive?
-
-
-
-19
 
 ***
 ### Statistical Analysis Selection 
@@ -260,10 +216,6 @@ source("prelims.R", echo=FALSE)
 	+ Measurement scale of the DV
 		+ Level of measurement
 
-
-
-20
-
 ***
 ### Statistical Analysis Selection 
 
@@ -273,10 +225,6 @@ source("prelims.R", echo=FALSE)
 			+ Between-Groups vs Within-Subjects
 		+ Factorial design (2 or more IVs)
 			+ Between-Groups vs Within-Subjects vs Mixed
-
-
-
-21
 
 ***
 ### Statistical Analysis Selection 
@@ -294,10 +242,6 @@ source("prelims.R", echo=FALSE)
 		+ Special case
 		+ Nominal, but can be used as if normally distributed
 
-
-
-22
-
 ***
 ### Statistical Analysis Selection 
 
@@ -306,10 +250,6 @@ source("prelims.R", echo=FALSE)
 		+ Level of measure for DV matters
 	+ Associational inferential statistical analysis
 		+ Need to consider level of measurement for all variables
-
-
-
-23
 
 ***
 ### Statistical Analysis Selection 
@@ -321,21 +261,18 @@ source("prelims.R", echo=FALSE)
 	+ All participants with a particular group must be independent of each other (independence)
 		+ Also an assumption for nonparametric statistics
 
-
-
-24
-
 ***
 ### Statistical Analysis Selection 
 
 + Parametric vs Nonparametric statistics
 
+![](../images/image-13-05.png)
 
+<div class="notes">
 
 Sim & Wright, 2002
 
-25
-(assets/img/image5.jpeg)
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -347,60 +284,54 @@ Sim & Wright, 2002
 		+ If IV has 5 or more nominal (unordered) levels – usually difference approach
 	+ How many IVs?
 
+***
+### Statistical Analysis Selection 
 
-
-
-
-26
+![](../images/image-13-06.png)
 
 ***
 ### Statistical Analysis Selection 
 
+![](../images/image-13-07.png)
 
-
-
-27
-(assets/img/image6.png)
-
-***
-### Statistical Analysis Selection 
+<div class="notes">
 
 + Fig 19.3 – Basic Difference
 
-
-
-28
-(assets/img/image7.png)
+</div>
 
 ***
 ### Statistical Analysis Selection 
+
+![](../images/image-13-08.png)
+
+<div class="notes">
 
 + Fig 19.4 – Basic Associational
 
-
-
-29
-(assets/img/image8.png)
+</div>
 
 ***
 ### Statistical Analysis Selection 
+
+![](../images/image-13-09.png)
+
+<div class="notes">
 
 + Fig 19.5 – Complex Difference
 
-
-
-30
-(assets/img/image9.png)
+</div>
 
 ***
 ### Statistical Analysis Selection 
 
+![](../images/image-13-10.png)
+
+<div class="notes">
+
 + Fig 19.6 – Complex Associational
 
-
-
-31
-(assets/img/image10.png)
+</div>
 
 ***
 ### Data Analysis 
@@ -427,28 +358,41 @@ Sim & Wright, 2002
 ***
 ### Data Analysis 
 
-+ Predicting an
+![](../images/image-13-11.png)
 
-outcome measure
+<div class="notes">
+
++ Predicting an outcome measure
 
 Portney & Watkins, 2009
-(assets/img/image11.jpeg)
+
+</div>
 
 ***
 ### Data Analysis 
+
+![](../images/image-13-12.png)
+
+<div class="notes">
 
 + Correlations
 
 Portney & Watkins, 2009
-(assets/img/image12.jpeg)
+
+</div>
 
 ***
 ### Data Analysis 
 
+![](../images/image-13-13.png)
+
+<div class="notes">
+
 + Handling missing data
 
 Sim & Wright, 2002
-(assets/img/image13.jpeg)
+
+</div>
 
 ***
 ### Data Analysis 
@@ -481,10 +425,6 @@ Sim & Wright, 2002
 ### Assignment #10 
 
 + Expand the “outline” for your research proposal to include information on the data analysis that will be needed for your proposed study. In addition to a description of the steps that are planned for preliminary data review (e.g., check distribution of measures, check item reliability of scales), the outline should consist of a description of analyses that are planned to address each research hypothesis/question. 
-
-
-.footnote[MEDB 5510 - Week 13]
-
 
 ***
 `r read_text("hw13", fri[13])`
