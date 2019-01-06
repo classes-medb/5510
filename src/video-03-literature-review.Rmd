@@ -16,6 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+This is what we will cover this week.
 
 </div>
 
@@ -24,7 +25,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+If you have not read these yet.
 
 </div>
 ***
@@ -35,6 +36,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+At least one table from Portney and Watkins.
 
 </div>
 
@@ -49,7 +51,19 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Identify gaps in the literature, select appropriate methods, provide an interpretation and synthesis. It reflects your own understanding of what has been done. 
 
+I hope you become a more critical reviewer of the literature review.
+
+It is not an annotated bibliography.
+
+Look for unpublished research. Use primary sources. Do not trust what someone else says about that article.
+
+Note this is not a formal systematic review. The goal of a systematic review is to be comprehensive.
+
+You will revisit your literature review when you write the discussion section of your paper.
+
+There is a standard format for the literature review for a thesis. This is more detailed than what you might put in a paper.
 
 </div>
 
@@ -68,7 +82,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+How much weight should you place on a particular study. Where was it published? Was it peer-reviewed? Are the results valid? Become a critical reader.
 
+Look beyond statistical significance to practical significance.
 
 </div>
 
@@ -84,7 +100,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Portney and Watkins Table 34.1 on whether the results of a study are valid.
 
+The authors of your textbook have developed a framework that is suitable for both experimental and observational studies. The emphasis is on methods and results.
 
 </div>
 
@@ -102,7 +120,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+There is a document on the week 3 folder that consolidates several tables in your book. The first eight questions cover these areas: measurement reliability and statistics, the internal validity of the study, and the external validity of the study. The last three questions get at peer review, journal quality, and clarity of the writing.
 
+You need to evaluated the worth of the study as a whole. No one criteria will condemn a study and no one criteria by itself makes a study credible.
 
 </div>
 
@@ -113,18 +133,17 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
-
-</div>
-
-***
-### Evaluating Research Validity 
-
 + GM&L framework document
 
-<div class="notes">
+Second block is on equivalence of groups (control of extraneous factors).
 
+Did the authors overstate the importance of their findings.
 
+"It's great news, if you're a rat."
+
+Building on the work of Campbell and Stanley reference, "What Works", the Campbell Collaboration.
+
+Get at what variables were used as independent and dependent variables.
 
 </div>
 
@@ -132,11 +151,17 @@ source("prelims.R", echo=FALSE)
 ### Evaluating Research Reports 
 
 
-Portney & Watkins, 2009
 ![](../images/image-03-02.png)
 
 <div class="notes">
 
+Portney & Watkins, 2009.
+
+Table 34.1.
+
+Factors that contribute to the overall validity of the study include the individual reliability and validity of variables, and the internal and external validity of the study as a whole.
+
+We will talk about Table 23.2 again later in this class.
 
 
 </div>
@@ -151,7 +176,23 @@ Portney & Watkins, 2009
 
 <div class="notes">
 
+Here are some examples of Excel spreadsheets summarizing literature review.
 
+Setting up columns: Number (write this on the article itself), Citation, Sample, Did they use motivational interviewing, Inclusion criteria, Intervention, Control arm, Outcomes, Findings, Notes.
+
+Second sheet has study design, participants, groups, controls, time, outcome measure, sample size including completers.
+
+Third sheet has a checklist of exclusion criteria.
+
+Adverse event summary, dosing.
+
+This can help you having to constantly refering back to the articles. But you will find yourself going back to the articles when you need more information that is not yet in your spreadsheet.
+
+Medical literature review form for MEDB 5511 (Epidemiology).
+
+Another spreadsheet has primary versus secondary analysis, exposure, primary outcome(s), study sample (broken down by age, sex, and race/ethnicity), sample size, duration of followup, unadjusted results, adjustments for confounders.
+
+PICOTS
 
 </div>
 
@@ -159,11 +200,12 @@ Portney & Watkins, 2009
 ### Assignment 
 
 + Nothing to be turned in next week
+
 + Work on identifying a research topic you want to work on for the final project .
 
 <div class="notes">
 
-
+We will doing a session with Sue Sykesbury. You need to start your research review and will soon have to provide a brief summary of your research.
 
 </div>
 

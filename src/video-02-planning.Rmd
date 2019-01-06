@@ -506,6 +506,14 @@ Issues associated with senior authorship. What earns you the right to be an auth
 
 Acknowledge external support.
 
+IACUC. Institutional Animal Care and Use Committee.
+
+Show UMKC Financial Disclosure Form. Journal disclosure form.
+
+Show funders of projects and disclaimer.
+
+Show example of plagiarism.
+
 </div>
 
 ***
@@ -519,7 +527,13 @@ Acknowledge external support.
 
 <div class="notes">
 
+Uniform definition: fabrication, falsification, plagiarism.
 
+Note that when you review a paper or grant, You cannot use any ideas, words, results, or processes from that paper or proposal.
+
+Example of NIH report of research misconduct.
+
+The penalties are fairly severe.
 
 </div>
 
@@ -527,11 +541,11 @@ Acknowledge external support.
 ### Research Ethics 
 
 + Training ?
-	+ CITI training ? used by multiple institutions
-+ IRBs ?
+	+ CITI training - used by multiple institutions
++ IRBs
 	+ UMKC IRB
-	+ IRBs at other institutions (CMH, St. Luke?s ?)
-+ Research committees ?
+	+ IRBs at other institutions (CMH, St. Luke's)
++ Research committees
 
 <div class="notes">
 
@@ -546,8 +560,8 @@ Acknowledge external support.
 + Get to this from the UMKC Research Support page
 +  http://www.umkc.edu/ors/irb/training.cfm
 +  http://www.citiprogram.org/
-+ Select ?Group 1 ? Biomedical Investigator?
-+ Send a copy of the Certificate of Completion to Dr. Gerkovich ( gerkovichm@umkc.edu ); this copy will be kept by me so make sure to also print out a copy for your own file.
++ Select Group 1 Biomedical Investigator
++ Send a copy of the Certificate of Completion to Dr. Simon (simons@umkc.edu ); this copy will be kept by me so make sure to also print out a copy for your own file.
 
 [http://www.umkc.edu/ors/irb/training.cfm](http://www.umkc.edu/ors/irb/training.cfm)
 [http://www.citiprogram.org/](mailto:gerkovichm@umkc.edu)
@@ -555,7 +569,7 @@ Acknowledge external support.
 
 <div class="notes">
 
-
+Due before the week 3 class session. If you have already completed this training, send documentation.
 
 </div>
 
