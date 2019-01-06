@@ -14,8 +14,20 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives13")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings13")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -25,6 +37,12 @@ source("prelims.R", echo=FALSE)
 	+ Study design
 	+ Measures – IV and DV
 	+ Test research hypotheses / questions
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -36,6 +54,12 @@ source("prelims.R", echo=FALSE)
 		+ Each person “… *receives or experiences all of the conditions* or levels of the independent variable …”
 	+ Reason to use and not use Within-Subjects design?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -43,6 +67,12 @@ source("prelims.R", echo=FALSE)
 	+ Mixed Designs –
 		+ At least 1 Between-Groups IV
 		+ At least 1 Within-Subjects IV
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -56,6 +86,12 @@ source("prelims.R", echo=FALSE)
 		+ Active vs Attribute?
 		+ Between-groups vs Within-subjects?
 	+ Change over time
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -125,6 +161,12 @@ source("prelims.R", echo=FALSE)
 	+ Group 1	Tx		Pretest	Posttest
 	+ Group 2	Control	Pretest	Posttest
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -133,6 +175,12 @@ source("prelims.R", echo=FALSE)
 		+ 1 IV
 		+ Ex – single-factor design with 4 levels
 		+ Ex – single-factor repeated measures design with 4 levels
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -144,6 +192,12 @@ source("prelims.R", echo=FALSE)
 		+ List the ###of levels for each factor
 		+ Ex. 3 IVs <U+F0E8> 2 x 3 x 2
 			+ ###of groups of individuals needed for this design?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -159,6 +213,12 @@ source("prelims.R", echo=FALSE)
 			+ ###of groups of individuals needed for this design?
 			+ ###of data points needed from each individual?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -169,6 +229,12 @@ source("prelims.R", echo=FALSE)
 		+ Ex. 2 x 3 x 4 factorial design with repeated measures on the 3 rd factor
 			+ ###of groups of individuals needed for this design?
 			+ ###of data points needed from each individual ?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -186,10 +252,22 @@ source("prelims.R", echo=FALSE)
 
 ![](../images/image-13-03.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Statistical Analysis Selection 
 
 ![](../images/image-13-04.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -202,6 +280,12 @@ source("prelims.R", echo=FALSE)
 		+ Association (relation) between 2 or more variables
 		+ Associational inferential statistics
 	+ Descriptive?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -216,6 +300,12 @@ source("prelims.R", echo=FALSE)
 	+ Measurement scale of the DV
 		+ Level of measurement
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Statistical Analysis Selection 
 
@@ -225,6 +315,12 @@ source("prelims.R", echo=FALSE)
 			+ Between-Groups vs Within-Subjects
 		+ Factorial design (2 or more IVs)
 			+ Between-Groups vs Within-Subjects vs Mixed
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -242,6 +338,12 @@ source("prelims.R", echo=FALSE)
 		+ Special case
 		+ Nominal, but can be used as if normally distributed
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Statistical Analysis Selection 
 
@@ -250,6 +352,12 @@ source("prelims.R", echo=FALSE)
 		+ Level of measure for DV matters
 	+ Associational inferential statistical analysis
 		+ Need to consider level of measurement for all variables
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -260,6 +368,12 @@ source("prelims.R", echo=FALSE)
 		+ Unequal group sizes and unequal variances <U+F0E8> increased Type I errors
 	+ All participants with a particular group must be independent of each other (independence)
 		+ Also an assumption for nonparametric statistics
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -284,10 +398,22 @@ Sim & Wright, 2002
 		+ If IV has 5 or more nominal (unordered) levels – usually difference approach
 	+ How many IVs?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Statistical Analysis Selection 
 
 ![](../images/image-13-06.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Statistical Analysis Selection 
@@ -342,6 +468,12 @@ Sim & Wright, 2002
 	+ Test of hypotheses/research questions
 	+ Additional exploratory analyses
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -354,6 +486,12 @@ Sim & Wright, 2002
 		+ Scale of measurement
 	+ Check subscale coding and scores
 		+ Check inter-item reliability
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Analysis 
@@ -402,6 +540,12 @@ Sim & Wright, 2002
 	+ What is relevant to be included?
 	+ How should it be represented?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -414,6 +558,12 @@ Sim & Wright, 2002
 	+ Nonparametric tests for group comparisons
 	+ Comparison of categorical variables
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Analysis 
 
@@ -421,16 +571,40 @@ Sim & Wright, 2002
 	+ What results to follow-up on and explore?
 	+ How to interpret these?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Assignment #10 
 
 + Expand the “outline” for your research proposal to include information on the data analysis that will be needed for your proposed study. In addition to a description of the steps that are planned for preliminary data review (e.g., check distribution of measures, check item reliability of scales), the outline should consist of a description of analyses that are planned to address each research hypothesis/question. 
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw13", fri[13])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion13", fri[13])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

@@ -14,8 +14,20 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives04")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings04")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Secondary Analysis 
@@ -27,6 +39,13 @@ source("prelims.R", echo=FALSE)
 	+ Relationships that are explored
 	+ Different subsets of cases
 	+ Different analysis techniques
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -36,6 +55,13 @@ source("prelims.R", echo=FALSE)
 	+ Working with large dataset
 	+ Time efficiency
 	+ May be a good first step in a research area
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -47,12 +73,26 @@ source("prelims.R", echo=FALSE)
 	+ Consider possible sources of error
 		+ Make judgment on possible impact on research question
 		+ What can be done to address problems
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
 + Two types of secondary data sets
 	+ Individual
 	+ Aggregate
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -63,12 +103,26 @@ source("prelims.R", echo=FALSE)
 		+ Large regional and national data sets
 			+ Surveillance, Epidemiology, and End Results (SEER)
 			+ National Death Index
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
 + Aggregate – information available only for groups of subjects
 + Can study associations among groups by comparing them on risk factors or variables of interest (ecologic studies)
 + Advantage – availability of data
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -79,6 +133,13 @@ source("prelims.R", echo=FALSE)
 + Most appropriately used –
 	+ Test the plausibility of a new hypothesis, or
 	+ Generate new hypotheses
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -90,6 +151,13 @@ source("prelims.R", echo=FALSE)
 			+ How has database been used previously?
 			+ What has already been answered?
 			+ Develop a theoretical framework for your research
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -111,6 +179,12 @@ Steps in Finding Research Questions to Fit an Existing Database
 
 [Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition.]
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -120,6 +194,13 @@ Steps in Finding Research Questions to Fit an Existing Database
 		+ Have a list of variables that are relevant
 		+ Have an idea of what databases are available
 		+ Find out if there are special qualifications for working with the database
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -143,6 +224,12 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 [Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition]
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -155,6 +242,13 @@ Steps in Finding Databases to Fit a Specified Research Question
 		+ Framingham Heart Study
 		+ Multiple Risk Factor Intervention Trial (MRFIT)
 		+ NIH Data Sharing Plan requirement
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -169,6 +263,13 @@ Steps in Finding Databases to Fit a Specified Research Question
 			+ Assessing real-world utilization and effectiveness of an intervention
 			+ Study effectiveness rather than efficacy
 		+ Importance of replication
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ancillary Studies 
 
@@ -182,6 +283,13 @@ Steps in Finding Databases to Fit a Specified Research Question
 			+ Not a complete set of data
 		+ Have no control over what the other measures are
 		+ Need to get the buy-in of the primary investigators
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ancillary Studies 
 
@@ -194,6 +302,13 @@ Steps in Finding Databases to Fit a Specified Research Question
 		+ Pharmaceutical companies
 		+ Contacting experts / researchers
 	+ Get cooperation of investigators
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ancillary Studies 
 
@@ -210,16 +325,41 @@ Steps in Finding Databases to Fit a Specified Research Question
 	+ YRBSS (Youth Risk Behavior Surveillance System)
 	+ NSQIP (National Surgical Quality Improvement Proram)
 	+ …
+
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### #2 Assignment 
 
 + Go to a source of secondary data. Review available data types / topics on the data web site. Using the template provided in the Week 4 folder, write a brief description of a research topic you could address using this data source. Include in your description information on the variables that would be used . Use the hand-out with the list of possible web sites or your own source to identify a dataset you are interested in. 
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw04", fri[4])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion04", fri[4])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

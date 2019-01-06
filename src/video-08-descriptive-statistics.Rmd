@@ -14,8 +14,20 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives08")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings08")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement 
@@ -23,8 +35,11 @@ source("prelims.R", echo=FALSE)
 + What do we mean “ measurement ” ?
 	+ assignment of numbers or symbols to the different levels or values of variables according to rules. ” 
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement 
@@ -36,8 +51,11 @@ source("prelims.R", echo=FALSE)
 	+ Continuous variable …
 	+ Discrete variable …
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement 
@@ -50,8 +68,11 @@ source("prelims.R", echo=FALSE)
 + Whatever you are trying to measure ..
 	+ Must be able to define it!
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement 
@@ -62,8 +83,11 @@ source("prelims.R", echo=FALSE)
 	+ Interval
 	+ Ratio
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement 
@@ -75,18 +99,33 @@ source("prelims.R", echo=FALSE)
 	+ Normally distributed
 + Table 10.1
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement 
 
 ![](../images/image-08-01.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement 
 
 ![](../images/image-08-02.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement 
@@ -96,13 +135,22 @@ source("prelims.R", echo=FALSE)
 	+ How it determines the types of statistical analyses you will do
 	+ How it defines what you can say about your results
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-03.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
@@ -114,10 +162,22 @@ source("prelims.R", echo=FALSE)
 		+ Histograms
 		+ Bar charts
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-04.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
@@ -127,6 +187,12 @@ source("prelims.R", echo=FALSE)
 	+ Median
 	+ Mode
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Statistics 
 
@@ -135,6 +201,12 @@ source("prelims.R", echo=FALSE)
 	+ Standard deviation
 	+ Interquartile range
 	+ How many categories
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
@@ -146,20 +218,44 @@ source("prelims.R", echo=FALSE)
 	+ Cross-tabulation
 	+ Scatterplot
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-05.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-06.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-07.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
@@ -171,10 +267,22 @@ source("prelims.R", echo=FALSE)
 	+ Range is infinite
 	+ Shape – not too peaked or flat (kurtosis)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Statistics 
 
 ![](../images/image-08-08.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Descriptive Statistics 
@@ -184,21 +292,51 @@ source("prelims.R", echo=FALSE)
 	+ How to compute
 	+ Effect size
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement & Descriptive Statistics 
 
 ![](../images/image-08-09.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Assignment #6 
 
 + Prepare a brief paragraph that describes the research design you are using for your research proposal. This is the information that will probably appear in the Methods section of your proposal.
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw08", fri[8])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion08", fri[8])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

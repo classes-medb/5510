@@ -38,6 +38,8 @@ If you haven't done these readings yet, please do so before continuing with this
 
 This figure from your book provides a nice overview of the research process. The first two steps, identifying a research problem and conducting a literature review are steps we will discuss today. The remaining steps are topics for later weeks. This table includes the chapters associated with each step.
 
+The process is for a quantitative study, but it still matches the process that you would use for a qualitative study.Certainly the literature review, setting up a research hypothesis (if you have one), and the human subjects review are pretty much the same no matter what the type of study.
+
 `r read_text("gliner-2017-figure-2-1", path="images")`
 
 </div>
@@ -55,7 +57,41 @@ This figure from your book provides a nice overview of the research process. The
 
 <div class="notes">
 
+The statement that issue the you are trying to address, what are you trying to discover.
 
+The literature review leads to a desire to replicate the study, or extend an existing result to a different population or modifying 
+
+Pure replications are rare because of resource limitations.
+
+Attending other research presentations, such as thesis defenses of your fellow students or at regional/national conference.
+
+You may hear about topics in the classes that you take.
+
+[[Describe my research interests]]
+
+If you are already working, what comes up in that environment? 
+
+Community or participatory research. You are highly invested in your community and they often develop ideas that come out of that community
+
+[[PCORI]]
+
+Sometimes it is just serendipity.
+
+A good research problem. How broad versus narrow? Narrow enough to be feasible, but broad enough to be of interest to a large audience. 
+
+[[Think about research as a series.]]
+
+It still has to be interesting to you, of course.
+
+Do you want to be a big fish in a small pond or a small fish in a big pond.
+
+If your area is fairly new, 
+
+Conferences great for identifying new areas that have not been studied extensively.
+
+Beware. Little research in that area could mean that there is little value in that research.
+
+If there is a lot of research, is there a gap that you can fill?
 
 </div>
 
@@ -92,7 +128,21 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
 <div class="notes">
 
+Don't let your enthusiasm blind you.
 
+Timing is especially important in this program. Prospective studies and especially prospective longitudinal studies take more time than you may have available.
+
+Contribution to the profession addresses the "so what" question. Is it going to be publishable. You shouldn't be obsessed about publication, but it is a marker of whether
+
+Resources go beyond the financial. Do you have the right expertise or do you have access to colleagues who have that expertise. The era of the "Lone Ranger" scientist is long gone.
+
+Can you get the data you need?
+
+What level of control do you have? If oyu don't have control, do you have a "champion" in all of the areas that you need help in.
+
+Design considerations.
+
+Think about what happens if the results do not turn out they way you "want" them to. There is a myth that researchers are fully disinterested, but you have to think about your responsibilities of sharing information even if it is not what you wanted.
 
 </div>
 
@@ -106,7 +156,9 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
 <div class="notes">
 
+Don't get stuck in a rut with a single research methodology. Funding is great, but don't fit your square research idea into a round funding hole.
 
+Publications are important, but the goal is not publication but making a substantive contribution to the field.
 
 </div>
 
@@ -120,38 +172,64 @@ Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
 <div class="notes">
 
+NIH talks about "significance" in its grants review process. Importance, critical barrier to progress. Improve scientific knowledge, technical capability and/or clinical practice.
 
+Explain how your field will change if the aims of the proposed project are achieved. What is the value beyond this study itself.
+
+Type III error. Collecting data that does not answer your research question.
 
 </div>
 
 ***
 ### Planning a Research Project 
-
-+ Characteristics of a good research project
-+ FINER
-	+ Feasible
-	+ Interesting
-	+ Novel
-	+ Ethical
-	+ Relevant
 
 Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
 <div class="notes">
 
-
+Think about these five criteria while designing a study.
 
 </div>
 
 ***
 ### Planning a Research Project 
 
-
-Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
 ![](../images/image-02-02.png)
 
 <div class="notes">
+
++ Characteristics of a good research project
++ FINER
+
+	+ Feasible
+	
+	Subjects
+	
+	Expertise
+	
+	Time
+	
+	Money
+	
+	Scope: Don't bite off more than you can chew. Take baby steps.
+	
+	+ Interesting
+	
+	Don't waste time on somthing that doesn't appeal to you.
+	
+	+ Novel
+	
+	Confirm or refute existing findings.
+	
+	Extend
+	
+	Impact on the community.
+	
+	+ Ethical
+	+ Relevant
+
+Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research* . 2001.
 
 
 
@@ -167,6 +245,18 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 + Sources to be used in literature review
 
 <div class="notes">
+
+What has already been done and what hasn't. You need to make a strong argument that your work hasn't already been done.
+
+It helps you identify what research methods have been used by others. These are probably the best choices for your research.
+
+It is not an annotated bibliography. An annotated bibliography is great for other areas. Don't talk about each paper in isolation. 
+
+Your interpretation of the relevant literature. Analysis, evaluation, and synthesis. Last paragraph summarizes everything and leads into the work you plan.
+
+Start with the general and move to the specific. Or state the problem, state what has already been done, and identify what needs to be done.
+
+The Internet is great place to start, and that includes Wikipedia, but it is important to use primary sources whenever possible. If you find an excellent secondary source, take the time to review the primary sources
 
 
 
@@ -187,7 +277,15 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+Portney and Watkins.
 
+Think about the research methods, the samples they collected. Evaluate the quality of the source. Peer-reviewed articles are the place to start out with. 
+
+Don't rely just on the abstract.
+
+Do you feel that the author's interpretation is supported by their data. Did they discussion limitations and are those limitations relevant to you. Have they placed their results in a bigger context?
+
+Don't accept everything blindly just because it has been published. Become critical evaluators. Note that critical means more than just criticizing, though.
 
 </div>
 
@@ -203,7 +301,11 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+An active independent variable can be manipulated and is suited for experimental studies. Atrribute independent variables cannot be manipulated and .
 
+Dependent, outcome, criterion are all the same.
+
+Extraneous (covariates) are not of direct interest but which can influence your outcome.
 
 </div>
 
@@ -218,7 +320,13 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+A research hypothesis differs from a research question is that it makes a prediction.
 
+Hypothesis could be based on your work and other peoples work or based on theoretical understanding.
+
+Directional hypothesis.
+
+Associational implies a relationship but not necessarily that one causes another.
 
 </div>
 
@@ -229,7 +337,7 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
-
+Experimental, quasi-experimental, and certain observational studies (comparative observational studies) will tend to use inferential statistics like t-tests and ANOVA. Other observational studies (associational observational studies) will rely on correlations instead. Note that this table places regression models in the associational column, but regression models (linear regression, logistic regression, and Cox regression) straddle the line between inferential and associational analysis. Some observational studies are purely descriptive and these lend themselves towards univariate summarizes (means and percentages). Note also that although confidence intervals find their place in descriptive studies, they also are useful for associational and inferential studies.
 
 </div>
 
@@ -245,7 +353,11 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+We are starting this process early on because you need to think about ethical issues very early in the design. Don't force a discussion of ethical considerations late in the process when the design has been finalized.
 
+Treat your research projects as if you are going to have to testify about them. 
+
+The Price article get into this. The Charles Lids article is also relevant.
 
 </div>
 
@@ -263,7 +375,15 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+Belmont report talks about autonomy. Keep in mind vulnerable populations. Beneficence. Balancing risks and benefits. Justice, fairness. Equitable distribution of benefits and risk. Don't limit risk to a group of people who have less power and less influence.
 
+Use of control groups (see Chen article)
+
+Does anyone recognize the name Andrew Wakefield?
+
+How the nature of control trials has changed because of the AIDS trials.
+
+More recently, the add-on designs, such as in herbal therapies, where both the herbal remedy and the placebo are given in addition to the standard treatment.
 
 </div>
 
@@ -281,7 +401,27 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 <div class="notes">
 
+Informed consent is more than the information. It is the entire process.
 
+Passive consent is an option for some studies.
+
+Pediatric studies have both assent (from the child) and consent (from the parent) because under a certain age (usually 18), you do not have legal authority to provide consent.
+
+What information you get and how you treat it.
+
+That's not the same as anonymous information.
+
+Deception, especially in the area of Social Psychology, has fallen out of favor research. Previous examples of deception (the shocking of patients, )
+
+Okay if information would undermine the goals of the experiment, but you need to disclose the 
+
+Some level of risk or discomfort might be okay. Think of harms broadly, including monetary harm, legal harm. Make counseling available if people need it.
+
+Certificate of confidentiality can help here.
+
+People should not be guinea pigs. We should respect the contribution that people who volunteer to provide to us.
+
+You should not exploit vulnerable populations (e.g., prisoners).
 
 </div>
 
@@ -291,6 +431,8 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 ![](../images/image-02-04.png)
 
 <div class="notes">
+
+Autonomy implies informed consent, no deception. Don't share information without permission from the patient. Compliance study requires honesty and we can't "tattle" on them.
 
 Sim & Wright. *Research in Health Care* . 2000.
 
@@ -310,7 +452,17 @@ Sim & Wright. *Research in Health Care* . 2000.
 
 <div class="notes">
 
+Purpose to review research to insure that the rights of the participants is protected.
 
+At least five members, mix of gender, race/ethnicity, background. At least one member who is a member of the public.
+
+Review proposals, ask questions, request information.
+
+Focus on scientific, investigator qualifications, risks, feasible, compensation should not be coercive.
+
+Does the consent form contain all the information needed? Is the recruitment process okay.
+
+Expedited or exempt review. This is a choice made by the IRB and not by you alone.
 
 </div>
 
@@ -320,6 +472,12 @@ Sim & Wright. *Research in Health Care* . 2000.
 ![](../images/image-02-05.png)
 
 <div class="notes">
+
+Portney and Watkins. Items 1-7 are information components. Assure them that they are not pressured. Items 8-10 are consent components.
+
+Authorizing portion is item 11. Most IRBs have sample consent forms.
+
+Issues associated with compensation and Social Security Numbers. This varies from institution to institution.
 
 Portney & Watkins, 2009.
 
@@ -340,7 +498,13 @@ Portney & Watkins, 2009.
 
 <div class="notes">
 
+Misconduct has been in the news recently.
 
+Conflict of interest. Are you conducting a research project where you might have a financial benefit.
+
+Issues associated with senior authorship. What earns you the right to be an author. Defend and explain the role of that person on the project. What did that person contribute?
+
+Acknowledge external support.
 
 </div>
 

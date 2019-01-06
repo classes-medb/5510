@@ -14,13 +14,31 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives10")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings10")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
 
 ![](../images/image-10-01.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -28,6 +46,12 @@ source("prelims.R", echo=FALSE)
 + Standardized vs Investigator-Developed Instruments
 	+ Development and Use
 	+ Evidence to support investigator-developed instruments
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -37,6 +61,12 @@ source("prelims.R", echo=FALSE)
 	+ Observer “participation”
 	+ Amount of detail
 	+ Breadth of coverage
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -50,6 +80,12 @@ source("prelims.R", echo=FALSE)
 	+ Aptitude tests
 	+ Documents
 	+ Content analysis
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -65,6 +101,12 @@ source("prelims.R", echo=FALSE)
 	+ Interviews
 	+ Focus groups
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Descriptive Research 
 
@@ -77,6 +119,12 @@ source("prelims.R", echo=FALSE)
 		+ Review of existing instruments
 		+ Process of designing survey
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection Techniques 
 
@@ -88,6 +136,12 @@ source("prelims.R", echo=FALSE)
 	+ Scales
 		+ Scale of measurement
 		+ Response options
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection Techniques 
@@ -252,6 +306,12 @@ source("prelims.R", echo=FALSE)
 			+ More than 1 “ unit ” in a single item
 			+ Clearly stated terms
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection Techniques 
 
@@ -273,6 +333,12 @@ source("prelims.R", echo=FALSE)
 	+ … follow all special instructions …
 	+ … make sure you refill all of your medications on time?
 	
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection Techniques 
 
@@ -284,10 +350,22 @@ source("prelims.R", echo=FALSE)
 	+ Final check – do you really need all of the items?
 + Analysis of survey data
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection & Coding 
 
 ![](../images/image-10-14.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection & Coding 
@@ -297,6 +375,12 @@ source("prelims.R", echo=FALSE)
 	+ Pilot testing
 	+ Data collection
 		+ Check for completeness if possible
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection & Coding 
@@ -310,10 +394,22 @@ source("prelims.R", echo=FALSE)
 	+ Data entry form
 	+ Checking entry
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection & Coding 
 
 ![](../images/image-10-15.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Data Collection & Coding 
@@ -326,6 +422,12 @@ source("prelims.R", echo=FALSE)
 		+ Values
 	+ Codebook / documentation
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection & Coding 
 
@@ -335,22 +437,52 @@ source("prelims.R", echo=FALSE)
 		+ Continuous variables
 	+ Data checking – part 2
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Data Collection & Coding 
 
 
 ![](../images/image-10-16.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Assignment #8 
 
 + Further refine your list of variables by specifying how each will be measured. Wherever appropriate, include the name of a specific measure. Do this by building onto the methods section of your research proposal draft. 
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw10", fri[10])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion10", fri[10])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

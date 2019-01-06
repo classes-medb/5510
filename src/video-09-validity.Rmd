@@ -14,13 +14,31 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives09")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings09")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement 
 
 + “Study quality also depends on the *consistency* (measurement reliability) and *accuracy* (measurement validity) of the specific instruments …”
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -29,6 +47,12 @@ source("prelims.R", echo=FALSE)
 	+ “… consistency of a series of measurements. ( Cronbach )
 	+ “… a property of scores and is not immutable across all conceivable uses of a given measure.” (Thompson)
 + Importance – without reliable measures, can’t have confidence in study results.
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -41,6 +65,12 @@ source("prelims.R", echo=FALSE)
 	+ Due to effect of treatment?
 	+ Due to random variation in the measure?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -51,6 +81,12 @@ source("prelims.R", echo=FALSE)
 + Classical test theory
 	+ Observed score = True score + Error
 + Change in value – due to change in true score or error?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -63,6 +99,12 @@ source("prelims.R", echo=FALSE)
 	+ Coefficient
 	+ Ratio – True score / Observed score
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -71,6 +113,12 @@ source("prelims.R", echo=FALSE)
 	+ How variable is the measure
 + Standard error of measurement –
 	+ Allows you to “… establish a range of scores (i.e., confidence interval) within which should lie … true score.”
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -82,6 +130,12 @@ source("prelims.R", echo=FALSE)
 		+ r – correlation coefficient
 			+ r – indication of the relationship between 2 measures
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -90,6 +144,12 @@ source("prelims.R", echo=FALSE)
 	+ Confidence interval –
 		+ U sually 95% CI (2 standard deviations)
 		+ To have 95% confidence that the range will include the true score
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -103,8 +163,11 @@ source("prelims.R", echo=FALSE)
 	+ 95% CI <U+F0E8> 101.68 – 118.32
 	+ Range of scores that includes the true score given 95% CI
 
+<div class="notes">
 
 
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -117,6 +180,12 @@ source("prelims.R", echo=FALSE)
 	+ 95% CI <U+F0E8> Observed +/- SEM * 1.96
 	+ 95% CI <U+F0E8> 92.61 – 127.61
 	+ Range of scores that includes the true score given 95% CI
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -131,6 +200,12 @@ source("prelims.R", echo=FALSE)
 	+ In practice
 		+ Measures used with reliability of .60 and higher
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -144,6 +219,12 @@ source("prelims.R", echo=FALSE)
 	+ Percentage agreement methods
 	+ Intraclass correlation coefficients
 	+ Interrater
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -156,6 +237,12 @@ source("prelims.R", echo=FALSE)
 	+ Is sample comparable?
 	+ Report both established reliability AND reliability coefficient found in your study
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -169,6 +256,12 @@ source("prelims.R", echo=FALSE)
 	+ Percentage agreement methods
 	+ Intraclass correlation coefficients
 	+ Interrater
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -180,6 +273,12 @@ source("prelims.R", echo=FALSE)
 	+ Test-retest reliability – previously established
 	+ Concern if reliability is < .70
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -193,6 +292,12 @@ source("prelims.R", echo=FALSE)
 	+ Percentage agreement methods
 	+ Intraclass correlation coefficients
 	+ Interrater
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -204,6 +309,12 @@ source("prelims.R", echo=FALSE)
 		+ New items
 	+ Reliability coefficient of at least .80 is desirable
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -217,6 +328,12 @@ source("prelims.R", echo=FALSE)
 	+ Percentage agreement methods
 	+ Intraclass correlation coefficients
 	+ Interrater
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -231,6 +348,12 @@ source("prelims.R", echo=FALSE)
 		+ Underestimate reliability
 		+ Adjust using the Spearman-Brown formula
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -238,6 +361,12 @@ source("prelims.R", echo=FALSE)
 	+ Measures inter-item reliability
 	+ Assuming instrument measures a single trait/construct
 	+ Dichotomous item score
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -247,6 +376,12 @@ source("prelims.R", echo=FALSE)
 	+ Assuming instrument measures a single trait/construct
 	+ Interval response scale
 	+ Alpha values .70 and higher - acceptable
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -262,6 +397,12 @@ source("prelims.R", echo=FALSE)
 	+ Intraclass correlation coefficients
 	+ Interrater
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -274,6 +415,12 @@ source("prelims.R", echo=FALSE)
 		+ Agreement on ###of events
 		+ Agreement on when events occurred?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -283,6 +430,12 @@ source("prelims.R", echo=FALSE)
 	+ Computation – ANOVA with repeated measures
 		+ How related are the rating by different raters?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
@@ -291,10 +444,22 @@ source("prelims.R", echo=FALSE)
 	+ Nominal data
 	+ Compute agreement between 2 raters, taking into account “ marginals ”
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Reliability 
 
 ![](../images/image-09-01.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Reliability 
@@ -311,6 +476,12 @@ source("prelims.R", echo=FALSE)
 	+ Item response theory
 		+ Separate test characteristics from participant characteristics
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
@@ -319,6 +490,12 @@ source("prelims.R", echo=FALSE)
 	+ NOT “test is valid” or “test is invalid”
 + MUST have reliable measure before you can have validity
 	+ May have reliability without validity
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -332,6 +509,12 @@ source("prelims.R", echo=FALSE)
 	+ Relations to other variables
 	+ Consequences
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
@@ -339,6 +522,12 @@ source("prelims.R", echo=FALSE)
 	+ “… whether the content that makes up the instrument is representative of the concept that one is attempting to measure.”
 	+ Include major aspects of the concept
 	+ Does not include irrelevant material
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -348,6 +537,12 @@ source("prelims.R", echo=FALSE)
 	+ Literature search to determine how concept has been measured previously
 	+ Generate items to represent concept
 	+ Use experts to reduce items to a final set to represent the concept
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -360,12 +555,24 @@ source("prelims.R", echo=FALSE)
 	+ Question respondents about reasons for responses
 	+ Also, observation of raters / judges
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
 + Internal structure evidence –
 	+ “Evidence from several types of analysis, including factor analysis and differential item functioning …”
 	+ Does an analysis of the internal structure of a measure match the conceptual framework?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -391,6 +598,12 @@ tbl34 <- tibble::tribble(
 kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 ```
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
@@ -403,6 +616,12 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 	+ Discriminant
 	+ Validity generalization
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
@@ -410,12 +629,24 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 ![](../images/image-09-02.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
 + Consequences evidence –
 	+ “… includes both positive and negative anticipated and unanticipated consequences of measurement.”
 	+ How do the use of measures affect respondents?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -426,6 +657,12 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 	+ Relations with other variables –
 		+ Often correlations
 		+ Judgment; no established cut-offs
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -439,10 +676,22 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 		+ r > .1 <U+F0E8> weak support (if statistically significant)
 	+ Table 12.2
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement Validity 
 
 ![](../images/image-08-03.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -454,6 +703,12 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 + Specificity
 	+ A test ’ s ability to obtain a negative result when the target condition is really absent
 		+ True negative rate
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement Validity 
@@ -483,6 +738,12 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 + Validity vs Reliability
 	+ The chicken and the egg!
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement 
 
@@ -503,10 +764,22 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 	+ To establish reliability – only need to know where points are in relation to each other
 	+ To establish validity – need to know where the “ target ” is in order to evaluate how close points are to this “ target ” 
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Measurement 
 
 + Validity vs Reliability (Table 9.1)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Measurement 
@@ -527,11 +800,29 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 	+ Variables you will need to control for in your analysis, and
 	+ Variables you will need in order to test your RQ/RH.
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw09", fri[9])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion09", fri[9])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

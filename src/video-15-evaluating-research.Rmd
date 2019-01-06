@@ -14,8 +14,20 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives15")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings15")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Reports 
@@ -26,6 +38,12 @@ source("prelims.R", echo=FALSE)
 	+ Are the results of the study valid?
 	+ Are the results meaningful?
 	+ What does it all mean and how does it contribute to what you want to do?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Reports 
@@ -50,6 +68,12 @@ source("prelims.R", echo=FALSE)
 	+ How does it relate to “ systematic review ” ?
 	+ P&W, Fig 16.1
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -59,6 +83,12 @@ source("prelims.R", echo=FALSE)
 		+ If review of intervention, specify: treatment, outcome measures, and population characteristics
 		+ If review of prognosis, specify: prognostic factors and outcomes of interest
 		+ Can also be done for qualitative studies/outcomes
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -72,6 +102,12 @@ source("prelims.R", echo=FALSE)
 			+ What is the level of published evidence?
 				+ Cochrane Collaboration – RCT
 				+ AHRQ – nonrandomized studies
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -87,6 +123,12 @@ source("prelims.R", echo=FALSE)
 			+ Inconsistent findings
 		+ Overall grade
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -95,6 +137,12 @@ source("prelims.R", echo=FALSE)
 	+ Internal Validity vs External Validity
 	+ Multiple Studies vs Single Study
 	+ Large Sample Size vs Small Sample Size
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -108,6 +156,12 @@ source("prelims.R", echo=FALSE)
 	+ Special populations
 	+ Special applications – education / community
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -117,6 +171,12 @@ source("prelims.R", echo=FALSE)
 	+ Define “ intervention ” in a way that allows a reasonable selection of studies to include
 + Types of outcome measures
 	+ Usually have a specific outcome measure all studies have in common; other outcomes may vary
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -129,6 +189,12 @@ source("prelims.R", echo=FALSE)
 	+ Report specifics of search process
 	+ Build on previous reviews
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -140,6 +206,12 @@ source("prelims.R", echo=FALSE)
 			+ Document what was excluded and why
 	+ Publication bias – value in looking for unpublished sources
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -148,6 +220,12 @@ source("prelims.R", echo=FALSE)
 		+ Assess content;
 		+ Rate quality and applicability
 	+ Data extraction form (Fig 16.2)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -162,6 +240,12 @@ source("prelims.R", echo=FALSE)
 			+ Intention to treat analysis
 		+ Detection bias – outcome assessment differs across groups
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -171,6 +255,12 @@ source("prelims.R", echo=FALSE)
 		+ Jadad Scale (Table 16.2) –randomization, blinding, and attrition
 		+ PEDro Scale (Table 16.3) – randomization, blinding, attrition, design, and statistics
 		+ QUADAS Scale (Table 16.4) – used for studies of diagnostic test accuracy
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -183,6 +273,12 @@ source("prelims.R", echo=FALSE)
 		+ How consistent are findings? (ex. Table 16.6)
 			+ What can affect findings? Sample size, choice of measures, sample characteristics
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -191,10 +287,12 @@ source("prelims.R", echo=FALSE)
 		+ Integrate the findings
 		+ State the level of knowledge
 		+ Recommend future studies
-+ MEDB 5510 - Week 15
+
+<div class="notes">
 
 
-.footnote[17]
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -206,6 +304,12 @@ source("prelims.R", echo=FALSE)
 			+ Clinical trials
 			+ Evaluation of diagnostic tests
 			+ Epidemiologic studies
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -219,6 +323,12 @@ source("prelims.R", echo=FALSE)
 		+ Resolve uncertainty when conflicting results occur
 		+ Improve generalizability of findings
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -231,6 +341,12 @@ source("prelims.R", echo=FALSE)
 		+ Heterogeneity statistic – most often chi-square
 			+ Nonsignificant – there is a common treatment effect across the studies; observed differences represent chance differences
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -239,6 +355,12 @@ source("prelims.R", echo=FALSE)
 		+ Continuous measure – means or correlations
 		+ Dichotomous measure – relative risk or odds ratios
 	+ Combine estimates from individual studies to reflect overall effect size of the independent variable (e.g., intervention)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -251,6 +373,12 @@ source("prelims.R", echo=FALSE)
 			+ Proportions / frequencies (categorical data)
 			+ Correlation values (measures of association)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -258,6 +386,12 @@ source("prelims.R", echo=FALSE)
 	+ Weighting effect size
 		+ Combine effect size for each study to form common effect size estimate
 		+ Calculation adjustments – used to weight the contributions of each study
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Systematic Review / Meta Analysis 
@@ -271,6 +405,12 @@ source("prelims.R", echo=FALSE)
 			+ If findings remain consistent – strengthens conclusions
 			+ If findings change – interpret with caution
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Systematic Review / Meta Analysis 
 
@@ -281,6 +421,12 @@ source("prelims.R", echo=FALSE)
 		+ Are the results of the study valid?
 		+ What are the results?
 		+ Will the results help me in caring for my patients?
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Literature Reviews 
@@ -295,6 +441,12 @@ source("prelims.R", echo=FALSE)
 		+ Are the results meaningful?
 		+ What does it all mean and how does it contribute to what you want to do?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Evaluating Research Validity 
 
@@ -304,6 +456,12 @@ source("prelims.R", echo=FALSE)
 + Assess research validity
 	+ Series of continua
 + Emphasis on methods and results
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Validity 
@@ -317,14 +475,26 @@ source("prelims.R", echo=FALSE)
 	+ General evaluation questions (17 – 19)
 + “… merit or worth of the study as a whole…”
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Evaluating Research Validity 
 
-+ GM&L fram ework document
++ GM&L framework document
 	+ Design and methods
 		+ Variables and measurement levels
 		+ RH/RQ, Approach, & Design
 		+ Measurement reliability & validity
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Evaluating Research Validity 
@@ -340,6 +510,12 @@ source("prelims.R", echo=FALSE)
 		+ Theoretical importance / practical relevance
 		+ Interpretation
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ioannidis Article 
 
@@ -352,6 +528,12 @@ source("prelims.R", echo=FALSE)
 	+ Initially stronger effects
 	+ Replicated effects
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ioannidis Article 
 
@@ -363,6 +545,12 @@ source("prelims.R", echo=FALSE)
 		+ 4 – Prospective cohorts
 		+ 2 – Case series
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Ioannidis Article 
 
@@ -372,6 +560,12 @@ source("prelims.R", echo=FALSE)
 		+ 11/45 (24%) – unchallenged
 		+ 7/45 (16%) – contradicted
 		+ 7/45 (16%) – initially stronger effects
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Ioannidis Article 
@@ -386,6 +580,12 @@ source("prelims.R", echo=FALSE)
 			+ Publication date – p = .06 (older)
 			+ Citations per year – p = .07 (fewer citations per year)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Assignment 
 
@@ -395,11 +595,29 @@ source("prelims.R", echo=FALSE)
 + Final written proposal – Finals week
 	+ Section 0002 - Tuesday, May 8, 2018
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw15", fri[15])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion15", fri[15])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 

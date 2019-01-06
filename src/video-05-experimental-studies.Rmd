@@ -14,18 +14,42 @@ source("prelims.R", echo=FALSE)
 ***
 `r read_text("objectives05")`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("readings05")`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Research Approaches 
 
 ![](../images/image-05-01.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Approaches 
 
 ![](../images/image-05-02.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Research Approaches 
@@ -39,6 +63,12 @@ source("prelims.R", echo=FALSE)
 		+ When it will be given
 		+ Who it will be given to
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Approaches 
 
@@ -51,6 +81,12 @@ source("prelims.R", echo=FALSE)
 	+ How does it relate to random assignment?
 	+ Value of random selection?
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Approaches 
 
@@ -62,15 +98,33 @@ source("prelims.R", echo=FALSE)
 	+ Time-series designs
 	+ Single-subject designs
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Approaches 
 
 ![](../images/image-05-03.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Randomized Experimental and Q-E Designs 
 
 ![](../images/image-05-04.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Quasi-Experimental Designs 
@@ -81,6 +135,12 @@ source("prelims.R", echo=FALSE)
 	+ Time-series designs
 	+ Single-subject designs
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Quasi-Experimental Designs 
 
@@ -88,6 +148,12 @@ source("prelims.R", echo=FALSE)
 + Also called Pre-experimental
 	+ One-Group Posttest-Only
 		+ NR	E:		X	O
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Quasi-Experimental Designs 
@@ -100,6 +166,12 @@ source("prelims.R", echo=FALSE)
 		+ Immediate Group	O1	X	O2
 		+ Wait-List Group	O1	~X	O2	X	O3
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Quasi-Experimental Designs 
 
@@ -108,6 +180,12 @@ source("prelims.R", echo=FALSE)
 	+ Posttest-Only Nonequivalent Groups
 		+ NR	E:		X	O
 		+ NR	C:		~X	O
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Quasi-Experimental Designs 
@@ -123,6 +201,12 @@ source("prelims.R", echo=FALSE)
 		+ Moderate-strength
 		+ Weak
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Quasi-Experimental Designs 
 
@@ -134,10 +218,22 @@ source("prelims.R", echo=FALSE)
 		+ Characteristics
 		+ Temporary treatment vs Continuous treatment
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Q-E Time Series Designs 
 
 ![Portney & Watkins, 2009](../images/image-05-05.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Q-E Time Series Designs 
@@ -145,6 +241,12 @@ source("prelims.R", echo=FALSE)
 + Portney & Watkins, 2009
 
 ![](../images/image-05-06.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Quasi-Experimental Designs 
@@ -156,6 +258,12 @@ source("prelims.R", echo=FALSE)
 	+ Interrupted time-series design
 	+ Single system design
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Randomized Experimental Designs 
 
@@ -164,6 +272,12 @@ source("prelims.R", echo=FALSE)
 	+ Type of IV
 	+ Control of IV
 + Purpose
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Randomized Experimental Designs 
@@ -174,6 +288,12 @@ source("prelims.R", echo=FALSE)
 	+ Strengths
 	+ Weaknesses
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Randomized Experimental Designs 
 
@@ -182,6 +302,12 @@ source("prelims.R", echo=FALSE)
 	+ R	C:	O1	~X	O2
 	+ Strengths
 	+ Weaknesses
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Randomized Experimental Designs 
@@ -194,6 +320,12 @@ source("prelims.R", echo=FALSE)
 	+ Strengths
 	+ Weaknesses
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Randomized Experimental Designs 
 
@@ -202,6 +334,12 @@ source("prelims.R", echo=FALSE)
 	+ M R  C:  ~X  O
 	+ Strengths
 	+ Weaknesses
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Randomized Experimental Designs 
@@ -212,10 +350,22 @@ source("prelims.R", echo=FALSE)
 	+ Strengths
 	+ Weaknesses
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Randomized Experimental and Q-E Designs 
 
 ![](../images/image-05-07.png)
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 ### Research Design 
@@ -224,6 +374,12 @@ source("prelims.R", echo=FALSE)
 
 ![](../images/image-05-08.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Research Design 
 
@@ -231,16 +387,40 @@ source("prelims.R", echo=FALSE)
 
 ![](../images/image-05-09.png)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 ### Assignment #3 
 
 + Prepare a brief description of the topic you are planning to focus on for your research proposal. (Introduction)
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("hw05", fri[5])`
 
+<div class="notes">
+
+
+
+</div>
+
 ***
 `r read_text("discussion05", fri[5])`
+
+<div class="notes">
+
+
+
+</div>
 
 ***
 
