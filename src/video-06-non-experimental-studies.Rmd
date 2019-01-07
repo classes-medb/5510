@@ -16,7 +16,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Here are the objectives for this week.
 
+There will be a separate recording on single subject designs for those who are curious about it.
 
 </div>
 
@@ -25,7 +27,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
 
@@ -36,7 +38,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Going back to the figure that we have used. Now we will talk about comparative, associational, and descriptive studies.
 
+Now you are talking about an attribute independent variable, one that you cannot manipulate or control. You can talk about causality easily for a randomized design but these three designs do not allow you to say anything about causality.
 
 </div>
 
@@ -47,7 +51,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Figure 7.1 identifies the five types of designs (descriptive, associational, comparative, quasi-experimental, and randomized experimental).
 
+These three non-experimental approaches differ the levels of the independent variable. A large number of ordered levels (equivalent to a continuous independent variable) falls in the associational research type.
+
+DiLorenzo compared older patients to younger patients.
+
+Haberer article includes both quantitative and qualitative research. Interactive voice response (IVR) versus short message service (SMS) as a way of collecting adherence. It is an HIV study where adherence is very important. Mobile technology has a lot of penetration in places like Africa. Parents that could read were randomized, but parents who could not read were assigned to IVR.
+
+They did qualitative interviews with all participants. The first theme was poor understanding of the responses. A second theme was challenges in training. The participants did not feel able to speak up and say that they don't understand.
 
 </div>
 
@@ -61,7 +73,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Look at the very end of the introduction to get at the purpose of the research. Review the participant.
 
+Random selection is a better representation of the population. (External validity?)
+
+In any prospective study, you are only getting information for those people who are willing to be part of the study.
 
 </div>
 
@@ -79,7 +95,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Often your research has the elements of more than one design.
 
 </div>
 

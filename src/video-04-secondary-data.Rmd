@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Here are the objectives for this week.
 
 </div>
 
@@ -25,7 +25,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
+There is a second video on this topic, presented by Tim Hickman.
 
 </div>
 
@@ -42,7 +44,17 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Let's have a common definition. You are re-purposing the data. 
 
+Some secondary datasets are available strictly for this purpose. These are often national databases collected user taxpayer money and made available to anyone who wants to use them.
+
+Sometimes we collect more data than what we strictly need for our purposes. 
+
+Example: One of the interventions used motivational interviewing. Autonomous regulation scale. Some additional information came out that that there was a third subscale after the data was collected. So Mary was approached to see if her data would support this third subscale.
+
+Identifying people who have common data sets that can be combined.
+
+NIH supports secondary analysis of data. Example of RFA on secondary analysis. Publicly available data sets for aging related analysis" document.
 
 </div>
 
@@ -58,7 +70,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+The data are already collected, so you don't have to wait around.
 
+Secondary analyses are great for exploratory studies. Initial analysis was changes in rate of adherence. Sixteen different adherence studies contributed by fourteen different groups.
+
+The combination of disparate data sets is one of the hallmarks of big data (the "variety" V of the three V's of big data).
 
 </div>
 
@@ -76,7 +92,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+One of the big ones is the lack of control over the data collection process. You can't change how the data was collected without access to a time machine. You lose control over the variables that were collected, the wording of the questionnaires, the quality checks.
 
+Data quality issues can be an issue at times. Why conduct rigorous quality checks now for data that will only be used by someone else in the future?
+
+Example of depression: some of the data sources might use CESD, BDI, SCID.
 
 </div>
 
@@ -89,7 +109,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Data sets that have individual level records: there is separate records an indvidual unit (usually a person, but it could be an event like an emergency department visit).
 
 </div>
 
@@ -106,7 +126,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+The book gives several resources, and there is a document on Canvas that lists some of the secondary data sets that DBHI has worked with.
 
 </div>
 
@@ -119,7 +139,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Aggregated data avoids some privacy concerns.
 
 </div>
 
@@ -136,7 +156,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+An example of the ecologic fallacy. Sales of cigarettes are greater in states that have higher suicide rates. You don't know whether an individual who smokes is more likely to commit suicide.
 
 </div>
 
@@ -154,7 +174,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+You can have a question and find what secondary data sets might help answer that question. Or you can explore a data set that you find interesting and see if there are interesting research questions that this data set might help with.
 
+For the latter, do a literature search where others have used this data set and see what questions they were able to answer.
 
 </div>
 
@@ -226,7 +248,7 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
-
+Gaining access can mean different things. Some datasets, you can directly download (no cost). Others are free, but you have to prepare a research proposal and get approval before you can use that data. Others require a small payment. Some data sets require you to sign an agreement first.
 
 </div>
 
@@ -245,7 +267,7 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
-
+There are lots of resources available in the genetics community that are not covered here.
 
 </div>
 
@@ -266,7 +288,17 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
+Truman is setting up a system, i2b2, that allows you to study research cohorts. Health Facts. 
 
+Kansas City Quality Improvement Consortium. Mid America Research Council.
+
+Data from CMS, Department of Veteran Affairs.
+
+Missouri Information for Community Assessment (MICA). Helps local health agencies and their partners.
+
+Useful for assessing the magnitude of the problem.
+
+[[Contrast national with community level data sets.]]
 
 </div>
 
@@ -286,7 +318,9 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
+Find a study that is already collecting data and ask them to add some measures that you are interested in.
 
+Example, there are many ways to collect data on adherence. Add some extra measures after the fact to explore interrelationships or to see if newer measures are more sensitive.
 
 </div>
 
@@ -305,7 +339,7 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
-
+NCCAM example.
 
 </div>
 
@@ -317,6 +351,13 @@ Steps in Finding Databases to Fit a Specified Research Question
 	+ Get all appropriate approvals (e.g., IRB to document change in data that are being collected)
 	+ Work out what data from the main study you will have access to and how you will get the data you need
 	+ Discuss and agree on issues such as manuscript publication and authorship
+
+<div class="notes">
+
+An ancillary study requires IRB approval. You need to discuss with the coordinators of the study that you are piggy baking on 
+
+</div>
+
 ***
 ### Secondary Analysis 
 
@@ -328,7 +369,15 @@ Steps in Finding Databases to Fit a Specified Research Question
 
 <div class="notes">
 
+MEPS and YRBSS are individual based. NSQIP are event based.
 
+http://www.meps.ahrq.gov
+
+MEPS is nationally representative maintained by the Agency for Health Care Research and Quality. MEPS is largely cross-sectional, but has panels that can address longitudinal questions.
+
+The YRBSS focuses on six health risk behaviors among youths (unintentional injuries and violence, tobacco use, alcohol and other drug use, sexual behaviors. dietary behaviors, and physical activity).
+
+Review the list of secondary datasets prepared by DBHI.
 
 </div>
 

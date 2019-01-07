@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Here are the objectives for this week.
 
 </div>
 
@@ -25,7 +25,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
 
@@ -36,7 +36,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+We are using this figure a lot because it helps us organize information. Are you trying to explore relationships or describe. Experimental designs almost always explore relationships. 
 
+An experimental design has an active independent variable (one that is manipulated).
+
+The split in experimental designs
 
 </div>
 
@@ -47,7 +51,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Figure 4.2 walks you through the major designs. Note that the random assignment of patients to groups is not the same as the random selection of groups.
 
+In a quasi-experimental design, sometimes the active independent variable is manipulated by the investigator, sometimes not. 
 
 </div>
 
@@ -65,7 +71,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Random assignment of people into groups or conditions. Controling the type of treatment or when it is given.
 
+Sometimes the treatment is delivered by someone other the investigator, but gives randomization information to someone else.
 
 </div>
 
@@ -83,7 +91,23 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Random sample does not rely on any characteristics of an individual.
 
+You can use a random number generator to assign or a random number table.
+
+Randomization gives you the best chance of the two groups being equivalent.
+
+Note that alternating assignment is not the same as random assignment. Does a temporal trend cause bias?
+
+Also note that haphazard assignment is not the same as random assignment.
+
+Alternatives to random assignment leaves you with a good chance that your study will not end up getting included in a systematic overview.
+
+Random sampling. How do people get included in a study?
+
+Most random assignment studies use a non random selection.
+
+It is quite difficult to do random selection, but easy to do random assignment.
 
 </div>
 
@@ -100,7 +124,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Quasi-experimental designs fail to meet the goal of randomization. It could be that we do not have control over the treatment assignment. A quasi-experimental design does not allow you to establish causality.
 
+Single subject designs are covered separately.
 
 </div>
 
@@ -111,7 +137,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Figure 4.3. The way notations are used to describe designs.
 
+R = randomized, NR = not randomized.
+
+E = experimental, C = control
+
+Active vs Attribute variable.
+
+This notation is used as we talk about different designs.
 
 </div>
 
@@ -122,7 +156,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Figure 5.1 talks about verious experimental and quasi-experimental designs. Designs increase in rigor as you go down the table. When are measurements made.
 
 </div>
 
@@ -151,7 +185,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Only one group. No randomization. Treatment given to everyone and you get a measurement only after the treatment. It could be useful for pilot studies (feasibility)
 
+Expectancy effect.
 
 </div>
 
@@ -168,7 +204,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+One group, pre-test versus post-test. You can look at change before and after the intervention. You still don't know if the change would have occured even without this intervention.
 
+A wait list comparison, one group gets the treatment immediately and the second group has to wait before getting the treatment.
+
+This is an attractive design when the clinicians want to avoid giving the placebo to anyone.
+
+From a recruitment point of view, people who want the treatment may be willing to tolerate a delay.
+
+Note that there are two changes (O2 minus O1) and (O3 minus O2).
 
 </div>
 
@@ -183,7 +227,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+We don't have random assignment, so you may have non-equivalent groups.
 
 </div>
 
@@ -203,7 +247,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Introducing a pre-test measurement offers a further improvement. The pre-measure allows us to test for differences before the intervention was introduced.
 
+A stronger version of this design. Can you randomize which group gets the intervention, even if you can't randomize individuals?
+
+If people self-select, but not on the basis of which group they get into, that strengthens the design. But you can't rule out the possibility of systematic differences that might still influence the outcome.
 
 </div>
 
@@ -220,7 +268,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Multiple measures over time in your outcome variable.
 
 </div>
 
@@ -231,20 +279,28 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+With time series designs, you are frequently looking at two different kinds of signals. You get a feel for change in the trend before and after. You also have the possibility of a jump (shift) at the time of the intervenion.
 
+Notice in this graph.
 
 </div>
 
 ***
 ### Q-E Time Series Designs 
 
-+ Portney & Watkins, 2009
-
 ![](../images/image-05-06.png)
 
 <div class="notes">
 
+Figure 11.5 shows three different patterns. Four measurements before treatment and four measurements after treatment. Notice the bottom line shows an up and down pattern. If you looked only at O4 and O5, you might think, Wow! but the values at O6, O7, etc.
 
+The middle line B shows an increasing trend but this increase appears to be unrelated to the intervention.
+
+The top line shows a shift that is temporally associated with the intervention.
+
+These designs show some evidence of causation without a concurrent control group.
+
+Portney & Watkins, 2009
 
 </div>
 
@@ -260,7 +316,17 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+You identify a group of cases matched with controls. These are, for the most part, retrospective comparisons.
 
+Cohort design, you get a group of patients at risk of something and follow them over time. Cohort studies can be prospective or retrospective. 
+
+Two or more pre-existing groups of people. You introduce an intervention to one group.
+
+Case studies. 
+
+Withdrawal design.
+
+The Tucker article is a good example of a quasi-experimental design.
 
 </div>
 
@@ -275,7 +341,13 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Random assignment of an active independent variable. This design allows us to talk about cause.
 
+Causality, actually, is easier to establish with a randomized study, but you can establish causation with an observational study, but it takes more work.
+
+Add-on design. Take existing treatment and add either a new tre
+
+An article by Debruyn (sp?)
 
 </div>
 
@@ -290,7 +362,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+The random assignment assures that, on average, the two groups are comparable. You do not have pre measures. That prevents us from establishing comparability by comparing the pre measure values.
 
+You don't have a measure of change.
 
 </div>
 
@@ -305,7 +379,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+This is the most common type of experimental design. You still have to worry about learning effects or fatigue effects.
 
+There is a general rule of thumb, that a sample size of 30 per group allows you to be comfortable with a posttest only design, but don't rely on this rule. A pretest measure is very important.
 
 </div>
 
@@ -322,7 +398,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+People are in one group only. This is useful if the pre-measure has an influence on the post-measure (learning or fatigue effects).
 
+Notice that this design doubles the number of people needed for the research.
 
 </div>
 
@@ -337,7 +415,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Bring in matched pairs of people. Once you have those matched pairs, you randomly assign within each pair.
 
+This design has a post-measure only, but matching minimizes the need for this measure.
+
+One issue is that determining what variables to match, it places a burden on recruiting, and unmatched people are not included in the design.
 
 </div>
 
@@ -352,7 +434,26 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+People are randomized into two or more groups. In this case there are two groups. Both groups get the treatment and the control, but the order is reversed.
 
+Each person serves as their control. This really reduces the amount of variance, allowing you to get by with a much smaller sample size. How much smaller depends on a lot of factors, but effectively
+
+You cannot use this design if there are carry over effects. Interventions that involve learning or training will not work with this design.
+
+With drug trials, you need a sufficient period of time for one drug to wash out of the system before you switch. This can be a problem if leaving a patient untreated, even for a short amount of time.
+
+</div>
+
+***
+### Delayed start design.Randomized Experimental and Q-E Designs 
+
+Find the image from D'Agostino.
+
+<div class="notes">
+
+This image is from a delayed start design. D'Agostino. Column in the NEJM that is a tutorial.
+
+During phase 1, half are getting treatment and half are getting placebo. After a certain amount of time the patients in the placebo group are switched to the treatment group. There is an allowance for a transitory time. 
 
 </div>
 
@@ -363,35 +464,47 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+This image is from a delayed start design. D'Agostino. Column in the NEJM that is a tutorial.
 
+During phase 1, half are getting treatment and half are getting placebo. After a certain amount of time the patients in the placebo group are switched to the treatment group. There is an allowance for a transitory time. 
 
 </div>
 
 ***
 ### Research Design 
-
-+ Sim & Wright. *Research in Health Care* . 2000. Table 4.2
 
 ![](../images/image-05-08.png)
 
 <div class="notes">
 
+All of the designs talked about (other than the delayed start design), are in this figure that we saw earlier.
 
++ Sim & Wright. *Research in Health Care* . 2000. Table 4.2
+
+Figure 5.1
 
 </div>
 
 ***
 ### Research Design 
 
-+ Sim & Wright. *Research in Health Care* . 2000. Table 4.3
-
 ![](../images/image-05-09.png)
 
 <div class="notes">
 
-
++ Sim & Wright. *Research in Health Care* . 2000. Table 4.3
 
 </div>
+
+### Ioannidis article
+
+[[Find image/table]]
+
+<div class="notes">
+
+Ioannidis found 49 articles. The first group, the contradicted studies, represent findings that were later contradicted by other studies. The next group shows where the initial findings were supported, but the strength of the effect has not been replicated. The benefit is much weaker.
+
+The Leaf article talks about some alternatives and will be the basis of some discussion later in this class.
 
 ***
 ### Assignment #3 
@@ -400,7 +513,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+A single paragraph that might serve as your introduction. There is a template available on the Canvas site. If you want to start creating your proposal using a structure, feel free to use this template.
 
 </div>
 
