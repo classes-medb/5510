@@ -345,7 +345,16 @@ I dislike this attempt to overload the words "quantitative" and "qualitative" wi
 </div>
 
 ***
+### Translational versus basic
 
+[[Add some notes here]]
+
+***
+### Inductive versus deductive
+
+[[Add some notes here]]
+
+***
 ### Interrelationships
 
 * Examples of typical associations

@@ -109,7 +109,15 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+The compliance study is a good example of when you often end up with mixed methods to get more out of 
 
+The purpose is to find associations among variables. The variables collected are typically continuous. This type of approach does not tell you about cause and effect directly. The association might allow you to predict. Continuous really means many levels. The analyses are typically correlation based or multiple regression.
+
+An article by Rowan illustrates this well. Clinical record review and state HIV data. Variations in the engagement in care continuum. Impact of outmigration and death. When you don't have data is it because they are no longer engaged in care, or maybe they have moved on to a different provider. Has care improved over the last five years?
+
+What variables are associated with getting treatment to reduce viral loads. This paper also addresses how to handle people who you do not have complete follow-up on.
+
+Example of smoking cessation usually assumes that anyone who disappears is categorized as a treatment failure.
 
 </div>
 
@@ -141,7 +149,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+Usually used for an exploratory. It could be characterization of surveys or polls. It might be performance reports.
 
 </div>
 
@@ -156,12 +164,12 @@ Often your research has the elements of more than one design.
 		+ Frequency distribution
 	+ Some publication of strictly descriptive studies
 	+ More often – descriptive component of a study
-		+ Describe the sample …
+		+ Describe the sample
 	+ Example – Wolfe et al, 2006 study
 
 <div class="notes">
 
-
+The Wolfe study is a good example. This study is in Botswana. Effects of stigma and its effect on health related behaviors. Structured questions followed by open ended questions. They are reporting percentages.
 
 </div>
 
@@ -177,7 +185,19 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Phenomenological: try to understand the meaning that people place on events in their life. Try to understand from the perspective of the individual.
 
+Grounded theory: the goal is to generate theory from data collection: process, actions, interactions. The inferences that you take away need to be grounded in the data you collect. Try to avoid any prior expectations. Some people even recommend limiting the literature review because it might box you in.
+
+You won't know your sample size until you start collecting your data. As you are coding this information, you will be developing categories. These are provisional, there may be revisions as you go along and so the coding process is dynamic and iterative. As coding develops, you may go back to earlier data. Seek disconfirming examples. This is a check of your validity. You can also have audits by an independent reviewer. You are trying to reflect the reality of human experience.
+
+Ethnographic. Group of people who share the same culture.
+	
+Case study. A single case or group of related cases.
+
+Narrative. Develop stories.
+
+These approaches are all inductive. You are trying to develop a framework of understanding. Don't go in with a heavy set of expectations.
 
 </div>
 
@@ -269,7 +289,11 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Keep alert and look for things that come out in the material that you were not anticipating. As your categories, go back and compare them against the raw data. Make sure that you allow the data to guide you. Often coding from transcripts. But it is also good to have access to the original recordings. Sometimes there is a doubt about what some was saying (joking or sarcasm). Look for tone of voice and non-verbal cues.
 
+Content analysis is a generic term, but you can look at things like ad messages in magazines that appeal to young adults.
+
+Thematic analysis is looking for patterns.
 
 </div>
 
@@ -286,18 +310,18 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+Break up the text into "bits" that represent specific thoughts. Open coding lots of themes. Axial coding looks at the relationships between themes, builds a superstructure of ideas.
 
 </div>
 
 ***
 ### Analysis of Qualitative Data 
 
-+ Category Formation – assign sections ( data bits ) to analytical categories/themes <U+F0E8> “ coding ”
++ Category Formation – assign sections (data bits) to analytical categories/themes "coding"
 	+ Summarizing the data by identifying similarities and differences / commonalities and contrasts
 	+ Categories:
 		+ More manageable units of information
-		+ “ open coding ”
+		+ "open coding"
 		+ Descriptive – Concrete
 		+ Interpretive – Abstract
 		+ Relational
@@ -306,7 +330,11 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Software allows you to go back and forth between themes and the original text. Cross-referencing is important. Find examples easily. It helps provide validity checks. Does someone agree with your categorization.
 
+Categories need to be faithful to the data. This is internal validity. But you need to place this in a broader understanding.
+
+You need to be careful about trying to quantify this too much. Keep in mind that just because someone talks about something a lot does not mean that this is the most important thing to them. The most important thing might be something that people are uncomfortable talking about.
 
 </div>
 
@@ -314,7 +342,7 @@ Often your research has the elements of more than one design.
 ### Analysis of Qualitative Data 
 
 + Category Formation
-	+ Faithful to the data – “ internal ” aspect
+	+ Faithful to the data – "internal" aspect
 	+ Meaningful to other categories – “ external ” aspect
 	+ Balance
 		+ Generality vs Specificity
@@ -341,7 +369,9 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Phrasing of the person versus observations generated by the researcher. Labels should be considered as provisional as you work with more complete information. It is an iterative process. Go back to original data. You're looking at the specific of what's been told versus a broader understanding.
 
+Establishing the criteria may depend on how many people are doing the coding. If you don't have a pre-existing structure, the coding may evolve and may involve 100% review (both raters review everything and resolve discrepancy). Then a third person does an audit.
 
 </div>
 
@@ -349,17 +379,19 @@ Often your research has the elements of more than one design.
 ### Analysis of Qualitative Data 
 
 + Saturation – the point at which you are not gaining any new insight, no new categories being identified, no new relationships being defined
-	+ Don ’ t need any additional analysis
-	+ Don ’ t need any additional data collection (if collection & analysis done in parallel)
+	+ Don't need any additional analysis
+	+ Don't need any additional data collection (if collection & analysis done in parallel)
 	+ Determinant – nature of the information being collection – NOT amount of information
 	+ Keeping notes – of the coding/analysis process
 	+ Help identify categories/relationships
-	+ Help if “ stuck ”
+	+ Help if "stuck"
 	+ Document analysis process
 
 <div class="notes">
 
+Saturation is a way to assess your sample size. Have you gotten a representative amount of data. 
 
+Really important to keep notes of the coding and analysis process, so you can check your work. Allows you to do qualirty checks on the process.
 
 </div>
 
@@ -372,11 +404,13 @@ Often your research has the elements of more than one design.
 		+ Must reflect the informants thoughts
 		+ Audit of the coding by an independent person can check for the match between the coding and the source information
 	+ Low-inference descriptors
-	+ Look for “ negative cases ”
+	+ Look for "negative cases"
 
 <div class="notes">
 
+You develop a framework, but that framework must always represent what the subjects have said.
 
+Low inference descriptors are those things involving just the basic words or text.
 
 </div>
 
@@ -390,7 +424,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+This was mentioned earlier.
 
 </div>
 
@@ -404,7 +438,9 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+The Eton article has a great description of the coding process. The long term goal develop a burden of treatment with wide applicability across a wide range of treatments.
 
+Identify issues associated with burden of treatment. Derivation of patient report that is flexible enough to apply across any disease.
 
 </div>
 
@@ -422,7 +458,13 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Checked for a logical flow from broad to specific. Framework from first five interviews. Reviewed after ten more interviews. Saturation reached after 25 interviews, but they had 7 more that they included anyway.
 
+Described patient population.
+
+Figure 1 shows the themes that emerged. 
+
+The third theme was factors that exacebate burdens had subthemes.
 
 </div>
 
@@ -430,13 +472,15 @@ Often your research has the elements of more than one design.
 ### Berkley-Patton Article 
 
 + Goal – Use qualitative method to explore components of the Information-Motivation-Behavioral Skills model
-	+ Information + Motivation <U+F0E8> Behavioral Skills <U+F0E8> Adherence
+	+ Information + Motivation Behavioral Skills Adherence
 + Focus Groups
 + Content analysis – “… identify themes on expectations and information, personal and social motivation, and behavioral skills related to ART adherence.”
 
 <div class="notes">
 
+Another example on Canvas is an article by Jannette Berkley-Patton et al. Done using focus groups and content analysis.
 
+Information and expectations with subthemes. Specific text included as examples of themes.
 
 </div>
 
@@ -480,7 +524,9 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Community Based Participatory Research.
 
+This is increasingly used and make a big contribution. Extent to which the population that you are interested in are very much a part of the process of designing the research. It takes place outside the research process. It hurts internal validity but it is far more relevant, improving external validity. The value goes way beyond. Develop community capacity, improves sustainability, builds skills. More emphasis on these models using PCORI. Most of this work involves the community from the beginning. 
 
 </div>
 
@@ -509,7 +555,11 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
+Other research may not reflect what the community is interested in. Research in a carefully constrained environment may not be sustainable.
 
+Collaboration among practitioners where they can combine efforts. Also valuable for networks of pharmacists.
+
+Issues important to the population and community. There can be a ripple effect. When community members get engaged, they can learn skills that can help in a different context, and inform them about resources that they can use in other areas. The community gains from the whole process.
 
 </div>
 
@@ -526,7 +576,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+Simple. What is important and what is needed. Add value to the community. Identify people who can be resources. This is very much a collaboration. It can be top-down, where you make yourself available to the community. A bottom-up is where you offer your expertise to help them develop a project.
 
 </div>
 
@@ -539,7 +589,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+There are some many community level issues associated with health disparities.
 
 </div>
 
@@ -556,7 +606,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+You biring in your knowledge of existing resources, and provide support and suggestions. Advice about resources that they can tap.
 
 </div>
 
@@ -566,13 +616,13 @@ Often your research has the elements of more than one design.
 + Contributions by community
 	+ Unique insight into local context
 	+ Information concerning local needs and priorities
-	+ Provide “ real world ” feedback/reaction
+	+ Provide "real world" feedback/reaction
 	+ Provide guidance for adapting programs/interventions to the community
-+ Community involvement <U+F0E8> community capacity <U+F0E8> sustainability
++ Community involvement community capacity sustainability
 
 <div class="notes">
 
-
+They understand needs and real world feedback. Does this fit in to individual people's needs.
 
 </div>
 
@@ -583,7 +633,7 @@ Often your research has the elements of more than one design.
 
 <div class="notes">
 
-
+I don't expect this to be your final literature review but it will help form the literature review. Looking for progress in finding relevant references. No need to turn in a reference section. Use a reference or citation style. Pick a style that is used in your field. Just be consistent. Show me evidence of the literature that is relevant.
 
 </div>
 
