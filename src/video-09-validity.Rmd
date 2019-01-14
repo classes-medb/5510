@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Here are the objectives for this week.
 
 </div>
 
@@ -25,7 +25,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
 
@@ -36,7 +36,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+The two articles Green et al, Ratliff et al will be the focus of discussion activities. Conistent and free from error, reproducible. It is measuring what it is intended to measure.
 
 </div>
 
@@ -50,7 +50,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+We can expect consistent responses. It is able to produce with predictable consistency over time. Without reliability, you have to worry about what the study is telling you.
 
+Suppose you are measuring change from baseline. Unless the scores change in a predictable way. Otherwise, you won't know if the changes are related to the intervention or if they represent random variation.
 
 </div>
 
@@ -84,7 +86,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+We don't expect the observed scores to have perfect reliability. There is some fallibility. Something random can occur and people are not always consistent in how they answer things. Measurement error (noise) is messing things up. You want the observed score to reflect the true score more than error.
 
+Systematic error move in a consistent direction. You can often correct for this using calibration. It is often not a problem for reliability, but it will affect validity.
+
+Random errors are errors due to chance. They have unpredictable effects. They usually occur due to unpredictable factors. Less random error means that the observed score more truly affects the underlying true score.
+
+Errors could be due to observer making an error. It is really important to follow established protocols.
+
+Resting heart rate could be influenced by a loud noise, for example. You would hope that this occurs randomly.
 
 </div>
 
@@ -92,7 +102,7 @@ source("prelims.R", echo=FALSE)
 ### Measurement Reliability 
 
 + Goal – Use measure that
-	+ B est reflects the true score
+	+ Best reflects the true score
 	+ As little “error” as possible
 	+ As “reliable” as possible
 + Measurement reliability –
@@ -101,7 +111,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+The reliability coefficient is a ratio of the true score to the observed score.
 
 </div>
 
@@ -116,7 +126,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Suppose you want to get at a person's level of functioning. If the functioning does not change, then the measure does not change. When functioning does change, you want to the measure to change as well.
 
+The standard error places bounds on where the true score lies.
 
 </div>
 
@@ -165,7 +177,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+r is the reliability coefficient.
 
 </div>
 
@@ -183,7 +195,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+If the reliability is lower, then the range of scores is much wider.
 
 </div>
 
@@ -192,7 +204,7 @@ source("prelims.R", echo=FALSE)
 
 + Correlation coefficient
 	+ For measurement reliability, general rules –
-		+ “reliable”	.7 <U+F0E8> 1.0
+		+ “reliable”	.7 to 1.0
 	+ More strict criteria
 		+ > = .90	for measures used to make decisions about individuals
 		+ .80		acceptable for research
@@ -202,7 +214,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+It's not unusual to see reliabilities as low as 0.7 or even 0.6.
 
 </div>
 
@@ -222,7 +234,19 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Reliability is usually established when a measure is developed. When you go about using a measure, look at what's already been published. Is it used in a context similar to yours. Was the time frame for test-retest reliability comparable to your time frames?
 
+Test-retest reliability is the coefficent of stability (repeatability). This only makes sense in settings where you expect things to remain stable.
+
+Intelligence is likely to be stable along long time frames but mood changes rapidly.
+
+What size interval would you expect the measure to be stable?
+
+Parallel forms, alternate forms. If you are concerned that information known at baseline, just that process of collecting that data might have an influence. You can get at this with using different items, reordering items.
+
+Homogeneity of scale. The extent to which the items are measuring the same underlying construct.
+
+Split half, compare first half versus second half, odd items versus even items, random items. It is not necessarily easy to do because you have to believe that the two items are comparable. Also when you reduce the number of items, this influences the reliability. The Spearman-Brown formula adjusts for this.
 
 </div>
 
@@ -275,7 +299,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+The average of all possible split half items. It is used with interval response scale.
 
 </div>
 
@@ -295,7 +319,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Before you go into this assess the intra-rater reliability. Consistency of a single rater.
 
+Look at percent agreement. How many different events are you going to have raters code for.
 
 </div>
 
@@ -446,7 +472,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Kappa goes into more than agreement. Compares agreement to the amount expected by chance.
 
 </div>
 
@@ -457,7 +483,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+From the textbook. Table 11.1. Some get at participant responses. Some get at observer responses.
 
 </div>
 
@@ -478,7 +504,13 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Generalizability theory gets at reliability differently from classical test theory. It looks at facets of reliability.
 
+No one coefficient provides a complete assessment of reliability.
+
+The third theory is item response theory separates test itmes from participant characteristics. All items are not equally revealing.
+
+IRT useful for intelligence tests.
 
 </div>
 
@@ -493,7 +525,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+When we develop measures it is with respect to discrimination, evaluation, or prediction. What is the measure intended for? Establishing validity isn't as simple as establishing validity.
 
+Validity implies that the measure is relatively free from error.
 
 </div>
 
@@ -511,7 +545,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+You are really interested in reflecting the underlying construct. If the hypothesis is not supported, could it be the measurement at fault?
 
+You don't see ongoing evidence of validity. What is already out in the literature.
+
+if you are using a measure in a very different context. For instance, if nobody has used this measure in a population, you might want a second measure that has been established.
 
 </div>
 
@@ -525,7 +563,13 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Is the content of the evidence is consistent with what you expect.
 
+[[Face validity versus content validity]]
+
+It represents model. Not influenced by things like literacy factors.
+
+This is determined subjectively by a panel of experts. Needs to be an agreement and common understanding.
 
 </div>
 
@@ -548,9 +592,9 @@ source("prelims.R", echo=FALSE)
 ### Measurement Validity 
 
 + Response processes evidence –
-	+ “… the extent to which the types of participant responses match the intended construct.”
+	+ "the extent to which the types of participant responses match the intended construct."
 		+ NOT socially desirable responses
-		+ NOT “test-taking” skills
+		+ NOT "test-taking" skills
 	+ Observe respondents as they complete measure
 	+ Question respondents about reasons for responses
 	+ Also, observation of raters / judges
@@ -569,6 +613,12 @@ source("prelims.R", echo=FALSE)
 	+ Does an analysis of the internal structure of a measure match the conceptual framework?
 
 <div class="notes">
+
+Factor analysis is a method of grouping items representative of individual constructs.
+
+In the week 9 folder is the MOTIV* document. The CES-D score has twenty items rated on a 0 to 4 scale, with four of the items reverse scaled. 
+
+There is a somatic factor in this scale. This might be considered a subscale. Run a factor analysis, even though it only has four levels. Do the items all hang together.
 
 
 
@@ -600,7 +650,11 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
+The ones in yellow. Multiple items to represent a measure. Is there variability in any of those items. If you had selected one and only one item, it might be influenced by external factors like your mood. Multiple items avoid this problem.
 
+The N items had Cronbach's alpha of ?? and the C items had Cronbach's alpha of ??.
+
+A factor analysis allows us to see if the measure is behaving the way we expect it to.
 
 </div>
 
@@ -618,7 +672,15 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
+Predictive: can your measure be a valid predictor of some future event. Example: does ACT score predict college GPA. There are practical limitations because the outcome measure needs to be obtained for everyone.
 
+Concurrent: taken at about the same time, new measure versus an established one.
+
+Convergent: Multiple measures behave similarly.
+
+Discriminant: fail to find a relationship where there shouldn't be a relationship.
+
+Generalization: The extent to which it can be generalized to a new situation.
 
 </div>
 
@@ -631,7 +693,11 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
+Motivation/readiness/confidence to adhere. Look at predictive validity versus how well patients adhere. Test for concurrent validity. Different for people in different stages of the "stages of change".
 
+Concurrent: self-efficacy, autonomy, locus of control.
+
+Discriminant validity: not related to education.
 
 </div>
 
@@ -660,7 +726,7 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
-
+For four of these, it is largely a subjective assessment. Others involve relations (often correlations). There is no official dividing line for these correlations to establish valid versus not valid.
 
 </div>
 
@@ -689,7 +755,7 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
-
+Table 12.2 explains what each type of validity means.
 
 </div>
 
@@ -698,10 +764,10 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 + Validity of diagnostic tests
 + Sensitivity
-	+ A test ’ s ability to obtain a positive result when the target condition is really present
+	+ A test's ability to obtain a positive result when the target condition is really present
 		+ True positive rate
 + Specificity
-	+ A test ’ s ability to obtain a negative result when the target condition is really absent
+	+ A test's ability to obtain a negative result when the target condition is really absent
 		+ True negative rate
 
 <div class="notes">
@@ -717,7 +783,9 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
-.footnote[Portney & Watkins, 2009]
+Table 27.1 from Portney & Watkins, 2009
+
+Sensitivity and specificity are not affected by prevalence. But prevalence plays a part in calculation of positive and negative predictive values.
 
 </div>
 
@@ -751,7 +819,7 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
-[Portney & Watkins, 2009]
+Figure 6.1 from Portney & Watkins, 2009. Not valid, not reliable. Valid, not reliable. Not valid, reliable. Valid, reliable.
 
 </div>
 
@@ -766,18 +834,7 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 
 <div class="notes">
 
-
-
-</div>
-
-***
-### Measurement 
-
-+ Validity vs Reliability (Table 9.1)
-
-<div class="notes">
-
-
+Sumary. Always start by establishing reliability (where the points are in relation to each other).
 
 </div>
 
@@ -787,6 +844,8 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 ![](../images/image-08-07.png)
 
 <div class="notes">
+
++ Validity vs Reliability (Table 9.1)
 
 .footnote[Sim & Wright. 2000.]
 
@@ -803,7 +862,7 @@ kableExtra::kable_styling(knitr::kable(tbl34), font_size = 18)
 <div class="notes">
 
 
-
+RQ=research question, RH=research hypothesis.
 </div>
 
 ***
