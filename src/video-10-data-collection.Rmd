@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Here are the objectives for this week.
 
 </div>
 
@@ -25,7 +25,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
 
@@ -36,7 +36,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Table 13.1 is useful in terms of the various things that we will touch on. It classifies by the two types of quantitative research and by qualitative research. Organized by the potential amount of patient filtering. The ones at the top should have less participant filtering. Also note that the symbols are not hard and fast rules, but represent the likelihood.
 
 </div>
 
@@ -49,7 +49,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
 
+Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
 
 </div>
 
@@ -64,7 +66,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
 
+How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
 
 </div>
 
@@ -83,7 +87,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
 
+Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
+
+Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
+
+Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
+
+Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
 
 </div>
 
@@ -103,7 +115,21 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Personality inventories: the validity is dependent on an individual's self-awareness.
 
+Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
+
+The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
+
+Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open-ended, partial (responses plus other), and close ended responses.
+
+Interviews can be done in person or over the phone. This assumes a real-time exchange of information versus someone filling out information on their own time.
+
+Focus groups involve more than one. The dynamic can be an advantage or disadvantage. It might stifle some interactions, but perhaps people think of things based on what other people say.
+
+[[Rope in grain elevator]]
+
+Focus groups can be faster.
 
 </div>
 
@@ -121,7 +147,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Interview allows you to probe for comments. Video as well as audio is now available. It takes time and training. Concerns about anonymity with an interview.
 
+Questionnaires are self-administered. Return rates are a concern. When sent out blindly, you can get low return rates, which hurts the generalizability of the study. There is potential for misunderstanding and people may get into a routine response and not provide as good quality of response.
+
+Design the survey to address your research question. Thing about the pieces and the order.
 
 </div>
 
@@ -139,7 +169,17 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Even as simple as something like age, you can ask it in an open-ended format that allows you to categorize any way you like or even to forgo categorization.
 
+Wording is important. Simplicity and reading level. Use standardized scales whenever you can. 
+
+Double-barreled questions. [[Ask option about supervisors and managers]]
+
+How many times questions, think about the time frame (over the past 24 hours, past week, past month). Shorter time frames better recall, but subject to more external variations.
+
+Building a level of trust. Don't ask people to admit to "bad behavior". Think of it from the perspective of the person providing the information.
+
+[[Income: actual versus categories]]
 
 </div>
 
@@ -151,6 +191,8 @@ source("prelims.R", echo=FALSE)
 <div class="notes">
 
 + Open-ended vs Close-ended
+
+Respective roles of open or close ended format. This is a nice guide.
 
 .footnote[Sim & Wright, 2002]
 
@@ -168,6 +210,8 @@ source("prelims.R", echo=FALSE)
 
 .footnote[Portney & Watkins, 2009]
 
+Example of five points (SD, D, N, A, SA)
+
 </div>
 
 ***
@@ -177,10 +221,22 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Everyone uses the term Likert with a hard-i, but the persons who developed this scale used a soft-i.
+
+All items contributing to a total.
+
+Some debate about the number of categories. Odd versus even. Even forces an opinion. Also a debate over a large versus a small number of items.
+
+Do you want to reverse code some items. It could help keep the participants alert and thingking  This may end up confusing. [[13 questions, but question 8, first question on the bakc page, was the only reverse coding.]]
+
 + Surveys – Response Options
 	+ Likert
 
 .footnote[Sim & Wright, 2002]
+
+Figure 15.8 is a different version of a five point scale.
+
+Commercial plug for REDCap. Entry on a tablet. Coding is done on the back-end.
 
 </div>
 
@@ -194,7 +250,11 @@ source("prelims.R", echo=FALSE)
 + Surveys – Response Options
 	+ Likert
 
-.footnote[Sim & Wright, 2002]
+.footnote[Sim & Wright, 2002] 
+
+Figure 15.9 shows a seven point response.
+
+IRB insistence on a "Prefer Not to Answer" response. Contrast this to a "Neutral" option.
 
 </div>
 
@@ -209,6 +269,10 @@ source("prelims.R", echo=FALSE)
 
 .footnote[Sim & Wright, 2002]
 
+Figure 15.3 
+
+These scales seem backwards to Mary. You don't necessarily need to include the numbers are on the form. They can be added on the back end.
+
 </div>
 
 ***
@@ -220,7 +284,13 @@ source("prelims.R", echo=FALSE)
 
 + Surveys – Response Options
 
-.footnote[Sim & Wright, 2002]
+Figure 15.4, Sim & Wright, 2002.
+
+Not at all, somewhat, moderately, very much, extremely.
+
+Note that the largest number is associated with "not at all".
+
+Double check that everyone agrees that somewhat is less than moderate, very much is less than extremely.
 
 </div>
 
@@ -233,7 +303,9 @@ source("prelims.R", echo=FALSE)
 
 + Surveys – Response Options
 
-.footnote[Sim & Wright, 2002]
+Figure 15.5. [Sim & Wright, 2002]
+
+Good, Fair, Poor is a three point scale. Add Very good for a four point scale. Add Excellent to get a five point scale.
 
 </div>
 
@@ -247,7 +319,9 @@ source("prelims.R", echo=FALSE)
 + Surveys – Response Options
 	+ Semantic Differential
 
-.footnote[Portney & Watkins, 2009]
+Figure 15.4 [Portney & Watkins, 2009]
+
+This is an example of a semantic differential. Seven point scale. Only label the extremes. Notice the reverse scaling of some items.
 
 </div>
 
@@ -261,7 +335,9 @@ source("prelims.R", echo=FALSE)
 + Surveys – Response Options
 	+ Semantic Differential
 
-.footnote[Portney & Watkins, 2009]
+Figure 15.11 [Portney & Watkins, 2009]
+
+A second example of a semantic differential scale.
 
 </div>
 
@@ -275,7 +351,17 @@ source("prelims.R", echo=FALSE)
 + Surveys – Response Options
 	+ Visual Analogue Scale (VAS)
 
-.footnote[Portney & Watkins, 2009]
+Figure 15.5. [Portney & Watkins, 2009]
+
+Commonly used for pain. Usually the line is 100 mm long. Gives you a number from 0 to 100, which allows you to treat this as a continuous variable.
+
+Anchors at each extreme.
+
+How do you handle a check mark.
+
+This is a very labor intensive data entry task.
+
+Note that the photocopy process can change the length of the scale (102 mm versus 100 mm).
 
 </div>
 
@@ -289,7 +375,9 @@ source("prelims.R", echo=FALSE)
 + Surveys – Response Options
 	+ Numerical Rating Scale
 
-.footnote[Sim & Wright, 2002]
+Figure 15.1 [Sim & Wright, 2002]
+
+This scale has 7 numbers with anchors at each end.
 
 </div>
 
@@ -308,7 +396,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+There are ways of checking the reading level of the survey. Good instructions. Branching (if "no" skip) patterns need to be laid out very clearly.
 
 </div>
 
@@ -319,7 +407,19 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-+ Surveys
+Sim and Wright. Sources of bias in attitude measurement.
+
+Social desirability, conformity, denial, acquiescence.
+
+Leading questions, loaded terminology, presumptive (wife-beating) 
+
+Response set (stuck on the same value), or tendency to extremes.
+
+Example of "push polling."
+
+"Any other comments?" http://www.biomedcentral.com/1471-2288/4/25.
+
+http://www.pmean.com/04/DesigningQuestionnaire.html
 
 </div>
 
@@ -335,7 +435,9 @@ source("prelims.R", echo=FALSE)
 	
 <div class="notes">
 
+Medical history interview. Anti-retroviral medication, but some had no history yet, so used adherence in general. This gets tricky with multiple medications.
 
+There's an issue that came up when using this study, which will be discussed in the discussion board. Answer these questions yourself, and how you based your response to the second through fourth items.
 
 </div>
 
@@ -344,7 +446,7 @@ source("prelims.R", echo=FALSE)
 
 + Process of developing a survey
 	+ List of measures/variables
-	+ What ’ s already available?
+	+ What's already available?
 	+ Put the pieces together
 	+ Test and revise as needed
 	+ Final check – do you really need all of the items?
@@ -352,7 +454,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Flows well and is clear.
 
+Get some real test runs with people who have seen it for the first time. Do you really need all of these items? 
+
+[[Example of sexual preferences in survey on Internet usage.]]
 
 </div>
 
@@ -363,7 +469,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Figure 2.1 from your book. This is back from Chapter 2, and keep this in mind when you are designing your data collection.
 
 </div>
 
@@ -378,7 +484,19 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+How things are working, where there is lack of clarity, how long does it take, where the systems don't work.
 
+Make sure that your extraction process is complete as possible for secondary data. For prospective surveys, flip through a survey upside down to see if items are all filled in. Hope that you haven't missed a page. Electronic collection can force someone to respond before they answer the next question.
+
+[[Ethically can't force someone to complete a questionnaire.]]
+
+How do you handle multiple responses.
+
+Code the maximal detail of variables like age so you can collapse as you see fit. Make sure that you code missing or ambiguous responses consistently.
+
+REDCap is great!
+
+[[Double entry coding]]
 
 </div>
 
@@ -407,7 +525,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Figure 15.2. Completed survey with callout boxes showing how we handled problem responses.
 
 </div>
 
@@ -424,7 +542,15 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+[[See Intro to SAS/R material]]
 
+By thinking about the backend process, you can sometimes fix things before you collect the data.
+
+Mary uses Excel for documentation, but never for analysis, rarely for data entry.
+
+Summarizes factor analysis, Cronbach's alpha. Note whether better to have high score or better to have low score.
+
+[[EUSpRIG site]]
 
 </div>
 
@@ -439,7 +565,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Look for inconsistent values, outliers, invalid values.
 
+Note that certain responses on one question might lead to limits on the responses to other questions. Example, ever smoked? versus How many years?
 
 </div>
 
@@ -451,7 +579,10 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Figure 15.4 shows SPSS output using descriptive statisticis to check data entry. Example of Likert scale where everyone responded 5. Note the number of responses/missing responses.
 
+
+Hopefully, you've done such a good job planning that these issues don't arise after the data is collected. [[Ha!]]
 
 </div>
 
@@ -462,7 +593,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+What's the evidence to support that measure.
 
 </div>
 
