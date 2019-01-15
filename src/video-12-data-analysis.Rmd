@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+Here are the objectives for this week.
 
 </div>
 
@@ -25,7 +25,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
 
@@ -45,7 +45,13 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+We are talking about data analysis and interpretation. Planning. Some of this will be familiar to you. This is not a full statistical coverage of the topic.
 
+Take the data from the sample and make inferences about the population. The sample is a subset. Inferential statistics is the process by which you infer information about the population.
+
+NHST is the traditional way that a huge amount of research relies on.
+
+Null hypothesis is no difference or no relationship. The alternative is often called the research hypothesis.
 
 </div>
 
@@ -64,7 +70,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Does the data allow us to reject the null hypothesis. Rejecting means the difference or relationship is greater than what you'd expect due to sampling error.
 
+[[Directional only for two group comparisons or bivariate relationships]]
+
+never talk about proving the null hypothesis. A large p-value does not mean that you proved the null hypothesis. There might be sources of error that lead to failure to reject the null hypothesis.
 
 </div>
 
@@ -82,7 +92,13 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+Directional is more likely when comparing a treatment to a control [[placebo]]. When comparing two different treatments, you would have to use a non-directional hypothesis.
 
+Is there existing evidence to support a directional hypothesis.
+
+If you use a directional hypothesis, and you get an extreme result in the opposite direction, you can't claim statistical significance.
+
+Some people think that directional hypotheses are "cheating".
 
 </div>
 
@@ -97,7 +113,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-
+So how well does your sample reflect the population?
 
 </div>
 
@@ -110,12 +126,16 @@ source("prelims.R", echo=FALSE)
 
 + Example
 
+Figure 16.1 from your book.
+
+Flow chart of selecting from a population, randomizing to two groups, and then comparing the results in each group, and choosing between two hypotheses.
+
 </div>
 
 ***
 ### Making Inferences - NHST 
 
-+ Accessible population <U+F0E8> Sample
++ Accessible population -> Sample
 + Random assignment to groups
 + Conduct study and collect data
 + Conduct statistical analysis
@@ -124,7 +144,11 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+[[This is a re-iteration of Figure 16.1]]
 
+From your basic Statistics class, you may recognize that this setting would require a two-sample t-test.
+
+[[Knowing which statistic to use in what setting is one of the most difficult tasks that you will encounter.]]
 
 </div>
 
@@ -133,15 +157,19 @@ source("prelims.R", echo=FALSE)
 
 + Significant difference or not?
 	+ Inferential statistics – allow you to determine this
-+ Reject the null <U+F0E8>
++ Reject the null ->
 	+ The observed difference is highly unlikely if the null hypothesis is actually true
-+ Fail to reject the null <U+F0E8>
++ Fail to reject the null ->
 	+ We can not say that the observed difference is highly unlikely
 	+ Do NOT “accept” the null hypothesis
 
 <div class="notes">
 
+[[If a particular sample result is unlikely under the null hypothesis, this causes you to question the null hypothesis.]]
 
+Reasons why you failed to reject the null hypothesis. A poorly implemented intervention, failure to use valid and reliabile measures, quality problems during the study.
+
+Why never say that we accept the null.
 
 </div>
 
@@ -152,7 +180,9 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
+This is a table of possible outcomes H0 true, H0 false versus reject H0, accept H0.
 
+Define power as the probability of rejecting the null hypotheis when the alternative hypothesis is true. [[Since the ]]
 
 </div>
 
@@ -183,6 +213,8 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 
 + Statistical testing – possible outcomes
 
+Figure 16.2 provides a different way of displaying Type I and Type II errors in a two by two table.
+
 </div>
 
 ***
@@ -190,11 +222,13 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 
 ![](../images/image-12-03.png)
 
-+ Statistical testing – possible outcomes
-
 <div class="notes">
 
++ Statistical testing – possible outcomes
 
+Two normal distributions and bell shaped curves. 
+
+Figure 16.3 from your book. Directional negative hypothesis. Example an intervention that results in a reduction in symptoms/pain.
 
 </div>
 
@@ -208,7 +242,7 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 
 <div class="notes">
 
-
+[[This is a rehash of Figure 16.3.]]
 
 </div>
 
@@ -223,6 +257,62 @@ kableExtra::kable_styling(knitr::kable(tbl8), font_size = 18)
 	+ Fig 16.4 – Non-directional
 
 </div>
+
+***
+### Null value
+
+```{r null-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45)
+text(0, 0.55, cex=0.5, "Null\nvalue")
+```
+
+***
+### Critical value
+
+```{r critical-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45)
+text(1.2, 0.55, cex=0.5, "Critical\nvalue")
+```
+
+***
+### Alpha level
+
+```{r alpha-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
+
+
+
+```{r beta-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x, m=3)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
 
 ***
 ### Power Analysis 
@@ -374,7 +464,17 @@ kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
 
 <div class="notes">
 
+There is always a level of uncertainty associated with a single study.
 
+[[ASA statement on p-values]]
+
+[[Sackett article. http://www.cmaj.ca/content/165/9/1226.short or http://blog.pmean.com/physiological-statistics/ ]]
+
+[[ Example of PiFace http://blog.pmean.com/simple-sample-size/ ]]
+
+[[ Range of clinical indifference http://www.pmean.com/04/confidence.html ]]
+
+[[p-values with lots of zeros, doesn't make up for biases in the study.]]
 
 </div>
 
