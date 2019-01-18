@@ -108,7 +108,6 @@ The ideas are all good, but let me emphasize the importance of reading. Almost e
 
 * Professional development.
 
-
 <div class="notes">
 
 There are many reasons to conduct research. You can develop knowledge for its own sake or for a practical application. You can also conduct research to improve the research process (this is an area I am very interested in). You can also conduct research for your own professional development. Nothing makes you a better consumer of other people's research than doing a bit of research yourself.
@@ -347,12 +346,54 @@ I dislike this attempt to overload the words "quantitative" and "qualitative" wi
 ***
 ### Translational versus basic
 
-[[Add some notes here]]
+* Basic research: "without thought of practical ends."
+
+  + ![National Science Foundation (1953) "What is Basic Research" published in the Third Annual Report of the National Science Foundation](https://www.nsf.gov/pubs/1953/annualreports/ar_1953_sec6.pdf).
+  
+* Translational research: transition from "bench to bedside."
+
+  + Called T1 research.
+  
+  + Next step (T2): transition from bedside to community.
+
+  + T3, T4, T5???
+
+<div class="notes">
+
+I find the term "translational" to be abused a lot, but it helps to understand the original definition. The translational/basic dichotomy is not too much different from the applied/theoretical dichotomy. Basic research is research done mostly in the laboratory and "without thought of practical ends." Translational research represents a bridge between the laboratory and the real world. You'll see the phrase "from bench to bedside" used in this context. 
+
+Some people subdivide translational research into two types with T1 research representing a bridge from the laboratory to the patient and T2 research representing a bridge from a the carefully controlled clinical trial to actual practice settings in the regular community. 
+
+Some people further divide translational research into even more categories, T3, T4, and even T5. If you have a good resource that explains clearly what T5 research is, I'd encourage you to share it with the rest of the class.
+
+Like every other dichotomy, it is a mistake to view one side of the dichotomy as superior to the other.
+
+</div>
 
 ***
 ### Inductive versus deductive
 
-[[Add some notes here]]
+* Not the same as inductive/deductive reasoning.
+
+* Deductive: use theory to test a specific hypothesis
+
+  + from general to specific.
+  
+* Inductive: collect specific facts to build a theory
+
+  + from specific to general.
+  
+  + often relies on qualitative research (grounded theory)
+
+<div class="notes">
+
+Another important dichotomy is deductive versus inductive research. Note that this is not quite the same thing as inductive versus deductive reasoning.
+
+With deductive research, you rely on a broad theory to identify specific hypotheses to test. You are moving from a general knowledge base to identify and test specific hypotheses that the theory would predict.
+
+Inductive research collects specific facts and uses them to develop a novel theory. You are moving from the specific to the general. Often (but not always), an inductive research project relies on qualitative methods in general and a grounded theory approach.
+
+</div>
 
 ***
 ### Interrelationships
