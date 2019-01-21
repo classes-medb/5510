@@ -6,13 +6,13 @@
 
 ### Optional reading
 
-Simon. “The problem with alternating assignment”
+Simon. "The problem with alternating assignment"
 
-Tucker et al. “Utility of an interactive voice response system to assess antiretroviral pharmacotherapy adherence among substance users living with HIV/AIDS in the rural south”
+Tucker et al. "Utility of an interactive voice response system to assess antiretroviral pharmacotherapy adherence among substance users living with HIV/AIDS in the rural south"
 
-Simon. “Some quasi-experimental alternatives to randomization”
+Simon. "Some quasi-experimental alternatives to randomization"
 
-De Bruin et al. “Electronic monitoring-based counseling to enhance adherence among HIV-infected patients: A randomized controlled trial”
+De Bruin et al. "Electronic monitoring-based counseling to enhance adherence among HIV-infected patients: A randomized controlled trial"
 
-Ioannidis. “Contradicted and initially stronger effects in highly cited clinical research”
+Ioannidis. "Contradicted and initially stronger effects in highly cited clinical research"
 

@@ -16,6 +16,20 @@ for (i in html_list) {
   cat(paste(html_list, collapse=", "))
 }
 
+pdf_list <- list.files(src_path, pattern="*.pdf")
+for (i in pdf_list) {
+  fn <- paste(src_path, i, sep="/")
+  file.copy(fn, doc_path, overwrite=TRUE)
+  file.remove(fn)
+}
+
+{
+  cat("\n\n")
+  cat(length(pdf_list))
+  cat(" pdf file(s) moved: ")
+  cat(paste(pdf_list, collapse=", "))
+}
+
 pptx_list <- list.files(src_path, pattern="*.pptx")
 for (i in pptx_list) {
   fn <- paste(src_path, i, sep="/")

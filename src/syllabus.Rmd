@@ -2,7 +2,9 @@
 title: "Syllabus for Clinical Research Methods (MEDB 5510)"
 author: "Steve Simon"
 date: "December 26, 2018"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r echo=FALSE}
@@ -141,6 +143,8 @@ While most UMKC employees are required to report any known or suspected violatio
 
 ## Week 1: Course Overview and Introductions; Introduction to Clinical Research Methods
 
+Please note that I plan to make minor changes to the objectives, readings, homework assignments, and discussion questions. This list is current through week 1, and will be updated as the course progresses.
+
 `r read_text("objectives01")`
 
 `r read_text("readings01", fri[1])`
@@ -148,6 +152,8 @@ While most UMKC employees are required to report any known or suspected violatio
 `r read_text("hw01", fri[1])`
 
 `r read_text("discussion01", fri[1])`
+
+<!---
 
 ## Week 2: Planning a Research Project, Introduction to Key Concepts, Research Ethics
 
@@ -291,3 +297,6 @@ While most UMKC employees are required to report any known or suspected violatio
 
 `r read_text("discussion16", fri[16])`
 
+--->
+
+Remaining weeks of class to be announced.
