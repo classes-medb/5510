@@ -53,7 +53,7 @@ The process is for a quantitative study, but it still matches the process that y
   
 <div class="notes">
 
-
+The first step in this flow chart is to identify your research problem. We talked a bit about this in the first week of class and we will talk a bit more about it this week as well.
 
 </div>
 
@@ -63,11 +63,13 @@ The process is for a quantitative study, but it still matches the process that y
 * Step 2: Conduct your literature review
   + Chapter 2 of Gliner et al.
   + Various web resources.
-  + Week 2 of this class.
+  + Week 3 of this class.
   
 <div class="notes">
 
+The second step is to conduct a literature review. This is also covered in Chapter 2 of your book. There are also some very good web resources as well. 
 
+We will cover this topic in week 3.
 
 </div>
 
@@ -82,7 +84,7 @@ The process is for a quantitative study, but it still matches the process that y
   
 <div class="notes">
 
-
+The next step is specifying your research hypothesis. Not every research study has a research hyothesis, but it it does, you should structure it using the PICO format (Patient group, Intervention, Control group, and Outcomes). We'll talk more about the research hypothesis and research that does not need a research hypothesis in this week's lecture.
 
 </div>
 
@@ -90,12 +92,13 @@ The process is for a quantitative study, but it still matches the process that y
 ### Steps in a research project
 
 * Step 4: Select your research approach
-  + Chapters 4-7 of Gliner et al.
-  + Weeks 4-6 of this class.
-  
+  + Randomized experiments (Chapter 4, Week 4)
+  + Quasi experimental designs (Chapter 4, Week 5)
+  + Observational designs (Chapter 6, Week 6)
+
 <div class="notes">
 
-
+There are three different research approaches that you can choose from. In a randomized experiment, you control who gets what, and you use a random device, typically a computer random number generator. In a quasi-experimental design, you have less control over who gets what, and the choices are made without the benefits of a randomized study. In an observational study, you do not control the asisgnnment of patients into the groups being studied. These are important topics and I'll be spending three full on them.
 
 </div>
 
@@ -103,15 +106,12 @@ The process is for a quantitative study, but it still matches the process that y
 ### Steps in a research project
 
 * Step 5: Create a plan for your research
-  + Chapters 9, 11-13, 10, 15, 18-19 of Gliner et al.
-  + Weeks 7-9.
-  + Sampling issues
-  + Measurement issues
-  + Data analysis issues
-  
+  + Sampling issues (Chapter 9, Week 7)
+  + Measurement issues (Chapters 10-12, Week 8)
+
 <div class="notes">
 
-
+Your research plan should mention how you get your sample, which we will cover in Week 7 and how you measure variables, which we will cover in Week 8.
 
 </div>
 
@@ -125,6 +125,7 @@ The process is for a quantitative study, but it still matches the process that y
   
 <div class="notes">
 
+Your book places the material on ethical improvement fairly late in the book, but we will cover it very early (this week) because ethical conduct will often influence choices in your research hypothesis and yours research design.
 
 
 </div>
@@ -133,8 +134,8 @@ The process is for a quantitative study, but it still matches the process that y
 ### Steps in a research project
 
 * Step 7: Collect your data
-  + Chapter 15 of Gliner et al.
-  + Week 10.
+  + Chapters 13, 15.
+  + Week 9.
   
 <div class="notes">
 
@@ -147,10 +148,10 @@ The process is for a quantitative study, but it still matches the process that y
 
 * Step 8: Analyze your data
   + Chapter 2 of Gliner et al.
-  + Week 12 of this class.
+  + Week 10, 12 of this class.
   
 <div class="notes">
-
+ 
 
 
 </div>
@@ -178,6 +179,7 @@ The process is for a quantitative study, but it still matches the process that y
   + Written paper
   + Oral presentation
   + Poster presentation
+  + Research grants
   
 <div class="notes">
 
@@ -311,7 +313,7 @@ Publications are important, but the goal is not publication but making a substan
 <div class="notes">
 
 NIH talks about "significance" in its grants review process. Importance, critical barrier to progress. Improve scientific knowledge, technical capability and/or clinical practice.
-
+   
 Explain how your field will change if the aims of the proposed project are achieved. What is the value beyond this study itself.
 
 Type III error. Collecting data that does not answer your research question.
