@@ -3,7 +3,6 @@ title: "Syllabus for Clinical Research Methods (MEDB 5510)"
 author: "Steve Simon"
 date: "December 26, 2018"
 output:
-  pdf_document: default
   html_document: default
 ---
 
