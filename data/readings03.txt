@@ -1,5 +1,9 @@
 ### Required reading
 
-1. Chapters 23, 24
+1. Chapter 2
 
-Note – These chapters are advanced and will be covered in more detail later in the semester. For the topic of literature reviews, focus on the "questions" presented in these chapters that can be used to evaluate literature.
+2. UMKC University Libraries. Literature Reviews: Graduate Writing Resources. Available in [html format](https://libguides.library.umkc.edu/gradwriting/lit-reviews).
+
+2. The Writing Center, University of North Carolina, Chapel Hill. Literature Reviews. Available in [html format](https://writingcenter.unc.edu/tips-and-tools/literature-reviews/)
+
+3. Pautasso, Marco. “Ten simple rules for writing a literature review” PLoS computational biology vol. 9,7 (2013): e100314. DOI: 10.1371/journal.pcbi.1003149. Available in [html format](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149) and [PDF format](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003149&type=printable).

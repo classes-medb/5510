@@ -153,8 +153,6 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion01", fri[1])`
 
-<!---
-
 ## Week 2: Planning a Research Project, Introduction to Key Concepts, Research Ethics
 
 `r read_text("objectives02")`
@@ -296,7 +294,5 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 `r read_text("hw16", fri[16])`
 
 `r read_text("discussion16", fri[16])`
-
---->
 
 Remaining weeks of class to be announced.

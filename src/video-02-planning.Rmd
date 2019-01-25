@@ -45,6 +45,147 @@ The process is for a quantitative study, but it still matches the process that y
 </div>
 
 ***
+### Steps in a research project
+
+* Step 1: Identify a research problem
+  + Chapter 2 of Gliner et al.
+  + Week 2 of this class.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 2: Conduct your literature review
+  + Chapter 2 of Gliner et al.
+  + Various web resources.
+  + Week 2 of this class.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 3: Specify your research hypothesis
+  + Chapter 3 of Gliner et al.
+  + Week 2 of this class.
+  + PICO format, PICOTS format
+  + Research without a research hypothesis
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 4: Select your research approach
+  + Chapters 4-7 of Gliner et al.
+  + Weeks 4-6 of this class.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 5: Create a plan for your research
+  + Chapters 9, 11-13, 10, 15, 18-19 of Gliner et al.
+  + Weeks 7-9.
+  + Sampling issues
+  + Measurement issues
+  + Data analysis issues
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 6: Obtain ethical approval
+  + Chapter 14 of Gliner et al.
+  + Week 2 of this class.
+  + Think about ethical issues from the very start.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 7: Collect your data
+  + Chapter 15 of Gliner et al.
+  + Week 10.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 8: Analyze your data
+  + Chapter 2 of Gliner et al.
+  + Week 12 of this class.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 9: Interpret your data
+  + Chapter 8, 9, 20-23 of Gliner et al.
+  + ... and evaluate research validity
+  + Week 13.
+  
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a research project
+
+* Step 10: Communicate your findings
+  + Chapter 26 of Gliner et al.
+  + Week 14.
+  + Written paper
+  + Oral presentation
+  + Poster presentation
+  
+<div class="notes">
+
+
+
+</div>
+
+***
 ### Planning a Research Project 
 
 + Step 1 - Identify a research problem
@@ -110,21 +251,18 @@ If there is a lot of research, is there a gap that you can fill?
 </div>
 
 ***
-### Planning a Research Project 
+### Considerations in Choosing a Topic
 
-+ Considerations in Choosing a Topic
-	+ Interest and enthusiasm
-	+ Time
-	+ Cost
-	+ Scope of the problem
-	+ Contribution to the profession
-	+ Support and expertise
-	+ Access issues/human subjects
-	+ Degree of control
-	+ Design considerations
-	+ Values and comfort level of the researcher
-
-Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
+* Interest and enthusiasm
+* Time/Cost
+* Scope of the problem
+* Contribution to the profession
+* Support and expertise
+* Access issues/human subjects
+* Degree of control
+* Design considerations
+* Values and comfort level of the researcher
+  + Cottrell & McKenzie. *Health Promotion & Education Research Methods* . 2005.
 
 <div class="notes">
 
@@ -165,8 +303,8 @@ Publications are important, but the goal is not publication but making a substan
 ***
 ### Planning a Research Project 
 
-+ Importance and feasibility of the research question
-	+ ?So What? test
+* Importance and feasibility of the research question
+	+ "So What" test
 	+ Is the question answerable?
 	+ Is it feasible?
 
@@ -193,7 +331,6 @@ Think about these five criteria while designing a study.
 
 ***
 ### Planning a Research Project 
-
 
 ![](../images/image-02-02.png)
 
@@ -236,9 +373,9 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 </div>
 
 ***
-### Planning a Research Project 
+### Conduct literature review 
 
-+ Step 2 ? Conduct literature review
++ Step 2: Conduct literature review
 + Purposes of literature review
 + What a literature review is NOT ?
 + What a literature review is ?
@@ -290,7 +427,7 @@ Don't accept everything blindly just because it has been published. Become criti
 </div>
 
 ***
-### Research Project ? Key Concepts 
+### Research Project - Key Concepts 
 
 + Variables
 	+ Independent variables
@@ -365,7 +502,7 @@ The Price article get into this. The Charles Lids article is also relevant.
 ### Research Ethics 
 
 + Integrity of the researcher
-	+ ?The buck stops here?
+	+ "The buck stops here"
 + Protection of human rights in clinical research
 	+ Guiding Principles (Belmont Report)
 		+ Autonomy of each individual
