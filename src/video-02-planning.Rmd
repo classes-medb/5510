@@ -693,6 +693,136 @@ The penalties are fairly severe.
 </div>
 
 ***
+### Landmarks in research ethics
+
+* Nuremberg code
+
+* Declaration of Helsinki
+
+* Belmont report
+
+* Title 45 of the Code of Federal Regulations, Part 46 (1974)
+
+* HIPAA
+
+<div class="notes">
+
+It helps to have a brief understanding of some of the historical milestones in research ethics.
+
+The Nurembery code was developed in 1947. It is a bit dated today, but many of the basic concepts are foundational to later work.
+
+The relevant portions of the law mandating ethical review of any federally funded research (45 CFR 46) was written in 1974.
+
+</div>
+
+***
+### Questions to ask
+
+* Is it research?
+
+* Does it involve human subjects?
+
+***
+### Ethical issues
+
+* Conflict of interest
+
+* Unfavorable risk/benefit ratio
+
+* Loss of equipoise
+
+* Deception
+
+* Violating privacy
+
+* Violating confidentiality
+
+<div class="notes">
+
+</div>
+
+***
+### Fraud in research
+
+Fraud falls into three broad categories (FFP).
+
+* Fabrication
+
+* Falsification
+
+  + Data alteration
+
+  + Misreporting
+
+* Plagiarism.
+
+Note: A difference of scientific opinion does not mean that one party is behaving fraudulently.
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Research misconduct (other than fraud)
+
+* Inappropriate authorship
+
+  + Leaving off deserving authors
+  
+  + Ghost writing
+  
+  + "Honorary" authorship
+
+* Violation of confidentiality
+
+* Sabotage
+
+* Failure to report misconduct
+
+* Retaliation
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Whistle blowing
+
+* Failure to report research misconduct is research misconduct
+
+* There is more than one avenue for reporting misconduct
+
+  + Do nothing.
+  
+  + Talk with the person directly.
+  
+  + Talk to some of your peers.
+  
+  + Talk with your own supervisor.
+  
+  + Talk to a person higher up in the organizational structure
+  
+  + Report a complaint anonymously.
+
+* No retaliation for legitimate complaints.
+
+<div class="notes">
+
+When you witness research misconduct, you have an obligation to report it. Failure to report research misconduct is itself research misconduct. This is very difficult, of course, if you find yourself in a position subordinate to the person who is behaving badly.
+
+If you experience something that you feel is not right, you have the option of doing nothing. That's a risky option, but if you feel that all the other options are riskier, I, for one, would understand. Depending on the dynamics, you might consider talking to the offending party directly. You might ask your peers or your own supervisor (assuming that they are not parties to the misconduct allegation) or someone higher up in the organizational structure than the offending party. Most organizations have an ombudsperson who you can talk to. An ombudsperson will never divulge information without your permission. Your organization may also have other anonymous reporting avenues.
+
+If you do talk to someone, please be open to the possibility that you may just be misunderstanding the situation.
+
+There are protections for whistleblowers, but that does not always protect you against retaliation. I've never found myself in a situation where I have observed research misconduct, so I can't offer too much advice.
+
+</div>
+
+***
 ### Assignment #1 
 
 + Complete the UMKC IRB training.
