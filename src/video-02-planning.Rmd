@@ -53,7 +53,7 @@ The process is for a quantitative study, but it still matches the process that y
   
 <div class="notes">
 
-The first step in this flow chart is to identify your research problem. We talked a bit about this in the first week of class and we will talk a bit more about it this week as well.
+The first step in this flow chart is to identify your research problem. We talked a bit about this in the first week of class and we will talk a bit more about it this week as well. Keep in mind that there is no approach that is uniformly good or uniformly bad. A good researcher should be comfortable with both qualitative and quantitative methods, with applied and theoretical research, and so forth.
 
 </div>
 
@@ -69,7 +69,7 @@ The first step in this flow chart is to identify your research problem. We talke
 
 The second step is to conduct a literature review. This is also covered in Chapter 2 of your book. There are also some very good web resources as well. 
 
-We will cover this topic in week 3.
+We will cover this topic in week 3. The key thing to keep in mind is that your literature review has to flow. It needs a direction: from general to specific, for example.
 
 </div>
 
@@ -98,7 +98,7 @@ The next step is specifying your research hypothesis. Not every research study h
 
 <div class="notes">
 
-There are three different research approaches that you can choose from. In a randomized experiment, you control who gets what, and you use a random device, typically a computer random number generator. In a quasi-experimental design, you have less control over who gets what, and the choices are made without the benefits of a randomized study. In an observational study, you do not control the asisgnnment of patients into the groups being studied. These are important topics and I'll be spending three full on them.
+There are three different research approaches that you can choose from. In a randomized experiment, you control who gets what, and you use a random device, typically a computer random number generator. In a quasi-experimental design, you have less control over who gets what, and the choices are made without the benefits of randomization. In an observational study, you do not control the asisgnnment of patients into the groups being studied. These are important topics and I'll be spending three full on them.
 
 </div>
 
@@ -139,7 +139,9 @@ Your book places the material on ethical improvement fairly late in the book, bu
   
 <div class="notes">
 
+Collecting your data takes a lot of time and if you don't plan for this well, a lot of the time will be wasted in rework.
 
+How you collect your data will depend in a large part on what type of data you collect. Qualitative data, of course, is in a world all it's own. Within quantitative data, though, you need to think about collection issues for self-report data versus investigator collected data. A codebook is vital, especially if you are doing the data entry yourself.
 
 </div>
 
@@ -147,12 +149,12 @@ Your book places the material on ethical improvement fairly late in the book, bu
 ### Steps in a research project
 
 * Step 8: Analyze your data
-  + Chapter 2 of Gliner et al.
+  + Chapters 16-22 of Gliner et al.
   + Week 10, 12 of this class.
   
 <div class="notes">
  
-
+This class is not a course in data analysis, but I do want to give you enough information so you can write a decent data analysis plan. You'll learn about the foundations of inferential statistics and five common modeling approaches (linear regression, logistic regresion, analysis of two by two crosstabulations, analysis of variance, and survival models)
 
 </div>
 
@@ -166,7 +168,7 @@ Your book places the material on ethical improvement fairly late in the book, bu
   
 <div class="notes">
 
-
+You'll get an overview of how to interpret your data analyses and evaluate the validity of your research. This includes how to write a good discussion secton about the strengths and weaknesses of your study as well as directions for future research.
 
 </div>
 
@@ -183,30 +185,42 @@ Your book places the material on ethical improvement fairly late in the book, bu
   
 <div class="notes">
 
+Research is not complete until you disseminate your findings. The different formats (written paper, oral presentation, and poster presentation) have fairly standardized formats. You'll also get an overview of how to write a research grant.
 
+As the class goes along, if there is a particular topic that you want me to spend more time on, I'm happy to do it.
+
+If I can brag here a bit, there is no one in the Kansas City area who understands the research process as well as I do. There are some very good people, including Mary Gerkovich, who I have leaned on to produce this class. There are people who have greater depth--they know more about one or two areas than I do. But no one else has the breadth of knowledge that I do. It comes in part with being old. There's nothing that I haven't seen before. Also a big part of it is that I understand the research process from a very fundamental  and foundational level.
 
 </div>
 
 ***
-### Planning a Research Project 
+### Step 1 - Identify a research problem
 
-+ Step 1 - Identify a research problem
-+ What is a research problem?
-+ Sources of research problems
-	+ Existing research literature
-	+ Theory
-	+ Personal experience
-	+ Clinical observation
+Definitions are vague
+
+  + What is a research problem? question? aim? goal?
+  
+* Sources of research problems
+
+	+ Read
+
+	+ Listen
+	
+	+ Observe
 
 <div class="notes">
 
-The statement that issue the you are trying to address, what are you trying to discover.
+There are varying terms: research problem, research question, research aim, research goal, that all involve stating in very general terms what you can do.
 
-The literature review leads to a desire to replicate the study, or extend an existing result to a different population or modifying 
+These represent statements about issue the you are trying to address, or what are you trying to discover.
 
-Pure replications are rare because of resource limitations.
+I find these distinctions annoying, and prefer to talk only about a research hypothesis. We'll get to that in a bit.
 
-Attending other research presentations, such as thesis defenses of your fellow students or at regional/national conference.
+You can find your research problem during your literature review. You can look at replicating someone else's work or extending it into a new area.
+
+Pure replications are rare because of resource limitations, but there is a lot of research showing that many important research findings are not replicable.
+
+You may also get good research ideas from attending other research presentations, such as thesis defenses of your fellow students or at regional/national conference.
 
 You may hear about topics in the classes that you take.
 
@@ -214,11 +228,22 @@ You may hear about topics in the classes that you take.
 
 If you are already working, what comes up in that environment? 
 
-Community or participatory research. You are highly invested in your community and they often develop ideas that come out of that community
+Community or participatory research is another way to develop research ideas. You ask people who are affected by the research you are thinking about doing what they think would work. It forces you to distill your ideas and explain them at a lay person's level. It also requires great listening skills and an open mind.
 
-[[PCORI]]
+</div>
 
-Sometimes it is just serendipity.
+***
+### Characteristics of a good research problem
+
+* More dichotomies
+	
+	+ Broad vs Narrow
+	
+	+ Widespread vs Limited interest
+	
+	+ Well-researched vs Unknown territory
+
+<div class="notes">
 
 A good research problem. How broad versus narrow? Narrow enough to be feasible, but broad enough to be of interest to a large audience. 
 
@@ -235,18 +260,6 @@ Conferences great for identifying new areas that have not been studied extensive
 Beware. Little research in that area could mean that there is little value in that research.
 
 If there is a lot of research, is there a gap that you can fill?
-
-</div>
-
-***
-### Planning a Research Project 
-
-+ Characteristics of a good research problem?
-	+ Broad vs Narrow
-	+ Widespread vs Limited interest
-	+ Well-researched vs Unknown territory
-
-<div class="notes">
 
 
 
@@ -373,6 +386,26 @@ Hulley, Cummings, Browner, Grady, Hearst, & Newman. *Designing Clinical Research
 
 
 </div>
+
+  + A research hypothesis is more specific than any of these.
+  
+* Identify your research hypothesis early.
+
+  + P = patient
+  
+  + I = intervention
+  
+  + C = comparison
+  
+  + O = outcome
+
+* Your hypothesis may change as you delve deeper.
+
+* Not all research needs a hypothesis.
+
+  + Estimation
+  
+  + Identification
 
 ***
 ### Conduct literature review 
