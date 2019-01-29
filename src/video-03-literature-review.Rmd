@@ -28,6 +28,61 @@ This is what we will cover this week.
 If you have not read these yet.
 
 </div>
+
+***
+### Conduct literature review 
+
++ Step 2: Conduct literature review
++ Purposes of literature review
++ What a literature review is NOT ?
++ What a literature review is ?
++ Sources to be used in literature review
+
+<div class="notes">
+
+What has already been done and what hasn't. You need to make a strong argument that your work hasn't already been done.
+
+It helps you identify what research methods have been used by others. These are probably the best choices for your research.
+
+It is not an annotated bibliography. An annotated bibliography is great for other areas. Don't talk about each paper in isolation. 
+
+Your interpretation of the relevant literature. Analysis, evaluation, and synthesis. Last paragraph summarizes everything and leads into the work you plan.
+
+Start with the general and move to the specific. Or state the problem, state what has already been done, and identify what needs to be done.
+
+The Internet is great place to start, and that includes Wikipedia, but it is important to use primary sources whenever possible. If you find an excellent secondary source, take the time to review the primary sources
+
+
+
+</div>
+
+***
+### Planning a Research Project 
+
++ Reviewing the literature
+	+ What is known
+	+ What questions remain
+	+ Evaluating research reports
+		+ Journal quality
+		+ What is the study about?
+		+ Are the results of the study valid?
+		+ Are the results meaningful?
+		+ What does it all mean and how does it contribute to what you want to do?
+
+<div class="notes">
+
+Portney and Watkins.
+
+Think about the research methods, the samples they collected. Evaluate the quality of the source. Peer-reviewed articles are the place to start out with. 
+
+Don't rely just on the abstract.
+
+Do you feel that the author's interpretation is supported by their data. Did they discussion limitations and are those limitations relevant to you. Have they placed their results in a bigger context?
+
+Don't accept everything blindly just because it has been published. Become critical evaluators. Note that critical means more than just criticizing, though.
+
+</div>
+
 ***
 ### Literature Reviews 
 

@@ -156,11 +156,13 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("objectives02")`
 
-`r read_text("readings02", fri[1])`
+`r read_text("readings02", fri[2])`
 
-`r read_text("hw02", fri[1])`
+`r read_text("hw02", fri[2])`
 
-`r read_text("discussion02", fri[1])`
+`r read_text("discussion02", fri[2])`
+
+<!---
 
 ## Week 3: Literature Reviews, Library Resources
 
@@ -293,5 +295,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 `r read_text("hw16", fri[16])`
 
 `r read_text("discussion16", fri[16])`
+
+--->
 
 Remaining weeks of class to be announced.
