@@ -76,7 +76,114 @@ Even if the literature review does not help you, it is still of value to anyone 
 </div>
 
 ***
-### Steps in a literature review
+### Contrasts to the literature review
+
+* Annotated bibliography
+
+  + Also requires summarization
+  
+  + Often requires analysis and evaluation
+  
+  + Lacks synthesis (no organization)
+
+  + Strives for completeness
+
+* Systematic overview
+
+  + Systematic
+
+  + Exhaustive search
+  
+  + Usually a quantitative summary
+  
+  + Lacks synthesis
+  
+<div class="notes">
+
+Let me mention a couple of things that have some similarities to a literature review, but which also have important differences.
+
+An annotated bibliography is a great thing. It provides a fairly complete set of references with a brief summary of each reference. 
+
+If you are thinking of starting a website or blog, consider developing an annotated bibliography. It will be a very popular resource because people want to know what they are going to click on before they actually click. It's also a lot easier to develop an annotated bibliography rather than your own original content.
+
+Like a literature review, an annotated bibliography requires summarization. Usually the summaries are a bit longer in an annotated bibliography. In fact, in a literature review, if you find three articles that say the same thing, you lump them all together and talk about them as if they were one.
+
+Annotated bibliographies are also like literature rviews in that most of them provide an analysis and evaluation of the articles.
+
+The big difference is that an annotated bibliography does not try to synthesize the articles. It discussed each article individually, but does not try to organize them in a narrative flow (we'll talk about organizaiton in just a bit).
+
+The other difference is that an annotated bibliography, you usually try to be comprehensive in the studies you cite. In a literature review, if you find one or two articles that make a particular point, then you don't typically need or want to include others as well.
+
+A systematic overview (often called a meta-analysis, though there is a subtle distinction between the two) also has some similarities to a literature review.
+
+The first distinguishing feature of a systematic overview is that it is systematic. It follows a pre-specified structure from a detailed protocol.  You require such rigidity because you want a systematic overview to be repeatable. With a literature review, you change how you search for articles and how you evaluate them as you go along. It is a very ad hoc approach.
+
+A systematic overview attempts to get all studies related to a particular research hypothesis and this hypothesis is usually drawn more narrowly than a literature review. In a literature review, by contrast, you might talk first about defining stuides that define the magnitude of your health care problem and then switch to interventions that have been tested in your area. The systematic overview is likely to consider only studies within a certain time range, but your literature review might provide some much earlier studies to provide some historical context.
+
+Systematic overviews often contain a quantitative summary (the meta-analysis) while literature reviews almost always use a qualitative approach.
+
+Systematic overviews do not consider any synthesis (other than the quantitative summary) and just toss all of the studies into a big pot and stir.
+
+The other distinction is that a systematic overview works with an almost obsessive fervor to identify every possible study in a topic. One of the greatest threats to the validity of a systematic overview is publication bias, and you have to work very very hard to overcome this.
+
+For what it's worth, there has been a call in the research community to replace the literature review with a systematic overview for the benefit of an IRB submission. The systematic overview would establish whether sufficient evidence has already accumulated to make the proposed research unnecessary (and therefore unethical). This suggestion has not really been adopted anywhere, as far as I know, but it is interesting.
+
+</div>
+
+***
+### Finding sources for your literature review
+
+* Talk to a librarian
+
+* Specify your score
+
+* Find a good summary
+
+* Talk to a librarian
+
+* Snowball sampling
+
+* Iterate between writing and searching
+
+* Talk to a librarian
+
+* Organization: note cards, spreadsheet
+
+* Talk to a librarian
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Organization of a literature review
+
+* Chronologic
+
+  + Can be boring!
+
+* From general to specific
+
+* Thematic
+
+  + Consensus, disagreements, unanswered questions
+  
+  + Problem, old remedies, new needs
+  
+  + Supportive, then non-supportive
+  
+  + Methodologies, theories, schools of thought
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### 
 
 + Step 2: Conduct literature review
 + Purposes of literature review
