@@ -152,7 +152,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion01", fri[1])`
 
-## Week 2: Planning a Research Project, Introduction to Key Concepts, Research Ethics
+## Week 2: Planning a Research Project, Research Ethics
 
 `r read_text("objectives02")`
 
@@ -161,8 +161,6 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 `r read_text("hw02", fri[2])`
 
 `r read_text("discussion02", fri[2])`
-
-<!---
 
 ## Week 3: Literature Reviews, Library Resources
 
@@ -174,7 +172,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion03", fri[3])`
 
-## Week 4: Analysis of Secondary Data Sets
+## Week 4: Randomized experiments
 
 `r read_text("objectives04")`
 
@@ -184,7 +182,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion04", fri[4])`
 
-## Week 5: Research Approaches / Designs, Randomized Experimental and Quasi-experimental Designs
+## Week 5: Quasi-experimental designs
 
 `r read_text("objectives05")`
 
@@ -194,7 +192,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion05", fri[5])`
 
-## Week 6: Non-experimental Approaches and Designs
+## Week 6: Non-experimental (observational) designs
 
 `r read_text("objectives06")`
 
@@ -204,7 +202,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion06", fri[6])`
 
-## Week 7: Internal Validity, Sampling and Introduction to External Validity
+## Week 7: Sampling issues
 
 `r read_text("objectives07")`
 
@@ -214,7 +212,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion07", fri[7])`
 
-## Week 8: Measurement and Descriptive Statistics
+## Week 8: Measurement issues
 
 `r read_text("objectives08")`
 
@@ -224,7 +222,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion08", fri[8])`
 
-## Week 9: Measurement Reliability and Validity
+## Week 9: Data collection
 
 `r read_text("objectives09")`
 
@@ -234,7 +232,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion09", fri[9])`
 
-## Week 10: Types of Data Collection Techniques, Practical Issues in Data Collection and Coding
+## Week 10: Data analysis: hypothesis testing framework
 
 `r read_text("objectives10")`
 
@@ -246,7 +244,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 ## Week 11: Spring break
 
-## Week 12: Data Analysis and Interpretation
+## Week 12: Data analysis: common statistical models
 
 `r read_text("objectives12")`
 
@@ -256,7 +254,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion12", fri[12])`
 
-## Week 13: Data Analysis for Clinical Research
+## Week 13: Data analysis: interpretation
 
 `r read_text("objectives13")`
 
@@ -266,7 +264,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion13", fri[13])`
 
-## Week 14: Writing a Research Proposal, Writing Up the Research Project, Final Project
+## Week 14: Writing and presenting your research
 
 `r read_text("objectives14")`
 
@@ -296,6 +294,4 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 `r read_text("discussion16", fri[16])`
 
---->
-
-Remaining weeks of class to be announced.
+<!---Remaining weeks of class to be announced.--->
