@@ -38,9 +38,9 @@ Definition (from your book): "An interpretation of a selection of documents (pub
 
 Take a careful look at this definition.
 
-A literature review involves summarization. You take a ten page research article and boil it down to two sentences.
+A literature review involves summarization. You take a ten page research article and boil it down to one or two sentences.
 
-It involves analysis. You need to gain an understanding of the research papers.
+It involves analysis. You need to gain an understanding of what is in each research paper.
 
 It involves evaluation. You need to assess the validity of the research papers. This is synonymous with the critical appraisal step in Evidence Based Medicine.
 
@@ -52,6 +52,8 @@ What all of this means is that you have to live and breath these studies. You ca
 
 ***
 ### Why do a literature review?
+
+0. Because you have to.
 
 (From your book)
 
@@ -65,14 +67,16 @@ What all of this means is that you have to live and breath these studies. You ca
 
 <div class="notes">
 
+A literature review is a requirement for pretty much any research paper or presentation, for any IRB proposal, or for any grant proposal. 
 
+A literature review can and should influence your work. Even if you already have a strong idea of what you plan to do, keep an open mind about the direction of your research while doing the literature review. The literature review might change your mind about what is known and where the gaps in knowledge area. It may suggest an alternative research design or data analysis approach than you had first thought about. And it may change your impression of what the current state of knowledge is.
+
+Even if the literature review does not help you, it is still of value to anyone who has to read and evaluation your research proposal. It gives them some background so they can understand the magnitude of the problem you are addressing, and what has been done and what still needs to be done to solve this problem.
 
 </div>
 
 ***
 ### Steps in a literature review
-
-Gliner, Jeffrey A.; Morgan, George A.; Leech, Nancy L.. Research Methods in Applied Settings: An Integrated Approach to Design and Analysis, Third Edition (p. 21). Taylor and Francis. Kindle Edition. 
 
 + Step 2: Conduct literature review
 + Purposes of literature review
