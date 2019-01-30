@@ -4,6 +4,6 @@
 
 2. UMKC University Libraries. Literature Reviews: Graduate Writing Resources. Available in [html format](https://libguides.library.umkc.edu/gradwriting/lit-reviews).
 
-2. The Writing Center, University of North Carolina, Chapel Hill. Literature Reviews. Available in [html format](https://writingcenter.unc.edu/tips-and-tools/literature-reviews/)
+3. The Writing Center, University of North Carolina, Chapel Hill. Literature Reviews. Available in [html format](https://writingcenter.unc.edu/tips-and-tools/literature-reviews/)
 
-3. Pautasso, Marco. “Ten simple rules for writing a literature review” PLoS computational biology vol. 9,7 (2013): e100314. DOI: 10.1371/journal.pcbi.1003149. Available in [html format](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149) and [PDF format](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003149&type=printable).
+4. Pautasso, Marco. "Ten simple rules for writing a literature review" PLoS computational biology vol. 9,7 (2013): e100314. DOI: 10.1371/journal.pcbi.1003149. Available in [html format](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149) and [PDF format](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003149&type=printable).

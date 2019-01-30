@@ -25,12 +25,54 @@ This is what we will cover this week.
 
 <div class="notes">
 
-If you have not read these yet.
+Here are the readings for this week. If you have not read these yet, please do so before viewing this video.
 
 </div>
 
 ***
-### Conduct literature review 
+### What is a literature review 
+
+Definition (from your book): "An interpretation of a selection of documents (published or unpublished) on a specific topic that involves summarization, analysis, evaluation, and synthesis of the documents."
+
+<div class="notes">
+
+Take a careful look at this definition.
+
+A literature review involves summarization. You take a ten page research article and boil it down to two sentences.
+
+It involves analysis. You need to gain an understanding of the research papers.
+
+It involves evaluation. You need to assess the validity of the research papers. This is synonymous with the critical appraisal step in Evidence Based Medicine.
+
+It involves synthesis. You have to combine your knowledge of each individual study into a cohesive structure.
+
+What all of this means is that you have to live and breath these studies. You can't summarize, analyzie, evaluate, or synthesize with only a superficial understanding of these papers.
+
+</div>
+
+***
+### Why do a literature review?
+
+(From your book)
+
+1. "Identify gaps in the literature"
+
+2. "Help to select appropriate methods for your new topic"
+
+3. "Describe the inferences that have come from past research"
+
+4. Other reasons???
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Steps in a literature review
+
+Gliner, Jeffrey A.; Morgan, George A.; Leech, Nancy L.. Research Methods in Applied Settings: An Integrated Approach to Design and Analysis, Third Edition (p. 21). Taylor and Francis. Kindle Edition. 
 
 + Step 2: Conduct literature review
 + Purposes of literature review
