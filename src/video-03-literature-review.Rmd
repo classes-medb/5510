@@ -88,16 +88,6 @@ Even if the literature review does not help you, it is still of value to anyone 
 
   + Strives for completeness
 
-* Systematic overview
-
-  + Systematic
-
-  + Exhaustive search
-  
-  + Usually a quantitative summary
-  
-  + Lacks synthesis
-  
 <div class="notes">
 
 Let me mention a couple of things that have some similarities to a literature review, but which also have important differences.
@@ -113,6 +103,23 @@ Annotated bibliographies are also like literature rviews in that most of them pr
 The big difference is that an annotated bibliography does not try to synthesize the articles. It discussed each article individually, but does not try to organize them in a narrative flow (we'll talk about organizaiton in just a bit).
 
 The other difference is that an annotated bibliography, you usually try to be comprehensive in the studies you cite. In a literature review, if you find one or two articles that make a particular point, then you don't typically need or want to include others as well.
+
+</div>
+
+***
+### Contrasts to the literature review
+
+* Systematic overview
+
+  + Systematic
+
+  + Exhaustive search
+  
+  + Usually a quantitative summary
+  
+  + Lacks synthesis
+  
+<div class="notes">
 
 A systematic overview (often called a meta-analysis, though there is a subtle distinction between the two) also has some similarities to a literature review.
 
@@ -158,17 +165,133 @@ For what it's worth, there has been a call in the research community to replace 
 </div>
 
 ***
-### Organization of a literature review
+### Summarizing
 
-* Chronologic
+* No direct quotes.
 
-  + Can be boring!
+* Contextual clues
 
-* From general to specific
+  + Also, in addition
+  
+  + However, on the other hand
+  
+<div class="notes">
 
-* Thematic
+This is not a hard and fast rule, but you generally want to avoid direct quotes in a literature review. In other places, direct quotes are fine, but in a literature review, it makes the writing unwieldy. 
 
-  + Consensus, disagreements, unanswered questions
+Make sure that your discussion of one study is placed in context with the discussion that directly preceded it. If the study is providing further support to the results of the previous study, emphasize this with words like "also" or "in addition". If the study contrasts or contradicts the previous study, emphasize this using words like "in contrast" or "on the other hand".
+
+</div>
+
+***
+### Example of contextual words
+
+"Dosage compensation in mammalian females is a recognized phenomenon whereby inactivation of one X chromosome ...[1]. **However,** not all X-linked genes are inactivated. Recently, an inactivation profile...was reported by Carrel and Willard [2]. ... **Subsequently**, Lyon [3] ... enhanced our knowledge about X-chromosome inactivation..."
+
+  + Talebizadeh et al. X chromosome gene expression in human tissues: Male and female comparisons. Genomics 2006.
+
+***
+### Example of descriptive and comparative analysis
+
+"African Americans represent nearly 45% of new HIV cases each year (1–2). Due to delayed HIV diagnosis, African Americans tend to enter HIV treatment at advanced stages and die from AIDS sooner than Whites (1)."
+
+  + Berkley-Patton et al. An HIV Testing Intervention in African American Churches: Pilot Study Findings. Ann Behav Med. 2016. 
+ 
+<div class="notes">
+
+This is a nice example of description where you provide an estimate (45%) followed by a comparison (advance stages, die sooner).
+
+</div>
+
+</div>
+
+***
+### Example of descriptive analysis
+
+"Studies suggest many African American faith leaders are willing to provide HIV education ...(14–17); however, their reported challenges in doing so have included church capacity issues (e.g., lack of HIV training, church-appropriate HIV materials, time, and resources), controversial church issues (e.g., condom use, premarital sex, homophobia), and HIV stigma (18–22)."
+
+  + Berkley-Patton et al 2016. 
+ 
+<div class="notes">
+
+This is a nice example of a descriptive result where you mention a list of features.
+
+Don't feel that you have to follow these writing guidelines slavishly. Use them if you are not sure how to proceed, but if you are making good writing progress without these guidelines, then ignore them.
+
+</div>
+
+***
+### Analyzing
+
+* More than just the abstract
+
+  + Inconsistencies with main text
+  
+  + Misplaced emphasis in abstract
+
+* Research types
+
+  + Comparative
+  
+  + Associational
+  
+  + Descriptive (Estimate, Identify)
+  
+<div class="notes">
+
+Most research involves comparison, so try to use words that emphasize superiority like "improved" or "better" or that emphasize comparability like "similar" or "equivalent".
+
+Don't try to be dispassionate in your analysis. It is okay to invoke emotions like surprise or disappointment. Provide guidance to magnitude with phrases like "substantial change" or "moderate improvement"
+
+Your analysis will be quite different, of course, for descriptive studies. For these, you offer an estimate (such as "1.2 million people in the United States have diabetes") or list one or more features of a group (such as "the most commonly used drugs in transplant patients to prevent rejection are calcineurin inhibitors, antiproliferative agents, and steroids").
+
+</div>
+
+***
+### Evaluating
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Synthesizing
+
+* Organization of a literature review
+
+  + Chronologic (warning: can be boring!)
+
+  + From general to specific
+
+  + Thematic
+
+<div class="notes">
+
+One way of organizing your review might by chronological. This is appealing if new theories or new approaches emerge over time. But beware, becuase a chronological list can sometimes come across as dull.
+
+The approach I like best (and your book also likes it) is to move from the general to the specific.
+
+</div>
+
+***
+### Example of general to specific
+
+1st paragraph. "African Americans represent nearly 45% of new HIV cases each year (1–2)."
+
+2nd paragraph. "The Black Church is a powerful institution with a history of mobilizing African American communities for social change (5)..."
+
+3rd paragraph. "Studies suggest many African American faith leaders are willing to provide HIV education and testing for their church/community members (14–17)..."
+
+  + Berkley-Patton et al 2016. 
+
+***
+### Synthesizing
+
+* Possible themes
+
+  + Consensus, disagreements, the unknown
   
   + Problem, old remedies, new needs
   
@@ -178,12 +301,24 @@ For what it's worth, there has been a call in the research community to replace 
 
 <div class="notes">
 
+There are more possible themes than I could mention, but here are a few examples. 
 
+Start with consensus (questions where everyone agrees on the correct answer), then list disagrements (questions with debates among competing answers), and end with the unknown (questions with no answers yet).
+
+Or say what the problem is, say what has already been done, and say what needs to be done.
+
+Or offer a thesis and group your references into two sections, articles that are supportive of your thesis and articles that are not supportive.
+
+You might organize your articles into groups sharing common methodologies. In a study of mitigation of home exposures that might exacerbate asthma, the studies might be grouped by those that study a physical intervention (like improved ventilation) and by those that study a chemical intervention (spraying for dust mites). 
+
+In a review of behavioral change, you might organize articles by the different theories of change (Lewin, Rogers, or Spradley) that they rely on. Likewise, there are four schools of thought on management (biologic, chaotic, deterministic, and empircal).
+
+Some studies of child welfare management might utilize the attachment theory while others might use crisis intervention theory or social construction theory.
 
 </div>
 
 ***
-### 
+###
 
 + Step 2: Conduct literature review
 + Purposes of literature review
@@ -200,8 +335,6 @@ It helps you identify what research methods have been used by others. These are 
 It is not an annotated bibliography. An annotated bibliography is great for other areas. Don't talk about each paper in isolation. 
 
 Your interpretation of the relevant literature. Analysis, evaluation, and synthesis. Last paragraph summarizes everything and leads into the work you plan.
-
-Start with the general and move to the specific. Or state the problem, state what has already been done, and identify what needs to be done.
 
 The Internet is great place to start, and that includes Wikipedia, but it is important to use primary sources whenever possible. If you find an excellent secondary source, take the time to review the primary sources
 
