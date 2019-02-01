@@ -9,10 +9,11 @@ output:
 
 ```{r echo=FALSE}
 source("prelims.R", echo=FALSE)
+char_limit <- 600
 ```
 
 ***
-`r read_text("objectives03")`
+`r read_text("objectives03", char_max=char_limit)`
 
 <div class="notes">
 
@@ -21,7 +22,7 @@ This is what we will cover this week.
 </div>
 
 ***
-`r read_text("readings03")`
+`r read_text("readings03", char_max=char_limit)`
 
 <div class="notes">
 
@@ -67,11 +68,13 @@ What all of this means is that you have to live and breath these studies. You ca
 
 <div class="notes">
 
-A literature review is a requirement for pretty much any research paper or presentation, for any IRB proposal, or for any grant proposal. 
+A literature review is a requirement for pretty much any research paper or presentation, for any IRB proposal, or for any grant proposal. So, you're probably doing this literature review out of a sense of obligation if nothing else.
+
+But why would I or someone else insist on this literature review?
 
 A literature review can and should influence your work. Even if you already have a strong idea of what you plan to do, keep an open mind about the direction of your research while doing the literature review. The literature review might change your mind about what is known and where the gaps in knowledge area. It may suggest an alternative research design or data analysis approach than you had first thought about. And it may change your impression of what the current state of knowledge is.
 
-Even if the literature review does not help you, it is still of value to anyone who has to read and evaluation your research proposal. It gives them some background so they can understand the magnitude of the problem you are addressing, and what has been done and what still needs to be done to solve this problem.
+Even if the literature review does not help you, it is still of value to anyone who has to read and evaluate your research proposal. It gives them some background so they can understand the magnitude of the problem you are addressing, and what has been done and what still needs to be done to solve this problem.
 
 </div>
 
@@ -94,7 +97,7 @@ Let me mention a couple of things that have some similarities to a literature re
 
 An annotated bibliography is a great thing. It provides a fairly complete set of references with a brief summary of each reference. 
 
-If you are thinking of starting a website or blog, consider developing an annotated bibliography. It will be a very popular resource because people want to know what they are going to click on before they actually click. It's also a lot easier to develop an annotated bibliography rather than your own original content.
+If you are thinking of starting a website or blog, consider developing an annotated bibliography. It will be a very popular resource because people want to know what they are going to click on before they actually click. It's also a lot easier to develop an annotated bibliography than your own original content.
 
 Like a literature review, an annotated bibliography requires summarization. Usually the summaries are a bit longer in an annotated bibliography. In fact, in a literature review, if you find three articles that say the same thing, you lump them all together and talk about them as if they were one.
 
@@ -102,7 +105,7 @@ Annotated bibliographies are also like literature rviews in that most of them pr
 
 The big difference is that an annotated bibliography does not try to synthesize the articles. It discussed each article individually, but does not try to organize them in a narrative flow (we'll talk about organizaiton in just a bit).
 
-The other difference is that an annotated bibliography, you usually try to be comprehensive in the studies you cite. In a literature review, if you find one or two articles that make a particular point, then you don't typically need or want to include others as well.
+The other difference is that in an annotated bibliography, you usually try to be comprehensive in the studies you cite. In a literature review, if you find one or two articles that make a particular point, then you don't typically need or want to include others as well.
 
 </div>
 
@@ -154,13 +157,75 @@ For what it's worth, there has been a call in the research community to replace 
 
 * Talk to a librarian
 
-* Organization: note cards, spreadsheet
+<div class="notes">
 
+Your first step is to talk to a librarian. They are experts in finding information and they love to help.
+
+You should specify the scope of your literature review. This may change as you find out more information, but you have to start somewhere.
+
+The almost uniform recommendation is that a literature review should only include primary sources and not any secondary source. A secondary source is an analysis of one or more research studies by someone who did not conduct the research. The primary source is written by the researchers themselves. Note that most people would consider a systematic overview to be a primary resource, even though it does not meet this particular definition.
+
+It's hard to pin down why there is such an insistence on primary sources. One possible explanation is that different people can read the same research study and draw markedly different conclusions. So you need to read the study yourself rather than rely on somone else's opinion. A second explanation might be that the primary source is going to have a greater level of detail.
+
+That doesn't mean you can peek at a secondary source. They are great for helping you see possible organizational structures. They also are valuable to help you "prime the pump" meaning that they can help you get a critical mass of references together right from the start.
+
+I know that a lot of people hate Wikipedia. Just for the record, I think that Wikipedia, is a great starting point. The language is pretty accessible and they try to list a few key references.
+
+Snowball sampling is a technical term for asking one research subject to recommend other research subjects to you. Use that same idea in your literature review. If you find an interesting paper, see if that paper's bibliography has other papers worth looking at.
+
+You should alternate between searching and writing, especially if you are using a thematic approach. The process of writing will help you identify what parts of your literature review are well covered and what parts need more references. You may also find that your organizational themes evolve as you write, leading you to search in new areas.
+
+It's worthwhile, as you are writing to go back and talk to a librarian.
+
+</div>
+
+***
+### Organization
+
+* Note cards
+
+* Spreadsheets
+
+* Bibliographic software
+
+  + Endnotes
+
+  + Zotero
+  
+  + Mendelay
+  
+  + BibTeX
+  
 * Talk to a librarian
+  
+<div class="notes">
+
+As you are working, keep good notes. It's really easy to misplace a key reference and then waste a lot of time trying to find it again. Be liberal in what you track. The time wasted from tracking too many items does not match the time wasted from trying to refind a single lost reference.
+
+The "low tech" approach, but one that still has many advocates is writing things down on index cards. Index cards are easy to sort and to arrange in different stacks.
+
+Many people advocate using a spreadsheet to organize your results. As for me, I hate spreadsheets, but a lot of people who are a lot smarter than I am use them. This includes the previous instructor for this class, Mary Gerkovich. So go ahead and use a spreadsheet and I promise I won't sneer. There are too many people who are too easy to condemn things because they don't match their view of the perfect world. I hope I never become like them.
+
+There are several excellent bibliographic software programs out there. I used Endnotes for quite a while. It is a commercial product, and I have recently tried to wean myself as much as possible from commercial software. But I wll say that I loved Endnotes when I used it.
+
+I've also used Zotero. It scans the metadata for a website and scrapes the information that you need to build a bibliography. It used to be tied very tightly to the Firefox browser, but that has changed. You can also store information from Zotero in the cloud. I used it for quite a while and liked it, but I've stopped using it for reasons I can't explain.
+
+I have not used Mendeley, but it has gotten good reviews, especially from some of the librarians I know. It functions quite similarly to Zotero.
+
+BibTeX (notice the curious capitalization) is an add-on to the TeX document production system. I am using BibTeX on an off these days, but have not done all my work in it just yet. BibTeX is an open source product and it uses plain text files for storage. That's a strong trend in recent years, to store things in a file that humans can read rather than a binary format. The advantage is that you can use BibTeX easily with version control software. It also integrates nicely with R Markdown, a system that I am using more and more, not just for statistical analysis, but for the production of papers, web pages, and presentations. There's a steep learning curve to BibTeX, but if you are already using TeX, it is a natural fit. I've included a reading about BibTeX in the recommended readings section, not because I want you to use it (it is an acquired taste), but rather because I want you to undestand how it works. It takes a much different approach than some of the other systems, and I really do think it is the wave of the future.
+
+But I promise not to sneer if you use something other than BibTeX.
+
+</div>
+
+***
+### Scraping information from an article.
+
+![Image from the citation link of a research article](../images/export_citation.png)
 
 <div class="notes">
 
-
+I spend a fair amount of time with cut-and-paste and plain old retyping of information on the web, but it is becoming easier these days. Most journal web sites have a link that allows you to export the citation information to various formats. It's in a different spot for different journals, unfortunately. Here is an example of getting citation information from an article I co-authored back in 2006.
 
 </div>
 
@@ -173,13 +238,13 @@ For what it's worth, there has been a call in the research community to replace 
 
   + Also, in addition
   
-  + However, on the other hand
+  + In contrast, on the other hand
   
 <div class="notes">
 
 This is not a hard and fast rule, but you generally want to avoid direct quotes in a literature review. In other places, direct quotes are fine, but in a literature review, it makes the writing unwieldy. 
 
-Make sure that your discussion of one study is placed in context with the discussion that directly preceded it. If the study is providing further support to the results of the previous study, emphasize this with words like "also" or "in addition". If the study contrasts or contradicts the previous study, emphasize this using words like "in contrast" or "on the other hand".
+One of the websites I visited to prepare this lecture had some interesting advice about transitional words. I lost track of which site (shame, shame on me for not keeping better track of things!). The point that they made is that a long list, study after study can easily lead the reader to feel lost in all the details. Place each study in context relative to the previously mentioned. If the study is providing further support to the results of the previous study, emphasize this with words like "also" or "in addition". If the study contrasts or contradicts the previous study, emphasize this using words like "in contrast" or "on the other hand". This is a little thing, but it does help.
 
 </div>
 
@@ -189,6 +254,16 @@ Make sure that your discussion of one study is placed in context with the discus
 "Dosage compensation in mammalian females is a recognized phenomenon whereby inactivation of one X chromosome ...[1]. **However,** not all X-linked genes are inactivated. Recently, an inactivation profile...was reported by Carrel and Willard [2]. ... **Subsequently**, Lyon [3] ... enhanced our knowledge about X-chromosome inactivation..."
 
   + Talebizadeh et al. X chromosome gene expression in human tissues: Male and female comparisons. Genomics 2006.
+
+<div class="notes">
+
+Notice the contextual words here. The second reference implies something quite different than the first.
+
+The third reference supports the perspective of the second.
+
+Note: I'm citing my own paper here, not because the writing is better than anyone else's, but rather because it's easier to talk about something you are already familiar with.
+
+</div>
 
 ***
 ### Analyzing
@@ -207,13 +282,23 @@ Make sure that your discussion of one study is placed in context with the discus
   
   + Descriptive (Estimate, Identify)
   
+* Put in some passion
+  
 <div class="notes">
+
+You can't rely on just the abstract. It's fine for tossing out papers that obviously don't fit. But the abstract is sometimes inconsistent with the text. It's easy to do--you write your  paper, then you write your abstract, then you make a last minute change in the paper and forget to update your abstract.
+
+There's also lots of documented examples of misplaced emphasis in the abstract. The text of a paper might identify an outcome that is primary, but the abstract might talk instead about a secondary outcome because it was the only one with a small p-value.
+
+So please read the entire paper.
 
 Most research involves comparison, so try to use words that emphasize superiority like "improved" or "better" or that emphasize comparability like "similar" or "equivalent".
 
-Don't try to be dispassionate in your analysis. It is okay to invoke emotions like surprise or disappointment. Provide guidance to magnitude with phrases like "substantial change" or "moderate improvement"
-
 Your analysis will be quite different, of course, for descriptive studies. For these, you offer an estimate (such as "1.2 million people in the United States have diabetes") or list one or more features of a group (such as "the most commonly used drugs in transplant patients to prevent rejection are calcineurin inhibitors, antiproliferative agents, and steroids").
+
+Don't try to be dispassionate in your analysis. It is okay to invoke emotions like surprise or disappointment. Provide guidance to magnitude with phrases like "substantial change" or "moderate improvement". You can editorialize with phrases like "landmark study". Some people overdo this, but in my experience, too many authors are too timid about their writing. The desire to appear impartial causes them to suck all the life out of their prose.
+
+Even if others disagree with your perspective, you have given them something to react to. This is far better than expecting the reader to figure out from subtle hints what you really think.
 
 </div>
 
@@ -254,17 +339,33 @@ Don't feel that you have to follow these writing guidelines slavishly. Use them 
   
   + Weak studies better than no studies
   
+* Questions you can ask
+
+  + Do the results support the conclusion?
+  
+  + What are the stated limitations?
+  
+  + Can you place this article in "the bigger picture"?
+  
 <div class="notes">
 
 When you are evaluating studies, you should comment on the quality of the studies. You may be tempted to create a dichotomy between "good" studies and "bad" studies, but this is a mistake. All studies are good, and we are glad that they get published. 
 
-What you should comment on is how persuasive a study is. The strength of the evidence depends on a variety of factors. Keep in mind that no single factor, by itself, is strong enough that its presence makes a study definitive or that its absence makes the study worthless.
+What you should comment on is how persuasive a study is. By persuasive, I mean persuasive to a clinician. Many articles are very helpful in developing theories, setting research priorities, and so forth, without being far enough along to influence clinical practice.
 
-One exception is that you sometimes have to draw a line in the sand because of space limitations. If you have three studies and only room to talk about one of them, pick the one that is most persuasive, especially if the three studies all reach the same conclusion.
+The strength of the evidence depends on a variety of factors. Keep in mind that no single factor, by itself, is strong enough that its presence makes a study definitive or that its absence makes the study worthless.
 
-Where the strength of the evidence comes into play is when you need to reconcile conflicting studies. Report both, if one is much more persuasive than the other, run with that study's conclusion.
+One exception is that you sometimes have to draw a line in the sand because of space limitations. If you have three studies and only room to talk about one of them, pick the one that uses blinding, for goodness sakes, if the other two studies are unblinded.
+
+Where the strength of the evidence really comes into play is when you need to reconcile conflicting studies. Report both, if one is much more persuasive than the other, run with that study's conclusion.
 
 Weak evidence is certainly better than no evidence, and you can't draw a firm conclusion that contradicts the evidence, no matter how weak. If the only studies in an area are weak, then consider this your opportunity to cite a gap in knowledge, especially if your proposed research will provide a stronger degree of evidence than what is currently out there.
+
+Some questions that you can ask: Do you feel that the author's interpretation is supported by their data. Did they discussion limitations and are those limitations relevant to you. Have they placed their results in a bigger context?
+
+Don't accept everything blindly just because it has been published. Become critical evaluators. Note that critical means more than just criticizing, though.
+
+
 
 </div>
 
@@ -297,9 +398,9 @@ A strong effect is more persuasive than a weak effect. How big does an effect ha
 
 The reason that a strong effect is more persuasive is that it is less likely to be produced by biases. Most, but not all, biases are too small to produce an artefactual odds ratio of 2.0 or greater.
 
-This is an important topic and I hope to talk more about it later in the class.
-
 If a research finding includes a plausible scientific mechanism that's a good thing.
+
+There's a lot more to evaluation of course. These are just a few highlights.
 
 </div>
 
@@ -322,7 +423,15 @@ If a research finding includes a plausible scientific mechanism that's a good th
 
 <div class="notes">
 
+I tend to think on the positive side, but there are a few negatives. Post hoc changes in a protocol are usually troublesome. By post hoc, I mean changes that occur in the data collection process after data collection has started or changes in the data analysis plan after some of the data has been analyzed.
 
+A high drop out rate (and anything above 30% is high) is also troublesome.
+
+Poor compliance with the requirements of the research is also a concern. Now please remember that your research subjects are not your slaves and they are always free to do what they think is in their best interests. If your the researcher, just document and report what happened.
+
+There's a lot of discussion of high impact journals, but I have not seen any empirical evidence that the quality of the research is higher in those journals. It may be, or it may be that the difference is in the types of problems studied rather than in the quality of the studies themselves. 
+
+Also, if I can editorialize here, intention to treat analysis, while it is a nice thing, is way overrated. I'll talk about intention to treat analysis next week.
 
 </div>
   
@@ -336,12 +445,18 @@ If a research finding includes a plausible scientific mechanism that's a good th
   + From general to specific
 
   + Thematic
+  
+* End with your research
 
 <div class="notes">
 
 One way of organizing your review might by chronological. This is appealing if new theories or new approaches emerge over time. But beware, becuase a chronological list can sometimes come across as dull.
 
-The approach I like best (and your book also likes it) is to move from the general to the specific.
+The approach I like best (and your book also likes it) is to move from the general to the specific. There are several directions you can go, but one way would be talking about the disease, talking about a particular treatment of the disease, and then talking about that treatment in a particular subpopulation. Of course, talking about the disease, then a subpopulation and then a treatment within that subpopulation also works.
+
+You start with the general because that is what your reader is most likely to be familiar with. As you make things more specific, you draw them in to the need for your research.
+
+Whicever organizational approach you choose, your last paragraph summarizes everything and leads into the work you plan.
 
 </div>
 
@@ -367,7 +482,11 @@ The approach I like best (and your book also likes it) is to move from the gener
   
   + Supportive, then non-supportive
   
-  + Methodologies, theories, schools of thought
+  + Methodologies
+  
+  + Theories
+  
+  + Schools of thought
 
 <div class="notes">
 
@@ -381,263 +500,52 @@ Or offer a thesis and group your references into two sections, articles that are
 
 You might organize your articles into groups sharing common methodologies. In a study of mitigation of home exposures that might exacerbate asthma, the studies might be grouped by those that study a physical intervention (like improved ventilation) and by those that study a chemical intervention (spraying for dust mites). 
 
-In a review of behavioral change, you might organize articles by the different theories of change (Lewin, Rogers, or Spradley) that they rely on. Likewise, there are four schools of thought on management (biologic, chaotic, deterministic, and empircal).
+In a review of behavioral change, you might organize articles by the different theories of change (Lewin, Rogers, or Spradley) that they rely on. 
 
 Some studies of child welfare management might utilize the attachment theory while others might use crisis intervention theory or social construction theory.
 
-</div>
-
-***
-###
-
-+ Step 2: Conduct literature review
-+ Purposes of literature review
-+ What a literature review is NOT ?
-+ What a literature review is ?
-+ Sources to be used in literature review
-
-<div class="notes">
-
-What has already been done and what hasn't. You need to make a strong argument that your work hasn't already been done.
-
-It helps you identify what research methods have been used by others. These are probably the best choices for your research.
-
-It is not an annotated bibliography. An annotated bibliography is great for other areas. Don't talk about each paper in isolation. 
-
-Your interpretation of the relevant literature. Analysis, evaluation, and synthesis. Last paragraph summarizes everything and leads into the work you plan.
-
-The Internet is great place to start, and that includes Wikipedia, but it is important to use primary sources whenever possible. If you find an excellent secondary source, take the time to review the primary sources
-
-
+It's really hard to give examples here because there are so many different thematic organizations that you can choose from.
 
 </div>
 
-***
-### Planning a Research Project 
+### Some last thoughts
 
-+ Reviewing the literature
-	+ What is known
-	+ What questions remain
-	+ Evaluating research reports
-		+ Journal quality
-		+ What is the study about?
-		+ Are the results of the study valid?
-		+ Are the results meaningful?
-		+ What does it all mean and how does it contribute to what you want to do?
+* Revisit your literature review after writing the discussion section of your paper.
+
+* Standard format for a thesis. 
+
+When you've written up 
 
 <div class="notes">
 
-Portney and Watkins.
-
-Think about the research methods, the samples they collected. Evaluate the quality of the source. Peer-reviewed articles are the place to start out with. 
-
-Don't rely just on the abstract.
-
-Do you feel that the author's interpretation is supported by their data. Did they discussion limitations and are those limitations relevant to you. Have they placed their results in a bigger context?
-
-Don't accept everything blindly just because it has been published. Become critical evaluators. Note that critical means more than just criticizing, though.
-
-</div>
-
-***
-### Literature Reviews 
-
-+ Additional Resources
-	+ L.G. Portney & M.P. Watkins. Chapter 34, ?Evaluating research reports.? *Foundations of Clinical Research: Applications to Practice, 3rd ed.* Upper Saddle River, New Jersey: Pearson Prentice Hall.
-
-<div class="notes">
-
-At least one table from Portney and Watkins.
-
-</div>
-
-***
-### Literature Reviews 
-
-+ Step 2 ? Conduct literature review
-+ Purposes of literature review
-+ What a literature review is ?
-+ What a literature review is NOT ?
-+ Sources to be used in literature review
-
-<div class="notes">
-
-Identify gaps in the literature, select appropriate methods, provide an interpretation and synthesis. It reflects your own understanding of what has been done. 
-
-I hope you become a more critical reviewer of the literature review.
-
-It is not an annotated bibliography.
-
-Look for unpublished research. Use primary sources. Do not trust what someone else says about that article.
-
-Note this is not a formal systematic review. The goal of a systematic review is to be comprehensive.
-
-You will revisit your literature review when you write the discussion section of your paper.
+You will revisit your literature review after you've collected the data, written your results and written your discussion section. The discussion section talks about the strengths and weaknesses of your particluar study and places your study in a broader context. When you do this, you may notice some gaps or inconsistencies in your literature review.
 
 There is a standard format for the literature review for a thesis. This is more detailed than what you might put in a paper.
 
 </div>
 
-***
-### Literature Reviews 
-
-+ Reviewing the literature
-	+ What is known
-	+ What questions remain
-	+ Evaluating research reports
-		+ Journal quality
-		+ What is the study about?
-		+ Are the results of the study valid?
-		+ Are the results meaningful?
-		+ What does it all mean and how does it contribute to what you want to do?
-
-<div class="notes">
-
-How much weight should you place on a particular study. Where was it published? Was it peer-reviewed? Are the results valid? Become a critical reader.
-
-Look beyond statistical significance to practical significance.
-
-</div>
-
-***
-### Evaluating Research Validity 
-
-+ Evaluation of the quality of the design and analysis of a study
-+ GM&L framework ?
-	+ designed to be used with both experimental and non-experimental research
-+ Assess research validity
-	+ Series of continua
-+ Emphasis on methods and results
-
-<div class="notes">
-
-Portney and Watkins Table 34.1 on whether the results of a study are valid.
-
-The authors of your textbook have developed a framework that is suitable for both experimental and observational studies. The emphasis is on methods and results.
-
-</div>
-
-***
-### Evaluating Research Validity 
-
-+ GM&L framework ?
-	+ 19 questions
-	+ 8 rating scales
-+ 19 questions <U+F0E8> 3 main groups
-	+ Key aspects of the design and methods (1 ? 8)
-	+ Evaluative ratings (9 ? 16)
-	+ General evaluation questions (17 ? 19)
-+ ?? merit or worth of the study as a whole??
-
-<div class="notes">
-
-There is a document on the week 3 folder that consolidates several tables in your book. The first eight questions cover these areas: measurement reliability and statistics, the internal validity of the study, and the external validity of the study. The last three questions get at peer review, journal quality, and clarity of the writing.
-
-You need to evaluated the worth of the study as a whole. No one criteria will condemn a study and no one criteria by itself makes a study credible.
-
-</div>
-
-***
-### Evaluating Research Validity 
-
-![](../images/image-03-01.png)
-
-<div class="notes">
-
-+ GM&L framework document
-
-Second block is on equivalence of groups (control of extraneous factors).
-
-Did the authors overstate the importance of their findings.
-
 "It's great news, if you're a rat."
 
-Building on the work of Campbell and Stanley reference, "What Works", the Campbell Collaboration.
-
-Get at what variables were used as independent and dependent variables.
-
-</div>
-
-***
-### Evaluating Research Reports 
-
-
-![](../images/image-03-02.png)
-
-<div class="notes">
-
-Portney & Watkins, 2009.
-
-Table 34.1.
-
-Factors that contribute to the overall validity of the study include the individual reliability and validity of variables, and the internal and external validity of the study as a whole.
-
-We will talk about Table 23.2 again later in this class.
-
-
-</div>
-
-***
-### Evaluating Research Validity 
-
-+ Other Options - examples
-	+ MEDB 5511 Literature review form
-	+ MEDB 5511 .xls template
-	+ Proposal literature review file
-
-<div class="notes">
-
-Here are some examples of Excel spreadsheets summarizing literature review.
-
-Setting up columns: Number (write this on the article itself), Citation, Sample, Did they use motivational interviewing, Inclusion criteria, Intervention, Control arm, Outcomes, Findings, Notes.
-
-Second sheet has study design, participants, groups, controls, time, outcome measure, sample size including completers.
-
-Third sheet has a checklist of exclusion criteria.
-
-Adverse event summary, dosing.
-
-This can help you having to constantly refering back to the articles. But you will find yourself going back to the articles when you need more information that is not yet in your spreadsheet.
-
-Medical literature review form for MEDB 5511 (Epidemiology).
-
-Another spreadsheet has primary versus secondary analysis, exposure, primary outcome(s), study sample (broken down by age, sex, and race/ethnicity), sample size, duration of followup, unadjusted results, adjustments for confounders.
-
-PICOTS
-
-</div>
-
-***
-### Assignment 
-
-+ Nothing to be turned in next week
-
-+ Work on identifying a research topic you want to work on for the final project .
-
-<div class="notes">
 
 We will doing a session with Sue Sykesbury. You need to start your research review and will soon have to provide a brief summary of your research.
 
 </div>
 
 ***
-`r read_text("hw03", fri[3])`
+`r read_text("hw03", fri[3], char_max=char_limit)`
 
 <div class="notes">
 
-
+There's no official homework this week, but please start thinking about your research problem. Most of the future assignments (including developing a literature review) are dependent on you picking out a research problem that you are interested in.
 
 </div>
 
 ***
-`r read_text("discussion03", fri[3])`
+`r read_text("discussion03", fri[3], char_max=char_limit)`
 
 <div class="notes">
 
-
+There are several discussion questions. You've done great so far, and this is an important componenet of the research.
 
 </div>
 
-***
-
-### Additional slides

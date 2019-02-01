@@ -1,5 +1,5 @@
 ---
-title: "Video 04 - Analysis of secondary data sets"
+title: "Video 04 - Analysis of randomized studies"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -30,6 +30,24 @@ This is what you should have read already. If you haven't done the reading yet, 
 There is a second video on this topic, presented by Tim Hickman.
 
 </div>
+
+***
+### Topics
+
+* Intention to treat analysis
+
+* Blinding/partial blinding
+
+* Concealed allocation
+
+* The law of large numbers
+
+* Randomization approaches
+
+  + Stratified randomization
+  
+  + Block randomization
+
 
 ***
 ### Secondary Analysis 
