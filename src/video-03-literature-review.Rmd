@@ -142,9 +142,9 @@ For what it's worth, there has been a call in the research community to replace 
 
 * Talk to a librarian
 
-* Specify your score
+* Specify your scope
 
-* Find a good summary
+* Use primary sources, peer-reviewed
 
 * Talk to a librarian
 
@@ -191,36 +191,6 @@ Make sure that your discussion of one study is placed in context with the discus
   + Talebizadeh et al. X chromosome gene expression in human tissues: Male and female comparisons. Genomics 2006.
 
 ***
-### Example of descriptive and comparative analysis
-
-"African Americans represent nearly 45% of new HIV cases each year (1–2). Due to delayed HIV diagnosis, African Americans tend to enter HIV treatment at advanced stages and die from AIDS sooner than Whites (1)."
-
-  + Berkley-Patton et al. An HIV Testing Intervention in African American Churches: Pilot Study Findings. Ann Behav Med. 2016. 
- 
-<div class="notes">
-
-This is a nice example of description where you provide an estimate (45%) followed by a comparison (advance stages, die sooner).
-
-</div>
-
-</div>
-
-***
-### Example of descriptive analysis
-
-"Studies suggest many African American faith leaders are willing to provide HIV education ...(14–17); however, their reported challenges in doing so have included church capacity issues (e.g., lack of HIV training, church-appropriate HIV materials, time, and resources), controversial church issues (e.g., condom use, premarital sex, homophobia), and HIV stigma (18–22)."
-
-  + Berkley-Patton et al 2016. 
- 
-<div class="notes">
-
-This is a nice example of a descriptive result where you mention a list of features.
-
-Don't feel that you have to follow these writing guidelines slavishly. Use them if you are not sure how to proceed, but if you are making good writing progress without these guidelines, then ignore them.
-
-</div>
-
-***
 ### Analyzing
 
 * More than just the abstract
@@ -248,14 +218,114 @@ Your analysis will be quite different, of course, for descriptive studies. For t
 </div>
 
 ***
+### Example of descriptive and comparative analysis
+
+"African Americans represent nearly 45% of new HIV cases each year (1–2). Due to delayed HIV diagnosis, African Americans tend to enter HIV treatment at advanced stages and die from AIDS sooner than Whites (1)."
+
+  + Berkley-Patton et al. An HIV Testing Intervention in African American Churches: Pilot Study Findings. Ann Behav Med. 2016. 
+ 
+<div class="notes">
+
+This is a nice example of description where you provide an estimate (45%) followed by a comparison (advanced stages, die sooner).
+
+</div>
+
+***
+### Example of descriptive analysis
+
+"Studies suggest many African American faith leaders are willing to provide HIV education ...(14–17); however, their reported challenges in doing so have included church capacity issues (e.g., lack of HIV training, church-appropriate HIV materials, time, and resources), controversial church issues (e.g., condom use, premarital sex, homophobia), and HIV stigma (18–22)."
+
+  + Berkley-Patton et al 2016. 
+ 
+<div class="notes">
+
+This is a nice example of a descriptive result where you mention a list of features.
+
+Don't feel that you have to follow these writing guidelines slavishly. Use them if you are not sure how to proceed, but if you are making good writing progress without these guidelines, then ignore them.
+
+</div>
+
+***
 ### Evaluating
+
+* No "bad" or "good" studies
+
+  + Degrees of evidence
+  
+  + Weak studies better than no studies
+  
+<div class="notes">
+
+When you are evaluating studies, you should comment on the quality of the studies. You may be tempted to create a dichotomy between "good" studies and "bad" studies, but this is a mistake. All studies are good, and we are glad that they get published. 
+
+What you should comment on is how persuasive a study is. The strength of the evidence depends on a variety of factors. Keep in mind that no single factor, by itself, is strong enough that its presence makes a study definitive or that its absence makes the study worthless.
+
+One exception is that you sometimes have to draw a line in the sand because of space limitations. If you have three studies and only room to talk about one of them, pick the one that is most persuasive, especially if the three studies all reach the same conclusion.
+
+Where the strength of the evidence comes into play is when you need to reconcile conflicting studies. Report both, if one is much more persuasive than the other, run with that study's conclusion.
+
+Weak evidence is certainly better than no evidence, and you can't draw a firm conclusion that contradicts the evidence, no matter how weak. If the only studies in an area are weak, then consider this your opportunity to cite a gap in knowledge, especially if your proposed research will provide a stronger degree of evidence than what is currently out there.
+
+</div>
+
+***
+### Evaluating
+
+* Positive features
+
+  + Randomization
+  
+  + Blinding
+  
+  + Strong effect
+  
+  + Plausible mechanism
+  
+<div class="notes">
+
+I could spend hours and hours talking about evaluating ehst your book calls "research validity". I prefer talking about how strong or how persuasive the evidence is.. This is the critical appraisal step in Evidence-Based Health Care, and I've written a whole book about it.
+
+Let me just give a quick summary here.
+
+Randomization is a really nice thing to have, because it largely eliminates the problem of alternate explanations like confounding that might otherwise invalidate the research. Randomization is not a panacea, though, and you don't want to become a research bigot who dismisses any research that is not randomized. I'll talk more about randomization next week.
+
+Blinding is hiding information about who gets the drug and who gets the placebo. It's not a serious possibility in many medical studies. I have an off-color joke about this. It actually got published in a medical journal, so don't tell me that the research literature is dry and boring.
+
+Blinding is not possible in some research studies, I say, and then offer up an example of a treatment study where one of the arms is a bilateral orchiectomy. You can't blind that study because sooner or later the patient notices that something is missing. I'll talk a bit more about blinding next week.
+
+A strong effect is more persuasive than a weak effect. How big does an effect have to be to be strong? One commonly cited criteria is an odds ratio larger than 2. This is one of the many false dichotomies in research: an odds ratio of 2.1 is strong and an odds ratio of 1.9 is weak. But it's a start.
+
+The reason that a strong effect is more persuasive is that it is less likely to be produced by biases. Most, but not all, biases are too small to produce an artefactual odds ratio of 2.0 or greater.
+
+This is an important topic and I hope to talk more about it later in the class.
+
+If a research finding includes a plausible scientific mechanism that's a good thing.
+
+</div>
+
+***
+### Evaluating
+  
+* Negative features
+
+  + Post hoc changes
+  
+  + High dropout rate
+  
+  + Poor compliance
+
+* Things not to fuss over
+
+  + Quality of the journal
+  
+  + Intention to treat analysis
 
 <div class="notes">
 
 
 
 </div>
-
+  
 ***
 ### Synthesizing
 
