@@ -627,6 +627,356 @@ They understand needs and real world feedback. Does this fit in to individual pe
 </div>
 
 ***
+### Secondary Analysis 
+
++ Definition – using existing database/dataset to re-examine variables and answer questions
+	+ Research question different from what was originally addressed
++ Differences could be …
+	+ Variables that are analyzed
+	+ Relationships that are explored
+	+ Different subsets of cases
+	+ Different analysis techniques
+
+<div class="notes">
+
+Let's have a common definition. You are re-purposing the data. 
+
+Some secondary datasets are available strictly for this purpose. These are often national databases collected user taxpayer money and made available to anyone who wants to use them.
+
+Sometimes we collect more data than what we strictly need for our purposes. 
+
+Example: One of the interventions used motivational interviewing. Autonomous regulation scale. Some additional information came out that that there was a third subscale after the data was collected. So Mary was approached to see if her data would support this third subscale.
+
+Identifying people who have common data sets that can be combined.
+
+NIH supports secondary analysis of data. Example of RFA on secondary analysis. Publicly available data sets for aging related analysis" document.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Could be done when able to combine different/compatible data sets
++ Advantages
+	+ Cost
+	+ Working with large dataset
+	+ Time efficiency
+	+ May be a good first step in a research area
+
+<div class="notes">
+
+The data are already collected, so you don't have to wait around.
+
+Secondary analyses are great for exploratory studies. Initial analysis was changes in rate of adherence. Sixteen different adherence studies contributed by fourteen different groups.
+
+The combination of disparate data sets is one of the hallmarks of big data (the "variety" V of the three V's of big data).
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Disadvantages
+	+ Lack of control over data collection process
+		+ Quality control
+		+ Specifics of variables and wording
+		+ Missing data or data entry errors
+	+ Consider possible sources of error
+		+ Make judgment on possible impact on research question
+		+ What can be done to address problems
+
+<div class="notes">
+
+One of the big ones is the lack of control over the data collection process. You can't change how the data was collected without access to a time machine. You lose control over the variables that were collected, the wording of the questionnaires, the quality checks.
+
+Data quality issues can be an issue at times. Why conduct rigorous quality checks now for data that will only be used by someone else in the future?
+
+Example of depression: some of the data sources might use CESD, BDI, SCID.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Two types of secondary data sets
+	+ Individual
+	+ Aggregate
+
+<div class="notes">
+
+Data sets that have individual level records: there is separate records an indvidual unit (usually a person, but it could be an event like an emergency department visit).
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Individual – separate information available for each subject/unit
+	+ Can use to measure associations between characteristics among individuals/units
+	+ Source
+		+ Previous research study
+		+ Large regional and national data sets
+			+ Surveillance, Epidemiology, and End Results (SEER)
+			+ National Death Index
+
+<div class="notes">
+
+The book gives several resources, and there is a document on Canvas that lists some of the secondary data sets that DBHI has worked with.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Aggregate – information available only for groups of subjects
++ Can study associations among groups by comparing them on risk factors or variables of interest (ecologic studies)
++ Advantage – availability of data
+
+<div class="notes">
+
+Aggregated data avoids some privacy concerns.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Aggregate (cont ’ d)
++ Disadvantage –
+	+ Associations are especially susceptible to confounding
+	+ Associations seen in aggregate don’t always hold at the individual level (ecologic fallacy)
++ Most appropriately used –
+	+ Test the plausibility of a new hypothesis, or
+	+ Generate new hypotheses
+
+<div class="notes">
+
+An example of the ecologic fallacy. Sales of cigarettes are greater in states that have higher suicide rates. You don't know whether an individual who smokes is more likely to commit suicide.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Chicken or the egg!
+	+ Identify existing database and determine what can be done with it – that you are interested in!
+		+ Get familiar with the data set – available variables
+		+ Consider possible new questions that can be addressed
+		+ Go to the literature
+			+ How has database been used previously?
+			+ What has already been answered?
+			+ Develop a theoretical framework for your research
+
+<div class="notes">
+
+You can have a question and find what secondary data sets might help answer that question. Or you can explore a data set that you find interesting and see if there are interesting research questions that this data set might help with.
+
+For the latter, do a literature search where others have used this data set and see what questions they were able to answer.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Table 13.1
+
+Steps in Finding Research Questions to Fit an Existing Database
+
+1. Choose a database.
+
+2. Become thoroughly familiar with the database. Make a flow sheet of all variables and how they were measured.
+
+3. Identify pairs or groups of variables whose association may be of interest.
+
+4. Review the literature and consult experts to determine if these research questions would be novel and important.
+
+5. Formulate specific hypotheses and settle on the statistical methods.
+
+6. Analyze the data.
+
+[Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition.]
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Chicken or the egg!
+	+ Search for an existing database that will address the research question you are interested in
+		+ Start with the research question you are interested in
+		+ Have a list of variables that are relevant
+		+ Have an idea of what databases are available
+		+ Find out if there are special qualifications for working with the database
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Table 13.2
+
+Steps in Finding Databases to Fit a Specified Research Question
+
+1. Choose a research question and review the literature thoroughly.
+
+2. List combinations of predictor and outcome variables whose relationship might help answer the research question.
+
+3. Identify databases that might include the variables of interest.
+
+4. Become familiar with each of these databases and consult with individuals who know them well.
+
+5. Choose the best database(s) and gain access to the data.
+
+6. Formulate specific hypotheses and settle on the statistical methods.
+
+7. Analyze the data.
+
+[Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition]
+
+<div class="notes">
+
+Gaining access can mean different things. Some datasets, you can directly download (no cost). Others are free, but you have to prepare a research proposal and get approval before you can use that data. Others require a small payment. Some data sets require you to sign an agreement first.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Sources – where to find out about them
+	+ Journal articles / conference presentations
+	+ Data libraries
+	+ U.S. government
+		+ Census Bureau
+		+ National Center for Health Statistics (NCHS)
+		+ Framingham Heart Study
+		+ Multiple Risk Factor Intervention Trial (MRFIT)
+		+ NIH Data Sharing Plan requirement
+
+<div class="notes">
+
+There are lots of resources available in the genetics community that are not covered here.
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Sources – where to find out about them
+	+ Community-based data sets
+		+ Evaluate patterns of utilization and clinical outcomes of medical treatment
+		+ Examples
+			+ Administrative and clinical database
+			+ Registries
+		+ Useful for
+			+ Examining rare outcomes
+			+ Assessing real-world utilization and effectiveness of an intervention
+			+ Study effectiveness rather than efficacy
+		+ Importance of replication
+
+<div class="notes">
+
+Truman is setting up a system, i2b2, that allows you to study research cohorts. Health Facts. 
+
+Kansas City Quality Improvement Consortium. Mid America Research Council.
+
+Data from CMS, Department of Veteran Affairs.
+
+Missouri Information for Community Assessment (MICA). Helps local health agencies and their partners.
+
+Useful for assessing the magnitude of the problem.
+
+[[Contrast national with community level data sets.]]
+
+</div>
+
+***
+### Ancillary Studies 
+
++ Adds new measurements to an existing/ongoing study
+	+ Advantages
+		+ Similar to advantages of secondary analysis
+		+ Inexpensive & efficient
+		+ Can be added to any type of study
+	+ Disadvantages
+		+ Not as valuable as if measures were part of original study
+			+ Not a complete set of data
+		+ Have no control over what the other measures are
+		+ Need to get the buy-in of the primary investigators
+
+<div class="notes">
+
+Find a study that is already collecting data and ask them to add some measures that you are interested in.
+
+Example, there are many ways to collect data on adherence. Add some extra measures after the fact to explore interrelationships or to see if newer measures are more sensitive.
+
+</div>
+
+***
+### Ancillary Studies 
+
++ Not unusual for additional measure to be added to longitudinal studies
++ How to get started
+	+ Identify ongoing studies of interest
+		+ Either predictor or outcome measures of interest
+		+ NIH RePORTER (Research Portfolio Online Reporting Tool)
+		+ ClinicalTrials.gov
+		+ Pharmaceutical companies
+		+ Contacting experts / researchers
+	+ Get cooperation of investigators
+
+<div class="notes">
+
+NCCAM example.
+
+</div>
+
+***
+### Ancillary Studies 
+
++ How to get started (cont ’ d)
+	+ Work out the logistics (measures, where to insert it, is there a cost associated with adding the measure?)
+	+ Get all appropriate approvals (e.g., IRB to document change in data that are being collected)
+	+ Work out what data from the main study you will have access to and how you will get the data you need
+	+ Discuss and agree on issues such as manuscript publication and authorship
+
+<div class="notes">
+
+An ancillary study requires IRB approval. You need to discuss with the coordinators of the study that you are piggy baking on 
+
+</div>
+
+***
+### Secondary Analysis 
+
++ Examples of available secondary analysis data sets …
+	+ MEPS (Medical Expenditure Panel Survey)
+	+ YRBSS (Youth Risk Behavior Surveillance System)
+	+ NSQIP (National Surgical Quality Improvement Proram)
+	+ …
+
+<div class="notes">
+
+MEPS and YRBSS are individual based. NSQIP are event based.
+
+http://www.meps.ahrq.gov
+
+MEPS is nationally representative maintained by the Agency for Health Care Research and Quality. MEPS is largely cross-sectional, but has panels that can address longitudinal questions.
+
+The YRBSS focuses on six health risk behaviors among youths (unintentional injuries and violence, tobacco use, alcohol and other drug use, sexual behaviors. dietary behaviors, and physical activity).
+
+Review the list of secondary datasets prepared by DBHI.
+
+</div>
+
+***
 ### Assignment #4 
 
 + Turn in the results of a literature search on the topic you are planning to focus on for your research proposal . This is NOT expected to be a literature review; it should provide evidence that you are finding literature that is relevant to your topic. This assignment serves as the start of your References section, using the reference/citation style you plan to use in your proposal.
