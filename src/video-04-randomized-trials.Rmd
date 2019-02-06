@@ -36,6 +36,8 @@ There is a second video on this topic, presented by Tim Hickman.
 
 * Subversion of randomizaton
 
+In theory, the two therapies you are comparing have to have equipoise. There needs to be genuine uncertainty as to which therapy is better. That's a theoretical concept that is rarely met in practice.
+
 * Intention to treat analysis
 
 * Blinding/partial blinding
@@ -116,23 +118,31 @@ It's easy to sneer at quasi-experimental studies and think of them as an inferio
 ***
 ### Advantages of randomization
 
-* Avoids selection bias
-
 * Insures covariate balance
   
 * Both measured and unmeasured covariates
 
+* Avoids selection bias
+
 <div class="notes">
+
+A covariate is a variable that is not of direct interest in the research, but which could affect the outcome. If a covariate is imbalanced between the two groups you are comparing, that can interfere with your ability to detect whether there is a difference between the treatment and control group.
+
+There was a study that looked at smoking during pregnancy and found the suprising conclusion that smoking reduced the risk of Down Syndrome. Now smoking does a lot of really bad things to you: cancer, hypertension, stroke, heart attacks, etc. So it would be quite surprising to see cigarettes being protective instead of harmful. The researchers knew, however, that this finding was not real. It turns out that younger women are more likely to smoke during pregnancy than older women. This is a covariate imbalance. The smoking group had a much younger average age than the non-smoking group. Down Syndrome occurs much more often among older women than younger. Once you control for mother's age, the protective effect of smoking pretty much disappears.
+
+Covariate imbalance is a big big problem for observational studies. You have to spend a lot of time and energy worrying about it during the planning phase and controlling for it in the analysis phase. We'll talk more about this in a couple of weeks.
+
+The value of randomization is that an older woman is just as likely to find herself in the treatment group as in the control group. So the law of large numbers assures that you will have good covariate balance.
+
+This applies for both covariates that you can measure, like demographics, and covariates that you might not be able to measure, such as number of co-morbidities, psychological state, and severity of the illness at baseline.
+
+There is a different perspective that is worth mentioning here. Covariate imbalance is sometimes caused by selection bias.
 
 Some of the patients in your research study may prefer one or the other of the two completing therapies being studied. The physicians who are managing the patients in your research study may also have a preference for some of their patients. 
 
 If the patients and/or their physicians pay a role, even indirectly, in choosing between the two competing therapies, then you have to potential for selection bias. Patients might differ on key prognostic variables, leading to an biased comparison that might mask a true effect or produce an artefactual effect.
 
-Randomization removes the patient and physician choice and prevents selection.
-
-In theory, the two therapies you are comparing have to have equipoise. There needs to be genuine uncertainty as to which therapy is better. That's a theoretical concept that is rarely met in practice.
-
-Left uncontrolled, 
+Randomization removes the patient and physician choice and prevents selection bias.
 
 </div>
 
@@ -149,9 +159,9 @@ Left uncontrolled,
 
 <div class="notes">
 
-There's 
+There are a fair number of researchers who get very snobbish about randomization. If it's not randomized, it's not real. This is wrong, wrong, wrong.
 
-</div>
+I wrote a book back in 2006 that talked about critical appraisal. It covered things like blinding, low drop out rates, patient oriented outcome measures, among other things that make a study more persuasive. I wanted to make the point that while all of these things are "nice to have", none of them are "have to have". So at the end of each chapter, I included a counterpoint.  cvxvx
 
 ***
 ### Randomized Experimental Designs 
