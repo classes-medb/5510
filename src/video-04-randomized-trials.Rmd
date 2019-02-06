@@ -61,23 +61,38 @@ There is a second video on this topic, presented by Tim Hickman.
 ***
 ### Experimental versus observational
 
-* Active independent variable
+* Experimental
 
-  + Researcher controls
-  
-* Attribute independent variable
+  + Active independent variable
 
-  + Demographic feature
-  
+* Observational
+
+  + Attribute independent variable
+
+<div class="notes">
+
+One of the major distinctions in research design is experimental studies versus non-experimental (observational) studies. 
+
+Your book makes the distinction through the independent variable. An active independent variable allows for either a experimental or quasi-experimental study. An attribute independent variable makes your study non-experimental. That's your book's term, but I prefer the term observational. It is fairly common in the medical literature. Think of observational as "look but don't touch." You observe patients without meddling with them.
+
+</div>
+
+***
+### Experimental versus observational
+
 * Who does the choosing?
 
   + Patients or doctors? = Observational
   
   + Researcher? = Experimental
   
+* Patients in a randomized trial are giving you a gift.
+  
 <div class="notes">
 
+Another way of looking at it is to ask the question "Who does the choosing?" If the patient and/or the doctor has a part in deciding, then the study is observational. If the researcher is the only one who decides, and uses a coin flip to decide, that is a randomized clinical trial.
 
+We owe a great debt of graditude to the volunteers in a randomized clinical trial. They are sacrificing a lot of autonomy over what drug or therapy to choose. And they are ceding that autonomy, not to an expert clinician but to the flip of a coin. That's a truly amazing.
 
 </div>
 
@@ -88,29 +103,55 @@ There is a second video on this topic, presented by Tim Hickman.
 
   + Logistics prevent randomization
   
-* Randomized
+  + Very common in Quality Improvement
 
-  + Patients giving you a gift
-  
 <div class="notes">
 
+When you have an active independent variable, you don't always have a level of control that allows for randomization. Usually this is caused by logistical issues. Once you go down a certain path, it is impossible to go back. Or the setting that you are studying, like an emergency room is so chaotic that no one can keep track of a randomization table.
 
+It's easy to sneer at quasi-experimental studies and think of them as an inferior form of research. But they are not, and quasi-experimental designs form the backbone of many quality improvement studies. We'll talk more about this in the following week.
 
 </div>
 
 ***
-### Pros and cons of randomization
+### Advantages of randomization
 
-Benefits of randomization
+* Avoids selection bias
 
-  + Insures comparability
+* Insures covariate balance
+  
+* Both measured and unmeasured covariates
 
-Disadvantages of randomization
+<div class="notes">
+
+Some of the patients in your research study may prefer one or the other of the two completing therapies being studied. The physicians who are managing the patients in your research study may also have a preference for some of their patients. 
+
+If the patients and/or their physicians pay a role, even indirectly, in choosing between the two competing therapies, then you have to potential for selection bias. Patients might differ on key prognostic variables, leading to an biased comparison that might mask a true effect or produce an artefactual effect.
+
+Randomization removes the patient and physician choice and prevents selection.
+
+In theory, the two therapies you are comparing have to have equipoise. There needs to be genuine uncertainty as to which therapy is better. That's a theoretical concept that is rarely met in practice.
+
+Left uncontrolled, 
+
+</div>
+
+***
+### Disadvantages of randomization
 
 * Expensive
 
 * Artificial
 
+  + Extra tests, extra attention
+  
+  + Explicit acknowledgement of uncertainty
+
+<div class="notes">
+
+There's 
+
+</div>
 
 ***
 ### Randomized Experimental Designs 
