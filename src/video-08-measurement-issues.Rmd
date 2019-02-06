@@ -30,6 +30,16 @@ This is what you should have read already. If you haven't done the reading yet, 
 </div>
 
 ***
+### Additional issues to discuss
+
+* Pilot studies
+
+* Historical controls
+
+* Questionnaires. http://www.pmean.com/02/questionnaire.html
+
+* Validity. http://www.pmean.com/02/validity.html
+***
 ### Measurement 
 
 + What do we mean “ measurement ” ?

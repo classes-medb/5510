@@ -21,3 +21,11 @@
 9. Steve Simon. P.Mean: A fishy story about randomization. P.Mean website, May 12, 2012. Available in [html format](http://www.pmean.com/12/fishy.html).
 
 10. Steve Simon. StATS: Alternating treatments. P.Mean website, August 22, 2000. Available in [html format](http://www.pmean.com/00/alternate.html).
+
+11. Steve Simon.  StATS: Is the randomized trial the gold standard for research? P.Mean website, September 23, 2004. Available in [html format](http://www.pmean.com/04/GoldStandard.html).
+
+12. Kenneth F Schulz, David A Grimes. Blinding in randomised trials: hiding who got what. The Lancet
+Volume 359, Issue 9307, 23 February 2002, Pages 696-700. (behind a paywall)
+https://doi.org/10.1016/S0140-6736(02)07816-9
+
+13. Steve Simon. StATS: Ethics of a placebo group. P.Mean website, August 2, 2001. Available in [html format](http://www.pmean.com/01/placebo.html)

@@ -30,6 +30,11 @@ This is what you should have read already. If you haven't done the reading yet, 
 </div>
 
 ***
+### Additional topics
+
+* As another aside, I was involved with a similar study (prospective, not retrospective). We planned this study using a one-sided hypothesis (remote prayer has a positive effect on health). The Institutional Review Board suggested changing this to a two-sided hypothesis (remote prayer has either a positive or a negative effect on health). Thankfully, we did not observe an outcome in the opposite tail as that would have been very difficult to explain.
+
+***
 ### Making Inferences - NHST 
 
 + Populations versus Samples

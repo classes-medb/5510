@@ -40,6 +40,10 @@ In theory, the two therapies you are comparing have to have equipoise. There nee
 
 * In what situations is randomization unethical, impractical, or impossible?
 
+  + Retrospective prayer study. http://www.pmean.com/04/temporality.html
+
+* Cameron and Pauling study of Vitamin C.
+
 * Wait list control groups
 
 * Matching, crossover designs
@@ -48,7 +52,7 @@ In theory, the two therapies you are comparing have to have equipoise. There nee
 
 * Equipoise, Early stopping
 
-* Blinding/partial blinding
+* Blinding/partial blinding. Who knew what when.
 
 * Concealed allocation
 
