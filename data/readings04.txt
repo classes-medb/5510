@@ -1,5 +1,23 @@
 ### Required reading
 
-1. Canvas – Grady, D. & Hearst, N. (2007). Chapter 13, "Utilizing existing databases." In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
+0. Chapter 5.
 
-2. List of Secondary Dataset resources (Week 4 folder)
+1. Steve Simon. StATS: Intention to Treat. P.Mean website, January 27, 2000. Available in [html format](http://www.pmean.com/00/intention.html).
+
+2. Richard Feinman. Intention-to-treat. What is the question?. Nutrition & Metabolism. 2009;6(1):1. Avialble in [html format](https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/1743-7075-6-1) and [PDF format](https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-6-1).
+
+3. Steve Simon. StATS: Exlcuding placebo responders. P.Mean website, June 25, 2004. Available in [html format](http://www.pmean.com/04/placebo.html).
+
+4. Steve Simon. StATS: So you want to volunteer for a research study? P.Mean website, August 4, 2004. Available in [html format] (http://www.pmean.com/04/volunteer.html).
+
+5. Douglas G Altman, Kenneth F Schulz. Statistics Notes: Concealing treatment allocation in randomised trials. BMJ. 2001 Aug 25; 323(7310): 446–447. Avialble in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121039/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1121039/pdf/446.pdf).
+
+6. KP Suresh. An overview of randomization techniques: An unbiased assessment of outcome in clinical research. J Hum Reprod Sci. 2011 Jan-Apr; 4(1): 8–11. doi: 10.4103/0974-1208.82352. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136079/).
+
+7. Steve Simon. StATS: How to randomize. P.Mean website, August 18, 1999. Available in [html format](http://www.pmean.com/99/random.html).
+
+8. Harford T. The random risks of randomised trials. Financial Times, April 25, 2014. Available in [html format](http://www.ft.com/intl/cms/s/2/59bb202c-ca7b-11e3-8a31-00144feabdc0.html#axzz30BOFBYb7).
+
+9. Steve Simon. P.Mean: A fishy story about randomization. P.Mean website, May 12, 2012. Available in [html format](http://www.pmean.com/12/fishy.html).
+
+10. Steve Simon. StATS: Alternating treatments. P.Mean website, August 22, 2000. Available in [html format](http://www.pmean.com/00/alternate.html).
