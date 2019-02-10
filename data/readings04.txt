@@ -25,7 +25,10 @@
 11. Steve Simon.  StATS: Is the randomized trial the gold standard for research? P.Mean website, September 23, 2004. Available in [html format](http://www.pmean.com/04/GoldStandard.html).
 
 12. Kenneth F Schulz, David A Grimes. Blinding in randomised trials: hiding who got what. The Lancet
-Volume 359, Issue 9307, 23 February 2002, Pages 696-700. (behind a paywall)
-https://doi.org/10.1016/S0140-6736(02)07816-9
+Volume 359, Issue 9307, 23 February 2002, Pages 696-700. Available, but [behind a paywall](https://doi.org/10.1016/S0140-6736(02)07816-9).
 
 13. Steve Simon. StATS: Ethics of a placebo group. P.Mean website, August 2, 2001. Available in [html format](http://www.pmean.com/01/placebo.html)
+
+14. Hróbjartsson A, Gøtzsche PC. Is the placebo powerless? An analysis of clinical trials comparing placebo with no treatment. N Engl J Med. 2001 May 24;344(21):1594-602. Review. Available in [html foramt](https://www.nejm.org/doi/10.1056/NEJM200105243442106) or [PDF format](https://www.nejm.org/doi/pdf/10.1056/NEJM200105243442106)
+
+15. Farnham Street. Regression Toward the Mean: An Introduction with Examples. Available in [html format](https://fs.blog/2015/07/regression-to-the-mean/).

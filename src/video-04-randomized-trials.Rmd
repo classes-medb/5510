@@ -21,7 +21,7 @@ Here are the objectives for this week.
 </div>
 
 ***
-`r read_text("readings04")`
+`r read_text("readings04", char_max=800)`
 
 <div class="notes">
 
@@ -30,79 +30,49 @@ This is what you should have read already. If you haven't done the reading yet, 
 </div>
 
 ***
-### Topics
+### (New)  Cameron and Pauling study of Vitamin C.
 
-* Subversion of randomizaton
-
-In theory, the two therapies you are comparing have to have equipoise. There needs to be genuine uncertainty as to which therapy is better. That's a theoretical concept that is rarely met in practice.
-
-* VOlunteer bias.
-
-* In what situations is randomization unethical, impractical, or impossible?
-
-  + Retrospective prayer study. http://www.pmean.com/04/temporality.html
-
-* Cameron and Pauling study of Vitamin C.
-
-* Wait list control groups
-
-* Matching, crossover designs
-
-* Intention to treat analysis
-
-* Equipoise, Early stopping
-
-* Blinding/partial blinding. Who knew what when.
-
-* Concealed allocation
-
-* The law of large numbers
-
-* Randomization approaches
-
-  + Stratified randomization
+* Linus Pauling
+  + Two-time Nobel prize winner (Chemisty, Peace)
+  + Fervent advocate of mega-doses of Vitamin C
+* Non-randomized study of cancer
+  + All patients got Vitamin C
+  + Ten controls per treated patient
   
-  + Block randomization
+* References
+  + Cameron E, Pauling L. Supplemental ascorbate in the supportive treatment of cancer: Prolongation of survival times in terminal human cancer. Proc Natl Acad Sci U S A. 1976 Oct;73(10):3685-9. PubMed PMID: 1068480; PubMed Central PMCID: PMC431183.
+  + 
 
-* How to randomize
+<div class="notes">
 
-* Baseline measurements
+    Paul Rosenbaum, in the first chapter of his book, Observational Studies, gives a fascinating example of an apples to oranges comparison. Ewan Cameron and Linus Pauling published an observational study of Vitamin C as a treatment for advanced cancer (Cameron 1976). For each patient, ten matched controls were selected with the same age, gender, cancer site, and histological tumor type. Patients receiving Vitamin C survived four times longer than the controls (p < 0.0001).
 
-* Crossover designs
+    Cameron and Pauling minimize the lack of randomization. "Even though no formal process of randomization was carried out in the selection of our two groups, we believe that they come close to representing random subpopulations of the population of terminal cancer patients in the Vale of Leven Hospital."
 
-* Criticisms
+    Ten years later, the Mayo Clinic (Moertel 1985) conducted a randomized experiment which showed no statistically significant effect of Vitamin C. Why did the Cameron and Pauling study differ from the Mayo study?
 
-***
+    The first limitation of the Cameron and Pauling study was that all of their patients received Vitamin C and followed prospectively. The control group represented a retrospective chart review. You should be cautious about any comparison of prospective data to retrospective data.
+
+    But there was a more important issue. The treatment group represented patients newly diagnosed with terminal cancer. The control group was selected from death certificate records. So this was clearly an apples versus oranges comparison because the initial prognosis was worse in the control group than in the treatment group. As Paul Rosenbaum says so well: one can say with total confidence, without reservation or caveat, that the prognosis of the patient who is already dead is not good. (page 4)
+
+    When the treatment group is apples and the control group is oranges, you can't make a fair comparison.
+
+</div>
+
 ### Experimental versus observational
 
-* Experimental
-
-  + Active independent variable
-
-* Observational
-
-  + Attribute independent variable
-
+* Experimental: Active independent variable
+* Observational: Attribute independent variable
+* Who does the choosing?
+  + Patients or doctors? = Observational
+  + Researcher? = Experimental
+* Patients in a randomized trial are giving you a gift.
+  
 <div class="notes">
 
 One of the major distinctions in research design is experimental studies versus non-experimental (observational) studies. 
 
 Your book makes the distinction through the independent variable. An active independent variable allows for either a experimental or quasi-experimental study. An attribute independent variable makes your study non-experimental. That's your book's term, but I prefer the term observational. It is fairly common in the medical literature. Think of observational as "look but don't touch." You observe patients without meddling with them.
-
-</div>
-
-***
-### Experimental versus observational
-
-* Who does the choosing?
-
-  + Patients or doctors? = Observational
-  
-  + Researcher? = Experimental
-  
-* Patients in a randomized trial are giving you a gift.
-  
-<div class="notes">
 
 Another way of looking at it is to ask the question "Who does the choosing?" If the patient and/or the doctor has a part in deciding, then the study is observational. If the researcher is the only one who decides, and uses a coin flip to decide, that is a randomized clinical trial.
 
@@ -110,13 +80,10 @@ We owe a great debt of graditude to the volunteers in a randomized clinical tria
 
 </div>
 
-***
 ### Randomized versus quasi-experimental
 
 * Quasi-experimental
-
   + Logistics prevent randomization
-  
   + Very common in Quality Improvement
 
 <div class="notes">
@@ -127,13 +94,23 @@ It's easy to sneer at quasi-experimental studies and think of them as an inferio
 
 </div>
 
-***
+
+### How to randomize
+
+* Use of a random device
+* Avoid haphazard approaches
+* Avoid alternating assignment
+
+<div class="notes">
+
+
+
+</div>
+
 ### Advantages of randomization
 
 * Insures covariate balance
-  
 * Both measured and unmeasured covariates
-
 * Avoids selection bias
 
 <div class="notes">
@@ -158,118 +135,210 @@ Randomization removes the patient and physician choice and prevents selection bi
 
 </div>
 
-***
 ### Disadvantages of randomization
 
 * Expensive
-
 * Artificial
-
   + Extra tests, extra attention
-  
   + Explicit acknowledgement of uncertainty
 
 <div class="notes">
 
 There are a fair number of researchers who get very snobbish about randomization. If it's not randomized, it's not real. This is wrong, wrong, wrong.
 
-I wrote a book back in 2006 that talked about critical appraisal. It covered things like blinding, low drop out rates, patient oriented outcome measures, among other things that make a study more persuasive. I wanted to make the point that while all of these things are "nice to have", none of them are "have to have". So at the end of each chapter, I included a counterpoint.  cvxvx
+I wrote a book back in 2006 that talked about critical appraisal. It covered things like blinding, low drop out rates, patient oriented outcome measures, among other things that make a study more persuasive. I wanted to make the point that while all of these things are "nice to have", none of them are "have to have". So at the end of each chapter, I included a counterpoint: blinding is overrated, intention to treat analysis is overrated.
 
-***
-### Randomized Experimental Designs 
+The end of my first chapter was "randomization is overrated." One of the reviewers for my book threw a fit. How dare a statistician criticize randomization! Well, there are lots of criticisms of randomization made by people who are a lot smarter than me. We'll talk about those in a minute. But the belief that we should always fight for randomization is a misguided belief. It sneers at non-randomized studies and claims that these trials are "weak" and should not become part of the evidence base.
 
-+ Characteristics
-	+ Assignment
-	+ Type of IV
-	+ Control of IV
-+ Purpose
-
-<div class="notes">
-
-Random assignment of an active independent variable. This design allows us to talk about cause.
-
-Causality, actually, is easier to establish with a randomized study, but you can establish causation with an observational study, but it takes more work.
-
-Add-on design. Take existing treatment and add either a new tre
-
-An article by Debruyn (sp?)
+Don't get me wrong. I like randomization. I use it whenever I can. I point out when failure to randomize hurts the persuasiveness of a particular research study. But I'd be remiss in my duty if I did not embrace those well designed non-randomized studies and endorse them when they make more sense than a randomized study.
 
 </div>
 
-***
-### Randomized Experimental Designs 
+### When can't you randomize
 
-+ Posttest-Only Control Group
-	+ R	E:	X	O
-	+ R	C:	X	O
-	+ Strengths
-	+ Weaknesses
+* In what situations is randomization unethical, impractical, or impossible?
 
-<div class="notes">
+  + Retrospective prayer study. http://www.pmean.com/04/temporality.html
 
-The random assignment assures that, on average, the two groups are comparable. You do not have pre measures. That prevents us from establishing comparability by comparing the pre measure values.
+### Wait list control groups
 
-You don't have a measure of change.
+In some settings, people will resist participating in 
 
-</div>
+### (New)  Matching, crossover designs
 
-***
-### Randomized Experimental Designs 
+### Blinding/partial blinding. Who knew what when?
 
-+ Pretest-Posttest Control Group
-	+ R	E:	O1	X	O2
-	+ R	C:	O1	~X	O2
-	+ Strengths
-	+ Weaknesses
+* Hiding information (not deception)
+* Not always possible (bilateral orchiectomy)
 
 <div class="notes">
 
-This is the most common type of experimental design. You still have to worry about learning effects or fatigue effects.
+Blinding is withholding information about which treatment is which during the conduct of a research study. It is not the same thing as deception. You tell the participants in a study that they will not know until after the study ends whether they received the treatment or the control.
 
-There is a general rule of thumb, that a sample size of 30 per group allows you to be comfortable with a posttest only design, but don't rely on this rule. A pretest measure is very important.
+Full blinding is not always possible. I have a joke about how blinding is difficult in a study where one of the treatments is a bilateral orchiectomy. Sooner or later the patient notices that something is missing. Even when full blinding is impossible, partial blinding is usually an option. So the patient knows about the treatment, but the person interviewing the patient does not.
 
 </div>
+  
+### Types of blinding
 
-***
-### Randomized Experimental Designs 
-
-+ Solomon Four-Group
-	+ R	E1:	O1	X	O2
-	+ R	E2:	 	X	O2
-	+ R C1: O1 ~X O2
-	+ R C2:    ~X  O2
-	+ Strengths
-	+ Weaknesses
+* Double blind
+  + Physician and patient blinded
+* Single blind
+  + Patient only
+* Partial blind
+  + Evaluators blinded
 
 <div class="notes">
 
-People are in one group only. This is useful if the pre-measure has an influence on the post-measure (learning or fatigue effects).
+There is some ambiguity in the terminology, but a double blind study means that neither the patient nor the physician knows what treatment a patient was randomized to. Now someone always knows, but this person is buried deep in the basement of the pharmacy and has no interactions with the patient or treating physician.
 
-Notice that this design doubles the number of people needed for the research.
+In a single blind, only one of the parties is blinded. This is usually the patient. You can't blind a surgery from the surgeon, but you can do things like use an extra large bandage so the patient cannot see the size of the incision.
+
+Even if you can't blind the patient, you should still try to blind the evaluators. So in a surgery trial, don't collect data from the surgeon who performed the operation, but rather from an independent observer who does not know what surgery was assigned to a particular patient.
+
+The blinded evaluator is even an option for non-randomized trials. There was a case control study where the cases had lung cancer and the controls did not. You can't hide lung cancer from a patient, of course. But the person who interviewed the patient did not know and that stopped the interviewer from probing a bit more aggressively for cancer patients. ("Are you sure you've never smoked any cigarettes? Think hard now.")
 
 </div>
 
-***
-### Randomized Experimental Designs 
+### Hawthorne effect
 
-+ Randomized Experimental Design with Matching
-	+ M R		E:	X	O
-	+ M R  C:  ~X  O
-	+ Strengths
-	+ Weaknesses
+* Series of studies at a GE factory.
+  + Any change, no matter what, improved productivity
+  + Positive response to attention.
 
 <div class="notes">
 
-Bring in matched pairs of people. Once you have those matched pairs, you randomly assign within each pair.
+Blinding protects against two sources of bias. The first is known as the Hawthorne effect. It was named after a General Electric factory where a series of experiments were run during the 1920s. One of the experiments involved lighting on a factory floor and worker productivity. The researchers would run an experiment where they lowered the lighting level, and every time they did this, productivity shot up. It got to the point where you could almost not see. Then the researchers tried an experiment where the lighting was restored to normal. In that experiment, the productivity went up as well.
 
-This design has a post-measure only, but matching minimizes the need for this measure.
+This continued with other interventions as well. The workers liked the attention they got whenever the researchers came by and responded with an increase in productivity.
 
-One issue is that determining what variables to match, it places a burden on recruiting, and unmatched people are not included in the design.
+This is part of what is generally called the placebo effect. There's been a lot written about this, and while you do want to control for the placebo effect if you can, it is important to recognize how misunderstood the placebo effect is. 
 
 </div>
 
-***
-### Randomized Experimental Designs 
+### Ascertainment bias
+
+* The tendency to self deception.
+  +  "Linus Pauling actively promoted the use of massive doses of vitamin C during the last few decades of his life. He believed it could cure just about anything from the common cold to cancer. During one interview he explained that after he and his family started taking Vitamin C supplements, they never had colds. The interviewer was a bit surprised probed a bit further 'No colds? Ever?' Linus Pauling responded, 'Oh just an occasional sniffle.'"
+ + Steve Simon. StATS: Quantifying the ability of dreams to predict the future (April 10, 2007). Available in [html format](http://www.pmean.com/07/QuantifyingPredictions.html).
+
+<div class="notes">
+
+Every one of has a tendency towards self-deception. I don't mean to pick on Linus Pauling too much, but there's a great story about an interview he had.
+
+Im not sure where I first read this story. If you happen to run across the original source, please let me know.
+
+This is an example of ascentainment or observer bias. There is a tendency to read things differently if you know something about the treatment being studied. It could also be a tendency to probe further or harder.
+
+</div>
+
+### Confusion about the placebo effect
+
+* Natural course of a disease
+  + "If a doctor treats your cold, it will go away in fourteen days. If you leave it alone, it will go away in two weeks." Gloria Silverstein.
+  + "The art of medicine consists in amusing the patient while nature affects the cure." Voltaire
+* Regression to the mean
+  + You're never as good as you think you are on your good days and you're never as bad as you think you are on your bad days.
+* Hróbjartsson and Gøtzsche study of placebo effect
+
+<div class="notes">
+
+Sometimes improvements in on a placebo represent improvements that you would have seen if there were no blinding. Some disease conditions will end naturally with or without treatment, as the two quotes listed here illustrate.
+
+There is a statistical phenomenon, regression to the mean, that also can be confused for the placebo effect. Regression to the mean occurs when you have a baseline measurement and another measurement at the end of the study. Even with no effect, these measurements will be correlated, because you are you and someone else is someone else.  But there is also some randomness involved. If you have a low baseline score, it is partly you, but partly noise, because measurements fluctuate over time. Same for a high baseline score. The interesting thing is that the noise or random errors will tend to be negative for low baselines and tend to be positive for high baselines. But the measurement at the end of the study is not going to follow this pattern, because noise is random and uninfluenced by the past. So extreme values at baseline tend to become less extreme at the end of the study. This is just a tendency. It's possible that the end of study score will be more extreme, but this happens less often than the score being less extreme.
+
+This has lots of implications for research, but most importantly, if there is an implicit or explicit selection criteria that tends to select patients only the low extreme during the baseline, then that group will improve (become less extreme) at the end of the study, even if the treatment has no effect. And, as we generally study people who are sick, these are people who are, by definition, as the low extreme at baseline.
+
+A large meta-analysis (Hróbjartsson and Gøtzsche 2001) studied the placebo effect in three arm studies. These studies had an active treatment, a placebo, and an unblinded no treatment arm. In these studies, there was very limited evidence of a placebo effect.
+
+Any therapy that claims it is harnessing the power of the placebo effect is hitching their wagon to a falling star.
+
+</div>
+
+### Subversion of the randomization process
+
+* Physician subversion
+  + Waiting until the right number pops up
+  + Biased implementation of exclusion criteria
+  + Not a problem in single investigator trials
+* Hiding the randomization list.
+  + Sealed envelopes
+  + 800 number
+* Patient subversion of the randomization process
+  + Early anti-retroviral trials for AIDS
+
+<div class="notes">
+
+In theory, the two therapies you are comparing have to have equipoise. There needs to be genuine uncertainty as to which therapy is better. That's a theoretical concept that is rarely met in practice.
+
+There is anecdotal evidence, plus a limited amount of empirical evidence, that suggests that some physicians will try to subvert the randomization process for some of their patients. These might be patients who are a bit more frail and might be bad candidates for one of the two treatment arms. If you steered only the frail patients away from one treatment arm, that arm ends up looking a lot better at the end.
+
+Physicians could subvert the process by peeking at the randomization list and delaying a patient's entry into the study until the right number comes up. This is a blatant violation of research ethics, but it does happen.
+
+It could also occur more subtely. If you know that one arm is coming up next for a particular patient, you might conciously or subconciously apply the exclusion criteria more strictly and then become a bit more lax when the alternate arm is up for grabs.
+
+For the most part, this is only an issue in trials with more than one recruiting physician. If there is a single recruiter, it's typically the person who also designed the study and this person is unlikely to undermine their own research.
+
+The preventive measure for subversion of the randomization process is to take possession of the randomization list away from the recruiting physician. You allocate patients using a series of sealed opaque envelopes. Or the assignment of patients is done at a central location that recruiting physicians access through a toll free telephone call.
+
+Patients themselves may try to subvert the randomization process. In the era before AZT became available (prior to 1987), AIDS was considered a death sentence. So when researchers wanted to try to test new therapies, and insisted on a placebo arm, the patients rebelled. They tried to subvert the intent of the trials by doing one of two things. Some patients would get together in small groups and would pool their medication. They would grind up all the pills and then redistribute them. They felt that a half dose of a promising new drug would be a better choice than a 50% chance of getting an ineffective placebo. Other patients would take their first batch of pills to a chemist for analysis. If they found out that they were taking sugar pills, they would drop out and re-enroll under a different name.
+
+You can't blame the patients for this behavior. They are acting in their best interests. In fact, it was largely because of the AIDS crisis that researchers have recognized that the placebo controlled trial is not an absolute requirement in all research studies. There is now general consensus that in a disease that has close to 100% morbidity or mortality, there is no need for a control group at all. Any treatment that is helps even a small fraction of patients to survive will stand out clearly against a background rate of 0% survival.
+
+</div>
+
+### Problems with randomized trials
+
+* Volunteer bias.
+* Strong personal preferences
+  + Birth control methods
+  + Surgical versus non-surgical trials
+  + Less invasive surgery
+* Professional volunteers
+
+<div class="notes">
+
+
+
+</div>
+
+### (New)  Intention to treat analysis
+
+### (New)  Equipoise, Early stopping
+
+### (New)  The law of large numbers
+
+### (New)  Randomization approaches
+
+  + Stratified randomization
+  
+  + Block randomization
+
+### Baseline measurements
+
+* Not an absolute requirement
+* Reduces variance
+* Allows quality checks
+  + Subversion of randomization
+  + Differential dropout
+* Several competing analysis strategies
+
+<div class="notes">
+
+Your book encourages the use of baseline measurements, but these are not really needed for a randomized experiment. The process of randomization will insure balance across any baseline measurements, so (unlike observational studies) there is no potential for bias.
+
+There are still several important benefits to measuring an outcome at baseline, if you can.
+
+You can incorporate the measurement at baseline into your statistical model and it will almost always improve the precision of your results. There are several competing analysis strategies (analysis of covariance, change scores) that you can choose from, and I will talk about these choices in a future lecture.
+
+A baseline value also allows you to run a couple of quality checks. If, in spite of your randomization, there is a difference in baseline measures, you might want to investiage for the possibility that there is some subversion of the randomization process.
+
+A baseline measurement also provides a nice quality check for drop outs. You should always worry about those patients who drop out of your study. They might have a different prognosis than those who stayed in the study. But if the baseline measures are comparable between those who dropped out and those who completed the study, that provides a limite amount of re-assurance that the drop-outs are not seriously biasing the results of your study.
+
+</div>
+
+
+### (New)  Crossover designs
 
 + Within-Subjects Randomized Experimental (Crossover) Design
 	+ R	Order 1	X	O1	~X	O2
@@ -289,8 +358,106 @@ With drug trials, you need a sufficient period of time for one drug to wash out 
 
 </div>
 
-***
-### Delayed start design.Randomized Experimental and Q-E Designs 
+
+### (New)  Criticisms
+
+
+### (Old)  Randomized Experimental Designs 
+
++ Characteristics
+	+ Assignment
+	+ Type of IV
+	+ Control of IV
++ Purpose
+
+<div class="notes">
+
+Random assignment of an active independent variable. This design allows us to talk about cause.
+
+Causality, actually, is easier to establish with a randomized study, but you can establish causation with an observational study, but it takes more work.
+
+Add-on design. Take existing treatment and add either a new tre
+
+An article by Debruyn (sp?)
+
+</div>
+
+
+### (Old)  Randomized Experimental Designs 
+
++ Posttest-Only Control Group
+	+ R	E:	X	O
+	+ R	C:	X	O
+	+ Strengths
+	+ Weaknesses
+
+<div class="notes">
+
+The random assignment assures that, on average, the two groups are comparable. You do not have pre measures. That prevents us from establishing comparability by comparing the pre measure values.
+
+You don't have a measure of change.
+
+</div>
+
+
+### (Old)  Randomized Experimental Designs 
+
++ Pretest-Posttest Control Group
+	+ R	E:	O1	X	O2
+	+ R	C:	O1	~X	O2
+	+ Strengths
+	+ Weaknesses
+
+<div class="notes">
+
+This is the most common type of experimental design. You still have to worry about learning effects or fatigue effects.
+
+There is a general rule of thumb, that a sample size of 30 per group allows you to be comfortable with a posttest only design, but don't rely on this rule. A pretest measure is very important.
+
+</div>
+
+
+### (Old)  Randomized Experimental Designs 
+
++ Solomon Four-Group
+	+ R	E1:	O1	X	O2
+	+ R	E2:	 	X	O2
+	+ R C1: O1 ~X O2
+	+ R C2:    ~X  O2
+	+ Strengths
+	+ Weaknesses
+
+<div class="notes">
+
+People are in one group only. This is useful if the pre-measure has an influence on the post-measure (learning or fatigue effects).
+
+Notice that this design doubles the number of people needed for the research.
+
+</div>
+
+
+### (Old)  Randomized Experimental Designs 
+
++ Randomized Experimental Design with Matching
+	+ M R		E:	X	O
+	+ M R  C:  ~X  O
+	+ Strengths
+	+ Weaknesses
+
+<div class="notes">
+
+Bring in matched pairs of people. Once you have those matched pairs, you randomly assign within each pair.
+
+This design has a post-measure only, but matching minimizes the need for this measure.
+
+One issue is that determining what variables to match, it places a burden on recruiting, and unmatched people are not included in the design.
+
+</div>
+
+
+### (Old)  Randomized Experimental Designs 
+
+### (Old)  Delayed start design.Randomized Experimental and Q-E Designs 
 
 Find the image from D'Agostino.
 
@@ -302,8 +469,8 @@ During phase 1, half are getting treatment and half are getting placebo. After a
 
 </div>
 
-***
-### Randomized Experimental and Q-E Designs 
+
+### (Old)  Randomized Experimental and Q-E Designs 
 
 ![](../images/image-05-07.png)
 
@@ -315,8 +482,8 @@ During phase 1, half are getting treatment and half are getting placebo. After a
 
 </div>
 
-***
-### Research Design 
+
+### (Old)  Research Design 
 
 ![](../images/image-05-08.png)
 
@@ -330,8 +497,8 @@ Figure 5.1
 
 </div>
 
-***
-### Research Design 
+
+### (Old)  Research Design 
 
 ![](../images/image-05-09.png)
 
@@ -341,7 +508,7 @@ Figure 5.1
 
 </div>
 
-### Ioannidis article
+### (Old)  Ioannidis article
 
 [[Find image/table]]
 
@@ -351,8 +518,8 @@ Ioannidis found 49 articles. The first group, the contradicted studies, represen
 
 The Leaf article talks about some alternatives and will be the basis of some discussion later in this class.
 
-***
-### #2 Assignment 
+
+### (Old)  #2 Assignment 
 
 + Go to a source of secondary data. Review available data types / topics on the data web site. Using the template provided in the Week 4 folder, write a brief description of a research topic you could address using this data source. Include in your description information on the variables that would be used . Use the hand-out with the list of possible web sites or your own source to identify a dataset you are interested in. 
 
@@ -381,5 +548,3 @@ The Leaf article talks about some alternatives and will be the basis of some dis
 </div>
 
 ***
-
-### Additional slides
