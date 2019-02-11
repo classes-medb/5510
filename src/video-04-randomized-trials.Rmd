@@ -164,8 +164,6 @@ Don't get me wrong. I like randomization. I use it whenever I can. I point out w
 
 In some settings, people will resist participating in 
 
-### (New)  Matching, crossover designs
-
 ### Blinding/partial blinding. Who knew what when?
 
 * Hiding information (not deception)
@@ -302,7 +300,19 @@ You can't blame the patients for this behavior. They are acting in their best in
 
 </div>
 
-### (New)  Intention to treat analysis
+### Intention to treat analysis
+
+* Controversial
+* Analyze in groups originally randomized to
+  + Maintains benefit of randomization
+  + Measures practical impact of treatment
+* Alternative: per protocol analysis
+
+<div class="notes">
+
+
+
+</div>
 
 ### (New)  Equipoise, Early stopping
 
@@ -336,6 +346,9 @@ A baseline value also allows you to run a couple of quality checks. If, in spite
 A baseline measurement also provides a nice quality check for drop outs. You should always worry about those patients who drop out of your study. They might have a different prognosis than those who stayed in the study. But if the baseline measures are comparable between those who dropped out and those who completed the study, that provides a limite amount of re-assurance that the drop-outs are not seriously biasing the results of your study.
 
 </div>
+
+### (New)  Matching, crossover designs
+
 
 
 ### (New)  Crossover designs
@@ -530,7 +543,7 @@ The Leaf article talks about some alternatives and will be the basis of some dis
 </div>
 
 ***
-`r read_text("hw04", fri[4])`
+`r read_text("hw04", fri[7])`
 
 <div class="notes">
 
