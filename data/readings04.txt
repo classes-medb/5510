@@ -2,9 +2,7 @@
 
 1. Chapter 5.
 
-### Recommended readings (most of these are short and/or easy to skim. See the discussion section for assignments associated with these readings)
-
-1. Steve Simon. StATS: Intention to Treat. P.Mean website, January 27, 2000. Available in [html format](http://www.pmean.com/00/intention.html).
+Recommended readings. Most of these are short and/or easy to skim. See the discussion section for assignments associated with these readings.
 
 2. Richard Feinman. Intention-to-treat. What is the question?. Nutrition & Metabolism. 2009;6(1):1. Available in [html format](https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/1743-7075-6-1) and [PDF format](https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-6-1).
 
@@ -16,21 +14,21 @@
 
 6. KP Suresh. An overview of randomization techniques: An unbiased assessment of outcome in clinical research. J Hum Reprod Sci. 2011 Jan-Apr; 4(1): 8–11. doi: 10.4103/0974-1208.82352. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136079/).
 
-7. Steve Simon. StATS: How to randomize. P.Mean website, August 18, 1999. Available in [html format](http://www.pmean.com/99/random.html).
+7. Harford T. The random risks of randomised trials. Financial Times, April 25, 2014. Available in [html format](http://www.ft.com/intl/cms/s/2/59bb202c-ca7b-11e3-8a31-00144feabdc0.html#axzz30BOFBYb7).
 
-8. Harford T. The random risks of randomised trials. Financial Times, April 25, 2014. Available in [html format](http://www.ft.com/intl/cms/s/2/59bb202c-ca7b-11e3-8a31-00144feabdc0.html#axzz30BOFBYb7).
+8. Steve Simon.  StATS: Is the randomized trial the gold standard for research? P.Mean website, September 23, 2004. Available in [html format](http://www.pmean.com/04/GoldStandard.html).
 
-9. Steve Simon. P.Mean: A fishy story about randomization. P.Mean website, May 12, 2012. Available in [html format](http://www.pmean.com/12/fishy.html).
-
-10. Steve Simon. StATS: Alternating treatments. P.Mean website, August 22, 2000. Available in [html format](http://www.pmean.com/00/alternate.html).
-
-11. Steve Simon.  StATS: Is the randomized trial the gold standard for research? P.Mean website, September 23, 2004. Available in [html format](http://www.pmean.com/04/GoldStandard.html).
-
-12. Kenneth F Schulz, David A Grimes. Blinding in randomised trials: hiding who got what. The Lancet
+9. Kenneth F Schulz, David A Grimes. Blinding in randomised trials: hiding who got what. The Lancet
 Volume 359, Issue 9307, 23 February 2002, Pages 696-700. Available, but [behind a paywall](https://doi.org/10.1016/S0140-6736(02)07816-9).
 
-13. Steve Simon. StATS: Ethics of a placebo group. P.Mean website, August 2, 2001. Available in [html format](http://www.pmean.com/01/placebo.html)
+10. Steve Simon. StATS: Ethics of a placebo group. P.Mean website, August 2, 2001. Available in [html format](http://www.pmean.com/01/placebo.html)
 
-14. Hróbjartsson A, Gøtzsche PC. Is the placebo powerless? An analysis of clinical trials comparing placebo with no treatment. N Engl J Med. 2001 May 24;344(21):1594-602. Review. Available in [html foramt](https://www.nejm.org/doi/10.1056/NEJM200105243442106) or [PDF format](https://www.nejm.org/doi/pdf/10.1056/NEJM200105243442106)
+11. Hróbjartsson A, Gøtzsche PC. Is the placebo powerless? An analysis of clinical trials comparing placebo with no treatment. N Engl J Med. 2001 May 24;344(21):1594-602. Review. Available in [html foramt](https://www.nejm.org/doi/10.1056/NEJM200105243442106) or [PDF format](https://www.nejm.org/doi/pdf/10.1056/NEJM200105243442106)
 
-15. Farnham Street. Regression Toward the Mean: An Introduction with Examples. Available in [html format](https://fs.blog/2015/07/regression-to-the-mean/).
+12. Farnham Street. Regression Toward the Mean: An Introduction with Examples. Available in [html format](https://fs.blog/2015/07/regression-to-the-mean/).
+
+13. James Penston. Large-scale randomised trials – a misguided approach to clinical research. Medical Hypotheses (2005) 64, 651–657. Available, but [behind a pay wall](https://www.sciencedirect.com/science/article/pii/S0306987704005183).
+
+14. Rebecca A. clay. More than one way to measure: Randomized clinical trials have their place, but critics argue that researchers would get better results if they also embraced other methodologies. Monior on Psychology. September 2010, 41(8): 52. Available in [html format](https://www.apa.org/monitor/2010/09/trials).
+
+15. Laura Rosen, Orly Manor, Dan Engelhard, and David Zucker. In Defense of the Randomized Controlled Trial for Health Promotion Research. Am J Public Health. 2006 July; 96(7): 1181–1186. doi: 10.2105/AJPH.2004.061713. Avialbe in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1483860/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1483860/pdf/0961181.pdf).
