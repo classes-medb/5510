@@ -304,7 +304,7 @@ Thematic analysis is looking for patterns.
 	+ Given research question, may have some idea of a general conceptual structure; serve only as a starting point
 	+ Usually work from transcripts
 	+ If possible, refer back to audio recordings when needed
-	+ Q ualitative form of analysis
+	+ Qualitative form of analysis
 		+ Content analysis – analysis of the content of communication
 		+ Thematic analysis – identifying patterns or themes in the data
 
@@ -343,7 +343,7 @@ You need to be careful about trying to quantify this too much. Keep in mind that
 
 + Category Formation
 	+ Faithful to the data – "internal" aspect
-	+ Meaningful to other categories – “ external ” aspect
+	+ Meaningful to other categories – "external" aspect
 	+ Balance
 		+ Generality vs Specificity
 		+ Inclusivity vs Exclusivity
