@@ -1,5 +1,5 @@
 ---
-title: "Video 04 - Analysis of randomized studies"
+title: "Video 04 - Design of randomized studies"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -21,16 +21,16 @@ Here are the objectives for this week.
 </div>
 
 ***
-`r read_text("readings04", char_max=800)`
+`r read_text("readings04", char_max=500)`
 
 <div class="notes">
 
-This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
+I'm departing a bit from your book's format for the next few weeks. There are important issues with respect to blinding, intention to treat, etc. that I want to make sure you cover. Read Chapter 5 anyway, and skim through a few of the suggested readings listed here for more backgound in an area you might want to know a bit more about.
 
 </div>
 
 ***
-### (New)  Cameron and Pauling study of Vitamin C.
+### Cameron and Pauling study of Vitamin C.
 
 * Linus Pauling
   + Two-time Nobel prize winner (Chemisty, Peace)
@@ -45,17 +45,42 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 <div class="notes">
 
-    Paul Rosenbaum, in the first chapter of his book, Observational Studies, gives a fascinating example of an apples to oranges comparison. Ewan Cameron and Linus Pauling published an observational study of Vitamin C as a treatment for advanced cancer (Cameron 1976). For each patient, ten matched controls were selected with the same age, gender, cancer site, and histological tumor type. Patients receiving Vitamin C survived four times longer than the controls (p < 0.0001).
+[Taken from Chapter 1 of my book, Statistical Evidence in Medical Trials]
 
-    Cameron and Pauling minimize the lack of randomization. "Even though no formal process of randomization was carried out in the selection of our two groups, we believe that they come close to representing random subpopulations of the population of terminal cancer patients in the Vale of Leven Hospital."
+Paul Rosenbaum, in the first chapter of his book, Observational Studies, gives a fascinating example of an apples to oranges comparison. Ewan Cameron and Linus Pauling published an observational study of Vitamin C as a treatment for advanced cancer (Cameron 1976). For each patient, ten matched controls were selected with the same age, gender, cancer site, and histological tumor type. Patients receiving Vitamin C survived four times longer than the controls (p < 0.0001).
 
-    Ten years later, the Mayo Clinic (Moertel 1985) conducted a randomized experiment which showed no statistically significant effect of Vitamin C. Why did the Cameron and Pauling study differ from the Mayo study?
+Cameron and Pauling minimize the lack of randomization. "Even though no formal process of randomization was carried out in the selection of our two groups, we believe that they come close to representing random subpopulations of the population of terminal cancer patients in the Vale of Leven Hospital."
 
-    The first limitation of the Cameron and Pauling study was that all of their patients received Vitamin C and followed prospectively. The control group represented a retrospective chart review. You should be cautious about any comparison of prospective data to retrospective data.
+Ten years later, the Mayo Clinic (Moertel 1985) conducted a randomized experiment which showed no statistically significant effect of Vitamin C. Why did the Cameron and Pauling study differ from the Mayo study?
 
-    But there was a more important issue. The treatment group represented patients newly diagnosed with terminal cancer. The control group was selected from death certificate records. So this was clearly an apples versus oranges comparison because the initial prognosis was worse in the control group than in the treatment group. As Paul Rosenbaum says so well: one can say with total confidence, without reservation or caveat, that the prognosis of the patient who is already dead is not good. (page 4)
+The first limitation of the Cameron and Pauling study was that all of their patients received Vitamin C and followed prospectively. The control group represented a retrospective chart review. You should be cautious about any comparison of prospective data to retrospective data.
 
-    When the treatment group is apples and the control group is oranges, you can't make a fair comparison.
+But there was a more important issue. The treatment group represented patients newly diagnosed with terminal cancer. The control group was selected from death certificate records. So this was clearly an apples versus oranges comparison because the initial prognosis was worse in the control group than in the treatment group. As Paul Rosenbaum says so well: one can say with total confidence, without reservation or caveat, that the prognosis of the patient who is already dead is not good. (page 4)
+
+When the treatment group is apples and the control group is oranges, you can't make a fair comparison.
+
+</div>
+
+### Birth control pills and cervical cancer
+
+* Three groups of women
+  + Oral contraceptives
+  + Other forms of birth control
+  + No birth control
+* Differences in these three groups
+  + Age at first intercourse
+  + Number of secual partners
+  + Use of tobacco, alcohol, other drugs
+* Most importantly, number of pap smears
+  + Oral contraceptives require regular doctor visits
+
+<div class="notes">
+
+[Taken from Chapter 1 of my book, Statistical Evidence in Medical Trials]
+
+Women who take oral contraceptives appear to have a higher risk of cervical cancer. But covariate imbalance might be producing an artificial rise in cancer rates for this group. Women who take oral contraceptives behave, as a group, differently than other women. For example, women who take oral contraceptives have a larger number of pap smears. This is probably because these women visit their doctors more regularly in order to get their prescriptions refilled and therefore have more opportunities to be offered a pap smear. This difference could lead to an increase in the number of detected cancer cases. Perhaps, though, the other women have just as much cancer, but it is more likely to remain undetected.
+
+Both of these examples show covariate imbalance. You can largely avoid covariate imbalance through randomization. It's not always easy, though, to use randomization, as you will see.
 
 </div>
 
@@ -69,6 +94,8 @@ This is what you should have read already. If you haven't done the reading yet, 
 * Patients in a randomized trial are giving you a gift.
   
 <div class="notes">
+
+Let's review some of the definitions we've seen earlier.
 
 One of the major distinctions in research design is experimental studies versus non-experimental (observational) studies. 
 
@@ -98,19 +125,123 @@ It's easy to sneer at quasi-experimental studies and think of them as an inferio
 ### How to randomize
 
 * Use of a random device
+  + Physical devices (flip of a coin, balls in an urn)
+  + Computer generated random numbers
 * Avoid haphazard approaches
 * Avoid alternating assignment
+* Remember the law of large numbers
 
 <div class="notes">
 
+Randomization is the use of a physical device like the flip of the coin or drawing balls from an urn (think Bingo!), but more frequently, the use of computer generated random numbers to provide an unpredictable sequence.
 
+If you are new to computer generated random numbers, find one that produces random numbers uniformly in the interval 0 to 1. Any value less than 0.5 represents a tail in a coin flip and any value greater than 0.5 represents a head. A value equal to 0.5 represents the coin landing on its side. 
+
+It is better still to sort on the basis of random numbers. Take a list in a systematic order, attach a column of random numbers, then sort both columns by the column of random numbers. Sorting by a column of random numbers places your list in a random order.
+
+There are haphazard ways to randomize. You could assign subjects based on the last digit of their social security number or telephone number, for example. This is never a good idea, and wil pretty much get you kicked out of any systematic overview down the road. It's sometimes a bit more work to use a random list than a haphazard list, but it is always worth the extra effort.
+
+Alternating assignment (ABABAB) is also a bad idea.
+
+[taken from http://www.pmean.com/00/alternate.html]
+
+Consider how cabbages grown in a garden. You will often see a pattern of big cabbage, little cabbage, big cabbage, little cabbage. These plants are competing for resources. One plant gets a tiny head start, and its roots extend over into the other plant's space, grabbing some extra water and nutrients. This leads to more growth and more grabbing of the other plant's resources.
+
+This type of pattern can also occur in factories. Consider a mill that cuts small pieces of wire from a large spool of wire. The machine might cut the first piece a bit large because it waited a fraction of a second too long. When this happens, the next piece is likely to be too small. If a piece is cut a bit small, the bit of extra left over might make the next piece too big.
+
+Suppose you are monitoring the amount of time a doctor spends with each patient. If the first patient goes a bit long, the doctor is likely to rush the next patient. A doctor that can wrap up a patient quickly, will then feel more relaxed and take more time with the next patient. So there might be a tendency for visits to go long, short, long, short. It doesn't always have to happen this way. The days when I visit the doctor it seems like the pattern for the four patients in front of me is long, long, long, long.
+
+If you randomly assign treatments to a small number of patients, the law of large numbers does not kick in. A small randomized study has large risk of covariate imbalance, just by the luck of the draw. As the size of your study increases, the risk becomes really small.
+
+How big do oyu have to be in order not to worry about this. Your book says 60 patients total, but does not offer any justification for this number. I have seen some simulations that indicate big potential problems for 20 patients total and almost no potential problems for 80 patients total. What I would recommend is that you consider additional measures for small sample sizes like stratification and matching.
+
+</div>
+
+### A fishy research story (part 1 of 7)
+
+![Figure 1. Thirty fish in a big tank](../images/fishy01.png)
+
+<div class="notes">
+
+[taken from http://www.pmean.com/12/fishy.html]
+
+I was told this story but have no way of verifying its accuracy. It is one of those stories that if it is not true, it should be. It illustrates why randomization is important. A long, long, time ago, a research group wanted to examine a pollutant to find concentration levels that would kill fish. This research required that 30 fish be separated into five tanks, each of which would get a different level of the pollutant.
+
+</div>
+
+### A fishy research story (part 2 of 7)
+
+![Figure 2. First six fish go in the first tank](../images/fishy02.png)
+
+<div class="notes">
+
+The first six fish that you catch go in the first tank.
+
+</div>
+
+### A fishy research story (part 3 of 7)
+
+![Figure 3. Next six fish go in the second tank](../images/fishy03.png)
+
+<div class="notes">
+
+The next six fish that you catch go into the second tank.
+
+</div>
+
+### A fishy research story (part 4 of 7)
+
+![Figure 4. Next six fish go in the third tank](../images/fishy04.png)
+
+<div class="notes">
+
+And so on.
+
+</div>
+
+### A fishy research story (part 5 of 7)
+
+![Figure 3. Next six fish go in the fourth tank](../images/fishy02.png)
+
+<div class="notes">
+
+And so on.
+
+</div>
+
+### A fishy research story (part 6 of 7)
+
+![Figure 6. Last six fish go in the fifth tank](../images/fishy06.png)
+
+<div class="notes">
+
+The last six fish that you catch go into the final tank.
+
+</div>
+
+### A fishy research story (part 7 of 7)
+
+![Figure 7. Final result-mortality hishest in first tank](../images/fishy07.png)
+
+<div class="notes">
+
+When they were done, they found that mortality was related not to the chemical concentration but to the order in which the tanks were filled. Most of the fishwere floating lifeless at the top of the first tank, but the fifth tank had almost all happy little swimmers.
+
+What happened was that the slow-moving, easy-to-catch fish (the weakest and most sickly) were all allocated to the first tank. The fast-moving, hard-to-catch fish (the strongest and healthiest) ended up in the last tank.
+
+What you should have done was to assign each fish randomly to a tank. That way each tank is a mix of slow-moving easy-to-catch fish and fast-moving hard-to-catch fish.
 
 </div>
 
 ### Advantages of randomization
 
 * Insures covariate balance
-* Both measured and unmeasured covariates
+  + Smoking during pregnancy and Down's syndrome
+* Difficult or impossible to measure covariates
+  + Severity of illness
+  + Co-medications
+  + co-morbidities
+  + Patient's psychological state
 * Avoids selection bias
 
 <div class="notes">
@@ -156,13 +287,57 @@ Don't get me wrong. I like randomization. I use it whenever I can. I point out w
 
 ### When can't you randomize
 
-* In what situations is randomization unethical, impractical, or impossible?
+* Unethical
+  + Lack of equipoise
+  + Harmful exposures
+* Impractical
+  + Too many patients
+  + Too much time
+  + Strong patient preferences
+* Impossible
+  + Attribute variables
+  + Retrospective studies
 
-  + Retrospective prayer study. http://www.pmean.com/04/temporality.html
+<div class="notes">
 
-### Wait list control groups
+If you already know that one treatment is superior to another (this has to be more than just a hunch), then you cannot ethically use randomization and doom half of your patients to an inferior treatment.
 
-In some settings, people will resist participating in 
+Randomization is also unethical, for the most part, in studies of harmful exposures. I define an intervention as something you do to your patients with the hope that it will make things better. Sometimes it doesn't work out, and sometimes the proposed intervention is actually harmful rather than helpful. But it is your expectation that the intervention will make things better.
+
+An exposure, on the other hand, is something that you are forced to endure and maybe it's okay, but you worry that it might cause real harm. With the exception of short term reversible harms, you can't randomly assign people to an exposure.
+
+You can quibble about these definitions. Is a particular diet an intervention or an exposure? But interventions versus exposures are yet another example of a false dichotomy that is still useful.
+
+Many times, randomization is just impractical. When you are studying large groups of patients (say tens of thousands or more), you may not have the resources to set up a randomization process. Randomization is also difficult for certain diseases like cancer that have a long latency period. That cancerous polyp in your gut? it was from the Twinky you ate as a teenager and it's a ticking time bomb, but the fuse is set to go off three decades from now. You just don't have the time to wait on a study that could last half of your life.
+
+In other settings, randomization is impossible. You can't randomly assign people to a gender, race/ethnicity, or age group. You can't randomly assign someone in a retrospective study without a time machine. Actually, there is one cute example.
+
+[taken from http://www.pmean.com/04/temporality.html]
+
+There was a cute article in the 2001 year end issue of the British Medical Journal titled: "Beyond Science? Effects of remote, retroactive intercessory prayer on outcomes in patients with bloodstream infection: randomized controlled trial." ([Medline]). The author, Leonard Leibovici, found the records of 3,393 adult patients with bloodstream infection at Rabin Medical Center, randomly divided those records into two groups then randomly selected one group to pray over. Note that this is a RETROSPECTIVE study. The outcomes were determined 4 to 10 years prior to the start of the study. After praying over one group, the author evaluated mortality, stay in the hospital, and duration of fever. Although there was no statistically significant difference in mortality (p=0.40), there was a reduction in the length of stay (p=0.01) and in duration of fever (p=0.04).
+
+It is dangerous to speculate on the motives of the author, but this article was published in a year end issue that is traditionally reserved for light hearted articles.
+
+</div>
+
+### Some alternatives
+
+* Wait list control groups
+* Intensive versus standard advice
+* Randomly assign from a different end
+* Early stopping
+
+<div class="notes">
+
+In some settings, people will resist participating in a trial where there is a 50% chance of a placebo, but they are willing to be put on a waiting list. Indeed the concept that not everyone can get in the door at the same time make a random allocation to immediate treatment versus delayed treatment may seem like the only "fair" way to handle this.
+
+If you want to measure the effect of smoking cessation during pregnacy, you can randomly assign patients to the normal advice that a doctor might give versus an intervention where you offer special programs for free or provide a more intensive push to stop smking. If the randomly assigned patients in the second group have less smoking and better birth results, then you have randomized evidence of the benefit of smoking cessation during pregnancy. This sort of intervention has also been done for things that area already known to be beneficial like breast-feeding where you would not want to assign women to a non-breast-feeding group.
+
+There's a lot of concern about how gender and race may play a part in what sort of treatments these patients get. You can't send someone into an office as a male and then send them back dressed up as a female. But what you can do is randomly assign physicians. Set up videotapes of actors playing the role of patients. The first video would be a white male, the next a black female, etc. Each physician sees just one randomly selected video. If you see differences (presumably differences not justified by a patient's race or gender), then this is evidence of differential treatment based on race or gender.
+
+You may find information during the course of your clinical trial, either from your own research or research that has just been published by others, that changes equipoise. A study that seemed to be ethical at the start, becomes unethical to continue. In these settings, you have to plan for an early end to your research. This must be done carefully. I will try to highlight some of the issues associated with early stopping of clinical trials later in this class.
+
+</div>
 
 ### Blinding/partial blinding. Who knew what when?
 
@@ -275,9 +450,11 @@ Physicians could subvert the process by peeking at the randomization list and de
 
 It could also occur more subtely. If you know that one arm is coming up next for a particular patient, you might conciously or subconciously apply the exclusion criteria more strictly and then become a bit more lax when the alternate arm is up for grabs.
 
-For the most part, this is only an issue in trials with more than one recruiting physician. If there is a single recruiter, it's typically the person who also designed the study and this person is unlikely to undermine their own research.
-
 The preventive measure for subversion of the randomization process is to take possession of the randomization list away from the recruiting physician. You allocate patients using a series of sealed opaque envelopes. Or the assignment of patients is done at a central location that recruiting physicians access through a toll free telephone call.
+
+In a fully blinded study, this is not a concern. it only is an issue for single blind or unblinded studies. For the most part, this is only an issue in trials with more than one recruiting physician. If there is a single recruiter, it's typically the person who also designed the study and this person is unlikely to undermine their own research. But there are some people who get all riled up about this, and get really fussy. Sealed envelopes are no good because people can hold them up to a bright light, or open several envelopes at once. They also complain about the randomization process and want things like a permuted random block desisn.
+
+This is the classic example of the great debate between pragmatists and purists. The pragmatists will argue that this is overkill and the purists will say that you need to uphold the integrity of the research. I am a pragmatist for the most part, but if your boss is a purist, just go with their recommendations, even if it is overkill. They are impossible to argue with.
 
 Patients themselves may try to subvert the randomization process. In the era before AZT became available (prior to 1987), AIDS was considered a death sentence. So when researchers wanted to try to test new therapies, and insisted on a placebo arm, the patients rebelled. They tried to subvert the intent of the trials by doing one of two things. Some patients would get together in small groups and would pool their medication. They would grind up all the pills and then redistribute them. They felt that a half dose of a promising new drug would be a better choice than a 50% chance of getting an ineffective placebo. Other patients would take their first batch of pills to a chemist for analysis. If they found out that they were taking sugar pills, they would drop out and re-enroll under a different name.
 
@@ -288,15 +465,40 @@ You can't blame the patients for this behavior. They are acting in their best in
 ### Problems with randomized trials
 
 * Volunteer bias.
+  + Willingness to endure painful procedures
+* Professional volunteers
 * Strong personal preferences
   + Birth control methods
   + Surgical versus non-surgical trials
   + Less invasive surgery
-* Professional volunteers
 
 <div class="notes">
 
+Randomized trials rely on volunteers, and volunteers are not like you and me. I did volunteer when I was 18 for a trial evaluating a flu vaccine. I had to stay in their clinic 24/7 for two full weeks, because they didn’t want me roaming free to potentially infect all of Baltimore City. I got free food and could play Risk all day long, and at the end of the study I got the enormous sum of $700. For a poor college student it was heaven, but I wouldn’t even dream of doing something like that today.
 
+So what sort of person volunteers for a randomized trial. It depends, but for trials involving healthy volunteers, it has to be someone who doesn’t mind all the inconveniences associated with the trial and who views a paltry sum of money as something other than a paltry sum.
+
+There are a couple of empirical studies about research volunteers that are worth mentioning. The first is a study that started out with a series of paper and pencil personality trait surveys (this was long before we had things like REDCap). The second half of the study involved correlating these personality traits with certain biochemical markers in cerebrospinal fluid. You get this with a lumbar puncture, which sounds a whole lot nicer than the other term, spinal tap. A lumbar puncture is quite painful and many of the patients in the first phase of the study did not volunteer for the second phase. Normally when someone doesn’t volunteer, you do not get any data on them, but in this case, they had a full personality profile of refusers and the volunteers. The volunteers differed from the refusers on one personality trait, impulsivity. It makes sense when you think about it. But the fact that the volunteers were skewed to one side of the impulsivity scale was problematic when you are interested in correlates of personality traits and markers in spinal fluid.
+
+A second example of volunteer bias involved the genetic profiling of a group of professional volunteers. These are people who sign up repeatedly at places like Vince and Associates. It’s not a lot of money, but you can get by on the money that these sites pay. The genetic profile fond something quite interesting. A certain genetic variant that was associated with slow metabolism of drugs was almost entirely absent from the professional volunteers. Slow metabolism would be associated with a greater risk of side effects. This was a genetic variant that the volunteers themselves probably did not know that they had, but you can envision how this might happen. A hundred people volunteer for their first study and the seven that have this genetic variant end up with blistering headaches, blotchy purple skin, and a wicked bout of diarrhea. The 93 patients with the normal gene think that the trial went pretty well and seriously consider signing up for another one. The seven with purple skin figure that maybe a career of plasma donation is more up there alley.
+
+Now from a research perspective, if studies involving professional volunteers excludes patients who are more likely to experience side effects, it’s a disaster. That patient population is going to make any drug that they test look a lot safer than it really is.
+
+Certain types of studies are difficult to randomized, people cause people are fussy and don't want to give up control over which therapy they might use.
+
+Birth control methods are an obvious example. There are religious beliefs, for example, that come into play. There are also personal preferences about the use of medications versus barrier methods. And people get really upset when they find out that one of the treatment arms is a placebo.
+
+What sort of person would volunteer for a trial that involves a placebo? These would be people who would say "Oh I don't care if we have children now or children later." That's a very small group of people. Most people are trying really hard to get pregnant or are trying really hard to stay unpregnant.
+
+A trial that compares a surgical intervention to a non-surgical intervention is also troublesome. Some people hate the idea of going under anesthesia, getting cut open, and then all that recovery time and would much prefer a medication regimen. Other people might be the opposite. The surgery is over and done with and that's more appealing than years of medication with all that trouble and all those side effects.
+
+Within surgery trials, there has been difficulty comparing less invasive surgery techniques (e.g., the laproscope) to more traditional methods of surgery. Once they hear that one procedure produces a big scar and the other produces a small scar, they don't want to hear anything else. Give me the small scar.
+
+If you try to run a trial where there are strong personal preferences, you will have a hard time recruiting subjects, making it harder to complete your study in a reasonable amount of time. In addition, the volunteers that you do get are  likely to be much different than the general population, harming the generalizability of your research.
+
+Gustavsson, J. P., Åsberg, M. and Schilling, O. (1997), The healthy control subject in psychiatric research: impulsiveness and volunteer bias. Acta Psychiatrica Scandinavica, 96: 325-328. doi:10.1111/j.1600-0447.1997.tb09924.x
+
+Chen S, Kumar S, Chou WH, Barrett JS, Wdlund PJ (1997). A Genetic Bias in Clinical Trials? Cytochroe P450-2D6 (CYP2D6) Genotype in General vs Selected Healthy Subject Populations [letter], British Journal of Clinical Pharmacology 44(3): 303-4.
 
 </div>
 
@@ -310,19 +512,41 @@ You can't blame the patients for this behavior. They are acting in their best in
 
 <div class="notes">
 
+[Taken from http://www.pmean.com/00/intention.html]
 
+An intention to treat analysis specifies how to handle noncompliant patients in a randomized control trial. This analysis requires that patients be analyzed in the groups they were randomized into, regardless of whether they complied with the treatment they were given.
+
+At first, this seems counter-intuitive. If you are trying to see how effective a new drug might be, why would you include patients who refused to take the drug? An analysis that only includes compliant patients has two drawbacks.
+
+Groups defined by compliance are no longer randomized and are thus subject to biases.
+
+Groups defined by compliance may not represent the practical impact of the treatment.
+
+The intention to treat analysis has some controversy, however. When you are examining a randomized control trial, ask yourself whether it is logical to include noncompliant patients.
+
+Intention to treat preserves randomization
+
+The validity of a randomized control trial depends greatly on the process of randomization. Randomization insures that both measurable and unmeasurable factors will balance out on average. If a factor other than the treatment itself could possibly influence an outcome measure in your study, then randomization insures that patients with this factor are equally likely to receive either the treatment or the placebo. This prevents many types of bias that can occur in a non-randomized trial.
+
+An analysis that excludes noncompliant patients is no longer randomized and might cause serious bias. Consider a hypothetical example where you are comparing a surgical treatment to a non-surgical control. Some patients might die prior to surgery. This is an extreme example of noncompliance. If we exclude these patients from the analysis, we are eliminating rapidly dying patients from the surgery group, but not from the control group.
+
+Intention to treat analysis is more realistic
+
+There are many factors that influence whether a patient complies or not with a treatment. Some of the factors that influence compliance might also influence the outcome measure. In particular, noncompliant patients tend to have worse outcomes than compliant patients, even in a placebo group. Perhaps patients who forget to follow a prescribed treatment will also forget to do other things important for their health. Thus an analysis that excludes non-compliant patients may produce a study population that is healthier than the patients that you see.
+
+Intention to treat analysis is especially important for medications that are difficult to tolerate. If you exclude noncompliant patients, you are ignoring the influence of poor tolerability on the efficacy of a treatment.
+
+Dropouts in an intention to treat analysis
+
+Sometimes patients who don't comply with a prescribed treatment will also not comply with the measurement of the outcome. For example, someone who stops taking a drug may also not show up for evaluation either. These people might more properly be labeled as dropouts rather than noncompliant patients. Dropouts may make it impossible to perform an intention to treat analysis, even if you wanted to.
+
+There are a few situations where we can still handle this type of noncompliance. For example, if you are studying smoking cessation, you might conservatively label as a smoker anyone who stops participating in the smoking cessation program. In a study of weight loss, you might assume that a dropout has zero weight loss. Even so, you should always try to design a study that avoids or minimizes the possibility of dropouts.
+
+Excluding noncompliant patients prior to randomization
+
+Some studies evaluate follow patients for a period of time before they are randomized into treatment groups. These studies might allow you to exclude noncompliant patients prior to randomization. If it makes sense to exclude noncompliant patients, this approach allows you to preserve randomization. Be careful, though. Excluding noncompliant patients prior to randomization could make your research results more difficult to generalize to the real world.
 
 </div>
-
-### (New)  Equipoise, Early stopping
-
-### (New)  The law of large numbers
-
-### (New)  Randomization approaches
-
-  + Stratified randomization
-  
-  + Block randomization
 
 ### Baseline measurements
 
@@ -347,200 +571,6 @@ A baseline measurement also provides a nice quality check for drop outs. You sho
 
 </div>
 
-### (New)  Matching, crossover designs
-
-
-
-### (New)  Crossover designs
-
-+ Within-Subjects Randomized Experimental (Crossover) Design
-	+ R	Order 1	X	O1	~X	O2
-	+ R  Order 2	~X  O1	X	O2
-	+ Strengths
-	+ Weaknesses
-
-<div class="notes">
-
-People are randomized into two or more groups. In this case there are two groups. Both groups get the treatment and the control, but the order is reversed.
-
-Each person serves as their control. This really reduces the amount of variance, allowing you to get by with a much smaller sample size. How much smaller depends on a lot of factors, but effectively
-
-You cannot use this design if there are carry over effects. Interventions that involve learning or training will not work with this design.
-
-With drug trials, you need a sufficient period of time for one drug to wash out of the system before you switch. This can be a problem if leaving a patient untreated, even for a short amount of time.
-
-</div>
-
-
-### (New)  Criticisms
-
-
-### (Old)  Randomized Experimental Designs 
-
-+ Characteristics
-	+ Assignment
-	+ Type of IV
-	+ Control of IV
-+ Purpose
-
-<div class="notes">
-
-Random assignment of an active independent variable. This design allows us to talk about cause.
-
-Causality, actually, is easier to establish with a randomized study, but you can establish causation with an observational study, but it takes more work.
-
-Add-on design. Take existing treatment and add either a new tre
-
-An article by Debruyn (sp?)
-
-</div>
-
-
-### (Old)  Randomized Experimental Designs 
-
-+ Posttest-Only Control Group
-	+ R	E:	X	O
-	+ R	C:	X	O
-	+ Strengths
-	+ Weaknesses
-
-<div class="notes">
-
-The random assignment assures that, on average, the two groups are comparable. You do not have pre measures. That prevents us from establishing comparability by comparing the pre measure values.
-
-You don't have a measure of change.
-
-</div>
-
-
-### (Old)  Randomized Experimental Designs 
-
-+ Pretest-Posttest Control Group
-	+ R	E:	O1	X	O2
-	+ R	C:	O1	~X	O2
-	+ Strengths
-	+ Weaknesses
-
-<div class="notes">
-
-This is the most common type of experimental design. You still have to worry about learning effects or fatigue effects.
-
-There is a general rule of thumb, that a sample size of 30 per group allows you to be comfortable with a posttest only design, but don't rely on this rule. A pretest measure is very important.
-
-</div>
-
-
-### (Old)  Randomized Experimental Designs 
-
-+ Solomon Four-Group
-	+ R	E1:	O1	X	O2
-	+ R	E2:	 	X	O2
-	+ R C1: O1 ~X O2
-	+ R C2:    ~X  O2
-	+ Strengths
-	+ Weaknesses
-
-<div class="notes">
-
-People are in one group only. This is useful if the pre-measure has an influence on the post-measure (learning or fatigue effects).
-
-Notice that this design doubles the number of people needed for the research.
-
-</div>
-
-
-### (Old)  Randomized Experimental Designs 
-
-+ Randomized Experimental Design with Matching
-	+ M R		E:	X	O
-	+ M R  C:  ~X  O
-	+ Strengths
-	+ Weaknesses
-
-<div class="notes">
-
-Bring in matched pairs of people. Once you have those matched pairs, you randomly assign within each pair.
-
-This design has a post-measure only, but matching minimizes the need for this measure.
-
-One issue is that determining what variables to match, it places a burden on recruiting, and unmatched people are not included in the design.
-
-</div>
-
-
-### (Old)  Randomized Experimental Designs 
-
-### (Old)  Delayed start design.Randomized Experimental and Q-E Designs 
-
-Find the image from D'Agostino.
-
-<div class="notes">
-
-This image is from a delayed start design. D'Agostino. Column in the NEJM that is a tutorial.
-
-During phase 1, half are getting treatment and half are getting placebo. After a certain amount of time the patients in the placebo group are switched to the treatment group. There is an allowance for a transitory time. 
-
-</div>
-
-
-### (Old)  Randomized Experimental and Q-E Designs 
-
-![](../images/image-05-07.png)
-
-<div class="notes">
-
-This image is from a delayed start design. D'Agostino. Column in the NEJM that is a tutorial.
-
-During phase 1, half are getting treatment and half are getting placebo. After a certain amount of time the patients in the placebo group are switched to the treatment group. There is an allowance for a transitory time. 
-
-</div>
-
-
-### (Old)  Research Design 
-
-![](../images/image-05-08.png)
-
-<div class="notes">
-
-All of the designs talked about (other than the delayed start design), are in this figure that we saw earlier.
-
-+ Sim & Wright. *Research in Health Care* . 2000. Table 4.2
-
-Figure 5.1
-
-</div>
-
-
-### (Old)  Research Design 
-
-![](../images/image-05-09.png)
-
-<div class="notes">
-
-+ Sim & Wright. *Research in Health Care* . 2000. Table 4.3
-
-</div>
-
-### (Old)  Ioannidis article
-
-[[Find image/table]]
-
-<div class="notes">
-
-Ioannidis found 49 articles. The first group, the contradicted studies, represent findings that were later contradicted by other studies. The next group shows where the initial findings were supported, but the strength of the effect has not been replicated. The benefit is much weaker.
-
-The Leaf article talks about some alternatives and will be the basis of some discussion later in this class.
-
-
-### (Old)  #2 Assignment 
-
-+ Go to a source of secondary data. Review available data types / topics on the data web site. Using the template provided in the Week 4 folder, write a brief description of a research topic you could address using this data source. Include in your description information on the variables that would be used . Use the hand-out with the list of possible web sites or your own source to identify a dataset you are interested in. 
-
-<div class="notes">
-
-
-
-</div>
 
 ***
 `r read_text("hw04", fri[7])`
