@@ -45,6 +45,13 @@ source("prelims.R", echo=FALSE)
 </div>
 
 ***
+### Additional topics
+
+* [Fishbone diagram](http://www.pmean.com/news/201007.html#7)
+* [Pareto chart](http://www.pmean.com/06/ParetoCharts.html)
+* [Control charts](http://www.pmean.com/category/ControlCharts.html)
+
+***
 ### Data Analysis 
 
 + Design Classification –

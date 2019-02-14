@@ -29,6 +29,95 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 </div>
 
+###
+*** What is quality improvement?
+
+* Systematic approach
+  + Commitment to teams
+  + Organization-wide support
+  + Passion for measurement
+* Differences from research
+  + Systems approach
+  + Little or no attention to generalizability
+  + Continuous and Cyclical process
+  + Major reliance on quasi-experimental studies
+
+<div class="notes">
+
+Some of the material discussed on this page was taken from
+
+https://www.hrsa.gov/sites/default/files/quality/toolbox/508pdfs/qualityimprovement.pdf
+
+Quality Improvement (QI) is a systematic approach to changing how a health care organization works with the goal of providing better health care delivery. The QI process makes a strong commitment to teams and emphasizes the importance of broad representation on the team and careful elicitation of viewpoints from every persepctive. While it is possible to run a QI team in a small corner of an organiation, the PI process can only function well with organization-wide support, especially support from upper management. The QI process has a strong commitment to measurement, as measurement is the only way to evaluate the success or failure of changes made by the QI process.
+
+There is substantial overlap between QI and health care research, but you should be aware of several important differences. QI takes a systems approach to solving problems. Some research takes a systems approach as well, but it's not really a research requirement. QI pays little or no attention to generalizability. The focus of QI is on your particular organization, and ateempts to generalize to other organizations is not a priority. The QI process is not a single step but a continuous effort. This effort is usually represented by the PDCA or PDSA processs (Plan, Do, Check/Study, and Act) and each time you reach the end of a PDCA cycle, you start over again with a new plan.
+
+The final distinction and the reason I am talking about the QI process in this class it that QI relies heavily (but not exclusively) on quasi-experimental studies.
+
+</div>
+
+### What is a quasi-experimental study?
+
+* Could but does not use randomization
+* Never sneer at quasi-experimental studies
+* Problems with randomization
+  + Cost
+  + Logistical constraints
+  + Contamination
+  + Small n
+  + Difficult to get buy-in
+  
+<div class="notes">
+
+A quasi-experimental study uses an active independent variable, but does not use a formal process of randomization to control that variable.
+
+The choice to forgo randomization is usually a deliberate choice. Many people, including the authors of your book, dismiss the quasi-experimental design as an inferior alternative to a randomized design, but that are wrong. In some settings, randomization puts you at a disadvantage. If you decide to use a quasi-experimental design, recognize that you are choosing this design because it is superior to a randomized trial. 
+
+What are the problems with randomization? First, it is expensive. It takes a lot of money (and a lot of time=remember that time is money). The machinery associated with randomization does not come cheap.
+
+Contamination is the tendency for a particular intervention to "bleed over" into the control group. You may ask a health care provider to use a new approach for patients, but it is soemtimes very easy to let some of the new approach slip in when that person is treating a randomly selected control patient.
+
+Certain interventions, such as changes to the physical layout of a work area are one directional and cannot be undone. This is also true of certain training interventions (Uh-oh! A control patient is next on my randomization list. Time to forget everything that I've just learned.)
+
+The sample size available to randomize may be too small to assure that randomization would work. This is especially true when you are looking at an intervention that can be implemented only at a very broad scale, such as with an entire floor or wing of a hospital.
+
+Even when 
+
+</div>
+
+Institue for Healthcare Improvement
+
+Any model is fine, but it has to be consistent across the organization.
+
+The QI model is one that is open to failure, but controls the process so that failure doesn't have a large cost.
+
+What are we trying to accomplish?
+
+How will we know that a change is an improvement? (How do you measure?)
+
+What change can we make that will result in improvement? (Interventions)
+
+Quality improvment typically is measured over time and this leads to a different type of statistical analysis.
+
+Plan, Do, Study, Act
+
+Aim is SMART (Specific, Measurable, Actionable, Relevant, Time Bounded)
+
+Don't try to boil the ocean.
+
+Types of waste mnemonic: 
+Downtime
+
+D=Defects
+O=Overproduction
+W=Waiting (patient or staff)
+N=Non-utilized intellect
+T=Transportation
+I=Inventory (have it and have it where we need it, too many suppl)
+M=Motion
+E=Extra processing (Perfectionist)
+
+
 ***
 ### Research Approaches 
 

@@ -1,18 +1,17 @@
 ### Required reading
 
-1. Chapters 4, 5
+1. Chapter 5
 
-2. Canvas – Leaf article
+Optional reading
 
-### Optional reading
+Mike Evans. Quality Improvement in Healthcare. YouTube, November 26, 2014. Available as a [video (11 minutes)](https://www.youtube.com/watch?v=jq52ZjMzqyI).
 
-Simon. "The problem with alternating assignment"
+Health Resources and Services Administration. Quality Improvement. Available in [PDF format](https://www.hrsa.gov/sites/default/files/quality/toolbox/508pdfs/qualityimprovement.pdf).
 
-Tucker et al. "Utility of an interactive voice response system to assess antiretroviral pharmacotherapy adherence among substance users living with HIV/AIDS in the rural south"
+Anthony D. Harris, Jessina C. McGregor, Eli N. Perencevich, Jon P. Furuno, Jingkun Zhu, Dan E. Peterson, and Joseph Finkelstein. The Use and Interpretation of Quasi-Experimental Studies in Medical Informatics. J Am Med Inform Assoc. 2006 Jan-Feb; 13(1): 16–23. doi: 10.1197/jamia.M1749. Avialable in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1380192/) and [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1380192/pdf/16.pdf).
 
 Simon. "Some quasi-experimental alternatives to randomization"
 
 De Bruin et al. "Electronic monitoring-based counseling to enhance adherence among HIV-infected patients: A randomized controlled trial"
 
 Ioannidis. "Contradicted and initially stronger effects in highly cited clinical research"
-
