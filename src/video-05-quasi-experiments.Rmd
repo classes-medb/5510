@@ -1,5 +1,5 @@
 ---
-title: "Video 5 - Experimental and Quasi-experimental studies"
+title: "Video 5 - Quasi-experimental studies"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -21,7 +21,7 @@ Here are the objectives for this week.
 </div>
 
 ***
-`r read_text("readings05")`
+`r read_text("readings05", char_max=500)`
 
 <div class="notes">
 
@@ -29,8 +29,7 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 </div>
 
-###
-*** What is quality improvement?
+### What is quality improvement?
 
 * Systematic approach
   + Commitment to teams
@@ -56,10 +55,56 @@ The final distinction and the reason I am talking about the QI process in this c
 
 </div>
 
+### The SMART approach
+
+* Specific
+* Measurable
+* Actionable
+* Relevant
+* Time Bounded
+
+<div class="notes">
+
+Aim is SMART (Specific, Measurable, Actionable, Relevant, Time Bounded)
+
+
+
+</div>
+
+### The PDSA cycle
+
+* Plan
+* Do
+* Study
+* Act
+
+<div class="notes">
+
+This Fishbone diagram comes from QI study looking at wrong side imaging errors. The major bones on this diagram are Environment, Radiologist, Imaging Exams, and PACS+Voice Recognition.
+
+</div>
+
+### Process measures
+
+### The control chart
+
+### The fishbone diagram
+
+![Fishbone diagram](../images/fishbone01.png)
+
+<div class="notes">
+
+
+
+</div>
+
+### The Pareto chart
+
 ### What is a quasi-experimental study?
 
 * Could but does not use randomization
 * Never sneer at quasi-experimental studies
+  + Make a loud mistake
 * Problems with randomization
   + Cost
   + Logistical constraints
@@ -73,6 +118,10 @@ A quasi-experimental study uses an active independent variable, but does not use
 
 The choice to forgo randomization is usually a deliberate choice. Many people, including the authors of your book, dismiss the quasi-experimental design as an inferior alternative to a randomized design, but that are wrong. In some settings, randomization puts you at a disadvantage. If you decide to use a quasi-experimental design, recognize that you are choosing this design because it is superior to a randomized trial. 
 
+I dated a piano major in college and I tried, with very limited success, to learn how to play the piano myself. She told me, "If you're going to make a mistake, make a loud mistake." You don't want to play the piano nervously and hesitantly. The same is true in research. 
+
+If you deviate from a well-established research norm, do so boldly and explicitly. Say something like "Although this quasi-experimental study has some limitations, it avoids many of the well-documented problems with a randomized trial" And then elaborate. Don't apologize for your research design. Brag about how it is the best approach for this particular problem and explain what advantages it offers over a randomized trial.
+
 What are the problems with randomization? First, it is expensive. It takes a lot of money (and a lot of time=remember that time is money). The machinery associated with randomization does not come cheap.
 
 Contamination is the tendency for a particular intervention to "bleed over" into the control group. You may ask a health care provider to use a new approach for patients, but it is soemtimes very easy to let some of the new approach slip in when that person is treating a randomly selected control patient.
@@ -81,11 +130,332 @@ Certain interventions, such as changes to the physical layout of a work area are
 
 The sample size available to randomize may be too small to assure that randomization would work. This is especially true when you are looking at an intervention that can be implemented only at a very broad scale, such as with an entire floor or wing of a hospital.
 
-Even when 
+Even when you have enough control to randomize, the people that have to implement your randomization process may rebel. This especially true in a difficult and hectic environment like an emergency room. Randomization is one more distraction that they just don't need. They are more likely to support your research if you implement the intervention without randomization.
 
 </div>
 
-Institue for Healthcare Improvement
+### Notation for research designs
+
+* O means a measurement is made
+* X means an intervention is given.
+* ~X means no intervention or a control intervention
+* R means randomized assignment
+* NR means non-randomized assignment
+* E means the experimental group
+* C means the control group
+
+<div class="notes">
+
+There is a fairly standard notation with the letter O representing a measurement and the letter X representing an intervention.
+
+The symbols here mean all subjects were assigned to an exposure group, that two measurements were made, then an intervention was given and then two more measurements were made.
+
+</div>
+
+### Example of a design
+
+```{r notation, echo=FALSE, comment=""}
+cat("R E: O1 X O2   O3\nR C: O1   O2 X O3")
+```
+
+<div class="notes">
+
+This is an example of a waiting list control group. The patients are randomly assigned to E or C. They both get a baseline, O1. Then the E group gets an intervention X that does not happen for the control group just yet. The second measurement is done, and after the second measurement, the same intervention is offered to the control group. Then both groups are measured a third time. The comparison of O2 between the experimental and control groups is the key measure, and you can adjust for baselines using a change score or analysis of covariance. But there are other interesting comparisons. With the experimental group, the comparison of O2 with O3 represents an assessment of whether the effect of X persists over a longer period of time.
+
+</div>
+
+### Single group post-test only design
+
+```{r single-group-post-only, echo=FALSE, comment=""}
+cat("NR E: X O")
+```
+
+* Simplest design
+* Useful for pilot work
+
+<div class="notes">
+
+The simplest possible design is a single group post-test only design. There is no randomization. The treatment given to everyone and you get a measurement only after the treatment. 
+
+It reminds me of a story, that I have not been able to verify. If you find a link to this story, let me know. The famous philosopher Karl Popper asked his wife "How much do you love me?" She responded "I love you eleven".
+
+Eleven compared to what? Maybe she loves bagels fifteen? Maybe he only loves her eight? There's no comparison to be made at all.
+
+Although no comparisons can be done. It could be useful for pilot or feasibility studies.
+
+</div>
+
+***
+### Single group comparison post-treatment to baseline
+
+```{r single-group-pre-post, echo=FALSE, comment=""}
+cat("NR E: O1 X O2")
+```
+
+* Allows a comparison.
+* Confounded with temporal trends.
+
+<div class="notes">
+
+One group, pre-test versus post-test. You can look at change before and after the intervention. You still don't know if the change would have occured even without this intervention.
+
+There are effects such as maturation or carry-over effects that could easily account for any difference seen in this design.
+
+You can improve this design by including extra outcome variables. Half of these outcome variables would be expected to be changed by the intervention and half would be expected to be unchanged, even if the intervention is successful.
+
+If you see that the first half changes from baseline and the second half does not, then you have some assurance that there is no temporal trend, at least no trend that might influence all the outcome variables that you are considering.
+
+So a teaching intervention, for example, might teach lessons in X1 and X2, but not X3 and X4. Test all four areas prior to the intervention and afterwards. If you see a change in just X1 and X2 great! If you see a change in all four, though, you're in trouble.
+
+</div>
+
+***
+### Two group comparison, without a baseline
+
+```{r two-group-post-only, echo=FALSE, comment=""}
+cat("NR E: X O\nNR C:   O")
+```
+
+* Nonrandomized comparison
+* Confounded with baseline imbalance
+
+<div class="notes">
+
+If you have two groups, assigned without randomization, you do have a comparison, but without a baseline measurement, you can't be sure that the difference that you do see is the same as the difference that existed between the two groups prior to the intervention.
+
+Here's where randomization would have helped a lot. Randomization controls for unmeasured covariates and the baseline value in this study is an unmeasured covariate.
+
+The three quasi-experimental studies described so far are called pre-experimental because you cannot draw any conclusions without making some untestable assumptions.
+
+This sounds terrible, but we make untestable assumptions all the time in science. For example, Carbon-14 dating relies on the assumption that the rate of decay of carbon-14 is the same now as it was a thousand years ago. There's no good way to test this assumption, but we accept it as reasonable.
+
+It's okay to make untestable assumptions if there is no way that you could collect the extra data that you would need to turn it into a testable assumption. Just be explicit about what assumptions you are making and your readers can for themselves whether they agree with you that the assumption is reasonable.
+
+One way to indirectly test the assumption that the two groups were comparable at baseline is to compare the two groups by some demographic variables like age or gender that might be associated with your baseline. If the demographic variables are comparable, then you have some assurance that the baselines would have been comparable, if you had an opportunity to measure and test them.
+
+</div>
+
+### Two group comparison with a baseline
+
+```{r two-group-pre-post, echo=FALSE, comment=""}
+cat("NR E: O1 X O2\nNR C: O1   O2")
+```
+
+* Best design so far.
+* Can check for 
+  + temporal trends in the control group.
+  + baseline imbalances
+* Cannot check for unmeasured covariates
+* Cannot check for treatment interaction
+
+### Interrupted time series design
+
+```{r time-series-1, echo=FALSE, comment=""}
+cat("NR E: O1 O2 O3 X O4 O5 O6")
+```
+
+* Best with three or more measures at baseline
+* Check for most temporal trends
+
+<div class="notes">
+
+If you have the option of taking multiple measurements over time, then this can help avoid the problems with using a single group.
+
+</div>
+
+### Hypothetical patterns in the interrupted time series design
+
+```{r time-series-2, echo=FALSE, comment=""}
+x <- 1:6
+y1 <- c(1.1, 1.3, 1.2, 2.2, 2.1, 2.3)
+y2 <- c(1.1, 1.4, 1.3, 1.8, 2.2, 2.3)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.9, 2.4))
+text(3.5, 1, "X")
+segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
+axis(side=1, at=1:6, labels=paste0("O", 1:6))
+title("Good news")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.9, 2.4))
+text(3.5, 1, "X")
+segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
+axis(side=1, at=1:6, labels=paste0("O", 1:6))
+title("Bad news")
+```
+
+<div class="notes">
+
+If the measurements are flat from O1 through O3, show a jump from O3 to O4, and then becomes flat again from O4 through O6, then you have pretty good evidence against most temporal trends, except for a temporal trend with the bad luck of occuring right at the time of your intervention.
+
+If you see a jump between O3 and O4, but you also see jumps at most of the other time points, that's bad news.
+
+</div>
+
+### Phased design
+
+```{r time-series-3, echo=FALSE, comment=""}
+cat("NR E: O1 O2 X1 O3 O4 O5 X2 O6 O7 O8 X3 O9 O10")
+```
+
+* Split intervention into three or more pieces
+* Phase in the intervention piece by piece
+
+<div class="notes">
+
+
+
+</div>
+
+### Phased design
+
+```{r time-series-4, echo=FALSE, comment=""}
+x <- 1:10
+y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 3.1, 3.4, 3.2, 4.3, 4.2)
+y2 <- c(1.1, 1.7, 1.6, 2.1, 2.7, 2.9, 3.3, 3.9, 4.3, 4.2)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 4.4))
+i1 <- c(2.5, 5.5, 8.5) 
+text(i1, 1, paste0("X", 1:3))
+segments(i1, 1.1, i1, 4.4, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Good news")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 4.4))
+text(i1, 1, paste0("X", 1:3))
+segments(i1, 1.1, i1, 4.4, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Bad news")
+```
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Quasi-Experimental Designs 
+
++ Better Q-E Designs
+	+ Pretest-Posttest Nonequivalent Comparison Group
+		+ NR	E:	O1	X	O2
+		+ NR	C:	O1	~X	O2
+		+ 3 strengths based on
+			+ How participants got into the groups/conditions
+			+ How much control investigator has over IV
+		+ Strong
+		+ Moderate-strength
+		+ Weak
+* Improvement - Wait-List Comparison Group
+	+ Immediate Group	O1	X	O2
+	+ Wait-List Group	O1	~X	O2	X	O3
+
+
+<div class="notes">
+
+A wait list comparison, one group gets the treatment immediately and the second group has to wait before getting the treatment.
+
+This is an attractive design when the clinicians want to avoid giving the placebo to anyone.
+
+From a recruitment point of view, people who want the treatment may be willing to tolerate a delay.
+
+Note that there are two changes (O2 minus O1) and (O3 minus O2).
+
+Introducing a pre-test measurement offers a further improvement. The pre-measure allows us to test for differences before the intervention was introduced.
+
+A stronger version of this design. Can you randomize which group gets the intervention, even if you can't randomize individuals?
+
+If people self-select, but not on the basis of which group they get into, that strengthens the design. But you can't rule out the possibility of systematic differences that might still influence the outcome.
+
+</div>
+
+***
+### Quasi-Experimental Designs 
+
++ Better Q-E Designs
+	+ Single-Group Time-Series
+		+ Characteristics
+		+ Temporary treatment vs Continuous treatment
+	+ Multi-Group Time-Series
+		+ Characteristics
+		+ Temporary treatment vs Continuous treatment
+
+<div class="notes">
+
+Multiple measures over time in your outcome variable.
+
+</div>
+
+***
+### Q-E Time Series Designs 
+
+![Portney & Watkins, 2009](../images/image-05-05.png)
+
+<div class="notes">
+
+With time series designs, you are frequently looking at two different kinds of signals. You get a feel for change in the trend before and after. You also have the possibility of a jump (shift) at the time of the intervenion.
+
+Notice in this graph.
+
+</div>
+
+***
+### Q-E Time Series Designs 
+
+![](../images/image-05-06.png)
+
+<div class="notes">
+
+Figure 11.5 shows three different patterns. Four measurements before treatment and four measurements after treatment. Notice the bottom line shows an up and down pattern. If you looked only at O4 and O5, you might think, Wow! but the values at O6, O7, etc.
+
+The middle line B shows an increasing trend but this increase appears to be unrelated to the intervention.
+
+The top line shows a shift that is temporally associated with the intervention.
+
+These designs show some evidence of causation without a concurrent control group.
+
+Portney & Watkins, 2009
+
+</div>
+
+***
+### Quasi-Experimental Designs 
+
++ Typical examples of Q-E designs
+	+ Case-control study
+	+ Cohort study
+	+ Non-equivalent control group design
+	+ Interrupted time-series design
+	+ Single system design
+
+<div class="notes">
+
+You identify a group of cases matched with controls. These are, for the most part, retrospective comparisons.
+
+Cohort design, you get a group of patients at risk of something and follow them over time. Cohort studies can be prospective or retrospective. 
+
+Two or more pre-existing groups of people. You introduce an intervention to one group.
+
+Case studies. 
+
+Withdrawal design.
+
+The Tucker article is a good example of a quasi-experimental design.
+
+</div>
+
+***
+### Research Approaches 
+
+![](../images/image-05-01.png)
+
+<div class="notes">
+
+We are using this figure a lot because it helps us organize information. Are you trying to explore relationships or describe. Experimental designs almost always explore relationships. 
+
+An experimental design has an active independent variable (one that is manipulated).
+
+The split in experimental designs
+
+Institute for Healthcare Improvement
 
 Any model is fine, but it has to be consistent across the organization.
 
@@ -116,20 +486,6 @@ T=Transportation
 I=Inventory (have it and have it where we need it, too many suppl)
 M=Motion
 E=Extra processing (Perfectionist)
-
-
-***
-### Research Approaches 
-
-![](../images/image-05-01.png)
-
-<div class="notes">
-
-We are using this figure a lot because it helps us organize information. Are you trying to explore relationships or describe. Experimental designs almost always explore relationships. 
-
-An experimental design has an active independent variable (one that is manipulated).
-
-The split in experimental designs
 
 </div>
 
@@ -265,160 +621,6 @@ Figure 5.1 talks about verious experimental and quasi-experimental designs. Desi
 </div>
 
 ***
-### Quasi-Experimental Designs 
-
-+ Q-E with major limitations
-+ Also called Pre-experimental
-	+ One-Group Posttest-Only
-		+ NR	E:		X	O
-
-<div class="notes">
-
-Only one group. No randomization. Treatment given to everyone and you get a measurement only after the treatment. It could be useful for pilot studies (feasibility)
-
-Expectancy effect.
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Q-E with major limitations
-+ Also called Pre-experimental
-	+ One-Group Pretest-Posttest
-		+ NR	E:	O1	X	O2
-	+ Improvement - Wait-List Comparison Group
-		+ Immediate Group	O1	X	O2
-		+ Wait-List Group	O1	~X	O2	X	O3
-
-<div class="notes">
-
-One group, pre-test versus post-test. You can look at change before and after the intervention. You still don't know if the change would have occured even without this intervention.
-
-A wait list comparison, one group gets the treatment immediately and the second group has to wait before getting the treatment.
-
-This is an attractive design when the clinicians want to avoid giving the placebo to anyone.
-
-From a recruitment point of view, people who want the treatment may be willing to tolerate a delay.
-
-Note that there are two changes (O2 minus O1) and (O3 minus O2).
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Q-E with major limitations
-+ Also called Pre-experimental
-	+ Posttest-Only Nonequivalent Groups
-		+ NR	E:		X	O
-		+ NR	C:		~X	O
-
-<div class="notes">
-
-We don't have random assignment, so you may have non-equivalent groups.
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Better Q-E Designs
-	+ Pretest-Posttest Nonequivalent Comparison Group
-		+ NR	E:	O1	X	O2
-		+ NR	C:	O1	~X	O2
-		+ 3 strengths based on
-			+ How participants got into the groups/conditions
-			+ How much control investigator has over IV
-		+ Strong
-		+ Moderate-strength
-		+ Weak
-
-<div class="notes">
-
-Introducing a pre-test measurement offers a further improvement. The pre-measure allows us to test for differences before the intervention was introduced.
-
-A stronger version of this design. Can you randomize which group gets the intervention, even if you can't randomize individuals?
-
-If people self-select, but not on the basis of which group they get into, that strengthens the design. But you can't rule out the possibility of systematic differences that might still influence the outcome.
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Better Q-E Designs
-	+ Single-Group Time-Series
-		+ Characteristics
-		+ Temporary treatment vs Continuous treatment
-	+ Multi-Group Time-Series
-		+ Characteristics
-		+ Temporary treatment vs Continuous treatment
-
-<div class="notes">
-
-Multiple measures over time in your outcome variable.
-
-</div>
-
-***
-### Q-E Time Series Designs 
-
-![Portney & Watkins, 2009](../images/image-05-05.png)
-
-<div class="notes">
-
-With time series designs, you are frequently looking at two different kinds of signals. You get a feel for change in the trend before and after. You also have the possibility of a jump (shift) at the time of the intervenion.
-
-Notice in this graph.
-
-</div>
-
-***
-### Q-E Time Series Designs 
-
-![](../images/image-05-06.png)
-
-<div class="notes">
-
-Figure 11.5 shows three different patterns. Four measurements before treatment and four measurements after treatment. Notice the bottom line shows an up and down pattern. If you looked only at O4 and O5, you might think, Wow! but the values at O6, O7, etc.
-
-The middle line B shows an increasing trend but this increase appears to be unrelated to the intervention.
-
-The top line shows a shift that is temporally associated with the intervention.
-
-These designs show some evidence of causation without a concurrent control group.
-
-Portney & Watkins, 2009
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Typical examples of Q-E designs
-	+ Case-control study
-	+ Cohort study
-	+ Non-equivalent control group design
-	+ Interrupted time-series design
-	+ Single system design
-
-<div class="notes">
-
-You identify a group of cases matched with controls. These are, for the most part, retrospective comparisons.
-
-Cohort design, you get a group of patients at risk of something and follow them over time. Cohort studies can be prospective or retrospective. 
-
-Two or more pre-existing groups of people. You introduce an intervention to one group.
-
-Case studies. 
-
-Withdrawal design.
-
-The Tucker article is a good example of a quasi-experimental design.
-
-</div>
-
 ***
 ### Assignment #3 
 
