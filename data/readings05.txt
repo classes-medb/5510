@@ -13,3 +13,5 @@ Anthony D. Harris, Jessina C. McGregor, Eli N. Perencevich, Jon P. Furuno, Jingk
 Jones Bryan, Vaux Emma, Olsson-Brown Anna. How to get started in quality improvement BMJ 2019; 364 :k5408. Available in [html format](https://www.bmj.com/content/364/bmj.k5437.long) or [PDF format](https://www.bmj.com/content/364/bmj.k5437.full.pdf). 
 
 Rohrbasser A, Harris J, Mickan S, Tal K, Wong G. Quality circles for quality improvement in primary health care: Their origins, spread, effectiveness and lacunae- A scoping review. PLoS One. 2018;13(12):e0202616. Published 2018 Dec 17. doi:10.1371/journal.pone.0202616. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296539/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296539/pdf/pone.0202616.pdf).
+
+Centers for Disease Control and Prevention. How to write SMART objectives. Available in [PDF format](https://www.cdc.gov/cancer/dcpc/pdf/dp17-1701-smart-objectives.pdf).

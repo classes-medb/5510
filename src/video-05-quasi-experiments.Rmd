@@ -57,17 +57,32 @@ The final distinction and the reason I am talking about the QI process in this c
 
 ### The SMART approach
 
-* Specific
-* Measurable
-* Actionable
-* Relevant
-* Time Bounded
+* SMART
+  + Specific
+  + Measurable
+  + Achievable
+  + Relevant
+  + Time Bounded
+* [Who] will do [what] resulting in [measure] by [when]
+  + Minnesota Department of Health
 
 <div class="notes">
 
-Aim is SMART (Specific, Measurable, Actionable, Relevant, Time Bounded)
+Any problem identified by a QI should be written using the five criteria in the acronym SMART (Specific, Measurable, Actionable, Relevant, Time Bounded).
 
+Specific means that you avoid multiple objectives (one verb, not two, according to the CDC) and keep the focus narrow.
 
+Measurable means that you specify a quantitative variable that you will measure, a quantitative value representing where you currently are, and a quantitative value representing where you want to get to.
+
+Achievable means that you have considered both the time and resources and the barriers that you face when setting your objective.
+
+Relevant means that your objective addresses the problem directly.
+
+Time bounded means that you set a calendar date by which you hope to achieve your objective.
+
+As the Minnesota Department of Health puts it, you obective should state
+
+[Who] will [what] resulting in [measure] by [when]
 
 </div>
 
@@ -80,6 +95,14 @@ Aim is SMART (Specific, Measurable, Actionable, Relevant, Time Bounded)
 
 <div class="notes">
 
+The PDSA cycle is commonly used when describing QI teams. Some use the acronym PDCA with Check substituting for Study, but the intention is the same. It is a cycle, which means that as soon as you act on what you've learned, you starting a second cycle of planning.
+
+The plan, do, study, act cycle is fairly straightforward, but I want to want you that a trap that some QI teams can fall into is to ignore two of the four parts.
+
+A team, for example, might be trapped in a Plan, Do, Plan, Do cycle and never takes the time to learn from the work or to implement changes based on the work.
+
+Or the team might be trapped in a Plan, Act, Plan, Act cycle and never take the time to see if the plans actually have a measurable impact.
+
 This Fishbone diagram comes from QI study looking at wrong side imaging errors. The major bones on this diagram are Environment, Radiologist, Imaging Exams, and PACS+Voice Recognition.
 
 </div>
@@ -88,17 +111,148 @@ This Fishbone diagram comes from QI study looking at wrong side imaging errors. 
 
 ### The control chart
 
-### The fishbone diagram
+### Drawing a fishbone diagram (1 of 3)
+
+![First step in drawing a fisbone diagram](../images/draw-fishbone01.png)
+
+<div class="notes">
+
+The fishbone diagram (also called the Ishikawa diagram, or the case and effect diagram) is a tool for identifying the root causes of quality problems. It was named after Kaoru Ishikawa, the man who pioneered the use of this chart in quality improvement in the 1960's. It is a graphical method for displaying possible causes of a quality problem.
+
+If you want to use a Fishbone Diagram, first list the main problem on the right hand side of the paper. Then draw a horizontal line to represent the "backbone" of the diagram. This line is not labeled.
+
+</div>
+
+### Drawing a fishbone diagram (2 of 3)
+
+![Second step in drawing a fisbone diagram](../images/draw-fishbone02.png)
+
+<div class="notes">
+
+Off of the backbone, draw and label major bones: 4 to 7 major categories of causes. A commonly used list of major causes is
+
+* Management,
+* Manpower,
+* Machines, and
+* Materials.
+
+Another possible list is
+
+* Policies,
+* Procedures,
+* Plant, and
+* People.
+
+</div>
+
+### Drawing a fishbone diagram (3 of 3)
+
+![First step in drawing a fisbone diagram](../images/draw-fishbone03.png)
+
+<div class="notes">
+
+Then attach specific causes to the appropriate category.
+
+Some people allow the individual causes to have subcauses, which would be attached to the minor bones. This is intended to get at the fundamental or root causes of the problem. Other people do not include this level of detail on their fishbone diagrams.
+
+The process of developing a fishbone diagram can be done by an individual, but more commonly it is done by a team. You can use standard brainstorming approaches for the fishbone diagram. For example you could go around the table repeatedly asking each person to list a cause. Only after all the possible causes are listed do you review and possibly winnow down the list. Then arrange the remaining causes on the fishbone.
+
+If you do use a team to develop a fishbone diagram, make sure that all relevant parties are included. No fair getting input only from doctors and ignoring nurses, for example, in a health care setting. The rule should be that at least one person from any group that is associated with the work process should be included.
+
+When you are done, look at the entire diagram. Does it have reasonable balance across the major bones? Are any common themes emerging? Can you identify causes that are measurable and fixable and which you believe are likely to have a large impact on the problem?
+
+In some situations, you may find that a flow diagram of the work process may be more valuable and informative.
+
+</div>
+
+### Fishbone example (1 of 4)
 
 ![Fishbone diagram](../images/fishbone01.png)
 
 <div class="notes">
 
+As you will see, there is no standard format or structure for a Fishbone diagram.
 
+Here is an example of a Fishbone diagram in a published research study. The problem, shown only in the legend, is side discrepancies in radiologic reports. The major bones are Environment, Radiologist, Imaging Exams, and Voice Recognition. Two specific causes on the environment bone are background noise and crowd.
+
+</div>
+
+### Fishbone example (2 of 4)
+
+![Fishbone diagram](../images/fishbone02.png)
+
+<div class="notes">
+
+Here's a second example. The problem is non-retention of HIV-positive adolescents in care. The major bones are Health Services factors, Adolescent factors, and Accessibility factors. Two of the specific causes on the adolescent factor bone are stigma, and lack of empowerment.
+
+</div>
+
+### Fishbone example (3 of 4)
+
+![Fishbone diagram](../images/fishbone03.jpg)
+
+<div class="notes">
+
+Here's a third example.  The problem is the small number of cases referred to the PSU. The major bones are equipment, patients, procedures, and environments. Two specific causes on the patients bone are lack of awareness and stigma.
+
+</div>
+
+### Fishbone example (4 of 4)
+
+![Fishbone diagram](../images/fishbone04.png)
+
+<div class="notes">
+
+Here's one last example. The problem is non-adherence. The major bones are patient factors, tech factors, physician factors, communication, environment/organization, and materials/resources. Two of the specific causes on the physician factor are fear of litigation and knowledge of guidelines (I presume they mean lack of knowledge of guidelines).
 
 </div>
 
 ### The Pareto chart
+
+* Based on the Pareto 80-20 principle.
+  + The "frequent few"
+* Proportion of cases associated with a specific cause.
+  + Combined with cumulative frequency
+  
+<div class="notes">
+
+The Pareto chart is an attempt to focus attention on the most common causes of a problem. It is based on the Pareto Principle which talks about the "frequent few". The Pareto Principle states that most of the troubles that you see (around 80%, but this is just a ballpark estimate) are limited to just a few causes (20%, but again just a ballpark).
+
+It is typically displayed as a bar chart of causes with a percentage of cases in each cause displayed. You put the bars in order from largest to smallest and include a line showing the cumulative frequency of causes.
+
+You should focus your QI efforts on the left side of the Pareto chart.
+
+</div>
+
+### Example of Pareto (1 of 3)
+
+![Example of a Pareto chart](../images/pareto01.png)
+
+<div class="notes">
+
+This is an example of a Pareto chart published in the peer-reviewed literature. The problem is side errors in radiology and the first two causes (radiologist, and complex, advanced disease) account for 93% of the problems.
+
+</div>
+
+### Example of Pareto (2 of 3)
+
+![Example of a Pareto chart](../images/pareto02.png)
+
+<div class="notes">
+
+This is second example. The problem is unplanned return visits and the first two causes (cast issues and new symptoms) account for 80% of the problems.
+
+</div>
+
+### Example of Pareto (3 of 3)
+
+![Example of a Pareto chart](../images/pareto03.png)
+
+<div class="notes">
+
+This is third example. The problem is invalid surgical consents, and it does not quite follow the Pareto principle because the causes are quite varied. The top five causes (No initials after amendments, Witness initials incomplete or absent, Consent forms were expired, Dates incomplete or absent, Illegible handwriting, and use of abbreviations) account for 80% of the invalid consents.
+
+</div>
 
 ### What is a quasi-experimental study?
 
@@ -261,6 +415,10 @@ cat("NR E: O1 O2 O3 X O4 O5 O6")
 
 If you have the option of taking multiple measurements over time, then this can help avoid the problems with using a single group.
 
+If the measurements are flat from O1 through O3, show a jump from O3 to O4, and then becomes flat again from O4 through O6, then you have pretty good evidence against most temporal trends, except for a temporal trend with the bad luck of occuring right at the time of your intervention.
+
+If you see a jump between O3 and O4, but you also see jumps at most of the other time points, that's bad news.
+
 </div>
 
 ### Hypothetical patterns in the interrupted time series design
@@ -281,14 +439,6 @@ segments(3.5, 1.1, 3.5, 2.4, lty="dotted", col="gray")
 axis(side=1, at=1:6, labels=paste0("O", 1:6))
 title("Bad news")
 ```
-
-<div class="notes">
-
-If the measurements are flat from O1 through O3, show a jump from O3 to O4, and then becomes flat again from O4 through O6, then you have pretty good evidence against most temporal trends, except for a temporal trend with the bad luck of occuring right at the time of your intervention.
-
-If you see a jump between O3 and O4, but you also see jumps at most of the other time points, that's bad news.
-
-</div>
 
 ### Phased design
 
@@ -332,287 +482,7 @@ title("Bad news")
 </div>
 
 ***
-### Quasi-Experimental Designs 
-
-+ Better Q-E Designs
-	+ Pretest-Posttest Nonequivalent Comparison Group
-		+ NR	E:	O1	X	O2
-		+ NR	C:	O1	~X	O2
-		+ 3 strengths based on
-			+ How participants got into the groups/conditions
-			+ How much control investigator has over IV
-		+ Strong
-		+ Moderate-strength
-		+ Weak
-* Improvement - Wait-List Comparison Group
-	+ Immediate Group	O1	X	O2
-	+ Wait-List Group	O1	~X	O2	X	O3
-
-
-<div class="notes">
-
-A wait list comparison, one group gets the treatment immediately and the second group has to wait before getting the treatment.
-
-This is an attractive design when the clinicians want to avoid giving the placebo to anyone.
-
-From a recruitment point of view, people who want the treatment may be willing to tolerate a delay.
-
-Note that there are two changes (O2 minus O1) and (O3 minus O2).
-
-Introducing a pre-test measurement offers a further improvement. The pre-measure allows us to test for differences before the intervention was introduced.
-
-A stronger version of this design. Can you randomize which group gets the intervention, even if you can't randomize individuals?
-
-If people self-select, but not on the basis of which group they get into, that strengthens the design. But you can't rule out the possibility of systematic differences that might still influence the outcome.
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Better Q-E Designs
-	+ Single-Group Time-Series
-		+ Characteristics
-		+ Temporary treatment vs Continuous treatment
-	+ Multi-Group Time-Series
-		+ Characteristics
-		+ Temporary treatment vs Continuous treatment
-
-<div class="notes">
-
-Multiple measures over time in your outcome variable.
-
-</div>
-
-***
-### Q-E Time Series Designs 
-
-![Portney & Watkins, 2009](../images/image-05-05.png)
-
-<div class="notes">
-
-With time series designs, you are frequently looking at two different kinds of signals. You get a feel for change in the trend before and after. You also have the possibility of a jump (shift) at the time of the intervenion.
-
-Notice in this graph.
-
-</div>
-
-***
-### Q-E Time Series Designs 
-
-![](../images/image-05-06.png)
-
-<div class="notes">
-
-Figure 11.5 shows three different patterns. Four measurements before treatment and four measurements after treatment. Notice the bottom line shows an up and down pattern. If you looked only at O4 and O5, you might think, Wow! but the values at O6, O7, etc.
-
-The middle line B shows an increasing trend but this increase appears to be unrelated to the intervention.
-
-The top line shows a shift that is temporally associated with the intervention.
-
-These designs show some evidence of causation without a concurrent control group.
-
-Portney & Watkins, 2009
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Typical examples of Q-E designs
-	+ Case-control study
-	+ Cohort study
-	+ Non-equivalent control group design
-	+ Interrupted time-series design
-	+ Single system design
-
-<div class="notes">
-
-You identify a group of cases matched with controls. These are, for the most part, retrospective comparisons.
-
-Cohort design, you get a group of patients at risk of something and follow them over time. Cohort studies can be prospective or retrospective. 
-
-Two or more pre-existing groups of people. You introduce an intervention to one group.
-
-Case studies. 
-
-Withdrawal design.
-
-The Tucker article is a good example of a quasi-experimental design.
-
-</div>
-
-***
-### Research Approaches 
-
-![](../images/image-05-01.png)
-
-<div class="notes">
-
-We are using this figure a lot because it helps us organize information. Are you trying to explore relationships or describe. Experimental designs almost always explore relationships. 
-
-An experimental design has an active independent variable (one that is manipulated).
-
-The split in experimental designs
-
-Institute for Healthcare Improvement
-
-Any model is fine, but it has to be consistent across the organization.
-
-The QI model is one that is open to failure, but controls the process so that failure doesn't have a large cost.
-
-What are we trying to accomplish?
-
-How will we know that a change is an improvement? (How do you measure?)
-
-What change can we make that will result in improvement? (Interventions)
-
-Quality improvment typically is measured over time and this leads to a different type of statistical analysis.
-
-Plan, Do, Study, Act
-
-Aim is SMART (Specific, Measurable, Actionable, Relevant, Time Bounded)
-
-Don't try to boil the ocean.
-
-Types of waste mnemonic: 
-Downtime
-
-D=Defects
-O=Overproduction
-W=Waiting (patient or staff)
-N=Non-utilized intellect
-T=Transportation
-I=Inventory (have it and have it where we need it, too many suppl)
-M=Motion
-E=Extra processing (Perfectionist)
-
-</div>
-
-***
-### Research Approaches 
-
-![](../images/image-05-02.png)
-
-<div class="notes">
-
-Figure 4.2 walks you through the major designs. Note that the random assignment of patients to groups is not the same as the random selection of groups.
-
-In a quasi-experimental design, sometimes the active independent variable is manipulated by the investigator, sometimes not. 
-
-</div>
-
-***
-### Research Approaches 
-
-+ Randomized Experimental
-+ Criteria
-	+ Random assignment
-	+ Active independent variable
-	+ (Experimenter control of active independent variable)
-		+ What is “treatment”
-		+ When it will be given
-		+ Who it will be given to
-
-<div class="notes">
-
-Random assignment of people into groups or conditions. Controling the type of treatment or when it is given.
-
-Sometimes the treatment is delivered by someone other the investigator, but gives randomization information to someone else.
-
-</div>
-
-***
-### Research Approaches 
-
-+ Randomized Experimental
-+ Importance of random assignment
-	+ Bias
-	+ Equivalence of groups before treatment
-+ Random selection (sampling)
-	+ What does this mean?
-	+ How does it relate to random assignment?
-	+ Value of random selection?
-
-<div class="notes">
-
-Random sample does not rely on any characteristics of an individual.
-
-You can use a random number generator to assign or a random number table.
-
-Randomization gives you the best chance of the two groups being equivalent.
-
-Note that alternating assignment is not the same as random assignment. Does a temporal trend cause bias?
-
-Also note that haphazard assignment is not the same as random assignment.
-
-Alternatives to random assignment leaves you with a good chance that your study will not end up getting included in a systematic overview.
-
-Random sampling. How do people get included in a study?
-
-Most random assignment studies use a non random selection.
-
-It is quite difficult to do random selection, but easy to do random assignment.
-
-</div>
-
-***
-### Research Approaches 
-
-+ Quasi-Experimental
-+ What criteria of Experimental not met?
-+ Categories of Q-E approach
-	+ Q-E with major limitations
-	+ Pretest-Posttest designs
-	+ Time-series designs
-	+ Single-subject designs
-
-<div class="notes">
-
-Quasi-experimental designs fail to meet the goal of randomization. It could be that we do not have control over the treatment assignment. A quasi-experimental design does not allow you to establish causality.
-
-Single subject designs are covered separately.
-
-</div>
-
-***
-### Research Approaches 
-
-![](../images/image-05-03.png)
-
-<div class="notes">
-
-Figure 4.3. The way notations are used to describe designs.
-
-R = randomized, NR = not randomized.
-
-E = experimental, C = control
-
-Active vs Attribute variable.
-
-This notation is used as we talk about different designs.
-
-</div>
-
-***
-### Randomized Experimental and Q-E Designs 
-
-![](../images/image-05-04.png)
-
-<div class="notes">
-
-Figure 5.1 talks about verious experimental and quasi-experimental designs. Designs increase in rigor as you go down the table. When are measurements made.
-
-</div>
-
-***
-### Quasi-Experimental Designs 
-
-+ Categories of Q-E approach
-	+ Q-E with major limitations
-	+ Pretest-Posttest designs
-	+ Time-series designs
-	+ Single-subject designs
+`r read_text("hw05", fri[5], char_max=500)`
 
 <div class="notes">
 
@@ -621,28 +491,7 @@ Figure 5.1 talks about verious experimental and quasi-experimental designs. Desi
 </div>
 
 ***
-***
-### Assignment #3 
-
-+ Prepare a brief description of the topic you are planning to focus on for your research proposal. (Introduction)
-
-<div class="notes">
-
-A single paragraph that might serve as your introduction. There is a template available on the Canvas site. If you want to start creating your proposal using a structure, feel free to use this template.
-
-</div>
-
-***
-`r read_text("hw05", fri[5])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion05", fri[5])`
+`r read_text("discussion05", char_max=500)`
 
 <div class="notes">
 
