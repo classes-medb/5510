@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-Here are the objectives for this week.
+Here are the objectives for this week. I want to introduce some new material on quality improvement (QI) studies and this is the best place to put it. Althought QI and medical research share many features, you need to appreciate some important differences between the two approaches. Many QI studies use quasi-experimental approaches and we'll discuss a few of the more common ones.
 
 </div>
 
@@ -25,21 +25,22 @@ Here are the objectives for this week.
 
 <div class="notes">
 
-This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
+This is what you should have read already. Take the opportunity to re-read Chapter 5. Some of the material relates to last week's lecture but some is new in this week's lecture. There are a large number of side readings that cover quality improvement topics.
 
 </div>
 
-### What is quality improvement?
+### What is quality improvement? (1 of 4)
 
-* Systematic approach
-  + Commitment to teams
-  + Organization-wide support
-  + Passion for measurement
-* Differences from research
-  + Systems approach
-  + Little or no attention to generalizability
-  + Continuous and Cyclical process
-  + Major reliance on quasi-experimental studies
+* Variety of names
+  + Agile
+  + Continuous Quality Improvement (CQI)
+  + Kaizen
+  + Lean
+  + Quality Control (QC)
+  + Six Sigma
+  + Statistical Process Control (SPC)
+  + Total Quality Management (TQM)
+* Different from Quality Assurance
 
 <div class="notes">
 
@@ -47,7 +48,55 @@ Some of the material discussed on this page was taken from
 
 https://www.hrsa.gov/sites/default/files/quality/toolbox/508pdfs/qualityimprovement.pdf
 
-Quality Improvement (QI) is a systematic approach to changing how a health care organization works with the goal of providing better health care delivery. The QI process makes a strong commitment to teams and emphasizes the importance of broad representation on the team and careful elicitation of viewpoints from every persepctive. While it is possible to run a QI team in a small corner of an organiation, the PI process can only function well with organization-wide support, especially support from upper management. The QI process has a strong commitment to measurement, as measurement is the only way to evaluate the success or failure of changes made by the QI process.
+Quality Improvement (QI) is a broad area and has appeared under various labels like six sigma and total quality management. There are some subtle differences among these approaches. Lean places a strong emphasis on waste reduction, while TQM paces more emphasis on management. In general, different people like different terminology, and they will argue strenuosly that their acronym is the superior acronym, and that all other acronyms are inferior, usually because, but they are not important from your perspective.
+
+It is quite different from Quality Assurance, which has more of an audit function.
+
+QI is a systematic approach to changing how a health care organization works with the goal of providing better health care delivery. The approach has been tested in the fields of business and engineering over the 100 years ago, and the health care systems started adopting these approaches starting about 25 years ago.
+
+</div>
+
+### What is quality improvement? (2 of 4)
+
+* Historical roots
+  + Walter Shewhart (1920s, General Electric)
+  + W. Edwards Deming (1950s, Japan)
+  + Brent James (1990s, Intermountain Health Care)
+
+<div class="notes">
+
+The historical roots of QI can be found in the contributions of three statisticians, Walter Shewhart, W. Edwards Deming, and Brent James. I get to brag a bit here, because the Statistics profession is one that is largely anonymous to the outside world, but Shewhart and Deming are two exceptions.
+
+Walter Shewhart worked at General Electric in the 1920s and developed the statistical control chart, and described the concept of common cause and special cause variation. 
+
+W. Edwards Deming was a statistician assigned to post-war Japan in the 1950s to work on their census, but ended up helping out with the rebuilding of industries in that country as well. He described a management philosophy that emphasized the involvement of everyone in an organization in the quality improvement process. 
+
+Brent James is the chief quality officer at Intermountain Helathcare and has spoken about the culture change needed in medicine to improve quality and has trained thousands of health care professionals on how to conduct clinical practice improvement projects.
+
+</div>
+
+### What is quality improvement? (3 of 4)
+
+* Systematic approach
+  + Commitment to teams
+  + Organization-wide support
+  + Passion for measurement
+
+<div class="notes">
+
+The QI process makes a strong commitment to teams and emphasizes the importance of broad representation on the team and careful elicitation of viewpoints from every persepctive. While it is possible to run a QI team in a small corner of an organization, the QI process can only function well with organization-wide support, especially support from upper management. The QI process has a strong commitment to measurement, as measurement is the only way to evaluate the success or failure of changes made by the QI process.
+
+</div>
+
+### What is quality improvement? (4 of 4)
+
+* Differences from research
+  + Systems approach
+  + Little or no attention to generalizability
+  + Continuous and cyclical process
+  + Major reliance on quasi-experimental studies
+
+<div class="notes">
 
 There is substantial overlap between QI and health care research, but you should be aware of several important differences. QI takes a systems approach to solving problems. Some research takes a systems approach as well, but it's not really a research requirement. QI pays little or no attention to generalizability. The focus of QI is on your particular organization, and ateempts to generalize to other organizations is not a priority. The QI process is not a single step but a continuous effort. This effort is usually represented by the PDCA or PDSA processs (Plan, Do, Check/Study, and Act) and each time you reach the end of a PDCA cycle, you start over again with a new plan.
 
@@ -68,6 +117,8 @@ The final distinction and the reason I am talking about the QI process in this c
 
 <div class="notes">
 
+At a recent graduate research seminar, Felicity Pino talked about the quality improvement studies and introduced an acronym that was new to me, SMART.
+
 Any problem identified by a QI should be written using the five criteria in the acronym SMART (Specific, Measurable, Actionable, Relevant, Time Bounded).
 
 Specific means that you avoid multiple objectives (one verb, not two, according to the CDC) and keep the focus narrow.
@@ -80,9 +131,7 @@ Relevant means that your objective addresses the problem directly.
 
 Time bounded means that you set a calendar date by which you hope to achieve your objective.
 
-As the Minnesota Department of Health puts it, you obective should state
-
-[Who] will [what] resulting in [measure] by [when]
+As the Minnesota Department of Health puts it, you obective should state "[Who] will [what] resulting in [measure] by [when]"
 
 </div>
 
@@ -103,19 +152,46 @@ A team, for example, might be trapped in a Plan, Do, Plan, Do cycle and never ta
 
 Or the team might be trapped in a Plan, Act, Plan, Act cycle and never take the time to see if the plans actually have a measurable impact.
 
-This Fishbone diagram comes from QI study looking at wrong side imaging errors. The major bones on this diagram are Environment, Radiologist, Imaging Exams, and PACS+Voice Recognition.
-
 </div>
 
-### Process measures
+### Process, outcome, and balancing measures
 
-### The control chart
+* Outcome measures
+  + Direct measure
+  + Low signal to noise ratio
+* Process measures
+  + Delivering what you promised
+  + Understanding the WHY
+* Balancing measures
+  + Unintended consequences
+
+<div class="notes">
+
+Some of the material for this slide was taken from 
+
+http://www.ihi.org/resources/Pages/HowtoImprove/ScienceofImprovementEstablishingMeasures.aspx
+
+QI studies measure broadly across three areas: outcome measures, process measures, and balancing measures.
+
+An outcome measure is a measurement taken directly on the patients themselves. If you visualize the system as a flow chart, the outcome measures occur downstream (near the bottom of the flow chart). Oucome measures are the reason that QI teams exist. If you make changes that don't have any impact on your patients, why are you bothering?
+
+But you can't focus just on outcome measures. For one thing, they are very noisy. They are influenced by many factors beyond your control. Second, they don't help you so much when they turn up negative. There are many places on a flow chart where things can go wrong, and if your only measurements are at the bottom, you won't know where on the flow chart that your intervention failed. 
+
+A process measure is a measurement on how care is delivered at various stages in the health care process. Process measures involve resources like time or money spent. They can represent the percentage of time that a particular step was followed correctly or that a resource was available. They can measure the degree of consistency, such as a range or standard deviation.
+
+Process measures are typically in top or middle of a flow chart (or upstream). If you intervention failed to influece an outdome on your patients, the process measures can help you understand why. Did the intervention fail or was it not delivered properly?
+
+Balancing measures account for unintended consequences. Did an improvement in one area lead to an offsetting decline in another area? This would be like the famous saying, "jumping from the frying pan into the fire."
+
+</div>
 
 ### Drawing a fishbone diagram (1 of 3)
 
 ![First step in drawing a fisbone diagram](../images/draw-fishbone01.png)
 
 <div class="notes">
+
+There are two tools in QI that are very helpful during the planning process, the fishbone diagram and the Pareto chart.
 
 The fishbone diagram (also called the Ishikawa diagram, or the case and effect diagram) is a tool for identifying the root causes of quality problems. It was named after Kaoru Ishikawa, the man who pioneered the use of this chart in quality improvement in the 1960's. It is a graphical method for displaying possible causes of a quality problem.
 
@@ -129,25 +205,15 @@ If you want to use a Fishbone Diagram, first list the main problem on the right 
 
 <div class="notes">
 
-Off of the backbone, draw and label major bones: 4 to 7 major categories of causes. A commonly used list of major causes is
+Off of the backbone, draw and label major bones: 4 to 7 major categories of causes. A commonly used list of major causes is Management, Manpower, Machines, and Materials.
 
-* Management,
-* Manpower,
-* Machines, and
-* Materials.
-
-Another possible list is
-
-* Policies,
-* Procedures,
-* Plant, and
-* People.
+Another possible list is Policies, Procedures, Plant, and People.
 
 </div>
 
 ### Drawing a fishbone diagram (3 of 3)
 
-![First step in drawing a fisbone diagram](../images/draw-fishbone03.png)
+![Third step in drawing a fisbone diagram](../images/draw-fishbone03.png)
 
 <div class="notes">
 
@@ -440,7 +506,7 @@ axis(side=1, at=1:6, labels=paste0("O", 1:6))
 title("Bad news")
 ```
 
-### Phased design
+### Phased design (1 of 4)
 
 ```{r time-series-3, echo=FALSE, comment=""}
 cat("NR E: O1 O2 X1 O3 O4 O5 X2 O6 O7 O8 X3 O9 O10")
@@ -455,7 +521,7 @@ cat("NR E: O1 O2 X1 O3 O4 O5 X2 O6 O7 O8 X3 O9 O10")
 
 </div>
 
-### Phased design
+### Phased design (2 of 4)
 
 ```{r time-series-4, echo=FALSE, comment=""}
 x <- 1:10
@@ -481,6 +547,50 @@ title("Bad news")
 
 </div>
 
+### Phased design (3 of 4)
+
+```{r time-series-5, echo=FALSE, comment=""}
+cat("NR E1: O1 O2 X O3 O4 O5   O6 O7 O8   O9 O10\n")
+cat("NR E2: O1 O2   O3 O4 O5 X O6 O7 O8   O9 O10\n")
+cat("NR E3: O1 O2   O3 O4 O5   O6 O7 O8 X O9 O10\n")
+```
+
+* Wait for your turn.
+* Useful for very small sample sizes.
+
+<div class="notes">
+
+If you can control the timing of an intervention and you can apply the intervention at different times to different patients, then you have an extra bit of evidence to rule out temporal trends as a competing explanation. When each patient sees a shift at the specific time that he/she experiences the intervention, and is flat at the remaining times, then you have assurances that a temporal trend is not the cause. The flatness for patients 2 and 3 early rule out the possibility of a temporal trend as an explanation for the jump in patient 1 and the flatness for patients 1 and 2 late rule out the possibility of a temporal trend as an explanation for the jump in patient 3.
+
+This is a great research design if you have a very small sample size. It works well, for example, if you are implementing a change on three different floors of a hospital, for exam, and it is actually easier in many settings to stagger the interventions rather than run them all at the same time.
+
+</div>
+
+### Phased design (4 of 4)
+
+```{r time-series-6, echo=FALSE, comment=""}
+x <- 1:10
+y1 <- c(1.1, 1.3, 2.4, 2.2, 2.3, 2.1, 2.4, 2.2, 2.3, 2.2)
+y2 <- c(1.2, 1.1, 1.4, 1.1, 1.3, 2.2, 2.3, 2.4, 2.1, 2.4)
+y3 <- c(1.3, 1.2, 1.1, 1.3, 1.2, 1.2, 1.3, 1.2, 2.2, 2.3)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(3, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 2.5))
+text(2.5, 1, "X")
+segments(2.5, 1.1, 2.5, 2.5, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("First patient")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 2.5))
+text(5.5, 1, "X")
+segments(5.5, 1.1, 5.5, 2.5, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Second patient")
+plot(x, y3, axes=FALSE, type="b", ylim=c(0.7, 2.5))
+text(8.5, 1, "X")
+segments(8.5, 1.1, 8.5, 2.5, lty="dotted", col="gray")
+axis(side=1, at=1:10, labels=paste0("O", 1:10))
+title("Third patient")
+```
+
 ***
 `r read_text("hw05", fri[5], char_max=500)`
 
@@ -499,6 +609,3 @@ title("Bad news")
 
 </div>
 
-***
-
-### Additional slides
