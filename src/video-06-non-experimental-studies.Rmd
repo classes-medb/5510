@@ -31,6 +31,11 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 </div>
 
+### Secondary data analysis
+
+* CDC databases
+* Census databases
+
 ***
 ### Research Approaches 
 
@@ -41,6 +46,24 @@ This is what you should have read already. If you haven't done the reading yet, 
 Going back to the figure that we have used. Now we will talk about comparative, associational, and descriptive studies.
 
 Now you are talking about an attribute independent variable, one that you cannot manipulate or control. You can talk about causality easily for a randomized design but these three designs do not allow you to say anything about causality.
+
+</div>
+
+### Departures from Gliner et al
+
+* "Observational" instead of "non-experimental"
+* Subcategorize by sample selection
+  + Cohort
+  + Cross-sectional
+  + Case-control
+  + Historical control
+
+<div class="notes">
+
+I'm going to depart a bit from what your book says. The first departure is that I will use the term "observational" instead of "non-experimental." This is a bit dangerous, perhaps, because the term "observational" sometimes refers to research that involves watching what happens in public spaces. But in Medicine, at least, most people understand what I am talking about.
+
+A bigger departure is that I want to classify non-experimental or observational studies not be how they were analyzed (comparative, associational, and descriptive) but by how the sample was selected. There are four approaches: cohort designs, cross-sectional designs, case-control designs, and historial control designs.
+
 
 </div>
 

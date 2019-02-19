@@ -591,6 +591,59 @@ axis(side=1, at=1:10, labels=paste0("O", 1:10))
 title("Third patient")
 ```
 
+### Withdrawal design (1 of 2)
+
+```{r time-series-7, echo=FALSE, comment=""}
+cat("NR E: O1 X O2 -X O3")
+```
+
+* Measure
+* Add the intervention
+* Measure again
+* Withdraw the intervention
+* Measure one more time
+
+<div class="notes">
+
+Another useful design for some interventions is the withdrawal design. It only works for an intervention that you can do and undo. 
+
+You measure at baseline, add the intervention, then measure again. At this point you have the single group design with a pre and post measurement. But then you start another phase where you withdraw the intervention. At the third measurement, you hope that whatever change that you saw at O2 disappears.
+
+The graphs on this slide show a good pattern for a withdrwal design and a bad pattern.
+
+I read about a great Psychology experiment that used this design. It was a study of whether anonymity encourages bad behavior. Young adults went to a Halloween party as part of an experiment. I'm sure there was a consent form and it listed one of the beneifts of the study was a chance to play bobbing for apples. Anyway, the researchers observed the young adults at the start of the party for evidence of loud, rude, or disruptive behavior. These were teenagers, so I'm sure there was plently to observe. Then everyone at the party put on various masks that cloaked their identities. The bad behavior measures went up. But how did the researchers know that this was caused by the anonymity associated with the Halloween masks? They didn't. But they then entered a third phase of the study where everyone took off their masks and the party continued. The bad behavior measure dropped down to a level that was consistent with the first phase of the party.
+
+It's not a perfect design, but most temporal trends are consistent over time, they go up and up or they go down and down. Now there area few temporal trends that cycle up and down, but these are less common and easier to rule out using a bit of common sense.
+
+The withdrawal design can continue through several more phases. So at the part, you could ask everyone to put on their masks again, measure, take off the masks again, measure, and so forth. If you see a seesaw pattern up when the masks go on, and down when the masks go off, then you are happy.
+
+Note that trying to run a randomized study here is ludicrous for more reasons than I can mention.
+
+</div>
+
+### Phased design (4 of 4)
+
+```{r time-series-8, echo=FALSE, comment=""}
+x <- 1:3
+y1 <- c(1.1, 2.3, 1.3)
+y2 <- c(1.2, 2.1, 3.2)
+par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
+plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 3.5))
+text(1.5, 0.9, "X")
+segments(1.5, 1.1, 1.5, 3.5, lty="dotted", col="gray")
+text(2.5, 0.9, "-X")
+segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
+axis(side=1, at=x, labels=paste0("O", x))
+title("Good")
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 2.5))
+text(1.5, 0.9, "X")
+segments(1.5, 1.1, 1.5, 3.5, lty="dotted", col="gray")
+text(2.5, 0.9, "-X")
+segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
+axis(side=1, at=x, labels=paste0("O", x))
+title("Bad")
+```
+
 ***
 `r read_text("hw05", fri[5], char_max=500)`
 
