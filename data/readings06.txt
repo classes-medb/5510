@@ -2,16 +2,8 @@
 
 1. Chapters 7
 
-2. Canvas – Berkley-Patton et al., article
+Optional reading
 
-3. Canvas – Eton et al., article.
+1. Simon SD. Census Bureau (U.S.). to appear in The Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Available on the Canvas website (please do not share beyond this class).
 
-### Optional reading
-
-Wolfe et al. "Effects of HIV-related stigma among an early sample of patients receiving antiretroviral therapy in Botswana"
-
-Rowan et al. "Engagement-in-care during the first 5 years after HIV diagnosis: Data from a cohort of newly HIV-diagnosed individuals in a large US city"
-
-DiLorenzo et al. "Comparison of older and younger individuals with multiple sclerosis: A preliminary investigation"
-
-Haberer et al. "Challenges in using mobile phones for collection of antiretroviral therapy adherence data in a resource-limited setting"
+2. Simon SD. Census Bureau (U.S.). to appear in The Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Available on the Canvas website (please do not share beyond this class).

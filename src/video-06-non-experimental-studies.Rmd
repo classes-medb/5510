@@ -18,8 +18,6 @@ source("prelims.R", echo=FALSE)
 
 Here are the objectives for this week.
 
-There will be a separate recording on single subject designs for those who are curious about it.
-
 </div>
 
 ***
@@ -64,139 +62,8 @@ I'm going to depart a bit from what your book says. The first departure is that 
 
 A bigger departure is that I want to classify non-experimental or observational studies not be how they were analyzed (comparative, associational, and descriptive) but by how the sample was selected. There are four approaches: cohort designs, cross-sectional designs, case-control designs, and historial control designs.
 
-
 </div>
 
-***
-### Nonexperimental Designs 
-
-![](../images/image-06-02.png)
-
-<div class="notes">
-
-Figure 7.1 identifies the five types of designs (descriptive, associational, comparative, quasi-experimental, and randomized experimental).
-
-These three non-experimental approaches differ the levels of the independent variable. A large number of ordered levels (equivalent to a continuous independent variable) falls in the associational research type.
-
-DiLorenzo compared older patients to younger patients.
-
-Haberer article includes both quantitative and qualitative research. Interactive voice response (IVR) versus short message service (SMS) as a way of collecting adherence. It is an HIV study where adherence is very important. Mobile technology has a lot of penetration in places like Africa. Parents that could read were randomized, but parents who could not read were assigned to IVR.
-
-They did qualitative interviews with all participants. The first theme was poor understanding of the responses. A second theme was challenges in training. The participants did not feel able to speak up and say that they don't understand.
-
-</div>
-
-***
-### Research Approaches 
-
-+ Comparative research approach
-	+ Purpose?
-	+ How is this approach similar to randomized experimental and quasi-experimental?
-	+ C an this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-Look at the very end of the introduction to get at the purpose of the research. Review the participant.
-
-Random selection is a better representation of the population. (External validity?)
-
-In any prospective study, you are only getting information for those people who are willing to be part of the study.
-
-</div>
-
-***
-### Nonexperimental Designs 
-
-+ Quantitative – Comparative
-	+ Comparing groups – 2 or more
-	+ Main IV has only a few levels
-	+ Statistical analysis –
-		+ T ypically t-test or analysis of variance
-	+ Example – DiLorenzo et al., 2004 article
-+ Usually – research that is reported will contain elements of more than one design
-	+ Example – Haberer et al., 2010 article
-
-<div class="notes">
-
-Often your research has the elements of more than one design.
-
-</div>
-
-***
-### Research Approaches 
-
-+ Associational research approach
-	+ Purpose?
-	+ Characteristics of the variables measured?
-	+ Can this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-The compliance study is a good example of when you often end up with mixed methods to get more out of 
-
-The purpose is to find associations among variables. The variables collected are typically continuous. This type of approach does not tell you about cause and effect directly. The association might allow you to predict. Continuous really means many levels. The analyses are typically correlation based or multiple regression.
-
-An article by Rowan illustrates this well. Clinical record review and state HIV data. Variations in the engagement in care continuum. Impact of outmigration and death. When you don't have data is it because they are no longer engaged in care, or maybe they have moved on to a different provider. Has care improved over the last five years?
-
-What variables are associated with getting treatment to reduce viral loads. This paper also addresses how to handle people who you do not have complete follow-up on.
-
-Example of smoking cessation usually assumes that anyone who disappears is categorized as a treatment failure.
-
-</div>
-
-***
-### Nonexperimental Designs 
-
-+ Quantitative – Associational
-	+ IV is often continuous / has many levels of an ordered variable (typically 5 or more )
-	+ Looking at the association between the IV(s) and the DV
-	+ Statistical analysis –
-		+ Correlation-based
-		+ Multiple regression when there are multiple Ivs
-	+ Example – Rowan et al. 2014 article
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Research Approaches 
-
-+ Descriptive research approach
-	+ Purpose?
-	+ When usually used?
-	+ Characteristics of the variables measured?
-	+ Can this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-Usually used for an exploratory. It could be characterization of surveys or polls. It might be performance reports.
-
-</div>
-
-***
-### Nonexperimental Designs 
-
-+ Quantitative – Descriptive
-	+ Descriptive statistics
-		+ Averages
-		+ Percentages
-		+ Histogram
-		+ Frequency distribution
-	+ Some publication of strictly descriptive studies
-	+ More often – descriptive component of a study
-		+ Describe the sample
-	+ Example – Wolfe et al, 2006 study
-
-<div class="notes">
-
-The Wolfe study is a good example. This study is in Botswana. Effects of stigma and its effect on health related behaviors. Structured questions followed by open ended questions. They are reporting percentages.
-
-</div>
-
-***
 ### Nonexperimental Designs 
 
 + Qualitative – 5 main approaches
@@ -999,6 +866,136 @@ Review the list of secondary datasets prepared by DBHI.
 
 </div>
 
+***
+### Nonexperimental Designs 
+
+![](../images/image-06-02.png)
+
+<div class="notes">
+
+Figure 7.1 identifies the five types of designs (descriptive, associational, comparative, quasi-experimental, and randomized experimental).
+
+These three non-experimental approaches differ the levels of the independent variable. A large number of ordered levels (equivalent to a continuous independent variable) falls in the associational research type.
+
+DiLorenzo compared older patients to younger patients.
+
+Haberer article includes both quantitative and qualitative research. Interactive voice response (IVR) versus short message service (SMS) as a way of collecting adherence. It is an HIV study where adherence is very important. Mobile technology has a lot of penetration in places like Africa. Parents that could read were randomized, but parents who could not read were assigned to IVR.
+
+They did qualitative interviews with all participants. The first theme was poor understanding of the responses. A second theme was challenges in training. The participants did not feel able to speak up and say that they don't understand.
+
+</div>
+
+***
+### Research Approaches 
+
++ Comparative research approach
+	+ Purpose?
+	+ How is this approach similar to randomized experimental and quasi-experimental?
+	+ C an this approach tell you anything about cause and effect?
+
+<div class="notes">
+
+Look at the very end of the introduction to get at the purpose of the research. Review the participant.
+
+Random selection is a better representation of the population. (External validity?)
+
+In any prospective study, you are only getting information for those people who are willing to be part of the study.
+
+</div>
+
+***
+### Nonexperimental Designs 
+
++ Quantitative – Comparative
+	+ Comparing groups – 2 or more
+	+ Main IV has only a few levels
+	+ Statistical analysis –
+		+ T ypically t-test or analysis of variance
+	+ Example – DiLorenzo et al., 2004 article
++ Usually – research that is reported will contain elements of more than one design
+	+ Example – Haberer et al., 2010 article
+
+<div class="notes">
+
+Often your research has the elements of more than one design.
+
+</div>
+
+***
+### Research Approaches 
+
++ Associational research approach
+	+ Purpose?
+	+ Characteristics of the variables measured?
+	+ Can this approach tell you anything about cause and effect?
+
+<div class="notes">
+
+The compliance study is a good example of when you often end up with mixed methods to get more out of 
+
+The purpose is to find associations among variables. The variables collected are typically continuous. This type of approach does not tell you about cause and effect directly. The association might allow you to predict. Continuous really means many levels. The analyses are typically correlation based or multiple regression.
+
+An article by Rowan illustrates this well. Clinical record review and state HIV data. Variations in the engagement in care continuum. Impact of outmigration and death. When you don't have data is it because they are no longer engaged in care, or maybe they have moved on to a different provider. Has care improved over the last five years?
+
+What variables are associated with getting treatment to reduce viral loads. This paper also addresses how to handle people who you do not have complete follow-up on.
+
+Example of smoking cessation usually assumes that anyone who disappears is categorized as a treatment failure.
+
+</div>
+
+***
+### Nonexperimental Designs 
+
++ Quantitative – Associational
+	+ IV is often continuous / has many levels of an ordered variable (typically 5 or more )
+	+ Looking at the association between the IV(s) and the DV
+	+ Statistical analysis –
+		+ Correlation-based
+		+ Multiple regression when there are multiple Ivs
+	+ Example – Rowan et al. 2014 article
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Research Approaches 
+
++ Descriptive research approach
+	+ Purpose?
+	+ When usually used?
+	+ Characteristics of the variables measured?
+	+ Can this approach tell you anything about cause and effect?
+
+<div class="notes">
+
+Usually used for an exploratory. It could be characterization of surveys or polls. It might be performance reports.
+
+</div>
+
+***
+### Nonexperimental Designs 
+
++ Quantitative – Descriptive
+	+ Descriptive statistics
+		+ Averages
+		+ Percentages
+		+ Histogram
+		+ Frequency distribution
+	+ Some publication of strictly descriptive studies
+	+ More often – descriptive component of a study
+		+ Describe the sample
+	+ Example – Wolfe et al, 2006 study
+
+<div class="notes">
+
+The Wolfe study is a good example. This study is in Botswana. Effects of stigma and its effect on health related behaviors. Structured questions followed by open ended questions. They are reporting percentages.
+
+</div>
+
+***
 ***
 ### Assignment #4 
 
