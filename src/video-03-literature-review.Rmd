@@ -17,6 +17,8 @@ char_limit <- 600
 
 <div class="notes">
 
+This is the video for the third week of class. 
+
 This is what we will cover this week.
 
 </div>
