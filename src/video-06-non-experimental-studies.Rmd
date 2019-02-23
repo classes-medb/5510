@@ -43,14 +43,39 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 Going back to the figure that we have used. Now we will talk about comparative, associational, and descriptive studies.
 
-Now you are talking about an attribute independent variable, one that you cannot manipulate or control. You can talk about causality easily for a randomized design but these three designs do not allow you to say anything about causality.
+For all of these studies, according to your book, you are "stuck" with an attribute independent variable, one that you cannot manipulate or control. It's one distinction, but you need to be careful because sometimes you have an active independent variable, one that you can control through randomization, but you choose not to randomize. We talked about these under the umbrella of quasi-experimental designs last week, but I want to talk more about them this week as well.
+</div>
+
+### Why not randomize everything?
+* No randomization
+  + Impossible
+  + Impractical
+  + Unethical
+  + Strong patient preference
+  + Retrospective studies
+  
+<div class="notes">
+
+If you have an attribute independent variable, as your book points out, you cannot randomize. When you compare demographic groups, those who belong to one demographic group are stuck in that group. You can change a person's race or gender at all, and changing a person's age group requires a time machine. You could, possibly, change a person's socio-economic status, as the film "Trading Places" illustrates, but this requires far too much effort to be done on a large scale.
+
+Last week, we talked about setting where randomization was impractical. In a busy setting like an emergency room, you usually can't impose the complexities associated with randomization.
+
+You can't randomize when you are studying a harmful exposure. It is unethical to deliberately expose someone to something that might hurt them. There are a few limited exceptions, such as a harm that is minor and easily reversible.
+
+You can't randomize when patients and/or the treating physicians have a strong preference for (or against) a particular treatment. I talked last time about laproscopic surgery and how it was hard to convince patients to be randomly assigned to the alternative: open surgery, which leaves a large scar.
+
+Finally, you can't randomize a retrospective study, since the data has already been collected.
+
+Your book uses three categories for research: could randomize and did randomize; could randomize, but didn't (and sneers at this choice); and couldn't randomize (because you were "stuck" with an attribute random variable). I think it is better to think about the non-randomized studies using the five criteria listed above.
+
+Of course, a non-randomized study could decide against randomization for more than one of the above reasons. Suppose you are studying the effect of second-hand smoke exposure. You couldn't randomly marry off half of your participants to smokers and half to non-smokers. It would be impractical, because you have to wait for several decades for the cancer to develop. It is unethical because you are deliberately exposing someone to something that is potentially harmful. You also have to deal with strong patient preference. Most of us are quite fussy about who we agree to marry.
 
 </div>
 
 ### Departures from Gliner et al
 
 * "Observational" instead of "non-experimental"
-* Subcategorize by sample selection
+* Categorize by sample selection
   + Cohort
   + Cross-sectional
   + Case-control
@@ -63,6 +88,63 @@ I'm going to depart a bit from what your book says. The first departure is that 
 A bigger departure is that I want to classify non-experimental or observational studies not be how they were analyzed (comparative, associational, and descriptive) but by how the sample was selected. There are four approaches: cohort designs, cross-sectional designs, case-control designs, and historial control designs.
 
 </div>
+
+### Cohort designs
+
+* Cohort defined by exposure
+* Compared to unexposed controls
+* Prospective or retrospective
+* Advantages
+  + Easy to explain
+  + Well defined comparison group
+  + Adaptable to longitudinal analysis
+* Disadvantages
+  + Difficult for rare diseases, long latency
+  + Selection bias, confounding
+  
+<div class="notes">
+
+The first type of observational design is called a cohort design. You select a group of people who have a specific exposure. You compare them to another group that does not have the exposure.
+
+Cohort designs can be defined prospectively or retrospectively. 
+
+It is usually pretty easy to present the data in a cohort design.
+
+</div>
+
+### Case control designs
+
+* Cases defined by outcome
+* Comparison to controls without the outcome
+* Always retrospective
+* Advantages
+  + Efficient for rare diseases
+* Disadvantages
+  + Counter-intuitive appearance
+  + Difficulty in identifying good controls
+  + Selection bias, confounding
+  
+<div class="notes">
+
+
+
+</div>
+
+### Cross-sectional design
+
+### Historical control design
+
+### Confusion between designs
+
+<div class="notes">
+
+The restrospective cohort design is sometimes easy to confuse with cross-sectional design and the case-control design, but there should be an obvious step where subjects are selected. Did you select on the exposure? That makes it a cohort design. Did you select on the outcome? That makes it a case-control design. Did you select a single group and then classify patients as to their exposure and their outcome? Then you have a cross-sectional design.
+
+You could argue that the distinctions here are not important, and you'd be correct. The value in assigning a label is that there is a general belief with some justification that a cohort design is more rigorous than the other two designs. Also, certain statistics, like the relative risk, are inappropriate for a case-control design, because the prevalence of the disease is artificially controlled (typically to a 50-50 ratio of cases to controls).
+
+</div>
+
+### Causation and observational designs
 
 ### Nonexperimental Designs 
 
