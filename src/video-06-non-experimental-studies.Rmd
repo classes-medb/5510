@@ -126,7 +126,7 @@ It is usually pretty easy to present the data in a cohort design.
   
 <div class="notes">
 
-
+In a case control design, the cases are defined by the outcome measure. Did someone have a certain disease or experience a certain bad event?
 
 </div>
 
