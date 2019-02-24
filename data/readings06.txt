@@ -30,3 +30,7 @@ Optional reading
 
 13. Fillmore KM, Stockwell T, Chikritzhs T, Bostrom A, Kerr W. Moderate Alcohol Use and Reduced Mortality Risk: Systematic Error in Prospective Studies and New Hypotheses. Annals of Epidemiology 2007; 17(5): S16-S23,
 ISSN 1047-2797. Available in [html format](https://doi.org/10.1016/j.annepidem.2007.01.005) or [PDF format](https://www.sciencedirect.com/science/article/pii/S1047279707000075/pdfft).
+
+14. Johns Hopkins University. Jerome Cornfield. Available in [html format](https://www.jhsph.edu/departments/biostatistics/about-us/history/jerome-cornfield.html).
+
+15. Breslow NE. Statistics in Epidemiology: The Case-Control Study. Journal of the American Statistical Association 1996; 91(433): 14-28. Available on the Canvas website.

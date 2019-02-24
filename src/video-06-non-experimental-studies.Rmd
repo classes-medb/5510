@@ -89,62 +89,314 @@ A bigger departure is that I want to classify non-experimental or observational 
 
 </div>
 
-### Cohort designs
+### Cohort designs (1 of 2)
 
 * Cohort defined by exposure
 * Compared to unexposed controls
 * Prospective or retrospective
-* Advantages
-  + Easy to explain
-  + Well defined comparison group
-  + Adaptable to longitudinal analysis
-* Disadvantages
-  + Difficult for rare diseases, long latency
-  + Selection bias, confounding
-  
+
 <div class="notes">
 
 The first type of observational design is called a cohort design. You select a group of people who have a specific exposure. You compare them to another group that does not have the exposure.
 
-Cohort designs can be defined prospectively or retrospectively. 
-
-It is usually pretty easy to present the data in a cohort design.
+Cohort designs can be defined prospectively or retrospectively. But in a retrospective study, be sure that the outcome occurs after the exposure and not before the exposure.
 
 </div>
 
-### Case control designs
+### Cohort designs (2 of 2)
+
+* Disadvantages
+  + Difficult for rare diseases, long latency
+  + Selection bias, confounding
+* Advantages
+  + Can examine multiple outcomes
+  + Easy to explain
+  + Well defined comparison group
+  + Adaptable to longitudinal analysis
+  
+<div class="notes">
+
+Let's talk about the disadvantages first.
+
+If you are examining a rare outcome, you need a pretty large sample size. The rule of thumb is that you would like to see 25 to 50 events in the exposed and unexposed groups. If an outcome occurs rarely, like 0.1% of the time, then you'd need tens of thousands of patients to accumulate a sufficient number of events.
+
+If you are looking at an outcome that has a long latency period (such as cancer), you might need to follow your patients for several decades. Who has that sort of luxury? A retrospective cohort might work here, but you'd better have a database that includes information across a very broad time span.
+
+In a study where the patients and/or the doctors choose who gets what, you have an issue with selection bias. Also, you have no ability to insure covariate balance between the exposed and unexposed groups, so confounding is a serious issue.
+
+The cohort design can examine a variety of outcomes: mild, moderate, and severe.
+
+It is usually pretty easy to present the data in a cohort design. You have two groups and you follow them over time and then see what happens to them.
+
+It is usually (but not always) easy to define and collect data on a control group. The cohort design makes it easy to collect data at multiple time points (e.g., a longitudinal design) to evaluate short and long term effects of an exposure.
+
+</div>
+
+### Case control designs (1 of 3)
 
 * Cases defined by outcome
 * Comparison to controls without the outcome
 * Always retrospective
-* Advantages
-  + Efficient for rare diseases
-* Disadvantages
-  + Counter-intuitive appearance
-  + Difficulty in identifying good controls
-  + Selection bias, confounding
-  
+
 <div class="notes">
 
-In a case control design, the cases are defined by the outcome measure. Did someone have a certain disease or experience a certain bad event?
+In a case control design, the cases are defined by the outcome measure. Did someone have a certain disease or experience a certain bad event? This might represent a diagnosis of cancer, or a heart attack, or suicide attempt.
+
+Look back at the history of that patient and see there is a common history that might identify risk factors that explain the event. You need a comparison group, though, to see if what is common in your cases is or is not common in your controls. A psychologist who was noting the problem with many research studies involving sexual abuse noted with a bit of sarcasm that 95% of all sexual abusers have milk in their refrigerators.
+
+In a case control design, the comparison group is people who did not experience the outcome. You compare the cancer patients to patients who did not have cancer. You compare heart attack patients to patients who did not have heart attacks. You compare suicide attempts to people who did not try to kill themselves.
 
 </div>
 
-### Cross-sectional design
+### Case control designs (2 of 3)
 
-### Historical control design
+* Disadvantages
+  + Counter-intuitive appearance
+  + Difficulty in identifying good controls
+  + Confounding
+* Advantages
+  + Can examine multiple risk factors
+  + Efficient for rare diseases
+  + Great starting point for mysterious outcomes
+  
+<div class="notes">
 
-### Confusion between designs
+The biggest complaint about the case-control design it just doesn't feel right. The case-control design is, to most people (including me), very counter-intuitive nature. You're selecting people on an outcome and then seeing what influences that outcome. There's no sampling going on here, so it almost seems like cheating. It's not cheating, and the theoretical foundation for the case-control design was established in the 1950s.
+
+The other big, big problem for the case control study is finding good controls. You want to find someone just like your lung cancer cases in everything except the lung cancer. Or someone just like a heart attack patient minus the heart attack. Or someone just like the suicide attempt without the attempt.
+
+There is no selection bias in a case-control study. Nobody elects to be a cancer patient, for example. But confounding is a huge issue. Suppose your cases for a cancer patient are people who show up at the same hospital with a broken arm. People with a fracture are almost certainly a different age, have a different set of activities, and so forth. Any of these might be an alternative explanation for why the risk factor is more commonly seen in the cases than in the controls.
+
+A lot of people sneer at the case-control design as the weakest type of observational study, and while it does have significant problems, the humble case-control design has significant advantages over many other types of research.
+
+The case-control design is great if you want to examine a broad range of risk factors. You're at a picnic and half of the people come down with food poisoning caused by listeria. Was it the potato salad? The baked beans? The apple streudel? At a big picnic, there might be hundreds of foods that could have caused the listeria outbreak.
+
+That okay, though. Just find out what everyone ate and if there is a food that almost everyone with listeria had and that almost no one in the healthy control group had, there's your culprit.
+
+The case control design is very efficient for studying rare diseases. You put out the word in the community ("Calling all cases. Calling all cases.") and get everyone in for an interview. 
+
+It's also a great starting point. There is something weird happening out there and we don't know what is causing it. The very first studies of AIDS, back when we didn't know a lot about the disease, were case control studies.
+
+</div>
+
+### Case control designs (3 of 3)
+
+* Selecting controls
+  + Hospital/clinic based
+  + Community
+  + Relative/friends
+  + Within the same cohort
+
+<div class="notes">
+
+Controls commonly come from several places. People who visit the same hospital or clinic, but for a reason other than the cancer, heart attack, or suicide attempt. People who live in the same community as the cancer, heart attack, or suicide attempt. Or friends and relatives of the cancer, heart attack, or suicide attempt. Sometimes you have a cohort of patients who you follow over time, and you notice that some of the cohort experience an outcome and you pull a carefully matched set of control patients out of the same cohort. This is a nested case control study.
+
+Because of the difficulty in finding a good set of controls, researchers will almost always use matching to insure that the demographic profiles line up nicely between the cases and the controls.
+
+</div>
+
+### Cross-sectional designs (1 of 2)
+
+* Single group
+  + No selection by exposure
+  + No selection by outcome
+* Can be prospective or retrospective
+
+<div class="notes">
+
+In a cross-sectional design, you're sample is a single group of patients. You don't go hunting for controls among unexposed patients. You don't go hunting for controls among the non-cases. It's the ultimate in one stop shopping.
+
+You might have trouble sometimes determining the difference between a cross-sectional study and a cohort study. Did you select a single group, which naturally divided itself into an exposed cohort and un-exposed controls?  Or did you select an exposed cohort and then separately find an unexposed set of controls?
+
+Cross-sectional designs can be prospective or retrospective.
+
+</div>
+
+### Cross-sectional designs (2 of 2)
+
+* Disadvantages
+  + Confusion about temporal ordering
+  + Selection bias, confounding
+* Advantages
+  + Examine multiple risk factors, multiple outcomes
+  + Realistic setting
+
+<div class="notes">
+
+It was a physicist, John Archibald Cox, who notes that "time is nature's way of keeping everything from happening all at once." True enough, but in a cross sectional design, you collect data all at once about exposures and outcomes and sometimes you can get confused about what happened first.
+
+There's a bad joke about a statistician who examined fire department records and concluded that the more fire trucks you send to the scene of a fire, the more damage that they cause.
+
+In general, an exposure has to occur before the outcome in order to conclude that it caused the outcome. And this might be easy to miss in a cross-sectional design.
+
+Like the cohort design, the cross-sectional design has problems with selection bias and confounding.
+
+There are several advantages to a cross-sectional design.
+
+Because you are not selecting a single exposure or a single outcome, you have a lot of flexibility to explore multiple exposures against multiple outcomes.
+
+The cross-sectional design is also the most natural and intuitive setting for a research study. You can envision a sampling process that produces this study and in many settings, this sampling produces a realistic picture of the health care process. More realistic than the case control design certainly, and more realistic, possibly, than the cohort designs where the two groups have an artificial distinction between them. You could even argue that a cross-sectional design is more natural than a randomized control trial, because volunteer bias and the extra attention that are part and parcel of a randomized trial make it, at times, a poor representation of how health care is delivered.
+
+</div>
+
+### Historical control designs (1 of 2)
+
+* Controls separated by time
+  + Similar to the single group, pre-post measurement
+* Sometimes separated by space
+  + Similar to the two group, post measurement only
+* Often separated by both space and time
+
+<div class="notes">
+
+In a historical control design, control patients are separated by time. Current patients are compared with earlier patients. This may remind you of the quasi-experimental design where you have a single group and get measurements both at baseline and after the intervention.
+
+Sometimes a historical control group represents a setting where the control patients are separated by distance. All of the exposed patients are at your clinic and the controls come from a different clinic.
+
+More often, though, the historical control group is separated from the exposed group by space AND by time. You compare today's patients are your clinic with yesterday's patients at a different clinic.
+
+</div>
+
+### Historical control designs (2 of 2)
+
+* Disadvantages
+  + Confounding 
+* Advantages
+  + Cheap and easy
+* Settings with 100% morbidity or mortality
+
+<div class="notes">
+
+Confounding is an issue for any observational study, but with the other three types of studies, you can try to control for this with careful selection of the control group. You can also use matching or statistical adjustments and these often can help a lot.
+
+The historical control study, in most people's minds, is beyond repair. The separation in time and space pretty much guarantees confounding and there really are no remedies that you can apply during the design or during the analysis that will convince anyone that there isn't an alternate explanation that is an equally or more convincing explanation for the results you have found.
+
+The big advantage of the historical control design is time and money. Your historical control group is, by definition, already sitting there waiting for you to use it. In most cases, the historical control group comes cheap or even for free.
+
+Everyone sneers at a historical control group and for once I might be tempted to sneer at it also. There is one exception, though. If an exposure is associated with near 100% morbidity or mortality, then a historical control group works just fine. You would be hard pressed to convince anyone to forgo a treatment in this setting, so why even try. The point, though, is that any improvement will be patently obvious in a disease that, left to its own, kills almost everyone that it touches.
+
+</div>
+
+### Confusion between designs (1 of 6)
+
+* Retrospective cohort vs case-control design
+* Prospectitve cohort vs cross-sectional design
+* Historical control and the quasi-experimental design
 
 <div class="notes">
 
 The restrospective cohort design is sometimes easy to confuse with cross-sectional design and the case-control design, but there should be an obvious step where subjects are selected. Did you select on the exposure? That makes it a cohort design. Did you select on the outcome? That makes it a case-control design. Did you select a single group and then classify patients as to their exposure and their outcome? Then you have a cross-sectional design.
 
-You could argue that the distinctions here are not important, and you'd be correct. The value in assigning a label is that there is a general belief with some justification that a cohort design is more rigorous than the other two designs. Also, certain statistics, like the relative risk, are inappropriate for a case-control design, because the prevalence of the disease is artificially controlled (typically to a 50-50 ratio of cases to controls).
+You could argue that the distinctions here are not important, and you'd be correct. The value in assigning a label is that there is a general belief with some justification that a cohort design is more rigorous than the other designs. Also, certain statistics, like the relative risk, are inappropriate for a case-control design, because the prevalence of the disease is artificially controlled (typically to a 50-50 ratio of cases to controls).
+
+There's also a tendency to confuse the cross-sectional design with the cohort design. Time is important here. Is everything collected all at once and then you sort out who is exposed and who is unexposed? That makes it a cross-sectional design. If you select and exposed group and then separately go out and select an unexposed control before you make any measurements on your data, then you have a cohort design.
+
+The historical control design is similar to some of the quasi-experimental designs discussed last week. The difference is fairly subtle. In a quasi-experimental design, you have an active independent variable and you decide based on logistical constraints that you can't randomized. The historical control design uses an attribute independent variable. Another possible distinction is that a quasi-experimental design studies an intervention and a historical control design studies an exposure. An intervention is something that you hope, at least before you have run your study, that might make things better. Perhaps it makes things worse, but you didn't study it because you thought it might make things worse. An exposure, on the other hand, is something that you worry about. Maybe it is harmless, but maybe not.
+
+These are all subtle distinctions, and the people who publish in the medical journals often get things confused themselves. So don't worry too much about this now. The distinctions are important, from the perspective of the hierarchy of evidence. They are also imporant, at times, because certain research designs (most notably the case-control design) limit some of the statistical summaries that you can use.
 
 </div>
 
+### Confusion between designs (2 of 6)
+
+![Abstract of research paper](../images/raffa01.png)
+
+<div class="notes">
+
+
+
+</div>
+
+### Confusion between designs (3 of 6)
+
+![Abstract of research paper](../images/raffa02.png)
+
+<div class="notes">
+
+
+
+</div>
+
+### Confusion between designs (4 of 6)
+
+![Abstract of research paper](../images/raffa03.png)
+
+<div class="notes">
+
+
+
+</div>
+
+### Confusion between designs (5 of 6)
+
+![Abstract of research paper](../images/raffa04.png)
+
+<div class="notes">
+
+
+
+</div>
+
+### Confusion between designs (6 of 6)
+
+![Abstract of research paper](../images/raffa05.png)
+
+<div class="notes">
+
+
+
+</div>
+
+
+
 ### Causation and observational designs
+
+* Observational designs can establish a causal relationship
+  + Just requires more work
+  + Control for confounding
+  + Bring in external evidence
+* Hill's nine criteria (strength, consistency, specificity, temporality, biological gradient, plausibility, experiment, analogy)
+
+<div class="notes">
+
+Your book states very strongly that only randomized trials can establish a cause and effect relationship. Quasi-experiments can sometimes suggest or hint at a cause and effect relationship. And non-experimental studies are pretty much incapable of anything.
+
+This persective is held by many in the research community, but it is wrong, wrong, wrong. 
+
+Observational designs can establish a causal relationship. Let me repeat this, because it is important. Observational designs can establish a causal relationship.
+
+You just have to work a bit harder at it. Confounding, for example, is a serious problem for all observational studies, but there are tools like matching that can control for confounding during the design phase, or propensity score analysis, that can control for confounding during the analysis phase. You don't, necessarily have to resort to these approaches in a randomized trial (though they can't hurt). The point is that pretty much any reasonable randomized trial can establish a causal relationship. But in observational studies, only the very best studies can establish a causal relationship.
+
+The other thing about observational studies is that there is strength in numbers. It is usually not just one study that establishes a cause and effect relationship. It is a series of studies. So your current observational study has to rely on information external to that study because by itself, it may not be strong enough.
+
+I want to review Sir Austin Bradford Hill's criteria for establishing a causal relationship. He wrote a landmark paper in 1965 in the midst of the crisis in the research community about the link between smoking and lung cancer (more on that in a bit). He looked at the evidence that had accumulated and elucidated nine factors that you can use to help establish a causal relationship. None of these by themselves is sufficient, but a reasonable combination of them makes your argument quite persuasive.
+
+</div>
+
+### Hill's criteria (1 of 3)
+
+* Strength
+  + Large effects can only be overturned by large confounders.
+  + Weak effects can still be real
+* Consistency
+  + Replication across DIFFERENT study types
+* Specificity
+  + If it seems to cure everything, it cures nothing
+
+<div class="notes">
+
+Hill identified the strength of the association as being the most critical factor. The reason for this is that a strong effect could only be overturned by a strong confounder. A weak confounder would only attenuate things a bit. If you want to hypothesize that a third factor among smokers (poor diet, dangerous work conditions, or lack of exercise) could cause the ten to twenty fold increase in the risk of lung cancer, that third factor would have to increase the risk of lung cancer by more ten or twenty fold.
+
+Keep in mind, though, that weak effects can still be real. There was some criticism of a government report that said that the number of deaths due to smoking was around 450 thousand people per year. The critics dissected this number and said, we'll allow you the deaths due to cancer, but not for other factors like stroke and heart attacks, because these only showed a two fold or smaller increase in risk. It turns out that these other ways that smoking can kill you are very real, but because these causes of death (unlike lung cancer) are fairly common in the general population, you can't just get a large increase in risk. If 30% of the public dies from heart attacks, a ten fold increase is just impossible.
+
+When the association is small, you don't totally disregard it. You just have to rely on some of the other criteria.
+
+</div>
+
+### Hill's criteria (2 of 3)
+
+* Temporality
+  + 
 
 ### Nonexperimental Designs 
 
@@ -1106,7 +1358,3 @@ I don't expect this to be your final literature review but it will help form the
 
 
 </div>
-
-***
-
-### Additional slides
