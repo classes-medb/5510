@@ -29,25 +29,438 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 </div>
 
-### Secondary data analysis
+### What is secondary data analysis?
 
-* CDC databases
-* Census databases
+* Primary: data that you both collect and analyze.
+* Secondary: you analyze someone else's data
+  + "Secondary analysis of existing data" (Cheng 2014)
+* Private versus government sources
+* Ancillary studies
 
-***
+<div class="notes">
+
+There's a nice paper on the recommended reading list that discusses secondary data analysis. Primary data is data that you (meaning you and your research team) both collect and analyze. Secondary dta is data that someone else collected and you only provide an analysis.
+
+There's an excellent reference in the recommended readings section and they emphasize that you should use the full phrase "secondary analysis of existing data" to avoid confusion.
+
+Secondary data can come from private sources or from government sources. I'll talk in a bit about two excellent government sources of data: the U.S. Census Bureau and the Centers for Disease Control and Prevention.
+
+When you work with an existing research study and ask them to add a few items to collect for your benefit, you are working on an ancillary study. This is a special treat and requires close work with the team on the existing research study. In most secondary data analyses, you con't have this luxury and have to take the data as is.
+
+An ancillary study requires IRB approval. You need to discuss with the coordinators of the study that you are piggy baking on about who gets to be an author on your study, and what the order of authors should be. Do this before the paper is written, or you will find yourself in the middle of an ugly argument.
+
+</div>
+
+### What can you analyze for an already analyzed data set?
+
+* Secondary data analysis is like eating left-over food.
+* "Think different"
+	+ Variables that are analyzed
+	+ Relationships that are explored
+	+ Different subsets of cases
+	+ Different analysis techniques
+
+<div class="notes">
+
+If the data set has already been analyzed, is there really anything else you can do? Well, yes, but you have to live with the fact that the researchers have already selected and analyzed the most interesting parts of the data. So you are like the last person in line at a pot-luck buffet. The Swedish meatballs and the apple cobbler are already gone and you're left with the kale salad and the creamed spinach.
+
+Don't fret, though. Many researchers collect more data than what they strictly need for their own purposes. 
+
+You do need, as the Apple slogan says to "Think different."
+
+You might look at different outcomes or different exposure variables that address the same general hypotheses. You could develop hypotheses involving new and untested relationships. You might be interested in a particular demographic subgroup. Or finally, you might test the same things that original researchers tested using more or less the same variables, but you might apply a new and different analysis approach.
+
+</div>
+
+### Combining data sets 
+
+* Third "V" in volume, velocity, and variety
+* Not the same as systematic overview, think "mash-up"
+* Examples
+  + Black box warnings and prescription use
+  + Staffing levels and patient complaints
+  + Pediatric asthma visits and housing survey
+
+<div class="notes">
+
+The combination of disparate data sets is one of the hallmarks of big data (the "variety" V of the three V's of big data). This is not the same as a systematic overvew, which combines several stuides of the same hypothesis. Think of the term "mash-up" which is a combination of seemingly disparite elements to create a new, but coherent product.
+
+Here's a hypothetical example. The FDA provides lists of drugs that get "black box" warnings. This is a fairly serious thing, and you might be interested in seeing whether the prescription rates (as measured through the electronic health record) changed after the black box warning appeared.
+
+Another hypothetical example is looking at staffing levels and the use of unplanned leave, which comes from personnel records, and the number and type of patient complaints, which are tracked in a complaints database.
+
+I've worked with researchers who are looking at pediatric asthma visits at a local hopsital and linking the addresses to a housing survey conducted by the local government. The concern is that substandard housing could be associated with a greater need for asthma care. 
+
+</div>
+
+### Disadvantages of secondary analysis 
+
+* Missing data
+  + Variables not collected
+  + Specific details not collected
+* Wrong data
+  + Wrong time
+  + Wrong measures
+* Stale data
+* Unable to fix obvious errors
+
+<div class="notes">
+
+One of the big ones is the lack of control over the data collection process. You can't change how the data was collected without access to a time machine.
+
+You may want infroation on certain variables, but the primary researchers chose not to collect this information. Or they did collect the information, but not at a level of detail that you want.
+
+Maybe they collected the data, but collected it at the wrong time, or used a measurement approach that you dislike.
+
+Because secondary analysis is retrospective, the data may lack "currency". It may describe an health care setting that is so different from what is done today that it represents an inappropriate extrapolation.
+
+In a prospective study, if you get an unusual result, you can ask your research team to double check things, and maybe even go back to the patient and get a fresh set of numbers. You need to do this carefully, but it is a nice option that is totally unavailable to you in a secondary data analysis.
+
+</div>
+
+### Advantages of secondary analysis
+
+* Time
+* Money
+* Support
+
+<div class="notes">
+
+The advantages of seconday analysis are almost all "comfort" factors.
+
+Secondary data analysis takes less time because the data is already sitting there starting at you. You do, typically, have to spend more time in data management because the data collection was not optimized for your particular needs. Still, the time savings are usually quite substantial.
+
+For the many secondary data sets, there is no cost, whatsoever for acquisition. A few data sets require a fee, but this is usually quite reasonable.
+
+Finally, you will usually find good support for your work. Most people who make their data available for secondary data analyses want you to succeed. Your success makes them look better. This is especially true for government resources.
+
+</div>
+
+### Two types of secondary data sets
+
+* Individual
+  + More analysis options
+  + Privacy concerns
+* Aggregate
+  + Mixture of apples and oranges
+  + Problems with the ecologic fallacy
+
+<div class="notes">
+
+Some secondary data sets that have individual level records: there is separate records an indvidual unit (usually a person, but it could be an event like an emergency department visit). This is preferable in most settings, but sometimes important information has to be redacted because of privacy concerns. Other pieces of information have random noise added to them to preserve confidentiality (e.g., data shifting).
+
+Aggregate data avoids many of the privacy issues. Aggregate data is also easier to store and to present. One big problem is that when you aggregate across a category, you end up mixing apples and oranges together and this often destroys signals that might be apparent when you look at individual values. When you mix a bunch of indvidual colors together, the results is always a blah shade of gray.
+
+Even if you do find a signal at the aggregate level, you have to be careful. What you see may be an artefact of the ecologic fallacy. The ecologic fallacy is the belief that an association discovered at an aggregate level will also hold at an individual level.
+
+An example of the ecologic fallacy: Sales of cigarettes are greater in states that have higher suicide rates. You don't know whether an individual who smokes is more likely to commit suicide.
+
+</div>
+
+### Getting started with secondary data analysis
+
+* Start with an existing database
+* Get familiar with the data
+  + What variables are there?
+  + WHat variables are not there?
+  + How are the variables coded?
+  + Identify potential pairs for associational studies
+* Make sure you are answering an interesting question
+
+<div class="notes">
+
+You can attack a secondary data analysis from one of two ends. In a research driven study, you pose a question and then search for secondary data sources that might answer your question. In a data driven study, you decide on a particular secondary data source and then decide what interesting questions this data set might help you answer.
+
+For the latter, read the documentation obsessively. Learn what variables you have and don't have. Make sure yuo are happy with the detail of the category levels for any categorical variable. Identify pairs of variables that you might want to explore the associations.
+
+If you start with the database, you may end up answering a question that is easy to answer with that database, but it is to a question that no one really cares about. Get a second opinion about the interest and relevance of what you are studying.
+
+There's a joke about someone who is searching along a street for a lost set of keys and a passerby volunteers to help them look. The keep looking for a while and the passerby asks where do you think you dropped your keys. The person responds, over there in that alley. So the passerby asks, so why are you looking for it out here? The person replies, because the light is so much better out here.
+
+Moral: You have to be practical about what you can accomplish, but the easy to run study is not necessarily the study you should run.
+
+</div>
+
+### Alternative strategy for secondary analysis 
+
+* Start with a research hypothesis
+  + List the inclusion/exclusion criteria
+  + List the relevant variables
+* Search databases to see if they are a good fit.
+  + Do they have the right patients?
+  + Where is your control group?
+  + Do they have the right variables?
+	+ Find out if there are special qualifications for working with the database
+
+<div class="notes">
+
+You may instead want to start with your hypothesis. This seems a lot better. Starting with the data set is like putting the cart before the horse. But it is a lot more work and there is no guarantee that you will find the right data.
+
+With your hypothesis, carefully list the inclusion and exclusion criteria. List the important variables: your outcome variable, your independent variables, and any covariates that you need to adjust for.
+
+Then start looking at some candidate databases. Do they have the right patients. Especially make sure that the database provides you with a good control group. Maybe the data set only has sick people, and you want a healthy control group. There's nothing worse than collecting a bunch of data and then finding out that you did not have a control group for comparison.
+
+</div>
+
+### Get help from the literature
+
+* How has database been used previously?
+* What has already been answered?
+* What was their analysis plan?
+* Understand the limitations.
+
+<div class="notes">
+
+Read the literature on papers that have used this data set. This will help you identify if your work has already been done. Probably not, but it is also important because you will get a broader idea of what can be done. You'll also benefit from seeing what statistical models these researchers have chosen. Also look at the limitations mentioned in the discussion section. These limitations will probably apply to your work as well.
+
+</div>
+
+
+### "The Nation's Health Protection Agency"
+
+![](../images/06/cdc.png "Image of CDC website")
+
+<div class="notes">
+
+These are the slides for a talk I gave last year to the graduate research seminar about a pair of articles that I am writing for the Encyclopedia of Big Data. THe two articles cover the CDC (Centers for Disease Control and Prevention) and the U.S Bureau of the Census..
+
+CDC responds to new and emerging health threats and conducts research to track chronic and acute diseases. This talk will focus on CDC efforts in surveillance using nationwide cross sectional surveys to monitor the health of diverse populations.
+
+</div>
+
+### Nationwide cross sectional surveys
+
+![](../images/06/frieden07.png "Image of Frieden 2007 article")
+
+<div class="notes">
+
+This paper by a former director of CDC is an excellent place to start. This talk will focus on CDC efforts in surveillance using nationwide cross sectional surveys to monitor the health of diverse populations (Frieden 2017).
+
+</div>
+
+### National Health Interview Survey
+
+![](../images/06/nhis.png "Image of NHIS web site main page")
+
+<div class="notes">
+
+The National Health Interview Survey (NHIS) conducts in person interviews about the health status and health care access for 35 thousand households per year, with information collected about the household as a whole and for one randomly selected adult and one randomly selected child (if one is available) in that household (Parsons 2014). NHIS has been used to assess health insurance coverage (Martinez 2016), the effect of physical activity on health (Carlson 2016), and the utilization of cancer screening (White 2017).
+
+</div>
+
+### National Health and Nutrition Examination Survey
+
+![](../images/06/nhanes.png "Image of NHANES web site main page") 
+
+<div class="notes">
+
+The National Health and Nutrition Examination Survey (NHANES) conducts in person interviews about the diet and health of roughly five thousand participants per year combined with a physical exam for each participant (Johnson 2014). Sera, plasma, and urine are collected during the physical exam. Genetic information is extracted from the sera specimens, though consent rates among various ethnic groups is uneven (Gabriel 2014). NHANES has been used to identify dietary trends in patients with diabetes (Casagrande 2017), the relationship between inadequate hydration and obesity (Chang 2016), and the association of Vitamin D levels and telomere length (Beilfuss 2017).
+
+</div>
+
+### Behavioral Risk Factor Surveillance System
+
+![](../images/06/brfss.png "Image of BRFSS web site main page") 
+
+<div class="notes">
+
+The Behavioral Risk Factor Surveillance System (BRFSS) conducts telephone surveys of chronic conditions and health risk behaviors using random digit dialing (including cell phone numbers from 2008 onward) for 400 thousand participants per year. This represents the largest telephone survey in the world (Pierannunzi 2013). This survey has been used to identify time trends in asthma prevalence (Bhan 2015), fall injuries among the elderly (Bergen 2016), and mental health disparities between male and female caregivers (Edwards 2016).
+
+</div>
+
+### National Death Index
+
+![](../images/06/ndi.png "Image of web site main page") 
+
+<div class="notes">
+
+The CDC maintains the National Death Index (NDI), a centralized database of death certificate data collected from each of the 50 states and the District of Columbia. The raw data is not available for public use, but researchers can apply for access that lets them submit a file of patients that they are studying to see which ones have died (CDC 2016). Many of the CDC surveys described above are linked automatically to NDI. While privacy concerns restrict direct access to the full information on the death certificate, the CDC does offer geographically and demographically aggregated data sets on deaths (and births) as well as reduced data sets on individual deaths and births with personal identifiers removed.
+
+</div>
+
+### Influenza Hospitalization Surveillance Network
+
+![](../images/06/fluservnet.png "Image of FluServ-NET article")
+
+<div class="notes">
+
+The CDC uses big data in its own tracking of infectious diseases. The US Influenza Hospitalization Surveillance Network (FluSurv-Net) monitors influenza hospitalizations in 267 acute care hospitals serving over 27 million people (Chaves 2015).
+
+</div>
+
+### FluView
+
+![](../images/06/fluview.png "Image of FluView web site main page") 
+
+<div class="notes">
+
+Real time reporting on influenza is available at the FluView website (https://www.cdc.gov/flu/weekly/). This site reports on a weekly basis the outpatient visits, hospitalizations, and death rates associated with influenza. It also monitors the geographic spread, the strain type, and drug resistance rates for influenza.
+
+</div>
+
+### Foodborne Diseases Active Surveillance Network
+
+![](../images/06/foodnet.png "Image of FoodNet web site main page") 
+
+<div class="notes">
+
+FoodNet tracks laboratory confirmed food-borne illnesses in ten geographic areas with a population of 48 million people (Crim 2015). 
+
+</div>
+
+### Active Bacterial Core Surveillance
+
+![](../images/06/abcs.png "Image of FoodNet web site main page") 
+
+<div class="notes">
+
+The Active Bacterial Core Surveillance collects data on invasive bacterial infections in ten states representing up to 42 million people (Langley 2015).
+
+</div>
+
+### United States Bureau of the Census
+
+![](../images/06/census.png "Image of web site main page") 
+
+<div class="notes">
+
+Question for the audience, when you think of Census Bureau, what is the first thing that springs to your mind? 
+
+The Census Bureau is a federal agency that produces big data that is of direct value and which also provides the foundation for analyses of other big data sources. They also produce information critical for geographic information systems in the United States.
+
+</div>
+
+### Article I, Section II of the U.S. Constitution
+
+![](../images/06/constitution.png "Image of web site main page") 
+
+<div class="notes">
+
+The Census Bureau is mandated by Article I, Section II of the U.S. Constitution to enumerate the population of the United States to allow the proper allocation of members of the House of Representatives to each state. This census was first held in 1790 and then every ten years afterwards. Full data from the census is released 72 years after the census was held. With careful linking across multiple censuses, researchers can track individuals such as Civil War veterans (Costa 2017) across their full lifespan, or measure demographic changes in narrowly defined geographic regions, such as marriage rates during the boll weevil epidemic of the early 1900s (Bloome 2017). 
+
+</div>
+
+### Integrated Public Use Microdata Series International Partnership
+
+![](../images/06/ipums.png "Image of web site main page") 
+
+<div class="notes">
+
+For more recent censuses, samples of microdata are available, though with steps taken to protect confidentiality (Dreschler 2012). Information from these sources as well as census microdata from 79 other countries is available in a standardized format through the Integrated Public Use Microdata Series International Partnership (Ruggles 2015).
+
+</div>
+
+### American Community Survey
+
+![](../images/06/acs.png "Image of web site main page") 
+
+<div class="notes">
+
+Starting in 1940, the Census Bureau asked additional questions for a subsample of the census. The questions, known informally as “the long form,” had questions about income, occupation, education, and other socioeconomic issues. In 2006, the long form was replaced with the American Community Survey (ACS), which covered similar issues, but which was run continuously rather than once every ten years (Torrieri 2007). The ACS has advantages associated with the timeliness of the data, but some precision was lost compared to the long form (Spielman 2014, Macdonald 2006).
+
+</div>
+
+### Master Address File
+
+![](../images/06/maf.png "Image of web site main page") 
+
+<div class="notes">
+
+Both the decennial census and the ACS rely on the Master Address File (MAF), a list of all the addresses in the United States where people might live. The MAF is maintained and updated by the Census Bureau from a variety of sources, but predominantly the delivery sequence file of the United States Postal Service (Loudermilk 2009).
+
+</div>
+
+### Census blocks
+
+![](../images/06/census-blocks.png "Image of web site main page") 
+
+<div class="notes">
+
+The census block, the smallest of these regions, typically represent what would normally be considered a city block in an urban setting, though the size might be larger for suburban and rural settings. There are many census blocks with zero reported population, largely because the areas are uninhabitable or because residence is prohibited (Freeman 2017).
+
+</div>
+
+### Topologically Integrated Geographic Encoding and Referencing System
+
+![](../images/06/tiger.png "Image of web site main page") 
+
+<div class="notes">
+
+The geographic aggregation is possible because of another product that is of great value to big data applications, the Topologically Integrated Geographic Encoding and Referencing (TIGER) System (Marx 1990). The TIGER System, a database of land features like roads and rivers and administrative boundaries like county and state lines and has formed the foundation of many commercial mapping products used in big data analysis (Croner 1996). The TIGER system allows many useful characterizations of geographic regions, such as whether a region contains a highway ramp, a marker of poor neighborhood quality, (Friesthler 2016) and whether a daycare center is near a busy road (Houston 2006).
+
+</div>
+
+### American Housing Survey
+
+![](../images/06/ahs.png "Image of web site main page") 
+
+<div class="notes">
+
+The American Housing Survey (AHS) is a joint effort with the Department of Housing and Urban Development that surveys both occupied and vacant housing units in a nationally representative sample and a separate survey of large MSAs. The AHS conducts computer assisted interviews of roughly 47,000 housing units biennially. The AHS allows researchers to see whether mixed use development influences commuting choices (Cervero 1996) and to assess measures of the house itself (such as peeling paint) and the neighborhood (such as nearby abandoned buildings) that can correlated with health outcomes (Jacobs 2009).
+
+</div>
+
+### Current Population Survey
+
+![](../images/06/cps.png "Image of web site main page") 
+
+<div class="notes">
+
+The Current Population Survey, a joint effort with the Bureau of Labor Statistics, is a monthly survey of 60,000 people that provides unemployment rates for the United States as a whole and for local regions and specific demographic groups. The survey includes supplements that allows for the analysis of tobacco use (Zhu 2017), poverty (Pac 2017), food security (Jernigan 2017), and health insurance coverage (Pascale 2016).
+
+</div>
+
+### Consumer Expenditure Survey
+
+![](../images/06/ces.png "Image of web site main page") 
+
+<div class="notes">
+
+The Consumer Expenditure Survey, also a joint effort with the Bureau of Labor Statistics, is an interview survey of major expenditure components combined with a diary study of detailed individual purchases that is integrated to provide a record of all expenditures of a family. The purchasing patterns for the basis for the market basket of goods used in computation of a measure of inflation, the Consumer Price Index. Individual level data from this survey allows for detailed analysis of purchasing habits, such as expenditures in tobacco consuming households (Rogers 2017) and food expenditures of different ethnic groups (Ryabov 2016).
+
+</div>
+
+### National Crime Victimization Survey
+
+![](../images/06/ncvs.png "Image of NCVS web site main page") 
+
+<div class="notes">
+
+The National Crime Victimization Survey, a joint effort with the Bureau of Justice Statistics, is a self-report survey of 160,000 households per year on nonfatal personal crimes and household property crimes. The survey has supplements for school violence (Musu-Gillette 2016) and stalking (Menard 2016).
+
+</div>
+
+### Summary
+
+CDC
+
+* NHIS, NHANES, BRFSS, NDI, FluSurv-NET, FluView, FoodNet
+
+Census
+
+* ACS, MAF, Census blocks, TIGER files, AHS, CPS, CES, NCVS
+
+<div class="notes">
+
+Here's a quick overview of all the big data produced by CDC and the Census Bureau.
+
+</div>
+
+
 ### Research Approaches 
 
 ![](../images/image-06-01.png)
 
 <div class="notes">
 
-Going back to the figure that we have used. Now we will talk about comparative, associational, and descriptive studies.
+Going back to the figure that we have used, there are five columns. The past couple of weeks have talked about the first two columns. Now we will talk about the other three columns: comparative, associational, and descriptive studies.
 
 For all of these studies, according to your book, you are "stuck" with an attribute independent variable, one that you cannot manipulate or control. It's one distinction, but you need to be careful because sometimes you have an active independent variable, one that you can control through randomization, but you choose not to randomize. We talked about these under the umbrella of quasi-experimental designs last week, but I want to talk more about them this week as well.
 </div>
 
 ### Why not randomize everything?
-* No randomization
+
+* Can't randomize because...
   + Impossible
   + Impractical
   + Unethical
@@ -89,7 +502,7 @@ A bigger departure is that I want to classify non-experimental or observational 
 
 </div>
 
-### Cohort designs (1 of 2)
+### Cohort designs (1 of 3)
 
 * Cohort defined by exposure
 * Compared to unexposed controls
@@ -103,7 +516,7 @@ Cohort designs can be defined prospectively or retrospectively. But in a retrosp
 
 </div>
 
-### Cohort designs (2 of 2)
+### Cohort designs (2 of 3)
 
 * Disadvantages
   + Difficult for rare diseases, long latency
@@ -124,6 +537,18 @@ If you are looking at an outcome that has a long latency period (such as cancer)
 
 In a study where the patients and/or the doctors choose who gets what, you have an issue with selection bias. Also, you have no ability to insure covariate balance between the exposed and unexposed groups, so confounding is a serious issue.
 
+</div>
+
+### Cohort designs (3 of 3)
+
+* Advantages
+  + Can examine multiple outcomes
+  + Easy to explain
+  + Well defined comparison group
+  + Adaptable to longitudinal analysis
+  
+<div class="notes">
+
 The cohort design can examine a variety of outcomes: mild, moderate, and severe.
 
 It is usually pretty easy to present the data in a cohort design. You have two groups and you follow them over time and then see what happens to them.
@@ -132,7 +557,7 @@ It is usually (but not always) easy to define and collect data on a control grou
 
 </div>
 
-### Case control designs (1 of 3)
+### Case control designs (1 of 4)
 
 * Cases defined by outcome
 * Comparison to controls without the outcome
@@ -148,17 +573,13 @@ In a case control design, the comparison group is people who did not experience 
 
 </div>
 
-### Case control designs (2 of 3)
+### Case control designs (2 of 4)
 
 * Disadvantages
   + Counter-intuitive appearance
   + Difficulty in identifying good controls
   + Confounding
-* Advantages
-  + Can examine multiple risk factors
-  + Efficient for rare diseases
-  + Great starting point for mysterious outcomes
-  
+
 <div class="notes">
 
 The biggest complaint about the case-control design it just doesn't feel right. The case-control design is, to most people (including me), very counter-intuitive nature. You're selecting people on an outcome and then seeing what influences that outcome. There's no sampling going on here, so it almost seems like cheating. It's not cheating, and the theoretical foundation for the case-control design was established in the 1950s.
@@ -166,6 +587,17 @@ The biggest complaint about the case-control design it just doesn't feel right. 
 The other big, big problem for the case control study is finding good controls. You want to find someone just like your lung cancer cases in everything except the lung cancer. Or someone just like a heart attack patient minus the heart attack. Or someone just like the suicide attempt without the attempt.
 
 There is no selection bias in a case-control study. Nobody elects to be a cancer patient, for example. But confounding is a huge issue. Suppose your cases for a cancer patient are people who show up at the same hospital with a broken arm. People with a fracture are almost certainly a different age, have a different set of activities, and so forth. Any of these might be an alternative explanation for why the risk factor is more commonly seen in the cases than in the controls.
+
+</div>
+
+### Case control designs (3 of 4)
+
+* Advantages
+  + Can examine multiple risk factors
+  + Efficient for rare diseases
+  + Great starting point for mysterious outcomes
+  
+<div class="notes">
 
 A lot of people sneer at the case-control design as the weakest type of observational study, and while it does have significant problems, the humble case-control design has significant advantages over many other types of research.
 
@@ -179,7 +611,7 @@ It's also a great starting point. There is something weird happening out there a
 
 </div>
 
-### Case control designs (3 of 3)
+### Case control designs (4 of 4)
 
 * Selecting controls
   + Hospital/clinic based
@@ -195,7 +627,7 @@ Because of the difficulty in finding a good set of controls, researchers will al
 
 </div>
 
-### Cross-sectional designs (1 of 2)
+### Cross-sectional designs (1 of 3)
 
 * Single group
   + No selection by exposure
@@ -212,14 +644,11 @@ Cross-sectional designs can be prospective or retrospective.
 
 </div>
 
-### Cross-sectional designs (2 of 2)
+### Cross-sectional designs (2 of 3)
 
 * Disadvantages
   + Confusion about temporal ordering
   + Selection bias, confounding
-* Advantages
-  + Examine multiple risk factors, multiple outcomes
-  + Realistic setting
 
 <div class="notes">
 
@@ -230,6 +659,16 @@ There's a bad joke about a statistician who examined fire department records and
 In general, an exposure has to occur before the outcome in order to conclude that it caused the outcome. And this might be easy to miss in a cross-sectional design.
 
 Like the cohort design, the cross-sectional design has problems with selection bias and confounding.
+
+</div>
+
+### Cross-sectional designs (3 of 3)
+
+* Advantages
+  + Examine multiple risk factors, multiple outcomes
+  + Realistic setting
+
+<div class="notes">
 
 There are several advantages to a cross-sectional design.
 
@@ -425,7 +864,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Qualitative – Phenomenological
@@ -439,7 +878,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Qualitative – Grounded Theory
@@ -453,7 +892,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Grounded theory (Glaser & Strauss, 1967)
@@ -470,7 +909,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Qualitative – Ethnographic
@@ -486,7 +925,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Inductive process –
@@ -500,7 +939,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Start the study with a research question
@@ -521,7 +960,7 @@ Thematic analysis is looking for patterns.
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Analysis process –
@@ -538,7 +977,7 @@ Break up the text into "bits" that represent specific thoughts. Open coding lots
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Category Formation – assign sections (data bits) to analytical categories/themes "coding"
@@ -562,7 +1001,7 @@ You need to be careful about trying to quantify this too much. Keep in mind that
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Category Formation
@@ -579,7 +1018,7 @@ You need to be careful about trying to quantify this too much. Keep in mind that
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Labeling / Revising Categories
@@ -599,7 +1038,7 @@ Establishing the criteria may depend on how many people are doing the coding. If
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Saturation – the point at which you are not gaining any new insight, no new categories being identified, no new relationships being defined
@@ -619,7 +1058,7 @@ Really important to keep notes of the coding and analysis process, so you can ch
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Role of Judgment
@@ -638,7 +1077,7 @@ Low inference descriptors are those things involving just the basic words or tex
 
 </div>
 
-***
+
 ### Analysis of Qualitative Data 
 
 + Quantifying Information
@@ -652,78 +1091,8 @@ This was mentioned earlier.
 
 </div>
 
-***
-### Eton Article 
-
-+ Long-term Goal – “… build a general, multi-domain, patient-reported measure of burden of treatment with wide applicability across diseases and treatments”
-+ Semi-structured qualitative interviews
-	+ “identify issues … illustrative of burden of treatment …”
-	+ “inform derivation of a general, patient-reported measure of burden of treatment flexible enough for application across any disease or treatment regimen.”
-
-<div class="notes">
-
-The Eton article has a great description of the coding process. The long term goal develop a burden of treatment with wide applicability across a wide range of treatments.
-
-Identify issues associated with burden of treatment. Derivation of patient report that is flexible enough to apply across any disease.
-
-</div>
-
-***
-### Eton Article 
-
-+ Development of interview
-+ Content analysis process
-	+ Multiple coders
-	+ Identify key themes and subthemes
-	+ Discussion and consensus to develop coding scheme
-	+ Repeated check and update of coding process
-	+ Thematic content saturation
-+ Resulting major themes and subthemes
-
-<div class="notes">
-
-Checked for a logical flow from broad to specific. Framework from first five interviews. Reviewed after ten more interviews. Saturation reached after 25 interviews, but they had 7 more that they included anyway.
-
-Described patient population.
-
-Figure 1 shows the themes that emerged. 
-
-The third theme was factors that exacebate burdens had subthemes.
-
-</div>
-
-***
-### Berkley-Patton Article 
-
-+ Goal – Use qualitative method to explore components of the Information-Motivation-Behavioral Skills model
-	+ Information + Motivation Behavioral Skills Adherence
-+ Focus Groups
-+ Content analysis – “… identify themes on expectations and information, personal and social motivation, and behavioral skills related to ART adherence.”
-
-<div class="notes">
-
-Another example on Canvas is an article by Jannette Berkley-Patton et al. Done using focus groups and content analysis.
-
-Information and expectations with subthemes. Specific text included as examples of themes.
-
-</div>
-
-***
-### Berkley-Patton Article 
-
-+ Information and expectations
-+ Motivation for ART adherence
-+ Behavioral skills related to ART adherence
-+ Themes for each of these areas?
-+ Value obtained from this kind of study?
-
-<div class="notes">
 
 
-
-</div>
-
-***
 ### Nonexperimental - CBPR / PAR 
 
 + Community Based Participatory Research (CBPR)
@@ -738,7 +1107,7 @@ Information and expectations with subthemes. Specific text included as examples 
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + Existing research data or data collected from other locations …
@@ -754,7 +1123,7 @@ This is increasingly used and make a big contribution. Extent to which the popul
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + CBPR/PAR research may be more generalizable than research conducted in a clinical setting
@@ -768,7 +1137,7 @@ This is increasingly used and make a big contribution. Extent to which the popul
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + How the research context influences the research process …
@@ -787,7 +1156,7 @@ Issues important to the population and community. There can be a ripple effect. 
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + Conducting CBPR/PAR
@@ -804,7 +1173,7 @@ Simple. What is important and what is needed. Add value to the community. Identi
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + CBPR/PAR – especially appropriate for research involving health disparities
@@ -817,7 +1186,7 @@ There are some many community level issues associated with health disparities.
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + Contributions by researchers
@@ -834,7 +1203,7 @@ You biring in your knowledge of existing resources, and provide support and sugg
 
 </div>
 
-***
+
 ### Nonexperimental - CBPR / PAR 
 
 + Contributions by community
@@ -850,357 +1219,8 @@ They understand needs and real world feedback. Does this fit in to individual pe
 
 </div>
 
-***
-### Secondary Analysis 
 
-+ Definition – using existing database/dataset to re-examine variables and answer questions
-	+ Research question different from what was originally addressed
-+ Differences could be …
-	+ Variables that are analyzed
-	+ Relationships that are explored
-	+ Different subsets of cases
-	+ Different analysis techniques
 
-<div class="notes">
-
-Let's have a common definition. You are re-purposing the data. 
-
-Some secondary datasets are available strictly for this purpose. These are often national databases collected user taxpayer money and made available to anyone who wants to use them.
-
-Sometimes we collect more data than what we strictly need for our purposes. 
-
-Example: One of the interventions used motivational interviewing. Autonomous regulation scale. Some additional information came out that that there was a third subscale after the data was collected. So Mary was approached to see if her data would support this third subscale.
-
-Identifying people who have common data sets that can be combined.
-
-NIH supports secondary analysis of data. Example of RFA on secondary analysis. Publicly available data sets for aging related analysis" document.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Could be done when able to combine different/compatible data sets
-+ Advantages
-	+ Cost
-	+ Working with large dataset
-	+ Time efficiency
-	+ May be a good first step in a research area
-
-<div class="notes">
-
-The data are already collected, so you don't have to wait around.
-
-Secondary analyses are great for exploratory studies. Initial analysis was changes in rate of adherence. Sixteen different adherence studies contributed by fourteen different groups.
-
-The combination of disparate data sets is one of the hallmarks of big data (the "variety" V of the three V's of big data).
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Disadvantages
-	+ Lack of control over data collection process
-		+ Quality control
-		+ Specifics of variables and wording
-		+ Missing data or data entry errors
-	+ Consider possible sources of error
-		+ Make judgment on possible impact on research question
-		+ What can be done to address problems
-
-<div class="notes">
-
-One of the big ones is the lack of control over the data collection process. You can't change how the data was collected without access to a time machine. You lose control over the variables that were collected, the wording of the questionnaires, the quality checks.
-
-Data quality issues can be an issue at times. Why conduct rigorous quality checks now for data that will only be used by someone else in the future?
-
-Example of depression: some of the data sources might use CESD, BDI, SCID.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Two types of secondary data sets
-	+ Individual
-	+ Aggregate
-
-<div class="notes">
-
-Data sets that have individual level records: there is separate records an indvidual unit (usually a person, but it could be an event like an emergency department visit).
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Individual – separate information available for each subject/unit
-	+ Can use to measure associations between characteristics among individuals/units
-	+ Source
-		+ Previous research study
-		+ Large regional and national data sets
-			+ Surveillance, Epidemiology, and End Results (SEER)
-			+ National Death Index
-
-<div class="notes">
-
-The book gives several resources, and there is a document on Canvas that lists some of the secondary data sets that DBHI has worked with.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Aggregate – information available only for groups of subjects
-+ Can study associations among groups by comparing them on risk factors or variables of interest (ecologic studies)
-+ Advantage – availability of data
-
-<div class="notes">
-
-Aggregated data avoids some privacy concerns.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Aggregate (cont ’ d)
-+ Disadvantage –
-	+ Associations are especially susceptible to confounding
-	+ Associations seen in aggregate don’t always hold at the individual level (ecologic fallacy)
-+ Most appropriately used –
-	+ Test the plausibility of a new hypothesis, or
-	+ Generate new hypotheses
-
-<div class="notes">
-
-An example of the ecologic fallacy. Sales of cigarettes are greater in states that have higher suicide rates. You don't know whether an individual who smokes is more likely to commit suicide.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Chicken or the egg!
-	+ Identify existing database and determine what can be done with it – that you are interested in!
-		+ Get familiar with the data set – available variables
-		+ Consider possible new questions that can be addressed
-		+ Go to the literature
-			+ How has database been used previously?
-			+ What has already been answered?
-			+ Develop a theoretical framework for your research
-
-<div class="notes">
-
-You can have a question and find what secondary data sets might help answer that question. Or you can explore a data set that you find interesting and see if there are interesting research questions that this data set might help with.
-
-For the latter, do a literature search where others have used this data set and see what questions they were able to answer.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Table 13.1
-
-Steps in Finding Research Questions to Fit an Existing Database
-
-1. Choose a database.
-
-2. Become thoroughly familiar with the database. Make a flow sheet of all variables and how they were measured.
-
-3. Identify pairs or groups of variables whose association may be of interest.
-
-4. Review the literature and consult experts to determine if these research questions would be novel and important.
-
-5. Formulate specific hypotheses and settle on the statistical methods.
-
-6. Analyze the data.
-
-[Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition.]
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Chicken or the egg!
-	+ Search for an existing database that will address the research question you are interested in
-		+ Start with the research question you are interested in
-		+ Have a list of variables that are relevant
-		+ Have an idea of what databases are available
-		+ Find out if there are special qualifications for working with the database
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Table 13.2
-
-Steps in Finding Databases to Fit a Specified Research Question
-
-1. Choose a research question and review the literature thoroughly.
-
-2. List combinations of predictor and outcome variables whose relationship might help answer the research question.
-
-3. Identify databases that might include the variables of interest.
-
-4. Become familiar with each of these databases and consult with individuals who know them well.
-
-5. Choose the best database(s) and gain access to the data.
-
-6. Formulate specific hypotheses and settle on the statistical methods.
-
-7. Analyze the data.
-
-[Hearst et al. Research using existing data … In Hulley et al. (2001). Designing Clinical Research 2nd edition]
-
-<div class="notes">
-
-Gaining access can mean different things. Some datasets, you can directly download (no cost). Others are free, but you have to prepare a research proposal and get approval before you can use that data. Others require a small payment. Some data sets require you to sign an agreement first.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Sources – where to find out about them
-	+ Journal articles / conference presentations
-	+ Data libraries
-	+ U.S. government
-		+ Census Bureau
-		+ National Center for Health Statistics (NCHS)
-		+ Framingham Heart Study
-		+ Multiple Risk Factor Intervention Trial (MRFIT)
-		+ NIH Data Sharing Plan requirement
-
-<div class="notes">
-
-There are lots of resources available in the genetics community that are not covered here.
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Sources – where to find out about them
-	+ Community-based data sets
-		+ Evaluate patterns of utilization and clinical outcomes of medical treatment
-		+ Examples
-			+ Administrative and clinical database
-			+ Registries
-		+ Useful for
-			+ Examining rare outcomes
-			+ Assessing real-world utilization and effectiveness of an intervention
-			+ Study effectiveness rather than efficacy
-		+ Importance of replication
-
-<div class="notes">
-
-Truman is setting up a system, i2b2, that allows you to study research cohorts. Health Facts. 
-
-Kansas City Quality Improvement Consortium. Mid America Research Council.
-
-Data from CMS, Department of Veteran Affairs.
-
-Missouri Information for Community Assessment (MICA). Helps local health agencies and their partners.
-
-Useful for assessing the magnitude of the problem.
-
-[[Contrast national with community level data sets.]]
-
-</div>
-
-***
-### Ancillary Studies 
-
-+ Adds new measurements to an existing/ongoing study
-	+ Advantages
-		+ Similar to advantages of secondary analysis
-		+ Inexpensive & efficient
-		+ Can be added to any type of study
-	+ Disadvantages
-		+ Not as valuable as if measures were part of original study
-			+ Not a complete set of data
-		+ Have no control over what the other measures are
-		+ Need to get the buy-in of the primary investigators
-
-<div class="notes">
-
-Find a study that is already collecting data and ask them to add some measures that you are interested in.
-
-Example, there are many ways to collect data on adherence. Add some extra measures after the fact to explore interrelationships or to see if newer measures are more sensitive.
-
-</div>
-
-***
-### Ancillary Studies 
-
-+ Not unusual for additional measure to be added to longitudinal studies
-+ How to get started
-	+ Identify ongoing studies of interest
-		+ Either predictor or outcome measures of interest
-		+ NIH RePORTER (Research Portfolio Online Reporting Tool)
-		+ ClinicalTrials.gov
-		+ Pharmaceutical companies
-		+ Contacting experts / researchers
-	+ Get cooperation of investigators
-
-<div class="notes">
-
-NCCAM example.
-
-</div>
-
-***
-### Ancillary Studies 
-
-+ How to get started (cont ’ d)
-	+ Work out the logistics (measures, where to insert it, is there a cost associated with adding the measure?)
-	+ Get all appropriate approvals (e.g., IRB to document change in data that are being collected)
-	+ Work out what data from the main study you will have access to and how you will get the data you need
-	+ Discuss and agree on issues such as manuscript publication and authorship
-
-<div class="notes">
-
-An ancillary study requires IRB approval. You need to discuss with the coordinators of the study that you are piggy baking on 
-
-</div>
-
-***
-### Secondary Analysis 
-
-+ Examples of available secondary analysis data sets …
-	+ MEPS (Medical Expenditure Panel Survey)
-	+ YRBSS (Youth Risk Behavior Surveillance System)
-	+ NSQIP (National Surgical Quality Improvement Proram)
-	+ …
-
-<div class="notes">
-
-MEPS and YRBSS are individual based. NSQIP are event based.
-
-http://www.meps.ahrq.gov
-
-MEPS is nationally representative maintained by the Agency for Health Care Research and Quality. MEPS is largely cross-sectional, but has panels that can address longitudinal questions.
-
-The YRBSS focuses on six health risk behaviors among youths (unintentional injuries and violence, tobacco use, alcohol and other drug use, sexual behaviors. dietary behaviors, and physical activity).
-
-Review the list of secondary datasets prepared by DBHI.
-
-</div>
-
-***
 ### Nonexperimental Designs 
 
 ![](../images/image-06-02.png)
@@ -1219,7 +1239,7 @@ They did qualitative interviews with all participants. The first theme was poor 
 
 </div>
 
-***
+
 ### Research Approaches 
 
 + Comparative research approach
@@ -1237,7 +1257,7 @@ In any prospective study, you are only getting information for those people who 
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Quantitative – Comparative
@@ -1255,7 +1275,7 @@ Often your research has the elements of more than one design.
 
 </div>
 
-***
+
 ### Research Approaches 
 
 + Associational research approach
@@ -1277,7 +1297,7 @@ Example of smoking cessation usually assumes that anyone who disappears is categ
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Quantitative – Associational
@@ -1294,7 +1314,7 @@ Example of smoking cessation usually assumes that anyone who disappears is categ
 
 </div>
 
-***
+
 ### Research Approaches 
 
 + Descriptive research approach
@@ -1309,7 +1329,7 @@ Usually used for an exploratory. It could be characterization of surveys or poll
 
 </div>
 
-***
+
 ### Nonexperimental Designs 
 
 + Quantitative – Descriptive
@@ -1329,8 +1349,6 @@ The Wolfe study is a good example. This study is in Botswana. Effects of stigma 
 
 </div>
 
-***
-***
 ### Assignment #4 
 
 + Turn in the results of a literature search on the topic you are planning to focus on for your research proposal . This is NOT expected to be a literature review; it should provide evidence that you are finding literature that is relevant to your topic. This assignment serves as the start of your References section, using the reference/citation style you plan to use in your proposal.

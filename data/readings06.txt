@@ -34,3 +34,5 @@ ISSN 1047-2797. Available in [html format](https://doi.org/10.1016/j.annepidem.2
 14. Johns Hopkins University. Jerome Cornfield. Available in [html format](https://www.jhsph.edu/departments/biostatistics/about-us/history/jerome-cornfield.html).
 
 15. Breslow NE. Statistics in Epidemiology: The Case-Control Study. Journal of the American Statistical Association 1996; 91(433): 14-28. Available on the Canvas website.
+
+16. Cheng HG, Phillips MR. Secondary analysis of existing data: opportunities and implementation. Shanghai Arch Psychiatry. 2014;26(6):371-5. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/pdf/sap-26-06-371.pdf).
