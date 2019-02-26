@@ -187,7 +187,7 @@ Balancing measures account for unintended consequences. Did an improvement in on
 
 ### Drawing a fishbone diagram (1 of 3)
 
-![First step in drawing a fisbone diagram](../images/draw-fishbone01.png)
+![First step in drawing a fisbone diagram](../images/05/draw-fishbone01.png)
 
 <div class="notes">
 
@@ -201,7 +201,7 @@ If you want to use a Fishbone Diagram, first list the main problem on the right 
 
 ### Drawing a fishbone diagram (2 of 3)
 
-![Second step in drawing a fisbone diagram](../images/draw-fishbone02.png)
+![Second step in drawing a fisbone diagram](../images/05/draw-fishbone02.png)
 
 <div class="notes">
 
@@ -213,7 +213,7 @@ Another possible list is Policies, Procedures, Plant, and People.
 
 ### Drawing a fishbone diagram (3 of 3)
 
-![Third step in drawing a fisbone diagram](../images/draw-fishbone03.png)
+![Third step in drawing a fisbone diagram](../images/05/draw-fishbone03.png)
 
 <div class="notes">
 
@@ -233,7 +233,7 @@ In some situations, you may find that a flow diagram of the work process may be 
 
 ### Fishbone example (1 of 4)
 
-![Fishbone diagram](../images/fishbone01.png)
+![Fishbone diagram](../images/05/fishbone01.png)
 
 <div class="notes">
 
@@ -245,7 +245,7 @@ Here is an example of a Fishbone diagram in a published research study. The prob
 
 ### Fishbone example (2 of 4)
 
-![Fishbone diagram](../images/fishbone02.png)
+![Fishbone diagram](../images/05/fishbone02.png)
 
 <div class="notes">
 
@@ -255,7 +255,7 @@ Here's a second example. The problem is non-retention of HIV-positive adolescent
 
 ### Fishbone example (3 of 4)
 
-![Fishbone diagram](../images/fishbone03.jpg)
+![Fishbone diagram](../images/05/fishbone03.jpg)
 
 <div class="notes">
 
@@ -265,7 +265,7 @@ Here's a third example.  The problem is the small number of cases referred to th
 
 ### Fishbone example (4 of 4)
 
-![Fishbone diagram](../images/fishbone04.png)
+![Fishbone diagram](../images/05/fishbone04.png)
 
 <div class="notes">
 
@@ -292,7 +292,7 @@ You should focus your QI efforts on the left side of the Pareto chart.
 
 ### Example of Pareto (1 of 3)
 
-![Example of a Pareto chart](../images/pareto01.png)
+![Example of a Pareto chart](../images/05/pareto01.png)
 
 <div class="notes">
 
@@ -302,7 +302,7 @@ This is an example of a Pareto chart published in the peer-reviewed literature. 
 
 ### Example of Pareto (2 of 3)
 
-![Example of a Pareto chart](../images/pareto02.png)
+![Example of a Pareto chart](../images/05/pareto02.png)
 
 <div class="notes">
 
@@ -312,7 +312,7 @@ This is second example. The problem is unplanned return visits and the first two
 
 ### Example of Pareto (3 of 3)
 
-![Example of a Pareto chart](../images/pareto03.png)
+![Example of a Pareto chart](../images/05/pareto03.png)
 
 <div class="notes">
 

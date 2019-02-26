@@ -36,3 +36,5 @@ ISSN 1047-2797. Available in [html format](https://doi.org/10.1016/j.annepidem.2
 15. Breslow NE. Statistics in Epidemiology: The Case-Control Study. Journal of the American Statistical Association 1996; 91(433): 14-28. Available on the Canvas website.
 
 16. Cheng HG, Phillips MR. Secondary analysis of existing data: opportunities and implementation. Shanghai Arch Psychiatry. 2014;26(6):371-5. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/pdf/sap-26-06-371.pdf).
+
+17. Fedak KM, Bernal A, Capshaw ZA, Gross S. Applying the Bradford Hill criteria in the 21st century: how data integration has changed causal inference in molecular epidemiology. Emerg Themes Epidemiol. 2015;12:14. Published 2015 Sep 30. doi:10.1186/s12982-015-0037-4. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/pdf/12982_2015_Article_37.pdf).

@@ -804,11 +804,9 @@ The point of this example is that classifying a study into one of the four categ
 
 </div>
 
-
-
 ### Causation and observational designs
 
-* Observational designs can establish a causal relationship
+* Observational designs CAN establish a causal relationship
   + Just requires more work
   + Control for confounding
   + Bring in external evidence
@@ -830,7 +828,7 @@ I want to review Sir Austin Bradford Hill's criteria for establishing a causal r
 
 </div>
 
-### Hill's criteria (1 of 3)
+### Hill's criteria (1 of 9)
 
 * Strength
   + Large effects can only be overturned by large confounders.
@@ -848,12 +846,150 @@ Keep in mind, though, that weak effects can still be real. There was some critic
 
 When the association is small, you don't totally disregard it. You just have to rely on some of the other criteria.
 
+Consistency is also important. A single positive result in a single observational study could possibly be the result of various biases. A second positive result in a second study that is substantially different than the first study, could possibly be the result of a different set of biases. But by the time the third result comes along, in a study different that the first two, it becomes awfully hard to argue that there is a third set of biases. Biases can work in both directions, and it would be rare that all of these biases would conspire to work together towards a common goal.
+
+Now, if the same study is replicated more or less consistently, then replication doesn't help that much.
+
 </div>
 
-### Hill's criteria (2 of 3)
+### Hill's criteria (1 of 9)
+
+* Strength
+  + Large effects can only be overturned by large confounders.
+  + Weak effects can still be real
+
+<div class="notes">
+
+Hill identified the strength of the association as being the most critical factor. The reason for this is that a strong effect could only be overturned by a strong confounder. A weak confounder would only attenuate things a bit. If you want to hypothesize that a third factor among smokers (poor diet, dangerous work conditions, or lack of exercise) could cause the ten to twenty fold increase in the risk of lung cancer, that third factor would have to increase the risk of lung cancer by more ten or twenty fold.
+
+Keep in mind, though, that weak effects can still be real. There was some criticism of a government report that said that the number of deaths due to smoking was around 450 thousand people per year. The critics dissected this number and said, we'll allow you the deaths due to cancer, but not for other factors like stroke and heart attacks, because these only showed a two fold or smaller increase in risk. It turns out that these other ways that smoking can kill you are very real, but because these causes of death (unlike lung cancer) are fairly common in the general population, you can't just get a large increase in risk. If 30% of the public dies from heart attacks, a ten fold increase is just impossible.
+
+When the association is small, you don't totally disregard it. You just have to rely on some of the other criteria.
+
+</div>
+
+### Hill's criteria (2 of 9)
+
+* Consistency
+  + Replication across DIFFERENT study types
+
+<div class="notes">
+
+Consistency is also important. A single positive result in a single observational study could possibly be the result of various biases. A second positive result in a second study that is substantially different than the first study, could possibly be the result of a different set of biases. But by the time the third result comes along, in a study different that the first two, it becomes awfully hard to argue that there is a third set of biases. Biases can work in both directions, and it would be rare that all of these biases would conspire to work together towards a common goal.
+
+Now, if the same study is replicated more or less consistently, then replication doesn't help that much.
+
+</div>
+
+### Hill's criteria (3 of 9)
+
+* Specificity
+  + Multiple cures or common bias?
+  + Deliberate inclusion of negative outcomes
+  + Exceptions: aspirin, smoking
+  
+<div class="notes">
+
+Specificity means that a treatment cures one and only one disease. If it appears to cure a multitude of diseases, then what is probably happening is that there is a bias (maybe selection bias?) that is causing the exposure group to be healthier than the control group. If an exposure is causing a multitude of problems, maybe a bias is causing the exposure group to be sicker than the control group.
+
+You can rule out a healthier or sicker exposure group if you show that only one outcome (or only a small number of outcomes) is changed between the exposed and unexposed groups. You can take advantage of this by deliberately including outcome measures that you would expect to be negative.
+
+Suppose you are testing whether toll booth workers suffer problems from CO poisoning. You'd get your toll booth workers and compare them to a control group and see if you have more problems with headache, nausea, dizziness, and fatigue. These are all symptoms associated with carbon monoxide poisoning. But what if the people who work in toll booths aren't really sicker, but because they have such a dreary job, they are more likely to complain.
+
+To check for this, ask about muscle pain, rashes, coughing, sneezing, fevers: symptoms that are not normally associated with CO poisoning. If these are elevated in the toll booth workers, then you know that you just have a bunch of complainers on your hands. If these show little or no change, while the symptoms specific to CO poisoning do show a change, then you have stronger evidence that something real is going on.
+
+</div>
+
+### Hill's criteria (4 of 9)
 
 * Temporality
-  + 
+  + A has to precede B to be a cause
+  + Advantage of prospective studies
+  + Difficult for long latency diseases
+  
+<div class="notes">
+
+If you cannot establish temporality, then you have a harder time establishing causation. 
+
+This is easier in a prospective study. When you are recalling events in the past, it is easier to get them out of order. This is an issue I mentioned earlier with cross-sectional studies.
+
+There were some speculations about how cancer causes smoking. This seems like a reversal of the causal model, but the argument was that some people have a genetic disposition to cancer and the same set of genes might also make them easier to get addicted. The argument doesn't hold water, of course, but you need that genetic link to keep from being totally disregarded.
+
+Temporality is tricky for a disease that has a long latency period, one that hides quietly in your body for many years before revealing itself. Did the disease change your diet rather than your diet producing the disease?
+
+</div>
+
+### Hill's criteria (5 of 9)
+
+* Biological gradient
+  + Dose response relationship
+  + Rule out some, but not all confounders
+  + Hormesis and other patterns
+  
+
+<div class="notes">
+
+A biological gradient means that as the intensity of your intervention increases, the larger the improvement you see in your outcome. For an exposure, a biological gradient means that the greater the amount of exposure, the greater the degree of harm.
+
+The biological gradient is often referred to as a dose-response relationship. If you have the ability to measure several levels of an intervention or exposure, it can help. Some, but not all, biasing factors tend to bias at a constant rate, not at a rate that escalates in a dose-response pattern.
+
+For example, recall bias is a big problem in retrospective studies. People's memory of the past is influenced by what has happened to them recently. It's not that one group is making things up, but rather that the controls are more likely to overlook things.
+
+Recall bias, though, is unlikely to be stronger in patients with a greater exposure, so if you see a gradient, with low exposures showing smaller effects than large exposures, that's good news. You can rule out recall bias and selection bias and other biases that affect your comparison more or less uniformly across the spectrum of exposures.
+
+Hormesis is a surprising, but not too unusual pattern where you see a helpful effect for a small dose of something that is decidely harmful for larger doses. There is some evidence, for example, that a small amount of wine (e.g., one glass per day) has some beneficial effects, even though a larger amount of alcohol consumption causes all sorts of problems. So failure to see a dose response pattern is not a disqualifying event.
+
+
+</div>
+
+### Hill's criteria (6 of 9)
+
+* Plausibility
+  + Mechanism
+  + Dependent on current state of knowledge
+
+<div class="notes">
+
+
+
+</div>
+
+### Hill's criteria (7 of 9)
+
+* Coherence
+  + Follows natural history
+  + Consistent with biology
+
+<div class="notes">
+
+The remaining criteria are less frequently cited, but I want to mention them anyway for the sake of completeness.
+
+Coherence means that the results of the research are consistent with what you know about the natural history and biology of the disease. It sounds a bit like having a plausible mechanism, but I think that Sir Austin Bradford Hill is talking about something a bit more indirect than a mechanistic explanation.
+
+</div>
+
+### Hill's criteria (8 of 9)
+
+* Experiment
+
+<div class="notes">
+
+Sir Austin Bradford Hill developed his nine criteria for settings where direct experimental manipulation of the exposure would be impossible, but sometimes you can find an indirect way to run an experiment.
+
+</div>
+
+### Hill's criteria (9 of 9)
+
+* Analogy
+  + Similar to coherence?
+
+<div class="notes">
+
+This is the weakest and hardest to understand of Hill's nine criteria. It requires a creative way of thinking.
+
+</div>
+
+
 
 ### Nonexperimental Designs 
 

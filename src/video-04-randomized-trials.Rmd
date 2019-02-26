@@ -159,7 +159,7 @@ How big do oyu have to be in order not to worry about this. Your book says 60 pa
 
 ### A fishy research story (part 1 of 7)
 
-![Figure 1. Thirty fish in a big tank](../images/fishy01.png)
+![Figure 1. Thirty fish in a big tank](../images/04/fishy01.png)
 
 <div class="notes">
 
@@ -171,7 +171,7 @@ I was told this story but have no way of verifying its accuracy. It is one of th
 
 ### A fishy research story (part 2 of 7)
 
-![Figure 2. First six fish go in the first tank](../images/fishy02.png)
+![Figure 2. First six fish go in the first tank](../images/04/fishy02.png)
 
 <div class="notes">
 
@@ -181,7 +181,7 @@ The first six fish that you catch go in the first tank.
 
 ### A fishy research story (part 3 of 7)
 
-![Figure 3. Next six fish go in the second tank](../images/fishy03.png)
+![Figure 3. Next six fish go in the second tank](../images/04/fishy03.png)
 
 <div class="notes">
 
@@ -191,7 +191,7 @@ The next six fish that you catch go into the second tank.
 
 ### A fishy research story (part 4 of 7)
 
-![Figure 4. Next six fish go in the third tank](../images/fishy04.png)
+![Figure 4. Next six fish go in the third tank](../images/04/fishy04.png)
 
 <div class="notes">
 
@@ -201,7 +201,7 @@ And so on.
 
 ### A fishy research story (part 5 of 7)
 
-![Figure 3. Next six fish go in the fourth tank](../images/fishy02.png)
+![Figure 3. Next six fish go in the fourth tank](../images/04/fishy05.png)
 
 <div class="notes">
 
@@ -211,7 +211,7 @@ And so on.
 
 ### A fishy research story (part 6 of 7)
 
-![Figure 6. Last six fish go in the fifth tank](../images/fishy06.png)
+![Figure 6. Last six fish go in the fifth tank](../images/04/fishy06.png)
 
 <div class="notes">
 
@@ -221,7 +221,7 @@ The last six fish that you catch go into the final tank.
 
 ### A fishy research story (part 7 of 7)
 
-![Figure 7. Final result-mortality hishest in first tank](../images/fishy07.png)
+![Figure 7. Final result-mortality hishest in first tank](../images/04/fishy07.png)
 
 <div class="notes">
 
