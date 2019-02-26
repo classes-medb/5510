@@ -738,51 +738,69 @@ These are all subtle distinctions, and the people who publish in the medical jou
 
 ### Confusion between designs (2 of 6)
 
-![Abstract of research paper](../images/raffa01.png)
+![Abstract of research paper](../images/06/raffa01.png)
 
 <div class="notes">
 
+I don't want to confuse or intimidate you, but let's look at an example of an observational study and see what we are up against. This paper talks about neurological complications after surgery and describes it as a case-control study. If that's the case then the outcome has to be complications because the outcome has to occur last.
 
+So you select patients with and without complications and see what happened during the surgery and beforehand that might be a risk factor for complications.
 
 </div>
 
 ### Confusion between designs (3 of 6)
 
-![Abstract of research paper](../images/raffa02.png)
+![Abstract of research paper](../images/06/raffa02.png)
 
 <div class="notes">
 
+But the first sentence of the abstract seems to imply something different.
 
+"A total of 2121 patients underwent cardiac surgery."
+
+That implies a cross-sectional study. You get a big group of patients (2121 surgery patients) and see what risk associated with the surgery (such as leaving a sponge inside the patient) affect outcomes like neurological complications. You might also be interested in demographic factors that might influence the outcome like age and gender.
+
+The point is that this looks like a single sample with measurements associated with various risk factors and various outcomes asssessed simultaneously.
 
 </div>
 
 ### Confusion between designs (4 of 6)
 
-![Abstract of research paper](../images/raffa03.png)
+![Abstract of research paper](../images/06/raffa03.png)
 
 <div class="notes">
 
+Later, though, you see that patients with "major stroke ... and a spectrum of transient neurological episodes ... were compared ... with matched patients ... without neurological deficits."
 
+For now, I'll lump transient neurological episodes in with the more serious outcome (major stroke) and call this the stroke group.
+
+So that seems to imply that cases and controls were selected from the cross-sectional study.
 
 </div>
 
 ### Confusion between designs (5 of 6)
 
-![Abstract of research paper](../images/raffa04.png)
+![Abstract of research paper](../images/06/raffa04.png)
 
 <div class="notes">
 
-
+Now look here. The phrase "patients with and without imaging" sure sounds like our "cases" with major strokes and transient neurological episodes. But we are comparing these to the controls not on risk factors that occured before the strokes and neurological episodes, but on outcomes like length of stay or mortality. So maybe the major strokes and transient neurological episodes represent a cohort and you want to see whether exposure to strokes influences certain outcome measures that are taken after the stroke. Death certainly occurs after the stroke and not before. So death is the outcome and stroke is the exposure.
 
 </div>
 
 ### Confusion between designs (6 of 6)
 
-![Abstract of research paper](../images/raffa05.png)
+![Abstract of research paper](../images/06/raffa05.png)
 
 <div class="notes">
 
+A bit further down, you see a discussion of "bilateral internal carotid stenosis of any grade" and "re-do operations," which sound like risk factors that occur before the stroke. So maybe it is a case-control design after all.
 
+I would characterize this as a cross-sectional study with a case-control study nested within. The cross-sectional sample (2121 patients) provided clues as to whether the exposure group (strokes) had more bad outcomes than the unexposed group. Bad outcomes meaning longer lengths of stay and higher mortality. The case-control study nested within the cross-sectional sample helped identify whether risk factors like stenosis and re-do operations increased the risk of a bad outcome where here the bad outcome was major stroke or transient neurological episodes.
+
+So how can the stroke group be both a cohort group and a case group? It's all in the timing. The example I always cite in this context is low birth weight. For an obstetrician, low birth weight is an outcome, because they see low birth weight as being at the end of the process. For a neonatologist, low birth weight is an exposure because they see low birth weight at the beginning of the process.
+
+The point of this example is that classifying a study into one of the four categories (cohort, cross-sectional, case-control, or historical control) is a tricky process. The experts who publish these papers often get these terms wrong themselves, so don't worry too much if you can't figure things out.
 
 </div>
 
