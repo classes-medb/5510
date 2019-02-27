@@ -40,3 +40,7 @@ ISSN 1047-2797. Available in [html format](https://doi.org/10.1016/j.annepidem.2
 17. Fedak KM, Bernal A, Capshaw ZA, Gross S. Applying the Bradford Hill criteria in the 21st century: how data integration has changed causal inference in molecular epidemiology. Emerg Themes Epidemiol. 2015;12:14. Published 2015 Sep 30. doi:10.1186/s12982-015-0037-4. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4589117/pdf/12982_2015_Article_37.pdf).
 
 18. Craig P, Cooper C, Gunnell D, et al. Using natural experiments to evaluate population health interventions: new Medical Research Council guidance. J Epidemiol Community Health. 2012;66(12):1182-6. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796763/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796763/pdf/emss-54487.pdf).
+
+19. Pietkiewicz, Igor, and Jonathan A. Smith. "A practical guide to using interpretative phenomenological analysis in qualitative research psychology." Psychological Journal 20.1 (2014): 7-14. Available on the Canvas website.
+
+20. Noble H, Mitchell G. What is grounded theory? Evidence-Based Nursing 2016;19:34-35. Available in [html format](https://ebn.bmj.com/content/19/2/34) or [PDF format](https://ebn.bmj.com/content/ebnurs/19/2/34.full.pdf).
