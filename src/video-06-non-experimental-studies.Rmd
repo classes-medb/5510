@@ -833,10 +833,6 @@ I want to review Sir Austin Bradford Hill's criteria for establishing a causal r
 * Strength
   + Large effects can only be overturned by large confounders.
   + Weak effects can still be real
-* Consistency
-  + Replication across DIFFERENT study types
-* Specificity
-  + If it seems to cure everything, it cures nothing
 
 <div class="notes">
 
@@ -846,25 +842,7 @@ Keep in mind, though, that weak effects can still be real. There was some critic
 
 When the association is small, you don't totally disregard it. You just have to rely on some of the other criteria.
 
-Consistency is also important. A single positive result in a single observational study could possibly be the result of various biases. A second positive result in a second study that is substantially different than the first study, could possibly be the result of a different set of biases. But by the time the third result comes along, in a study different that the first two, it becomes awfully hard to argue that there is a third set of biases. Biases can work in both directions, and it would be rare that all of these biases would conspire to work together towards a common goal.
-
-Now, if the same study is replicated more or less consistently, then replication doesn't help that much.
-
-</div>
-
-### Hill's criteria (1 of 9)
-
-* Strength
-  + Large effects can only be overturned by large confounders.
-  + Weak effects can still be real
-
-<div class="notes">
-
-Hill identified the strength of the association as being the most critical factor. The reason for this is that a strong effect could only be overturned by a strong confounder. A weak confounder would only attenuate things a bit. If you want to hypothesize that a third factor among smokers (poor diet, dangerous work conditions, or lack of exercise) could cause the ten to twenty fold increase in the risk of lung cancer, that third factor would have to increase the risk of lung cancer by more ten or twenty fold.
-
-Keep in mind, though, that weak effects can still be real. There was some criticism of a government report that said that the number of deaths due to smoking was around 450 thousand people per year. The critics dissected this number and said, we'll allow you the deaths due to cancer, but not for other factors like stroke and heart attacks, because these only showed a two fold or smaller increase in risk. It turns out that these other ways that smoking can kill you are very real, but because these causes of death (unlike lung cancer) are fairly common in the general population, you can't just get a large increase in risk. If 30% of the public dies from heart attacks, a ten fold increase is just impossible.
-
-When the association is small, you don't totally disregard it. You just have to rely on some of the other criteria.
+The other point, that has been made in many settings is that a large effect can be easily produced by a seriously flawed study. Paul Rosenbaum, in his book, Observational Studies discusses a non-randomized study conducted by Linus Pauling that showed a four fold increase in the survival times in patients with advanced cancer who received mega-doses of Vitamin C, and then points out the serious flaw that caused this finding.
 
 </div>
 
@@ -935,22 +913,29 @@ The biological gradient is often referred to as a dose-response relationship. If
 
 For example, recall bias is a big problem in retrospective studies. People's memory of the past is influenced by what has happened to them recently. It's not that one group is making things up, but rather that the controls are more likely to overlook things.
 
-Recall bias, though, is unlikely to be stronger in patients with a greater exposure, so if you see a gradient, with low exposures showing smaller effects than large exposures, that's good news. You can rule out recall bias and selection bias and other biases that affect your comparison more or less uniformly across the spectrum of exposures.
+Recall bias, though, is unlikely to be stronger in patients with a greater exposure, so if you see a gradient, with low exposures showing smaller effects than large exposures, that's good news. You can rule out recall bias and maybe selection bias and maybe even other biases if they affect your comparison more or less uniformly across the spectrum of exposures.
 
 Hormesis is a surprising, but not too unusual pattern where you see a helpful effect for a small dose of something that is decidely harmful for larger doses. There is some evidence, for example, that a small amount of wine (e.g., one glass per day) has some beneficial effects, even though a larger amount of alcohol consumption causes all sorts of problems. So failure to see a dose response pattern is not a disqualifying event.
-
 
 </div>
 
 ### Hill's criteria (6 of 9)
 
 * Plausibility
-  + Mechanism
+  + Biological mechanism
   + Dependent on current state of knowledge
 
 <div class="notes">
 
+Plausibility is a measure of whether a result is consistent with what we know about medicine. It is often referred to as a plausible biological mechanism.
 
+It is commonly cited as a factor in deciding whether a result should be trusted, but in the original 1965 publication, Sir Austin Bradford Hill seems somewhat unimpressed. He points out, correctly, that our knowledge of mechanisms changes over time. 
+
+There is also a fair amount of subjectivity in this term. Just to cite one extreme example, there was a surge about a decade ago in prayer studies where patients were randomly assigned to either receive prayers from a stranger or to a control group. There is certainly a big difference in opinion about whether it is plausible to believe in a God who intercedes in our lives when we pray to Him.
+
+The other problem with plausibility is that it is not too hard to come up with a biological mechanism for just about anything. So oral contraceptives could have an effect on the risk of breast cancer, but the mechanism could be an adverse effect because of the estrogen in oral contraceptives, or you could just as easily come up with a mechanism that is protective because of the progestin.
+
+In spite of Hill's reservations, a plausible mechanism is a great thing to have on your side. Lack of plausibility, however, could just mean that we haven't discovered the mechanism yet.
 
 </div>
 
@@ -976,6 +961,10 @@ Coherence means that the results of the research are consistent with what you kn
 
 Sir Austin Bradford Hill developed his nine criteria for settings where direct experimental manipulation of the exposure would be impossible, but sometimes you can find an indirect way to run an experiment.
 
+There are settings called natural experiments where a change in exposure was mandated by some fluke or accident. This is not as good as randomization, but the nature of the accident was unlikely to produce serious biases. This could be a law passed to ban import of pesticides, or a change in alcohol taxes. See the Craig 2012 article in the recommended readings.
+
+You might also be able to run an experiment with random assignment not to a particular exposure but rather to an intervention that is hoped might reduce the exposure. So, you can't randomly assign women to breast feeding versus bottle feeding, partly because it would be unethical and partly because of strong patient preference. But what you can do it to encourage every new mother to breast feed her child for six months. And then for a randomly selected subset of these patients, you would give them extra resources, such as access to a lactation consultant, free breast pumps, and regular visits by a home nurse. If those extra resources provided a significant change in breast feeding, then you would probably be able to measure improvements in the health and well-being of both the child and the mother.
+
 </div>
 
 ### Hill's criteria (9 of 9)
@@ -987,11 +976,11 @@ Sir Austin Bradford Hill developed his nine criteria for settings where direct e
 
 This is the weakest and hardest to understand of Hill's nine criteria. It requires a creative way of thinking.
 
+A paper by Fedak in your recommended reading suggests that the similarity in shape between carbon nanotubes and asbestos fibers might allow you to make an analogous claim about the cancer causing properties of carbon nanotubes.
+
 </div>
 
-
-
-### Nonexperimental Designs 
+### Analysis of Qualitative Data 
 
 + Qualitative – 5 main approaches
 	+ Phenomenological
@@ -1002,42 +991,56 @@ This is the weakest and hardest to understand of Hill's nine criteria. It requir
 
 <div class="notes">
 
-Phenomenological: try to understand the meaning that people place on events in their life. Try to understand from the perspective of the individual.
-
-Grounded theory: the goal is to generate theory from data collection: process, actions, interactions. The inferences that you take away need to be grounded in the data you collect. Try to avoid any prior expectations. Some people even recommend limiting the literature review because it might box you in.
-
-You won't know your sample size until you start collecting your data. As you are coding this information, you will be developing categories. These are provisional, there may be revisions as you go along and so the coding process is dynamic and iterative. As coding develops, you may go back to earlier data. Seek disconfirming examples. This is a check of your validity. You can also have audits by an independent reviewer. You are trying to reflect the reality of human experience.
-
-Ethnographic. Group of people who share the same culture.
-	
-Case study. A single case or group of related cases.
-
 Narrative. Develop stories.
 
 These approaches are all inductive. You are trying to develop a framework of understanding. Don't go in with a heavy set of expectations.
 
 </div>
 
+### Analysis of Qualitative Data 
 
-### Nonexperimental Designs 
-
-+ Qualitative – Phenomenological
-	+ A llow researcher to “… understand the meaning participants place onto “… events, phenomenon, and activities.”
-	+ Goal – “… explain the essence of experiences lived by the participants.”
+* Qualitative – Phenomenological
+	+ Allow researcher to understand the meaning participants place onto events, phenomenon, and activities.
+	+ Goal to explain the essence of experiences lived by the participants.
 	+ Method – usually interviews
 
 <div class="notes">
 
-
+Phenomenological: try to understand the meaning that people place on events in their life. Try to understand from the perspective of the individual.
 
 </div>
 
+### Analysis of Qualitative Data
 
-### Nonexperimental Designs 
+![Image of Pallesen 2019 article](../images/06/pallesen01.png)
+
+<div class="notes">
+
+Here's an example of a study using the phenomenological approach. In the methods section, the authors state that "The data were analyzed by using a five-step phenomenological analysis, which enables the researcher to enter the world of the participants and gain insight into their thoughts, feelings, and preferences."
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Pallesen 2019 abstract](../images/06/pallesen02.png)
+
+<div class="notes">
+
+The phenomenological approach was used to answer three questions:
+
+"(1) How do patients handle and overcome experienced changes after stroke? (2) How do they experience the support to handle these changes during the first year after stroke? (3) How do the similarities and differences transpire in Danish and Norwegian contexts?"
+
+The researchers identified four main issues.
+
+"The participants described four main issues in the recovery process that impacted the experienced changes: (i) strategies and personal factors that promote motivation, (ii) the involvement of family, social network, and peers, (iii) professionals' support, and (iv) social structures that limit the recovery process."
+
+</div>
+
+### Analysis of Qualitative Data 
 
 + Qualitative – Grounded Theory
-	+ Goal – “… generate theory from data collected from participants.”
-	+ “… focus on the process, actions, and interactions experienced by … participants.”
+	+ Goal - generate theory from data collected from participants.
+	+ focus on the process, actions, and interactions experienced by … participants.
 	+ Method – usually interviews
 
 <div class="notes">
@@ -1046,8 +1049,7 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
-
-### Nonexperimental Designs 
+### Analysis of Qualitative Data 
 
 + Grounded theory (Glaser & Strauss, 1967)
 	+ Inferences firmly “ grounded ” in the data
@@ -1063,22 +1065,108 @@ These approaches are all inductive. You are trying to develop a framework of und
 
 </div>
 
+### Analysis of Qualitative Data
 
-### Nonexperimental Designs 
-
-+ Qualitative – Ethnographic
-	+ Goal - “… describe a group of individuals who share the same culture.”
-+ Qualitative – Case-study
-	+ Goal – “…develop deep understanding of a case or cases.”
-+ Qualitative – Narrative
-	+ Goal – “… identify and report stories from the participants.”
+![Image of Greenfield 2018 article](../images/06/greenfield01.png)
 
 <div class="notes">
 
-
+Here's an example of a study using the grounded theory approach.
 
 </div>
 
+### Analysis of Qualitative Data
+
+![Image of Greenfield 2018 abstract](../images/06/greenfield02.png)
+
+<div class="notes">
+
+The study was conducted because... "A significant number of women experience childbirth as traumatic. These experiences are often characterized by a loss of control coupled with a perceived lack of support and inadequate communication with health care providers. Little is known about the choices women make in subsequent pregnancy(s) and birth(s), or why they make these choices. This study aimed to understand these choices and explore the reasons behind them."
+
+The general conclusion was that ... "If women who have previously experienced a traumatic birth become pregnant again, they have a strong desire to avoid a repeat experience and to feel in control of their birth choices."
+
+</div>
+
+### Analysis of Qualitative Data 
+
++ Qualitative – Ethnographic
+	+ Goal - describe a group of individuals who share the same culture.
++ Qualitative – Case-study
+	+ Goal - develop deep understanding of a case or cases.
++ Qualitative – Narrative
+	+ Goal – identify and report stories from the participants.
+
+<div class="notes">
+
+Ethnographic. Group of people who share the same culture.
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Khoei 2018 article](../images/06/khoei01.png)
+
+<div class="notes">
+
+Here's an example of a study using the ethnographic approach.
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Khoei 2018 abstract](../images/06/khoei02.png)
+
+<div class="notes">
+
+The study was conducted ... "to explore how women’s sexual behavior can become risky in the context of substance use."
+
+The researchers discovered  ... "Three major themes ...  1) life in the context of drug abuse, 2) negative self-perception, and 3) strive to survive. Subthemes were identified as loss of contact with family, social stigma, self-forgetfulness, worthlessness, low self-efficacy, and unsafe sexual context." 
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Phehlukwayo 2018 article](../images/06/phehlukwayo01.png)
+
+<div class="notes">
+
+Here's an example of a study using the case study approach.
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Phehlukwayo 2018 abstract](../images/06/phehlukwayo02.png)
+
+<div class="notes">
+
+The study was conducted to ... "investigate how contextual factors influenced care coordination for chronic mental illness care within the eThekwini District." 
+
+The general conclusion was that ... "Inequitably resourced catchment areas, unclear referral systems, high staff turnover, freezing of posts, chronic staff shortage and adverse working conditions contributed to care fragmentation, poor client care and client loss in the system. On the other hand, limited community support systems constituted barriers for client reintegration into society and relapses."
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Nakanishi 2019 article](../images/06/nakanishi01.png)
+
+<div class="notes">
+
+Here's an example of a study using the narrative approach.
+
+</div>
+
+### Analysis of Qualitative Data
+
+![Image of Nakanishi 2018 abstract](../images/06/nakanishi02.png)
+
+<div class="notes">
+
+The study was conducted to ... "clarify the critical mechanism underlying autonomy in physical health promotion based on the perspectives of people with severe mental illness."
+
+The general conclusion was that ...  "'Inhibited autonomy' was extracted as a central component and shaped by the users’ experiences, both in a healthcare setting and in real life. This component emerged based on the lack of an empowerment mechanism in psychiatric services."
+
+</div>
 
 ### Analysis of Qualitative Data 
 
@@ -1410,7 +1498,6 @@ Random selection is a better representation of the population. (External validit
 In any prospective study, you are only getting information for those people who are willing to be part of the study.
 
 </div>
-
 
 ### Nonexperimental Designs 
 
