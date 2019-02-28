@@ -1,6 +1,10 @@
 ### Discussion questions
 
-1. Review the following studies, all of which were not randomized. Explain why randomization was not used (impossible, impractical, unethical, strong patient preference, or retrospective). How were the control patients recruited?
+(Extra credit) Find an article on research methodology relating to secondary data analysis, observational studies, or community based participatory research and provide a three to four sentence summary. Include a link to the text or attach a PDF file if your article is behind a pay wall.
+
+1. Review one of the recommended readings for this week and provide a brief summary (three to four sentences).
+
+2. Review the following studies, all of which were not randomized. Pick one and explain why randomization was not used (impossible, impractical, unethical, strong patient preference, or retrospective). How were the control patients recruited?
 
 Faghih Habibi A, Gerami H, Banan R, et al. Serum 25-Hydroxy Vitamin D in Chronic Rhinosinusitis with and Without Nasal Polyposis: A Case-Control Study. Iran J Otorhinolaryngol. 2019;31(102):19-24. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6368985/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6368985/pdf/ijo-31-019.pdf).
 

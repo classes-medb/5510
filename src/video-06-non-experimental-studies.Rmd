@@ -1048,18 +1048,6 @@ The researchers identified four main issues.
 
 </div>
 
-### Qualitative research: grounded theory (0 of 3)
-
-+ Qualitative – Grounded Theory
-	+ Goal - .
-	+ focus on the process, actions, and interactions experienced by participants.
-
-<div class="notes">
-
-
-
-</div>
-
 ### Qualitative research: grounded theory (1 of 3)
 
 * Generate theory from data collected from participants
@@ -1098,16 +1086,13 @@ The general conclusion was that ... "If women who have previously experienced a 
 
 ### Qualitative research: ethnography (1 of 3)
 
-+ Qualitative – Ethnographic
-	+ Goal - describe a group of individuals who share the same culture.
-+ Qualitative – Case-study
-	+ Goal - develop deep understanding of a case or cases.
-+ Qualitative – Narrative
-	+ Goal – identify and report stories from the participants.
+* Study of individuals who share the same culture
+  + Methods developed in Sociology/Anthropology
+  + Strong emphasis on observation
 
 <div class="notes">
 
-Ethnography is the study of a group of people who share the same culture.
+Ethnography is the study of a group of people who share the same culture. The core ideas for ethnography were developed in Sociology and Anthropology, though its use has expanded into many different aspects of health care. Many of the resources that I reviewed stressed the importance of observation rather than interviewing, though both are used.
 
 </div>
 
@@ -1135,6 +1120,24 @@ The researchers discovered  ... "Three major themes ...  1) life in the context 
 
 ### Qualitative research: the case study (1 of 3)
 
+* In depth examination of a case or series of cases
+  + Not the same as a case report
+  + Viewed from a variety of lenses
+* Narrow definition
+* Emphasis on unusualness
+
+<div class="notes">
+
+The case study is an in-depth examination of a case. It is not clear, to me anyway, what the difference is between a case and a phenomenon. The case could represent a single case, meaning the experiences of one person in a particular setting, or it could represent a series of people. The resources in this area stress the importance of examining the case from a variety of different perspectives.
+
+The case study is not the same as a case report. The case report typically uses a factual reporting (mostly quantitative) of an unusual occurence for a single patient.
+
+It is important to define the case narrowly with respect to time, location, demographics, or other factors.
+
+The case study tries to identify the unusual or the outlier rather than the typical or average.
+
+</div>
+
 ### Qualitative research: the case study (2 of 3)
 
 ![Image of Phehlukwayo 2018 article](../images/06/phehlukwayo01.png)
@@ -1156,6 +1159,16 @@ The general conclusion was that ... "Inequitably resourced catchment areas, uncl
 </div>
 
 ### Qualitative research: narrative (1 of 3)
+
+* Narrative is a written account of an event
+  + Story developed from a variety of perspectives
+  + Use interviews, documents, artifacts
+
+<div class="notes">
+
+A narrative study is a written account of an event, a story, if you will. You develop this story through interviews, documents, and artifacts. You place the information in a structure. It can be chronological, but could also be organized by themes.
+
+</div>
 
 ### Qualitative research: narrative (2 of 3)
 
@@ -1179,270 +1192,134 @@ The general conclusion was that ...  "'Inhibited autonomy' was extracted as a ce
 
 </div>
 
+### Problems with traditional research
+
+* "Researchers are like mosquitoes; they suck your blood and leave" from Cochran 2008.
+* Harms of research
+  + Stigmatization
+  + Condescension
+  + Reinforcement of stereotypes
+  + Cultural insensitivity
+  + Failure to respect community standards
+  + Abandonment when the research is done
+  + Deception about true research purpose
+
+<div class="notes">
+
+I'm going to have some harsh words for you now, but you need to hear them. Researchers don't always make the world a better place.
+
+There is an increasing recognition that research often tends to benefit the person doing the research, and not the people who participate in the research. In fact, sometimes the research harms the participants, through stigmatization, condescending attitudes, and the reinforcement of harmful stereotypes. Researchers have abused their position by deceiving the research participants about the true goal of the research. They often fail to recognize and respects standards within the communities that they conduct their research in. There is also often a sense of abandonment, once the research is done, the participants never see or hear anything about the work.
+
+This is not true about all research and all researchers. It isn't even true about most research, I hope. But it does happen much more often than it should and it "poisons the well" and makes future research more difficult.
+
+</div>
+
 ### What is Community Based Participatory Research (CBPR)?
 
-+ Community Based Participatory Research (CBPR)
-+ Participatory Action Research (PAR)
-	+ Takes place outside the normal research environment
-	+ Designed to meet the needs of the community in which the research is conducted
-	+ Value for the participants that goes beyond the value of the collected information
+* Designed in collaboration with the people being researched
+* Also known as Participatory Action Research (PAR)
+* Not restricted to any research methodology
 
 <div class="notes">
 
+Community Based Participatory Research (CBPR) is an effort to avoid many of these abuses by actively engaging the community in all aspects of the research from the planning to the conduct to the write-up of the results. It is also known by the acronym PAR (Participatory Action Research).
 
+CBPR is not restricted to any particular type of research (e.g., qualitative versus quantitative), except that research in the community is, by definition, field research.
+
+</div>
+
+### Disadvantages of CBPR
+
+* Designed in collaboration with the people being researched
+* Also known as Participatory Action Research (PAR)
+* Not restricted to any particular research methodology
+
+<div class="notes">
+
+CBPR is not easy. It takes a lot more time. You need excellent communication skills, and especially listening skills.
+
+It also will make you feel quite a bit uncomfortable. You will be working with people who are quite different than you are, who have different needs, and different values. And if you're like 90% of all researchers, you're an introvert to begin with. I'm sure that your comfort level will improve over time, but I've been told that getting started is quite awkward.
+
+</div>
+
+### Advantages of CBPR
+
+* Advantages to you, the researcher
+  + Precisely targeted intervention
+  + Improved participation rate
+  + Greater generalizability
+* Advantages to the community
+  + Sustainability
+  + Greater community capacity
+
+<div class="notes">
+
+There are several big advantages to you, the researcher. By involving the participants in the research planning, you will be better able to target your intervention to the specific needs of this particular community. Second, the people in the community who help you plan the research will know better than you do how to design your study to make it attractive for the research participants. This will greatly improve your participation rate. The process of involving the community will almost always place the research in a more naturalistic context, which improves your generalizability.
+
+There are advantages to the community beyond just making you, the researcher, less arrogant. When the community makes a commitment to the research process this insures a better level of sustainability.
+
+The community based process helps the community grow and develop more capacity for research (and research that actually benefits them). They know as little about your world as you know about theirs. They, like you, will learn new skills. This will help the community in their interactions with future researchers. 
 
 </div>
 
 
-### Nonexperimental - CBPR / PAR 
+### Getting started with CBPR
 
-+ Existing research data or data collected from other locations …
-	+ May not reflect conditions (e.g., disease incidence) in the community of interest
-	+ May not reflect underlying risk factors
-	+ May not indicate how an intervention will work in a specific community
-
-<div class="notes">
-
-Community Based Participatory Research.
-
-This is increasingly used and make a big contribution. Extent to which the population that you are interested in are very much a part of the process of designing the research. It takes place outside the research process. It hurts internal validity but it is far more relevant, improving external validity. The value goes way beyond. Develop community capacity, improves sustainability, builds skills. More emphasis on these models using PCORI. Most of this work involves the community from the beginning. 
-
-</div>
-
-
-### Nonexperimental - CBPR / PAR 
-
-+ CBPR/PAR research may be more generalizable than research conducted in a clinical setting
-	+ Sample characteristics
-+ Practice-Based Research Networks (PBRNs)
-	+ Physicians from community settings work together to study research questions of mutual interest
+* Pick a problem 
+  + Simple
+  + Important
+  + Needed
+* Ideal settings
+  + Health disparities
+  + Complex interventions
+* Identify resources
+* Keep an open mind
+* Be willing to compromise
 
 <div class="notes">
 
+If you are new to CBPR, start with something that is simple, important, and needed. Pick something that you know should add value to the community. 
 
+CBPR has been applied effectively in health disparities research because often you are already doing quite well in some communities, but there are barriers in other communities that keep you from delivering a uniformly high quality of care. The community can help you identify and overcome those barriers.
+
+CBPR is also ideal for complex interventions, because the community can help you package the components that are most important from their perspective.
+
+Identify people who can be resources. Keep an open mind about the process. There is little value in insisting on a rigid approach. Also understand that compromise will be necessary. You need to sacrifice some of the things that you want in order to get the cooperation of people who have different goals than you do.
 
 </div>
 
+### Emphasize your strengths
 
-### Nonexperimental - CBPR / PAR 
+* Things you know that they don't
+  + Existing research evidence
+  + Ability to diagnose
+  + Natural course and history of disease
+  + How to measure
+  + Research standards
+  
+<div class="notes">
 
-+ How the research context influences the research process …
-	+ What issues are routinely encountered?
-	+ To whom is the research important?
-	+ Ripple effect of the research process
-	+ Level of engagement of the target population
+When you are working with a community, you can't be arrogant, but you can't hide your light under a bushel either. The community will look to you for your expertise. You know more than they do about what has been published in the literature. Your medical background makes you an expert in diagnosing disease, knowing what treatments are available, and what happens when a disease is left untreated.
+
+You also have the advantage of understanding the standards of research, ESPECIALLY BECAUSE YOU HAAVE HAD THE BENEFIT OF SUCH A GREAT TEACHER IN YOUR RESEARCH METHODS CLASS!!! You know about the need to measure carefully and objectively, the value of a control group, and how to prepare results that are persuasive in the research community.
+
+</div>
+
+### Understand the strengths of the community members
+
+* Things that they know that you don't
+  + Specific needs of their community
+  + Where to find research volunteers
+  + What they will and will not tolerate
+  + How to tweak an intervention
+  + Pragmatic advice
 
 <div class="notes">
 
-Other research may not reflect what the community is interested in. Research in a carefully constrained environment may not be sustainable.
-
-Collaboration among practitioners where they can combine efforts. Also valuable for networks of pharmacists.
-
-Issues important to the population and community. There can be a ripple effect. When community members get engaged, they can learn skills that can help in a different context, and inform them about resources that they can use in other areas. The community gains from the whole process.
+What you are looking for in the community is insights into the local context. The community knows best what their specific needs are and can help you prioritize. They know where to find volunteers, and can tell you what they will do and what they will refuse to do. They know how to adapt your proposed intervention to the special features of their community. In general, they offer very pragmatic advice about how to make a good fit between your research and their community.
 
 </div>
 
-
-### Nonexperimental - CBPR / PAR 
-
-+ Conducting CBPR/PAR
-	+ Start simple
-	+ Think of local comparative advantage
-	+ Network
-	+ Collaborate
-		+ Top-down
-		+ Bottom-up
-
-<div class="notes">
-
-Simple. What is important and what is needed. Add value to the community. Identify people who can be resources. This is very much a collaboration. It can be top-down, where you make yourself available to the community. A bottom-up is where you offer your expertise to help them develop a project.
-
-</div>
-
-
-### Nonexperimental - CBPR / PAR 
-
-+ CBPR/PAR – especially appropriate for research involving health disparities
-	+ Multiple individual and community-level determinants
-+ Mechanism to translate basic health psychology conceptual models into interventions
-
-<div class="notes">
-
-There are some many community level issues associated with health disparities.
-
-</div>
-
-
-### Nonexperimental - CBPR / PAR 
-
-+ Contributions by researchers
-	+ Know existing research evidence
-	+ Can provide support/suggestions
-		+ Organization
-		+ Information-gathering
-		+ Action
-	+ Help community get in touch with resources
-
-<div class="notes">
-
-You biring in your knowledge of existing resources, and provide support and suggestions. Advice about resources that they can tap.
-
-</div>
-
-
-### Nonexperimental - CBPR / PAR 
-
-+ Contributions by community
-	+ Unique insight into local context
-	+ Information concerning local needs and priorities
-	+ Provide "real world" feedback/reaction
-	+ Provide guidance for adapting programs/interventions to the community
-+ Community involvement community capacity sustainability
-
-<div class="notes">
-
-They understand needs and real world feedback. Does this fit in to individual people's needs.
-
-</div>
-
-
-
-### Nonexperimental Designs 
-
-![](../images/image-06-02.png)
-
-<div class="notes">
-
-Figure 7.1 identifies the five types of designs (descriptive, associational, comparative, quasi-experimental, and randomized experimental).
-
-These three non-experimental approaches differ the levels of the independent variable. A large number of ordered levels (equivalent to a continuous independent variable) falls in the associational research type.
-
-DiLorenzo compared older patients to younger patients.
-
-Haberer article includes both quantitative and qualitative research. Interactive voice response (IVR) versus short message service (SMS) as a way of collecting adherence. It is an HIV study where adherence is very important. Mobile technology has a lot of penetration in places like Africa. Parents that could read were randomized, but parents who could not read were assigned to IVR.
-
-They did qualitative interviews with all participants. The first theme was poor understanding of the responses. A second theme was challenges in training. The participants did not feel able to speak up and say that they don't understand.
-
-</div>
-
-
-### Research Approaches 
-
-+ Comparative research approach
-	+ Purpose?
-	+ How is this approach similar to randomized experimental and quasi-experimental?
-	+ C an this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-Look at the very end of the introduction to get at the purpose of the research. Review the participant.
-
-Random selection is a better representation of the population. (External validity?)
-
-In any prospective study, you are only getting information for those people who are willing to be part of the study.
-
-</div>
-
-### Nonexperimental Designs 
-
-+ Quantitative – Comparative
-	+ Comparing groups – 2 or more
-	+ Main IV has only a few levels
-	+ Statistical analysis –
-		+ T ypically t-test or analysis of variance
-	+ Example – DiLorenzo et al., 2004 article
-+ Usually – research that is reported will contain elements of more than one design
-	+ Example – Haberer et al., 2010 article
-
-<div class="notes">
-
-Often your research has the elements of more than one design.
-
-</div>
-
-
-### Research Approaches 
-
-+ Associational research approach
-	+ Purpose?
-	+ Characteristics of the variables measured?
-	+ Can this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-The compliance study is a good example of when you often end up with mixed methods to get more out of 
-
-The purpose is to find associations among variables. The variables collected are typically continuous. This type of approach does not tell you about cause and effect directly. The association might allow you to predict. Continuous really means many levels. The analyses are typically correlation based or multiple regression.
-
-An article by Rowan illustrates this well. Clinical record review and state HIV data. Variations in the engagement in care continuum. Impact of outmigration and death. When you don't have data is it because they are no longer engaged in care, or maybe they have moved on to a different provider. Has care improved over the last five years?
-
-What variables are associated with getting treatment to reduce viral loads. This paper also addresses how to handle people who you do not have complete follow-up on.
-
-Example of smoking cessation usually assumes that anyone who disappears is categorized as a treatment failure.
-
-</div>
-
-
-### Nonexperimental Designs 
-
-+ Quantitative – Associational
-	+ IV is often continuous / has many levels of an ordered variable (typically 5 or more )
-	+ Looking at the association between the IV(s) and the DV
-	+ Statistical analysis –
-		+ Correlation-based
-		+ Multiple regression when there are multiple Ivs
-	+ Example – Rowan et al. 2014 article
-
-<div class="notes">
-
-
-
-</div>
-
-
-### Research Approaches 
-
-+ Descriptive research approach
-	+ Purpose?
-	+ When usually used?
-	+ Characteristics of the variables measured?
-	+ Can this approach tell you anything about cause and effect?
-
-<div class="notes">
-
-Usually used for an exploratory. It could be characterization of surveys or polls. It might be performance reports.
-
-</div>
-
-
-### Nonexperimental Designs 
-
-+ Quantitative – Descriptive
-	+ Descriptive statistics
-		+ Averages
-		+ Percentages
-		+ Histogram
-		+ Frequency distribution
-	+ Some publication of strictly descriptive studies
-	+ More often – descriptive component of a study
-		+ Describe the sample
-	+ Example – Wolfe et al, 2006 study
-
-<div class="notes">
-
-The Wolfe study is a good example. This study is in Botswana. Effects of stigma and its effect on health related behaviors. Structured questions followed by open ended questions. They are reporting percentages.
-
-</div>
-
-### Assignment #4 
-
-+ Turn in the results of a literature search on the topic you are planning to focus on for your research proposal . This is NOT expected to be a literature review; it should provide evidence that you are finding literature that is relevant to your topic. This assignment serves as the start of your References section, using the reference/citation style you plan to use in your proposal.
-
-<div class="notes">
-
-I don't expect this to be your final literature review but it will help form the literature review. Looking for progress in finding relevant references. No need to turn in a reference section. Use a reference or citation style. Pick a style that is used in your field. Just be consistent. Show me evidence of the literature that is relevant.
-
-</div>
 
 ***
 `r read_text("hw06", fri[6])`

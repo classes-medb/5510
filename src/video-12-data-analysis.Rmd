@@ -41,6 +41,12 @@ This is what you should have read already. If you haven't done the reading yet, 
 * Positivism versus constructivism, revisited
   + https://www.sagepub.com/sites/default/files/upm-binaries/29985_Chapter1.pdf
   + http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/
+  
+Tools: semi-structured interviews, participant observation, photo elicitation(?), mapping exercises(?), web and space design workshops(?), archival records, physical artifacts, 
+
+Typically, a one-hour interview requires a minimum of three to four hours (or more) of analysis.
+
+Involve the participants in the process, especially for narrative research.
 
 ### Analysis of Qualitative Data 
 
