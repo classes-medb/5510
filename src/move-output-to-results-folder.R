@@ -3,17 +3,14 @@ src_path <- paste(project_name, "src", sep="/")
 res_path <- paste(project_name, "results", sep="/")
 doc_path <- paste(project_name, "doc", sep="/")
 html_list <- list.files(src_path, pattern="*.html")
-for (i in html_list) {
-  fn <- paste(src_path, i, sep="/")
-  file.copy(fn, res_path, overwrite=TRUE)
-  file.remove(fn)
-}
 
-{
-  cat("\n\n")
-  cat(length(html_list))
-  cat(" html file(s) moved: ")
-  cat(paste(html_list, collapse=", "))
+display_info <- function(x_list, x_name) {
+  cat(length(x_list))
+  cat(" ")
+  cat(x_name)
+    cat(" file(s) moved: ")
+  cat(paste(x_list, collapse=", "))
+  cat("\n")
 }
 
 pdf_list <- list.files(src_path, pattern="*.pdf")
@@ -23,11 +20,10 @@ for (i in pdf_list) {
   file.remove(fn)
 }
 
-{
-  cat("\n\n")
-  cat(length(pdf_list))
-  cat(" pdf file(s) moved: ")
-  cat(paste(pdf_list, collapse=", "))
+for (i in html_list) {
+  fn <- paste(src_path, i, sep="/")
+  file.copy(fn, res_path, overwrite=TRUE)
+  file.remove(fn)
 }
 
 pptx_list <- list.files(src_path, pattern="*.pptx")
@@ -37,9 +33,6 @@ for (i in pptx_list) {
   file.remove(fn)
 }
 
-{
-  cat("\n\n")
-  cat(length(pptx_list))
-  cat(" pptx file(s) moved: ")
-  cat(paste(pptx_list, collapse=", "))
-}
+display_info(pdf_list,  "pdf")
+display_info(html_list, "html")
+display_info(pptx_list, "pptx")
