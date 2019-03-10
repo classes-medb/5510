@@ -9,6 +9,7 @@ output:
 
 ```{r echo=FALSE}
 source("prelims.R", echo=FALSE)
+getwd()
 ```
 
 ***
@@ -51,7 +52,7 @@ College students are not representative of young adults.
 
 </div>
 
-***
+
 ### Sampling 
 
 + Reasons for sampling
@@ -65,7 +66,7 @@ A small sample allows you to spend more time on quality control.
 
 </div>
 
-***
+
 ### What is a population?
 
 * A group of people or objects that share one or more common features.
@@ -188,7 +189,7 @@ Maybe, but keep in mind that you won't find every criminal in prison. A better c
 
 <div class="notes">
 
-Probability sample: every person in the population has a known non-zero probability of being sample. 
+In a probability sample, every person in the population has a known non-zero probability of being in the sample. 
 
 Simple random sampling: equal and independent probability of being selected. Easier to achieve with an existing data.
 
@@ -202,198 +203,240 @@ Two stage selection: randomly select a cluster using a probability model and the
 
 </div>
 
-***
+### How to draw a simple random sample
+
+1. List the sampling frame in a logical order
+
+2. Attach a column of random numbers
+
+3. Sort by the column of random numbers
+
+4. Select your sample, starting at the top
+
+<div class="notes">
+
+There are a lot of places, including your book, that make the actual process of drawing a random sample more complicated than it needs to be. Ignore what your book says and follow this algorithm.
+
+List your sampling frame in a logical order. Then attach a column of random numbers and sort by that column. Sorting by a column of random numbers places your list in a random order.
+
+Then just select your sample starting from the top of the randomly sorted list.
+
+</div>
+
+### Simple random sample using Microsoft Excel
+
+![A spreadsheet illustrating simple random sampling](../images/08/random01.png)
+
+<div class="notes">
+
+This shows the random sampling process using Microsoft Excel. There are 26 patients in your sampling frame. Arrange them in a systematic order. Then attach a column of random numbers. Notice that the smallest random number (0.0138863) is associated with "T". This letter goes to the top of the list when you sort the data and is the first person in your sample.
+
+If you needed to select five people, your simple random sample would be T, F, P, X, and C.
+
+</div>
+
+### How to draw a stratified random sample
+
+1. List the sampling frame and strata in a logical order
+
+2. Attach a column of random numbers
+
+3. Sort by the strata and the column of random numbers
+
+4. Select your sample, starting at the top
+
+<div class="notes">
+
+The process of selecting a stratified random sample is similar. You have two columns. The first column is your sampling frame and the second column is your strata. Add a column of random numbers and sort first by the strata and then by the random numbers. This places the numbers in a random order within each strata.
+
+</div>
+
+### Stratified random sample using Microsoft Excel
+
+![A spreadsheet illustrating stratified random sampling](../images/08/random02.png)
+
+<div class="notes">
+
+This shows the stratified random sampling process using Microsoft Excel.
+
+Split your data into two strata: consonants and vowels. Arrange them systematically.
+
+Attach a column of random numbers. Notice that "P" has the smallest random number among the consonants (0.0207696) and "O" has the smallest random number among the vowels (0.0727503). Then do a two level sort: first by the strata and then by the random numbers.
+
+If you wanted a random sample of three consonants and two vowels, your stratified sample would be P, K, V among the consonants and O and U among the vowels.
+
+</div>
+
 ### Sampling 
 
-+ Sampling designs – Nonprobability sampling
+* Sampling designs – Nonprobability sampling
+	+ Convenience sampling
 	+ Quota sampling
 	+ Purposive sampling
-		+ Purposeful sampling
-	+ Convenience sampling
+	+ Purposeful sampling
+  + Snowball sampling
 
 <div class="notes">
 
-Probability of being selected is unknown. Used because of cost or time constraints.
+In a non-probability sample, the probability of an person being selected is unknown. You use this approach because you have to (it is impossible to obtain a sampling frame) or because it takes too much time or too much money.
 
-Quota: flexibility in who to select as long as certain quotas are met.
+A convenience sample is a sample that is collected without any planned attempt to make the sample representative. You choose people for your sample because they are easy to find. When a drug company places an ad in the paper looking for volunteers, the sample that they get is a convenience sample. When a doctor recruits patients who just happen to be coming to his or her clinic that day, that is a convenience sample.
 
-Purposive sampling. Identify characteristics that you feel are representative and search for 
+Sometimes researchers will make a feeble attempt to get a representative sample, such as asking physicians in urban, suburban, and rural setting to recruit patients. But it still represents a convenience sample.
 
-Purposeful sampling is used with qualitative research.
+A quota sample is like a convenience sample. It gives you flexibility in who to select as long as certain quotas are met. Back when shopping malls were popular, marketing research firms would take samples from the people strolling by the stores. They'd approach people and ask if they wanted to participate in a survey or a taste test or something similar. The people doing the sample had to get a certain number of people in each demographic group, and my demographic group (young male) was always the hardest to get. So these people would walk right past everyone else and pick me out for their sample because they already had enough older people and enough females.
 
-Convenience without any planned attempt to make the sample representative. [[Maybe put this first??]]
+In a purposive sample, you identify characteristics that you feel are important and search for for patients with those characteristics. In some qualitative studies, for example, researchers will try to find a few patients who representative of one extreme and a few who are representative of the opposite extreme and sometimes a few who are in the middle. This insures that you will hear a broad range of comments.
+
+Purposeful sampling is also commonly used with qualitative research. You only have a limited amount of time and money and you want to select patients who are "information rich."
+
+Both purposive and purposeful samples require the use of subjective judgement. This sounds terrible, but there is at least some empirical evidence that a purposive sample can outperform a simple random sample. See the van Hoeven article under recommended readings for an example. 
 
 </div>
 
-***
-### Sampling 
+### Example of a purposive sample
 
-+ Sample size
-	+ General rules
-		+ Representativeness vs number
-		+ Impact of having very large sample sizes
-	+ Generally –
-		+ Need sample to be large enough so you don’t miss important findings
-		+ If very large sample, need to distinguish statistical significance vs clinically important
+![Table describing purposive sampling strategy](../images/08/purposive sampling strategy.png)
 
 <div class="notes">
 
-How many people do I need. This best done using a power analysis. Take account of the measures being used and what you expect to see. Information from previous research or other kinds of things.
-
-Representativeness is more important than the absolute size of the sample.
-
-Large enough so you don't miss important findings.
-
-In cases with really large sample sizes where you get statistical significance without practical significance. Effects.
+This table, from the Wheelock artice in recommended readings, shows an example of a purposive sample. In each country, researchers had to select 20 patients and they had to make sure that some of these patients had and some did not have the eligible chronic condition. They also had to get a minimum number from particular demographic groups like gender, age, socioeconomic status, and vaccination status.
 
 </div>
 
-***
-### External Validity 
+### Randomizing treatments within a convenience sample
 
-+ Generalizability
-	+ Fig. 9.3
-	+ Evaluating Research Validity Framework
-	+ Two main aspects
-		+ Population external validity
-		+ Ecological external validity
+Many studies use a convenience sample, which may hamper external validity, but they randomly assign treatment or control conditions within the convenience sample, which helps with internal validity. The process works much like the process of drawing a simple random sample.
+
+1. List your treatment groups in a logical order
+
+2. Attach a column of random numbers
+
+3. Sort by the column of random numbers
+
+4. Allocate treatment groups, starting at the top of the list.
 
 <div class="notes">
 
-The extent to which results can be generalized beyond this study. Extrapolate to the bigger world.
+Much research involves the use of convenience samples, with randomization to two or more treatment groups. The randomization after a convenience sample is not the same as using a random sample, and it does nothing for generalizability (or external validity). It does help with internal validity.
 
-Evaluating freamework (questions 14 and 15). 
-
-Population: how participants were selected.
-
-Ecologic validity: the more control you have, the better the internal validity but the less like it is for real world. The naturalness of the setting, rapport.
-
-Figure 9.3. 
+if you've never randomized treatment allocation before, the literature is a bit confusing. The simplest approach is to follow the same logic that you use for selecting a random sample. Please the treatment conditions in a systematic order, attach a column of random numbers and then sort by the random numbers. This places your treatment allocation in a random order. You assign your first patient to the treatment group listed at the top of the list. The second patient giets the next treatment group listed, and so forth.
 
 </div>
 
-***
-### External Validity 
+### Randomizing treatment allocation using Microsoft Excel
 
-+ Population external validity
-	+ How participants were selected for the study?
-	+ Is sample representative of the target population?
-	+ Validity framework
+![A spreadsheet illustrating random treatment allocation](../images/08/random03.png)
 
 <div class="notes">
 
+This shows the randomized allocation of treatments using Microsoft Excel.
 
+Arrange your treatments systematically (T, C, T, C, etc.)
+
+Attach a column of random numbers. Notice that the smallest random number (0.0258002) is associated with a "T". This "T" goes to the top of the list. The first five patients get allocated to T, C, T, T, and C respectively.
 
 </div>
 
-***
-### External Validity 
+### Randomizing a crossover trial using Microsoft Excel
 
-+ Ecological external validity
-	+ Whether the results can be generalized to real-life outcomes
-	+ Trade-off with control of study
-	+ Validity framework
+![A spreadsheet illustrating random allocation of treatment order](../images/08/random03.png)
 
 <div class="notes">
 
+The process of sorting by a column of random numbers extends easily to more complex research designs. This screenshot from a Microsoft Excel spreadsheet shows the randomized allocation of treatment order in a crossover trials using Microsoft Excel.
 
+Arrange the treatment and control values in pairs. Then attach a column of random numbers. When you sort by pair and then by the column of random numbers, you arrange the order of treatments randomly within each pair. The first pair has a smaller random number for C (0.652967) than for T (0.7492683), so the first subject gets a treatment followed by a control. The next three subjects get the control first.
+
+Following this basic idea, you can just as easily randomize with three or more treatment groups, and randomize treatment order within strata.
 
 </div>
 
-***
-### External Validity 
+### Matching and pairing
 
-![](../images/image-07-07.png)
+* Improved precision
+* Logistical issues
+* Works for both randomized and observational studies
 
 <div class="notes">
 
+Matching and pairing can greatly improve the precision of your research study, but it can raise some difficulties as well.
 
+You can use matching for randomized studies. Arrange your patient groups into pairs of patients with similar demographics (same race, same gender, same age plus or minus 3 years). Then randomly assign one of the patients in a pair to the treatment group and the other patient into the control group.
+
+In a case control study, select your case and then find a control with similar demographics. The same idea works for a cohort study.
 
 </div>
 
-***
-### Sampling and Validity 
+### The logistics of matching
 
-![](../images/image-07-08.png)
+* Not obvious
+* Simplest solution: greedy matching
+* Unpaired patients are lost to your analysis
+  + Extra precision from pairing
+  + Loss of precision from loss of the unpaired.
+  
+<div class="notes">
+
+The process of matching is trickier than it looks. If you have a single variable to match on, it is pretty easy. But with multiple matching variables, you have to sometimes make trade-offs. How important is it to match to the same gender? Would you rather be sure that the match is very close in age?
+
+If you match, you need to face the fact that some of the precision and/or bias reduction that you get from matching will be reduced by the loss of some patients who you are unable to find a good match for. There's a phrase about jumping from the frying pan into the fire, and with matching, you are not sure if the effort will end up hurting rather than helping.
+
+</div>
+
+### A simple matching example
+
+![A spreadsheet illustrating the process of matching patients on age and gender](../images/08/matching.png)
 
 <div class="notes">
 
-Figure 9.4. External validity is influenced by the sampling process. Internal validity is influenced by the allocation of this sample to treatment groups.
+Here's a simplistic example of matching, done by hand inside an Excel spreadsheet.
+
+For this exercise, assume that matched pairs MUST be the same gender, and that you would be okay with an age difference of 6 years or less.
+
+First, pick out the pairs that are a perfect match. There are two perfect matches in this data set: the pair of 8 year old males and the pair of 15 year old males.
+
+Next, look for the smallest discrepancy: one year. If you weren't so fussy about gender, it might make sense to match the 6 year old female with the 7 year old male, but we'll resist that temptation.
+
+Now look for discrepancies of two years. We can match the females who are 4 and 6 years old, the females who are 24 and 26 years old, and the males who 28 and 30 years old.
+
+For discrepancies of three years, you can match the 35 and 38 year old females and the 32 and 35 year old males.
+
+For discrepancies of four years, you can match the 11 and 15 year old females and the 18 and 22 year old males.
+
+You should probably stop here, but if you are willing to match within a six year range, there are a couple more that you can add to the list. At the end of it all, you have a 28 year old female, a 65 year old female, and a 62 year old male who remain unmatched.
+
+The process I described is called a greedy match, and it usually does okay, but sometimes you can improve on it a bit.
+
+The process of sorting by a column of random numbers extends easily to more complex research designs. This screenshot from a Microsoft Excel spreadsheet shows the randomized allocation of treatment order in a crossover trials using Microsoft Excel.
+
+Arrange the treatment and control values in pairs. Then attach a column of random numbers. When you sort by pair and then by the column of random numbers, you arrange the order of treatments randomly within each pair. The first pair has a smaller random number for C (0.652967) than for T (0.7492683), so the first subject gets a treatment followed by a control. The next three subjects get the control first.
+
+Following this basic idea, you can just as easily randomize with three or more treatment groups, and randomize treatment order within strata.
 
 </div>
 
-***
-### Sampling 
+### The cross-over trial
 
-![](../images/image-07-09.png)
+* Only for some randomized trials
+* Each subject serves as own control
+* Randomize treatment order
+* Beware of carry-over
 
 <div class="notes">
 
-Figure 8.2 from Portney & Watkins (2009), but really from the Consort statement.
+A research design that takes matching to its ultimate extent is the cross-over trial. This only works for randomized studies, and then only for some of them, but when it does work, it's great.
 
-Start with number assessed for eligibility. How many were enrolled. How many excluded and why. Then talk about treatment allocation. Report numbers at each follow-up point.
+In a cross-over trial, each subject is given the treatment and also given the control. You randomize the order: some subjects get the treatment first and then the control. Some subjects get the control first and then the treatment.
 
-Moher et al publication of the Consort statement.
+you can't use this design for an attribute variable. You can't switch someone from one age group to another, for example.
 
-Review Table 1.
+Even with an independent variable that you can manipulate, the cross-over trial is sometimes problematic. You can't switch from the treatment group to the control group for example, when the control is a masectomy and the treatment is a lumpectomy, because you can't undo the effects of one surgery and try the different surgery.
 
-</div>
+Training interventions also don't work. You can't train someone one way, get them to unlearn things and then re-train them a different way.
 
-***
-### Assignment #5 
+Generally, you have to have a treatment that is short and easily reversible. You gain a lot of precision because all of the factors that are difficult to get perfect balance for in a normal trial disappear in a cross-over trial. Differences in demographics and differences in severity of illness completely disappear.
 
-+ Prepare a first draft of the literature review that supports your research topic and provides evidence of the significance of the topic. Submit this assignment using "Turnitin" through Blackboard.
-
-<div class="notes">
-
-Here are some examples of literature review. The first is a biology study. Notice that it includes subsections. It reflects a personal understanding.
-
-Your literature review is not an annotated bibliography. Make the argument for why the study you are proposing needs to be done.
-
-Turnitin. Will upload though a link on the Blackboard site. Turnitin takes the document that you submit and compares it to documents in the public space and gives a rating of similarity.
-
-Two submission sites. One is a practice site. Stay under 20% similarity. It may be that your topic is such that the language appears the same in all research even though you did not plagiarize.
-
-You will see a markup version of similarities.
-
-Turnitin looks at student archive in addtion to the public space.
+For drugs that have a carry-over effect, you should probably wait until the first drug is completely washed out of the body before starting the second drug. This can be a problem for certain drugs that have a long half-life.
 
 </div>
-
-***
-`r read_text("hw07", fri[7])`
-
-<div class="notes">
-
-Here is the homework.
-
-</div>
-
-***
-`r read_text("discussion07", fri[7])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-
-### Additional slides
-
-### Next
-
-![](../images/image-07-06.png)
-
-Figure 9.1.
-
-Target or theoretical population. From this, develop a sampling frame. Next select a sample. What you end up with are those who are selected, who agree to participate and who provide sufficient information to allow evaluation.
-
-Response rate. A good value is context specific.
-
-How much attrition occured and very importantly whether attrition differs between the two groups.
-
-</div>
-
-***

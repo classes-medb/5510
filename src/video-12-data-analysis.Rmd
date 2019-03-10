@@ -214,6 +214,188 @@ This was mentioned earlier.
 </div>
 
 ***
+### Descriptive Statistics 
+
+![](../images/image-08-03.png)
+
+<div class="notes">
+
+Figure 10.1 shows the standard bell shaped curve.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Descriptive graphs
+	+ How to look at your data
+	+ Options for viewing your data
+		+ Frequency polygons
+		+ Histograms
+		+ Bar charts
+
+<div class="notes">
+
+Even for a qualitative study, you'll still want to describe characteristics of your sample.
+
+For a fancier inferential analysis, you still should start with a descriptive analysis.
+
+</div>
+
+***
+### Descriptive Statistics 
+
+![](../images/image-08-04.png)
+
+<div class="notes">
+
+Figures 10.2 and 10.3.
+
+Frequency polygon has a line connecting values and implicitly represents a normal distribution.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Measures of central tendency
+	+ Mean
+	+ Median
+	+ Mode
+
+<div class="notes">
+
+These terms should already be familiar to you. The mean is the best choice for approximately normal distribution. The median is better for non-normal continuous variables and ordinal variables.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Measures of variability
+	+ Range
+	+ Standard deviation
+	+ Interquartile range
+	+ How many categories
+
+<div class="notes">
+
+The standard deviation is considered a poor measure of variability for a non-normal population. The interquartile is the difference between the 75th percentile and the 25th percentile. Define the 25th percentile as the value so that approximately 25% of the values are smaller and 75% are larger.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Measures of association between 2 variables
+	+ Correlation
+		+ Pearson
+		+ Spearman
+	+ Cross-tabulation
+	+ Scatterplot
+
+<div class="notes">
+
+A correlation is a value between -1 and +1. There are two versions. Use Spearman for non-normal or ordinal variables.
+
+Cross-tabulation is best for nominal and ordinal variables.
+
+</div>
+
+***
+### Descriptive Statistics 
+
+![](../images/image-08-05.png)
+
+<div class="notes">
+
+Figure 10.4 shows the relationship between grade level and performance on a math achievement test. It shows a trend line and an R-squared value.
+
+Note that this is an association but not necessarily a causal relationship. Knowledge of one variable helps you predict the other.
+
+</div>
+
+***
+### Descriptive Statistics 
+
+![](../images/image-08-06.png)
+
+<div class="notes">
+
+Figure 10.5 shows a much weaker relationship between grade level and motivation scale. The trend line is flat and the R-squared value is small.
+
+</div>
+
+***
+### Descriptive Statistics 
+
+![](../images/image-08-07.png)
+
+<div class="notes">
+
+Table 10.6 shows a cross-tabulation. Mary revised this to include row and column percentages. Orient towards the row totals or the column totals. Row percentages add up to 100% within each row and column percentages add up to 100% within each row.
+
+You might compute both row and column percentages, but only include one in your final table.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Properties of the normal curve
+	+ Unimodal
+	+ Mean, median, and mode are equal
+	+ Symmetric curve (skew)
+	+ Range is infinite
+	+ Shape – not too peaked or flat (kurtosis)
+
+<div class="notes">
+
+This is not a Statistics class, but is intended to help you decide how to choose analyses for your research plan.
+
+There are five properties. Unimodal, symmetric (no skewness), infinite range, peakedness or flatness tells you information about the tendency to produce outliers.
+
+[[Talk about range restrictions.]]
+
+</div>
+
+***
+### Descriptive Statistics 
+
+![](../images/image-08-08.png)
+
+<div class="notes">
+
+Figure 10.1 (normal curve) again.
+
+</div>
+
+***
+### Descriptive Statistics 
+
++ Standard normal curve
+	+ Definition
+	+ How to compute
+	+ Effect size
+
+<div class="notes">
+
+Set the mean to zero and a standard deviation of one. The standard normal curve is useful for effect size calculations and power analysis.
+
+</div>
+
+***
+### Measurement & Descriptive Statistics 
+
+![](../images/image-08-09.png)
+
+<div class="notes">
+
+Table 10.7. This is a great table that tells you what graphical and numeric summaries are appropriate for what types of data. This doesn't address the statistical tests (inferential analyses).
+
+</div>
+
+***
 ### Making Inferences - NHST 
 
 + Populations versus Samples
@@ -966,3 +1148,26 @@ There is always a level of uncertainty associated with a single study.
 ***
 
 ### Additional slides
+
+### Sampling 
+
++ Sample size
+	+ General rules
+		+ Representativeness vs number
+		+ Impact of having very large sample sizes
+	+ Generally –
+		+ Need sample to be large enough so you don’t miss important findings
+		+ If very large sample, need to distinguish statistical significance vs clinically important
+
+<div class="notes">
+
+How many people do I need. This best done using a power analysis. Take account of the measures being used and what you expect to see. Information from previous research or other kinds of things.
+
+Representativeness is more important than the absolute size of the sample.
+
+Large enough so you don't miss important findings.
+
+In cases with really large sample sizes where you get statistical significance without practical significance. Effects.
+
+</div>
+

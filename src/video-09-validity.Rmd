@@ -29,10 +29,16 @@ This is what you should have read already. If you haven't done the reading yet, 
 
 </div>
 
-***
-### Measurement 
+### Three types of validity
 
-+ “Study quality also depends on the *consistency* (measurement reliability) and *accuracy* (measurement validity) of the specific instruments …”
+* Internal validity
+  + "The extent to which we can infer that the independent variable caused the dependent variable."
+* External validity
+  + "The extent to which the findings will generalize to other populations, settings, measures, and treatments."
+* Measurement validity
+  + "The quality of accuracy of individual measures or scores. The extent to which a score measures what it was intended to measure."  
+
++ "Study quality also depends on the *consistency* (measurement reliability) and *accuracy* (measurement validity) of the specific instruments"
 
 <div class="notes">
 
@@ -41,6 +47,331 @@ The two articles Green et al, Ratliff et al will be the focus of discussion acti
 </div>
 
 ***
+***
+### Validity 
+
+![](../images/image-07-01.png)
+
+<div class="notes">
+
+Figure 8.1 has a very concise presentation. Three different types of validity that feed into what a study does. This lecture is just about internal validity. The extent to which you can infer that the independent variable caused the dependent variable.
+
+</div>
+
+***
+### Internal Validity 
+
++ “The extent to which we can infer that the independent variable *caused* the dependent variable.”
+	+ For non-experimental studies –
+		+ How “well designed and conducted” was the study?
++ Three criteria for causality
+
+<div class="notes">
+
+It's really only randomized trials that can establish causality. But even in quasi-experimental and non-experimental studies, you can still talk about internal validity.
+
+The cause has to precede the effect, it must be connected to the effect, and there must be no other variables that could explain why the cause is related to the effect.
+
+</div>
+
+***
+### Internal Validity 
+
++ “The extent to which we can infer that the independent variable *caused* the dependent variable.”
++ Three criteria for causality
+	+ IV *must precede* the outcome variable
+	+ IV *must be related* to the outcome
+	+ There must be no other variables that could explain why the IV is related to the outcome
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Internal Validity 
+
++ Three criteria for causality –
+	+ IV *must precede* the outcome variable
+	+ IV *must be related* to the outcome
+	+ There must be no other variables that could explain why the IV is related to the outcome
++ By Research Approach –
+	+ Randomized Exp
+	+ Quasi- Exp
+	+ Comparative
+	+ Associational
+	+ Descriptive
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Internal Validity 
+
+```{r tbl5, echo = FALSE, eval=FALSE}
+tbl5 <- tibble::tribble(
+~`Criteria for Causality`, ~`Randomized Exp`, ~`Quasi-Exp`, ~`Comparative`, ~`Associational`, ~`Descriptive`,
+"IV must precede the outcome variable","Met","Often met","Sometimes met, but order might not be clear","Sometimes met, but order might not be clear","NA",
+"IV must be related to the outcome","Met","Usually met","Usually met","Usually met","NA",
+"There must be no other variables that could explain why the IV is related to the outcome","Met","Met in the strongest designs","Not possible","Not possible","NA"
+)
+
+kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
+```
+
+<div class="notes">
+
+For randomized designs, the cause precedes the effect, the cause is related to the outcome and there are no other variables that could explain the relationship.
+
+</div>
+
+***
+### Internal Validity 
+
++ Meeting the 3 causality criteria based on –
+	+ Strength of the research design
+	+ Internal validity
+
+<div class="notes">
+
+The strength of the research design and the internal validity determine whether you can claim causality. Try to design the study to maximize internal validity. 
+
+</div>
+
+***
+### Internal Validity 
+
++ Internal validity -
+	+ Most often discussed with reference to randomized experimental and quasi-experimental designs
+	+ Can also be applied to non-experimental studies
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Internal Validity 
+
++ Evaluating the internal validity of a study –
+	+ Equivalence of the groups on participant characteristics
+	+ Control of extraneous experiences and environmental variables
+
+<div class="notes">
+
+There are two aspects of internal validity, equivalence and control.
+
+</div>
+
+***
+### Internal Validity 
+
++ Equivalence of the groups on participant characteristics –
+	+ Are groups equivalent prior to introduction of IV?
+		+ Randomized experimental design –
+			+ Random assignment
+		+ Quasi-experimental design –
+			+ Random assignment of treatments
+			+ Matching
+			+ Checking pretest scores
+
+<div class="notes">
+
+Random assignment assures equivalence of the two groups on average. A rule of thumb is 30 people assigned to each group should give you confidence that random assignment will assure equivalence. If you are using random assignment, you should not need to test for baseline equivalence. We feel that random assignment is the best way to achieve equivalence.
+
+In quasi-experimental design, you don't have random assignment, but you can randomly assign between the two groups. You can also use matching to achieve equivalence. Finally, you can check baseline scores for equivalence.
+
+</div>
+
+***
+### Internal Validity 
+
++ Equivalence of the groups on participant characteristics –
+	+ Are groups equivalent prior to introduction of IV?
+		+ Comparative design –
+			+ Statistical adjustment (ANCOVA) to adjust DV scores to make groups more nearly equivalent
+			+ Matching participants on variables other than the primary IV
+				+ E.g. Case-control study
+			+ Check after the study for comparability
+
+<div class="notes">
+
+Since non-randomized trials have an attribute variable, you need to rely on statistical adjustment or matching. You can also check after the study for comparability.
+
+</div>
+
+***
+### Internal Validity 
+
++ Equivalence of the groups on participant characteristics –
+	+ Are groups equivalent prior to introduction of IV?
+		+ Associational design –
+			+ Only 1 group
+			+ Not able to provide evidence of causation
+			+ “Equivalence” – “… whether those who score high on the IV … are similar to those … who score low in terms of other attributes that may be related to the DV.”
+			+ May be able to provide some statistical control
+
+<div class="notes">
+
+Equivalence when you have a continuous independent variable means that those who score high on the variable are similar to those who score low.
+
+</div>
+
+***
+### Internal Validity 
+
++ Control of extraneous experiences and environmental variables –
+	+ Extraneous variables – variables other than the IV and DV
+	+ Environmental variables – conditions/variables that occur during the study
+	+ Contamination
+	+ Issue – Is one group affected more than the other(s)?
+	+ Less of an issue with a more controlled research setting
+
+<div class="notes">
+
+Your study could be contaminated by other variables. These variables might be out of your control but which can influence the outcome.
+
+Contamination: people in the intervention group are friends with the control group and share information.
+
+The key issue is whether one group is more affected by extraneous variables.
+
+In a controlled setting, there are fewer extraneous variables, but this changes in a field setting.
+
+</div>
+
+***
+### Internal Validity 
+
++ Rating the dimensions of internal validity
+	+ Figure 8.2
+	+ Evaluating Research Validity framework
+	+ “Good” study – moderate to high internal validity on both dimensions
+
+<div class="notes">
+
+Internal validity is measured by whether the two dimensions are addressed.
+
+</div>
+
+***
+### Internal Validity 
+
+![Rating the dimensions of internal validity](../images/image-07-02.png)
+
+<div class="notes">
+
+Figure 8.2. 
+
+</div>
+
+***
+### Threats to Internal Validity 
+
+![](../images/image-07-03.png)
+
+<div class="notes">
+
+Table 8.1 relates statistical terminology to identify threats to internal validity. This table tries to take those technical terms and express them 
+
+Extreme groups have issues with regression to the mean. Even without any intervention, the extremities will tend to lessen.
+
+Dropouts or attrition means that you've designed a setting that is so difficult that no one can stay in. Differential attrition is especially troublesome.
+
+Bias in assignment occurs when patients or their physicians directly or indirectly influence the assignment. Random assignment eliminates this bias.
+
+Cook and Campbell.
+
+</div>
+
+***
+### Threats to Internal Validity 
+
++ Equivalence of Groups
+	+ Use of extreme groups
+	+ Participant dropouts or attrition during the study
+	+ Bias in assignment to groups
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Threats to Internal Validity 
+
++ Control of extraneous/environmental variables
+	+ Changes due to time or growth and development
+	+ Extraneous environmental events
+	+ Repeated testing, carryover effects
+	+ Instrument or observer inconsistency
+	+ Combinations of two or more threats
+	+ Did the IV actually occur before the DV?
+
+<div class="notes">
+
+Here are some of the sources of extraneous variables. 
+
+Maturation.
+
+History. Something that occurs between the pre and post measurements that is independent of the intervention but which can influence the outcome.
+
+Worry about sensitization to the issue in the baseline measurement that causes people to go out and find more.
+
+Long studies have problems with instrumentation or observers (e.g., because of turnover).
+
+There are also combinations of these events where one magnifies the other.
+
+Temporal order of the variables. If you can't assure that the independent variable occurs before the dependent variable, you can't establish causation.
+
+</div>
+
+***
+### Threats to Internal Validity 
+
++ Other threats
+	+ Effects of being in the control group
+	+ Expectation effect
+		+ Control for expectation
+	+ Observer / experimenter bias
+
+<div class="notes">
+
+Control group contamination. Demoralization.
+
+Hawthorne effect.
+
+Blinding helps control for expectation effects and observer bias.
+
+</div>
+
+***
+### Validity 
+
+![](../images/image-07-04.png)
+
+<div class="notes">
+
+Here is figure 8.1 again. The next part of this lecture talks about sampling and external validity.
+
+</div>
+
+***
+### Validity 
+
+![](../images/image-07-05.png)
+
+<div class="notes">
+
+Here is figure 8.1 again. The extent to which results will generalize.
+
+</div>
+
 ### Measurement Reliability 
 
 + What is measurement reliability?
@@ -884,331 +1215,6 @@ RQ=research question, RH=research hypothesis.
 </div>
 
 ***
-### Validity 
-
-![](../images/image-07-01.png)
-
-<div class="notes">
-
-Figure 8.1 has a very concise presentation. Three different types of validity that feed into what a study does. This lecture is just about internal validity. The extent to which you can infer that the independent variable caused the dependent variable.
-
-</div>
-
-***
-### Internal Validity 
-
-+ “The extent to which we can infer that the independent variable *caused* the dependent variable.”
-	+ For non-experimental studies –
-		+ How “well designed and conducted” was the study?
-+ Three criteria for causality
-
-<div class="notes">
-
-It's really only randomized trials that can establish causality. But even in quasi-experimental and non-experimental studies, you can still talk about internal validity.
-
-The cause has to precede the effect, it must be connected to the effect, and there must be no other variables that could explain why the cause is related to the effect.
-
-</div>
-
-***
-### Internal Validity 
-
-+ “The extent to which we can infer that the independent variable *caused* the dependent variable.”
-+ Three criteria for causality
-	+ IV *must precede* the outcome variable
-	+ IV *must be related* to the outcome
-	+ There must be no other variables that could explain why the IV is related to the outcome
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Internal Validity 
-
-+ Three criteria for causality –
-	+ IV *must precede* the outcome variable
-	+ IV *must be related* to the outcome
-	+ There must be no other variables that could explain why the IV is related to the outcome
-+ By Research Approach –
-	+ Randomized Exp
-	+ Quasi- Exp
-	+ Comparative
-	+ Associational
-	+ Descriptive
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Internal Validity 
-
-```{r tbl5, echo = FALSE, eval=FALSE}
-tbl5 <- tibble::tribble(
-~`Criteria for Causality`, ~`Randomized Exp`, ~`Quasi-Exp`, ~`Comparative`, ~`Associational`, ~`Descriptive`,
-"IV must precede the outcome variable","Met","Often met","Sometimes met, but order might not be clear","Sometimes met, but order might not be clear","NA",
-"IV must be related to the outcome","Met","Usually met","Usually met","Usually met","NA",
-"There must be no other variables that could explain why the IV is related to the outcome","Met","Met in the strongest designs","Not possible","Not possible","NA"
-)
-
-kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
-```
-
-<div class="notes">
-
-For randomized designs, the cause precedes the effect, the cause is related to the outcome and there are no other variables that could explain the relationship.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Meeting the 3 causality criteria based on –
-	+ Strength of the research design
-	+ Internal validity
-
-<div class="notes">
-
-The strength of the research design and the internal validity determine whether you can claim causality. Try to design the study to maximize internal validity. 
-
-</div>
-
-***
-### Internal Validity 
-
-+ Internal validity -
-	+ Most often discussed with reference to randomized experimental and quasi-experimental designs
-	+ Can also be applied to non-experimental studies
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Internal Validity 
-
-+ Evaluating the internal validity of a study –
-	+ Equivalence of the groups on participant characteristics
-	+ Control of extraneous experiences and environmental variables
-
-<div class="notes">
-
-There are two aspects of internal validity, equivalence and control.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Equivalence of the groups on participant characteristics –
-	+ Are groups equivalent prior to introduction of IV?
-		+ Randomized experimental design –
-			+ Random assignment
-		+ Quasi-experimental design –
-			+ Random assignment of treatments
-			+ Matching
-			+ Checking pretest scores
-
-<div class="notes">
-
-Random assignment assures equivalence of the two groups on average. A rule of thumb is 30 people assigned to each group should give you confidence that random assignment will assure equivalence. If you are using random assignment, you should not need to test for baseline equivalence. We feel that random assignment is the best way to achieve equivalence.
-
-In quasi-experimental design, you don't have random assignment, but you can randomly assign between the two groups. You can also use matching to achieve equivalence. Finally, you can check baseline scores for equivalence.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Equivalence of the groups on participant characteristics –
-	+ Are groups equivalent prior to introduction of IV?
-		+ Comparative design –
-			+ Statistical adjustment (ANCOVA) to adjust DV scores to make groups more nearly equivalent
-			+ Matching participants on variables other than the primary IV
-				+ E.g. Case-control study
-			+ Check after the study for comparability
-
-<div class="notes">
-
-Since non-randomized trials have an attribute variable, you need to rely on statistical adjustment or matching. You can also check after the study for comparability.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Equivalence of the groups on participant characteristics –
-	+ Are groups equivalent prior to introduction of IV?
-		+ Associational design –
-			+ Only 1 group
-			+ Not able to provide evidence of causation
-			+ “Equivalence” – “… whether those who score high on the IV … are similar to those … who score low in terms of other attributes that may be related to the DV.”
-			+ May be able to provide some statistical control
-
-<div class="notes">
-
-Equivalence when you have a continuous independent variable means that those who score high on the variable are similar to those who score low.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Control of extraneous experiences and environmental variables –
-	+ Extraneous variables – variables other than the IV and DV
-	+ Environmental variables – conditions/variables that occur during the study
-	+ Contamination
-	+ Issue – Is one group affected more than the other(s)?
-	+ Less of an issue with a more controlled research setting
-
-<div class="notes">
-
-Your study could be contaminated by other variables. These variables might be out of your control but which can influence the outcome.
-
-Contamination: people in the intervention group are friends with the control group and share information.
-
-The key issue is whether one group is more affected by extraneous variables.
-
-In a controlled setting, there are fewer extraneous variables, but this changes in a field setting.
-
-</div>
-
-***
-### Internal Validity 
-
-+ Rating the dimensions of internal validity
-	+ Figure 8.2
-	+ Evaluating Research Validity framework
-	+ “Good” study – moderate to high internal validity on both dimensions
-
-<div class="notes">
-
-Internal validity is measured by whether the two dimensions are addressed.
-
-</div>
-
-***
-### Internal Validity 
-
-![Rating the dimensions of internal validity](../images/image-07-02.png)
-
-<div class="notes">
-
-Figure 8.2. 
-
-</div>
-
-***
-### Threats to Internal Validity 
-
-![](../images/image-07-03.png)
-
-<div class="notes">
-
-Table 8.1 relates statistical terminology to identify threats to internal validity. This table tries to take those technical terms and express them 
-
-Extreme groups have issues with regression to the mean. Even without any intervention, the extremities will tend to lessen.
-
-Dropouts or attrition means that you've designed a setting that is so difficult that no one can stay in. Differential attrition is especially troublesome.
-
-Bias in assignment occurs when patients or their physicians directly or indirectly influence the assignment. Random assignment eliminates this bias.
-
-Cook and Campbell.
-
-</div>
-
-***
-### Threats to Internal Validity 
-
-+ Equivalence of Groups
-	+ Use of extreme groups
-	+ Participant dropouts or attrition during the study
-	+ Bias in assignment to groups
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Threats to Internal Validity 
-
-+ Control of extraneous/environmental variables
-	+ Changes due to time or growth and development
-	+ Extraneous environmental events
-	+ Repeated testing, carryover effects
-	+ Instrument or observer inconsistency
-	+ Combinations of two or more threats
-	+ Did the IV actually occur before the DV?
-
-<div class="notes">
-
-Here are some of the sources of extraneous variables. 
-
-Maturation.
-
-History. Something that occurs between the pre and post measurements that is independent of the intervention but which can influence the outcome.
-
-Worry about sensitization to the issue in the baseline measurement that causes people to go out and find more.
-
-Long studies have problems with instrumentation or observers (e.g., because of turnover).
-
-There are also combinations of these events where one magnifies the other.
-
-Temporal order of the variables. If you can't assure that the independent variable occurs before the dependent variable, you can't establish causation.
-
-</div>
-
-***
-### Threats to Internal Validity 
-
-+ Other threats
-	+ Effects of being in the control group
-	+ Expectation effect
-		+ Control for expectation
-	+ Observer / experimenter bias
-
-<div class="notes">
-
-Control group contamination. Demoralization.
-
-Hawthorne effect.
-
-Blinding helps control for expectation effects and observer bias.
-
-</div>
-
-***
-### Validity 
-
-![](../images/image-07-04.png)
-
-<div class="notes">
-
-Here is figure 8.1 again. The next part of this lecture talks about sampling and external validity.
-
-</div>
-
-***
-### Validity 
-
-![](../images/image-07-05.png)
-
-<div class="notes">
-
-Here is figure 8.1 again. The extent to which results will generalize.
-
-</div>
-
-***
 
 ### Additional slides
 
@@ -1364,188 +1370,6 @@ Measurement scales can limit what you can say about your results.
 </div>
 
 ***
-### Descriptive Statistics 
-
-![](../images/image-08-03.png)
-
-<div class="notes">
-
-Figure 10.1 shows the standard bell shaped curve.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Descriptive graphs
-	+ How to look at your data
-	+ Options for viewing your data
-		+ Frequency polygons
-		+ Histograms
-		+ Bar charts
-
-<div class="notes">
-
-Even for a qualitative study, you'll still want to describe characteristics of your sample.
-
-For a fancier inferential analysis, you still should start with a descriptive analysis.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-![](../images/image-08-04.png)
-
-<div class="notes">
-
-Figures 10.2 and 10.3.
-
-Frequency polygon has a line connecting values and implicitly represents a normal distribution.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Measures of central tendency
-	+ Mean
-	+ Median
-	+ Mode
-
-<div class="notes">
-
-These terms should already be familiar to you. The mean is the best choice for approximately normal distribution. The median is better for non-normal continuous variables and ordinal variables.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Measures of variability
-	+ Range
-	+ Standard deviation
-	+ Interquartile range
-	+ How many categories
-
-<div class="notes">
-
-The standard deviation is considered a poor measure of variability for a non-normal population. The interquartile is the difference between the 75th percentile and the 25th percentile. Define the 25th percentile as the value so that approximately 25% of the values are smaller and 75% are larger.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Measures of association between 2 variables
-	+ Correlation
-		+ Pearson
-		+ Spearman
-	+ Cross-tabulation
-	+ Scatterplot
-
-<div class="notes">
-
-A correlation is a value between -1 and +1. There are two versions. Use Spearman for non-normal or ordinal variables.
-
-Cross-tabulation is best for nominal and ordinal variables.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-![](../images/image-08-05.png)
-
-<div class="notes">
-
-Figure 10.4 shows the relationship between grade level and performance on a math achievement test. It shows a trend line and an R-squared value.
-
-Note that this is an association but not necessarily a causal relationship. Knowledge of one variable helps you predict the other.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-![](../images/image-08-06.png)
-
-<div class="notes">
-
-Figure 10.5 shows a much weaker relationship between grade level and motivation scale. The trend line is flat and the R-squared value is small.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-![](../images/image-08-07.png)
-
-<div class="notes">
-
-Table 10.6 shows a cross-tabulation. Mary revised this to include row and column percentages. Orient towards the row totals or the column totals. Row percentages add up to 100% within each row and column percentages add up to 100% within each row.
-
-You might compute both row and column percentages, but only include one in your final table.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Properties of the normal curve
-	+ Unimodal
-	+ Mean, median, and mode are equal
-	+ Symmetric curve (skew)
-	+ Range is infinite
-	+ Shape – not too peaked or flat (kurtosis)
-
-<div class="notes">
-
-This is not a Statistics class, but is intended to help you decide how to choose analyses for your research plan.
-
-There are five properties. Unimodal, symmetric (no skewness), infinite range, peakedness or flatness tells you information about the tendency to produce outliers.
-
-[[Talk about range restrictions.]]
-
-</div>
-
-***
-### Descriptive Statistics 
-
-![](../images/image-08-08.png)
-
-<div class="notes">
-
-Figure 10.1 (normal curve) again.
-
-</div>
-
-***
-### Descriptive Statistics 
-
-+ Standard normal curve
-	+ Definition
-	+ How to compute
-	+ Effect size
-
-<div class="notes">
-
-Set the mean to zero and a standard deviation of one. The standard normal curve is useful for effect size calculations and power analysis.
-
-</div>
-
-***
-### Measurement & Descriptive Statistics 
-
-![](../images/image-08-09.png)
-
-<div class="notes">
-
-Table 10.7. This is a great table that tells you what graphical and numeric summaries are appropriate for what types of data. This doesn't address the statistical tests (inferential analyses).
-
-</div>
-
-***
 ### Assignment #6 
 
 + Prepare a brief paragraph that describes the research design you are using for your research proposal. This is the information that will probably appear in the Methods section of your proposal.
@@ -1577,3 +1401,78 @@ Go back are refer to Figure 4.1. Week 8 activities relate to the exemplar articl
 ***
 
 ### Additional slides
+
+
+### External Validity 
+
++ Generalizability
+	+ Fig. 9.3
+	+ Evaluating Research Validity Framework
+	+ Two main aspects
+		+ Population external validity
+		+ Ecological external validity
+
+<div class="notes">
+
+The extent to which results can be generalized beyond this study. Extrapolate to the bigger world.
+
+Evaluating freamework (questions 14 and 15). 
+
+Population: how participants were selected.
+
+Ecologic validity: the more control you have, the better the internal validity but the less like it is for real world. The naturalness of the setting, rapport.
+
+Figure 9.3. 
+
+</div>
+
+
+### External Validity 
+
++ Population external validity
+	+ How participants were selected for the study?
+	+ Is sample representative of the target population?
+	+ Validity framework
+
+<div class="notes">
+
+
+
+</div>
+
+
+### External Validity 
+
++ Ecological external validity
+	+ Whether the results can be generalized to real-life outcomes
+	+ Trade-off with control of study
+	+ Validity framework
+
+<div class="notes">
+
+
+
+</div>
+
+
+### External Validity 
+
+![](../images/image-07-07.png)
+
+<div class="notes">
+
+
+
+</div>
+
+
+### Sampling and Validity 
+
+![](../images/image-07-08.png)
+
+<div class="notes">
+
+Figure 9.4. External validity is influenced by the sampling process. Internal validity is influenced by the allocation of this sample to treatment groups.
+
+</div>
+
