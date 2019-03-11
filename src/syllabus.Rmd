@@ -204,13 +204,7 @@ Please note that I plan to make minor changes to the objectives, readings, homew
 
 ## Week 7: Sampling issues
 
-`r read_text("objectives07")`
-
-`r read_text("readings07")`
-
-`r read_text("hw07", fri[7])`
-
-`r read_text("discussion07", fri[7])`
+No other material this week.
 
 ## Week 8: Measurement issues
 
