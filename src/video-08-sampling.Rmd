@@ -9,7 +9,6 @@ output:
 
 ```{r echo=FALSE}
 source("prelims.R", echo=FALSE)
-getwd()
 ```
 
 ***
@@ -22,50 +21,13 @@ Here are the objectives for this week.
 </div>
 
 ***
-`r read_text("readings08")`
+`r read_text("readings08", char_max=400)`
 
 <div class="notes">
 
 This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
 
 </div>
-
-
-### Additional issues to discuss
-
-* Pilot studies
-
-* Historical controls
-
-* Questionnaires. http://www.pmean.com/02/questionnaire.html
-
-### Sampling 
-
-+ “… process of selecting *part* of a larger group of participants with the intent of generalizing from the sample (the smaller group) to the population (the larger group).”
-	+ “… representativeness of the sample is more important than its size …”
-
-<div class="notes">
-
-Critically important in sampling is for the sample to be representative. That's even more important than the actual size of the sample.
-
-College students are not representative of young adults.
-
-</div>
-
-
-### Sampling 
-
-+ Reasons for sampling
-	+ Expense
-	+ Time
-	+ Quality control
-
-<div class="notes">
-
-A small sample allows you to spend more time on quality control.
-
-</div>
-
 
 ### What is a population?
 
@@ -90,6 +52,8 @@ The population shares one or more common features. I got this list somewhere and
 * Physical list
   + Ideally everyone or almost everyone in population
   + Used to draw your sample
+* Expensive, not always available.
+* Example: Master Address File.
 
 <div class="notes">
 
@@ -97,22 +61,48 @@ A sampling frame is a physical list associated with a population. It should incl
 
 Because it is a physical list, you can draw a sample from it.
 
+It costs a lot of money to compile a sampling frame, so if you have one, you should definitely take advantage of it.
+
+As an example of a sampling frame, the U.S. Bureau of the Census maintains a database of every housing unit in the United States. It relies on the U.s. Postal Service and community based canvassing efforts to collect information for 278 million addresses in the United States.
+
+I hope that any sampling frame that you develop isn't quite as big as this.
+
 </div>
 
 ### What is a sample?
 
 * A sample is a subset of a population
+* Representativeness more important than size
++ Reasons for sampling
+	+ Expense
+	+ Time
+	+ Quality control
+
+<div class="notes">
+
+A sample is a subset of a population. It is usually smaller and easier to manage than the entire population.
+
+Critically important in sampling is for the sample to be representative. That's even more important than the actual size of the sample.
+
+College students are not representative of young adults. Volunteers in a clinical trial are not representative of everyone who has the disease.
+
+The major reasons you sample are time and money. The population that id defined in most research studies is far too big for a complete enumeration. There are some exceptions, of course, but almost all studies have to work with a sample.
+
+In fact, one definition of Statistics is the use of information from samples to make inferences about a population. That's a bit narrow perhaps, but still a pretty good starting point if anyone asks you what Statistics really is.
+
+</div>
+
+### Two major types of samples
+
 * Random sample
-  + Everyone has same selection probability
+  + Everyone has known non-zero probability
 * Non-random sample
   + Different selection probabilities
   + Some may have zero selection probability
 
 <div class="notes">
 
-A sample is a subset of a population. It is usually smaller and easier to manage than the entire population.
-
-A random sample is a sample where every individual (or every object) in the population has the same probabilitiy of being selected.
+A random sample is a sample where every individual (or every object) in the population has a known non-zero probabilitiy of being selected. In many random samples the probability of selection is the same for every subject, but not always.
 
 A random sample is an ideal which is rarely met perfectly, but sometimes you can get pretty close to this ideal. A random sample requires a sampling frame that is a complete list within the population.
 
@@ -128,15 +118,11 @@ For any sample, always ask yourself "Who was left out?" if certain people in you
 
 <div class="notes">
 
-There was a statistician, Abraham Wald, who was asked to help out during World War II with a sampling problem.
-
-A lot of bombers were not returning from their missions, so the Royal Air Force wanted to put armor on the bombers. But where to put it? They couldn't put it everywhere because it would be too heavy to take off. Even a little bit of extra armor was troublesome because it would decrease the total wieght of bombs that they might carry.
+There was a statistician, Abraham Wald, who was asked to help out during World War II with a sampling problem. A lot of bombers were not returning from their missions, so the Royal Air Force wanted to put armor on the bombers. But where to put it? They couldn't put it everywhere because it would be too heavy to take off. Even a little bit of extra armor was troublesome because it would decrease the total wieght of bombs that they might carry.
 
 So Dr. Wald looked at the planes that returned and noted where they had holes from enemy fire. These holes were distributed more or less randomly throughout the plane except for two regions where there was nothing. This image, which was taken from the 1998 Howard Wainer article that I mention in the recommended readings, shows where there was nothing: in the middle of the plane between the two wings and underneath the tail.
 
-His recommendation was to place the armor only in those two areas. This seems counterintuitive, which is why it makes such a good puzzle.
-
-This mathematician hypothesized that any plane hit in those regions did not survive to return. The other areas could be hit and the plane could still limp back to safety. This is an example of selection bias. The bombers in the study were not a random sample of all bombers, they were a sample of bombers that returned safely. 
+His recommendation was to place the armor only in those two areas. This seems counterintuitive, which is why it makes such a good puzzle. Dr. Wald hypothesized that any plane hit in those regions did not survive to return. The other areas could be hit and the plane could still limp back to safety. This is an example of selection bias. The bombers in the study were not a random sample of all bombers, they were a sample of bombers that returned safely. 
 
 </div>
 
@@ -148,11 +134,7 @@ This mathematician hypothesized that any plane hit in those regions did not surv
 
 <div class="notes">
 
-Suppose you are interested in a survey of teenagers in your community. You go to a high school and select a sample of students.
-
-Who has a lower selection probability? Students with a chronic illness, because they tend to miss a lot of days of school.
-
-Who has a zero selection probability? Home-schooled teenagers, for one, and dropouts for another.
+Suppose you are interested in a survey of teenagers in your community. You go to a high school and select a sample of students. Who has a lower selection probability? Students with a chronic illness, because they tend to miss a lot of days of school. Who has a zero selection probability? Home-schooled teenagers, for one, and dropouts for another.
 
 Now is this a terrible thing? Students with a chronic illness probably have a different drug use pattern (both legal and illegal drugs) than most other studients. I'm not sure about home-schooled students, but students who have dropped out of high school almost certainly have a different drug use pattern.
 
@@ -167,7 +149,7 @@ What you should do, perhaps, is to redefine your population more narrowly when y
 * Hypothetical study
   + Calculate average IQ of prisoners 
   + Lower than general public
-* Conclude: criminals less intelligent than honest people.
+* Conclude: criminals less intelligent than honest people(???)
 
 <div class="notes">
 
@@ -179,27 +161,51 @@ Maybe, but keep in mind that you won't find every criminal in prison. A better c
 
 </div>
 
+### Take a break here
+
+* What have we learned so far?
+  + Definitions: population, sampling frame, sample
+  + Distinction between random sample and a non-random sample
+
+* What is coming next?
+  + Different types of probability samples
+  + How to generate a random sample
+
+<div class="notes">
+
+Let's take a break here. You've learned a few basic definitions so far. Coming up next are different types of probability samples.
+
+</div>
+
 ### Sampling 
 
 * Sampling designs – Probability sampling
 	+ Simple random sampling
-	+ Systematic random sampling
-	+ Stratified random sampling
-	+ Cluster (random) sampling
+	+ Systematic sampling
+	+ Stratified sampling
+	+ Cluster sampling
 
 <div class="notes">
 
-In a probability sample, every person in the population has a known non-zero probability of being in the sample. 
+In a probability sample, every person in the population has a known non-zero probability of being in the sample. A sampling frame is an absolute requirement for a probability sample. If you do not have a sampling frame, you must rely on a non-probability sample.
 
-Simple random sampling: equal and independent probability of being selected. Easier to achieve with an existing data.
+In simple random sampling, each patient has an equal and independent probability of being selected.
 
-Systematic, select a random starting point and then select the remainder using a fixed rule.
+I do not recommend a systematic sample. It is easy. If you want a sample that is one-tenth the size of the population, select every tenth observation from the sampling frame. Randomly choose whether you start. With ten percent systematic sample, that possible starting points are the first, second, third, ... all the woay through the tenth observation in the sampling frame. If you started with the eleventh value or later, you would be selecting less than 10% of the sampling frame.
 
-Stratification variable is divided into segments. Geographic regions, age groups, gender. That can influence the outcome.
+For a stratified sample, you divide your sampling frame into layers or strata. You might do this by geographic regions, age groups, gender. Then select a simple random sample within each strata.
 
-Over sampling is done to insure decent sample size in minority groups.
+In some studies, the number of patients sampled from each strata is proportional to the number of patients within each strata. In other studies, certain strata are over sampled to insure a decent sample size for certain minority groups. If you encounter over sampling, you must, must, must use a weighting approach for your data analysis.
 
-Two stage selection: randomly select a cluster using a probability model and then either randomly select within a cluster or select everyone in that cluster.
+A cluster sample involves the division of the sample into discrete clusters. These clusters might represent clinics or hospitals. A specific number of clusters are sampled in their entirety and others are left behind. Within each cluster, you either conduct a simple random sample, or you get the records for every patient in that cluster.
+
+A cluster sample is inefficient from a statistical perspective because two patients from the same clinic or hospital are likely to be positively correlated. This correlation increases your standard error, sometime substantially.
+
+The reason you pick a cluster sample is that it save a lot of time. If you had to visit every single hospital in the United States to get a simple random sample or a stratified random sample, you would die of exhaustion.
+
+Instead, select a small number of hospitals that are representative of all hospitals in the U.S. and then travel only to those locations.
+
+There are variations on cluster sampling where you have a second layer of clusters beneath the first layer. So you might randomly select 50 school districts in the United States and then randomly select 5 elementary schools within each district for further sampling.
 
 </div>
 
@@ -229,7 +235,10 @@ Then just select your sample starting from the top of the randomly sorted list.
 
 <div class="notes">
 
-This shows the random sampling process using Microsoft Excel. There are 26 patients in your sampling frame. Arrange them in a systematic order. Then attach a column of random numbers. Notice that the smallest random number (0.0138863) is associated with "T". This letter goes to the top of the list when you sort the data and is the first person in your sample.
+This shows the random sampling process using Microsoft Excel. If the image is too smallfor you to view here, open up the file random01.xlsx from the Canvas website.
+
+
+There are 26 patients in your sampling frame. Arrange them in a systematic order. Then attach a column of random numbers. Notice that the smallest random number (0.0138863) is associated with "T". This letter goes to the top of the list when you sort the data and is the first person in your sample.
 
 If you needed to select five people, your simple random sample would be T, F, P, X, and C.
 
@@ -257,13 +266,29 @@ The process of selecting a stratified random sample is similar. You have two col
 
 <div class="notes">
 
-This shows the stratified random sampling process using Microsoft Excel.
+This shows the stratified random sampling process using Microsoft Excel. If the image is too smallfor you to view here, open up the file random02.xlsx from the Canvas website.
 
 Split your data into two strata: consonants and vowels. Arrange them systematically.
 
 Attach a column of random numbers. Notice that "P" has the smallest random number among the consonants (0.0207696) and "O" has the smallest random number among the vowels (0.0727503). Then do a two level sort: first by the strata and then by the random numbers.
 
 If you wanted a random sample of three consonants and two vowels, your stratified sample would be P, K, V among the consonants and O and U among the vowels.
+
+</div>
+
+### Take another break here
+
+* What have we learned so far?
+  + Types of probability samples
+  + How to draw a random sample
+  
+* What is coming up next?
+  + Different types of non-probability samples
+  + How to allocate treatments randomly
+  
+<div class="notes">
+
+Let's take another break. We've talked about some different types of probability samples: simple, systematic, stratified, and cluster. We'll tackle non-probability samples next.
 
 </div>
 
@@ -292,6 +317,10 @@ Purposeful sampling is also commonly used with qualitative research. You only ha
 
 Both purposive and purposeful samples require the use of subjective judgement. This sounds terrible, but there is at least some empirical evidence that a purposive sample can outperform a simple random sample. See the van Hoeven article under recommended readings for an example. 
 
+Snowball sampling is an attempt to get a decent number of patients in a population that is hard to sample from in the more traditional approaches. You ask the first few patients in your sample to recommend others. Then you get recommendations from these people. And so forth. This sampling technology got its name from the analogy of a snowball rolling downhil and getting bigger and bigger.
+
+Snowball sampling has been used to identify drug addicts, for example, because these people are normally resistant to solicitation of information through more traditional channels.
+
 </div>
 
 ### Example of a purposive sample
@@ -300,7 +329,11 @@ Both purposive and purposeful samples require the use of subjective judgement. T
 
 <div class="notes">
 
-This table, from the Wheelock artice in recommended readings, shows an example of a purposive sample. In each country, researchers had to select 20 patients and they had to make sure that some of these patients had and some did not have the eligible chronic condition. They also had to get a minimum number from particular demographic groups like gender, age, socioeconomic status, and vaccination status.
+This table, from the Wheelock artice in recommended readings, shows an example of a purposive sample. If you have trouble reading this table, open up the link to the Wheelock paper in the recommended readings for this week.
+
+In each country, researchers had to select 20 patients and they had to make sure that some of these patients had and some did not have the eligible chronic condition. They also had to get a minimum number from particular demographic groups like gender, age, socioeconomic status, and vaccination status.
+
+Now, if this sounds more like a quota sample than a purposive sample, I couldn't disagree with you. There is a subtle distinction between many of these non-probability samples.
 
 </div>
 
@@ -330,7 +363,7 @@ if you've never randomized treatment allocation before, the literature is a bit 
 
 <div class="notes">
 
-This shows the randomized allocation of treatments using Microsoft Excel.
+This shows the randomized allocation of treatments using Microsoft Excel. If the image is too smallfor you to view here, open up the file random03.xlsx from the Canvas website.
 
 Arrange your treatments systematically (T, C, T, C, etc.)
 
@@ -382,37 +415,7 @@ The process of matching is trickier than it looks. If you have a single variable
 
 If you match, you need to face the fact that some of the precision and/or bias reduction that you get from matching will be reduced by the loss of some patients who you are unable to find a good match for. There's a phrase about jumping from the frying pan into the fire, and with matching, you are not sure if the effort will end up hurting rather than helping.
 
-</div>
-
-### A simple matching example
-
-![A spreadsheet illustrating the process of matching patients on age and gender](../images/08/matching.png)
-
-<div class="notes">
-
-Here's a simplistic example of matching, done by hand inside an Excel spreadsheet.
-
-For this exercise, assume that matched pairs MUST be the same gender, and that you would be okay with an age difference of 6 years or less.
-
-First, pick out the pairs that are a perfect match. There are two perfect matches in this data set: the pair of 8 year old males and the pair of 15 year old males.
-
-Next, look for the smallest discrepancy: one year. If you weren't so fussy about gender, it might make sense to match the 6 year old female with the 7 year old male, but we'll resist that temptation.
-
-Now look for discrepancies of two years. We can match the females who are 4 and 6 years old, the females who are 24 and 26 years old, and the males who 28 and 30 years old.
-
-For discrepancies of three years, you can match the 35 and 38 year old females and the 32 and 35 year old males.
-
-For discrepancies of four years, you can match the 11 and 15 year old females and the 18 and 22 year old males.
-
-You should probably stop here, but if you are willing to match within a six year range, there are a couple more that you can add to the list. At the end of it all, you have a 28 year old female, a 65 year old female, and a 62 year old male who remain unmatched.
-
-The process I described is called a greedy match, and it usually does okay, but sometimes you can improve on it a bit.
-
-The process of sorting by a column of random numbers extends easily to more complex research designs. This screenshot from a Microsoft Excel spreadsheet shows the randomized allocation of treatment order in a crossover trials using Microsoft Excel.
-
-Arrange the treatment and control values in pairs. Then attach a column of random numbers. When you sort by pair and then by the column of random numbers, you arrange the order of treatments randomly within each pair. The first pair has a smaller random number for C (0.652967) than for T (0.7492683), so the first subject gets a treatment followed by a control. The next three subjects get the control first.
-
-Following this basic idea, you can just as easily randomize with three or more treatment groups, and randomize treatment order within strata.
+I tried to work out a simple matching program, but it is messier than I had thought. If I can work out a simple example, I will let you know.
 
 </div>
 
@@ -429,7 +432,7 @@ A research design that takes matching to its ultimate extent is the cross-over t
 
 In a cross-over trial, each subject is given the treatment and also given the control. You randomize the order: some subjects get the treatment first and then the control. Some subjects get the control first and then the treatment.
 
-you can't use this design for an attribute variable. You can't switch someone from one age group to another, for example.
+You can't use this design for an attribute variable. You can't switch someone from one age group to another, for example.
 
 Even with an independent variable that you can manipulate, the cross-over trial is sometimes problematic. You can't switch from the treatment group to the control group for example, when the control is a masectomy and the treatment is a lumpectomy, because you can't undo the effects of one surgery and try the different surgery.
 
