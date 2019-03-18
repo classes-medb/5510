@@ -11,24 +11,6 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
-***
-`r read_text("objectives09")`
-
-<div class="notes">
-
-Here are the objectives for this week.
-
-</div>
-
-***
-`r read_text("readings09")`
-
-<div class="notes">
-
-This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
-
-</div>
-
 ### Measurement quotes (1 of 2)
   
 * "The government is extremely fond of amassing great quantities of statistics. These are raised to the Nth degree, the cube roots are extracted, and the results are arranged into elaborate and impressive displays. What must be kept ever in mind, however, is that in every case, the figures are first put down by a village watchman, and he puts down anything he damn well pleases." 
@@ -58,13 +40,13 @@ I also have to quote Stephen Jay Gould here as well. He wrote an excellent book,
 * Researcher evaluations
   + Only when concerned about subjectivity
 * Psychological constructs
-* Surrogate outcomes
-  + Biomarkers
 * Composite scores
 
 <div class="notes">
 
 For better or for worse, researchers tend to focus greater attention on certain types of measurements. There's no hard and fast rule here, but issues of measurement quality tend to appear most often in certain areas.
+
+Don't think that if your measure is not on this list that it doesn't deserve careful scrutiny. There's really no consensus in the research community on what measurements require this extra level of attention.
 
 I think it is a bit unfair, but there is a lot of distrust of patient reported outcomes among researchers. Why not believe what the patient says about himself or herself? Part of it might be that a patient's answers could potentially be influenced by their mood.
 
@@ -74,13 +56,45 @@ It is worth noting that these factors also influence researcher observation, but
 
 There is a fair amount of scrutiny of researcher evaluations when these evaluations are perceived as having a high level of subjectivity. Now, our perceptions as to what is subjective are also subjective, so you need to be careful.
 
-Psychological constructs are tools used to measure aspects of human behavior, such as intelligence, self-esteem, stress, and extraversion. In spite of recent advances in brain imaging, you cannot, for the most part, peek inside someone's mind and understand how they think. Psychological constructs are a subset of latent variables, variables that you can only observe indirectly.
-
-Your book does not talk about surrogate outcomes, but these are very important. Surrogate outcomes might be measured very accurately, but they have a dubious or uncertain relationship with outcomes that your patient considers important. Some examples of surrogate outcomes include cholesterol levels, tumor size, and CD4 cell counts.
-
-Biomarkers, in general, deserve close scrutiny. Just because you can measure something in blood or tissue does not mean that the measurement has any value.
+Psychological constructs are tools used to measure aspects of human behavior, such as intelligence, self-esteem, stress, and extraversion. In spite of recent advances in brain imaging, you cannot, for the most part, peek inside someone's mind and understand how they think. 
 
 Finally, many measures in clinical research are composites of one or more items. These individual items are scored and added up to get a total. If the individual items are chosen well, this can be a very effective approach, but you need to be careful.
+
+</div>
+
+### Composite measure - PHQ-9
+
+![PHQ questionnaire](../images/09/phq.png)
+
+<div class="notes">
+
+The PHQ-9 questionnaire attempts to measure depression. You provide ansers to the following questions
+
+"Over the last 2 weeks, how often have you been bothered by any of the following problems"
+
+"1. Little interest or pleasure in doing things"
+
+"2. Feeling down, depressed, or hopeless"
+
+and seven more items. The possible responses are "Not at all" scored as a 0, "Several Days" scored as 1, "More than half the days" scored as a 2, and "Nearly every day" scored as a 3. Add up those scores to get a value between 0 and 27. 
+
+You might wonder why ask nine questions rather than one? Well, there is a single question, the Yale-Brown scale: "Do you often feel sad or depressed?" with a yes/no answer. It is very useful in a clinical setting where health care professionals might be too busy to ask a series of questions.
+
+The reason to ask a series of questions, rather than one question is that it (frequently, but not always) reduces measurement error and produces better reliability. There are other reasons, as well, I suspect, such as the desire to look at depression on a continuum rather than as a binary outcome.
+
+</div>
+
+### Composite measure - NES
+
+![NES questionnaire](../images/09/nes.png)
+
+<div class="notes">
+
+I realize this image might be difficult to read on your computer. If you are curious, I have placed the image on the Canvas website.
+
+Here's a second example of a composite score, the neighborhood environment survey. It is eighten questions long with questions like "There are plenty of safe places to walk or play outdorrs in my neighborhood" and "Every few weeks, some ki in my neighborhood gets beat-up or mugged." These question are answered true/false and points of 0 or 1 are assigned. Notice that some of the questions get a 1 for true and some of the questions get a 1 for false. The total score is 0 to 18 (the paper incorrectly lists the range as 1 to 18).
+
+Some of the approaches for establishing reliability and validity only work for composite measures.
 
 </div>
 
@@ -95,7 +109,7 @@ Finally, many measures in clinical research are composites of one or more items.
 
 <div class="notes">
 
-Your book specifies three types of validity: internal validity, external validity, and measurement validity. All three are important, but I want to focus just on measurement validity in this lecture. The other types of validity are important, but the explanations are fairly simple to follow. 
+Your book specifies three types of validity: internal validity, external validity, and measurement validity. I want to focus just on measurement validity in this lecture. The other types of validity are important, but the explanations are fairly simple to follow. 
 
 Measure validity is much harder to talk about, so I do want to spend a fair amount of time on it and on a closely related concept, measurement reliability.
 
@@ -120,7 +134,7 @@ When you measure something, you want that measurement to be consistent, precise,
 
 If your measure is not stable, then you have difficulty in assessing whether a change in that measurement is due to your intervention or due to the phases of the moon.
 
-Most measures of reliability rely on a the true value model. This model says that the observed value of a measurement is equal to the true value plus measurement error. A measurement is reliable if the measurement error is small. Since the true value is almost always unknown, it is only a hypothetical model. 
+Most measures of reliability rely on the true value model. This model says that the observed value of a measurement is equal to the true value plus measurement error. A measurement is reliable if the measurement error is small. Since the true value is almost always unknown, it is only a hypothetical model. 
 
 Your book talks about a reliability coefficient which is the variance of the true scores in a population divided by the variance of the observed scores in a population. Measurement error guarantees that the numerator is always less than or equal to the denominator. The reliability coefficient is equal to one only if there is no measurement error.
 
@@ -128,13 +142,15 @@ You should not be too surprised to find out that the reliability coefficient is 
 
 One thing you need to keep in mind is that the reliability coefficient is dependent on the population it is based on. Your book doesn't mention this, but it is important. Change the population and you change the reliability coefficient. Something with a great reliability coefficient in a population of college students might be terrible in a population with limited literacy skills, for example.
 
-Since, no measurement is ever conducted without some measurement error, no measurement has perfect reliability. You need to make a value judgement about whether the deviation from the truth is small enough that you can safely ignore it.
+Since no measurement is ever conducted without some measurement error, no measurement has perfect reliability. You need to make a value judgement about whether the deviation from the truth is small enough that you can safely ignore it.
 
 There are some informal standards for reliability. These choices can seem a bit arbitrary, but they are fairly well accepted in the research community.
 
 In order for a measurement to be reliable enough to use in a research setting, where you are trying to characterize how a group of people are affected by an intervention, you would like a reliability coefficient of 0.7 or higher. It's not perfect, but the individual measurement errors would be averaged out when you compute group means.
 
 But if you are making decisions that might affect an individual, then you'd want a much higher level of reliability. Individual decisions might involve acceptance into a training program, for example. You would hate to see a large measurement error dominate the decision about an individual. In these settings, a reliability coefficient of 0.9 or higher might be asked for.
+
+For the record, some sources say that your reliability could go as low as 0.6 and still be okay. Other sources disagree. If you have such a value, go ahead and report it using a term like "borderline" or "marginal" and hope that your peer-reviewer isn't a stickler for this sort of thing.
 
 Reliability is usually established when a measure is developed. When you go about using a measure, look at what's already been published. Make sure it used in a context similar to yours. It's a whole lot easier to find a measurement that is already proven to be reliable than to develop your own measure and then establish its reliability.
 
@@ -161,9 +177,6 @@ You can't measure the reliability coefficient directly, but in the next video, y
 
 * Test-retest
 * Interrater
-	+ Percentage agreement methods
-	+ Intraclass correlation coefficients
-	+ Interrater
 * Parallel forms
 * Internal consistency
 	+ Split-half
@@ -313,6 +326,8 @@ You compare this to the variation observed among the total scores in the sample.
 
 If there is much more observed variation, that means that people show positive correlations. Low on one item means low on most of the other items and high on one item means high on the other items. This positive correlation is a measure of internal consistency.
 
+Keep in mind that if you have a different population, the minimum variation would stay the same, but the observed variation might change. So a measure that is reliable in one population might prove to be not reliable in a different population.
+
 </div>
   
 ### Cronbach’s alpha
@@ -353,6 +368,7 @@ Some people confuse the concept of internal consistency with uni-dimensionality.
   + Different language?
 * Compare to reliability in your sample
   + Test-retest and inter-rater reliability preferred.
+  + 0.7 or higher
 
 <div class="notes">
 
@@ -371,6 +387,8 @@ I have a strong preference for test-restest reliability or inter-rater reliabili
 I do not like these measures. Let me restate that. I despise these measures. They are simplistic and fail to measure what I think are the important features of reliability (stability over time and consistency between raters). I think people use them mindlessly and fail to recognize that they are measuring something very limited.
 
 If you can't measure reliability using a test-retest approach or using inter-rater reliability, then go ahead and use these other approaches. But they are a pale substitute in my opinion.
+
+The general target value for a reliability coefficient is 0.7 or higher. You might get by with a reliability coefficient of 0.6, but don't count on it.
 
 </div>
 
@@ -473,18 +491,14 @@ Now your teacher, on the other hand, you can argue with him until the cows come 
 
 ### Response process evidence
 
-* Used for surveys, instruments that your patients complete.
 * Observe the process
   + Watch as patients fill out the form
   + Ask questions along the way
   + Monitor response times
   + Encourage them to think aloud
-  + Eye tracking
 * Supplement with interview
 * Goal is to identify problematic elements
-  + Confusion, misunderstandings
-  + Language issues
-* Get experts to role play
+  + Confusion, misunderstandings, language issues
 
 <div class="notes">
 
@@ -576,44 +590,29 @@ Construct validity is when you are developing a psychological construct and you 
 
 <div class="notes">
 
-Your book cites a different standard for establishing validity.
-
-Content refers to the individual items in a composite measure. Can you establish that your items are representative of the concept you are trying to measure.
-
-You start with a list of items based on your own knowledge and experience. You do a literature review to build up the list further. Then a panel of experts would review this list to add other items or to prune items that don't belong. The experts might also look to see if the measure tends to favor or discriminate against certain subgroups.
-
-To be honest, I'm not sure how this differs from the approach suggested in face and content validity earlier.
-
-The response processes are similar to those mentioned earlier, but also include assurances that the respondents aren't just telling you what they think you want to hear and that the responses aren't just a function of good test taking skills.
-
-Internal structure is the use of tools like factor analysis to try to establish homogenous items. Factor analysis helps when you are trying to measure several closely related constructs, because it can (sometimes, and I want to emphasize sometimes) disentangle individual items in your composite measure and place them in their proper place.
-
-Relationships to other variables describes the correlations that you compute under criterion validity and construct validity.
-
-Consequences refers to the effect that the measure has on the person providing the information. I'm not really sure how to apply this approach.
+Your book cites a different standard for establishing validity. It's a good standard, but not used that commonly in my experience. Read this on your own.
 
 </div>
 
 ### Validity of diagnostic tests
 + Sensitivity
 	+ A test's ability to obtain a positive result when the target condition is really present
-		+ True positive rate
 + Specificity
 	+ A test's ability to obtain a negative result when the target condition is really absent
-		+ True negative rate
 
 <div class="notes">
 
-
+Diagnostic tests are a special example of validation. It is essentially criterion validity using predictive evidence. Since the diagnostic measurement is binary and the criterion is binary, you can summarize the results using a two by two table. I won't go into any detail on sensitivity and specificity except to mention that I can never remember which is sensitivity and which is specificity.
 
 </div>
 
+### Stop here
 
-### Additional issues to discuss
+* What have you learned so far?
+  + Criterion validity
+  + Construct validity
+* Next week
+  + Spring break
+  + After that, data collection issues
 
-* Validity. http://www.pmean.com/02/validity.html
-
-* Practical advice about validity
-
-* Surrogate outcomes
-
+--
