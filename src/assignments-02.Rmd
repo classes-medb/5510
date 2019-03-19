@@ -1,0 +1,63 @@
+---
+title: "Clinical Research Methods, Week 2"
+author: "Steve Simon"
+output:
+  html_document: default
+---
+
+```{r echo=FALSE}
+source(file="prelims.R", echo=FALSE)
+```
+
+Created: Monday, January 28, 2019
+
+Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+
+Please complete all work by midnight, `r mon[3]` to receive full credit.
+
+## Week 2: Planning a Research Project, Research Ethics
+
+### Learning objectives for this week
+
+* To describe the variety of research that can be conducted while doing clinical research.
+
+* To describe what is needed in order to identify and define a research question that could be the basis for a research project.
+
+* To learn what is expected in terms of professional ethics and ethical research with humans.
+
+### Reading for this week
+
+`r read_text("copyright")`
+
+#### Required reading
+
+* Conroy R. Where do research ideas come from? Available in [html format](http://www.pmean.com/99/ideas.html).
+* Gliner, Morgan, and Leech, Chapters 2, 3, 14
+
+#### Recommended reading
+
+* Chen PW. Bending the Rules of Clinical Trials. The New York Times, October 29, 2009. Available in [html format](https://www.nytimes.com/2009/10/29/health/29chen.html).
+* Lidz CW, Appelbaum PS, Joffe S, Albert K, Rosenbaum J, Simon L. Competing commitments in clinical trials. IRB. 2009;31(5):1-6. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3677602/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3677602/pdf/nihms474746.pdf).
+* Nathan D, Weatheral D. Academic Freedom in Clinical Research. New England Journal of Medicine. 2002;347:1368-1371. Available in [html format](http://content.nejm.org/cgi/content/extract/347/17/1368) or [PDF format](https://www.nejm.org/doi/pdf/10.1056/NEJMsb020394).
+* Price M. Sins against science. Data fabrication and other forms of scientific misconduct may be more prevalent than you think. Monitor on Psychology, July/August 2010, Vol 41, No. 7. Available in [html format](https://www.apa.org/monitor/2010/07-08/misconduct.aspx).
+* Simon SD. StATS: The stubborn insistence on placebos. Available in [html format](http://www.pmean.com/07/StubbornInsistence.html).
+* Simon SD. P.Mean: Evaluating private conflicts of interest. Available in [html format](http://www.pmean.com/08/PrivateConflicts.html). 
+* Willyard C. Should you blow the whistle? What to do when you suspect your adviser or research supervisor of ethical misconduct. Monitor on Psychology, July/August 2011, Vol 42, No. 7. Available in [html format](https://www.apa.org/monitor/2011/07-08/graduate-misconduct.aspx).
+
+### Assignments for this week
+
+* Q02. Complete the quiz on the canvas website.
+
+* P02. (Two points) Complete the UMKC IRB training. Get to this from the [UMKC Research Support page](http://www.umkc.edu/ors/irb/training.cfm), or directly by registering on the [CITI Program web site](http://www.citiprogram.org/). Select "Group 1 - Biomedical Investigator". Submit a PDF copy of the Certificate of Completion here.
+
+* (Not for credit). Continue thinking about a research problem that you might want to develop a research plan for. 
+
+### Discussion questions for this week
+
+* D02-01. `r read_text("minute-paper")`
+
+* D02-02. (Two points) There are several readings suggested in addition to the chapters in your book. Most of these involve case studies of research ethics. Take one of the articles and offer some commentary about it. You are also welcome to offer commentary on a different case study that you find interesting. Your commentary could be identifying who is the "hero" and who is the "villain" or suggesting what might have been done differently. You might comment on an experience that you have had that relates to the case study (but please don't share anything that should be kept confidential). You are also welcome (and encouraged) to comment on someone else's commentary rather than providing your own original commentary, though please do this respectfully. Also make sure that you comments are constructive and add something of value to the discussion.
+
+* D02-03. Find a published guidelines on research ethics and the responsible conduct of research. It could be as broad as the Declaration of Helsinki, or it could be something that is specific to your field of work. It could cover ethics in general or ethics restricted to a particular area like authorship guidelines. Post a brief summary in your own words of what this summary covers. You are also welcome (and encouraged) to comment on someone else's commentary rather than providing your own original commentary, though please do this respectfully. Also make sure that you comments are constructive and add something of value to the discussion.
+
+* D02-EC. `r read_text("extra-credit")`

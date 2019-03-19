@@ -1,0 +1,76 @@
+---
+title: "Clinical Research Methods, Week 9"
+author: "Steve Simon"
+output:
+  html_document: default
+---
+
+```{r echo=FALSE}
+source(file="prelims.R", echo=FALSE)
+```
+
+Created: Tuesday, March 19, 2019
+
+Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+
+Please complete all work by midnight, `r mon[12]` to receive full credit.
+
+## Week 10: Data collection
+
+### Learning objectives for this week
+
+* 
+
+### Reading for this week
+
+`r read_text("copyright")`
+
+#### Required reading
+
+* Gliner, Morgan, and Leech, Chapters 13, 15.
+
+#### Recommended reading
+
+* 
+
+### Discussion questions for this week
+
+* D10-01. `r read_text("minute-paper")`
+
+* D10-02. (Two points) 
+
+* D09-EC. `r read_text("extra-credit")`
+
+### Old material
+
+### Learning objectives
+
+1. To discuss different methods of collecting data
+
+2. To discuss when different data collections methods are most appropriate
+
+3. To describe the advantages and disadvantages of different data collection methods
+
+### Required reading
+
+1. Chapters 13, 15
+
+### Recommended reading
+
+Cummings, S.R. & Hulley, S.B. (2007). Chapter 15 "Designing questionnaires and interviews." In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
+
+Centers for Disease Control and Prevention. Checklist to Evaluate the Quality of Questions. Available in [PDF format](https://www.cdc.gov/healthyyouth/evaluation/pdf/brief15.pdf).
+
+### Assignment
+
+1. Further refine your list of variables by specifying how each will be measured. Wherever possible, include the name of a specific measure that would be appropriate. Be as specific as you can in terms of what variables/measures will be obtained. This assignment should give you a final draft of the "measures" description included in the Methods section of your research proposal. What you submit for this assignment should reflect the feedback you received on the last assignment.
+
+2. Prepare for next week's session
+
+### Discussion questions
+
+1. Discuss the data collection method that is appropriate for your research proposal.
+
+2. Discuss the procedure you would propose to collect data for your research proposal.
+
+
