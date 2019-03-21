@@ -11,33 +11,213 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
-***
-`r read_text("objectives10")`
+### Data collection methods
+
+* Data collection methods
+  + Focus groups
+  + Interviews
+  + Questionnaires
+  + Standardized instruments
+  + Existing data
+* Data quality
 
 <div class="notes">
 
-Here are the objectives for this week.
+The first half of this talk will cover various data collection methods. The second half will cover data quality issues.
 
 </div>
 
-***
-`r read_text("readings10")`
+### Running Focus groups
+
+* Two person job
+* Facilitator
+  + Asks questions
+  + Guide discussion, but stays neutral
+* Recorder
+  + Runs the tape recorder
+  + Keeps written notes
+* Debriefing session
+  
+<div class="notes">
+
+If you decide to collect data in a focus group, you need a second person. You could do it by yourself, but you are asking for trouble. One of you takes the role of the facilitator and one takes the role of the recorder.
+
+The facilitator asks a series of prepared questions. Your role is to guide the discussion while still keeping neutral. This means that you intervene if the group is getting off target or if one person is dominating the discussion. You should prepare some brief prompts to get your participants to elaborate or to draw in other participants.
+
+The recorder doesn't say anything after the introductions, but runs the recording device and take notes. The notes serve several purposes. First, they serve as a backup if your recording fails. Second, they note any significant non-verbal information such as gestures and body language. Third, the notes help to identify who is speaking when. A seating diagram is helpful for this. Note that not all focus groups track who is speaking.
+
+After the session is complete, the two of you sit down and talk about how things went.
+
+### Structure of a focus group
+
+* Multiple groups
+  + Stop when you achieve saturation
+* Six to ten participants
+* Sixty to ninety minutes
+* Ten questions
 
 <div class="notes">
 
-This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
+There is no magic number for the size of a focus group, but it is important to plan for more than one group. The consistency of responses from one group to the next will tell you if you have reached saturation. 
+
+Saturation is evidence that no new themes or ideas have emerged from your groups. Almost all assessments of whether saturation has been achieved are qualitative and subjective.
+
+The concept of saturation makes it difficult for you to plan a budget, but keep in mind that you cannot even begin to assess saturation until you've run your second focus group.
+
+The size of a focus group can vary, but I've seen recommendations of six to twelve people.
 
 </div>
 
+Interviews can be done in person or over the phone. This assumes a real-time exchange of information versus someone filling out information on their own time.
+
+Focus groups involve more than one. The dynamic can be an advantage or disadvantage. It might stifle some interactions, but perhaps people think of things based on what other people say.
+
+[[Rope in grain elevator]]
+
+Focus groups can be faster.
+
+</div>
+
+### Measurement dichotomies
+
+* Standardized versus investigator developed measures
+* Researcher evaluation versus patient report
+* Field measurements versus laboratory measurements
+  + Ecological validity
+* Standardized test
+
+### Researcher evaluations
+
+* Norm referenced tests
+* Criterion referenced tests
+* Achievement tests
+* Performance assessment
+  + Authentic assessment
+* Aptitude tests
+* Projective technique
+* Documents
+
+### Self report
+
+* Standardized personality inventories
+  + Paper and pencil
+  + Machine scored
+
+### Attitude scales
+
+* Strongly disagree through strongly agree
+* Semantic differential scales
+  + Evaluative (good-bad)
+  + Potency (strong-weak)
+  + Activity (fast-slow)
+
+### Questionnaires
+
+* Definitions
+  + Survey
+  + Questionnaire
+  + Interview
+  
+### Delivery
+
+* Remote administration
+  + Mail
+  + Internet (Survey Monkey)
+* Direct administration
+
+### Structure
+
+* Open-ended
+* Partially open-ended
+* Unordered closed response
+* Ordered closed response
+
+* Interviews
+  + Telephone
+  + Face-to-face
+* Focus groups
+
+### Pilot testing
+
+* Clarity of items
+* Content
+* "Whether your items cover all aspects of the domain you intend to measure and whether they are in appropriate proportions relative to that domain."
+  + page 258
+
+### Coding
+
+* Mutually exclusive
+* Multiple response
+* "Other" responses
+* Use number codes for categorical data
+* Missing codes
+  + Never use blanks for missing (book is wrong)
+  + -1, 99
+  + Multiple codes for multiple reasons
+* Dummy coding
+  + 0/1 for absence/presence
+* Reverse coding
+  + High is always positive
+* Tabular format
+  + No more than one piece of information
+* Double entry coding
+* Standard coding for race/ethnicity
+
+### Variable names
+
+* Not too short, not too long
+* Word delimiters
+  + No spaces, symbols
+* Example for Mother's age
+* Bad choices
+  + mom age
+  + mom-age
+  + momage
+* Good choices
+  + mom.age
+  + mom_age
+  + MomAge
+
+### Codebook
+
+* Also known as data dictionary
+
+### Quality checks
+
+* Minimum and maximum checks
+  + Out of range
+  + Zero variation
+* Missing value count
+* List five five rows, last five rows
+* Correlations
+
+### Data reduction
+
+* Create composite scores
+  + Check Cronbach's alpha
+  + Examine leaving out single items
+* Factor analysis
+  + Supplanted by Structural Equations Modeling
+
+### Data transformations
+
+* Ideal - selected a priori
+  + Sometimes based on precedent
+  + Sometimes motivated by theory
+  + Sometimes based on empirical findings
+
+### Question order
+
+* Sensitive questions last
+* Broad categories
+  + Income
+  
 ### Additional topics
 
 * Pilot studies
 
 * Questionnaires. http://www.pmean.com/02/questionnaire.html
 
-
-
-***
 ### Data Collection Techniques 
 
 ![](../images/image-10-01.png)
@@ -130,14 +310,6 @@ Attitudes and beliefs done for a variety of purposes. A "representative sample o
 The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
 
 Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open-ended, partial (responses plus other), and close ended responses.
-
-Interviews can be done in person or over the phone. This assumes a real-time exchange of information versus someone filling out information on their own time.
-
-Focus groups involve more than one. The dynamic can be an advantage or disadvantage. It might stifle some interactions, but perhaps people think of things based on what other people say.
-
-[[Rope in grain elevator]]
-
-Focus groups can be faster.
 
 </div>
 
