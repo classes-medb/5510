@@ -1,7 +1,7 @@
 ---
 title: "Video 10 - Data collection"
 author: "Steve Simon"
-output: 
+output:    
   powerpoint_presentation:
     reference_doc: ../doc/template.pptx
     slide_level: 3
@@ -27,7 +27,7 @@ The first half of this talk will cover various data collection methods. The seco
 
 </div>
 
-### Running Focus groups
+### Running focus groups
 
 * Two person job
 * Facilitator
@@ -77,6 +77,65 @@ Focus groups involve more than one. The dynamic can be an advantage or disadvant
 Focus groups can be faster.
 
 </div>
+
+### Interview
+
+* Administration
+  + Telephone
+  + Face-to-face
+* Format
+  + Semi-structured
+  + Structured
+
+<div class="notes">
+
+An interview is direct communication between the researcher and the subject. You can set up the interview on the telephone or conduct a face-to-face interview. The obvious advantage of a telephone interview is that it is fast and does not involve travel of either party. 
+
+A face-to-face interview takes more effort, but can sometimes help with building a sense of rapport and trust.
+
+Interviews have three formats, unstructured, semi-structured, or structured. An unstructured format is rarely used in research because it makes you work impossible to replicate.
+
+A semi-structured interview has a planned structure that includes a list of questions to ask. These questions are typically open-ended, to allow the patient to bring up issues that the researcher may not have been aware of. Most semi-structured interviews have a series of probe questions that are intended to prompt the research subject to elaborate further on a topic of interest.
+
+</div>
+
+### Question types
+
+* Open-ended
+* Partial open-ended
+* Likert scale
+
+### Questionnaire
+
+* Not the same as a survey
+  + Questionnaire is the form
+  + Survey is the process
+* Administration
+  + Paper
+  + Computerized
+  
+### Existing data sources
+
+* Curated databases
+* Web scraping
+
+### Advantages of focus groups
+
+* Faster than separate interviews
+* Participants build each others comments
+
+### Advantages of interviews
+
+* On-the-spot fixes
+* Increased participation rate
+
+### Advantages of a questionnaire
+
+* Less labor
+
+### Advantages of existing data
+
+* Fast
 
 ### Measurement dichotomies
 
@@ -767,36 +826,5 @@ Figure 15.4 shows SPSS output using descriptive statisticis to check data entry.
 Hopefully, you've done such a good job planning that these issues don't arise after the data is collected. [[Ha!]]
 
 </div>
-
-***
-### Assignment #8 
-
-+ Further refine your list of variables by specifying how each will be measured. Wherever appropriate, include the name of a specific measure. Do this by building onto the methods section of your research proposal draft. 
-
-<div class="notes">
-
-What's the evidence to support that measure.
-
-</div>
-
-***
-`r read_text("hw10", fri[10])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion10", fri[10])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
 
 ### Additional slides
