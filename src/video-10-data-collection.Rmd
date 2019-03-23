@@ -68,6 +68,10 @@ The size of a focus group can vary, but I've seen recommendations of six to twel
 
 </div>
 
+### Extra stuff
+
+<div class="notes">
+
 Interviews can be done in person or over the phone. This assumes a real-time exchange of information versus someone filling out information on their own time.
 
 Focus groups involve more than one. The dynamic can be an advantage or disadvantage. It might stifle some interactions, but perhaps people think of things based on what other people say.
@@ -99,21 +103,129 @@ A semi-structured interview has a planned structure that includes a list of ques
 
 </div>
 
-### Question types
-
-* Open-ended
-* Partial open-ended
-* Likert scale
-
 ### Questionnaire
 
 * Not the same as a survey
   + Questionnaire is the form
   + Survey is the process
 * Administration
-  + Paper
-  + Computerized
+  + Mail
+  + Computer (REDCap)
+  + Telephone
+  + In person
   
+Note: telephone and in person questionnaires could be classified as interviews.
+  
+<div class="notes">
+
+A questionnaire is a form with questions that your research subjects fill out by themselves. The term "quesitonnaire" is often used interchangably with the word "survey," but there is a distinction. The questionnaire is a specific term referring to the form itself, while a survey is intended to describe the entire process of data collection.
+
+Now I myself use these terms without regard to the semantics, so if you do so also, you are in good company. But once in a while you will find someone who insists on careful choices of words like this. These people are the same busy-bodies who insist that data is a plural noun.
+
+You can send out a questionnaire by mail or you can ask people to fill out the questionnaire on the computer. If you are using the computer, you should consider REDCap instead of commercial products like SurveyMonkey or SurveyGizmo. REDCap is an open source product that is supported by the Center for Health Insights. It's useful for any research project, but especially for online questionnaires.
+
+You can administer a questionnaire over the telephone or in person. If you wanted to get fussy about terminology, a telephone or in person questionnaire is actually an interview. This is like everything else. You'll find a fuss-budget who will insist on the proper terminology and they are correct to do so. But they are still fuss-budgets.
+
+</div>
+  
+### Question types for interviews and questionnaires
+
+* Open ended
+* Partial open-ended
+* Close ended
+
+<div class="notes">
+
+For both questionnaires and interviews, you have three broad class of questions
+
+</div>
+
+### Advantages of open ended questions
+
+* Richer, more detailed responses
+* Captures unanticipated responses
+* Avoids "pigeonholing".
+  + "Pigeonholing is a process that attempts to classify disparate entities into a limited number of categories (usually, mutually exclusive ones). The term usually carries connotations of criticism, implying that the classification scheme referred to inadequately reflects the entities being sorted, or that it is based on stereotypes." Wikipedia.
+  
+<div class="notes">
+
+
+
+</div>
+  
+### Advantages of close ended questions
+
+* Faster
+* Easier to analyze
+
+Note: partially open-ended questions are a compromise and have the worst of both worlds.
+
+### Types of close ended questions
+
+* Fill in the blank
+  + Q. What is your age? A. Older than dirt.
+  + Q. What is the one word that describes your greatest weakness? A. Inability to follow directions.
+* Ordinal scales
+  + Visual analog scale
+  + Likert scale
+* Nominal scales
+  + Select one option
+  + Select all that apply
+
+<div class="notes">
+
+There are several possible ways to ask close ended questions. You can ask people to fill in the blank. Strictly speaking this is not a close ended question, but the intent is to get responses from a limited subset. You might ask a person "What is your age?" and leave a blank. You're supposed to fill in a number, but some people will fill in something else like "older than dirt". Another example: "What's the one word that describes your greatest weakness? Inability to follow directions."
+
+In some cases, fill in the blank works just fine, but always watch out for unexpected responses.
+
+An ordinal response is a response where the order of the choices has meaning.
+
+</div>
+
+### Visual analog scale
+
+![Example of visual analog scale](../images/10/vas.png)
+
+<div class="notes">
+
+This is an example of the visual analog scale.
+
+</div>
+
+### Likert scale
+
+![Humorous and drawn image of a Likert scale](../images/10/likert.png)
+
+<div class="notes">
+
+This is an example of Likert scale. 
+
+https://www.flickr.com/photos/billsophoto/4175299981
+
+</div>
+
+### Single response
+
+![Part of a questionnaire with single response items](../images/10/single-response.png)
+
+<div class="notes">
+
+https://en.wikiversity.org/wiki/Module_Book_for_Occupational_Medicine_at_the_University_of_Panam%C3%A1
+
+</div>
+
+### Multiple response
+
+![Part of a questionnaire with a multiple response item](../images/10/multiple-response.png)
+
+<div class="notes">
+
+This is an example of a question where respondents can choose more than one response.
+
+Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_puf.htm for details.
+
+</div>
+
 ### Existing data sources
 
 * Curated databases
@@ -132,6 +244,7 @@ A semi-structured interview has a planned structure that includes a list of ques
 ### Advantages of a questionnaire
 
 * Less labor
+* No interviewer bias
 
 ### Advantages of existing data
 
