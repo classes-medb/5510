@@ -1,6 +1,8 @@
+semester_start <- "2019-01-21"
+
 suppressMessages(suppressWarnings(library(lubridate)))
 suppressMessages(suppressWarnings(library(magrittr)))
-dat1 <- as.Date("2019-01-21", format="%Y-%m-%d")
+dat1 <- as.Date(semester_start, format="%Y-%m-%d")
 d <- dat1+(0:15)*7
 f <- "%A, %B %d, %Y"
 mon <- format(d, f)

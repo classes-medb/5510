@@ -1,10 +1,14 @@
 ---
 title: "Syllabus for Clinical Research Methods (MEDB 5510)"
 author: "Steve Simon"
-date: "December 26, 2018"
+date: "Creation date: December 26, 2018"
 output:
   html_document: default
 ---
+
+## Printing date
+
+This syllabus was last updated on `r Sys.Date()`.
 
 ```{r echo=FALSE}
 source(file="prelims.R", echo=FALSE)

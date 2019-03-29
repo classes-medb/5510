@@ -1,8 +1,0 @@
-### Learning objectives
-
-1. To discuss different methods of collecting data
-
-2. To discuss when different data collections methods are most appropriate
-
-3. To describe the advantages and disadvantages of different data collection methods
-

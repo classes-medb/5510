@@ -1,0 +1,62 @@
+---
+title: "Clinical Research Methods, Week 1"
+author: "Steve Simon"
+output:
+  html_document: default
+---
+
+```{r echo=FALSE}
+source(file="prelims.R", echo=FALSE)
+```
+
+Created: Monday, January 21, 2019
+
+Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+
+Please complete all work by midnight, `r mon[2]` to receive full credit.
+
+## Week 1: Course Overview and Introductions; Introduction to Clinical Research Methods
+
+<!-- regular html comment -->
+
+This is a list of assignments, readings, and discussion questions for the week starting on `r tue[1]`.
+
+### Learning objectives for this week
+
+* To demonstrate an understanding of the course structure and expectations
+
+* To define clinical research
+
+* To distinguish between qualitative and quantitative research and identify when each type of research is called for
+
+### Reading for this week
+
+`r read_text("copyright")`
+
+#### Required reading
+
+* Gliner, Morgan, and Leech, Chapter 1
+
+#### Recommended reading
+
+* Locklear. Patient Reported Outcomes. Available in [html format](http://rethinkingclinicaltrials.org/resources/patient-reported-outcomes-3/).
+
+* Deshpande. Patient-reported outcomes: A new era in clinical research. Available in [html format](http://www.picronline.org/article.asp?issn=2229-3485;year=2011;volume=2;issue=4;spage=137;epage=144;aulast=Deshpande) and [pdf format](http://www.picronline.org/article.asp?issn=2229-3485;year=2011;volume=2;issue=4;spage=137;epage=144;aulast=Deshpande;type=2).
+
+### Assignments for this week
+
+* Q01. Complete and send in Syllabus Quiz. Quiz must be submitted by midnight, `r mon[2]` to be eligible to receive full credit.
+
+* (Not for credit). Start thinking about a research question that you might want to examine in this class. Ideally, it should be a question that you might want to use for your capstone project, thesis, or dissertation. But if you are not part of a degree program that requires one of these, just pick a research question in an area that you work in and that appeals to you. If you are very early in your degree program and don't have a firm idea yet what you might want to study, that's fine. Just pick something, and it's perfectly fine if you end up choosing a different research question for your capstone, thesis, or dissertation.
+
+### Discussion questions for this week
+
+Please submit all your discussion questions by `r mon[2]` for full credit.
+
+* D01-01 `r read_text("minute-paper")`
+
+* D01-02 (Two points). Briefly describe your background and explain why are you interested in this course.
+
+* D01-03 (Two points). Find a research paper that is relevant to your work or area of study. This must be a paper with full free text available. Post the abstract of this article and a link to the full text. Review the dichotomies discussed in Chapter 1 and classify the paper into one of the two levels in each dichotomy, or classify it as a mixture of both levels of the dichotomies. If you are unsure about any classification, be honest about your uncertainty.
+
+* D01-EC `r read_text("extra-credit")`
