@@ -1,0 +1,259 @@
+---
+title: "Example of Cronbach's alpha calculation"
+author: "Steve Simon"
+date: "3/30/2019"
+output: html_document
+---
+
+```{r prelims}
+suppressWarnings(suppressMessages(library(psych)))
+```
+
+My Clinical Research Methods class seemed a bit confused about my discussion of Cronbach's alpha (hereafter just called alpha). It's either because  alpha is a confusing statistic or because Steve Simon is a confusing teacher. Probably a bit of both.
+
+So let me take a bit of time to elaborate a bit more on this statistic.
+
+Alpha only makes sense for composite measures. A composite measure is a single measurment that is computed as a sum of several individual items. What alpha does is to measure the internal consistency of the individual items.
+
+The data set I will use to illustrate alpha is found in the R package. The name of the data set is "attitude" and it was included as an example of multiple linear regression in a classic textbook, Chatterjee and Price (1977), Regression Analysis by Example.
+
+The R package has further details about this data set in [html format](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/attitude.html).
+
+I will ignore the first column, an overall rating, and compute a composite measure of 
+
+* complaints: Handling of employee complaints
+* privileges: Does not allow special privileges
+* learning: Opportunity to learn
+* raises: Raises based on performance
+* critical: Too critical
+* advance: Advancement
+
+The first column is an overall rating. I will ignore this column from the perspective of reliability for reasons that I do not want to get into. I would note, however, that the overall rating could be a criterion, and if it correlated well with the composite scale of the remaining six items, that would be one way to establish validity.
+
+Each of these items ranges from 0 to 100 and represents the number of "positive" responses in a survey of employees in a given department. Now, you should be a bit concerned about the fifth item, critical. Is this coded in a way that large values mean that most of the employees in a department thought their manager was too critical? Or do large values mean a "postive" response meaning that most employees disagreed that their manager was too critical?
+
+Here is a listing of the entire data set (excluding the first column).
+
+```{r list}
+attitude[, -1] # exclude the first column
+```
+
+Before you compute a composite score, look at the correlaton matrix of the six individual items. I am rounding the correlations to a single decimal.
+
+```{r correlations}
+round(cor(attitude[, -1]), digits=1)
+```
+
+Notice that all of the correlations are positive. That includes "critical" which provides some reassurance that large values on this item represent a good thing.
+
+If you notice that some of the correlations appear to be negative or very close to zero, that is a warning signal that maybe your composite will be a poor composite. It will end up being a mixture of apples and oranges. The zero and negatively correlated items will weaken the overall signal.
+
+```{r composite}
+composite <- 
+  attitude$complaints +
+  attitude$privileges +
+  attitude$learning +
+  attitude$raises +
+  attitude$critical +
+  attitude$advance
+print(composite)
+summary(composite)
+```
+
+The best department manager had a score of `r max(composite)` and the worst department manager had a score of `r min(composite)`. The average rating was `r mean(composite)`.
+
+The simplest approach for assessing reliability is to split the composite into two halves and then corelating those two halves.
+
+```{r split-halves}
+first_half <- 
+  attitude[ , 2] +
+  attitude[ , 4] +
+  attitude[ , 6]
+second_half <- 
+  attitude[ , 3] +
+  attitude[ , 5] +
+  attitude[ , 7]
+split_half_correlation <- cor(first_half, second_half)
+print(round(split_half_correlation, digits=2))
+```
+
+The correlation here is pretty good. You would like to see a correlation of 0.7 or greater. That's an arbitrary cut-off, so don't give up hope if your split-half correlation is 0.64.
+
+Most researchers consider the split-half correlation to be an underestimate of the internal consistency, because shortening a composite measure by 50% will hurt reliability.
+
+There is an adjustment, Spearman-Brown, that compensates for this. There is a general formula for the Spearman-Brown adjustment, but for split-half correlations, it simplifies to
+
+ $r^*=\frac{2r}{1+r}$
+
+In our example, that would be 
+
+```{r spearman-brown}
+spearman_brown_adjustment <- 
+  2*split_half_correlation/(1+split_half_correlation)
+print(round(spearman_brown_adjustment, digits=2))
+```
+
+Now, the choice of how to split up your composite is very arbitrary, so very few researchers rely on the split-half correlation.
+
+Alpha is another measure of internal consistency and very similar in spirit to the split-half correlation.
+
+To compute alpha, you compare the variances of the individual items to the variance of the composite score.
+
+ $\alpha = \frac{I}{I-1}(1-\frac{\Sigma S_i^2}{S^2})$
+ 
+where $S_i^2$ is the variance of the individual item and $S^2$ is the variance of the composite.
+
+You can think of alpha as a measure of the synergy of the individual items. The whole is greater than the sum of the parts, so the saying goes.
+
+Another way of thinking about it is that if the individual items are positively correlated, a high score on one item will carry over into the other items. This amplifies the signal you get when you compute the sum of the items.
+
+The calculations are a bit tedious, but I'm happy to do it. Tedious is my middle name.
+
+```{r variances}
+v2 <- var(attitude$complaints)
+v3 <- var(attitude$privileges)
+v4 <- var(attitude$learning)
+v5 <- var(attitude$raises)
+v6 <- var(attitude$critical)
+v7 <- var(attitude$advance)
+v <- var(composite)
+print(round(v2, 1))
+print(round(v3, 1))
+print(round(v4, 1))
+print(round(v5, 1))
+print(round(v6, 1))
+print(round(v7, 1))
+print(round(v2+v3+v4+v5+v6+v7, 1))
+print(round(v, 1))
+```
+
+Notice that the sum of the individual item variances is a lot smaller than the variance of the composite. That's a good sign.
+
+```{r cronbach}
+I <- 6
+alpha <- I/(I-1)*(1-(v2+v3+v4+v5+v6+v7)/v)
+print(round(alpha, digits=3))
+
+```
+
+Several sources note that alpha is the average of every possible split-half correlation (after a Spearman-Brown adjustment). That's not too difficult to show, although tedious as all the earlier calculations. There is a slight discrepancy, which I chalk up to rounding.
+
+```{r all-split-halves}
+r234 <- cor(
+  attitude[ , 2]+attitude[ , 3]+attitude[ , 4],
+  attitude[ , 5]+attitude[ , 6]+attitude[ , 7])
+r235 <- cor(
+  attitude[ , 2]+attitude[ , 3]+attitude[ , 5],
+  attitude[ , 4]+attitude[ , 6]+attitude[ , 7])
+r236 <- cor(
+  attitude[ , 2]+attitude[ , 3]+attitude[ , 6],
+  attitude[ , 4]+attitude[ , 5]+attitude[ , 7])
+r237 <- cor(
+  attitude[ , 2]+attitude[ , 3]+attitude[ , 7],
+  attitude[ , 4]+attitude[ , 5]+attitude[ , 6])
+r245 <- cor(
+  attitude[ , 2]+attitude[ , 4]+attitude[ , 5],
+  attitude[ , 3]+attitude[ , 6]+attitude[ , 7])
+r246 <- cor(
+  attitude[ , 2]+attitude[ , 4]+attitude[ , 6],
+  attitude[ , 3]+attitude[ , 5]+attitude[ , 7])
+r247 <- cor(
+  attitude[ , 2]+attitude[ , 4]+attitude[ , 7],
+  attitude[ , 3]+attitude[ , 5]+attitude[ , 6])
+r256 <- cor(
+  attitude[ , 2]+attitude[ , 5]+attitude[ , 6],
+  attitude[ , 3]+attitude[ , 4]+attitude[ , 7])
+r257 <- cor(
+  attitude[ , 2]+attitude[ , 5]+attitude[ , 7],
+  attitude[ , 3]+attitude[ , 4]+attitude[ , 6])
+r267 <- cor(
+  attitude[ , 2]+attitude[ , 6]+attitude[ , 7],
+  attitude[ , 3]+attitude[ , 4]+attitude[ , 5])
+all_halves <- c(
+  r234, r235, r236, r237, 
+  r245, r246, r247, 
+  r256, r257, 
+  r267)
+print(round(2*all_halves/(1+all_halves), digits=2))
+avg_all_halves <- mean(all_halves)
+print(round(2*avg_all_halves/(1+avg_all_halves), digits=3))
+```
+
+There were some questions about Kuder-Richardson 20 (KR-20) as well. It works pretty much the same way as alpha.
+
+You use KR-20 for a composite variable that is composed of binary items. You can create a set of binary items from the previous data set by enforcing a pass-fail criteria on the ratings. A supervisor gets a passing grade on a particular item if 60% or more of his employees rate him positively on a particular item.
+
+Note: I normally do not recommend taking nice continuous scales and creating binary variables. You are throwing away information. I'm doing this only to illustrate the calculation of KR-20.
+
+```{r create-binary}
+binary <- NULL
+binary$complaints <- as.numeric(attitude$complaints >= 60)
+binary$privileges <- as.numeric(attitude$privileges >= 60)
+binary$learning <- as.numeric(attitude$learning >= 60)
+binary$raises <- as.numeric(attitude$raises >= 60)
+binary$critical <- as.numeric(attitude$critical >= 60)
+binary$advance <- as.numeric(attitude$advance >= 60)
+binary
+binary_composite <- 
+  binary$complaints +
+  binary$privileges +
+  binary$learning +
+  binary$raises +
+  binary$critical +
+  binary$advance
+binary_composite
+```
+
+Calculate the probability of a 1 for each item.
+
+```{r calculate-probability}
+p2 <- sum(binary$complaints==1)/30
+p3 <- sum(binary$privileges==1)/30
+p4 <- sum(binary$learning==1)/30
+p5 <- sum(binary$raises==1)/30
+p6 <- sum(binary$critical==1)/30
+p7 <- sum(binary$advance==1)/30
+q2 <- 1 - p2
+q3 <- 1 - p3
+q4 <- 1 - p4
+q5 <- 1 - p5
+q6 <- 1 - p6
+q7 <- 1 - p7
+print(round(p2, digits=2))
+print(round(p3, digits=2))
+print(round(p4, digits=2))
+print(round(p5, digits=2))
+print(round(p6, digits=2))
+print(round(p7, digits=2))
+```
+
+The formula for KR-20 is very similar to the formula for Cronbach's alpha.
+
+ $KR-20 = \frac{I}{I-1}(1-\frac{\Sigma p_iq_i}{S^2})$
+ 
+where $\Sigma p_iq_i$ is the sum of the variances of each individual item and $S^2$ is the variance of the composite. The similarity becomes even more striking if you think about the variance of a Bernoulli random variable. I won't clutter this handout up with those sort of things, though.
+
+```{r kr-20}
+v <- var(binary_composite)
+I <- 6
+kr <- I/(I-1)*(1-(p2*q2+p3*q3+p4*q4+p5*q5+p6*q6+p7*q7)/v)
+print(round(kr, digits=2))
+```
+
+The value for the KR-20 coefficient is larger than 0.7, which is what most researchers like to see.
+
+### When should you use Cronbach's alpha and KR-20
+
+There is a fair amount of controversy over these two statistics. First, they are not a measure of uni-dimensionality. To establish unidimensionality, you would need to run some sort of factor analysis or structural equations model.
+
+What does uni-dimensionality mean, though? And why it is important? Uni-dimensionality means that all the items in the composite score are measuring more or less the same thing. Even with sophisticated models, you would have a hard time establishing this. 
+
+You'd like to have all the items measuring the same thing, because if a few of the items are measuring something else, a second dimension, then you are diluting the signal associated with most of items.
+
+What Cronbach's alpha and KR-20 are measuring is internal consistency. Do the individual items in your composite travel together--large values of one item associated with large values of the other items and small values of one item associated with small values of the other items.
+
+In my opinion, this is a small and unimportant feature of a composite scale. But other researchers will insist on this before they will publish your work. So you need to know about this.
+
+Keep in mind that Cronbach's alpha and KR-20 only work for composite measures. If you are measuring pain using the Faces scale, that's a single number 1 through 5. It is single item so there is nothing internal to be consistent about. If you still need to assess reliability, and that would probably mean something like test-retest reliability. 
+
+As another example, the Clark scale (details are [here](https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/clark-breslow-staging))is a measure used in melanoma cases. It is a single item with five levels describing how deeply a melanoma has penetrated the skin. You can't use alpha because on a single item scale. Since this is a physician report, your main concern about reliability would be assuring that two different physicians would, more often than not, use the same level when they are looking at the same melanoma. The intra-class correlation coefficient is your best bet here.
