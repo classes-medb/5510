@@ -48,37 +48,29 @@ The recorder doesn't say anything after the introductions, but runs the recordin
 
 After the session is complete, the two of you sit down and talk about how things went.
 
+</div>
+
 ### Structure of a focus group
 
+* Six to ten participants
 * Multiple groups
   + Stop when you achieve saturation
-* Six to ten participants
 * Sixty to ninety minutes
-* Ten questions
+* Ten questions, semi-structured interview
 
 <div class="notes">
 
-There is no magic number for the size of a focus group, but it is important to plan for more than one group. The consistency of responses from one group to the next will tell you if you have reached saturation. 
+The size of a focus group can vary, but I've seen recommendations of six to twelve people.
+
+What the research community does agree on is that you need to plan for more than one group. The consistency of responses from one group to the next will tell you if you have reached saturation. 
 
 Saturation is evidence that no new themes or ideas have emerged from your groups. Almost all assessments of whether saturation has been achieved are qualitative and subjective.
 
 The concept of saturation makes it difficult for you to plan a budget, but keep in mind that you cannot even begin to assess saturation until you've run your second focus group.
 
-The size of a focus group can vary, but I've seen recommendations of six to twelve people.
+Other common recommendations are to keep each session short, 60 to 90 minutes, and to have no more than ten questions. Your questions should follow a semi-structured format, which I'll talk about in the context of interviewing.
 
-</div>
-
-### Extra stuff
-
-<div class="notes">
-
-Interviews can be done in person or over the phone. This assumes a real-time exchange of information versus someone filling out information on their own time.
-
-Focus groups involve more than one. The dynamic can be an advantage or disadvantage. It might stifle some interactions, but perhaps people think of things based on what other people say.
-
-[[Rope in grain elevator]]
-
-Focus groups can be faster.
+Getting information from a group is a double-edged sword. Often in a focus group, one participant will build on the comments of another and provide a perspective that you may have missed in a single person interview. At other times, however, one person may stifle the feedback from another. A good focus group leader will recognize this and work to insure that everyone participates fully. It's easy to say this in theory, but in practice, it can be difficult.
 
 </div>
 
@@ -88,6 +80,7 @@ Focus groups can be faster.
   + Telephone
   + Face-to-face
 * Format
+  + Unstructured
   + Semi-structured
   + Structured
 
@@ -99,7 +92,45 @@ A face-to-face interview takes more effort, but can sometimes help with building
 
 Interviews have three formats, unstructured, semi-structured, or structured. An unstructured format is rarely used in research because it makes you work impossible to replicate.
 
+An unstructured interview is not used too often, because of problems with repeatability. The interviewer goes in with a general idea of what to discuss, but no specific questions. The general direction of the interview will determine what questions to ask next.
+
 A semi-structured interview has a planned structure that includes a list of questions to ask. These questions are typically open-ended, to allow the patient to bring up issues that the researcher may not have been aware of. Most semi-structured interviews have a series of probe questions that are intended to prompt the research subject to elaborate further on a topic of interest.
+
+</div>
+
+### Example of structured and unstructured interviews
+
+![Description of interview for child abuse](../images/10/interview-schedule.png)
+
+<div class="notes">
+
+Here's an example of two interviews. The first is a structured interview with four yes/no questions. 
+
+Before you were 17 years of age (Each question had answer choices of “Yes” or “No):
+
+ 1. a parent or guardian ever do something to you on purpose (for example, hit or punch or cut you, or push you down) that made you bleed or gave you bruises or scratches.
+ 
+ 2. Did, or that broke bones or teeth?”
+ 
+ 3. Did either of your parents or guardians get so mad at you that they hurt you physically?
+ 
+ 4. Did either of your parents or guardians use physical punishment for discipline?
+
+The second interview is described as unstructured. I would call it semi-structured, but that is a nitpick. The questions were
+
+ 1. How do your parents or guardians discipline you?
+
+ 2. Do they ever physically hit you?
+
+ 3. How do they punish you?
+
+ 4. Further probing was done depending on the responses to the questions: : having been hit, punched, kicked, or otherwise struck or pushed down; cut, bruised, made to bleed, scratched, having broken bones, broken teeth, or having been hurt physically
+ 
+The questions in the structured interview are close-ended. This is quite common, but you can also have a structured interview with open ended questions. For the semi-structured or unstructured interview, however, the questions must be open ended so that you can probe for more information.
+
+The article that these interview questions came from noted that the unstructured interview was far more likely to uncover reports of abus than the structured interview.
+
+Image source: Diaz 2017 (see the reading list for full details).
 
 </div>
 
@@ -130,9 +161,13 @@ You can administer a questionnaire over the telephone or in person. If you wante
   
 ### Question types for interviews and questionnaires
 
-* Open ended
-* Partial open-ended
-* Close ended
+* No one to supervise if person answers "incorrectly".
+  + Q. What is your age? A. Older than dirt.
+  + Q. What is the one word that describes your greatest weakness? A. Inability to follow directions.
+* Three broad classes of questions
+  + Open ended
+  + Partial open-ended
+  + Close ended
 
 <div class="notes">
 
@@ -149,7 +184,11 @@ For both questionnaires and interviews, you have three broad class of questions
   
 <div class="notes">
 
+Open ended questions let people use their own words. You can get an unlimited number of responses, which is both good and bad. The open ended question provides a richer set of responses, but is harder to quantify.
 
+If you don't know the general categories of responses that people can provide in advance, the open ended question is your best friend. But keep in mind that you could use a pilot study with open ended questions to get a general idea of what the possible responses might be and use that to design close ended questions for the full study.
+
+The other big advantage of open ended questions is that it avoids pigeon-holing. A pigeon hole is an array of stacked boxes that allow you to sort through paperwork quickly by placing different types of papers into different boxes. The term is often used pejoratively to refer to the process of assigning categories that often are too simplistic because of the limited number of choices.
 
 </div>
   
@@ -157,14 +196,23 @@ For both questionnaires and interviews, you have three broad class of questions
 
 * Faster
 * Easier to analyze
+* Better quality control
 
 Note: partially open-ended questions are a compromise and have the worst of both worlds.
+
+<div class="notes">
+
+Close ended questions are faster, and that's a benefit both to you and to the person filling out the questionnaire. This is especially true if you are using mobile devices like phones and tablets to collect your data. The keyboard that is available on these devices is small and difficult to use. Your research subjects will probably be much happier if they can tap to select one from a limited set of options.
+
+Open ended questions are easier to analyze. 
+
+Quality control is a bit easier with close ended questions. That doesn't mean that someone won't trip you up. But less latitude in how you can respond means fewer things that could be done wrong.
+
+</div>
 
 ### Types of close ended questions
 
 * Fill in the blank
-  + Q. What is your age? A. Older than dirt.
-  + Q. What is the one word that describes your greatest weakness? A. Inability to follow directions.
 * Ordinal scales
   + Visual analog scale
   + Likert scale
@@ -174,11 +222,19 @@ Note: partially open-ended questions are a compromise and have the worst of both
 
 <div class="notes">
 
-There are several possible ways to ask close ended questions. You can ask people to fill in the blank. Strictly speaking this is not a close ended question, but the intent is to get responses from a limited subset. You might ask a person "What is your age?" and leave a blank. You're supposed to fill in a number, but some people will fill in something else like "older than dirt". Another example: "What's the one word that describes your greatest weakness? Inability to follow directions."
+There are several possible ways to ask close ended questions.
+
+You can ask people to fill in the blank. Strictly speaking this is not a close ended question, but the intent is to get responses from a limited subset. You might ask a person "What is your age?" and leave a blank and you're supposed to fill in a number.
 
 In some cases, fill in the blank works just fine, but always watch out for unexpected responses.
 
-An ordinal response is a response where the order of the choices has meaning.
+For an ordinal response, the order of the choices has meaning. If you re-arranged the order of choices for an ordinal category, you would, at a minimum, make things confusing. So a common ordinal scale is strongly disagree, disagree, neutral, agree, strongly agree. it would mess things up if you tried to alphabetize these responses: agree, disagree, neutral, strongly agree, strongly disagree.
+
+For a nominal response, the order is largely arbitrary. Suppose you had to choose between the marital status choices: single, married, divorced, widowed. Re-ordering these alphabetically (divorced, married, single, widowed) is a little weird, but not so much as the agree, disagree, neutral, etc. example from earlier.
+
+Ordinal responses typically are collected using a visual analog scale or some type of Likert scale.
+
+Nominal responses are collectetd using a check box, but there are two possibilities: check only one, or check all that apply.
 
 </div>
 
@@ -204,6 +260,47 @@ https://www.flickr.com/photos/billsophoto/4175299981
 
 </div>
 
+### Likert response options
+
+* Number of points
+  + Larger is better? worse? than smaller
+  + Even is better? worse? than odd
+* Anchors
+* Not applicable, Don't know
+* Reverse scaling
+
+<div class="notes">
+
+There are a large number of ways to present a ordinal scale, and very little consensus in the research community about which approach is best. It, very likely, will depend on the context of your particular research setting. Here are some of the things that people argue about.
+
+You have to have more than two options for an ordinal scale, or it reduces to a binary scale. So you might see three choices, or as many as ten. More than ten is very rare.
+
+The most common number is five and the two most common alternatives are four and seven. But the two biggest debates are small versus large and odd versus even.
+
+Is a large number of choices better or worse than a small number of choices? Some people think that too many choices will confuse you. Others think that more choices are better because they allow you the freedom to make subtle, but important distinctions. Others will argue that a larger number of choices will make it easier to analyze, because you can get closer to a bell shaped curve with a larger number of responses. This can backfire, though. With too many choices, people may gravitate towards a few favorite values leading to dips in frequencies at the unpopular values.
+
+Is there a reason to choose even versus odd numbers. An odd number of choices always has a middle value (3 for a five point scale, for example) that represents neutral, or neither agree nor disagree. Some researchers hate this, and think that a neutral response is too easy to select thoughtlessly. An even number of values forces you to commit, even if only slightly, to the agree side or the disagree side.
+
+Anchors are the words that are atached to the ordinal values. In the most common form, you are asked to read a statement and choose among Strongly disagree, disagree, neutral, agree, and strongly agree. For a six point scale this would be modified to Strongly disagree, Disagree, Slightly disagree, Slightly agree, Agree, Strongly agree.
+
+You can choose other options, though. So you might ask about frequency. The choices could be Very frequently, Frequently, Occasionally, Rarely. Another choice would be Never, Rarely, Sometimes, Often. You could refer to a calendar with responses like Every day, Two or three times a week, Once a week, Less than once a week.
+
+If you are measuring satisfaction, you might choose Very satisfied, Satisfied, Dissatisfied, Very dissatisfied.
+
+If you are measuring quality, you might choose Excellent, Very good, Good, Fair, Poor.
+
+If you are asking how important something is, you might choose Very important, Important, Moderately important, Slightly important, Not at all important.
+
+You might ask people to choose between two moods, such as Very happy, Happy, Neither happy nor unhappy, Unhappy, Very unhappy.
+
+For moods, sometimes researchers will just place anchors at each end and leave the middle responses blank. This is often done with a range of polar adjectives like rude/courteous, calm/excited, violent/gentle, silly/serious. Choosing between two polar adjectives is often called a semantic differential scale.
+
+Sometimes, you might want to leave a response blank because it is not applicable, or you don't know. Both of these responses are different from the neutral option in a five point Likert scale, but if you aren't give a not applicable or don't know option, you might choose the neutral option as the best alternative.
+
+Reverse scaling is the inclusion of questions where a positive result is sometimes scored as a high number and sometimes scored as a low number. This is done sometimes to insure that people read each question carefully and don't just choose the same option thoughtlessly down the list.
+
+</div>
+
 ### Single response
 
 ![Part of a questionnaire with single response items](../images/10/single-response.png)
@@ -225,6 +322,8 @@ This is an example of a question where respondents can choose more than one resp
 Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_puf.htm for details.
 
 </div>
+
+### Pilot testing a questionnaire
 
 ### Existing data sources
 

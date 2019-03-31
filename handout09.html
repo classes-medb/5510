@@ -313,11 +313,11 @@ $(document).ready(function () {
 </div>
 
 
-<pre class="r"><code>library(psych)</code></pre>
-<pre><code>## Warning: package &#39;psych&#39; was built under R version 3.4.4</code></pre>
-<p>My Clinical Research Methods class seemed a bit confused about my discussion of Cronbach’s alpha. So let me take a bit of time to elaborate a bit more on this statistic.</p>
-<p>Cronbach’s alpha only makes sense for composite measures. A composite measure is a single measurment that is computed as a sum of several individual items. What Cronbach’s alpha does is to measure the internal consistency of the individual items.</p>
-<p>The data set I will use to illustrate Cronbach’s alpha is found in the R package. The name of the data set is “attitude” and it was included as an example of multiple linear regression in a classic textbook, Chatterjee and Price (1977), Regression Analysis by Example.</p>
+<pre class="r"><code>suppressWarnings(suppressMessages(library(psych)))</code></pre>
+<p>My Clinical Research Methods class seemed a bit confused about my discussion of Cronbach’s alpha (hereafter just called alpha). It’s either because alpha is a confusing statistic or because Steve Simon is a confusing teacher. Probably a bit of both.</p>
+<p>So let me take a bit of time to elaborate a bit more on this statistic.</p>
+<p>Alpha only makes sense for composite measures. A composite measure is a single measurment that is computed as a sum of several individual items. What alpha does is to measure the internal consistency of the individual items.</p>
+<p>The data set I will use to illustrate alpha is found in the R package. The name of the data set is “attitude” and it was included as an example of multiple linear regression in a classic textbook, Chatterjee and Price (1977), Regression Analysis by Example.</p>
 <p>The R package has further details about this data set in <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/attitude.html">html format</a>.</p>
 <p>I will ignore the first column, an overall rating, and compute a composite measure of</p>
 <ul>
@@ -363,7 +363,7 @@ $(document).ready(function () {
 ## 28         57         44       45     51       83      38
 ## 29         85         71       71     77       74      55
 ## 30         82         39       59     64       78      39</code></pre>
-<p>Before you compute a composite score, look at the correlaton matrix of the six individual items. I rounding the correlations to a single decimal.</p>
+<p>Before you compute a composite score, look at the correlaton matrix of the six individual items. I am rounding the correlations to a single decimal.</p>
 <pre class="r"><code>round(cor(attitude[, -1]), digits=1)</code></pre>
 <pre><code>##            complaints privileges learning raises critical advance
 ## complaints        1.0        0.6      0.6    0.7      0.2     0.2
@@ -374,7 +374,6 @@ $(document).ready(function () {
 ## advance           0.2        0.3      0.5    0.6      0.3     1.0</code></pre>
 <p>Notice that all of the correlations are positive. That includes “critical” which provides some reassurance that large values on this item represent a good thing.</p>
 <p>If you notice that some of the correlations appear to be negative or very close to zero, that is a warning signal that maybe your composite will be a poor composite. It will end up being a mixture of apples and oranges. The zero and negatively correlated items will weaken the overall signal.</p>
-<p>You can calculate the composite score as a sum or as an average. It is almost always an artibrary choice.</p>
 <pre class="r"><code>composite &lt;- 
   attitude$complaints +
   attitude$privileges +
@@ -388,7 +387,8 @@ print(composite)</code></pre>
 <pre class="r"><code>summary(composite)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##   247.0   320.8   359.0   358.4   399.5   442.0</code></pre>
-<p>The best department manager had a score of 442 and the worst department manager had a score of 247. The average rating was 358.4333333. The simplest approach for assessing reliability is to split the composite into two halves and then corelating those two halves.</p>
+<p>The best department manager had a score of 442 and the worst department manager had a score of 247. The average rating was 358.4333333.</p>
+<p>The simplest approach for assessing reliability is to split the composite into two halves and then corelating those two halves.</p>
 <pre class="r"><code>first_half &lt;- 
   attitude[ , 2] +
   attitude[ , 4] +
@@ -410,10 +410,11 @@ print(round(split_half_correlation, digits=2))</code></pre>
 print(round(spearman_brown_adjustment, digits=2))</code></pre>
 <pre><code>## [1] 0.86</code></pre>
 <p>Now, the choice of how to split up your composite is very arbitrary, so very few researchers rely on the split-half correlation.</p>
-<p>Cronbach’s alpha is another measure of internal consistency. You compare the variances of the individual items to the variance of the composite score.</p>
+<p>Alpha is another measure of internal consistency and very similar in spirit to the split-half correlation.</p>
+<p>To compute alpha, you compare the variances of the individual items to the variance of the composite score.</p>
 <p><span class="math inline">\(\alpha = \frac{I}{I-1}(1-\frac{\Sigma S_i^2}{S^2})\)</span></p>
 <p>where <span class="math inline">\(S_i^2\)</span> is the variance of the individual item and <span class="math inline">\(S^2\)</span> is the variance of the composite.</p>
-<p>You can think of Cronbach’s alpha as a measure of the synergy of the individual items. The whole is greater than the sum of the parts, so the saying goes.</p>
+<p>You can think of alpha as a measure of the synergy of the individual items. The whole is greater than the sum of the parts, so the saying goes.</p>
 <p>Another way of thinking about it is that if the individual items are positively correlated, a high score on one item will carry over into the other items. This amplifies the signal you get when you compute the sum of the items.</p>
 <p>The calculations are a bit tedious, but I’m happy to do it. Tedious is my middle name.</p>
 <pre class="r"><code>v2 &lt;- var(attitude$complaints)
@@ -444,7 +445,9 @@ print(round(v2, 1))</code></pre>
 alpha &lt;- I/(I-1)*(1-(v2+v3+v4+v5+v6+v7)/v)
 print(round(alpha, digits=3))</code></pre>
 <pre><code>## [1] 0.81</code></pre>
-<p>Several sources note that Cronbach’s alpha is the average of every possible split-half correlation (after a Spearman-Brown adjustment). That’s not too difficult to show, although tedious as all the earlier calculations. There is a slight discrepancy, which I chalk up to rounding.</p>
+<!---
+-->
+<p>Several sources note that alpha is the average of every possible split-half correlation (after a Spearman-Brown adjustment). That’s not too difficult to show, although tedious as all the earlier calculations. There is a slight discrepancy, which I chalk up to rounding.</p>
 <pre class="r"><code>r234 &lt;- cor(
   attitude[ , 2]+attitude[ , 3]+attitude[ , 4],
   attitude[ , 5]+attitude[ , 6]+attitude[ , 7])
@@ -485,9 +488,9 @@ print(round(2*all_halves/(1+all_halves), digits=2))</code></pre>
 <pre class="r"><code>avg_all_halves &lt;- mean(all_halves)
 print(round(2*avg_all_halves/(1+avg_all_halves), digits=3))</code></pre>
 <pre><code>## [1] 0.819</code></pre>
-<p>There were some questions about Kuder-Richardson 20 as well. It works pretty much the same way as Cronbach’s alpha.</p>
-<p>You use Kuder-Richardson 20 for a composite variable that is composed of binary items. You can create a set of binary items from the previous data set by enforcing a pass-fail criteria on the ratings. A supervisor gets a passing grade on a particular item if 60% or more of his employees rate him positively on a particular item.</p>
-<p>Note: I normally do not recommend taking nice continuous scales and creating binary variables. You are throwing away information. I’m doing this only to illustrate the calculation of Kuder-Richardson 20.</p>
+<p>There were some questions about Kuder-Richardson 20 (KR-20) as well. It works pretty much the same way as alpha.</p>
+<p>You use KR-20 for a composite variable that is composed of binary items. You can create a set of binary items from the previous data set by enforcing a pass-fail criteria on the ratings. A supervisor gets a passing grade on a particular item if 60% or more of his employees rate him positively on a particular item.</p>
+<p>Note: I normally do not recommend taking nice continuous scales and creating binary variables. You are throwing away information. I’m doing this only to illustrate the calculation of KR-20.</p>
 <pre class="r"><code>binary &lt;- NULL
 binary$complaints &lt;- as.numeric(attitude$complaints &gt;= 60)
 binary$privileges &lt;- as.numeric(attitude$privileges &gt;= 60)
@@ -555,6 +558,18 @@ I &lt;- 6
 kr &lt;- I/(I-1)*(1-(p2*q2+p3*q3+p4*q4+p5*q5+p6*q6+p7*q7)/v)
 print(round(kr, digits=2))</code></pre>
 <pre><code>## [1] 0.71</code></pre>
+<p>The value for the KR-20 coefficient is larger than 0.7, which is what most researchers like to see.</p>
+<div id="when-should-you-use-cronbachs-alpha-and-kr-20" class="section level3">
+<h3>When should you use Cronbach’s alpha and KR-20</h3>
+<p>There is a fair amount of controversy over these two statistics. First, they are not a measure of uni-dimensionality. To establish unidimensionality, you would need to run some sort of factor analysis or structural equations model.</p>
+<p>What does uni-dimensionality mean, though? And why it is important? Uni-dimensionality means that all the items in the composite score are measuring more or less the same thing. Even with sophisticated models, you would have a hard time establishing this.</p>
+<p>You’d like to have all the items measuring the same thing, because if a few of the items are measuring something else, a second dimension, then you are diluting the signal associated with most of items.</p>
+<p>What Cronbach’s alpha and KR-20 are measuring is internal consistency. Do the individual items in your composite travel together–large values of one item associated with large values of the other items and small values of one item associated with small values of the other items.</p>
+<p>In my opinion, this is a small and unimportant feature of a composite scale. But other researchers will insist on this before they will publish your work. So you need to know about this.</p>
+<p>Keep in mind that Cronbach’s alpha and KR-20 only work for composite measures. If you are measuring pain using the <a href="https://wongbakerfaces.org/">Wong-Baker FACES pain rating scale</a>, that’s a single number with six possible values. Because it is single item so there is nothing internal to be consistent about. If you still need to assess reliability, and that would probably mean something like test-retest reliability.</p>
+<p>As another example, the <a href="https://www.cancerresearchuk.org/about-cancer/melanoma/stages-types/clark-breslow-staging">Clark scale</a>)is a measure used in melanoma cases. It is a single item with five levels describing how deeply a melanoma has penetrated the skin. Again, you can’t use alpha because it is a single item scale. Since this is a physician report, your main concern about reliability would be assuring that two different physicians would, more often than not, use the same level when they are looking at the same melanoma. The intra-class correlation coefficient is your best bet here.</p>
+<p>If you have a composite measure, then you can certainly consider alpha and KR-20. Use alpha when the individual items have more than two levels and use KR-20 when the individual items are binary.</p>
+</div>
 
 
 
