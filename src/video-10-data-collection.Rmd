@@ -134,6 +134,14 @@ Image source: Diaz 2017 (see the reading list for full details).
 
 </div>
 
+### Take a break here
+
+* What have we covered
+  + Focus groups
+  + Interviews
+* What is coming next
+  + Questionnaires
+
 ### Questionnaire
 
 * Not the same as a survey
@@ -301,34 +309,104 @@ Reverse scaling is the inclusion of questions where a positive result is sometim
 
 </div>
 
-### Single response
+### Nominal responses
 
-![Part of a questionnaire with single response items](../images/10/single-response.png)
-
+* Pick one of the following
+  + Assumes mutually exclusive
+* Pick all that apply
+  + Allows for overlap
+  + Code as multiple binaries
+* Code for "other"
+  + Partial open ended
+* Code for "Prefer not to answer"
+  
 <div class="notes">
 
-https://en.wikiversity.org/wiki/Module_Book_for_Occupational_Medicine_at_the_University_of_Panam%C3%A1
+For nominal categories, you have two approaches. The first approach is to ask your research subjects to choose only one response from the list. This assumes that there is only one obvious choice in the list for anyone and everyone. For the marital status question, it seems obvious enough. The choices are single, married, divorced, or widowed. These seem to be mutually exclusive, but what about someone who was married, widowed, remarried, and then divorced. This isn't all that common, so maybe you don't have to worry about it.
+
+The nominal category that has gotten a lot of attention recently is race. There is a vocal lobby in the community to allow someone to select more than one category. You could include a bi-racial category, perhaps. Or you could let everyone select multiple racial categories.
+
+There's really no correct answer. A lot depends on the context.
+
+The standard way to code multiple response variables is to include an indicator for each category. I will talk about that in more detail later.
 
 </div>
 
-### Multiple response
+### Question order
 
-![Part of a questionnaire with a multiple response item](../images/10/multiple-response.png)
+* Sensitive questions last
+* Broad categories
+  + Income
+* Avoid leading up to a question
+  
+### Practical advice
+
+* Don't ask for what you don't need
+  + Intrusive and personal questions
+  + More data than you have time to analyze
+* Make your questionnaire easy for data entry
+* Pilot test your questionnaire
 
 <div class="notes">
 
-This is an example of a question where respondents can choose more than one response.
+I recall a survey I was asked to fill out. It was on perceptions about web sites or something other quite technical. They asked the standard questions about demographics: age, gender, race/ethnicity. Then there was a question about sexual identity. It listed heterosexual. It listed homosexual. It listed bi-sexual. It listed transexual. It went on and on and on. Every choice for LGBTQIA and then some. Now I have a fairly open mind when it comes to sexuality, and there are times when you really do need to know this level of detail. A study of sexually transmitted diseases might need to understand sexuality at such a fine level of detail. But a tech questionnaire about web sites? I suspect that the person who wrote this survey had a close friend who was LGBT and wanted to be sure that his survey was sensitive to the variety of sexualities that too often are disparaged or ignored.
 
-Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_puf.htm for details.
+I make it a habit of asking people, after they are done defending their thesis or dissertation what they would have done differently if they had to do it all over again. A common response is that they would not have collected so much data. They never got around to analyzing even half of it. Now, it may seem like sacrilege for a statistician to agree with this, but I do think it is a bad idea to bite off more than you can chew, so to speak. If nothing else, a shorter questionnaire would have a higher compliance rate and better quality responses.
+
+If you are using a paper questionnaire, lay out the questionnaire in a manner that makes it easy for data entry. This means lining up things nicely so the numbers are consistently in the same location (e.g., flush with the right margin). This sort of design will also minimize problems with people accidentally skipping some items.
+
+You should also run a pilot test on your questionnaire. Last week, I talked about response process validation. Those steps work very well for pre-testing a questionnaire. Give the questionnaire to a small sample of your patients and watch as they fill it out. Get them to talk out loud about what they are thinking.
+
+After the questionnaires are filled out, look for improper or unexpected responses. If people are filling out a response halfway between 3 and 4 on a five point Likert scale, then maybe you would be better off with a seven point Likert scale. If people are circling two or more responses, even though you tell them to select only one, then maybe you should restructure your questionnaire to accommodate multiple responses. If the fill in the blank responses are not providing you the correct data, changing how you ask for that information.
+
+Do the subjects in your pilot study make simple mistakes like failing to check the back side of the survey? Do they refuse to answer certain questions because of their sensitive nature? Do they tend to mindlessly choose the same middle answer throughout a series of Likert scale questions. Do they always choose the rightmost extreme, even on questions that are reverse scaled?
+
+During your pilot, see if you can get some data on how long it takes on average to fill out the questionnaire. This could be placed in the cover letter for the questionnaire or in the consent form.
+
+Also get an estimate on how much labor is needed to distribute and recollect all the questionnaires. See how many people need a reminder notice (or two reminders) to return their questionnaires. This sort of information during a pilot study will help you plan the main study more effectively.
 
 </div>
 
-### Pilot testing a questionnaire
+### Take a second break
+
+* What have we learned
+  + Questionnaires
+  + Question types
+* What is coming up next
+  + Existing data source
+  + Advantages of different data collection approaches
 
 ### Existing data sources
 
+* Re-analysis of published data
+  + Protect confidentiality
+  + Give appropriate acknowledgement or co-authorship
 * Curated databases
+  + Contractual limitations
+  + Sample weights
 * Web scraping
+  + Respect limits on volume and speed of download
+  + Protect copyrights
+
+<div class="notes">
+
+Our department is big on secondary data analysis. This is the re-use of existing data sets. These come from a variety of sources, but you must always respect the limits that the original researchers place on their data.
+
+If you are taking data from an existing research publication (or, in the case of meta-analysis, from multiple existing research publications), find out what sort of acknowledgement is appropriate. In some circumstances, you may feel obligated to offer co-authorship to the original researchers. If this is the case, get an agreement in writing before you start any work. It is a bit easier if the researchers have included a link to the raw data in their publication, but still be careful to read any restrictions that they may have placed on the original data.
+
+If the data that you are getting includes Protected Health Information (PHI), there are important regulations that you must follow under the Health Insurance Portability and Accountability Act. Because you are working with PHI, you need to get approval from your local IRB even though the original authors got IRB approval at their site.
+
+If the authors have made their data set available for free download, your life is a bit easier. There is no PHI in a publicly available data set, or if there were, the person who would get in trouble for this would be the original authors. You have to promise not to take the disparite pieces of information that by themselves are innocuous enogh, but which in aggregate might allow you to figure out the identity of some of the people in the sample.
+
+Various groups will collect data not for their own benefit, but rather to let others publish interesting things. This might be through a government program or through a charitable foundation. These data sets are carefully curated and have excellent documentation. The people behind these data sets are very eager to help. They see your publications as being one of the strongest rationales for what they are doing. They want you to be successful.
+
+Read the documentation carefully, including the limits on how you can use this data. Even though the data has been anonymized, you will be asked to promise that you will not try to use certain crosstabulations that might identify individual respondents.
+
+Many of these data sets have sample weights associated with them. The sample weights help you properly calibrate your results to nationwide totals, or they help you properly account for oversampling of minority groups. Some of these data sets use clustering and stratification to reduce costs and improve the coverage and quality of their data. If you are using data that requires sample weights, failure to choose the appropriate analysis will produce invalid results.
+
+A new source of data is stored on the Internet, and getting this data often requires specialized tools, web scrapers. The data that you get from web scraping is free (other than your time and labor) and will almost always be exempt from IRB approval. Some sites will have policies on web scraping, limiting either the amount of data you can take, the speed at which you can take it, or both. These limits are needed to insure that others who need this data for a variety of reasons won't be crowded out by web scraping robots. Some of the information that you get through web scraping may also be protected by copyright law.
+
+</div>
 
 ### Advantages of focus groups
 
@@ -349,64 +427,14 @@ Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.go
 
 * Fast
 
-### Measurement dichotomies
+### Take a third break
 
-* Standardized versus investigator developed measures
-* Researcher evaluation versus patient report
-* Field measurements versus laboratory measurements
-  + Ecological validity
-* Standardized test
-
-### Researcher evaluations
-
-* Norm referenced tests
-* Criterion referenced tests
-* Achievement tests
-* Performance assessment
-  + Authentic assessment
-* Aptitude tests
-* Projective technique
-* Documents
-
-### Self report
-
-* Standardized personality inventories
-  + Paper and pencil
-  + Machine scored
-
-### Attitude scales
-
-* Strongly disagree through strongly agree
-* Semantic differential scales
-  + Evaluative (good-bad)
-  + Potency (strong-weak)
-  + Activity (fast-slow)
-
-### Questionnaires
-
-* Definitions
-  + Survey
-  + Questionnaire
-  + Interview
-  
-### Delivery
-
-* Remote administration
-  + Mail
-  + Internet (Survey Monkey)
-* Direct administration
-
-### Structure
-
-* Open-ended
-* Partially open-ended
-* Unordered closed response
-* Ordered closed response
-
-* Interviews
-  + Telephone
-  + Face-to-face
-* Focus groups
+* What have you learned
+  + Collection from existing data sources
+  + Advantage of different data collection methods
+* What is coming next
+  + Data quality
+    
 
 ### Pilot testing
 
@@ -414,6 +442,28 @@ Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.go
 * Content
 * "Whether your items cover all aspects of the domain you intend to measure and whether they are in appropriate proportions relative to that domain."
   + page 258
+
+### Data Collection Techniques 
+
++ Process of developing a survey
+	+ List of measures/variables
+	+ What's already available?
+	+ Put the pieces together
+	+ Test and revise as needed
+	+ Final check – do you really need all of the items?
++ Analysis of survey data
+
+<div class="notes">
+
+Flows well and is clear.
+
+Get some real test runs with people who have seen it for the first time. Do you really need all of these items? 
+
+[[Example of sexual preferences in survey on Internet usage.]]
+
+http://www.pmean.com/10/BadSurvey.html
+
+</div>
 
 ### Coding
 
@@ -477,12 +527,6 @@ Part of the CDC survey, National Survey of Family Growth. See https://www.cdc.go
   + Sometimes motivated by theory
   + Sometimes based on empirical findings
 
-### Question order
-
-* Sensitive questions last
-* Broad categories
-  + Income
-  
 ### Additional topics
 
 * Pilot studies
@@ -893,28 +937,6 @@ There's an issue that came up when using this study, which will be discussed in 
 </div>
 
 ***
-### Data Collection Techniques 
-
-+ Process of developing a survey
-	+ List of measures/variables
-	+ What's already available?
-	+ Put the pieces together
-	+ Test and revise as needed
-	+ Final check – do you really need all of the items?
-+ Analysis of survey data
-
-<div class="notes">
-
-Flows well and is clear.
-
-Get some real test runs with people who have seen it for the first time. Do you really need all of these items? 
-
-[[Example of sexual preferences in survey on Internet usage.]]
-
-http://www.pmean.com/10/BadSurvey.html
-
-</div>
-
 ***
 ### Data Collection & Coding 
 
@@ -1039,4 +1061,63 @@ Hopefully, you've done such a good job planning that these issues don't arise af
 
 </div>
 
-### Additional slides
+
+### Measurement dichotomies
+
+* Standardized versus investigator developed measures
+* Researcher evaluation versus patient report
+* Field measurements versus laboratory measurements
+  + Ecological validity
+* Standardized test
+
+### Researcher evaluations
+
+* Norm referenced tests
+* Criterion referenced tests
+* Achievement tests
+* Performance assessment
+  + Authentic assessment
+* Aptitude tests
+* Projective technique
+* Documents
+
+### Self report
+
+* Standardized personality inventories
+  + Paper and pencil
+  + Machine scored
+
+### Attitude scales
+
+* Strongly disagree through strongly agree
+* Semantic differential scales
+  + Evaluative (good-bad)
+  + Potency (strong-weak)
+  + Activity (fast-slow)
+
+### Questionnaires
+
+* Definitions
+  + Survey
+  + Questionnaire
+  + Interview
+  
+### Delivery
+
+* Remote administration
+  + Mail
+  + Internet (Survey Monkey)
+* Direct administration
+
+### Structure
+
+* Open-ended
+* Partially open-ended
+* Unordered closed response
+* Ordered closed response
+
+* Interviews
+  + Telephone
+  + Face-to-face
+* Focus groups
+
