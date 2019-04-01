@@ -1,5 +1,5 @@
 ---
-title: "Clinical Research Methods, Week 9"
+title: "Clinical Research Methods, Week 10"
 author: "Steve Simon"
 output:
   html_document: default
