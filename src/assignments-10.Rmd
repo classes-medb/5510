@@ -19,7 +19,9 @@ Please complete all work by midnight, `r mon[12]` to receive full credit.
 
 ### Learning objectives for this week
 
-* 
+* To discuss different methods of collecting data
+* To discuss when different data collections methods are most appropriate
+* To describe the advantages and disadvantages of different data collection methods
 
 ### Reading for this week
 
@@ -29,37 +31,13 @@ Please complete all work by midnight, `r mon[12]` to receive full credit.
 
 * Gliner, Morgan, and Leech, Chapters 13, 15.
 
-#### Recommended reading
-
-* 
-
-### Discussion questions for this week
-
-* D10-01. `r read_text("minute-paper")`
-
-* D10-02. (Two points) 
-
-* D09-EC. `r read_text("extra-credit")`
-
-### Old material
-
-### Learning objectives
-
-1. To discuss different methods of collecting data
-
-2. To discuss when different data collections methods are most appropriate
-
-3. To describe the advantages and disadvantages of different data collection methods
-
-### Required reading
-
-1. Chapters 13, 15
-
 ### Recommended reading
 
 Bishop PA, Herron RL. Use and Misuse of the Likert Item Responses and Other Ordinal Measures. Int J Exerc Sci. 2015;8(3):297–302. Published 2015 Jul 1. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833473/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833473/pdf/ijes_08_03_297.pdf).
 
 Dearnley C. A reflection on the use of semi-structured interviews. Nurse Researcher 2005: 13(1); 19-28. This article is behind a paywall and can be downloaded from the Canvas website.
+
+Desselle SP. Construction, Implementation, and Analysis of Summated Rating Attitude Scales. American Journal of Pharmaceutical Education 2005:69(5). Available in [html format](https://www.ajpe.org/doi/full/10.5688/aj690597) or [PDF format](https://www.ajpe.org/doi/pdf/10.5688/aj690597). 
 
 Diaz A, Peake K, Nucci-Sack A, Shankar V. Comparison of Modes of Administration of Screens to Identify a History of Childhood Physical Abuse in an Adolescent and Young Adult Population. Ann Glob Health. 2017;83(5-6):726–734. doi:10.1016/j.aogh.2017.10.023. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5739060/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5739060/pdf/nihms917351.pdf).
 
@@ -70,6 +48,10 @@ Jamshed S. Qualitative research method-interviewing and observation. J Basic Cli
 Kallio H, Pietilä AM, Johnson M, Kangasniemi M. Systematic methodological review: developing a framework for a qualitative semi-structured interview guide. J Adv Nurs. 2016 Dec; 72(12): 2954-2965. doi: 10.1111/jan.13031. This article is behind a paywall and can be downloaded from the Canvas website.
 
 McLeod S. The Interview Method. Simply Psychology, 2014. Available in [html format](https://www.simplypsychology.org/interviews.html) or [PDF format](https://www.simplypsychology.org/simplypsychology.org-interview-method.pdf).
+
+O'Cathain AO, Thomas KJ. "Any other comments?" Open questions on questionnaires – a bane or a bonus to research?
+
+BMC Medical Research Methodology 2004; 4:25. DOI: 10.1186/1471-2288-4-25. Available in [html format](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-4-25) or [PDF format](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-4-25).
 
 Ochieng NT, Wilson K, Derrick CJ, Mukherjee N. The use of focus group discussion methodology: Insights from two decades of application in conservation. Methods Ecol Evol. 2018; 9: 20– 32. doi: 10.1111/2041-210X.12860. Available in [html format](https://doi.org/10.1111/2041-210X.12860) or [PDF format](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12860).
 
@@ -83,25 +65,13 @@ WikiHow. How to Run a Focus Group. Available in [html format](https://www.wikiho
 
 Whiting LS. Nursing Standard 2008: 22(23); 35-40. This article is behind a paywall and can be downloaded from the Canvas website.
 
+YouTube. Leading Questions- Yes Prime Minister. Taken from the 1st Season of Yes Prime Minister – Episode 2, The Ministerial Broadcast. 2:16 running time. Published on Jan 15, 2012. Available in video format.
 
-#### Older references
+### Discussion questions for this week
 
-Cohen D, Crabtree B. "Qualitative Research Guidelines Project." Robert Wood Johnson Foundation, July 2006. Available in [html format](http://www.qualres.org/HomeFocu-3647.html)
+* D10-01. `r read_text("minute-paper")`
 
-Cummings, S.R. & Hulley, S.B. (2007). Chapter 15 "Designing questionnaires and interviews." In S.B. Hulley, S.R. Cummings, W.S. Browner, D. Grady, & T.B. Newman (eds), Designing Clinical Research, 3rd edition. Philadelphia: Lippincott Williams & Wilkins.
+* D10-02. (Two points) 
 
-Centers for Disease Control and Prevention. Checklist to Evaluate the Quality of Questions. Available in [PDF format](https://www.cdc.gov/healthyyouth/evaluation/pdf/brief15.pdf).
-
-### Assignment
-
-1. Further refine your list of variables by specifying how each will be measured. Wherever possible, include the name of a specific measure that would be appropriate. Be as specific as you can in terms of what variables/measures will be obtained. This assignment should give you a final draft of the "measures" description included in the Methods section of your research proposal. What you submit for this assignment should reflect the feedback you received on the last assignment.
-
-2. Prepare for next week's session
-
-### Discussion questions
-
-1. Discuss the data collection method that is appropriate for your research proposal.
-
-2. Discuss the procedure you would propose to collect data for your research proposal.
-
+* D09-EC. `r read_text("extra-credit")`
 
