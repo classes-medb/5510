@@ -13,14 +13,13 @@ Created: Tuesday, March 19, 2019
 
 Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
 
-Please complete all work by midnight, `r mon[12]` to receive full credit.
+Please complete all work by midnight, `r tue[12]` to receive full credit.
 
 ## Week 10: Data collection
 
 ### Learning objectives for this week
 
 * To discuss different methods of collecting data
-* To discuss when different data collections methods are most appropriate
 * To describe the advantages and disadvantages of different data collection methods
 
 ### Reading for this week
@@ -29,7 +28,7 @@ Please complete all work by midnight, `r mon[12]` to receive full credit.
 
 #### Required reading
 
-* Gliner, Morgan, and Leech, Chapters 13, 15.
+* Gliner, Morgan, and Leech, Chapter 13.
 
 ### Recommended reading
 
@@ -37,7 +36,7 @@ Bishop PA, Herron RL. Use and Misuse of the Likert Item Responses and Other Ordi
 
 Dearnley C. A reflection on the use of semi-structured interviews. Nurse Researcher 2005: 13(1); 19-28. This article is behind a paywall and can be downloaded from the Canvas website.
 
-Desselle SP. Construction, Implementation, and Analysis of Summated Rating Attitude Scales. American Journal of Pharmaceutical Education 2005:69(5). Available in [html format](https://www.ajpe.org/doi/full/10.5688/aj690597) or [PDF format](https://www.ajpe.org/doi/pdf/10.5688/aj690597). 
+Desselle SP. Construction, Implementation, and Analysis of Summated Rating Attitude Scales. American Journal of Pharmaceutical Education 2005:69(5). Available in [html format](https://www.ajpe.org/doi/full/10.5688/aj690597) or [PDF format](https://www.ajpe.org/doi/pdf/10.5688/aj690597).
 
 Diaz A, Peake K, Nucci-Sack A, Shankar V. Comparison of Modes of Administration of Screens to Identify a History of Childhood Physical Abuse in an Adolescent and Young Adult Population. Ann Glob Health. 2017;83(5-6):726–734. doi:10.1016/j.aogh.2017.10.023. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5739060/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5739060/pdf/nihms917351.pdf).
 
@@ -49,9 +48,7 @@ Kallio H, Pietilä AM, Johnson M, Kangasniemi M. Systematic methodological revie
 
 McLeod S. The Interview Method. Simply Psychology, 2014. Available in [html format](https://www.simplypsychology.org/interviews.html) or [PDF format](https://www.simplypsychology.org/simplypsychology.org-interview-method.pdf).
 
-O'Cathain AO, Thomas KJ. "Any other comments?" Open questions on questionnaires – a bane or a bonus to research?
-
-BMC Medical Research Methodology 2004; 4:25. DOI: 10.1186/1471-2288-4-25. Available in [html format](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-4-25) or [PDF format](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-4-25).
+O'Cathain AO, Thomas KJ. "Any other comments?" Open questions on questionnaires – a bane or a bonus to research? BMC Medical Research Methodology 2004; 4:25. DOI: 10.1186/1471-2288-4-25. Available in [html format](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-4-25) or [PDF format](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-4-25).
 
 Ochieng NT, Wilson K, Derrick CJ, Mukherjee N. The use of focus group discussion methodology: Insights from two decades of application in conservation. Methods Ecol Evol. 2018; 9: 20– 32. doi: 10.1111/2041-210X.12860. Available in [html format](https://doi.org/10.1111/2041-210X.12860) or [PDF format](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12860).
 
@@ -65,13 +62,12 @@ WikiHow. How to Run a Focus Group. Available in [html format](https://www.wikiho
 
 Whiting LS. Nursing Standard 2008: 22(23); 35-40. This article is behind a paywall and can be downloaded from the Canvas website.
 
-YouTube. Leading Questions- Yes Prime Minister. Taken from the 1st Season of Yes Prime Minister – Episode 2, The Ministerial Broadcast. 2:16 running time. Published on Jan 15, 2012. Available in video format.
+YouTube. Leading Questions- Yes Prime Minister. Taken from the 1st Season of Yes Prime Minister – Episode 2, The Ministerial Broadcast. 2:16 running time. Published on Jan 15, 2012. Available in [video format](https://www.youtube.com/watch?v=G0ZZJXw4MTA).
 
 ### Discussion questions for this week
 
 * D10-01. `r read_text("minute-paper")`
 
-* D10-02. (Two points) 
+* D10-02. (Two points) You need to start thinking about the methods section for the research proposal. After reminding me what your research question/hypothesis is, describe briefly the type of sample you will collect (simple random sample, stratified sample, cluster sample, convenience sample, etc.) and the data collection approach you will use (focus group, interview, questionnaire, existing data source). If you are considering different alternatives for the sample and/or the data collection approach, that’s okay. Just describe the choices you’ve narrowed it down to. This should just be a brief note, no more than a paragraph, but eventually you will need to prepare a formal write-up.
 
-* D09-EC. `r read_text("extra-credit")`
-
+* D10-EC. `r read_text("extra-credit")`
