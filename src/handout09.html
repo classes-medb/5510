@@ -445,8 +445,6 @@ print(round(v2, 1))</code></pre>
 alpha &lt;- I/(I-1)*(1-(v2+v3+v4+v5+v6+v7)/v)
 print(round(alpha, digits=3))</code></pre>
 <pre><code>## [1] 0.81</code></pre>
-<!---
--->
 <p>Several sources note that alpha is the average of every possible split-half correlation (after a Spearman-Brown adjustment). That’s not too difficult to show, although tedious as all the earlier calculations. There is a slight discrepancy, which I chalk up to rounding.</p>
 <pre class="r"><code>r234 &lt;- cor(
   attitude[ , 2]+attitude[ , 3]+attitude[ , 4],
