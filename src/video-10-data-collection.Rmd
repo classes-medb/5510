@@ -136,10 +136,10 @@ Image source: Diaz 2017 (see the reading list for full details).
 
 ### Take a break here
 
-* What have we covered
+* What have you learned?
   + Focus groups
   + Interviews
-* What is coming next
+* What is coming next?
   + Questionnaires
   
 <div class="notes">
@@ -287,6 +287,21 @@ Here's an example of a semantic differential scale that is found in the article 
 
 </div>
 
+### Take a second break
+
+* What have you learned?
+  + Questionnaires
+  + Semantic differential scale
+* What's up next?
+  + Likert scales
+
+<div class="notes">
+
+
+There's a lot of material here, so let's take another break.
+
+</div>
+
 ### Visual analog scale
 
 * Line segment
@@ -389,6 +404,18 @@ Reverse scaling is the inclusion of questions where a positive result is sometim
 
 </div>
 
+### Time for a third break
+
+* what have you learned?
+  + Visual analog scales
+  + Likert scales
+* What's next?
+  + Nominal scales
+  
+<div class="notes">
+
+That's a lot to digest. Let's take another break.
+
 ### Nominal responses
 
 * Pick one of the following
@@ -463,14 +490,19 @@ Also get an estimate on how much labor is needed to distribute and recollect all
 
 </div>
 
-### Take a second break
+### Take a fourth break
 
 * What have we learned
-  + Questionnaires
-  + Question types
+  + Nominal scal questions on questionnaires
 * What is coming up next
-  + Existing data source
+  + Existing data sources
   + Advantages of different data collection approaches
+  
+<div class="notes">
+
+That's about it for questionnaires. Let's take another break.
+
+</div>
 
 ### Existing data sources
 
