@@ -11,11 +11,15 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
-### Data management
+### If you enter data into Excel
 
-* If you use Excel
-  + Do not use colors
-  + Do not include summary statistics
+* Do not use colors
+* Do not include summary statistics
+* Rectangular grid
+* Don't squeeze two data values into one cell
+  + Systolic/diastolic blood pressures
+  + 44M for a 44 year old male
+* Variable names in first row
   
 ### Missing value example
 
@@ -1314,7 +1318,7 @@ Figure 16.3 from your book. Directional negative hypothesis. Example an interven
 ***
 ### Null value
 
-```{r null-value, echo=FALSE}
+```{r null-value, eval=FALSE, echo=FALSE}
 x <- seq(-3.5, 6.5, length=100)
 y <- dnorm(x)
 plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
@@ -1326,7 +1330,7 @@ text(0, 0.55, cex=0.5, "Null\nvalue")
 ***
 ### Critical value
 
-```{r critical-value, echo=FALSE}
+```{r critical-value, eval=FALSE, echo=FALSE}
 x <- seq(-3.5, 6.5, length=100)
 y <- dnorm(x)
 lb <- c("\nNull\nvalue", "\nCritical\nvalue")
@@ -1341,7 +1345,7 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue")
 ***
 ### Alpha level
 
-```{r alpha-level, echo=FALSE}
+```{r alpha-level, eval=FALSE, echo=FALSE}
 x <- seq(-3.5, 6.5, length=100)
 y <- dnorm(x)
 lb <- c("\nNull\nvalue", "\nCritical\nvalue")
@@ -1355,7 +1359,7 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 
 
 
-```{r beta-level, echo=FALSE}
+```{r beta-level, eval=FALSE, echo=FALSE}
 x <- seq(-3.5, 6.5, length=100)
 y <- dnorm(x, m=3)
 lb <- c("\nNull\nvalue", "\nCritical\nvalue")
@@ -1367,7 +1371,6 @@ segments(1.2, 0, 1.2, 0.45, col="gray")
 text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 ```
 
-***
 ### Power Analysis 
 
 + Probability of rejecting a false H 0
@@ -1393,17 +1396,12 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 
 </div>
 
-***
-```{r tbl14, echo = FALSE, eval=FALSE}
-tbl14 <- tibble::tribble(
+### Type I and II errors
+
 ~` `, ~`TRUTH`, ~` `,
 "DECISION","H o is true (there is no relationship)","H o is false (there is a relationship)",
 "Reject H o (you find a relationship)","Type I Error Alpha","Correct  (Decision agrees with Truth ) Power",
 "Do not reject H o (you do NOT find a relationship)","Correct  (Decision agrees with Truth)","Type II Error Beta (Power = 1 - Beta)"
-)
-
-kableExtra::kable_styling(knitr::kable(tbl14), font_size = 18)
-```
 
 <div class="notes">
 
@@ -1909,19 +1907,7 @@ The cause has to precede the effect, it must be connected to the effect, and the
 
 </div>
 
-***
-### Internal Validity 
-
-```{r tbl5, echo = FALSE, eval=FALSE}
-tbl5 <- tibble::tribble(
-~`Criteria for Causality`, ~`Randomized Exp`, ~`Quasi-Exp`, ~`Comparative`, ~`Associational`, ~`Descriptive`,
-"IV must precede the outcome variable","Met","Often met","Sometimes met, but order might not be clear","Sometimes met, but order might not be clear","NA",
-"IV must be related to the outcome","Met","Usually met","Usually met","Usually met","NA",
-"There must be no other variables that could explain why the IV is related to the outcome","Met","Met in the strongest designs","Not possible","Not possible","NA"
-)
-
-kableExtra::kable_styling(knitr::kable(tbl5), font_size = 18)
-```
+### Internal validity
 
 <div class="notes">
 
@@ -2186,27 +2172,6 @@ Here is figure 8.1 again. The extent to which results will generalize.
 RQ=research question, RH=research hypothesis.
 </div>
 
-***
-`r read_text("hw09", fri[9])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion09", fri[9])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-
-***
 ### Measurement 
 
 + What do we mean “ measurement ” ?
