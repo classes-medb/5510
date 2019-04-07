@@ -11,6 +11,73 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
+### Variable names
+
+* Brief, but descriptive explanation
+* Roughly 4 to 16 characters
+* No blanks and (Almost) no symbols
+* One to three words
+* Names to avoid (www.writersexchange.com)
+  + systolic blood pressure
+  + systolic-blood-pressure
+* Names that work
+  + systolic_blood_pressure
+  + systolic.blood.pressure
+  + SystolicBloodPressure
+
+<div class="notes">
+
+Define a brief variable name for every variable that you collect. It should be just long enough to be understandable, but short enough to minimize the typing in your data analysis program. I would recommend something between 4 to 16 characters and one or three short words.
+
+Sometimes a very brief abbreviation is okay, like bw for birthweight or bmi for body mass index. 
+
+If your variable name is two or three short words (former smoker, or plasma beta carotene), you need to be careful. There's a story about a group called Writer's Exchange. They wanted to set up a website, www.writersexchange.com. It seemed like a good idea until they noticed that the website could be read as writer sex change. cannot use blanks between the words. It would work for some systems easily, for others, it would require some tedious work-arounds, and for still others, it would lead to system errors.
+
+You can't connect the words with dashes, because most systems will interpret the dash as a subtraction. Actually, just about any symbol (dollar sign, percent sign, asterisk) is a no-no. This can seriously stifle your creativity, but you have to live with it. Most statistical software programs reserve these symbols for special purposes, and if you use them in your variable names, you will confuse things.
+
+There are two exceptions, the underscore character and the dot. These can be used almost anywhere. The dot is tricky in SQL and Java, as I understand it, but fine almost everywhere else. I believe the underscore is fine just about anywhere. But you can also use a mixture of upper and lower case, known as CamelCase.
+
+</div>
+
+### Codes for categorical data
+
+* Beware of ambiguities
+  + YES, Yes, and yes are three distinct levels.
+* Use number codes
+  + 0, 1, 9 for binary variables
+
+<div class="notes">
+
+
+
+</div>
+
+### Data dictionary
+
+* Start before collecting data
+* Revise as needed
+* Contents
+  + Variable names
+  + Variable labels
+  + Units of measurement
+  + Permissible/impermissible values
+  + Value labels
+  + Missing value codes
+  + Source
+  + License
+
+<div class="notes">
+
+You should start a data dictionary before you collect any data. You will find, during the data collection, that you failed to specify something important, and it's okay to revise your data dictionary. Keep it handy when you need to figure out how to handle special cases, like the person who circled both 3 and 4 on a five point Likert scale.
+
+The data dictionary should list variable names. We already talked about variable names. Also include a longer description, a variable label. The variable label can use blanks, special symbols, and typically has a longer length. Be sure to specify the units of measurement, if applicable.
+
+If there are permissible/impermissible values or a legal range, then include this information in the data dictionary. It could be put in as part of the variable label or listed as a footnote.
+
+If your variable is categorical, specify what the categories are. There is nothing worse than not knowing whether 1 is male and 2 is female or if 1 is female and 2 is male.
+
+</div>
+
 ### If you enter data into Excel
 
 * Do not use colors
@@ -20,14 +87,120 @@ source("prelims.R", echo=FALSE)
   + Systolic/diastolic blood pressures
   + 44M for a 44 year old male
 * Variable names in first row
+* No blank cells
+  + Contradicts your book
+
+<div class="notes">
+
+A lot of researchers do their data entry in Microsoft Excel or some similar spreadsheet program. This is, at best, sub-optimal. REDCap is a much better option. But if you decide to use a spreadsheet, be careful. Spreadsheets are very flexible. Too flexible. You can put some of your numbers over here and others over there and then some more in the middle, and what you end up with is a muddle.
+
+The key rule for a spreadsheet is to use a rectangular grid. A rectangular grid has a single number at the intersection of every row and column. Don't leave holes in your grid, even if the value is missing. 
+
+Don't try to squeeze to pieces of data into the same cell. A common problem is when researchers put 120/80 into a cell to represent the systolic and diastolic blood pressures. When you enter data like this, you have two problems. First, there is no easy way to compute the average systolic or diastolic blood pressure. Second, some statistical software will see the slash and confuse it for division, converting your 120/80 into 1.5.
+
+Use one cell for the systolic blood pressure and a different cell for the diastolic blood pressure. Likewise, an entry of 44M for a forty four year old male is troublesome. You can't easily compute the average age or the percentage of males.
+
+It's a good idea to place the variable names in the first row of the spreadsheet. It's not a strict requirement, as you have already provided the variable names in your data dictionary. If you are nice enough to do this, however, it will be easier to import the data. the first row also makes it possibile to spot check your data to make sure that the columns are lining up properly.
+
+Don't use the first two or three rows to organize your variables into headings and subheadings.
+
+A lot of people will include some brief summary statistics as the last row or two of the spreadsheet. This is a bad idea, as the summary statistics might be confused for actual data points. If you need to compute a few summary statistics, learn how to place these in a separate worksheet.
+
+Don't use a lot of fancy formatting in your spreadsheet. This means, no colors, no different fonts or sizes, and no merged cells. All of this is lost when you import your data into SAS, SPSS, or R.
+
+Let me emphasize one more thing. Do not use blank cells ever in your spreadsheet. If your data is missing, use a missing value code. This contradicts your book's advice, but your book is wrong. A blank cell could easily be converted into a zero, if you're not careful and zero is quite different than missing.
+
+If the structure of your data is irregular and cannot fit into a rectangular grid, re-organize. If you have measurements on 24 treatment subjects and 26 controls, don't put the outcome measure for the 24 treatment patients in one column and the 26 control patients in a second column. Put all 50 in a single column and add an additional column with 26 ones and 24 twos to distinguish who is a treatment patient and who is a control.
+
+</div>
+
+### An example of spreadsheet data I was given
+
+![A spreadsheet with data](../images/11/spreadsheet1.png)
+
+<div class="notes">
+
+Here is a spreadsheet that I received recently that violates many of the recommendations that I just made.
+
+The first row contains information that should belong in the data dictionary. The second and third rows organize the variables into major groupings: the Kear HTN Management Tool, and the Motivators of and Barriers to Health-Smart Behaviors Inventory. There are subgroups within these two groups: Medication Adherence, Health Behaviors, Medication Side Effects, and Barriers to Managing Blood Pressure for the Kear HTN Management Tool, and Healthy Breakfast - Motivators, and some other subgrous for the Motivators of and Barriers to Health-Smart Behaviors Inventory.
+
+The groupings and subgroupings belong in the data dictionary but not here. 
+
+The fourth column gives a description of each variable. The first two columns are: I forgot to take my medication for high blood pressure,	I took all my medication for high blood pressure. These are much too long to serve as variable names. They would make great variable labels instead, and this information belongs in a data dictionary.
+
+There is an important bit of information hidden in the formatting of the variable labels.
+
+"Any question from any survey that is in yellow text indicates that the "ideal response" would run on a spectrum opposite to the majority of other responses, e.g. most responses on the MBHBI are "ideally" 4 for a healthy individual, but for a question in yellow text, a healthy individual would indicate 1."
+
+So the ninth column (I participate in activities to reduce or limit my stress to help lower my blood pressure) is in black because a large value is good. But the tenth column (I have experienced side effects from my high blood pressure medication (such a dizziness, unsteadiness, weakness, decreased heart rate, or fatigue)) is in yellow because a small value is good.
+
+The sixth row is totally blank which is great for readability but an annoyance when you import the data.
+
+Finally, notice the blank cells. I found out that these represented cases where someone skipped a question.
+
+</div>
+
+### An example of spreadsheet data I was given
+
+![A revised and better organized spreadsheet](../images/11/spreadsheet2.png)
+
+### THe codebook from this spreadsheet
+
+![A codebook associated with revised spreadsheet](../images/11/spreadsheet3.png)
+
+### Text files
+
+* Fixed width
+* Delimited
+  + Commas
+  + Spaces
+  + Tabs
+  + "Quotes around text"
   
+<div class="notes">
+
+You may wish to create a text file for others to use. The text format is popular for sharing your data, because others can inspect the data easily without needing any specialized software.
+
+</div>
+
+### Missing value codes
+
+* Explain WHY the value is missing.
+  + Did not answer
+  + Not applicable
+  + Below the limit of detection
+* Use extreme number code
+  + 9, 99, 999
+  + -1
+  + NA
+  + * (asterisk)
+  + . (dot)
+* Never use blanks to designate missing
+* Note missing value code on data dictionary
+
+<div class="notes">
+
+Sometimes you do not have data for a particular variable for some of your patients. This is perfectly fine. You must explain why the value is missing. 
+
+Sometimes a value is missing because a patient skipped the item on your questionnaire. Sometimes, it represents not applicable, such as your spouse's age if you are not married. Sometimes, it represents a lab value below the limit of detection. There are a whole host of other reasons.
+
+How you handle missing values in your data analysis depends largely on the reason why that value is missing. Using the wrong approach can seriously bias your results.
+
+There are several ways you can code missing values. I recommend an extreme number code. 9 works well for values that can't get any larger than 5. Use 99 or 999 if the values can get larger. You want to choose enough nines so that the value is clearly outside of any reasonable range of legitimate values. So a birthweight of 99 kilograms is obviously a missing value for anyone except for a baby elephant. An IQ score of 999 is outside the range even of Albert Einstein.
+
+Some people use -1 for a missing value code if the variable is clearly not ever going to be a negative value. A baby could not have a birth weight of -1 kilogram, because such a baby would float up to the ceiling after being delivered.
+
+If there are several reasons why a variable could be missing, use a separate code for each reason, such as 997 for lost test tube, 998 for insufficient volume for testing, and 999 for a result below the limit of detection.
+
+</div>
+
 ### Missing value example
 
 ![Price tage from computer store](../images/11/ForgottenMissingValue.jpg)
 
 <div class="notes">
 
-
+Here's a humorous example of failure to account properly for missing values. The printer had a sales price of 299 dollars and 99 cents. The original price was listed as 9,999 dollars and 99 cents, which is an outrageous price for a printer. Clearly, a field of all nines was intended to be a missing value code. But the system that computed the savings did not recognize this as a missing value and calculated that if you bought this printer, you would be saving $9,700 dollars.
 
 </div>
 
