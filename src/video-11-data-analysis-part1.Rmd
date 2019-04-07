@@ -1,5 +1,5 @@
 ---
-title: "Video 12 - Data analysis"
+title: "Video 11 - Data analysis, Part 1"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -17,6 +17,17 @@ source("prelims.R", echo=FALSE)
 * Roughly 4 to 16 characters
 * No blanks and (Almost) no symbols
 * One to three words
+
+<div class="notes">
+
+Define a brief variable name for every variable that you collect. It should be just long enough to be understandable, but short enough to minimize the typing in your data analysis program. I would recommend something between 4 to 16 characters and one or three short words.
+
+Sometimes a very brief abbreviation is okay, like bw for birthweight or bmi for body mass index. 
+
+</div>
+
+### Good and bad variable names
+
 * Names to avoid (www.writersexchange.com)
   + systolic blood pressure
   + systolic-blood-pressure
@@ -26,10 +37,6 @@ source("prelims.R", echo=FALSE)
   + SystolicBloodPressure
 
 <div class="notes">
-
-Define a brief variable name for every variable that you collect. It should be just long enough to be understandable, but short enough to minimize the typing in your data analysis program. I would recommend something between 4 to 16 characters and one or three short words.
-
-Sometimes a very brief abbreviation is okay, like bw for birthweight or bmi for body mass index. 
 
 If your variable name is two or three short words (former smoker, or plasma beta carotene), you need to be careful. There's a story about a group called Writer's Exchange. They wanted to set up a website, www.writersexchange.com. It seemed like a good idea until they noticed that the website could be read as writer sex change. cannot use blanks between the words. It would work for some systems easily, for others, it would require some tedious work-arounds, and for still others, it would lead to system errors.
 
@@ -54,9 +61,20 @@ There are two exceptions, the underscore character and the dot. These can be use
 
 ### Data dictionary
 
+* Also called a code book
 * Start before collecting data
 * Revise as needed
-* Contents
+
+<div class="notes">
+
+The data dictionary, also known as the code book, is a short document (usually one page or less) that describes your data. It helps you organize and structure your data entry process. It also helps anyone else who might be working with you on the project. Finally, it is invaluable if you plan to share your data with outside groups.
+
+You should start a data dictionary before you collect any data. You will find, during the data collection, that you failed to specify something important, and it's okay to revise your data dictionary. Keep it handy when you need to figure out how to handle special cases, like the person who circled both 3 and 4 on a five point Likert scale.
+
+</div>
+
+### Contents of a data dictionary
+
   + Variable names
   + Variable labels
   + Units of measurement
@@ -67,8 +85,6 @@ There are two exceptions, the underscore character and the dot. These can be use
   + License
 
 <div class="notes">
-
-You should start a data dictionary before you collect any data. You will find, during the data collection, that you failed to specify something important, and it's okay to revise your data dictionary. Keep it handy when you need to figure out how to handle special cases, like the person who circled both 3 and 4 on a five point Likert scale.
 
 The data dictionary should list variable names. We already talked about variable names. Also include a longer description, a variable label. The variable label can use blanks, special symbols, and typically has a longer length. Be sure to specify the units of measurement, if applicable.
 
@@ -114,11 +130,13 @@ If the structure of your data is irregular and cannot fit into a rectangular gri
 
 </div>
 
-### An example of spreadsheet data I was given
+### A poorly structured spreadsheet 
 
 ![A spreadsheet with data](../images/11/spreadsheet1.png)
 
 <div class="notes">
+
+This image and the next three might be a bit tricky to see on your screen. You can download the original images from the Canvas site and magnify them, if you want to see the details.
 
 Here is a spreadsheet that I received recently that violates many of the recommendations that I just made.
 
@@ -140,13 +158,202 @@ Finally, notice the blank cells. I found out that these represented cases where 
 
 </div>
 
-### An example of spreadsheet data I was given
+### Revisions to this spreadsheet
 
 ![A revised and better organized spreadsheet](../images/11/spreadsheet2.png)
 
-### THe codebook from this spreadsheet
+<div class="notes">
+
+I was able to work with this data set, as is, without too much trouble, but here's a modification that would have been a bit easier to work with.
+
+The first row includes brief, but descriptive variable names. The column names are MedAdherence1 through 3, HealthBehaviors1	through 5, SideEffects1 through 3, and so forth. I anticipated that I would not need to distinguish among the particular questions within a subgroup, since I would probably just use an aggregate sum of each subgroup (after reverse scaling) for most of the analyses. 
+
+</div>
+
+### The codebook from this spreadsheet
 
 ![A codebook associated with revised spreadsheet](../images/11/spreadsheet3.png)
+
+<div class="notes">
+
+I also cut and pasted some of the preliminary rows in the original spreadsheet and restructured things a bit to develop a data dictionary.
+
+</div>
+
+### Reverse coding
+
+* Context specific
+* Sequence of IF THEN ELSE statements
+  + if (is.na(x)) then y=NA
+     else if (x=1) then y=4
+     else if (x=2) then y=3
+     else if (x=3) then y=2
+     else if (x=4) then y=1
+     else y=9
+* Functional transformations
+  + 0,1 to 1,0 is f(x)=1-x
+  + 1,2,3,4 to 4,3,2,1 is f(x)=5-x
+  + 0,1,2,3,4 to 4,3,2,1,0 is f(x)=4-x
+* Always check your results
+* Watch out for missing value codes
+
+<div class="notes">
+
+Reverse scaling is tedious and always go slowly, because tedium tends to produce simple mistakes. SPSS has a very nice recode dialog box that is hard to mess up. You can also use a series of IF THEN ELSE commands to do the reverse coding. Notice that I took the time to code as 9 anything outside what I believed were the only possible values.
+
+But if you want to be clever, there is usually a simple mathematical function of the form k-x  or k+1-x that will reverse scale everything all at once.
+
+If you had a variable with values 0 and 1, the function f(x)=1-x will effectively convert the 0 to a 1 and the 1 to a 0.
+
+If you had a variable with values 1, 2, 3, and 4, the function f(x)=5-x would effectively reverse these values. But note that if 0 were legal, if the possible values were 0, 1, 2, 3, and 4, then the proper function would be f(x)=4-x.
+
+Always account properly for missing values when reverse scaling. It's a good idea to do a simple frequency table before and after reverse coding. It is also a good idea to store the reverse coded variable under a different name, so that you could easily undo any mistakes that you might have made.
+
+</div>
+
+```{r multiple-response1, echo=FALSE}
+plot1 <- function() {
+  r <- c(10, 30)
+  plot(r, r, type="n")
+  q <- c(
+    "Q1. What are a few of your favorite things?",
+    "        a. Raindrops on roses",
+    "        b. Whiskers on kittens",
+    "        c. Bright copper kettles",
+    "        d. Warm woolen mittens")
+  text(rep(10, 5), 27:23, q, adj=0, cex=0.75)
+  points(rep(10.35, 4), 26:23, pch=c(0, 7, 7, 7), cex=2)
+  text(rep(10, 5), 21:17, q, adj=0, cex=0.75)
+  points(rep(10.35, 4), 20:17, pch=c(7, 7, 7, 0), cex=2)
+  text(rep(10, 5), 15:11, q, adj=0, cex=0.75)
+  points(rep(10.35, 4), 14:11, pch=c(0, 0, 7, 7), cex=2)
+}
+
+plot2 <- function(xe=30){
+  segments(xe, 30, xe, 10)
+  segments(22, 30, 22, 10)
+
+  segments(22, 30, xe, 30)
+  segments(22, 28, xe, 28)
+  segments(22, 22, xe, 22)
+  segments(22, 16, xe, 16)
+  segments(22, 10, xe, 10)
+}
+
+plot3 <- function(xm=c(24, 26, 28)) {
+  for (x in xm) {
+    segments(x, 30, x, 10)
+  }
+}
+fn <- "../images/11/multiple_response%01d.png"
+png(file=fn, width=350, height=350)
+par(mar=rep(0, 4))
+
+plot1()
+
+plot1()
+plot2(24)
+text(23, 29, "q1", cex=0.75)
+text(23, 25, "bcd", cex=0.75, adj=0.5)
+text(23, 19, "abc", cex=0.75, adj=0.5)
+text(23, 13, "cd", cex=0.75, adj=0.5)
+
+plot1()
+plot2(28)
+plot3(c(24, 26))
+text(23, 29, "q1.1", cex=0.75)
+text(25, 29, "q1.2", cex=0.75)
+text(27, 29, "q1.3", cex=0.75)
+text(23, 25, "b", cex=0.75, adj=0.5)
+text(25, 25, "c", cex=0.75, adj=0.5)
+text(27, 25, "d", cex=0.75, adj=0.5)
+text(23, 19, "a", cex=0.75, adj=0.5)
+text(25, 19, "b", cex=0.75, adj=0.5)
+text(27, 19, "c", cex=0.75, adj=0.5)
+text(23, 13, "c", cex=0.75, adj=0.5)
+text(25, 13, "d", cex=0.75, adj=0.5)
+
+par(mar=rep(0, 4))
+plot1()
+plot2(30)
+plot3(c(24, 26, 28))
+text(23, 29, "q1.a", cex=0.75)
+text(25, 29, "q1.b", cex=0.75)
+text(27, 29, "q1.c", cex=0.75)
+text(29, 29, "q1.d", cex=0.75)
+text(23, 25, "0", cex=0.75, adj=0.5)
+text(25, 25, "1", cex=0.75, adj=0.5)
+text(27, 25, "1", cex=0.75, adj=0.5)
+text(29, 25, "1", cex=0.75, adj=0.5)
+text(23, 19, "1", cex=0.75, adj=0.5)
+text(25, 19, "1", cex=0.75, adj=0.5)
+text(27, 19, "1", cex=0.75, adj=0.5)
+text(29, 19, "0", cex=0.75, adj=0.5)
+text(23, 13, "0", cex=0.75, adj=0.5)
+text(25, 13, "0", cex=0.75, adj=0.5)
+text(27, 13, "1", cex=0.75, adj=0.5)
+text(29, 13, "1", cex=0.75, adj=0.5)
+
+silence <- dev.off()
+```
+
+### A multiple response example
+
+![Questionnaire with a multiple response question](../images/11/multiple_response1.png)
+
+<div class="notes">
+
+This is an example of a questionnaire where the patients can choose one of more of the following favorite things: Raindrops on roses, or whiskers on kittens. Bright copper kettles, or warm woolen mittens.
+
+The first patient liked the last three things: whiskers on kittens, bright copper kettles, and warm woolen mittens.
+
+The second patient liked first three things: raindrops on roses, whiskers on kittens, and bright copper kettles.
+
+The third patient liked the last two things: bright copper kettles, and warm woolen mittens.
+
+This approach makes it difficult to compute even simple statistics 
+
+</div>
+
+### Coding multiple response with a single column
+
+![Multiple response coded into a single column](../images/11/multiple_response2.png)
+
+<div class="notes">
+
+You can code all the possible responses in a single column. Since the first person chose the last three responses, code their response as bcd. The second person chose the first three responses, and would be coded as abc. The third person only chose the last two responses, and would be coded cd.
+
+This approach makes it difficult to compute even simple statistics, such as the proportion of patients who chose "Whiskers on kittens." You'd have to work with a string search function. It's not a terribly hard amount of work, but with a bit of planning, you could make it a bit easier down the road. 
+
+</div>
+
+### A different way to code multiple response
+
+![A multiple response question coded into three columns](../images/11/multiple_response3.png)
+
+<div class="notes">
+
+You could split this into three columns, putting the first selection in the first column, the second selection in the second column, and the third selection in the third column.
+
+This is a bit better, but there are still some problems. 
+
+This format produces some unneeded missing values, such as for the patient who has less than three favorite things.
+
+If you find out halfway through the survey that someone chose all four favorite things, you'd have to go back and add a new column. 
+
+This format is also a bit tricky. Notice how even though all three patients selected c, the letter appears once in the third column, once in the second column, and once in the first column. If you wanted the percentage of patients who chose "c," you'd have to calculate the percentage of c's in the first column, and add it to the percentage of c's in the second column and the percentage of c's in the third column.
+
+</div>
+
+### The recommended way to code multiple response
+
+![Multiple response coded with individual item indicators](../images/11/multiple_response4.png)
+
+<div class="notes">
+
+The recommended way to code multiple response is to create indicator variables for each possible response. The q1.a column is one for the second patient, as he/she was the only one who who liked raindrops on roses. The other two patients get a zero in this column. The q1.b column is one for the first and second patients, who both liked whiskers on kittens, but zero for the third patient who did not like whiskers on kittens. What's wrong here? Who doesn't like whiskers on kittens? The q1.c column is one for everybody because everybody liked bright copper kettles. Finally, in column q1.d, the first and third patients get ones for the like of warm woolen mittens, and the second patient gets a zero.
+
+</div>
 
 ### Text files
 
@@ -161,38 +368,54 @@ Finally, notice the blank cells. I found out that these represented cases where 
 
 You may wish to create a text file for others to use. The text format is popular for sharing your data, because others can inspect the data easily without needing any specialized software.
 
-</div>
-
-### Missing value codes
-
-* Explain WHY the value is missing.
-  + Did not answer
-  + Not applicable
-  + Below the limit of detection
-* Use extreme number code
-  + 9, 99, 999
-  + -1
-  + NA
-  + * (asterisk)
-  + . (dot)
-* Never use blanks to designate missing
-* Note missing value code on data dictionary
-
-<div class="notes">
-
-Sometimes you do not have data for a particular variable for some of your patients. This is perfectly fine. You must explain why the value is missing. 
-
-Sometimes a value is missing because a patient skipped the item on your questionnaire. Sometimes, it represents not applicable, such as your spouse's age if you are not married. Sometimes, it represents a lab value below the limit of detection. There are a whole host of other reasons.
-
-How you handle missing values in your data analysis depends largely on the reason why that value is missing. Using the wrong approach can seriously bias your results.
-
-There are several ways you can code missing values. I recommend an extreme number code. 9 works well for values that can't get any larger than 5. Use 99 or 999 if the values can get larger. You want to choose enough nines so that the value is clearly outside of any reasonable range of legitimate values. So a birthweight of 99 kilograms is obviously a missing value for anyone except for a baby elephant. An IQ score of 999 is outside the range even of Albert Einstein.
-
-Some people use -1 for a missing value code if the variable is clearly not ever going to be a negative value. A baby could not have a birth weight of -1 kilogram, because such a baby would float up to the ceiling after being delivered.
-
-If there are several reasons why a variable could be missing, use a separate code for each reason, such as 997 for lost test tube, 998 for insufficient volume for testing, and 999 for a result below the limit of detection.
+You can used a fixed width format. The
 
 </div>
+
+### Alternate
+
+```{r test, eval=FALSE}
+Year	Indigenous	Prisoners	Deaths	Population
+1990	Yes	2041	6	168317
+1991	Yes	2166	8	172462
+1992	Yes	2223	2	176827
+1993	Yes	2416	7	181341
+1994	Yes	2742	11	185836
+1995	Yes	2907	17	190438
+1990	No	12264	27	13141817
+1991	No	12855	31	13326044
+1992	No	13336	34	13501987
+1993	No	13450	42	13649262
+1994	No	14302	42	13810095
+1995	No	14501	42	13995940
+```
+
+### Fixed width
+
+```{r fixed_width, eval=FALSE}
+Subject	Treatment	Endurance	Order
+1	Vitamin	145	1
+1	Placebo	417	2
+2	Vitamin	185	2	
+2	Placebo	279	1
+3	Vitamin	387	1
+3	Placebo	678	2
+4	Vitamin	593	2
+4	Placebo	636	1
+5	Vitamin	248	1
+5	Placebo	170	2
+6	Vitamin	245	2
+6	Placebo	699	1
+7	Vitamin	349	1
+7	Placebo	372	2
+8	Vitamin	902	2
+8	Placebo	582	1
+9	Vitamin	159	1
+9	Placebo	363	2
+10	Vitamin	122	2
+10	Placebo	258	1
+```
+
 
 ### Missing value example
 
@@ -202,6 +425,46 @@ If there are several reasons why a variable could be missing, use a separate cod
 
 Here's a humorous example of failure to account properly for missing values. The printer had a sales price of 299 dollars and 99 cents. The original price was listed as 9,999 dollars and 99 cents, which is an outrageous price for a printer. Clearly, a field of all nines was intended to be a missing value code. But the system that computed the savings did not recognize this as a missing value and calculated that if you bought this printer, you would be saving $9,700 dollars.
 
+</div>
+
+### Missing value codes
+
+* Explain WHY the value is missing.
+  + Did not answer
+  + Not applicable
+  + Below the limit of detection
+
+<div class="notes">
+
+Sometimes you do not have data for a particular variable for some of your patients. This is perfectly fine. You must explain why the value is missing. 
+
+Sometimes a value is missing because a patient skipped the item on your questionnaire. Sometimes, it represents not applicable, such as your spouse's age if you are not married. Sometimes, it represents a lab value below the limit of detection. There are a whole host of other reasons.
+
+How you handle missing values in your data analysis depends largely on the reason why that value is missing. Using the wrong approach can seriously bias your results.
+
+</div>
+
+### Example of missing value codes
+
+* Use extreme number code
+  + 9, 99, 999
+  + -1
+* Use symbols
+  + NA
+  + * (asterisk)
+  + . (dot)
+* Never use blanks to designate missing
+* Note missing value code on data dictionary
+
+<div class="notes">
+
+There are several ways you can code missing values. I recommend an extreme number code. 9 works well for values that can't get any larger than 5. Use 99 or 999 if the values can get larger. You want to choose enough nines so that the value is clearly outside of any reasonable range of legitimate values. So a birthweight of 99 kilograms is obviously a missing value for anyone except for a baby elephant. An IQ score of 999 is outside the range even of Albert Einstein.
+
+Some people use -1 for a missing value code if the variable is clearly not ever going to be a negative value. A baby could not have a birth weight of -1 kilogram, because such a baby would float up to the ceiling after being delivered.
+
+If there are several reasons why a variable could be missing, use a separate code for each reason, such as 997 for lost test tube, 998 for insufficient volume for testing, and 999 for a result below the limit of detection.
+
+You can also use symbols for missing values such as an asterisk or a dot. You can also use the letters NA, which is what R expects. These last three have a disadvantage for numeric variables. They end up confusing some imports and force your numeric column into a character string.
 </div>
 
 ### Date formats
