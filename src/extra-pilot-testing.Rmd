@@ -1,0 +1,41 @@
+---
+title: "Extra - pilot testing"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+### Pilot testing
+
+* Clarity of items
+* Content
+* "Whether your items cover all aspects of the domain you intend to measure and whether they are in appropriate proportions relative to that domain."
+  + page 258
+
+### Data Collection Techniques 
+
++ Process of developing a survey
+	+ List of measures/variables
+	+ What's already available?
+	+ Put the pieces together
+	+ Test and revise as needed
+	+ Final check – do you really need all of the items?
++ Analysis of survey data
+
+<div class="notes">
+
+Flows well and is clear.
+
+Get some real test runs with people who have seen it for the first time. Do you really need all of these items? 
+
+[[Example of sexual preferences in survey on Internet usage.]]
+
+http://www.pmean.com/10/BadSurvey.html
+
+</div>
