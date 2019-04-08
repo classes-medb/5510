@@ -15,7 +15,7 @@ source("prelims.R", echo=FALSE)
 
 * Brief, but descriptive explanation
 * Roughly 4 to 16 characters
-* No blanks and (Almost) no symbols
+* No blanks and (almost) no symbols
 * One to three words
 
 <div class="notes">
@@ -55,7 +55,7 @@ There are two exceptions, the underscore character and the dot. These can be use
 
 <div class="notes">
 
-
+Some people use 
 
 </div>
 
@@ -372,50 +372,83 @@ You can used a fixed width format. The
 
 </div>
 
-### Alternate
+### Data dictionary for aboriginal prison death study
 
-```{r test, eval=FALSE}
-Year	Indigenous	Prisoners	Deaths	Population
-1990	Yes	2041	6	168317
-1991	Yes	2166	8	172462
-1992	Yes	2223	2	176827
-1993	Yes	2416	7	181341
-1994	Yes	2742	11	185836
-1995	Yes	2907	17	190438
-1990	No	12264	27	13141817
-1991	No	12855	31	13326044
-1992	No	13336	34	13501987
-1993	No	13450	42	13649262
-1994	No	14302	42	13810095
-1995	No	14501	42	13995940
-```
+![Data dictionary](../images/11/aboriginal_data_dictionary.png)
 
-### Fixed width
+<div class="notes">
 
-```{r fixed_width, eval=FALSE}
-Subject	Treatment	Endurance	Order
-1	Vitamin	145	1
-1	Placebo	417	2
-2	Vitamin	185	2	
-2	Placebo	279	1
-3	Vitamin	387	1
-3	Placebo	678	2
-4	Vitamin	593	2
-4	Placebo	636	1
-5	Vitamin	248	1
-5	Placebo	170	2
-6	Vitamin	245	2
-6	Placebo	699	1
-7	Vitamin	349	1
-7	Placebo	372	2
-8	Vitamin	902	2
-8	Placebo	582	1
-9	Vitamin	159	1
-9	Placebo	363	2
-10	Vitamin	122	2
-10	Placebo	258	1
-```
+Here is the data dictionary for a small data set that I will use to illustrate the various text formats. It comes from OzDASL, the Australian Data And Story Library. This data set represents the number of deaths in prison of both aboriginal Australians and others. The variables are
 
+Yyear (1990 through 1995), 
+
+Indigenous (yes or no), 
+
+Prisoners, the number in prison custody, 
+
+Deaths, the number of deaths, and
+
+Population, the adult population (15 years or older)
+
+</div>
+
+### Comma separated values (csv)
+
+![Data set using a comma separated value format](../images/11/aboriginal_data_comma.png)
+
+<div class="notes">
+
+The most popular text format is the comma separated value. These files usually have a .csv extension. Each data point is separated from the other data values by a comma.
+
+</div>
+
+### Comma separated values with quotes
+
+![Data set using a quoted format](../images/11/aboriginal_data_quoted.png)
+
+<div class="notes">
+
+If your text data contains space, punctuation, or other special symbols, then it is a good idea to place quotes around your text. It's not really needed for this data set, but I wanted to show you anyway.
+
+There are elaborate rules for how to handle text data that contains quote marks. Use double quotes to surround text that includes single quotes and use single quotes to surround text that has double quotes. Doubling up a quote mark is another approach that usually works. It's one of those tedious things that only Statisticians worry about.
+
+</div>
+
+### Fixed width format
+
+![Data set using a fixed width format](../images/11/aboriginal_data_fixed.png)
+
+<div class="notes">
+
+In this fixed width format, the first variable, year, is listed in columns 1 through 4. Then the text variable, Indigenous, takes the next three columns, columns 5 through 7. The number of prisoners is either a four or five digit number, so it uses columns 8 through 12. The number of deaths is, thankfully small, either one or two digits, so it fits into columns 13 and 14. The population could be in the tens of millions, so it needs to use columns 15 through 22.
+
+You need a fairly detailed data dictionary for fixed with format data, because otherwise you might not be sure where one number stops and another number begins.
+
+</div>
+
+### Spaced format
+
+![Data set using a spaced format](../images/11/aboriginal_data_space.png)
+
+<div class="notes">
+
+Usually, you will encounter a fixed width format in data sets with hundreds of variables and thousands or millions of rows. In these files, saving a few characters here or there can make a big difference in download times. But for small data sets, you can insert a few extra blanks so that everything lines up nicely. Here is an example.
+
+</div>
+
+### Tab separated values
+
+![Data set using a tab separated value format](../images/11/aboriginal_data_tab.png)
+
+<div class="notes">
+
+In the tab separated format, the tab character is used to separate values. The tab character effectively jumps to a specific fixed location. These locations are usually eight characters apart, starting at column 9, then 17, 25, etc.
+
+The tab character appears to the human eye as multiple blanks but it is actually a non printing character, 09 in hexadecimal.
+
+It's hard sometimes to figure out if a file is using tabs or spaces as delimiters. Most text editors and word processors will let you search for the tab character, often with a code like /t (forward slash t). If you start to insert blanks in a tab delimited file, at first nothing happens, then all of a sudden, you notice a sudden jump in the text to the right of where you are inserting. Finally, look to see if the text seems to line up somewhat but with a few irregularities. This happens when some of the text data for a variable is longer than 8 characters and other text for that variable is shorter than 8 characters. In the example shown here, none of the data is longer than 8 characters, but the variable names are, which is why they don't align perfectly with the data. 
+
+</div>
 
 ### Missing value example
 
