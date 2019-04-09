@@ -1,5 +1,5 @@
 ---
-title: "Video 11 - Data management
+title: "Video 11 - Data management"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -14,22 +14,17 @@ source("prelims.R", echo=FALSE)
 ### Data management
 
 * Data dictionary
-  + Variable names
-  + Variable labels
-  + Value labels
-  + Missing value codes
+  + Variable names, Variable labels, Value labels, Missing value codes
 * Managing complex files
-  + Multiple response
-  + Longitudinal/repeated measures data
+  + Multiple response, Longitudinal/repeated measures data
 * Storage options
-  + Spreadsheet
-  + Text file
-  + Database
-  + REDCap
+  + Spreadsheet, Text file, Database, REDCap
   
 <div class="notes">
 
 There's a lot to cover in this video. I'll start with the data dictionary, which provides documentation on variable names, variable labels, value labels, and missing value codes. Then I want to mention two tricky issues with data management: multiple response variables and longitudinal/repeated measures data.
+
+Let me just mention how happy I am to talk about data management issues. You don't know how much I have suffered over the years because the people I work with have failed to do some very basic data management. If nothing else, I want to make sure that you don't cause similar pain to your research teams in the future. Listen well and heed all the advice I give here today. It is built on top of a mountain of suffering.
 
 </div>
 
@@ -114,18 +109,26 @@ If your variable has units of measurement, here is where you specify grams, kilo
 
 ### Missing value codes
 
-* Explain WHY the value is missing.
+* Explain WHY the value is missing
+* For a survey
   + Did not answer
   + Not applicable
+* For a lab result
   + Below the limit of detection
+  + Insufficient volume for testing
+  + Dropped the test tube and it shattered making a huge mess
 
 <div class="notes">
 
 Sometimes you do not have data for a particular variable for some of your patients. This is perfectly fine. You must explain why the value is missing. 
 
-Sometimes a value is missing because a patient skipped the item on your questionnaire. Sometimes, it represents not applicable, such as your spouse's age if you are not married. Sometimes, it represents a lab value below the limit of detection. There are a whole host of other reasons.
+Sometimes a value is missing because a patient skipped the item on your questionnaire. Sometimes, though, you are the one who told the patient to skip the question. You were asking about the age of the patient's spouse and you thought that would be a difficult question for someone unmarried to answer. You should probably analyze those two different missing values quite differently.
 
-How you handle missing values in your data analysis depends largely on the reason why that value is missing. Using the wrong approach can seriously bias your results.
+If you are looking at lab results on a serum sample, there are several reasons why the lab result might be missing. Maybe the value was below the limit of detection. Maybe you did not have enough blood to test for this particular value. Maybe you dropped the test tube before you could analyze anything.
+
+If you decided that you would replace the missing values with the average of the values where you did have data, that's not such a bad thing to do to fix things from the dropped test tube. There's no hint that a large or small value on the lab value would make the test tube more slippery. I'd worry a bit more about low sample volume. But the missing value where you absolutely cann ont and should not replace the missing value with the average of the remaining values is the case where the value was missing because it was below the limit of detection. Below low the limit of detection makes this particular lab value smaller than any of the others in the data set. And you're going to replace it by an average? For this case, a simple solution is to replace the missing value with a value halfway between zero and the limit of detection.
+
+That's whay the reason for missingness is so important.
 
 </div>
 
@@ -143,13 +146,14 @@ How you handle missing values in your data analysis depends largely on the reaso
 
 <div class="notes">
 
-There are several ways you can code missing values. I recommend an extreme number code. 9 works well for values that can't get any larger than 5. Use 99 or 999 if the values can get larger. You want to choose enough nines so that the value is clearly outside of any reasonable range of legitimate values. So a birthweight of 99 kilograms is obviously a missing value for anyone except for a baby elephant. An IQ score of 999 is outside the range even of Albert Einstein.
+There are several ways you can code missing values. I recommend an extreme number code. 9 works well for values that can't get any larger than 4 or 5. Use 99 or 999 if the values can get larger. You want to choose enough nines so that the value is clearly outside of any reasonable range of legitimate values. So a birthweight of 99 kilograms is obviously a missing value for anyone except for a baby elephant. An IQ score of 999 is outside the range even of Albert Einstein.
 
 Some people use -1 for a missing value code if the variable is clearly not ever going to be a negative value. A baby could not have a birth weight of -1 kilogram, because such a baby would float up to the ceiling after being delivered.
 
 If there are several reasons why a variable could be missing, use a separate code for each reason, such as 997 for lost test tube, 998 for insufficient volume for testing, and 999 for a result below the limit of detection.
 
 You can also use symbols for missing values such as an asterisk or a dot. You can also use the letters NA, which is what R expects. These last three have a disadvantage for numeric variables. They end up confusing some imports and force your numeric column into a character string.
+
 </div>
 
 ### Missing value example
@@ -162,13 +166,23 @@ Here's a humorous example of failure to account properly for missing values. The
 
 </div>
 
+### First break
+
+* What have you learned
+  + variable names
+  + Variable labels
+  + Missing value codes
+* What's coming up
+  + Date formats
+  + Categorical values
+
 ### Date formats
 
 ![Cartoon showing variety of data formats](../images/11/iso_8601.png)
 
 <div class="notes">
 
-As this cartoon shows, there are a variety of ways to code dates. This is Scott Munro, creator of the wonderful  xkcd cartoon series. He shows the dates in a variety of formats that get more and more bizarre, including Roman numeral and binary versions of the date. He is trying to emphasize the importance of following a single standard. He recommends, and I heartily agree with his recommendation, that you should always use the ISO 8601 standard.
+As this cartoon shows, there are a variety of ways to code dates. This is Scott Munro, creator of the wonderful xkcd cartoon series. He shows the dates in a variety of formats that get more and more bizarre, including Roman numeral and binary versions of the date. He is trying to emphasize the importance of following a single standard. He recommends, and I heartily agree with his recommendation, that you should always use the ISO 8601 standard.
 
 The ISO 8601 standard for dates starts with the four digit year followed by a dash. Then you have two digits for the month. It is always two digits, so January is 01 rather than 1 and September is 09 rather than 9. This is followed by another dash and then the two digit day. Note that the first day of the month is 01 rather than 1.
 
@@ -225,7 +239,11 @@ R and SAS choose more current index dates. The choice of an index date for SPSS 
 
 if the date of October 14, 1582 seems strange to you, it represents the start of the Gregorian calendar. The Julian calendar developed in ancient times was quite impressive. Astonomers at the time knew that the earth took 365.25 days to travel one orbit around the sun. So they invented the concept of a leap year.
 
-Unfortunately, the earth actually takes 365.2564 days. That 0.0064 seems small but it means that you are off but a full day every 157 years.
+Unfortunately, the earth actually takes 365.24219 days. That 0.00781 seems small but it means that you are off but a full day every 128 years. The Church was becoming concerned because Easter, a holiday that clearly belong in the Spring was falling earlier and earlier in the season. The astronomers figured out that 3/400 or 0.0075 was pretty close, so if they could find a way to shorten the calendar by 3 days every 400 years, they'd keep things well in sync. So they decided to toss out leap years on three of the four century years. That would make 1700, 1800, and 1900 normal years, but 2000 would still be a leap year.
+
+Now there is even a discrepancy between (3/400) 0.0075 and 0.00781 so the proposed solution is to take back another leap day in the year 4000 and then again in the year 8000. I hope to be alive to see these two events.
+
+And to make up for all the accumulated errors over the past fifteen centuries, they decided to remove ten days from the calendar. October 4, 1582 would be followed by October 15, 1582, putting Easter back to mid-Spring, where it properly belonged for then and for all future generations. So the skipped over date of October 14, 1582 is day 0 of the Gregorian calendar.
 
 Here is an illustration of the transition, thanks to By Asmdemon - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35391210
 
@@ -237,7 +255,11 @@ Here is an illustration of the transition, thanks to By Asmdemon - Own work, CC 
 
 <div class="notes">
 
-Here's a picture of Pope Gregory XIII, taken from Wikipedia.
+Here's a picture of Pope Gregory XIII, taken from Wikipedia. He's the Pope responsible for the Gergorian calendar. For what it's worth, it took a lot of time for some countries to convert to the Gregorian calendar. England (and the American colonies) switched in 1752 and because of their delay had to miss eleven days and not ten. They would have switched earlier, but did not like being dictated to by the Pope. Countries where the Orthodox Church predominated were even slower. Russia did not switch until the Communists took over in 1918 and Greece waited until 1923.
+
+Enough of the trivia. Let's get back to real hard data.
+
+So why did SPSS choose the number of seconds since October 14, 1582 rather than the number of days. Perhaps they were concerned about some of the rounding that could occur when you were tracking dates and times and not just dates. if you count by the number of elapsed seconds, you never have to round. Now, in exchange, you have to deal with date values that are on the order of 13 billion, and if you do a length of stay calculation, you are calculating the number of seconds that you were stuck in the hospital and not the number of days you were stuck in the hospital. You have to divide by 86,400 (the number of seconds in a day) to get length of stay in days.
 
 </div>
 
@@ -320,6 +342,16 @@ If you had a variable with values 1, 2, 3, and 4, the function f(x)=5-x would ef
 Always account properly for missing values when reverse scaling. It's a good idea to do a simple frequency table before and after reverse coding. It is also a good idea to store the reverse coded variable under a different name, so that you could easily undo any mistakes that you might have made.
 
 </div>
+
+### Second break
+
+* What have you learned
+  + Dates
+  + Value labels
+  + Reverse coding
+* What's coming next
+  + Multiple response
+  + Longitudinal/repeated measures data
 
 ```{r multiple-response1, echo=FALSE}
 plot1 <- function() {
@@ -441,7 +473,7 @@ This approach makes it difficult to compute even simple statistics, such as the 
 
 <div class="notes">
 
-You could split this into three columns, putting the first selection in the first column, the second selection in the second column, and the third selection in the third column.
+You could split this into three columns, putting the first selection in the first column, the second selection in the second column, and the third selection in the third column. So the bcd gets split into b in the first column, c in the second column, and d in the third column. The abc gets split into a in the first column, b in the second column, and c in the third column. The cd gets split into c in the first column, d in the second column and the third column is left blank.
 
 This is a bit better, but there are still some problems. 
 
@@ -461,6 +493,10 @@ This format is also a bit tricky. Notice how even though all three patients sele
 
 The recommended way to code multiple response is to create indicator variables for each possible response. The q1.a column is one for the second patient, as he/she was the only one who who liked raindrops on roses. The other two patients get a zero in this column. The q1.b column is one for the first and second patients, who both liked whiskers on kittens, but zero for the third patient who did not like whiskers on kittens. What's wrong here? Who doesn't like whiskers on kittens? The q1.c column is one for everybody because everybody liked bright copper kettles. Finally, in column q1.d, the first and third patients get ones for the like of warm woolen mittens, and the second patient gets a zero.
 
+So the number of patients who like whiskers on kittens is just the number of ones in column q1.b.
+
+Also note another big advantage here--no blank cells!
+
 </div>
 
 ### Longitudinal data, Repeated measures data
@@ -473,9 +509,6 @@ The recommended way to code multiple response is to create indicator variables f
   + One line per visit/measurement
 * Short and fat format
   + One line per patient
-* Database format
-  + Time constant table
-  + Time varying table
   
 <div class="notes">
 
@@ -483,51 +516,76 @@ Longitudinal data are data collected at several different time periods on the sa
 
 You have two different options for storing longitudinal or repeated measurements data. The tall and thin format has one row for each visit in a longitudinal study or one row for each measurement in a repeated measures study. This means lots of rows, but not so many columns. This makes the data set tall and thin.
 
-The short and fat format has one row per patient and each visit or each repeated measure is spread out across multiple variables. This means fewer rows but many more columns. You typically scroll a lot left and righ when viewing a short and fat format, and this can be tedious.
+The short and fat format has one row per patient and each visit or each repeated measure is spread out across multiple variables. This means fewer rows but many more columns.
 
 Some data analyses, such as plots, work better with the tall and thin format. Other analyses, such as correlations, work better with the short and fat format. It is tedious to switch between the two formats, but you can do this.
 
-I recommend that you split longitudinal data into two pieces. The first piece represents time constant variables. These are the variables that do not change from visit to visit or across the repeated measurements. Most demographics like sex and race are the same from visit to visit.
-
 </div>
 
-### Example of tall and thin, data
+### Example of tall/thin, dictionary
 
-![Repeated measures data in tall and thin format](../images/11/ctsibuni.png)
+![Data dictionary for tall and thin format](../images/11/ctsibuni_dictionary.png)
 
 <div class="notes">
 
+Here's a data set looking at balance. Patients are asked to balance on one foot either on a normal surface or on a softer surface of foam. I presume that balancing is harder on a soft surface like foam. They do this under three vision conditions: eyes open, eyes closed, and a closed dome which allows a little bit of partial vision. I presume that balancing is easier with eyes open, hardest with eyes colses, and somewhere in the middle for a closed dome. Each combination of surface and vision was repeated twice, leading to 2 by 3 by 2 or 12 different repeated measurements.
 
+The outcome variable is an observer assessment of balance on a four point scale.
 
-</div>
-
-### Example of short and fat, data
-
-![Repeated measures data in short and fat format](../images/11/ctsibrm.png)
-
-<div class="notes">
-
-
+This is the data dictionary for the tall and thin formatted data. A single column holds the observer assessment of balance, which means 12 by 40 or 480 rows of data.
 
 </div>
 
-### Example of tall and thin, dictionary
-
-![Data dictionary for  tall and thin format](../images/11/ctsibuni_dictionary.png)
-
-<div class="notes">
-
-
-
-</div>
-
-### Example of short and fat, dictionary
+### Example of short/fat, dictionary
 
 ![Repeated measures example in short and fat format](../images/11/ctsibrm_dictionary.png)
 
 <div class="notes">
 
+Here's the data dictionary for the short and fat format. There's one row per patient, but this means that the twelve repeated measures conditions have to have separate columns. NO1 and NO2 represent the normal surface, open eyes measurements. NC1 and NC2 represent the normal surface, closed eyes measurements. The last two columns, FD1 and FD2 represent a foam surface and domed vision. I'll leave it to you to decode the middle values.
 
+</div>
+
+### Example of tall/thin, data
+
+![Repeated measures data in tall and thin format](../images/11/ctsibuni.png)
+
+<div class="notes">
+
+Here's the data for the tall and thin format. Don't worry about individual values, but do notice the size of the scroll bar on the right hand side is quite small indicating that you are only seeing a small fraction of the available rows.
+
+</div>
+
+### Example of short/fat, data
+
+![Repeated measures data in short and fat format](../images/11/ctsibrm.png)
+
+<div class="notes">
+
+Here's the data in the short and fat format. Look again at the scroll bar on the right. It is so large because we are seeing almost all of the data (37 out of the 40 rows). Notice also that the short and fat format fills the screen almost completely from left to right. The tall and thin format did not come anywhere close to the right margin.
+
+</div>
+
+### A simple alternative to both tall/thin and short/fat
+
+* Disadvantages of tall/thin
+  + Too much repetition
+* Disadvantages of short/fat
+* Database format
+  + Time constant table
+  + Time varying table
+
+<div class="notes">
+
+There are serious disadvantages to the tall and thin format. For gender, you see male, male, male repeated twelve times because the first subject's gender was male for all twelve of the repeated measures. Repeated data like this is an open invitation for errors to creep in.
+
+There are serious disadvantages to the short and fat format. Listing each visit in a separate set of columns or listing every repeated measurement condition in separate columns means that you have to do a lot of left and right scrolling to see all of the data. Left/right scrolling is painful, compared to up/down scrolling.
+
+I had someone with a longitudinal data set where there were up to 40 separate visits with multiple measurements at each visit. He used the short and fat format and actually ran out of columns in the Excel spreadsheet. This was an earlier version of Excel where the column limit was 255. Now it is much higher. But think about it. A data set with 255 columns. Why I'd get exhausted just trying to name all those columns.
+
+I recommend that you split longitudinal data into two pieces. The first piece represents time constant variables. These are the variables that do not change from visit to visit or across the repeated measurements. Most demographics like sex and race are the same from visit to visit.
+
+The time varying table contains values that change from one visit to another in a longitudinal study or values that change from one repeated measures condition to another
 
 </div>
 
@@ -537,7 +595,7 @@ I recommend that you split longitudinal data into two pieces. The first piece re
 
 <div class="notes">
 
-
+There is one row per patient for the time constant variables and notice that there is no repetition.
 
 </div>
 
@@ -547,7 +605,7 @@ I recommend that you split longitudinal data into two pieces. The first piece re
 
 <div class="notes">
 
-
+There is one row per repeated measurement for the time varying variables. If you split the data this way, make sure that each patient is given a unique identifier. You'll need this when you merge the time constant and time varying variables.
 
 </div>
 
@@ -569,6 +627,40 @@ The data dictionary should list variable names. We already talked about variable
 If there are permissible/impermissible values or a legal range, then include this information in the data dictionary. It could be put in as part of the variable label or listed as a footnote.
 
 If your variable is categorical, specify what the categories are. There is nothing worse than not knowing whether 1 is male and 2 is female or if 1 is female and 2 is male.
+
+</div>
+
+### Third break
+
+* What have you learned
+  + Multiple response variables
+  + Longitudinal/repeated measures data
+* What's next
+  + Double entry coding
+  + Excel files
+
+### Double entry coding
+
+* Great quality check
+  + If you can afford it
+* Prepare a code book first
+  + Count the proportion of discrepancies
+* If too many discrepancies
+  + Revise the code book and re-do the data entry.
+* If discrepancies small enough
+  + Report this number in your publication
+
+<div class="notes">
+
+Double entry coding is using two people to enter the identical data sets. They do this independently, then you compare the results to measure the degree of data entry errors.
+
+Before you start double entry coding, you need a very detailed code book so there is little room for subjective interpretations of what to enter for unusual responses.
+
+Fix the discrepancies, of course. The error rate will be different for the different data entry people, but the product of the two error rates is an estimate of the number of undetected errors. So if one person had an error rate of 5% and the other had an error rate of 2%, the overall error rate would be 0.05*0.02=0.001.
+
+If your undetected error rate is too high, you are at fault for writing an ambiguous code book. Rewrite the code book and repeat the whole process.
+
+Once you get a good undetected error rate, publish this number in your methods or results section of your paper.
 
 </div>
 
@@ -657,6 +749,15 @@ The first row includes brief, but descriptive variable names. The column names a
 I also cut and pasted some of the preliminary rows in the original spreadsheet and restructured things a bit to develop a data dictionary.
 
 </div>
+
+### Fourth break
+
+* What have you learned
+  + Double entry
+  + Excel files
+* What's coming next
+  + Text files
+  + Database files
 
 ### Text files
 
@@ -764,353 +865,65 @@ It's hard sometimes to figure out if a file is using tabs or spaces as delimiter
 
 <div class="notes">
 
+Databases use slightly different terminology than what statistical software like R, SAS, and SPSS use, so let's review the basic terminology.
 
+A table is a rectangular grid of numbers. Fields represent the columns of the table, what our statistical packages would call variables. Records represents the rows of the table, or what our statistical pacakges would call observations. The primary key is a identifier that, ideally, is unique for every record. A foreign key is a link between this table and a the primary key of a different table.
+
+</div>
+
+### Database table for value labels 
+
+![Database linkage between race code and race labels](../images/11/database_link.png)
+
+<div class="notes">
+
+Earlier, you saw how longitudinal or repeated measures data could be split into two tables. The use of multiple linked tables is a powerful reason to use a database.
+
+Here's another example. Suppose you were tracking race using the following categories:
+
+American Indian or Alaska Native
+
+Asian
+
+Black or African American
+
+Native Hawaiian or Other Pacific Islander
+
+White
+
+You wouldn't want to type the long labels in over and over again. So you would use the numbers 1 through 5 with 1 for American Indian or Alaska Native and 5 for White. But in a separate table you could keep the longer labels and then just join the tables together to get the nice labels for each subject.
 
 </div>
 
 ### REDCap
   
-### Coding
-
-* Dummy coding
-  + 0/1 for absence/presence
-* Double entry coding
-* Standard coding for race/ethnicity
-
-### Quality checks
-
-* Minimum and maximum checks
-  + Out of range
-  + Zero variation
-* Missing value count
-* List five five rows, last five rows
-* Correlations
-
-### Data reduction
-
-* Create composite scores
-  + Check Cronbach's alpha
-  + Examine leaving out single items
-* Factor analysis
-  + Supplanted by Structural Equations Modeling
-
-### Data transformations
-
-* Ideal - selected a priori
-  + Sometimes based on precedent
-  + Sometimes motivated by theory
-  + Sometimes based on empirical findings
-
-### Data Collection Techniques 
-
-+ Standardized vs Investigator-Developed Instruments
-	+ Development and Use
-	+ Evidence to support investigator-developed instruments
+* Research Electronic Data Capture
+* Not open source, but freely distributed by Vanderbilt
+* Software components
+  + PHP
+  + JavaScript
+  + MySQL
+* Case report forms
+* Strongly recommended
 
 <div class="notes">
 
-There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
+REDCap is a database built on top of open source components, PHP, JavaScript, and MySQL. It has a lot of features that are especially attractive to researchers. For data entry, it allows you to easily define a case report form, a structure for your data entry. It can manage double entry seamlessly. When you are done with data entry, it has nice features to simplify the export of your data into R, SAS, or SPSS.
 
-Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
+REDCap also has a survey module that allows you to collect questionnaire data over the Internet.
 
-</div>
+It has a lot of nice built in security features as well to guard against accidental release of private health information.
 
-### Researcher-Observed Measures
-	+ Naturalness of the setting
-	+ Observer “participation”
-	+ Amount of detail
-	+ Breadth of coverage
-
-<div class="notes">
-
-The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
-
-How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
+You should use REDCap for pretty much any research project. It has a bit less value, perhaps, for secondary data sets, but for any project where you have to enter the data yourself, you'd be crazy not to use REDCap.
 
 </div>
 
-### Tests and Documents
-	+ Standardized tests
-		+ Norm referenced test
-		+ Criterion referenced test
-	+ Achievement tests
-	+ Performance and Authentic assessments
-	+ Aptitude tests
-	+ Documents
-	+ Content analysis
+### Conclusion
 
-<div class="notes">
-
-Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
-
-Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
-
-Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
-
-Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
-
-Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
-
-</div>
-
-### Self-Report Measures
-	+ Standardized Personality Inventories
-	+ Attitudes / Beliefs scales
-		+ Likert scale
-		+ Semantic differential scale
-	+ Questionnaires
-		+ How delivered / administered
-		+ Item types
-	+ Interviews
-	+ Focus groups
-
-<div class="notes">
-
-Personality inventories: the validity is dependent on an individual's self-awareness.
-
-Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
-
-The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
-
-Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open ended, partial (responses plus other), and close ended responses.
-
-</div>
-
-### Data Collection & Coding, Initial Steps
-
-	+ Planning the study
-	+ Pilot testing
-	+ Data collection
-		+ Check for completeness if possible
-
-<div class="notes">
-
-How things are working, where there is lack of clarity, how long does it take, where the systems don't work.
-
-Make sure that your extraction process is complete as possible for secondary data. For prospective surveys, flip through a survey upside down to see if items are all filled in. Hope that you haven't missed a page. Electronic collection can force someone to respond before they answer the next question.
-
-[[Ethically can't force someone to complete a questionnaire.]]
-
-How do you handle multiple responses.
-
-Code the maximal detail of variables like age so you can collapse as you see fit. Make sure that you code missing or ambiguous responses consistently.
-
-REDCap is great!
-
-[[Double entry coding]]
-
-</div>
-
-***
-### Data Collection & Coding 
-
-+ Data Coding, Entry, and Checking
-	+ Guidelines
-		+ Mutually exclusive levels
-		+ Code for maximum information
-		+ Record is as complete as possible
-		+ Consistency
-	+ Data entry form
-	+ Checking entry
-
-<div class="notes">
-
-
-
-</div>
-
-### Data Collection & Coding 
-
-+ Data Entry into Statistical Program
-	+ Layout of data sheet
-	+ Variable names
-	+ Labeling
-		+ Variables
-		+ Values
-	+ Codebook / documentation
-
-<div class="notes">
-
-[[See Intro to SAS/R material]]
-
-By thinking about the backend process, you can sometimes fix things before you collect the data.
-
-Mary uses Excel for documentation, but never for analysis, rarely for data entry.
-
-Summarizes factor analysis, Cronbach's alpha. Note whether better to have high score or better to have low score.
-
-[[EUSpRIG site]]
-
-</div>
-
-***
-### Data Summation
-	+ Descriptive information
-		+ Categorical variables
-		+ Continuous variables
-	+ Data checking – part 2
-
-<div class="notes">
-
-Look for inconsistent values, outliers, invalid values.
-
-Note that certain responses on one question might lead to limits on the responses to other questions. Example, ever smoked? versus How many years?
-
-</div>
-
-### Measurement dichotomies
-
-* Standardized versus investigator developed measures
-* Researcher evaluation versus patient report
-* Field measurements versus laboratory measurements
-  + Ecological validity
-* Standardized test
-
-### Researcher evaluations
-
-* Norm referenced tests
-* Criterion referenced tests
-* Achievement tests
-* Performance assessment
-  + Authentic assessment
-* Aptitude tests
-* Projective technique
-* Documents
-
-### Self report
-
-* Standardized personality inventories
-  + Paper and pencil
-  + Machine scored
-
-### Questionnaires
-
-* Definitions
-  + Survey
-  + Questionnaire
-  + Interview
+* Data dictionary
+  + Variable names, Variable labels, Value labels, Missing value codes
+* Managing complex files
+  + Multiple response, Longitudinal/repeated measures data
+* Storage options
+  + Spreadsheet, Text file, Database, REDCap
   
-### Delivery
-
-* Remote administration
-  + Mail
-  + Internet (Survey Monkey)
-* Direct administration
-
-### Structure
-
-* Open ended
-* Partially open ended
-* Unordered closed response
-* Ordered closed response
-
-* Interviews
-  + Telephone
-  + Face-to-face
-* Focus groups
-
-### Data Collection Techniques 
-
-+ Standardized vs Investigator-Developed Instruments
-	+ Development and Use
-	+ Evidence to support investigator-developed instruments
-
-<div class="notes">
-
-There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
-
-Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
-
-</div>
-
-***
-### Data Collection Techniques 
-
-+ Researcher-Observed Measures
-	+ Naturalness of the setting
-	+ Observer “participation”
-	+ Amount of detail
-	+ Breadth of coverage
-
-<div class="notes">
-
-The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
-
-How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
-
-</div>
-
-### Data Collection Techniques 
-
-+ Tests and Documents
-	+ Standardized tests
-		+ Norm referenced test
-		+ Criterion referenced test
-	+ Achievement tests
-	+ Performance and Authentic assessments
-	+ Aptitude tests
-	+ Documents
-	+ Content analysis
-
-<div class="notes">
-
-Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
-
-Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
-
-Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
-
-Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
-
-Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
-
-</div>
-
-### Self-Report Measures
-	+ Standardized Personality Inventories
-	+ Attitudes / Beliefs scales
-		+ Likert scale
-		+ Semantic differential scale
-	+ Questionnaires
-		+ How delivered / administered
-		+ Item types
-	+ Interviews
-	+ Focus groups
-
-<div class="notes">
-
-Personality inventories: the validity is dependent on an individual's self-awareness.
-
-Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
-
-The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
-
-Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open ended, partial (responses plus other), and close ended responses.
-
-</div>
-
-### Surveys
-	+ Survey question format –
-		+ Open ended
-		+ Close ended
-	+ Wording of questions
-	+ Scales
-		+ Scale of measurement
-		+ Response options
-
-<div class="notes">
-
-Even as simple as something like age, you can ask it in an open ended format that allows you to categorize any way you like or even to forgo categorization.
-
-Wording is important. Simplicity and reading level. Use standardized scales whenever you can. 
-
-Double-barreled questions. [[Ask option about supervisors and managers]]
-
-How many times questions, think about the time frame (over the past 24 hours, past week, past month). Shorter time frames better recall, but subject to more external variations.
-
-Building a level of trust. Don't ask people to admit to "bad behavior". Think of it from the perspective of the person providing the information.
-
-[[Income: actual versus categories]]
-
-</div>
-

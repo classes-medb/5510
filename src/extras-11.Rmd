@@ -1,0 +1,357 @@
+---
+title: "Extras 11 - Data management"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    reference_doc: ../doc/template.pptx
+    slide_level: 3
+---
+
+```{r echo=FALSE}
+source("prelims.R", echo=FALSE)
+```
+
+### Coding
+
+* Dummy coding
+  + 0/1 for absence/presence
+* Double entry coding
+* Standard coding for race/ethnicity
+
+### Quality checks
+
+* Minimum and maximum checks
+  + Out of range
+  + Zero variation
+* Missing value count
+* List five five rows, last five rows
+* Correlations
+
+### Data reduction
+
+* Create composite scores
+  + Check Cronbach's alpha
+  + Examine leaving out single items
+* Factor analysis
+  + Supplanted by Structural Equations Modeling
+
+### Data transformations
+
+* Ideal - selected a priori
+  + Sometimes based on precedent
+  + Sometimes motivated by theory
+  + Sometimes based on empirical findings
+
+### Data Collection Techniques 
+
++ Standardized vs Investigator-Developed Instruments
+	+ Development and Use
+	+ Evidence to support investigator-developed instruments
+
+<div class="notes">
+
+There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
+
+Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
+
+</div>
+
+### Researcher-Observed Measures
+	+ Naturalness of the setting
+	+ Observer “participation”
+	+ Amount of detail
+	+ Breadth of coverage
+
+<div class="notes">
+
+The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
+
+How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
+
+</div>
+
+### Tests and Documents
+	+ Standardized tests
+		+ Norm referenced test
+		+ Criterion referenced test
+	+ Achievement tests
+	+ Performance and Authentic assessments
+	+ Aptitude tests
+	+ Documents
+	+ Content analysis
+
+<div class="notes">
+
+Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
+
+Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
+
+Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
+
+Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
+
+Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
+
+</div>
+
+### Self-Report Measures
+	+ Standardized Personality Inventories
+	+ Attitudes / Beliefs scales
+		+ Likert scale
+		+ Semantic differential scale
+	+ Questionnaires
+		+ How delivered / administered
+		+ Item types
+	+ Interviews
+	+ Focus groups
+
+<div class="notes">
+
+Personality inventories: the validity is dependent on an individual's self-awareness.
+
+Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
+
+The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
+
+Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open ended, partial (responses plus other), and close ended responses.
+
+</div>
+
+### Data Collection & Coding, Initial Steps
+
+	+ Planning the study
+	+ Pilot testing
+	+ Data collection
+		+ Check for completeness if possible
+
+<div class="notes">
+
+How things are working, where there is lack of clarity, how long does it take, where the systems don't work.
+
+Make sure that your extraction process is complete as possible for secondary data. For prospective surveys, flip through a survey upside down to see if items are all filled in. Hope that you haven't missed a page. Electronic collection can force someone to respond before they answer the next question.
+
+[[Ethically can't force someone to complete a questionnaire.]]
+
+How do you handle multiple responses.
+
+Code the maximal detail of variables like age so you can collapse as you see fit. Make sure that you code missing or ambiguous responses consistently.
+
+REDCap is great!
+
+[[Double entry coding]]
+
+</div>
+
+***
+### Data Collection & Coding 
+
++ Data Coding, Entry, and Checking
+	+ Guidelines
+		+ Mutually exclusive levels
+		+ Code for maximum information
+		+ Record is as complete as possible
+		+ Consistency
+	+ Data entry form
+	+ Checking entry
+
+<div class="notes">
+
+
+
+</div>
+
+### Data Collection & Coding 
+
++ Data Entry into Statistical Program
+	+ Layout of data sheet
+	+ Variable names
+	+ Labeling
+		+ Variables
+		+ Values
+	+ Codebook / documentation
+
+<div class="notes">
+
+[[See Intro to SAS/R material]]
+
+By thinking about the backend process, you can sometimes fix things before you collect the data.
+
+Mary uses Excel for documentation, but never for analysis, rarely for data entry.
+
+Summarizes factor analysis, Cronbach's alpha. Note whether better to have high score or better to have low score.
+
+[[EUSpRIG site]]
+
+</div>
+
+***
+### Data Summation
+	+ Descriptive information
+		+ Categorical variables
+		+ Continuous variables
+	+ Data checking – part 2
+
+<div class="notes">
+
+Look for inconsistent values, outliers, invalid values.
+
+Note that certain responses on one question might lead to limits on the responses to other questions. Example, ever smoked? versus How many years?
+
+</div>
+
+### Measurement dichotomies
+
+* Standardized versus investigator developed measures
+* Researcher evaluation versus patient report
+* Field measurements versus laboratory measurements
+  + Ecological validity
+* Standardized test
+
+### Researcher evaluations
+
+* Norm referenced tests
+* Criterion referenced tests
+* Achievement tests
+* Performance assessment
+  + Authentic assessment
+* Aptitude tests
+* Projective technique
+* Documents
+
+### Self report
+
+* Standardized personality inventories
+  + Paper and pencil
+  + Machine scored
+
+### Questionnaires
+
+* Definitions
+  + Survey
+  + Questionnaire
+  + Interview
+  
+### Delivery
+
+* Remote administration
+  + Mail
+  + Internet (Survey Monkey)
+* Direct administration
+
+### Structure
+
+* Open ended
+* Partially open ended
+* Unordered closed response
+* Ordered closed response
+
+* Interviews
+  + Telephone
+  + Face-to-face
+* Focus groups
+
+### Data Collection Techniques 
+
++ Standardized vs Investigator-Developed Instruments
+	+ Development and Use
+	+ Evidence to support investigator-developed instruments
+
+<div class="notes">
+
+There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
+
+Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Researcher-Observed Measures
+	+ Naturalness of the setting
+	+ Observer “participation”
+	+ Amount of detail
+	+ Breadth of coverage
+
+<div class="notes">
+
+The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
+
+How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
+
+</div>
+
+### Data Collection Techniques 
+
++ Tests and Documents
+	+ Standardized tests
+		+ Norm referenced test
+		+ Criterion referenced test
+	+ Achievement tests
+	+ Performance and Authentic assessments
+	+ Aptitude tests
+	+ Documents
+	+ Content analysis
+
+<div class="notes">
+
+Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
+
+Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
+
+Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
+
+Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
+
+Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
+
+</div>
+
+### Self-Report Measures
+	+ Standardized Personality Inventories
+	+ Attitudes / Beliefs scales
+		+ Likert scale
+		+ Semantic differential scale
+	+ Questionnaires
+		+ How delivered / administered
+		+ Item types
+	+ Interviews
+	+ Focus groups
+
+<div class="notes">
+
+Personality inventories: the validity is dependent on an individual's self-awareness.
+
+Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
+
+The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
+
+Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open ended, partial (responses plus other), and close ended responses.
+
+</div>
+
+### Surveys
+	+ Survey question format –
+		+ Open ended
+		+ Close ended
+	+ Wording of questions
+	+ Scales
+		+ Scale of measurement
+		+ Response options
+
+<div class="notes">
+
+Even as simple as something like age, you can ask it in an open ended format that allows you to categorize any way you like or even to forgo categorization.
+
+Wording is important. Simplicity and reading level. Use standardized scales whenever you can. 
+
+Double-barreled questions. [[Ask option about supervisors and managers]]
+
+How many times questions, think about the time frame (over the past 24 hours, past week, past month). Shorter time frames better recall, but subject to more external variations.
+
+Building a level of trust. Don't ask people to admit to "bad behavior". Think of it from the perspective of the person providing the information.
+
+[[Income: actual versus categories]]
+
+</div>
+

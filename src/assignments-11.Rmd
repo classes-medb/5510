@@ -40,9 +40,15 @@ Karl Broman. Organizing data in spreadsheets. Available in [html format](http://
 
 Charlie Custer C. 9 Reasons Excel Users Should Consider Learning Programming. Dataquest blog, December 27, 2018. Available in [html format](https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/).
 
+Paul A.Harris, Robert Taylor, Robert Thielke, Jonathon Payne, Nathaniel Gonzalez, Jose G.Conde. Research electronic data capture (REDCap)—A metadata-driven methodology and workflow process for providing translational research informatics support. Journal of Biomedical Informatics 2009; 42(2): 377-381. Avaialbe in [html format](https://www.sciencedirect.com/science/article/pii/S1532046408001226) or [PDF format](https://www.sciencedirect.com/science/article/pii/S1532046408001226/pdfft).
+
 Steve Simon. What should go into a data codebook. PMean blog, May 31, 2004. Available in [html format](http://blog.pmean.com/data-codebook/).
 
 Steve Simon. Coding race/ethnicity. StATS website, February 3, 2003. Available in [html format](http://www.pmean.com/05/RaceEthnicity.html).
+
+Steve Simon. Date calculations in SPSS. StATS website, August 18, 1999. Available in [html format](http://www.pmean.com/99/dates.html)
+
+The Straight Dope. Why do we have leap years? Available in [html format](https://www.straightdope.com/columns/read/1511/why-do-we-have-leap-years/)
 
 Wilkinson MD et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: 10.1038/sdata.2016.18 (2016). Available at in [html format](http://www.nature.com/articles/sdata201618) or [PDF format](https://www.nature.com/articles/sdata201618.pdf).
 
