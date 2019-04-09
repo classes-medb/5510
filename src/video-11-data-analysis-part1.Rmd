@@ -1,5 +1,5 @@
 ---
-title: "Video 11 - Data analysis, Part 1"
+title: "Video 11 - Data management
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -13,16 +13,25 @@ source("prelims.R", echo=FALSE)
 
 ### Data management
 
-* Meta-data
+* Data dictionary
   + Variable names
   + Variable labels
   + Value labels
   + Missing value codes
+* Managing complex files
+  + Multiple response
+  + Longitudinal/repeated measures data
 * Storage options
   + Spreadsheet
   + Text file
   + Database
   + REDCap
+  
+<div class="notes">
+
+There's a lot to cover in this video. I'll start with the data dictionary, which provides documentation on variable names, variable labels, value labels, and missing value codes. Then I want to mention two tricky issues with data management: multiple response variables and longitudinal/repeated measures data.
+
+</div>
 
 ### Data dictionary
 
@@ -34,7 +43,11 @@ source("prelims.R", echo=FALSE)
 
 Your meta-data belongs in a data dictionary. The data dictionary, also known as the code book, is a short document (usually one page or less) that describes your data. It helps you organize and structure your data entry process. It also helps anyone else who might be working with you on the project. Finally, it is invaluable if you plan to share your data with outside groups.
 
-You should start a data dictionary before you collect any data. You will find, during the data collection, that you failed to specify something important, and it's okay to revise your data dictionary. Keep it handy when you need to figure out how to handle special cases, like the person who circled both 3 and 4 on a five point Likert scale.
+If there is a distinction between a code book and a data dictionary, it is that the code book is usually more of an internal document where you tabulate rules about your data and decisions that you've had to make about unusual and unexpected situations.
+
+An example of this is how to handle a five point Likert scale where someone circles both a 3 and a 4. Do you code that as a 3.5 or an invalid response? Either one is defensible, but you need to make sure that you write this down, so that the next time you encounter this situation, you'll make the choice that is consistent with your earlier action.
+
+You should start a data dictionary before you collect any data. Update it during the data collection, if necessary.
 
 I'll describe what belongs in a data dictionary after I describe the various elements of meta-data.
 
@@ -49,7 +62,7 @@ I'll describe what belongs in a data dictionary after I describe the various ele
 
 <div class="notes">
 
-Define a brief variable name for every variable that you collect. It should be just long enough to be understandable, but short enough to minimize the typing in your data analysis program. I would recommend something between 4 to 16 characters and one or three short words.
+Define a brief variable name for every variable that you collect. You will use these names when you analyze your data using a program like R, SAS, or SPSS. The variable name should be just long enough to be understandable, but short enough to minimize the typing in your data analysis program. I would recommend something between 4 to 16 characters and one or three short words.
 
 Sometimes a very brief abbreviation is okay, like bw for birthweight or bmi for body mass index. 
 
@@ -91,72 +104,11 @@ Please avoid the use of all upper case for variable names. It looks bad, but mor
   
 <div class="notes">
 
-Most statistical software programs have variable labels. These are intended to be longer text fields that can describe your variables in greater detail. They typically have no limits on spaces, punctuation, or special characters. The variable labels will appear in your output in place of the variable name, making your output easier to follow.
+Most statistical software programs have variable labels. R, sadly, is an exception. Variable labels are intended to be longer text fields that can describe your variables in greater detail. They typically have no limits on spaces, punctuation, or special characters. The variable labels will appear in your output in place of the variable name, making your output easier to follow.
 
 You want to be more expansive with your variable labels: about 20 to 40 characters in length is good. Too much longer and the labels won't fit well on your tables or graphs.
 
-If your variable has units of measurement, here is where you specify grams, kilograms, or pounds. If there are special qualifiers, like blood pressure measured on the leg instead of the arm, here is where you put those details.
-
-</div>
-
-### Missing value example
-
-![Price tage from computer store](../images/11/ForgottenMissingValue.jpg)
-
-<div class="notes">
-
-Here's a humorous example of failure to account properly for missing values. The printer had a sales price of 299 dollars and 99 cents. The original price was listed as 9,999 dollars and 99 cents, which is an outrageous price for a printer. Clearly, a field of all nines was intended to be a missing value code. But the system that computed the savings did not recognize this as a missing value and calculated that if you bought this printer, you would be saving $9,700 dollars.
-
-</div>
-
-### Date formats
-
-![Cartoon showing variety of data formats](../images/11/iso_8601.png)
-
-<div class="notes">
-
-There are a variety of ways to code dates, but you should always use the ISO 8601 standard, which is the four digit year followed by a dash. Then you have two digits for the month. It is always two digits, so January is 01 rather than 1 and September is 09 rather than 9. This is followed by another dash and then the two digit day. Note that the first day of the month is 01 rather than 1.
-
-Nobody follows this standard. Sometimes they use slashes rather than dashes. Sometimes they change the order. In America, we put the month, followed by the day, followed by the year. In Europe, they put the day followed by the month, followed by the year. Sometimes you will see the month spelled out or with a three letter abbreviation.
-
-Sometimes they only use two digits for the year. This is a big problem and it leads to little kids being classified as 101 years old.
-
-Do any of you remember the Y2K crisis? It was a big bust, but let me tell you about my two plans to profit from the Y2K crisis. My first plan was to go to the ATM machine at 11:59pm on December 31 and withdraw the maximum amount in the hopes that the ATM would crash one minute later and lose the record of my transaction. My second plan was to show up late for work on the Monday following Y2K and explain to my boss that I was only late because my alarm clock was not Y2K compliant.
-
-</div>
-
-### Internal storage formats
-
-* Excel - number of days since December 31, 1899 (January 0, 1900)
-* R - number of days since January 1, 1970
-* SAS - number of days since January 1, 1960
-* SPSS - number of seconds since October 14, 1582
-
-<div class="notes">
-
-Everything in the computer is stored as a number. That includes dates. Every system has a different way of calculating dates. This can sometimes lead to problems when you switch from one program to another.
-
-</div>
-
-### Gregorian calendar
-
-![Transition to the Gregorian calendar](../images/11/Julian_to_Gregorian_Date_Change.png)
-
-<div class="notes">
-
-if the date of October 14, 1582 seems strange to you, it represents the start of the Gregorian calendar.
-
-Here is an illustration of the transition, thanks to By Asmdemon - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35391210
-
-</div>
-
-### Gregorian calendar
-
-![Painting of Pope Gergory XIII](../images/11/Pope_Gregory_XIII_portrait.jpg)
-
-<div class="notes">
-
-Here's a picture of Pope Gregory XIII, taken from Wikipedia.
+If your variable has units of measurement, here is where you specify grams, kilograms, or pounds. If there are special qualifiers, like whether body temperature was measured orally, rectally, or under the axilla, here is where you put those details.
 
 </div>
 
@@ -200,8 +152,98 @@ If there are several reasons why a variable could be missing, use a separate cod
 You can also use symbols for missing values such as an asterisk or a dot. You can also use the letters NA, which is what R expects. These last three have a disadvantage for numeric variables. They end up confusing some imports and force your numeric column into a character string.
 </div>
 
-### Codes for categorical data
+### Missing value example
 
+![Price tage from computer store](../images/11/ForgottenMissingValue.jpg)
+
+<div class="notes">
+
+Here's a humorous example of failure to account properly for missing values. The printer had a sales price of 299 dollars and 99 cents. The original price was listed as 9,999 dollars and 99 cents, which is an outrageous price for a printer. Clearly, a field of all nines was intended to be a missing value code. But the system that computed the savings did not recognize this as a missing value and calculated that if you bought this printer, you would be saving $9,700 dollars.
+
+</div>
+
+### Date formats
+
+![Cartoon showing variety of data formats](../images/11/iso_8601.png)
+
+<div class="notes">
+
+As this cartoon shows, there are a variety of ways to code dates. This is Scott Munro, creator of the wonderful  xkcd cartoon series. He shows the dates in a variety of formats that get more and more bizarre, including Roman numeral and binary versions of the date. He is trying to emphasize the importance of following a single standard. He recommends, and I heartily agree with his recommendation, that you should always use the ISO 8601 standard.
+
+The ISO 8601 standard for dates starts with the four digit year followed by a dash. Then you have two digits for the month. It is always two digits, so January is 01 rather than 1 and September is 09 rather than 9. This is followed by another dash and then the two digit day. Note that the first day of the month is 01 rather than 1.
+
+One nice side effect of the ISO 8601 standard is that if the date gets converted to a string, that string can be sorted and it will always sort by the year, then the month, and then the date, which is exactly what you want.
+
+Nobody follows this standard. The most common deviation is failing to put a zero in front of single digit months and single digit dates. Leaving out that zero ruins the ability to sort the data as I noted early because the months will be sorted as 1, 10, 11, 12, then 2, 3, 4, etc.
+
+Another deviation is using slashes rather than dashes. This is a minor issue, but a much bigger problem is changing the year, month, date order. In America, we like to put the month, followed by the day, followed by the year. In Europe, they put the day followed by the month, followed by the year. Note only does this ruin the sort order, but dates like 10/12/2019 are ambiguous. Is it October 12 or December 10?
+
+Sometimes you will see the month spelled out or with a three letter abbreviation. This also ruins the sort order, as April is not the first month of the year, even though it appears first alphabetically. It also causes problems internationally, since the names of the months are differnt in different languages.
+
+Does it seem like I'm nitpicking. Well maybe I am. But here is the one thing that I hope you will agree is a major issue and not a nitpick.
+
+Sometimes, people only use two digits for the year. This is a serious problem and it leads to little kids being classified as 101 years old.
+
+Do any of you remember the Y2K crisis? It was a big bust, but let me tell you about my two plans to profit from the Y2K crisis. My first plan was to go to the ATM machine at 11:59pm on December 31 and withdraw the maximum amount in the hopes that the ATM would crash one minute later and lose the record of my transaction. My second plan was to show up late for work on the Monday following Y2K and explain to my boss that I was only late because my alarm clock was not Y2K compliant.
+
+It turns out that the concerns about Y2K did not materialize. Either because they were overblown or because all the programming that we did to fix things actually saved ourselves from a major computer meltdown. But the Y2K crisis still affects data analysis today.
+
+Never, never, never code your data as two digit years. Even if all the dates are year 2000 and later. You are asking for trouble if you don't use four digit years.
+
+</div>
+
+### Internal storage formats
+
+* Excel - number of days since 1899-12-31 (1900-01-00)
+* R - number of days since January 1, 1970
+* SAS - number of days since January 1, 1960
+* SPSS - number of seconds since October 14, 1582
+
+<div class="notes">
+
+Everything in the computer is stored as a number. That includes dates. Your computer is smart enough to turn that number into a string that you can interpret properly, but the underlying storage has to be a number so that your computer can calculate things like the number of days between when you entered the hospital and when you left.
+
+Every system has a different way of storing dates and you can summarize this best by noting what the index date is, the date that is stored internally as a zero.
+
+Every program has a different index data and this can sometimes lead to problems when you switch from one program to another.
+
+Excel decided to make their index date the start of the 20th century, which seems simple enough, but they made two mistakes. First, they assigned zero to a non-existent date (January 0, 1900). You can fix this by considering the index date to be December 31, 1899. A bigger problem is the geniuses at Microsoft failed to recognize that 1900 was NOT a leap year.
+
+For what it's worth, Microsoft did it this way to make things compatible with another spreadsheet, Lotus 1-2-3. Also, some of the Microsoft Excel versions for the Macintosh used an index date of 1904-01-01. This was also done to maintain compatibility, this time with other Macintosh programs, since earlier versions of Macintosh refused to compute dates earlier than 1904.
+
+That sounds like a nitpick, but having two different index dates and making leap year mistakes can lead to conversion problems. The moral is to always do some spot checking on dates when converting from Excel to a different system. Being off by four years from what you think the date is could really screw things up. Even being off by a single day because of a leap year screw up could mess up an inclusion/exclusion criteria based on the year of birth.
+
+R and SAS choose more current index dates. The choice of an index date for SPSS has a more interesting story behind it.
+
+</div>
+
+### Gregorian calendar
+
+![Transition to the Gregorian calendar](../images/11/Julian_to_Gregorian_Date_Change.png)
+
+<div class="notes">
+
+if the date of October 14, 1582 seems strange to you, it represents the start of the Gregorian calendar. The Julian calendar developed in ancient times was quite impressive. Astonomers at the time knew that the earth took 365.25 days to travel one orbit around the sun. So they invented the concept of a leap year.
+
+Unfortunately, the earth actually takes 365.2564 days. That 0.0064 seems small but it means that you are off but a full day every 157 years.
+
+Here is an illustration of the transition, thanks to By Asmdemon - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35391210
+
+</div>
+
+### Gregorian calendar
+
+![Painting of Pope Gergory XIII](../images/11/Pope_Gregory_XIII_portrait.jpg)
+
+<div class="notes">
+
+Here's a picture of Pope Gregory XIII, taken from Wikipedia.
+
+</div>
+
+### Categorical values
+
+* Definition: small number of possible values
 * Beware of ambiguities
   + YES, yes, and Yes are three distinct levels.
 * Use number codes
@@ -213,17 +255,33 @@ You can also use symbols for missing values such as an asterisk or a dot. You ca
 
 <div class="notes">
 
-Some people use text strings to designate categorical data. This requires more typing, which may not be too serious a concern, but it also raises the possibility of ambiguity, especially if several people are responsible for data entry.
+A categorical variable is a variable with a small number of possible values. What's small? If you can state all the possible values without taking a breath, that's categorical. Actually, don't worry excessively about what meets the definition of categorical. Use a bit of common sense and you'll be fine.
+
+Some people use text strings to designate categorical variables. This requires more typing, which may not be too serious a concern, but it also raises the possibility of ambiguity, especially if several people are responsible for data entry.
 
 Note that the strings YES (all upper case), yes (all lower case), and Yes (Mixed case) may look the same to you, but they are treated as separate categories by the computer. 
 
-Your book recommends number codes, and I agree with them. But you should know that others hate number codes and prefer the use of strings or single letter codes.
+Your book recommends number codes, and I agree with them. But you should know that others hate number codes and prefer the use of short strings or single letter codes.
 
 Single letter codes are easy to remember. The letter codes (M, F, and U) for gender are obviously Male, Female, and Unknown. These single letters are also convenient plotting codes. At times, the codes can be ambiguous. Did you code your patients W for white, or C for Caucasian?
 
 </div>
 
-### Reverse coding
+### Example of ambiguous coding
+
+![SPSS frequencies table for RaceID](../images/11/AmbiguousData01.gif)
+
+<div class="notes">
+
+Here is an example of ambiguous data that I documented on my website back in 2007. I had a data set with a variable RaceID, and when I examined the data using the frequencies procedure in SPSS, I got this table. It shows two observations with blank values at the very top. This is bad form, as I noted earlier, and a special code letter like U or X should be presented instead. Notice also that W appears twice. The first W has a slight indent to it, which gives you a hint that something is not quite right. It turns out that there was a patient with a race code that was two characters long rather than one character. And those two characters were blank and W.
+
+That was easy enough to fix, but this is why they pay me the big bucks. Because I pay very close attention to small details that might otherwise screw up the analysis.
+
+One more nitpick. The code for A is ambiguous. Does it mean Asian American or American Indian? I can guess most of the others: B for Black, C for Causasian, H for Hispanic, O for Other and W for White (Why was this not combined with C?).
+
+</div>
+
+### Reverse coding (1 of 2)
 
 * Context specific
 * Sequence of IF THEN ELSE statements
@@ -233,6 +291,17 @@ Single letter codes are easy to remember. The letter codes (M, F, and U) for gen
   +   else if (x=3) then y=2
   +   else if (x=4) then y=1
   +   else y=9
+
+<div class="notes">
+
+Reverse scaling is tedious and always go slowly, because tedium tends to produce simple mistakes. SPSS has a very nice recode dialog box that is hard to mess up. 
+
+You can also use a series of IF THEN ELSE commands to do the reverse coding. Always start by recoding the missing value. Notice that I took the time to code as 9 anything outside what I believed were the only possible values.
+
+</div>
+
+### Reverse coding (2 of 2)
+
 * Functional transformations
   + 0,1 to 1,0 is f(x)=1-x
   + 1,2,3,4 to 4,3,2,1 is f(x)=5-x
@@ -241,8 +310,6 @@ Single letter codes are easy to remember. The letter codes (M, F, and U) for gen
 * Watch out for missing value codes
 
 <div class="notes">
-
-Reverse scaling is tedious and always go slowly, because tedium tends to produce simple mistakes. SPSS has a very nice recode dialog box that is hard to mess up. You can also use a series of IF THEN ELSE commands to do the reverse coding. Notice that I took the time to code as 9 anything outside what I believed were the only possible values.
 
 But if you want to be clever, there is usually a simple mathematical function of the form k-x  or k+1-x that will reverse scale everything all at once.
 
