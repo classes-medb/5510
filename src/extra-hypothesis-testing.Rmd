@@ -11,6 +11,57 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
+
+
+Abstract: P-values and confidence intervals are the fundamental tools used in most inferential data analyses. They are possibly the most commonly reported statistics in the medical literature. Unfortunately, both p-values and confidence intervals are subject to frequent misinterpretations. In this two hour webinar, you will learn the proper interpretation of p-values and confidence intervals, and the common abuses and misconceptions about these statistics. You will also see a simple application of Bayesian analysis which provides an alternative to p-values and confidence intervals.
+
+In this seminar, you will learn how to:
+
+distinguish between statistical significance and clinical significance;
+
+define and interpret p-values;
+
+explain the ethical issues associated with inadequate sample sizes.
+
+explain the difference between informative and diffuse priors;
+
+interpret statistics from a posterior distribution.
+
+
+        www.childrensmercy.org/stats/training/hand22.asp,
+
+    but also includes material from Chapter 6 of my book, Statistical Evidence in Medical Trials,
+
+        www.pmean.com/evidence.html,
+
+    and material from the lead article of the July/August issue of The Monthly Mean,
+
+        www.pmean.com/news/2009-08.html.
+
+Icebreaker
+
+Pop quiz
+
+    A research paper computes a p-value of 0.45. How would you interpret this p-value?
+
+        Strong evidence for the null hypothesis
+        Strong evidence for the alternative hypothesis
+        Little or no evidence for the null hypothesis
+        Little or no evidence for the alternative hypothesis
+        More than one answer above is correct.
+        I do not know the answer.
+
+    A Bayesian data analysis can incorporate subjective opinions through the use of
+
+        Bayes rule.
+        data shrinkage.
+        a prior distribution.
+        a posterior distribution.
+        p-values.
+        I do not know the answer.
+
+
+
 ### Additional topics
 
 * As another aside, I was involved with a similar study (prospective, not retrospective). We planned this study using a one-sided hypothesis (remote prayer has a positive effect on health). The Institutional Review Board suggested changing this to a two-sided hypothesis (remote prayer has either a positive or a negative effect on health). Thankfully, we did not observe an outcome in the opposite tail as that would have been very difficult to explain.

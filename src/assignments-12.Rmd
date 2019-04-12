@@ -1,0 +1,57 @@
+---
+title: "Clinical Research Methods, Week 12"
+author: "Steve Simon"
+output:
+  html_document: default
+---
+
+```{r echo=FALSE}
+source(file="prelims.R", echo=FALSE)
+```
+
+Created: Friday, April 12, 2019
+
+Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+
+Please complete all work by midnight, `r tue[12]` to receive full credit.
+
+## Week 12: Hypothesis testing
+
+### Learning objectives for this week
+
+* To discuss different methods of collecting data
+* To describe the advantages and disadvantages of different data collection methods
+
+### Reading for this week
+
+`r read_text("copyright")`
+
+#### Required reading
+
+* Gliner, Morgan, and Leech, Chapter 15.
+
+### Recommended reading
+
+Jonathan Borwein and David H. Bailey. The Reinhart-Rogoff error – or how not to Excel at economics. The Conversation, April 22, 2013. Available in [html format](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646).
+
+Kristin Briney. Data dictionaries. Data Ab Initio blog, August 5, 2014. Available in [html format](http://dataabinitio.com/?p=454%C2%A0).
+
+Karl Broman. Organizing data in spreadsheets. Available in [html format](http://kbroman.org/dataorg/).
+
+Charlie Custer C. 9 Reasons Excel Users Should Consider Learning Programming. Dataquest blog, December 27, 2018. Available in [html format](https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/).
+
+Steve Simon. What should go into a data codebook. PMean blog, May 31, 2004. Available in [html format](http://blog.pmean.com/data-codebook/).
+
+Steve Simon. Coding race/ethnicity. StATS website, February 3, 2003. Available in [html format](http://www.pmean.com/05/RaceEthnicity.html).
+
+Wilkinson MD et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3:160018 doi: 10.1038/sdata.2016.18 (2016). Available at in [html format](http://www.nature.com/articles/sdata201618) or [PDF format](https://www.nature.com/articles/sdata201618.pdf).
+
+Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. Available at in [html format](https://doi.org/10.1371/journal.pcbi.1005510) or [PDF format](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005510&type=printable).
+
+### Discussion questions for this week
+
+* D11-01. `r read_text("minute-paper")`
+
+* D11-02. (Two points) 
+
+* D11-EC. `r read_text("extra-credit")`
