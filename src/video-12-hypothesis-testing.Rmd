@@ -191,37 +191,137 @@ How close is close? It depends on how much sampling error you have.
 
 <div class="notes">
 
-The most frequent hypothesis involves a comparison of continuous outcomes between two groups, a treatment group and a control group. These are designated by the subscripts 1 and 2, but there is no standard that says that 1 is the treatment and 2 is the control. It is just as likely to be the reverse. You have to look for some context to make sure you know which subscript is which.
+Another common hypothesis involves a comparison of binary outcomes between two groups, a treatment group and a control group. The population parameters are proportions instead of means, but otherwise the concept is the same.
 
-The null hypothesis is that the difference in population means is zero. You compute the difference in sample means and reject the null hypothesis if that difference is far from zero.
+Close to zero, as before, means close to zero relative to the amount of sampling error.
+
+</div>
+
+### Regression models
+
+* Population parameters, $\beta_0$ and $\beta_1$
+  + $\beta_1$ quantifies a relationship
+  + $\beta_1=0$ implies no relationship
+* Sample statistics $\hat\beta_0$ and $\hat\beta_1$
+* $H_0 \ \beta_1=0$
+* Accept $H_0$ if $\hat\beta_1$ is close to zero
+
+<div class="notes">
+
+I'll talk a lot about regression models later, but let me introduce a hypothesis involving a regression model. Typically, but not always, a regression model has an intercept term and a slope term. The slope term quantifies the relationship between your independent variable and your dependent variable. If the population parameter is zero that means there is no relationship in the population. Like the other models, you compute a sample statistic and accept the null hypothesis if that sample statistic is close to zero.
+
+Regression models are quite flexible. They can incorporate a variety of measurements for your outcome variable and can provide for risk adjustments to your outcome variable.
+
+This is not a data analysis class, but I do want to provide you with enough information so you can write a good data analysis plan. More likely than not, your data analysis plan will involve a regression model of some type.
+
+</div>
+
+### Hypothesis in English instead of Greek
+
+* Only statisticians like Greek letters
+  + Translate to simple text
+* For two group comparisons
+  + Safer, more effective
+* For regression models
+  + Trend, association
+  
+<div class="notes">
+
+As a researcher, you should always think about your hypothesis in terms of population parameters, but your writing should use text. Translate the Greek letters to English.
+
+If you have a hypothesis that compares two groups, look for comparative words like "safer" or "more effective". If your hypothesis involves some type of regression model, you should consider terms like "trend" or "association".
+
+</div>
+
+### Examples of text hypotheses (1 of 1)
+
+* "... the objective of this 78-week randomised, placebo-controlled study was to determine whether treatment with nilvadipine sustained-release 8 mg, once a day, was effective and safe in slowing the rate of cognitive decline in patients with mild to moderate Alzheimer disease."
+  + Lawlor B, Segurado R, Kennelly S, et al. Nilvadipine in mild to moderate Alzheimer disease: A randomised controlled trial. PLoS Med. 2018;15(9):e1002660. Published 2018 Sep 24. doi:10.1371/journal.pmed.1002660
+  
+<div class="notes">
+
+Here's an example of a two group comparison. One group gets nilvadipine and the other group gets a placebo. Safety was measured as the proportion of patients who experienced an adverse event. The researchers also measured the proportion of patients who experienced a serious adverse event. So the Greek hypothesis would involve pi's and p's. 
+
+Effectiveness was measured using the Alzheimer's Disease Assessment Scale Cognitive Subscale-12 and the Clinical Dementia Rating Scale sum of boxes. Both of these outcome measurements are continuous, so the Greek hypothesis would involve mu's and X-bar's.
+
+</div>
+
+### Examples of text hypotheses (2 of 2)
+
+* "... we investigated trends in BCC incidence over a span of 20 years and the associations between incident BCC and risk factors in a total population of 140,171 participants from 2 large US-based cohort studies: women in the Nurses' Health Study (NHS; 1986–2006) and men in the Health Professionals' Follow-up Study (HPFS; 1988–2006)."
+  + Wu S, Han J, Li WQ, Li T, Qureshi AA. Basal-cell carcinoma incidence and associated risk factors in U.S. women and men. Am J Epidemiol. 2013;178(6):890–897. doi:10.1093/aje/kwt073
+  
+<div class="notes">
+
+This study used a regression model, a Cox regression model, to study trends and associations, so the Greek hypotheses would involve beta's and beta-hat's.
 
 </div>
 
 ### What is a Type I Error?
 
-In your research, you specify a null hypothesis (typically labeled H0) and an alternative hypothesis (typically labeled Ha, or sometimes H1). By tradition, the null hypothesis corresponds to no change. When you are using Statistics to decide between these two hypothesis, you have to allow for the possibility of error. Actually, if you are using any other procedure, you should still allow for the possibility of error, but we statisticians are the only ones honest enough to admit this. A Type I error is rejecting the null hypothesis when the null hypothesis is true. 
+* Type I error
+  - Rejecting the null hypothesis when the null hypothesis is true.
+  _ False positive result
+  - Example: allowing an ineffective drug on the market
+* $\alpha$ = P[Type I error]
 
-### Example
+<div class="notes">
+
+In your research, you specify a null hypothesis (typically labeled H0) and an alternative hypothesis (typically labeled Ha, or sometimes H1). By tradition, the null hypothesis corresponds to no change. When you are using Statistics to decide between these two hypothesis, you have to allow for the possibility of error. Actually, if you are using any other procedure, you should still allow for the possibility of error, but we statisticians are the only ones honest enough to admit this.
+
+A Type I error is rejecting the null hypothesis when the null hypothesis is true. 
 
 Consider a new drug that we will put on the market if we can show that it is better than a placebo. In this context, H0 would represent the hypothesis that the average improvement (or perhaps the probability of improvement) among all patients taking the new drug is equal to the average improvement (probability of improvement) among all patients taking the placebo. A Type I error would be allowing an ineffective drug onto the market.
 
+</div>
+
 ### What is a Type II Error? 
 
-A Type II error is accepting the null hypothesis when the null hypothesis is false. You should always remember that it is impossible to prove a negative. Some statisticians will emphasize this fact by using the phrase "fail to reject the null hypothesis" in place of "accept the null hypothesis." The former phrase always strikes me as semantic overkill. Many studies have small sample sizes that make it difficult to reject the null hypothesis, even when there is a big change in the data. In these situations, a Type II error might be a possible explanation for the negative study results.
+* Type II error
+  - Accepting the null hypothesis when the null hypothesis is false.
+  _ False negattive result
+  - Example: keeping an effective drug off of the market
+* $\beta$ = P[Type II error]
 
-### Example
+<div class="notes">
+
+A Type II error is accepting the null hypothesis when the null hypothesis is false. You should always remember that it is impossible to prove a negative. Some statisticians will emphasize this fact by using the phrase "fail to reject the null hypothesis" in place of "accept the null hypothesis." The former phrase always strikes me as semantic overkill. 
+
+Many studies have small sample sizes that make it difficult to reject the null hypothesis, even when there is a big change in the data. In these situations, a Type II error might be a possible explanation for the negative study results.
 
 Consider a new drug that we will put on the market if we can show that it is better than a placebo. In this context, H0 would represent the hypothesis that the average improvement (or perhaps the probability of improvement) among all patients taking the new drug is equal to the average improvement (probability of improvement) among all patients taking the placebo. A Type II error would be keeping an effective drug off the market.
 
+</div>
+
 ### What is a p-value?
 
-Dear Professor Mean:  Can you give me a simple explanation of what a p-value is?
+* Always between 0 and 1
+* Probability
+  + Sample results OR
+  + a result more extreme
+  + given that $H_0$ is true
+  
+<div class="notes">
 
-A p-value is a measure of how much evidence we have against the null hypothesis. The null hypothesis, traditionally represented by the symbol H0, represents the hypothesis of no change or no effect.
+A p-value is a number between zero and one that represents the probability that you observe the sample results or a result more extreme, assuming that the null hypothesis is true.
 
-The smaller the p-value, the more evidence we have against H0. It is also a measure of how likely we are to get a certain sample result or a result "more extreme," assuming H0 is true. The type of hypothesis (right tailed, left tailed or two tailed) will determine what "more extreme" means.
+You can think of the p-value as a measure of consistency, consistency between the data and the null hypothesis.
 
-###p-value
+</div>
+
+* How much evidence against $H_0$
+  + Small = lots of evidence against $H_0$
+  + Large = little or no evidence against $H_0$
+* Measure of consistency 
+It is also a measure of how likely we are to get a certain sample result or a result "more extreme," assuming H0 is true. The type of hypothesis (right tailed, left tailed or two tailed) will determine what "more extreme" means.
+
+<div class="notes">
+
+
+
+</div>
+
+### p-value
 
 Much research involves making a hypothesis and then collecting data to test that hypothesis. In particular, researchers will set up a null hypothesis, a hypothesis that presumes no change or no effect of a treatment. Then these researchers will collect data and measure the consistency of this data with the null hypothesis.
 
@@ -248,6 +348,43 @@ a power calculation that confirms that the sample size in that study was adequat
 a confidence interval that lies entirely within the range of clinical indifference.
 
 You should also be cautious about a small p-value, but for different reasons. In some situations, the sample size is so large that even differences that are trivial from a medical perspective can still achieve statistical significance.
+
+### Directional alternatives
+
+* Used when changes in opposite direction are
+  + Impossible
+  + Irrelevant/equivalent to no change
+  + Must be stated a priori
+* $H_0 \ \mu_1-\mu_2 \le 0$ 
+* $H_a \ \mu_1-\mu_2 \gt 0$ 
+* Reject $H_0$ if $\bar{X}_1-\bar{X}_2 > t \times se$
+
+<div class="notes">
+
+It is a bit unusual, but there are situations where changes in the "wrong" direction are considered impossible or irrelevant or equivalent to no change.
+
+Consider the situation where you are testing a new drug versus placebo. A drug could be worse than a placebo. It happens all the time. But there is no reason to test for this. You would not adopt a new drug if it were equivalent to placebo and you would not adopt a new drug if it were inferior to placebo. So your null hypothesis is that the new drug is not better than placebo, meaning equal to placebo or worse than the placebo.
+
+The actual orientation of a directional hypothesis depends on whether a larger value of the outcome measure is good or a smaller value is good. So for an outcome like pain, pain is like golf. A lower score on a pain scale is good. It also depends on which group gets labelled with a 1 and which gets a 2. And it depends on whether you consider a good effect to be impossible/irrelevant or a bad effect to be impossible/irrelevant.
+
+Let's assume that you are testing a new pain relief drug versus placebo, that the placebo is group 1 and that higher values of pain with the new drug are irrelevant because that leads to the same decision as equivalent values of pain.
+
+In this case, mu1-mu2 a measure where positive values are good and worth reporting, and where negative values are bad and lead to the same decision as zero values. So the null hypothesis uses a less than or equal to sign and the alternative hypothesis uses a greater than sign.
+
+In this setting, you would compute the sample average pain levels in the placebo minus the sample average pain in the treatment group. If that difference was large and positive, you would reject the null hypothesis. How large? Typically you would compare this difference in sample means to a percentile from the t-distribution times the standard error for the difference in sample means.
+
+</div>
+
+### Passive smoking controversy
+
+* EPA meta-analysis of passive smoking
+* Criticized for using a one-sided hypothesis
+
+Samet JM, Burke TA. Turning science into junk: the tobacco industry and passive smoking. Am J Public Health. 2001;91(11):1742–1744. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1446866/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1446866/pdf/0911742.pdf).
+
+Consider a study of the effects of second-hand smoke. These studies always use directional alternatives. From what we know about active cigarette smoking is that it increases the risk of cancer and cardiovascular disease. So there is no reason to expect that passive smoke exposure should be any different. There is no scientific basis for a protective effect of passive smoking, so it makes sense to test that passive smoking has no effect versus it having an increase in bad outcomes compared to the control group. So your null hypothesis is "not harmful" and your alternative is "harmful". The beneficial hypothesis is lumped into the null hypothesis, but no one would dare claim that passive smoking was protective.
+
+
 
 ### Practice exercises
 
@@ -320,6 +457,10 @@ Read the abstracts presented above. Interpret the confidence intervals presented
 Bayesian data analysis seems hard, and it is. Even for me, I struggle with understanding Bayesian data analysis. In fairness, I must admit that much of my discomfort is just lack of experience with Bayesian methods. In fact, I've found that in some ways, Bayesian data analysis is simpler than classical data analysis. You, too, can understand Bayesian data analysis, even if you'll never be an expert at it. There's a wonderful example of Bayesian data analysis at work that is simple and fun. It's taken directly from an article by Jim Albert in the Journal of Statistics Education (1995, vol. 3 no. 3) which is available on the web at www.amstat.org/publications/jse/v3n3/albert.html.
 
 I want to use his second example, involving a comparison of ECMO to conventional therapy in the treatment of babies with severe respiratory failure. In this study, 28 of 29 babies assigned to ECMO survived and 6 of 10 babies assigned to conventional therapy survived. Refer to the Albert article for the source of the original data. Before I show how Jim Albert tackled a Bayesian analysis of this data, let me review the general paradigm of Bayesian data analysis.
+
+### Criticisms of hypothesis tests
+
+
 
 ### Wikipedia
 
