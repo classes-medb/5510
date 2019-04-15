@@ -13,14 +13,13 @@ source("prelims.R", echo=FALSE)
 
 ### Pop quiz
 
-* A research paper computes a p-value of 0.45. How would you interpret this p-value?
-  + Strong evidence for the null hypothesis
-  + Strong evidence for the alternative hypothesis
-  + Little or no evidence for the null hypothesis
-  + Little or no evidence for the alternative hypothesis
++ A research paper computes a p-value of 0.45. How would you interpret this p-value?
+  + Strong evidence for the null hypothesis.
+  + Strong evidence for the alternative hypothesis.
+  + Little or no evidence for the null hypothesis.
+  + Little or no evidence for the alternative hypothesis.
   + More than one answer above is correct.
-  + I do not know the answer.
-  
+
 <div class="notes">
 
 I gave a talk about ten years ago, and I had a "pop quiz" to start out the talk. It turns out that I was a bit careless in how I worded the question, but I decided to keep it in for future talks about p-values to help illustrate an important point. I won't ask you for the answer just yet, but here is the question.
@@ -35,21 +34,20 @@ Little or no evidence for the null hypothesis;
 
 Little or no evidence for the alternative hypothesis;
 
-More than one answer above is correct;
+More than one answer above is correct.
 
-I do not know the answer.
 
 </div>
 
 ### Another question
 
-* A research paper computes a confidence interval for a relative risk of 0.82 to 3.94. What does this confidence interval tell you.
-  + The result is statistically significant and clinically important.
-  + The result is not statistically significant, but is clinically important.
-  + The result is statistically significant, but not clinically important.
-  + The result is not statistically significant, and not clinically important.
-  + The result is ambiguous.
-  + I do not know the answer.
++ A research paper computes a confidence interval for a relative risk of 0.82 to 3.94. What does this confidence interval tell you that the result is:
+  + statistically significant and clinically important.
+  + not statistically significant, but is clinically important.
+  + statistically significant, but not clinically important.
+  + is not statistically significant, and not clinically important.
+  + is ambiguous.
+
 
 <div class="notes">
 
@@ -73,7 +71,7 @@ I do not know the answer.
 
 ### What is a population?
 
-* A population is a collection of items of interest often defined in terms of
++ A population is a collection of items of interest often defined in terms of
   + demography,
   + geography,
   + occupation,
@@ -112,10 +110,10 @@ during their first year of life (time, again)
 
 ### What is a sample?
 
-* A sample is a subset of a population
++ A sample is a subset of a population
   + Small and manageable
-* Is your sample representative?
-* Your goal
++ Is your sample representative?
++ Your goal
   + Make inferences about the population
   + Using information from the sample
   
@@ -133,13 +131,13 @@ If there are problems, with representativeness, consider redefining your populat
 
 ### More definitions for hypothesis testing
 
-* Parameter
++ Parameter
   + Computed for a population
   + Almost always unknown
-* Statistic
++ Statistic
   + Computed for a sample
   + Estimate of population parameter
-* Sampling error  
++ Sampling error  
   
 <div class="notes">
 
@@ -151,26 +149,27 @@ A statistic is a number computed from a sample. Since the sample is small enough
 
 ### Hypotheses
 
-* Null hypothesis
++ Null hypothesis
   + Designated by $H_0$
   + No change, no effect
-* Alternative hypothesis
++ Alternative hypothesis
   + Designated by $H_a$
 
 <div class="notes">
 
-Researchers will often designate a null and alternative hypothesis. The null hypothesis (H0) is traditionally reserved for a hypothesis involving no effect.
+Researchers will often designate a null and alternative hypothesis. The null hypothesis (H0) is traditionally reserved for a hypothesis involving no effect, no change, or no trend.
+
+The alternative hypothesis implies some type of change, either an improvement or decrement. It could also imply some type of association: a positive association (as one variable increases, the other variable also increases), or a negative association (as one variable increases, the other variable decreases).
 
 </div>
 
 ### Comparison of continuous outcome for two populations
 
-* Most common research problem
-* Use subscripts 1 and 2
-* Population parameters ($\mu_1$ and $\mu_2$)
-* Sample statistics ($\bar{X}_1$ and $\bar{X}_2$)
-* $H_0 \ \mu_1-\mu_2=0$ 
-* Accept $H_0$ if $\bar{X}_1-\bar{X}_2$ is close to zero.
++ Most common research problem
++ Population parameters ($\mu_1$ and $\mu_2$)
++ Sample statistics ($\bar{X}_1$ and $\bar{X}_2$)
++ $H_0 \ \mu_1-\mu_2=0$ 
++ Accept $H_0$ if $\bar{X}_1-\bar{X}_2$ is close to zero.
 
 <div class="notes">
 
@@ -184,10 +183,10 @@ How close is close? It depends on how much sampling error you have.
 
 ### Comparison of binary outcome for two populations
 
-* Population parameters ($\pi_1$ and $\pi_2$)
-* Sample statistics ($p_1$ and $p_2$)
-* $H_0 \ \pi_1-\pi_2=0$ 
-* Accept $H_0$ if $p_1-p_2$ is close to zero.
++ Population parameters ($\pi_1$ and $\pi_2$)
++ Sample statistics ($p_1$ and $p_2$)
++ $H_0 \ \pi_1-\pi_2=0$ 
++ Accept $H_0$ if $p_1-p_2$ is close to zero.
 
 <div class="notes">
 
@@ -199,12 +198,12 @@ Close to zero, as before, means close to zero relative to the amount of sampling
 
 ### Regression models
 
-* Population parameters, $\beta_0$ and $\beta_1$
++ Population parameters, $\beta_0$ and $\beta_1$
   + $\beta_1$ quantifies a relationship
   + $\beta_1=0$ implies no relationship
-* Sample statistics $\hat\beta_0$ and $\hat\beta_1$
-* $H_0 \ \beta_1=0$
-* Accept $H_0$ if $\hat\beta_1$ is close to zero
++ Sample statistics $b_0$ and $b_1$
++ $H_0 \ \beta_1=0$
++ Accept $H_0$ if $b1$ is close to zero
 
 <div class="notes">
 
@@ -218,13 +217,13 @@ This is not a data analysis class, but I do want to provide you with enough info
 
 ### Directional alternatives
 
-* Used when changes in opposite direction are
++ Used when changes in opposite direction are
   + Impossible
   + Irrelevant/equivalent to no change
   + Must be stated a priori
-* $H_0 \ \mu_1-\mu_2 \le 0$ 
-* $H_a \ \mu_1-\mu_2 \gt 0$ 
-* Reject $H_0$ if $\bar{X}_1-\bar{X}_2 > t \times se$
++ $H_0 \ \mu_1-\mu_2 \le 0$ 
++ $H_a \ \mu_1-\mu_2 \gt 0$ 
++ Reject $H_0$ if $\bar{X}_1-\bar{X}_2 > t \times se$
 
 <div class="notes">
 
@@ -244,8 +243,8 @@ In this setting, you would compute the sample average pain levels in the placebo
 
 ### Passive smoking controversy
 
-* EPA meta-analysis of passive smoking
-* Criticized for using a one-sided hypothesis
++ EPA meta-analysis of passive smoking
++ Criticized for using a one-sided hypothesis
   + Samet JM, Burke TA. Turning science into junk: the tobacco industry and passive smoking. Am J Public Health. 2001;91(11):1742–1744. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1446866/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1446866/pdf/0911742.pdf).
   
 <div class="notes">
@@ -258,11 +257,11 @@ As another aside, I was involved with prayer study. We planned this study using 
 
 ### Hypothesis in English instead of Greek
 
-* Only statisticians like Greek letters
++ Only statisticians like Greek letters
   + Translate to simple text
-* For two group comparisons
++ For two group comparisons
   + Safer, more effective
-* For regression models
++ For regression models
   + Trend, association
   
 <div class="notes">
@@ -275,8 +274,8 @@ If you have a hypothesis that compares two groups, look for comparative words li
 
 ### Examples of text hypotheses (1 of 1)
 
-* "... the objective of this 78-week randomised, placebo-controlled study was to determine whether treatment with nilvadipine sustained-release 8 mg, once a day, was effective and safe in slowing the rate of cognitive decline in patients with mild to moderate Alzheimer disease."
-  + Lawlor B, Segurado R, Kennelly S, et al. Nilvadipine in mild to moderate Alzheimer disease: A randomised controlled trial. PLoS Med. 2018;15(9):e1002660. Published 2018 Sep 24. doi:10.1371/journal.pmed.1002660
++ "... the objective of this 78-week randomised, placebo-controlled study was to determine whether treatment with nilvadipine sustained-release 8 mg, once a day, was effective and safe in slowing the rate of cognitive decline in patients with mild to moderate Alzheimer disease."
+  + Lawlor B, Segurado R, Kennelly S, et al. Nilvadipine in mild to moderate Alzheimer disease: A randomised controlled trial. PLoS Med. 2018; 15(9): e1002660. DOI: 10.1371/journal.pmed.1002660
   
 <div class="notes">
 
@@ -288,22 +287,22 @@ Effectiveness was measured using the Alzheimer's Disease Assessment Scale Cognit
 
 ### Examples of text hypotheses (2 of 2)
 
-* "... we investigated trends in BCC incidence over a span of 20 years and the associations between incident BCC and risk factors in a total population of 140,171 participants from 2 large US-based cohort studies: women in the Nurses' Health Study (NHS; 1986–2006) and men in the Health Professionals' Follow-up Study (HPFS; 1988–2006)."
-  + Wu S, Han J, Li WQ, Li T, Qureshi AA. Basal-cell carcinoma incidence and associated risk factors in U.S. women and men. Am J Epidemiol. 2013;178(6):890–897. doi:10.1093/aje/kwt073
++ "... we investigated trends in BCC incidence over a span of 20 years and the associations between incident BCC and risk factors in a total population of 140,171 participants from 2 large US-based cohort studies: women in the Nurses' Health Study (NHS; 1986–2006) and men in the Health Professionals' Follow-up Study (HPFS; 1988–2006)."
+  + Wu S, Han J, Li WQ, Li T, Qureshi AA. Basal-cell carcinoma incidence and associated risk factors in U.S. women and men. Am J Epidemiol. 2013; 178(6): 890–897. DOI: 10.1093/aje/kwt073
   
 <div class="notes">
 
-This study used a regression model, a Cox regression model, to study trends and associations, so the Greek hypotheses would involve beta's and beta-hat's.
+This study used a regression model, a Cox regression model, to study trends and associations, so the Greek hypotheses would involve beta's.
 
 </div>
 
 ### What is a Type I Error?
 
-* Type I error
-  - Rejecting the null hypothesis when the null hypothesis is true.
-  _ False positive result
-  - Example: allowing an ineffective drug on the market
-* $\alpha$ = P[Type I error]
++ Type I error
+  + Rejecting the null hypothesis when the null hypothesis is true.
+  + False positive result
+  + Example: allowing an ineffective drug on the market
++ $\alpha$ = P[Type I error]
 
 <div class="notes">
 
@@ -317,11 +316,12 @@ Consider a new drug that we will put on the market if we can show that it is bet
 
 ### What is a Type II Error? 
 
-* Type II error
-  - Accepting the null hypothesis when the null hypothesis is false.
-  _ False negative result
-  - Example: keeping an effective drug off of the market
-* $\beta$ = P[Type II error]
++ Type II error
+  + Accepting the null hypothesis when the null hypothesis is false.
+  + False negative result
+  + Example: keeping an effective drug off of the market
++ $\beta$ = P[Type II error]
++ Power = $1-\beta$
 
 <div class="notes">
 
@@ -331,12 +331,14 @@ Many studies have small sample sizes that make it difficult to reject the null h
 
 Consider a new drug that we will put on the market if we can show that it is better than a placebo. In this context, H0 would represent the hypothesis that the average improvement (or perhaps the probability of improvement) among all patients taking the new drug is equal to the average improvement (probability of improvement) among all patients taking the placebo. A Type II error would be keeping an effective drug off the market.
 
+Power is defined as 1-beta. I will talk more about power in a little bit.
+
 </div>
 
 ### What is a p-value?
 
-* $P\Big[\bar{X}_1-\bar{X}_2>t \times se \ | \ \mu_1-\mu_2=0 \Big]$
-* Probability of sample results OR a result more extreme, given that $H_0$ is true
++ p-value = $P[\bar{X}_1-\bar{X}_2>t \times se \ | \ \mu_1-\mu_2=0 ]$
+  + Probability of sample results OR a result more extreme, given that $H_0$ is true
 
 <div class="notes">
 
@@ -350,10 +352,10 @@ You can think of the p-value as a measure of consistency, consistency between th
 
 ### Alternate explanations of the p-value
 
-* The p-value is a measure of consistency between the data and the null hypothesis
++ The p-value is a measure of consistency between the data and the null hypothesis
   + Small value implies inconsistent
   + Large value implies consistent
-* The p-value as a measure of evidence against the null hypothesis
++ The p-value as a measure of evidence against the null hypothesis
   + Small value implies lots of evidence
   + Large value implies little or no evidence
 
@@ -369,7 +371,7 @@ I have argued that the p-value is a measure of evidence. If the p-value is small
 
 ### What the p-value is NOT (1 of 2)
 
-* Not the probability that the null hypothesis is true
++ Not the probability that the null hypothesis is true
   + Don't reverse the condition
   + p-value $=P\Big[\bar{X}_1-\bar{X}_2>t \times se \ | \ \mu_1-\mu_2=0 \Big]$
   + p-value $\ne P\Big[\mu_1-\mu_2=0 \ | \ \bar{X}_1-\bar{X}_2>t \times se \Big]$
@@ -380,9 +382,11 @@ The p-value is a conditional probability, and you always need to be careful abou
 
 A second reason that you can't reverse the order is that you cannot make a probability statement about population parameters. They are numbers computed from the entire population, and are fixed values. You cannot make a probability statement about something that has no sampling error.
 
+</div>
+
 ### Pop quiz, revisited
 
-* A research paper computes a p-value of 0.45. How would you interpret this p-value?
++ A research paper computes a p-value of 0.45. How would you interpret this p-value?
   + Strong evidence for the null hypothesis
   + Strong evidence for the alternative hypothesis
   + Little or no evidence for the null hypothesis
@@ -400,9 +404,9 @@ I wrote this question quickly, so shame, shame on me. But I've reproduced the ex
 
 ### What the p-value is not (2 of 2)
 
-* Not a measure FOR either hypothesis
++ Not a measure FOR either hypothesis
   + Little evidence against the null $\ne$ lots of evidence for the null
-* Not very informative if it is large
++ Not very informative if it is large
   + Need a power calculation, OR
   + Narrow confidence interval
 
@@ -424,7 +428,7 @@ You could also combine a large p-value with a narrow confidence interval to supp
 
 Dear Professor Mean:  Can you give me a simple explanation of what a confidence interval is?
 
-* A confidence interval is a range of values that quantifies the size of sampling error.
++ A confidence interval is a range of values that quantifies the size of sampling error.
 
 <div class="notes">
 
@@ -438,7 +442,7 @@ A confidence interval is a range of values that tries to quantify this uncertain
 
 ### Example of a confidence interval
 
-* Homeopathic treatment of swelling after oral surgery
++ Homeopathic treatment of swelling after oral surgery
   + Lokken 1995
   + Lokken P, Straumsheim PA, Tveiten D, Skjelbred P, Borchgrevink CF. Effect of homoeopathy on pain and other events after acute trauma: placebo controlled trial with bilateral oral surgery BMJ. 1995;310(6992):1439-1442. http://www.bmj.com/content/310/6992/1439.full
   
@@ -456,7 +460,7 @@ When you see a confidence interval in a published medical report, you should loo
 
 ### Confidence interval interpretation (1 of 7)
 
-![Interval that contains the null value](../images/11/ci01.gif)
+![Interval that contains the null value](../images/12/ci01.gif)
 
 <div class="notes">
 
@@ -466,7 +470,7 @@ Here's an example of a confidence interval that contains the null value. The int
 
 ### Confidence interval interpretation (2 of 7)
 
-![Interval entirely above the null value](../images/11/ci02.gif)
+![Interval entirely above the null value](../images/12/ci02.gif)
 
 <div class="notes">
 
@@ -476,7 +480,7 @@ Here's an example of a confidence interval that excludes the null value. If we a
 
 ### Confidence interval interpretation (3 of 7)
 
-![Interval entirely below the null value](../images/11/ci03.gif)
+![Interval entirely below the null value](../images/12/ci03.gif)
 
 <div class="notes">
 
@@ -486,7 +490,7 @@ Here's a different example of a confidence interval that excludes the null value
 
 ### Confidence interval interpretation (4 of 7)
 
-![Interval entirely inside the range of clinical indifference](../images/11/ci04.gif)
+![Interval entirely inside the range of clinical indifference](../images/12/ci04.gif)
 
 <div class="notes">
 
@@ -498,7 +502,7 @@ Clinical indifference is a medical judgment, and not a statistical judgment. It 
 
 ### Confidence interval interpretation (5 of 7)
 
-![Interval partly inside/outside range of clinical indifference](../images/11/ci05.gif)
+![Interval partly inside/outside range of clinical indifference](../images/12/ci05.gif)
 
 <div class="notes">
 
@@ -508,7 +512,7 @@ One the other hand, if part of the confidence interval lies outside the range of
 
 ### Confidence interval interpretation (6 of 7)
 
-![Confidence interval that contains the null value](../images/11/ci06.gif)
+![Confidence interval that contains the null value](../images/12/ci06.gif)
 
 <div class="notes">
 
@@ -518,7 +522,7 @@ Some studies have sample sizes that are so large that even trivial differences a
 
 ### Confidence interval interpretation (7 of 7)
 
-![Confidence interval entirely outside the range of clinical indifference](../images/11/ci07.gif)
+![Confidence interval entirely outside the range of clinical indifference](../images/12/ci07.gif)
 
 <div class="notes">
 
@@ -528,55 +532,67 @@ Finally, if your confidence interval excludes the null value and lies outside th
 
 ### Non-inferiority testing
 
-* $H_0 \ \mu_1-\mu_2 \le -\Delta$ 
-* $H_a \ \mu_1-\mu_2 \gt -\Delta$ 
++ Reasons for adopting a new drug/therapy
+  + Greater efficacy
+  + Lower cost
+  + Better compliance
+  + Fewer side effects
++ $H_0 \ \pi_1-\pi_2 \le -\Delta$ 
++ $H_a \ \pi_1-\pi_2 \gt -\Delta$ 
   + $\Delta$ is the non-inferiority margin
-  + Trade-off between efficacy and safety
+  + Reject $H_0$ if $p_1-p_2 \gt -\Delta + z \times se$
+  + Trade-off between efficacy and cost, compliance, or side effects
+  
+<div class="notes">
 
-### Criticisms of hypothesis testing
+Why does a new drug replace an old drug? I should talk about therapies instead of drugs, but it is easier to pretend that the only thing that doctors do is hand out pills.
 
-* Criticisms of the binary hypothesis
+There are several reasons to switch. First, the new drug might be more efficacious. It cures more people.
+
+But there are other things that are important as well. The new therapy might be cheaper. Money is never the only consideration, of course, but you can't ignore it either. Even when the cost of drugs is hidden by insurance coverage, there is a price that all of society pays when you ignore simple economics. 
+
+Another reason to switch is compliance. If you can replace needles with a pill or replace three times a day dosing with twice a day dosing, you'll find that a lot more of your patients will take the drug.
+
+A third reason to switch would be a change in side effects. All drugs have side effects, of course, but sometimes you can reduce the number of patients that experience these side effects. Sometimes, you can replace serious side effects with more mild side effects.
+
+If you expect a new drug to show reduced cost, better compliance, or fewer side effects, you might be willing to tolerate a deficit in efficacy. Now, it would have to be a small deficit, often a very small deficit. 
+
+Non-inferiority testing addresses the problem where you want to show that a new drug, superior in other ways, does not give away too much in efficacy. So you want to test that your new drug is not substantially inferior than the old drug with respect to therapy.
+
+A formal hypothesis test to demonstrate that a new drug is not substantially worse on an efficacy endpoint is called a non-inferiority test. To conduct this test, you need to define a non-inferiority margin. This a value that separate an intolerable loss in efficacy from a tolerable loss. How do you pick a non-inferiority margin? 
+
+Sometimes it's easy. So in testing a flu vaccine, you might tolerate a 20% decline in the number of colds if you could knew that you would be getting at least a 20% increase in the number of people who would be getting vaccinated.
+
+Other times, it's tricky. A side effect of the flu vaccine is localized soreness, and while we want to minimize this, experiencing localized soreness and experiencing the flu are not the same thing. You might want to set up a ratio, that ten localized soreness events equals one flu event. Then, if you knew that the new vaccine would have 20% fewer problems with localized soreness, you'd be able to only tolerate a 2% decline in efficacy. Anything worse, and you'd have less than a 10 to 1 ratio.
+
+If the new vaccine were 50% cheaper, you'd just have to figure out the dollar value associated with a single case of the flu and do make sure that the proportion of fewer cures times cost of a single cure was smaller than the cost savings. So if all the bad things associated with the flu, the suffering, the lost work time, and the increased risk of other bad things like pneumonia had a dollar value of five thousand dollars, and you could save two hundred dollars per dose of vaccine, then you'd need to need to make sure that the decline in efficacy was not 4% or worse. 
+
+I'm vastly oversimplifying things here. I'm not talking, for example, about the complexities associated with absolute versus relative risk. And some of my math calculations might be a bit dicey. But to be honest, no one even tries to look at things from this simpilistic of an approach. They just pick a number out of thin air, and don't offer any justification. If you need to set a non-inferiority margin, talk to a bunch of people and make sure that you are assessing the trade-offs properly.
+
+Once you have your non-inferiority margin, the rest is easy. Your alternative hypothesis is that the difference in means is above the non-inferiority margin. The way I have described the hypotheses might need to change the direction of the sign depending on whether you label the group with the new drug with a 1 or a 2. Instead of rejecting H0 if you are above zero by a certain amount determined by sampling error, you reject 
+
+</div>
+
+### Criticisms of hypothesis testing (1 of 3)
+
++ Criticisms of the binary hypothesis
   + Point null is never true
   + Cannot prove the null
-* Criticisms of the p-value
+  + Dichotomy is simplistic
+  
+<div class="notes">
+
+
+
+</div>
+
+### Criticisms of hypothesis testing (2 of 3)
+
++ Criticisms of the p-value
   + Not intuitive, easily misunderstood
   + "results more extreme"
   + Ignores clinical importance
-
-### Problems with NHST 
-
-+ Knowledge based on outcome of single study
-+ Interpretation of statistical significance
-+ Complications
-	+ H 0 is rarely true – in a strict sense
-	+ Too large of a sample size – hard NOT to get statistical significance
-	+ Significance testing as a dichotomous decision
-	+ Interpretation of changes in the p value
-	+ Statistical significant versus clinical/ substative meaningfulness
-
-<div class="notes">
-
-There is always a level of uncertainty associated with a single study.
-
-[[ASA statement on p-values]]
-
-[[Sackett article. http://www.cmaj.ca/content/165/9/1226.short or http://blog.pmean.com/physiological-statistics/ ]]
-
-[[ Example of PiFace http://blog.pmean.com/simple-sample-size/ ]]
-
-[[ Range of clinical indifference http://www.pmean.com/04/confidence.html ]]
-
-[[p-values with lots of zeros, doesn't make up for biases in the study.]]
-
-</div>
-
-***
-### Improving NHST 
-
-+ Propose specific alternative hypotheses
-+ Use a random sample if possible
-+ Use an outcome variable that has good reliability and validity
-+ Have a good idea of the level of difference that will be clinically important
+  + Does not measure uncontrolled biases
 
 <div class="notes">
 
@@ -584,6 +600,19 @@ There is always a level of uncertainty associated with a single study.
 
 </div>
 
+### Criticisms of hypothesis testing (3 of 3)
+
++ General criticisms
+  + Too hard to reject H0
+  + Too easy to reject H0
+  + Too reliant on a single study
+  + Thoughtless application
+
+<div class="notes">
+
+
+
+</div>
 
 ### Measurement 
 
@@ -593,19 +622,69 @@ There is always a level of uncertainty associated with a single study.
 	+ Interval
 	+ Ratio
 
++ Special cases
+  + Binary data
+  + Count data
+  + Time-to-event
+
 <div class="notes">
 
-Nominal means names, classification, or categorical assignment. Names are mutually exclusive and exhaustive. Value that is shown is a number code or a text word. 
+Measurement scales are an important, but controversial, categorization of the types of variables used in research. They help you decide what statistics are appropriate for your data. I don't want to get to deeply into this, but I do want to give you enough context so that you can write a decent data analysis plan for your methods section.
 
-Ordinal is similar to nominal plus some orderliness as to what those responses mean. Example five point scale.
+There are four categories: nominal, ordinal, interval, and ratio, that were first described by a psychologist, S.S. Stevens, over 80 years ago.
 
-There is no true zero point. Can't perform arithmetic operatitons on ordinal variables.
+Nominal data is categorical, meaning a small number of values. An additional requirement for nominal data is that order is not important. If you can re-order the list of categories without causing too much fuss, you have nominal data. Examples of nominal data include race, gender, and geographic region.
 
-You can talk about the direction of change.
+Ordinal data is also categorical, but you cannot re-order the list without changing things. Order is important. All Likert scale items are ordinal. Military ranks are ordinal. Education levels are ordinal, more or less, but if you make distinctions along the level of M.D. versus Ph.D., it is not. Use a bit of common sense. It works just fine for High school, some college, two year degree, four year degree, graduate/professional degree. Stages of cancer is another example.
 
-Interval - difference between levels is consistent across the range of the scale.
+Interval data and ratio data are two types of continuous data. Don't worry too much about the distinction between interval and ratio. It is not that important. The very important distinction is between ordinal data and interval data.
 
-Ratio. There is a true zero point.
+For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature, dates, and IQ tests.
+
+for a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
+
+There are three special cases worth describing.
+
+Binary data is data that only has two possible values. Examples include yes/no responses, gender (male/female, assuming that transgender is not an issue), and correct/incorrect responses on a test. Don't bother making a distinction between nominal or ordinal data if your variable is binary. There is no way to re-order the data if there are only two values, except for the trivial case of reversing the two levels. It is best to treat binary data as a subset of nominal data.
+
+</div>
+
+
+
+### Permissible measurements
+
++ Nominal: percentage, mode
++ Ordinal: median
++ Interval: mean, standard deviation
++ Ratio: Coefficient of variation
++ Special cases
+
+<div class="notes">
+
+For nominal data, there are very few numeric summaries that are meaningful. You can't compute a standard deviation for gender or an average race. About the only meaningful numeric summary for nominal data is percentages. You could compute a mode, the most frequently occurring value, but this is not used all that often.
+
+For ordinal data, you can compute the median in addtion to percentages. You might also compute other percentiles like the quartiles. But an average is not a good option here.
+
+You can, however, compute an average for interval data, as well as a standard deviation.
+
+The ratio scale allows you to calculate one additional statistic, the coefficient of variance, but this is hardly worth mentioning. The coefficient of variance, if you are curious, is computed as the standard deviation divided by the mean. It is a unitless measure of spread, which is helpful at times. But quite honestly, there is almost no practical difference between interval data and ratio data.
+
+There is a natural hierarchy to these measurements in that any statistic that can be used to summarize nominal data can also be used to summarize ordinal, interval, or ratio data. Any statistic that can be used to summarize ordinal data can also be used to summarize interval or ratio data. Finally, any statistic that can be used to summarize interval data can also be used to summarize ratio data.
+
+</div>
+
+### Permissible models
+
++ Binary: Logistic regression
++ Nominal: Chi-square tests, multinomial logistic regression
++ Ordinal: Non-parametric tests, ordinal logistic regression
++ Interval/ratio: linear regression
++ Counts: Poisson regression
++ Time-to-event data: Cox proportional hazards regression
+
+<div class="notes">
+
+
 
 </div>
 
