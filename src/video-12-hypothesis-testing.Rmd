@@ -215,6 +215,16 @@ This is not a data analysis class, but I do want to provide you with enough info
 
 </div>
 
+### First break
+
++ What have you learned
+  + Poulation, sample
+  + Parameter, statistic
+  + Basic hypotheses
++ What's coming next
+  + Text hypotheses
+  + Type I and Type II errors
+
 ### Directional alternatives
 
 + Used when changes in opposite direction are
@@ -335,6 +345,15 @@ Power is defined as 1-beta. I will talk more about power in a little bit.
 
 </div>
 
+### Second break
+
++ What have you learned?
+  + Text hypotheses
+  + Type I and Type II errors
++ What's combing next
+  + p-values
+  + p-hacking
+
 ### What is a p-value?
 
 + p-value = $P[\bar{X}_1-\bar{X}_2>t \times se \ | \ \mu_1-\mu_2=0 ]$
@@ -424,6 +443,31 @@ You could also combine a large p-value with a narrow confidence interval to supp
 
 </div>
   
+### p-value
+
+<div class="notes">
+
+A large p-value should not automatically be construed as evidence in support of the null hypothesis. Perhaps the failure to reject the null hypothesis was caused by an inadequate sample size. When you see a large p-value in a research study, you should also look for one of two things:
+
+a power calculation that confirms that the sample size in that study was adequate for detecting a clinically relevant difference; and/or
+
+a confidence interval that lies entirely within the range of clinical indifference.
+
+You should also be cautious about a small p-value, but for different reasons. In some situations, the sample size is so large that even differences that are trivial from a medical perspective can still achieve statistical significance.
+
+</div>
+
+### p-hacking
+
+### Third break
+
++ What have you learned?
+  + p-values
+  + p-hacking
++ What's coming next?
+  + Confidence intervals
+  + Range of clinical indifference
+
 ### What is a confidence interval?
 
 Dear Professor Mean:  Can you give me a simple explanation of what a confidence interval is?
@@ -530,6 +574,15 @@ Finally, if your confidence interval excludes the null value and lies outside th
 
 </div>
 
+### Fourth break
+
++ What have you learned?
+  + Confidence intervals
+  + Range of clinical indifference
++ What's coming next?
+  + Non-inferiority testing
+  + Sample size justification
+
 ### Non-inferiority testing
 
 + Reasons for adopting a new drug/therapy
@@ -573,6 +626,114 @@ Once you have your non-inferiority margin, the rest is easy. Your alternative hy
 
 </div>
 
+### Null value
+
+```{r null-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45)
+text(0, 0.55, cex=0.5, "Null\nvalue")
+```
+
+***
+### Critical value
+
+```{r critical-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45)
+text(1.2, 0.55, cex=0.5, "Critical\nvalue")
+```
+
+***
+### Alpha level
+
+```{r alpha-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
+
+
+```{r beta-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x, m=3)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
+
+***
+### Power Analysis 
+
++ Probability of rejecting a false H 0
+	+ This is a GOOD thing!
+	+ Want to maximize this (within reasonable limits!)
+	+ What is power analysis
+	+ “… the probability that his investigation would lead to statistically significant results.”
+
+<div class="notes">
+
+
+
+</div>
+
+### Power Analysis 
+
++ Statistical power analysis concepts (Cohen)
+	+ Significance criterion – alpha
+	+ Power – desired level
+	+ Sample size
+	+ Effect size
++ Power analysis method depends on research design
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Power Analysis 
+
++ Performing a power analysis when planning a study
+	+ What is the study design?
+	+ What do you already know about the measure you are interested in?
+	+ What significance level to you want to use for hypothesis testing?
+	+ What level of power do you want to achieve?
+
+<div class="notes">
+
+
+
+</div>
+
+### Fifth break
+
++ What have you learned?
+  + Non-inferiority testing
+  + Sample size justification
++ What is coming next?
+  + Criticisms of hypothesis testing
+  + Bayesian data analysis
+
 ### Criticisms of hypothesis testing (1 of 3)
 
 + Criticisms of the binary hypothesis
@@ -611,142 +772,6 @@ Once you have your non-inferiority margin, the rest is easy. Your alternative hy
 <div class="notes">
 
 
-
-</div>
-
-### Measurement 
-
-+ Traditional levels (scales) of measurement
-	+ Nominal
-	+ Ordinal
-	+ Interval
-	+ Ratio
-
-+ Special cases
-  + Binary data
-  + Count data
-  + Time-to-event
-
-<div class="notes">
-
-Measurement scales are an important, but controversial, categorization of the types of variables used in research. They help you decide what statistics are appropriate for your data. I don't want to get to deeply into this, but I do want to give you enough context so that you can write a decent data analysis plan for your methods section.
-
-There are four categories: nominal, ordinal, interval, and ratio, that were first described by a psychologist, S.S. Stevens, over 80 years ago.
-
-Nominal data is categorical, meaning a small number of values. An additional requirement for nominal data is that order is not important. If you can re-order the list of categories without causing too much fuss, you have nominal data. Examples of nominal data include race, gender, and geographic region.
-
-Ordinal data is also categorical, but you cannot re-order the list without changing things. Order is important. All Likert scale items are ordinal. Military ranks are ordinal. Education levels are ordinal, more or less, but if you make distinctions along the level of M.D. versus Ph.D., it is not. Use a bit of common sense. It works just fine for High school, some college, two year degree, four year degree, graduate/professional degree. Stages of cancer is another example.
-
-Interval data and ratio data are two types of continuous data. Don't worry too much about the distinction between interval and ratio. It is not that important. The very important distinction is between ordinal data and interval data.
-
-For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature, dates, and IQ tests.
-
-for a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
-
-There are three special cases worth describing.
-
-Binary data is data that only has two possible values. Examples include yes/no responses, gender (male/female, assuming that transgender is not an issue), and correct/incorrect responses on a test. Don't bother making a distinction between nominal or ordinal data if your variable is binary. There is no way to re-order the data if there are only two values, except for the trivial case of reversing the two levels. It is best to treat binary data as a subset of nominal data.
-
-</div>
-
-
-
-### Permissible measurements
-
-+ Nominal: percentage, mode
-+ Ordinal: median
-+ Interval: mean, standard deviation
-+ Ratio: Coefficient of variation
-+ Special cases
-
-<div class="notes">
-
-For nominal data, there are very few numeric summaries that are meaningful. You can't compute a standard deviation for gender or an average race. About the only meaningful numeric summary for nominal data is percentages. You could compute a mode, the most frequently occurring value, but this is not used all that often.
-
-For ordinal data, you can compute the median in addtion to percentages. You might also compute other percentiles like the quartiles. But an average is not a good option here.
-
-You can, however, compute an average for interval data, as well as a standard deviation.
-
-The ratio scale allows you to calculate one additional statistic, the coefficient of variance, but this is hardly worth mentioning. The coefficient of variance, if you are curious, is computed as the standard deviation divided by the mean. It is a unitless measure of spread, which is helpful at times. But quite honestly, there is almost no practical difference between interval data and ratio data.
-
-There is a natural hierarchy to these measurements in that any statistic that can be used to summarize nominal data can also be used to summarize ordinal, interval, or ratio data. Any statistic that can be used to summarize ordinal data can also be used to summarize interval or ratio data. Finally, any statistic that can be used to summarize interval data can also be used to summarize ratio data.
-
-</div>
-
-### Permissible models
-
-+ Binary: Logistic regression
-+ Nominal: Chi-square tests, multinomial logistic regression
-+ Ordinal: Non-parametric tests, ordinal logistic regression
-+ Interval/ratio: linear regression
-+ Counts: Poisson regression
-+ Time-to-event data: Cox proportional hazards regression
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Measurement 
-
-+ Authors categorization of levels of measurement
-	+ Nominal
-	+ Dichotomous
-	+ Ordinal
-	+ Normally distributed
-+ Table 10.1
-
-<div class="notes">
-
-Gliner et al have a slightly different take. They talk about a normally distributed scale. It is hard to talk about the difference between ordinal and interval. 
-
-Look at the literature in the area you work with. Several Likert scales summed to get a subscale.
-
-</div>
-
-***
-### Measurement 
-
-![](../images/image-08-01.png)
-
-<div class="notes">
-
-Table 10.1. This scale splits nominal into those with two levels (dichotomous, also known as binary) and more than two levels (nominal).
-
-Remember how you coded nominal variables. You can (and should) use zero-one coding for dichotomous variables.
-
-The average of a zero-one coded variable represents a probability.
-
-Approximately normal scale requires at least five levels accorind to Gliner et al.
-
-</div>
-
-***
-### Measurement 
-
-![](../images/image-08-02.png)
-
-<div class="notes">
-
-Table 10.3 gives examples of the Gliner et al scales.
-
-</div>
-
-***
-### Measurement 
-
-+ Why does the scale of measurement matter?
-	+ How it reflects your design and your research question
-	+ How it determines the types of statistical analyses you will do
-	+ How it defines what you can say about your results
-
-<div class="notes">
-
-The level of measurement comes from what you are trying to get at in your research.
-
-Measurement scales can limit what you can say about your results.
 
 </div>
 
@@ -904,120 +929,90 @@ Here's something fun that Dr. Albert didn't show. You could take each of the cel
 
 <div class="notes">
 
-
-
-</div>
-
-### Informative
-
 Dr. Albert goes on to show an informative prior distribution. There is a fair amount of data to indicate that the survival rate for the conventional therapy is somewhere between 10% and 30%, but little or no data about the survival rates under ECMO.
 
 The table above shows this informative prior distribution. Recall that the rows represent survival rates under conventional therapy. This prior distribution restricts the probabilities for survival rates in the conventional therapy to less than 70%. There is no such absolute restriction for ECMO, though the probabilities for survival rates of 70% and higher are fairly small.
 
+</div>
 
-### p-value
+### Sixth break
+
++ What have you learned?
+  + Criticisms of hypothesis testing
+  + Bayesian data analysis
++ What's coming next?
+  + Scales of measurement
+  + Ordinal verus interval controversy
+
+### Measurement 
+
++ Traditional levels (scales) of measurement
+	+ Nominal
+	+ Ordinal
+	+ Interval
+	+ Ratio
+
++ Special cases
+  + Binary data
+  + Count data
+  + Time-to-event
 
 <div class="notes">
 
-A large p-value should not automatically be construed as evidence in support of the null hypothesis. Perhaps the failure to reject the null hypothesis was caused by an inadequate sample size. When you see a large p-value in a research study, you should also look for one of two things:
+Measurement scales are an important, but controversial, categorization of the types of variables used in research. They help you decide what statistics are appropriate for your data. I don't want to get to deeply into this, but I do want to give you enough context so that you can write a decent data analysis plan for your methods section.
 
-a power calculation that confirms that the sample size in that study was adequate for detecting a clinically relevant difference; and/or
+There are four categories: nominal, ordinal, interval, and ratio, that were first described by a psychologist, S.S. Stevens, over 80 years ago.
 
-a confidence interval that lies entirely within the range of clinical indifference.
+Nominal data is categorical, meaning a small number of values. An additional requirement for nominal data is that order is not important. If you can re-order the list of categories without causing too much fuss, you have nominal data. Examples of nominal data include race, gender, and geographic region.
 
-You should also be cautious about a small p-value, but for different reasons. In some situations, the sample size is so large that even differences that are trivial from a medical perspective can still achieve statistical significance.
+Ordinal data is also categorical, but you cannot re-order the list without changing things. Order is important. All Likert scale items are ordinal. Military ranks are ordinal. Education levels are ordinal, more or less, but if you make distinctions along the level of M.D. versus Ph.D., it is not. Use a bit of common sense. It works just fine for High school, some college, two year degree, four year degree, graduate/professional degree. Stages of cancer is another example.
+
+Interval data and ratio data are two types of continuous data. Don't worry too much about the distinction between interval and ratio. It is not that important. The very important distinction is between ordinal data and interval data.
+
+For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature, dates, and IQ tests.
+
+for a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
+
+There are three special cases worth describing.
+
+Binary data is data that only has two possible values. Examples include yes/no responses, gender (male/female, assuming that transgender is not an issue), and correct/incorrect responses on a test. Don't bother making a distinction between nominal or ordinal data if your variable is binary. There is no way to re-order the data if there are only two values, except for the trivial case of reversing the two levels. It is best to treat binary data as a subset of nominal data.
+
+Count data is a type of ratio data, but it is a bit unsual because it cannot include fractional or decimal values. It is also bounded below by zero. For the most part, you can treat count data as ratio data, except that linear regression does not work well for count data. Count data almost always violates the linear regression assumptions of normality and homogeneity of variance.
+
+Time-to-event data is also a type of ratio data, but it is also a bit unusual. Time-to-event data almost always has censored values, values where the event has not occurred yet. It also is bounded below by zero. It also tends to violate the same assumptions in linear regression: normality and homogeneity.
 
 </div>
 
-### Analysis of Qualitative Data-resources
+### Permissible measurements
 
-* http://blog.pmean.com/semi-structured-interviews/
-
-* Positivism versus constructivism, revisited
-  + https://www.sagepub.com/sites/default/files/upm-binaries/29985_Chapter1.pdf
-  + http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/
-  
-Tools: semi-structured interviews, participant observation, photo elicitation(?), mapping exercises(?), web and space design workshops(?), archival records, physical artifacts, 
-
-Typically, a one-hour interview requires a minimum of three to four hours (or more) of analysis.
-
-Involve the participants in the process, especially for narrative research.
-
-### Inductive process –
-	+ Start with the specific (raw data / transcript)
-	+ Develop a theoretical framework from the data
-	+ Conceptual categories emerge from the data
++ Nominal: percentage, mode
++ Ordinal: median
++ Interval: mean, standard deviation
++ Ratio: Coefficient of variation
++ Special cases
 
 <div class="notes">
 
+For nominal data, there are very few numeric summaries that are meaningful. You can't compute a standard deviation for gender or an average race. About the only meaningful numeric summary for nominal data is percentages. You could compute a mode, the most frequently occurring value, but this is not used all that often.
 
+For ordinal data, you can compute the median in addtion to percentages. You might also compute other percentiles like the quartiles. But an average is not a good option here.
 
-</div>
+You can, however, compute an average for interval data, as well as a standard deviation.
 
+The ratio scale allows you to calculate one additional statistic, the coefficient of variance, but this is hardly worth mentioning. The coefficient of variance, if you are curious, is computed as the standard deviation divided by the mean. It is a unitless measure of spread, which is helpful at times. But quite honestly, there is almost no practical difference between interval data and ratio data.
 
-###  Start the study with a research question
-	+ This may provide a potential starting point for analyzing text
-	+ If you do this, DO NOT let it prevent you from seeing what is in the text
-+ Steps
-	+ From raw data to theory building
-	+ “ Iterative ” process
-		+ e.g. , as you are developing categories, check them back against the raw data – do they continue to reflect the original data?
-
-<div class="notes">
-
-Keep alert and look for things that come out in the material that you were not anticipating. As your categories, go back and compare them against the raw data. Make sure that you allow the data to guide you. Often coding from transcripts. But it is also good to have access to the original recordings. Sometimes there is a doubt about what some was saying (joking or sarcasm). Look for tone of voice and non-verbal cues.
-
-Content analysis is a generic term, but you can look at things like ad messages in magazines that appeal to young adults.
-
-Thematic analysis is looking for patterns.
+There is a natural hierarchy to these measurements in that any statistic that can be used to summarize nominal data can also be used to summarize ordinal, interval, or ratio data. Any statistic that can be used to summarize ordinal data can also be used to summarize interval or ratio data. Finally, any statistic that can be used to summarize interval data can also be used to summarize ratio data.
 
 </div>
 
+### Permissible models
 
-### Analysis process –
-	+ Given research question, may have some idea of a general conceptual structure; serve only as a starting point
-	+ Usually work from transcripts
-	+ If possible, refer back to audio recordings when needed
-	+ Qualitative form of analysis
-		+ Content analysis – analysis of the content of communication
-		+ Thematic analysis – identifying patterns or themes in the data
-
-<div class="notes">
-
-Break up the text into "bits" that represent specific thoughts. Open coding lots of themes. Axial coding looks at the relationships between themes, builds a superstructure of ideas.
-
-</div>
-
-
-### Category Formation – assign sections (data bits) to analytical categories/themes "coding"
-	+ Summarizing the data by identifying similarities and differences / commonalities and contrasts
-	+ Categories:
-		+ More manageable units of information
-		+ "open coding"
-		+ Descriptive – Concrete
-		+ Interpretive – Abstract
-		+ Relational
-	+ Cross-reference categories back to text
-		+ Makes it easier to revise coding as needed
-
-<div class="notes">
-
-Software allows you to go back and forth between themes and the original text. Cross-referencing is important. Find examples easily. It helps provide validity checks. Does someone agree with your categorization.
-
-Categories need to be faithful to the data. This is internal validity. But you need to place this in a broader understanding.
-
-You need to be careful about trying to quantify this too much. Keep in mind that just because someone talks about something a lot does not mean that this is the most important thing to them. The most important thing might be something that people are uncomfortable talking about.
-
-</div>
-
-
-### Category Formation
-	+ Faithful to the data – "internal" aspect
-	+ Meaningful to other categories – "external" aspect
-	+ Balance
-		+ Generality vs Specificity
-		+ Inclusivity vs Exclusivity
-	+ Number of times idea mentioned does NOT necessarily reflect importance
++ Binary: Logistic regression
++ Nominal: Chi-square tests, multinomial logistic regression
++ Ordinal: Non-parametric tests, ordinal logistic regression
++ Interval/ratio: linear regression
++ Counts: Poisson regression
++ Time-to-event data: Cox proportional hazards regression
 
 <div class="notes">
 
@@ -1025,173 +1020,29 @@ You need to be careful about trying to quantify this too much. Keep in mind that
 
 </div>
 
+### Measurement 
 
-### Labeling / Revising Categories
-	+ Member-generated – “ first-order ” account
-	+ Observer-generated – “ second-order ” account
-	+ Labels are provisional; may be revised
-	+ Iteration – move back and forth between raw data and labeled categories
-	+ “ Zoom in ” vs “ Wide angle ” view of the coding
-	+ Revision – may end up dividing or combining categories
-	+ May establish criteria for category coding
++ Why does the scale of measurement matter?
+	+ How it reflects your design and your research question
+	+ How it determines the types of statistical analyses you will do
+	+ How it defines what you can say about your results
 
 <div class="notes">
 
-Phrasing of the person versus observations generated by the researcher. Labels should be considered as provisional as you work with more complete information. It is an iterative process. Go back to original data. You're looking at the specific of what's been told versus a broader understanding.
+The level of measurement comes from what you are trying to get at in your research.
 
-Establishing the criteria may depend on how many people are doing the coding. If you don't have a pre-existing structure, the coding may evolve and may involve 100% review (both raters review everything and resolve discrepancy). Then a third person does an audit.
-
-</div>
-
-
-### Saturation
-
-  + the point at which you are not gaining any new insight, no new categories being identified, no new relationships being defined
-	+ Don't need any additional analysis
-	+ Don't need any additional data collection (if collection & analysis done in parallel)
-	+ Determinant – nature of the information being collection – NOT amount of information
-	+ Keeping notes – of the coding/analysis process
-	+ Help identify categories/relationships
-	+ Help if "stuck"
-	+ Document analysis process
-
-<div class="notes">
-
-Saturation is a way to assess your sample size. Have you gotten a representative amount of data. 
-
-Really important to keep notes of the coding and analysis process, so you can check your work. Allows you to do qualirty checks on the process.
+Measurement scales can limit what you can say about your results.
 
 </div>
 
+### Seventh break
 
-### Role of Judgment
-	+ Balancing act –
-		+ Level of creativity by coder to identify categories/relationships
-		+ Must reflect the informants thoughts
-		+ Audit of the coding by an independent person can check for the match between the coding and the source information
-	+ Low-inference descriptors
-	+ Look for "negative cases"
-
-<div class="notes">
-
-You develop a framework, but that framework must always represent what the subjects have said.
-
-Low inference descriptors are those things involving just the basic words or text.
-
-</div>
-
-
-### Quantifying Information
-	+ Pros & Cons
-	+ When quantifying might be of value
-	+ Simple frequency of occurrence does NOT necessarily reflect importance
-
-<div class="notes">
-
-This was mentioned earlier.
-
-</div>
-
-
-### Null value
-
-```{r null-value, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45)
-text(0, 0.55, cex=0.5, "Null\nvalue")
-```
-
-***
-### Critical value
-
-```{r critical-value, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45)
-text(1.2, 0.55, cex=0.5, "Critical\nvalue")
-```
-
-***
-### Alpha level
-
-```{r alpha-level, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45, col="gray")
-text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
-```
-
-
-```{r beta-level, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x, m=3)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45, col="gray")
-text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
-```
-
-***
-### Power Analysis 
-
-+ Probability of rejecting a false H 0
-	+ This is a GOOD thing!
-	+ Want to maximize this (within reasonable limits!)
-	+ What is power analysis
-	+ “… the probability that his investigation would lead to statistically significant results.”
-
-<div class="notes">
-
-
-
-</div>
-
-### Power Analysis 
-
-+ Statistical power analysis concepts (Cohen)
-	+ Significance criterion – alpha
-	+ Power – desired level
-	+ Sample size
-	+ Effect size
-+ Power analysis method depends on research design
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Power Analysis 
-
-+ Performing a power analysis when planning a study
-	+ What is the study design?
-	+ What do you already know about the measure you are interested in?
-	+ What significance level to you want to use for hypothesis testing?
-	+ What level of power do you want to achieve?
-
-<div class="notes">
-
-
-
-</div>
-
++ What have you learned?
+  + Scales of measurement
+  + Ordinal verus interval controversy
++ What's coming next?
+  + Descriptive statistics
+  + Linear regression
 
 ### Quality checks
 
@@ -1216,4 +1067,217 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
   + Sometimes based on precedent
   + Sometimes motivated by theory
   + Sometimes based on empirical findings
+
+### Seventh break
+
++ What have you learned?
+  + Descriptive statistics
+  + Linear regression
++ What's coming next?
+  + Logistic regression
+  + Poisson regression
+  
+### Eight break
+
++ What have you learned?
+  + Logistic regression
+  + Poisson regression
++ What's coming next?
+  + Cox regression
+  
+### Ninth break
+
++ What have you learned?
+  + Cox regression
++ What's coming next?
+  + Qualitative data analysis
+
+### Analysis of Qualitative Data-resources
+
++ http://blog.pmean.com/semi-structured-interviews/
++ Positivism versus constructivism, revisited
+  + https://www.sagepub.com/sites/default/files/upm-binaries/29985_Chapter1.pdf
+  + http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/
++ Typically, a one-hour interview requires a minimum of three to four hours (or more) of analysis.
++ Involve the participants in the process, especially for narrative research.
+
+### Tools
+
++ Tools:
+  + semi-structured interviews,
+  + participant observation,
+  + photo elicitation(?),
+  + mapping exercises(?),
+  + web and space design workshops(?),
+  + archival records, 
+  + physical artifacts, 
+
+### Inductive process
++ Start with the specific (raw data / transcript)
+	+ Develop a theoretical framework from the data
+	+ Conceptual categories emerge from the data
+
+<div class="notes">
+
+
+
+</div>
+
+
+###  Start with a research question
++ This may provide a potential starting point for analyzing text
+	+ If you do this, DO NOT let it prevent you from seeing what is in the text
++ Steps
+	+ From raw data to theory building
+	+ “ Iterative ” process
+		+ e.g. , as you are developing categories, check them back against the raw data – do they continue to reflect the original data?
+
+<div class="notes">
+
+Start the study with a research question.
+
+Keep alert and look for things that come out in the material that you were not anticipating. As your categories, go back and compare them against the raw data. Make sure that you allow the data to guide you. Often coding from transcripts. But it is also good to have access to the original recordings. Sometimes there is a doubt about what some was saying (joking or sarcasm). Look for tone of voice and non-verbal cues.
+
+Content analysis is a generic term, but you can look at things like ad messages in magazines that appeal to young adults.
+
+Thematic analysis is looking for patterns.
+
+</div>
+
+
+### Analysis process
++ Given research question, may have some idea of a general conceptual structure; serve only as a starting point
+	+ Usually work from transcripts
+	+ If possible, refer back to audio recordings when needed
+	+ Qualitative form of analysis
+		+ Content analysis – analysis of the content of communication
+		+ Thematic analysis – identifying patterns or themes in the data
+
+<div class="notes">
+
+Break up the text into "bits" that represent specific thoughts. Open coding lots of themes. Axial coding looks at the relationships between themes, builds a superstructure of ideas.
+
+</div>
+
+
+### Category Formation
++ Assign sections (data bits) to analytical categories/themes "coding"
++ Summarizing the data by identifying similarities and differences / commonalities and contrasts
+	+ Categories:
+		+ More manageable units of information
+		+ "open coding"
+		+ Descriptive – Concrete
+		+ Interpretive – Abstract
+		+ Relational
+	+ Cross-reference categories back to text
+		+ Makes it easier to revise coding as needed
+
+<div class="notes">
+
+Software allows you to go back and forth between themes and the original text. Cross-referencing is important. Find examples easily. It helps provide validity checks. Does someone agree with your categorization.
+
+Categories need to be faithful to the data. This is internal validity. But you need to place this in a broader understanding.
+
+You need to be careful about trying to quantify this too much. Keep in mind that just because someone talks about something a lot does not mean that this is the most important thing to them. The most important thing might be something that people are uncomfortable talking about.
+
+</div>
+
+
+### Category Formation
++ Faithful to the data – "internal" aspect
+	+ Meaningful to other categories – "external" aspect
+	+ Balance
+		+ Generality vs Specificity
+		+ Inclusivity vs Exclusivity
+	+ Number of times idea mentioned does NOT necessarily reflect importance
+
+<div class="notes">
+
+
+
+</div>
+
+
+### Labeling / Revising Categories
++ Member-generated – “ first-order ” account
+	+ Observer-generated – “ second-order ” account
+	+ Labels are provisional; may be revised
+	+ Iteration – move back and forth between raw data and labeled categories
+	+ “ Zoom in ” vs “ Wide angle ” view of the coding
+	+ Revision – may end up dividing or combining categories
+	+ May establish criteria for category coding
+
+<div class="notes">
+
+Phrasing of the person versus observations generated by the researcher. Labels should be considered as provisional as you work with more complete information. It is an iterative process. Go back to original data. You're looking at the specific of what's been told versus a broader understanding.
+
+Establishing the criteria may depend on how many people are doing the coding. If you don't have a pre-existing structure, the coding may evolve and may involve 100% review (both raters review everything and resolve discrepancy). Then a third person does an audit.
+
+</div>
+
+
+### Saturation
+
++ Don't need any additional analysis
+	+ Don't need any additional data collection (if collection & analysis done in parallel)
+	+ Determinant – nature of the information being collection – NOT amount of information
+	+ Keeping notes – of the coding/analysis process
+	+ Help identify categories/relationships
+	+ Help if "stuck"
+	+ Document analysis process
+
+<div class="notes">
+
+The point at which you are not gaining any new insight, no new categories being identified, no new relationships being defined. Saturation is a way to assess your sample size. Have you gotten a representative amount of data. 
+
+Really important to keep notes of the coding and analysis process, so you can check your work. Allows you to do qualirty checks on the process.
+
+</div>
+
+
+### Role of Judgment
++ Balancing act –
+	+ Level of creativity by coder to identify categories/relationships
+	+ Must reflect the informants thoughts
+	+ Audit of the coding by an independent person can check for the match between the coding and the source information
+	+ Low-inference descriptors
++ Look for "negative cases"
+
+<div class="notes">
+
+You develop a framework, but that framework must always represent what the subjects have said.
+
+Low inference descriptors are those things involving just the basic words or text.
+
+</div>
+
+
+### Quantifying Information
+	+ Pros & Cons
+	+ When quantifying might be of value
+	+ Simple frequency of occurrence does NOT necessarily reflect importance
+
+<div class="notes">
+
+This was mentioned earlier.
+
+</div>
+
+### Tenth break
+
++ What have you learned?
+  + Qualitative data analysis
++ What's coming next?
+  + Writing a methods section
+  
+### Conclusion
+
++ Hypothesis testing
++ p-values and confidence intervals
++ Sample size justification
++ Scales of measurement
++ Descriptive statistics
++ Linear, logistic, Poisson, and Cox regression
++ Analysis of qualitative data
++ Writing a methods section
 
