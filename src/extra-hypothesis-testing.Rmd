@@ -1,5 +1,5 @@
 ---
-title: "Extra - pilot testing"
+title: "Extra - hypothesis testing"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
@@ -59,6 +59,698 @@ Pop quiz
         a posterior distribution.
         p-values.
         I do not know the answer.
+
+
+### Practice exercises
+
+Read the following abstracts. Interpret each of the p-values presented in these abstracts.
+
+1. The Outcome of Extubation Failure in a Community Hospital Intensive Care Unit: A Cohort Study. Seymour CW, Martinez A, Christie JD, Fuchs BD. Critical Care 2004, 8:R322-R327 (20 July 2004) Introduction: Extubation failure has been associated with poor intensive care unit (ICU) and hospital outcomes in tertiary care medical centers. Given the large proportion of critical care delivered in the community setting, our purpose was to determine the impact of extubation failure on patient outcomes in a community hospital ICU. Methods: A retrospective cohort study was performed using data gathered in a 16-bed medical/surgical ICU in a community hospital. During 30 months, all patients with acute respiratory failure admitted to the ICU were included in the source population if they were mechanically ventilated by endotracheal tube for more than 12 hours. Extubation failure was defined as reinstitution of mechanical ventilation within 72 hours (n = 60), and the control cohort included patients who were successfully extubated at 72 hours (n = 93). Results: The primary outcome was total ICU length of stay after the initial extubation. Secondary outcomes were total hospital length of stay after the initial extubation, ICU mortality, hospital mortality, and total hospital cost. Patient groups were similar in terms of age, sex, and severity of illness, as assessed using admission Acute Physiology and Chronic Health Evaluation II score (P > 0.05). Both ICU (1.0 versus 10 days; P < 0.01) and hospital length of stay (6.0 versus 17 days; P < 0.01) after initial extubation were significantly longer in reintubated patients. ICU mortality was significantly higher in patients who failed extubation (odds ratio = 12.2, 95% confidence interval [CI] = 1.5ï¿½101; P < 0.05), but there was no significant difference in hospital mortality (odds ratio = 2.1, 95% CI = 0.8ï¿½5.4; P < 0.15). Total hospital costs (estimated from direct and indirect charges) were significantly increased by a mean of US$33,926 (95% CI = US$22,573ï¿½45,280; P < 0.01). Conclusion: Extubation failure in a community hospital is univariately associated with prolonged inpatient care and significantly increased cost. Corroborating data from tertiary care centers, these adverse outcomes highlight the importance of accurate predictors of extubation outcome.
+
+2. Elevated White Cell Count in Acute Coronary Syndromes: Relationship to Variants in Inflammatory and Thrombotic Genes. Byrne CE, Fitzgerald A, Cannon CP, Fitzgerald DJ, Shields DC. BMC Medical Genetics 2004, 5:13 (1 June 2004) Background: Elevated white blood cell counts (WBC) in acute coronary syndromes (ACS) increase the risk of recurrent events, but it is not known if this is exacerbated by pro-inflammatory factors. We sought to identify whether pro-inflammatory genetic variants contributed to alterations in WBC and C-reactive protein (CRP) in an ACS population. Methods: WBC and genotype of interleukin 6 (IL-6 G-174C) and of interleukin-1 receptor antagonist (IL1RN intronic repeat polymorphism) were investigated in 732 Caucasian patients with ACS in the OPUS-TIMI-16 trial. Samples for measurement of WBC and inflammatory factors were taken at baseline, i.e. Within 72 hours of an acute myocardial infarction or an unstable angina event. Results: An increased white blood cell count (WBC) was associated with an increased C-reactive protein (r = 0.23, p < 0.001) and there was also a positive correlation between levels of β-fibrinogen and C-reactive protein (r = 0.42, p < 0.0001). IL1RN and IL6 genotypes had no significant impact upon WBC. The difference in median WBC between the two homozygote IL6 genotypes was 0.21/mm3 (95% CI = -0.41, 0.77), and -0.03/mm3 (95% CI = -0.55, 0.86) for IL1RN. Moreover, the composite endpoint was not significantly affected by an interaction between WBC and the IL1 (p = 0.61) or IL6 (p = 0.48) genotype. Conclusions: Cytokine pro-inflammatory genetic variants do not influence the increased inflammatory profile of ACS patients.
+
+3. Is There a Clinically Significant Gender Bias in Post-Myocardial Infarction Pharmacological Management in the Older (>60) Population of a Primary Care Practice? Di Cecco R, Patel U, Upshur REG. BMC Family Practice 2002, 3:8 (3 May 2002) Background: Differences in the management of coronary artery disease between men and women have been reported in the literature. There are few studies of potential inequalities of treatment that arise from a primary care context. This study investigated the existence of such inequalities in the medical management of post myocardial infarction in older patients. Methods: A comprehensive chart audit was conducted of 142 men and 81 women in an academic primary care practice. Variables were extracted on demographic variables, cardiovascular risk factors, medical and non-medical management of myocardial infarction. Results: Women were older than men. The groups were comparable in terms of cardiac risk factors. A statistically significant difference (14.6%: 95% CI 0.048ï¿½28.7 p = 0.047) was found between men and women for the prescription of lipid lowering medications. 25.3% (p = 0.0005, CI 11.45, 39.65) more men than women had undergone angiography, and 14.4 % (p = 0.029, CI 2.2, 26.6) more men than women had undergone coronary artery bypass graft surgery. Conclusion: Women are less likely than men to receive lipid-lowering medication which may indicate less aggressive secondary prevention in the primary care setting.
+
+### Additional topics
+
+* As another aside, I was involved with a similar study (prospective, not retrospective). We planned this study using a one-sided hypothesis (remote prayer has a positive effect on health). The Institutional Review Board suggested changing this to a two-sided hypothesis (remote prayer has either a positive or a negative effect on health). Thankfully, we did not observe an outcome in the opposite tail as that would have been very difficult to explain.
+
+### Pilot testing
+
+* Clarity of items
+* Content
+* "Whether your items cover all aspects of the domain you intend to measure and whether they are in appropriate proportions relative to that domain."
+  + page 258
+
+### Data Collection Techniques 
+
++ Process of developing a survey
+	+ List of measures/variables
+	+ What's already available?
+	+ Put the pieces together
+	+ Test and revise as needed
+	+ Final check – do you really need all of the items?
++ Analysis of survey data
+
+<div class="notes">
+
+Flows well and is clear.
+
+Get some real test runs with people who have seen it for the first time. Do you really need all of these items? 
+
+[[Example of sexual preferences in survey on Internet usage.]]
+
+http://www.pmean.com/10/BadSurvey.html
+
+</div>
+
+### Coding
+
+* Mutually exclusive
+* Multiple response
+* "Other" responses
+* Use number codes for categorical data
+* Missing codes
+  + Never use blanks for missing (book is wrong)
+  + -1, 99
+  + Multiple codes for multiple reasons
+* Dummy coding
+  + 0/1 for absence/presence
+* Reverse coding
+  + High is always positive
+* Tabular format
+  + No more than one piece of information
+* Double entry coding
+* Standard coding for race/ethnicity
+
+### Variable names
+
+* Not too short, not too long
+* Word delimiters
+  + No spaces, symbols
+* Example for Mother's age
+* Bad choices
+  + mom age
+  + mom-age
+  + momage
+* Good choices
+  + mom.age
+  + mom_age
+  + MomAge
+
+### Codebook
+
+* Also known as data dictionary
+
+### Quality checks
+
+* Minimum and maximum checks
+  + Out of range
+  + Zero variation
+* Missing value count
+* List five five rows, last five rows
+* Correlations
+
+### Data reduction
+
+* Create composite scores
+  + Check Cronbach's alpha
+  + Examine leaving out single items
+* Factor analysis
+  + Supplanted by Structural Equations Modeling
+
+### Data transformations
+
+* Ideal - selected a priori
+  + Sometimes based on precedent
+  + Sometimes motivated by theory
+  + Sometimes based on empirical findings
+
+### Additional topics
+
+* Pilot studies
+
+* Questionnaires. http://www.pmean.com/02/questionnaire.html
+
+### Data Collection Techniques 
+
+![](../images/image-10-01.png)
+
+<div class="notes">
+
+Table 13.1 is useful in terms of the various things that we will touch on. It classifies by the two types of quantitative research and by qualitative research. Organized by the potential amount of patient filtering. The ones at the top should have less participant filtering. Also note that the symbols are not hard and fast rules, but represent the likelihood.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Standardized vs Investigator-Developed Instruments
+	+ Development and Use
+	+ Evidence to support investigator-developed instruments
+
+<div class="notes">
+
+There is a lot of work in the development of standardized instruments, manual and documentaiton, normative values, apply to a broad area. Investigator developed instruments focus on a more specialized area, but you still need to supply information on validity and reliability.
+
+Whenever possible use instruments already in use. You can find these in places like PROQOLID. This originally started as quality of life measurements, but has expanded. NIH compilation of patient reported outcome measures (PROMIS). NIH wants the research community to use common measures to allow easier compilation of studies in a meta-analysis.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Researcher-Observed Measures
+	+ Naturalness of the setting
+	+ Observer “participation”
+	+ Amount of detail
+	+ Breadth of coverage
+
+<div class="notes">
+
+The focus is on direct observation. The more natural the setting, the less control you have. This might hurt the internal validity of the study. It is a trade-off.
+
+How much does the observer participate. In interviews and focus groups, there is a very clear high level of participation. On the other extreme, observation in public places might not have any knowledge of their participation. In the middle are studies where participants know they are being observed, but this knowledge may fade into the background.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Tests and Documents
+	+ Standardized tests
+		+ Norm referenced test
+		+ Criterion referenced test
+	+ Achievement tests
+	+ Performance and Authentic assessments
+	+ Aptitude tests
+	+ Documents
+	+ Content analysis
+
+<div class="notes">
+
+Norm scores allow you to compare to other scores (historical comparisons). These tests are very objective, but there is some subjectivity, perhaps, in their interpretation.
+
+Measuring actual performance (ecologic validity). Tries to be very relevant to the setting.
+
+Use existing documents. Existing records might have a higher level of accuracy but there is no gauarantee. Time is shorter because the documents already exist. Data extraction takes time. Do you need consent from the people associated with these documents.
+
+Data abstraction is tedious, but the newer systems like i2b2 allow you to get the information more directly.
+
+Content analysis is a more qualitative review. It gives you a lot of valuable information that a quantitative approach might miss.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Self-Report Measures
+	+ Standardized Personality Inventories
+	+ Attitudes / Beliefs scales
+		+ Likert scale
+		+ Semantic differential scale
+	+ Questionnaires
+		+ How delivered / administered
+		+ Item types
+	+ Interviews
+	+ Focus groups
+
+<div class="notes">
+
+Personality inventories: the validity is dependent on an individual's self-awareness.
+
+Attitudes and beliefs done for a variety of purposes. A "representative sample of all possible opinions or attitudes about a particularl subject." That's why measurement experts cringe when you ask a single question. You need a multiple set of items to get at how people feel.
+
+The Likert scale is very popular. You may not see the semantic difference scale, but examples will follow.
+
+Delivery by mail or Internet. There are pros and cons to all formats. Item types could include open ended, partial (responses plus other), and close ended responses.
+
+</div>
+
+***
+### Descriptive Research 
+
++ Surveys
+	+ Methods
+		+ Interview
+		+ Questionnaires
+	+ Design of surveys
+		+ Research question
+		+ Review of existing instruments
+		+ Process of designing survey
+
+<div class="notes">
+
+Interview allows you to probe for comments. Video as well as audio is now available. It takes time and training. Concerns about anonymity with an interview.
+
+Questionnaires are self-administered. Return rates are a concern. When sent out blindly, you can get low return rates, which hurts the generalizability of the study. There is potential for misunderstanding and people may get into a routine response and not provide as good quality of response.
+
+Design the survey to address your research question. Thing about the pieces and the order.
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Surveys
+	+ Survey question format –
+		+ Open ended
+		+ Close ended
+	+ Wording of questions
+	+ Scales
+		+ Scale of measurement
+		+ Response options
+
+<div class="notes">
+
+Even as simple as something like age, you can ask it in an open ended format that allows you to categorize any way you like or even to forgo categorization.
+
+Wording is important. Simplicity and reading level. Use standardized scales whenever you can. 
+
+Double-barreled questions. [[Ask option about supervisors and managers]]
+
+How many times questions, think about the time frame (over the past 24 hours, past week, past month). Shorter time frames better recall, but subject to more external variations.
+
+Building a level of trust. Don't ask people to admit to "bad behavior". Think of it from the perspective of the person providing the information.
+
+[[Income: actual versus categories]]
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-02.png)
+
+<div class="notes">
+
++ Open ended vs Close ended
+
+Respective roles of open or close ended format. This is a nice guide.
+
+.footnote[Sim & Wright, 2002]
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-03.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Likert
+
+.footnote[Portney & Watkins, 2009]
+
+Example of five points (SD, D, N, A, SA)
+
+</div>
+
+***
+### Data Collection Techniques 
+
+..[](../images/image-10-04.png)
+
+<div class="notes">
+
+Everyone uses the term Likert with a hard-i, but the persons who developed this scale used a soft-i.
+
+All items contributing to a total.
+
+Some debate about the number of categories. Odd versus even. Even forces an opinion. Also a debate over a large versus a small number of items.
+
+Do you want to reverse code some items. It could help keep the participants alert and thingking  This may end up confusing. [[13 questions, but question 8, first question on the bakc page, was the only reverse coding.]]
+
++ Surveys – Response Options
+	+ Likert
+
+.footnote[Sim & Wright, 2002]
+
+Figure 15.8 is a different version of a five point scale.
+
+Commercial plug for REDCap. Entry on a tablet. Coding is done on the back-end.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-05.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Likert
+
+.footnote[Sim & Wright, 2002] 
+
+Figure 15.9 shows a seven point response.
+
+IRB insistence on a "Prefer Not to Answer" response. Contrast this to a "Neutral" option.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-06.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+
+.footnote[Sim & Wright, 2002]
+
+Figure 15.3 
+
+These scales seem backwards to Mary. You don't necessarily need to include the numbers are on the form. They can be added on the back end.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-07.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+
+Figure 15.4, Sim & Wright, 2002.
+
+Not at all, somewhat, moderately, very much, extremely.
+
+Note that the largest number is associated with "not at all".
+
+Double check that everyone agrees that somewhat is less than moderate, very much is less than extremely.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-08.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+
+Figure 15.5. [Sim & Wright, 2002]
+
+Good, Fair, Poor is a three point scale. Add Very good for a four point scale. Add Excellent to get a five point scale.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-09.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Semantic Differential
+
+Figure 15.4 [Portney & Watkins, 2009]
+
+This is an example of a semantic differential. Seven point scale. Only label the extremes. Notice the reverse scaling of some items.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-10.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Semantic Differential
+
+Figure 15.11 [Portney & Watkins, 2009]
+
+A second example of a semantic differential scale.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-11.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Visual Analogue Scale (VAS)
+
+Figure 15.5. [Portney & Watkins, 2009]
+
+Commonly used for pain. Usually the line is 100 mm long. Gives you a number from 0 to 100, which allows you to treat this as a continuous variable.
+
+Anchors at each extreme.
+
+How do you handle a check mark.
+
+This is a very labor intensive data entry task.
+
+Note that the photocopy process can change the length of the scale (102 mm versus 100 mm).
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-12.png)
+
+<div class="notes">
+
++ Surveys – Response Options
+	+ Numerical Rating Scale
+
+Figure 15.1 [Sim & Wright, 2002]
+
+This scale has 7 numbers with anchors at each end.
+
+</div>
+
+***
+### Descriptive Research 
+
++ Surveys
+	+ Pit-falls and words of caution
+		+ How responses are recorded
+		+ Wording of items
+			+ Literacy level
+			+ “ Loaded ” wording
+		+ Complexity of items
+			+ More than 1 “ unit ” in a single item
+			+ Clearly stated terms
+
+<div class="notes">
+
+There are ways of checking the reading level of the survey. Good instructions. Branching (if "no" skip) patterns need to be laid out very clearly.
+
+</div>
+
+***
+### Data Collection Techniques 
+
+![](../images/image-10-13.png)
+
+<div class="notes">
+
+Sim and Wright. Sources of bias in attitude measurement.
+
+Social desirability, conformity, denial, acquiescence.
+
+Leading questions, loaded terminology, presumptive (wife-beating) 
+
+Response set (stuck on the same value), or tendency to extremes.
+
+Example of "push polling."
+
+"Any other comments?" http://www.biomedcentral.com/1471-2288/4/25.
+
+http://www.pmean.com/04/DesigningQuestionnaire.html
+
+</div>
+
+***
+### Data Collection Techniques 
+
++ Surveys – Example
+	+ Using a scale of 0 to 100, please indicate the percentage of time you take all the doses of your medicine?
+	+ … take all the pills in each of your doses?
+	+ … take all doses on the prescribed schedule?
+	+ … follow all special instructions …
+	+ … make sure you refill all of your medications on time?
+	
+<div class="notes">
+
+Medical history interview. Anti-retroviral medication, but some had no history yet, so used adherence in general. This gets tricky with multiple medications.
+
+There's an issue that came up when using this study, which will be discussed in the discussion board. Answer these questions yourself, and how you based your response to the second through fourth items.
+
+</div>
+
+***
+***
+### Data Collection & Coding 
+
+![](../images/image-10-14.png)
+
+<div class="notes">
+
+Figure 2.1 from your book. This is back from Chapter 2, and keep this in mind when you are designing your data collection.
+
+</div>
+
+***
+### Data Collection & Coding 
+
++ Initial Steps
+	+ Planning the study
+	+ Pilot testing
+	+ Data collection
+		+ Check for completeness if possible
+
+<div class="notes">
+
+How things are working, where there is lack of clarity, how long does it take, where the systems don't work.
+
+Make sure that your extraction process is complete as possible for secondary data. For prospective surveys, flip through a survey upside down to see if items are all filled in. Hope that you haven't missed a page. Electronic collection can force someone to respond before they answer the next question.
+
+[[Ethically can't force someone to complete a questionnaire.]]
+
+How do you handle multiple responses.
+
+Code the maximal detail of variables like age so you can collapse as you see fit. Make sure that you code missing or ambiguous responses consistently.
+
+REDCap is great!
+
+[[Double entry coding]]
+
+</div>
+
+***
+### Data Collection & Coding 
+
++ Data Coding, Entry, and Checking
+	+ Guidelines
+		+ Mutually exclusive levels
+		+ Code for maximum information
+		+ Record is as complete as possible
+		+ Consistency
+	+ Data entry form
+	+ Checking entry
+
+<div class="notes">
+
+
+
+</div>
+
+***
+### Data Collection & Coding 
+
+![](../images/image-10-15.png)
+
+<div class="notes">
+
+Figure 15.2. Completed survey with callout boxes showing how we handled problem responses.
+
+</div>
+
+***
+### Data Collection & Coding 
+
++ Data Entry into Statistical Program
+	+ Layout of data sheet
+	+ Variable names
+	+ Labeling
+		+ Variables
+		+ Values
+	+ Codebook / documentation
+
+<div class="notes">
+
+[[See Intro to SAS/R material]]
+
+By thinking about the backend process, you can sometimes fix things before you collect the data.
+
+Mary uses Excel for documentation, but never for analysis, rarely for data entry.
+
+Summarizes factor analysis, Cronbach's alpha. Note whether better to have high score or better to have low score.
+
+[[EUSpRIG site]]
+
+</div>
+
+***
+### Data Collection & Coding 
+
++ Data Summation
+	+ Descriptive information
+		+ Categorical variables
+		+ Continuous variables
+	+ Data checking – part 2
+
+<div class="notes">
+
+Look for inconsistent values, outliers, invalid values.
+
+Note that certain responses on one question might lead to limits on the responses to other questions. Example, ever smoked? versus How many years?
+
+</div>
+
+***
+### Data Collection & Coding 
+
+
+![](../images/image-10-16.png)
+
+<div class="notes">
+
+Figure 15.4 shows SPSS output using descriptive statisticis to check data entry. Example of Likert scale where everyone responded 5. Note the number of responses/missing responses.
+
+
+Hopefully, you've done such a good job planning that these issues don't arise after the data is collected. [[Ha!]]
+
+</div>
+
+
+### Measurement dichotomies
+
+* Standardized versus investigator developed measures
+* Researcher evaluation versus patient report
+* Field measurements versus laboratory measurements
+  + Ecological validity
+* Standardized test
+
+### Researcher evaluations
+
+* Norm referenced tests
+* Criterion referenced tests
+* Achievement tests
+* Performance assessment
+  + Authentic assessment
+* Aptitude tests
+* Projective technique
+* Documents
+
+### Self report
+
+* Standardized personality inventories
+  + Paper and pencil
+  + Machine scored
+
+### Questionnaires
+
+* Definitions
+  + Survey
+  + Questionnaire
+  + Interview
+  
+### Delivery
+
+* Remote administration
+  + Mail
+  + Internet (Survey Monkey)
+* Direct administration
+
+### Structure
+
+* Open ended
+* Partially open ended
+* Unordered closed response
+* Ordered closed response
+
+* Interviews
+  + Telephone
+  + Face-to-face
+* Focus groups
 
 
 
