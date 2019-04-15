@@ -13,14 +13,14 @@ Created: Tuesday, March 19, 2019
 
 Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
 
-Please complete all work by midnight, `r tue[12]` to receive full credit.
+Please complete all work by midnight, `r wed[12]` to receive full credit.
 
-## Week 10: Data collection
+## Week 11: Data management
 
 ### Learning objectives for this week
 
-* To discuss different methods of collecting data
-* To describe the advantages and disadvantages of different data collection methods
+* To describe informationdiscuss different methods of collecting data
+* To describe the issues associated with different data collection methods
 
 ### Reading for this week
 
@@ -57,7 +57,5 @@ Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enoug
 ### Discussion questions for this week
 
 * D11-01. `r read_text("minute-paper")`
-
-* D11-02. (Two points) 
 
 * D11-EC. `r read_text("extra-credit")`
