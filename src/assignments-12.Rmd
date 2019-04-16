@@ -32,9 +32,33 @@ Please complete all work by midnight, `r tue[12]` to receive full credit.
 
 ### Recommended reading
 
+Dillinger M. Writing up the Methods Section. Available in [PDF format](mikedillinger.com/SJSUpapers/WriteupMethodsSection.pdf).
+
+Explain xkcd. 882: Significant. Available in [html format](https://www.explainxkcd.com/wiki/index.php/882:_Significant).
+
+Explain xkcd. 1478: P-Values. Available in [html format](https://www.explainxkcd.com/wiki/index.php/1478:_P-Values).
+
+Ghasemi A, Bahadoran Z, Zadeh-Vakili A, Montazeri SA, Hosseinpanah F. The Principles of Biomedical Scientific Writing: Materials and Methods. Int J Endocrinol Metab. 2019;17(1):e88155. Published 2019 Jan 28. doi:10.5812/ijem.88155. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6413392/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6413392/pdf/ijem-17-01-88155.pdf).
+
+International Commitee of Medical Journal Editors. Uniform requirements for manuscripts submitted to biomedical journals: Writing and editing for biomedical publication. J Pharmacol Pharmacother. 2010;1(1):42–58. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3142758/).
+
+Kallestinova ED. How to write your first research paper. Yale J Biol Med. 2011;84(3):181–190. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/) and [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/pdf/yjbm_84_3_181.pdf).
+
+Kallet RH. How to Write the Methods Section of a Research Paper. Respiratory Care Oct 2004, 49(10), 1229-1232. Available in [PDF format](http://rc.rcjournal.com/content/49/10/1229/tab-pdf).
+
+Kotsis SV, Chung KC. A guide for writing in the scientific forum. Plast Reconstr Surg. 2010;126(5):1763–1771. doi:10.1097/PRS.0b013e3181ef8074. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3052777/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3052777/pdf/nihms-221611.pdf).
+
+Pakes GE. Writing Manuscripts Describing Clinical Trials: A Guide for Pharmacotherapeutic Researchers. Annals of Pharmacotherapy, vol. 35, no. 6, June 2001, pp. 770–779, doi:10.1345/aph.10252. Available in [PDF format](https://journals.sagepub.com/doi/pdf/10.1345/aph.10252).
+
 Sackett DL. Why randomized controlled trials fail but needn’t: 2. Failure to employ physiological statistics, or the only formula a clinician-trialist is ever likely to need (or understand!). CMAJ. 2001;165(9):1226–1237. Available in [html format](http://www.cmaj.ca/content/165/9/1226.short) or [PDF format](http://www.cmaj.ca/content/165/9/1226.full.pdf).
 
+Simon SD. Pitch the pie! Ban the bar! StATS website, June 5, 2003. Available in [html format](http://www.pmean.com/03/barpie.html). An updated version is also available in [html format](http://www.pmean.com/news/2009-09.html#3).
+
+Simon SD. Displaying tables of percentages. StATS website, November 6, 2002. Available in [html format](http://www.pmean.com/02/percentage.html)
+
 Wasserstein RL, Lazar NA (2016) The ASA's Statement on p-Values: Context, Process, and Purpose, The American Statistician, 70:2, 129-133, DOI: 10.1080/00031305.2016.1154108. Availalble in [html format](https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108) or [PDF format](https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108).
+
+Wu YP, Thompson D, Aroian KJ, McQuaid EL, Deatrick JA. Commentary: Writing and Evaluating Qualitative Research Reports. J Pediatr Psychol. 2016;41(5):493–505. doi:10.1093/jpepsy/jsw032. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888120/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888120/pdf/jsw032.pdf).
 
 
 ### Discussion questions for this week

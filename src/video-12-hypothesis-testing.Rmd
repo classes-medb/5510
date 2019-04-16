@@ -451,36 +451,115 @@ I wrote this question quickly, so shame, shame on me. But I've reproduced the ex
 + Not very informative if it is large
   + Need a power calculation, OR
   + Narrow confidence interval
++ Not very helpful for huge data sets
 
 <div class="notes">
 
-The p-value is not a measure for either hypothesis. It is always a measure against a particular hypothesis. Now when hte p-value is small, you can make a strong statement. We have lots of evidence against the null hypothesis. That translates into lots of evidence in favor of the alternative hypothesis.
+The p-value is not a measure for either hypothesis. It is always a measure against a particular hypothesis. Now when the p-value is small, you can make a strong statement. We have lots of evidence against the null hypothesis. That translates into lots of evidence in favor of the alternative hypothesis.
 
-When the p-value is large, however, you are in a quandry. Little or no evidence against the null hypothesis is not the same as lots of evidence for the null hypothesis. 
+When the p-value is large, however, you are in a quandry. Little or no evidence against the null hypothesis is not the same as lots of evidence for the null hypothesis.
 
-It's possible to have little or no evidence against the null and also have little or no evidence against the alternative.
+It's possible to have little or no evidence against the null and also have little or no evidence against the alternative. This happens whenever you have a really small sample size combined with a lot of noise.
 
 You can't prove a negative, so the saying goes. Well, you can prove a negative, but you have to work harder at it. A large p-value by itself is not persuasive, but if you combine it with a power calculation done prior to data collection, that's pretty good evidence in support of the null hypothesis.
 
 You could also combine a large p-value with a narrow confidence interval to support the null hypothesis. I'll talk about that more in just a bit.
 
+In general, the p-value is not very helpful for large samples. We're seeing this more and more. Just about everything pops up as statistically significant with these huge data sets, and you can't use the p-value to separate the important stuff from the trivial stuff. You need to look instead at the magnitude of the sample estimates and calculate how much uncertainty you can remove in your future predictions.
+
 </div>
-  
-### p-value
+
+### p-hacking (1 of 2)
+
+![xkcd cartoon about jelly beans and cancer](../images/12/significant.png)
 
 <div class="notes">
 
-A large p-value should not automatically be construed as evidence in support of the null hypothesis. Perhaps the failure to reject the null hypothesis was caused by an inadequate sample size. When you see a large p-value in a research study, you should also look for one of two things:
+[A girl with a black ponytail runs up to Cueball, who subsequently points off-panel where there are presumably scientists.]
+Girl with black ponytail: Jelly beans cause acne!
+Cueball: Scientists! Investigate!
+Scientist (off screen): But we're playing Minecraft! 
+Scientist (off screen): ...Fine.
 
-a power calculation that confirms that the sample size in that study was adequate for detecting a clinically relevant difference; and/or
+[Two scientists. The man has safety goggles on, Megan has a sheet of notes.]
+Scientist with goggles: We found no link between jelly beans and acne (p > 0.05).
 
-a confidence interval that lies entirely within the range of clinical indifference.
+[Back to the original two.]
+Cueball: That settles that.
+Girl with black ponytail: I hear it's only a certain color that causes it.
+Cueball: Scientists!
+Scientist (off screen): But Miiiinecraft!
 
-You should also be cautious about a small p-value, but for different reasons. In some situations, the sample size is so large that even differences that are trivial from a medical perspective can still achieve statistical significance.
+[20 identical small panels follow, 4 rows 5 columns. The exact same picture as in panel 2 above. The scientist with goggles are stating the results and Megan holds some notes in her hand. The only difference from panel to panel is the color and then in the 14th panel where the result is positive and there is an exclamation from off screen.]
+Scientist with goggles: We found no link between purple jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between brown jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between pink jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between blue jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between teal jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between salmon jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between red jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between turquoise jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between magenta jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between yellow jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between grey jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between tan jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between cyan jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found a link between green jelly beans and acne (p < 0.05).
+Voice (off screen): Whoa!
+
+Scientist with goggles: We found no link between mauve jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between beige jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between lilac jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between black jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between peach jelly beans and acne (p > 0.05).
+
+Scientist with goggles: We found no link between orange jelly beans and acne (p > 0.05).
+
+[Newspaper front page with a picture with three green jelly beans. There are several sections with unreadable text below each of the last three readable sentences.]
+News
+Green Jelly Beans Linked To Acne!
+95% Confidence
+Only 5% chance of coincidence!
+Scientists...
+
+If you are interested in a transcript and a detailed explanation, https://www.explainxkcd.com/wiki/index.php/882:_Significant
 
 </div>
 
-### p-hacking
+  
+### p-hacking (2 of 2)
+
++ Abuse of the hypothesis testing framework.
+  + Run multiple tests on the same outcometen tests and choose the one with the smallest p-value
+  + Test multiple outcome measures
+  + Remove outliers and retest
+  + Post hoc changes
++ Defenses against p-hacking
+  + Bonferroni
+  + Published protocol
+
+<div class="notes">
+
+
+
+</div>
 
 ### Third break
 
@@ -503,27 +582,27 @@ We statisticians have a habit of hedging our bets. We always insert qualifiers i
 
 We qualify our statements, of course, because we are always dealing with imperfect information. In particular, we are often asked to make statements about a population (a large group of subjects) using information from a sample (a small, but carefully selected subset of this population). No matter how carefully this sample is selected to be a fair and unbiased representation of the population, relying on information from a sample will always lead to some level of uncertainty.
 
-A confidence interval is a range of values that tries to quantify this uncertainty. Consider it as a range of plausible values. A narrow confidence interval implies high precision; we can specify plausible values to within a tiny range. A wide interval implies poor precision; we can only specify plausible values to a broad and uninformative range.
+A confidence interval is a range of values that tries to quantify this uncertainty. Consider it as a range of plausible values. 
+
+A narrow confidence interval implies high precision; we can specify plausible values to within a tiny range. A wide interval implies poor precision; we can only specify plausible values to a broad and uninformative range.
 
 </div>
 
 ### Example of a confidence interval
 
 + Homeopathic treatment of swelling after oral surgery
-  + Lokken 1995
+  + 95% CI: -5.5 to 7.5 mm
   + Lokken P, Straumsheim PA, Tveiten D, Skjelbred P, Borchgrevink CF. Effect of homoeopathy on pain and other events after acute trauma: placebo controlled trial with bilateral oral surgery BMJ. 1995;310(6992):1439-1442. http://www.bmj.com/content/310/6992/1439.full
   
 <div class="notes">
 
+Always look for confidence intervals that are wide enough to drive a truck through. They are very good indicators of small sample sizes.
+
 Consider a recent study of homoeopathic treatment of pain and swelling after oral surgery (Lokken 1995). When examining swelling 3 days after the operation, they showed that homoeopathy led to 1 mm less swelling on average. The 95% confidence interval, however, ranged from -5.5 to 7.5 mm. From what little I know about oral surgery, this appears to be a very wide interval. This interval implies that neither a large improvement due to homoeopathy nor a large decrement could be ruled out.
 
-Generally when a confidence interval is very wide like this one, it is an indication of an inadequate sample size, an issue that the authors mention in the discussion section of this paper.
+Now, you can't drive a truck through an interval that goes from -5.5 to 7.5 mm, but from the perspective of a human mouth, this interval is huge. Generally when a confidence interval is very wide like this one, it is an indication of an inadequate sample size, an issue that the authors mention in the discussion section of this paper.
 
 </div>
-
-### How to Interpret a Confidence Interval
-
-When you see a confidence interval in a published medical report, you should look for two things. First, does the interval contain a value that implies no change or no effect? For example, with a confidence interval for a difference look to see whether that interval includes zero. With a confidence interval for a ratio, look to see whether that interval contains one.
 
 ### Confidence interval interpretation (1 of 7)
 
@@ -531,7 +610,9 @@ When you see a confidence interval in a published medical report, you should loo
 
 <div class="notes">
 
-Here's an example of a confidence interval that contains the null value. The interval shown below implies no statistically significant change.
+When you see a confidence interval in a published medical report, you should look for two things. First, does the interval contain a value that implies no change or no effect? For example, with a confidence interval for a difference look to see whether that interval includes zero. With a confidence interval for a ratio, look to see whether that interval contains one.
+
+Here's an example of a confidence interval that contains the null value. This interval implies no statistically significant change.
 
 </div>
 
@@ -541,7 +622,7 @@ Here's an example of a confidence interval that contains the null value. The int
 
 <div class="notes">
 
-Here's an example of a confidence interval that excludes the null value. If we assume that larger implies better, then the interval shown below would imply a statistically significant improvement.
+Here's an example of a confidence interval that excludes the null value. If we assume that larger implies better, then the interval would imply a statistically significant improvement.
 
 </div>
 
@@ -551,7 +632,7 @@ Here's an example of a confidence interval that excludes the null value. If we a
 
 <div class="notes">
 
-Here's a different example of a confidence interval that excludes the null value. The interval shown below implies a statistically significant decline.
+Here's a different example of a confidence interval that excludes the null value. This interval implies a statistically significant decline.
 
 </div>
 
@@ -563,7 +644,7 @@ Here's a different example of a confidence interval that excludes the null value
 
 You should also see whether the confidence interval lies partly or entirely within a range of clinical indifference. Clinical indifference represents values of such a trivial size that you would not want to change your current practice. For example, you would not recommend a special diet that showed a one year weight loss of only five pounds. You would not order a diagnostic test that had a predictive value of less than 50%.
 
-Clinical indifference is a medical judgment, and not a statistical judgment. It depends on your knowledge of the range of possible treatments, their costs, and their side effects. As statistician, I can only speculate on what a range of clinical indifference is. I do want to emphasize, however, that if a confidence interval is contained entirely within your range of clinical indifference, then you have clear and convincing evidence to keep doing things the same way (see below).
+Clinical indifference is a medical judgment, and not a statistical judgment. It depends on your knowledge of the range of possible treatments, their costs, and their side effects. As statistician, I can only speculate on what a range of clinical indifference is. I do want to emphasize, however, that if a confidence interval is contained entirely within your range of clinical indifference, then you have clear and convincing evidence to keep doing things the same way.
 
 </div>
 
@@ -573,7 +654,7 @@ Clinical indifference is a medical judgment, and not a statistical judgment. It 
 
 <div class="notes">
 
-One the other hand, if part of the confidence interval lies outside the range of clinical indifference, then you should consider the possibility that the sample size is too small (see below).
+One the other hand, if part of the confidence interval lies outside the range of clinical indifference, then you should consider the possibility that the sample size is too small.
 
 </div>
 
@@ -583,7 +664,7 @@ One the other hand, if part of the confidence interval lies outside the range of
 
 <div class="notes">
 
-Some studies have sample sizes that are so large that even trivial differences are declared statistically significant. If your confidence interval excludes the null value but still lies entirely within the range of clinical indifference, then you have a result with statistical significance, but no practical significance (see below).
+Some studies have sample sizes that are so large that even trivial differences are declared statistically significant. If your confidence interval excludes the null value but still lies entirely within the range of clinical indifference, then you have a result with statistical significance, but no practical significance.
 
 </div>
 
@@ -593,7 +674,7 @@ Some studies have sample sizes that are so large that even trivial differences a
 
 <div class="notes">
 
-Finally, if your confidence interval excludes the null value and lies outside the range of clinical indifference, then you have both statistical and practical significance (see below).
+Finally, if your confidence interval excludes the null value and lies outside the range of clinical indifference, then you have both statistical and practical significance.
 
 </div>
 
@@ -639,7 +720,7 @@ A formal hypothesis test to demonstrate that a new drug is not substantially wor
 
 Sometimes it's easy. So in testing a flu vaccine, you might tolerate a 20% decline in the number of colds if you could knew that you would be getting at least a 20% increase in the number of people who would be getting vaccinated.
 
-Other times, it's tricky. A side effect of the flu vaccine is localized soreness, and while we want to minimize this, experiencing localized soreness and experiencing the flu are not the same thing. You might want to set up a ratio, that ten localized soreness events equals one flu event. Then, if you knew that the new vaccine would have 20% fewer problems with localized soreness, you'd be able to only tolerate a 2% decline in efficacy. Anything worse, and you'd have less than a 10 to 1 ratio.
+Other times, it's tricky. A side effect of the flu vaccine is localized soreness, and while we want to minimize this, experiencing localized soreness and experiencing the flu are not the same thing. You might want to set up a ratio, say, that ten localized soreness events equals one flu event. Then, if you knew that the new vaccine would have 20% fewer problems with localized soreness, you'd be able to only tolerate a 2% decline in efficacy. Anything worse, and you'd have less than a 10 to 1 ratio.
 
 If the new vaccine were 50% cheaper, you'd just have to figure out the dollar value associated with a single case of the flu and do make sure that the proportion of fewer cures times cost of a single cure was smaller than the cost savings. So if all the bad things associated with the flu, the suffering, the lost work time, and the increased risk of other bad things like pneumonia had a dollar value of five thousand dollars, and you could save two hundred dollars per dose of vaccine, then you'd need to need to make sure that the decline in efficacy was not 4% or worse. 
 
@@ -703,7 +784,24 @@ segments(1.2, 0, 1.2, 0.45, col="gray")
 text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 ```
 
-***
+### Sample size justification
+
++ Rules of thumb
+  + Rule of 50
+  + Rule of 16
++ CI width  
++ Power calculations
++ Confidence = $\frac{Signal}{Noise}\sqrt{Sample\ size}$
++ Effect sizes - never!
++ Post hoc power - never!
+
+<div class="notes">
+
+
+
+</div>
+
+
 ### Power Analysis 
 
 + Probability of rejecting a false H 0
@@ -757,12 +855,12 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
   + Criticisms of hypothesis testing
   + Bayesian data analysis
 
-### Criticisms of hypothesis testing (1 of 3)
+### Criticisms of hypothesis testing (1 of 4)
 
 + Criticisms of the binary hypothesis
+  + Dichotomy is simplistic
   + Point null is never true
   + Cannot prove the null
-  + Dichotomy is simplistic
   
 <div class="notes">
 
@@ -770,7 +868,7 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 
 </div>
 
-### Criticisms of hypothesis testing (2 of 3)
+### Criticisms of hypothesis testing (2 of 4)
 
 + Criticisms of the p-value
   + Not intuitive, easily misunderstood
@@ -784,7 +882,7 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 
 </div>
 
-### Criticisms of hypothesis testing (3 of 3)
+### Criticisms of hypothesis testing (3 of 4)
 
 + General criticisms
   + Too hard to reject H0
@@ -795,6 +893,28 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 <div class="notes">
 
 
+
+</div>
+
+### Criticisms of hypothesis testing (4 of 4)
+
+![Cartoon showing interpretation of various p-values](../images/12/p_values.png)
+
+<div class="notes">
+
+This is a cartoon showing a table of p-values with various labels.
+
+0.001, 0.01, 0.02, and 0.03 are labeled "Highly Significant".
+
+0.04 and 0.049 are labeled "Significant".
+
+0.050 is labeled "Oh crap. Redo calculations." This is because no one knows what exactly to do with a p-value that is right on the boundary.
+
+0.051, 0.06 are labeled "On the edge of significance". If these values are on the edge of significance then the 0.04 and 0.049 should share that same label. But no one uses these hedging terms unless they are on the "wrong" side of 0.05.
+
+0.07, 0.08, 0.09, 0.099 are labeled "Highly suggestive, relevant at the p<0.10 level". I personally don't have a complaint here, but others consider this a post hoc modification and a form of p-hacking.
+
+≥0.1 is labeled "Hey, look at this interesting subgroup analysis". This is a reference to p-hacking. If your primary p-value is not statistically significant, hunt for some other p-values.
 
 </div>
 
@@ -1067,14 +1187,202 @@ Measurement scales can limit what you can say about your results.
   + Descriptive statistics
   + Linear regression
 
-### Quality checks
+### Descriptive statistics
++ Part of every quantitative study
++ Table 1, overall summaries
+  + Means and standard deviations
+  + Percentages
++ Key subgroup comparisons
+  + Crosstabulations
+  + Means/standard deviations by subgroup
+  + Correlations
+  
+### Table of percentages
 
-* Minimum and maximum checks
+![](../images/12/percentage2.gif)
+
+<div class="notes">
+
+Dear Professor Mean, My colleagues and I argue over the most appropriate way for displaying tables of percentages. Must the row or column always add to 100%? Also, in cases where it is difficult to know which variable is dependent, how does one decide the best way to present the results? -- Garrulous Gail
+
+Dear Garrulous,
+
+When you are deciding how to display two by two (or larger) tables, you have a variety of ways to do this. No way is correct all the time, and some of choices reflect subjective judgment. But here are some rules I use.
+
+Never display more than one type of number in a table. Statistical software like SPSS can produce counts, row percents, column percents, cell percents, expected counts, residuals, and/or cell contribution to chi-squared values. At one time or another you might want to use each of these statistics, but never all at one time. Two or more numbers in a table causes confusion and makes your tables harder to interpret.
+
+Present a single summary statistic in the table if at all possible. If you need to display two summary statistics (for example, both counts and row percentages), then place the counts in one table and the row percentages in a different table. If you have to fit them in the same table, place the two numbers side by side with the less important number appearing second and in parentheses For example, 54% (257).
+
+Row percentages are usually best. Row percentages are the percentages you compute by dividing each count by the row total. Row percentages place the comparison between two numbers within a single column, so that one number is directly beneath the number you want to compare it to. This is usually better than column percents, where the numbers you want to compare are side by side. If you find that column percentages make more sense. Consider swapping the rows and columns.
+
+If you find that cell percentages make the most sense, consider creating composite categories that combine the row and column categories. Cell percentages are the percentages that you get when you divide each cell count by the overall total. When cell percents are interesting, it usually means that you are interested in the four distinct categories in your two by two table. For example, you are interested in seeing what fraction of job candidates are white males, rather than seeing how the probability of being male influences the probability of being white. For this type of data, treat it as a single categorical variable with four levels (white males, white females, black males, black females) rather than two categorical variables with each having two levels (black/white, male/female).
+
+Place the treatment/exposure variable as rows and outcome variable as columns. This relates to the above item. You usually are interested in the probability of an outcome like death or disease, and you are interested in how this probability changes when the treatment or exposure changes. Arranging the table thusly and using row percents usually gets you the comparison you are interested in.
+
+If one variable has a lot more levels than the other variable, place that variable in rows. A table that is tall and thin is usually easier to read than a table that is short and wide. It is easier to scroll up and down rather than left and right. For a really large number of levels, you might have to print your table on two or more pages. Usually it is a lot easier to align these pages if the table is tall and thin. A short wide table that is split on two or more pages is often a disaster.
+
+Whenever you report percentages, always round. A change on the order of tenths of a percent are almost never interesting or important. Displaying that tenth of a percent makes it harder to manipulate the numbers to see the big picture.
+
+Don't worry about whether your percentages add up to 99% or 101%. First of all, it can't happen with a two by two table unless you round incorrectly. For a larger table, it can happen, but your audience is sophisticated enough to understand why this is the case. No one, for example, is going to be upset when 33% plus 33% plus 33% adds up to less than 100%.
+
+When in doubt, write out your table several different ways. Pick out the one that gives the clearest picture of what is really happening. Don't rely on the first draft of your table, just like you would never rely on the first draft of your writing.
+
+A simple fictitious example will help illustrate these points.
+
+We classify people by their income (rich/poor) and also by their attitude (happy/miserable). There are, for example,  30 rich happy people in our sample and 70 poor miserable people.
+
+</div>
+  
+### Table of column percentages
+
+![](../images/12/percentage1.gif)
+
+<div class="notes">
+
+This figure shows column percentages. We compute this by dividing each number by the column total.
+
+We see for example that only 25% of all happy people are rich. This is a conditional probability and is usually written as P[Rich | Happy]. Read the vertical bar as "given." So this probability is read as the probability of being rich given that you are happy.
+
+</div>
+  
+### Table of row percentages
+
+![](../images/12/percentage3.gif)
+
+<div class="notes">
+
+This figure shows row percentages. We compute this by dividing each number by the row total.
+
+We see, for example that 75% of rich people are happy. This is a different conditional probability, P[Happy | Rich]. Read this as the probability of being happy given that you are rich.
+
+Notice the distinction between the two probabilities. Only a few happy people are rich, but most rich people are happy.
+
+</div>
+  
+### Table of cell percentages
+
+![](../images/12/percentage4.gif)
+
+<div class="notes">
+
+This figure shows cell percentages. We compute this by dividing each number by the grand total. Each percentage represents the probability of having two conditions. For example, there is a 15% chance of being rich and happy.
+
+</div>
+  
+### Combining two numbers
+
+![](../images/12/percentage5.gif)
+
+<div class="notes">
+
+The table above shows a good format for combining two numbers in a single table.
+
+</div>
+  
+### Table of percentages
+
+![](../images/12/percentage6.gif)
+
+<div class="notes">
+
+This is an alternate way of displaying cell percentages.
+
+If we had a six categories for attitude rather than just two, we might arrange the table differently.
+
+</div>
+  
+### Table of percentages
+
+![](../images/12/percentage7.gif)
+
+<div class="notes">
+
+Notice that this table would not require any sideways scrolling.
+
+
+Never display more than one type of number in a table.
+
+Row percentages are usually best.
+
+Place the treatment/exposure variable as rows and outcome variable as columns.
+
+If one variable has a lot more levels than the other variable, place that variable in rows.
+
+Whenever you report percentages, always round.
+
+Don't worry about whether your percentages add up to 99% or 101%.
+
+When in doubt, write out your table several different ways.
+
+</div>
+
+### Boxplot
+
+![](../images/12/boxplot1.gif)
+
+<div class="notes">
+
+The box plot is a graphical display of a five number summary. Sometimes the box plot is also known as a box and whiskers plot.
+
+Here are the four steps you follow to draw a boxplot.
+
+Draw a box from the 25th to the 75th percentile.
+
+Split the box with a line at the median.
+
+Draw a thin lines (whisker) from the 75th percentile up to the maximum value.
+
+Draw another thin line from the 25th percentile down to the minimum value.
+
+The length of the box in a box plot, i.e., the distance between the 25th and 75th percentiles, is known as the interquartile range. You can use this box length to detect outliers. If any whisker is more than 1.5 times as long as the length of the box, then we have evidence of outliers. A common variation on the box plot is to draw the whisker to the value which is just shy of 1.5 box lengths away, and highlight each individual data point more than 1.5 box lengths away.
+
+</div>
+  
+### Boxplot
+
+![](../images/12/boxplot2.gif)
+
+<div class="notes">
+
+The boxplot is useful for comparing the distributions of two different groups. If the median in one box exceeds the end of the box of the other group, that is evidence of a "large" discrepancy between the two groups. What passes as the median for one group would actually be the 25th or 75th percentile of the other group.
+
+Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can produce boxplots and you can find code to produce boxplots in many programming languages.
+
+</div>
+
+### Scatterplot
+
+![](../images/12/scatter1.png)
+
+### Graphs
++ Overall summaries
+  + Histograms for continuous data
+  + Bar/pie charts for categorical data
++ Assessing relationships
+  + Two by two table
+  + Boxplots
+  + Scatterplots
+  
+### Histogram examples (1 of 3)
+
+![Histogram showing a roughly bell shaped curve](../images/12/hist1.gif)
+
+### Histogram examples (2 of 3)
+
+![Histogram showing a skewed right distribution](../images/12/hist2.gif)
+
+### Histogram examples (3 of 3)
+
+![Histogram showing a bimodal distribution](../images/12/hist3.gif)
+
+### Quality checks (internal use, mostly)
+
++ Minimum and maximum checks
   + Out of range
   + Zero variation
-* Missing value count
-* List five five rows, last five rows
-* Correlations
++ Missing value count
++ List five five rows, last five rows
++ Correlations
 
 ### Data reduction
 
@@ -1090,6 +1398,128 @@ Measurement scales can limit what you can say about your results.
   + Sometimes based on precedent
   + Sometimes motivated by theory
   + Sometimes based on empirical findings
+  
+### Linear regression
+
++ Y = m X + b
++ m = Δy / Δx
++ The slope represents the estimated average change in Y when X increases by one unit.
++ The intercept represents the estimated average value of Y when X equals zero.
+
+<div class="notes">
+
+When I ask most people to remember their high school algebra class, I get a mixture of reactions. Most recoil in horror. About one in every four people say they liked that class. Personally, I thought that algebra, and all the other math classes I took were great because they didn't require writing a term paper.
+
+One formula in algebra that most people can recall is the formula for a straight line. Actually, there are several different formulas, but the one that most people cite is
+
+Y = m X + b
+
+where m represents the slope, and b represents the y-intercept (we'll call it just the intercept here). They can also sometimes remember the formula for the slope:
+
+m = Δy / Δx
+
+In English, we would say that this is the change in y divided by the change in x.
+
+In linear regression, we use a straight linear to estimate a trend in data. We can't always draw a straight line that passes through every data point, but we can find a line that "comes close" to most of the data. This line is an estimate, and we interpret the slope and the intercept of this line as follows:
+    
+The slope represents the estimated average change in Y when X increases by one unit.
+
+The intercept represents the estimated average value of Y when X equals zero.
+
+Be cautious with your interpretation of the intercept. Sometimes the value X=0 is impossible, implausible, or represents a dangerous extrapolation outside the range of the data.
+
+The graph shown below represents the relationship between mother's age and the duration of breast feeding in a research study on breast feeding in pre-term infants.
+
+</div>
+
+### Age vs duration
+
+![](../images/12/linear1.gif)
+
+<div class="notes">
+
+The graph shown below represents the relationship between mother's age and the duration of breast feeding in a research study on breast feeding in pre-term infants.
+
+The regression coefficients are shown below. The intercept, 6, is represented the estimated average duration of breast feeding for a mother that is zero years old. This is an impossible value, so the interpretation is not useful. What is useful, is the interpretation of the slope, approximately 0.4. The estimated average duration of breast feeding increases by 0.4 weeks for every extra year in the mother's age.
+
+</div>
+
+### Age vs duration
+
+![](../images/12/linear3.gif)
+
+<div class="notes">
+
+When X is categorical, the interpretation changes somewhat. Let's look at the simplest situation, a binary variable. A binary variable can have only two possible categories. Some examples are live/dead, treatment/control, diseased/healthy, male/female. We need to assign number codes to the categories. Most people assign the codes 1 and 2, but it is actually better to assign the codes 0 and 1.
+
+In a study of breast feeding, we have a treatment group and a control group. Let us label the treatment group as 1 and the control group as 0. The outcome variable is the age when breast feeding stopped.
+
+In this situation, the intercept, 13, represents the average duration for the control group. The slope is 7, which is the change in the average duration when we move from the control group to the treatment group.
+
+When we represent a binary variable using 0-1 coding, the slope represents the estimated average change in Y when you switch from one group to the other.
+
+The intercept represents the estimated average value of Y for the group coded as zero. 
+
+</div>
+
+### Unadjsted
+
+![](../images/12/linear10.gif)
+
+<div class="notes">
+
+
+
+There are two types of models, crude models and adjusted models. A crude model looks at how a single factor affects your outcome measure and ignores potential covariates. An adjusted model incorporates these potential covariaties. Start with a crude model. It's simpler and it helps you to get a quick overview of how things are panning out. Then continue by making adjustments for important confounders.
+
+A crude model for comparing duration of breast feeding to feeding group would be a t-test. I prefer, however, to present a general linear model because it provides a unifying framework for diverse statistical methods like analysis of variance, analysis of covariance, multiple linear regression, repeated measures designs, and t-tests.
+
+Shown below is the table of tests from the general linear model procedure.
+
+The general linear model uses an F test instead of the t test, but in this context, these two tests are mathematically equivalent. The p-value for comparing feeding groups is .001, which indicates a significant difference between the two groups.
+
+The general linear model also has a table of estimates, which is presented below.
+
+The intercept represents the average duration of breast feeding for the NG tube group. We see that the average duration is 20 weeks for the NG tube group. The (FEED_TYP=1) term is an estimate of how much the average duration changes when we move from the NG tube group to the bottle group. We see that the bottle group has an average duration that is 7 weeks shorter.
+
+Shown below is a table of means from the general linear model.
+
+We see that the difference between the two means is roughly 7 weeks, which confirms the results shown previously.
+
+
+
+</div>
+
+### Unadjsted
+
+![](../images/12/linear10.gif)
+
+<div class="notes">
+
+Step 2, Fit an adjusted model
+
+The previous model was a crude model. We see a seven week difference between the two groups, but could some of all of this difference be due to the fact that the NG tube group had older mothers? To answer this, we need to fit an adjusted model.
+
+Shown below is the table of tests for a general linear model that includes mother's age in the model.
+
+The p-value for feeding group is .009, which is still significant, even after adjusting for the effect of mother's age.
+
+Shown below is the table of estimates from the same general linear model.
+
+This table shows that the effect of bottle feeding is to decrease duration of breast feeding by about six weeks, after adjusting for mother's age. Each year that a mother is older increase the duration of breast feeding by a quarter of a week.
+
+A previous descriptive analysis of this data revealed that the average age for mothers in the treatment group is 29 years and the average age for mothers in the control group is 25 years. When you see a discrepancy like this in an important covariate, you need to assess whether the four year gap in average ages could account for part or all of the effect of the treatment group.
+
+This analysis shows that the four year gap only accounts for a small portion of the difference. Since each year of age changes the duration by a quarter week, this means that the difference between mother's ages acounts for just one week in the 7 week difference we saw in the crude model.
+
+Shown below is the table of means.
+
+This table now adjusts for mother's age. The mean for the bottle fed group is adjusted upward to what it would be if the average age of the mothers in this group were 27 rather than 25. The mean for the NG tube group is adjusted downward to what it would be if the average age were 27 instead of 29. Note that the adjusted mean duration is half a week higher than the crude mean duration in the bottle group and that the adjusted mean duration is half a week lower than the crude mean duration for the NG tube group. This confirms that the difference between the two feeding groups is roughly 6 weeks, after adjusting for mother's age. This is one week less than the crude model.
+
+This is not the final model. We should examine the effect of delivery type and account for the fact that we have some data on twins. I hope, though, that this presentation gives you a general idea of what crude and adjusted models are.
+
+
+</div>
 
 ### Seventh break
 
@@ -1276,7 +1706,7 @@ Low inference descriptors are those things involving just the basic words or tex
 
 
 ### Quantifying Information
-	+ Pros & Cons
++ Pros & Cons
 	+ When quantifying might be of value
 	+ Simple frequency of occurrence does NOT necessarily reflect importance
 
@@ -1292,6 +1722,45 @@ This was mentioned earlier.
   + Qualitative data analysis
 + What's coming next?
   + Writing a methods section
+  
+### What purpose does a methods section serve?
++ Assessment of the quality of your research
+  + Brag here about your rigor
+  + Save limitations for discussion
++ Allow others to replicate
+
+### What should not be included in the methods section
+
++ "The Methods section should include only information that was available at the time the plan or protocol for the study was being written; all information obtained during the study belongs in the Results section."
+  + International Commitee of Medical Journal Editors. Uniform requirements for manuscripts submitted to biomedical journals: Writing and editing for biomedical publication. J Pharmacol Pharmacother. 2010;1(1):42–58.
+
+### Sections of a methods section
++ Participants, Procedure, Measures/Materials, Analysis section (Frye, no date)
+
+### Sections of a methods section
++ Subjects, Ethical considerations, Preparations, Protocol design, Measurements and calculations, Data analysis (Kallet 2004)
+
+### Sections of a methods section
++ Participants, Materials (Stimuli, Testing materials, Background questionnaire), Procedure (Tasks, Design and analyses)
+
+### Sections of a methods section
++ What materials did you use? Who were the subjects of your study? What was the design of your research? What procedure did you follow? (Kallestinova 2011)
+
+### Sections of a methods section
++ Selection and description of participants, Technical information, Statistics. International Commitee of Medical Journal Editors 2010.
+
+### Sections of a methods section
++ Materials (Chemical, Experimental materials, Experimental animals, Human subjects), Methods (Study design, Measurements/assessments, Statistical analyses) (Ghasemi 2019)
+
+### Standard boilerplate
++ "Continuous variables were summarized as means and SDs, and categorical variables were summarized as percentages." Saleem 2019.
++ "All tests were two sided, and P values below the 5% level were regarded as significant." Lokken 1995.
+
+<div class="notes">
+
+Boilerplate refers to text that is used so often and without any changes that you can safely use it in your publication without fear of being accused of plagiarism. The first boilerplate comes early in your data analysis methods, and describes how you are summarizing continuous variables using means and standard deviations and summarizing categorical variables using percentages. The second boilerplate mentions that all of your statistical tests are two sided (which they are 90% of the time) and that you use an alpha level of 0.05 to decide what is statistically significant (which you do 99.99% of the time).
+
+</div>
   
 ### Conclusion
 
