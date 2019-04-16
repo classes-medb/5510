@@ -45,8 +45,8 @@ More than one answer above is correct.
   + statistically significant and clinically important.
   + not statistically significant, but is clinically important.
   + statistically significant, but not clinically important.
-  + is not statistically significant, and not clinically important.
-  + is ambiguous.
+  + not statistically significant, and not clinically important.
+  + ambiguous.
 
 
 <div class="notes">
@@ -55,17 +55,7 @@ Here's another question to toss out, but this time it is not poorly worded.
 
 A research paper computes a confidence interval for a relative risk of 0.82 to 3.94. What does this confidence interval tell you.
 
-The result is statistically significant and clinically important.
-
-The result is not statistically significant, but is clinically important.
-
-The result is statistically significant, but not clinically important.
-
-The result is not statistically significant, and not clinically important.
-
-The result is ambiguous.
-
-I do not know the answer.
+The result is statistically significant and clinically important, is not statistically significant, but is clinically important, and so forth. The last answer, the result is ambiguous, is the correct one, which you'll see in a little bit.
 
 </div>
 
@@ -94,7 +84,9 @@ Population: All infants born in the state of Missouri during the 1995 calendar y
 
 <div class="notes">
 
-Here's an example that hits on about all these.
+Here's an example that hits on about all these. All infants born in the state of Missouri during the 1995 calendar year who have one or more visits to the Emergency Room during their first year of life.
+
+Let's look at the different pieces.
 
 All infants (demography)
 
@@ -121,8 +113,6 @@ during their first year of life (time, again)
 
 A sample is a subet of a population. Usually it is of a much smaller size than the population. It has to be small enough to be manageable.
 
-A key question you should always is whether your sample is representative of your population.
-
 The primary goal of much research is to use information collected from a sample to try to characterize a certain population. As such, you should pay a lot of attention to how representative the sample is of the population.
 
 If there are problems, with representativeness, consider redefining your population a bit more narrowly. For example, a sample of 85 smokers between the ages of 13 and 18 in Rochester, Minnesota who respond to an advertisement about participation in a smoking cessation program might not be considered representative of the population of all teenage smokers, because the participants selected themselves. The sample might be more representative if we restrict our population to those teenage smokers who want to quit.
@@ -145,6 +135,8 @@ A parameter is a number computed from a population. Since the population is ofte
 
 A statistic is a number computed from a sample. Since the sample is small enough to be manageable, the values of the statistic are computed with the hope that they will be good estimates of the corresponding population parameter.
 
+Sampling error is the uncertainty created by the sampling process.
+
 </div>
 
 ### Hypotheses
@@ -154,12 +146,17 @@ A statistic is a number computed from a sample. Since the sample is small enough
   + No change, no effect
 + Alternative hypothesis
   + Designated by $H_a$
++ Decision rule
 
 <div class="notes">
 
-Researchers will often designate a null and alternative hypothesis. The null hypothesis (H0) is traditionally reserved for a hypothesis involving no effect, no change, or no trend.
+Researchers will often designate a null and alternative hypothesis. The null hypothesis (H0) is traditionally reserved for a hypothesis involving no effect, no change, or no trend. Let me emphasize that this is no change in a parameter.
 
 The alternative hypothesis implies some type of change, either an improvement or decrement. It could also imply some type of association: a positive association (as one variable increases, the other variable also increases), or a negative association (as one variable increases, the other variable decreases).
+
+Hypotheses are statements about population parameters. Because you new know exactly what a parameter is, you can never state with certainty whether a hypothesis about a parameter is true or false. Remeber this, as it becomes important later.
+
+The decision rule is a statement about what particular values in the sample would lead you to accept the null hypothesis and what values would lead you to reject the null hypothesis.
 
 </div>
 
@@ -179,6 +176,8 @@ The null hypothesis is that the difference in population means is zero. You comp
 
 How close is close? It depends on how much sampling error you have.
 
+Example: In a study of nulvadapine in Alzheimer disease, this drug was compared to placebo on the one year decline in cognition, as measured by the Alzheimer's Disease Assessment Scale Cognitive Subscale-12. The null hypothesis was that the average difference in cognitive decline between the drug and placebo was zero. The decline was 6.41 units in the placebo group and 5.75 in the control group, a difference in the sample of 0.66. Since the difference in the two means was close to zero, the researchers accepted the null hypothesis. They concluded "The results do not suggest benefit of nilvadipine as a treatment in a population spanning mild to moderate Alzheimer disease."
+
 </div>
 
 ### Comparison of binary outcome for two populations
@@ -193,6 +192,8 @@ How close is close? It depends on how much sampling error you have.
 Another common hypothesis involves a comparison of binary outcomes between two groups, a treatment group and a control group. The population parameters are proportions instead of means, but otherwise the concept is the same.
 
 Close to zero, as before, means close to zero relative to the amount of sampling error.
+
+Example: in the same study, the researchers hypothesized that the difference in proportions for patients experiencing serious adverse events was zero. The sample proportions were 20% (50/252) and 16% (42/257). Since the differrence in proportions was small, The researchers accepted the null hypothesis and concluded that "Nilvadipine appeared to be safe and well tolerated"
 
 </div>
 
@@ -209,6 +210,10 @@ Close to zero, as before, means close to zero relative to the amount of sampling
 
 I'll talk a lot about regression models later, but let me introduce a hypothesis involving a regression model. Typically, but not always, a regression model has an intercept term and a slope term. The slope term quantifies the relationship between your independent variable and your dependent variable. If the population parameter is zero that means there is no relationship in the population. Like the other models, you compute a sample statistic and accept the null hypothesis if that sample statistic is close to zero.
 
+Example: in a study of endothelial function and cognitive preformance in patients with coronary heart disease, the researchers hypothesized that there was no linear relationship between change in reactive hyperemia index (RHI) and the change in overall cognition. The regression coefficient was 0.55 which was not close to zero, so the researchers rejected the null hypothesis and concluded that "an increased RHI was significantly associated with an improvement in overall cognition."
+
+Saleem M, Herrmann N, Dinoff A, et al. Association Between Endothelial Function and Cognitive Performance in Patients With Coronary Artery Disease During Cardiac Rehabilitation. Psychosom Med. 2019;81(2):184–191. doi:10.1097/PSY.0000000000000651.
+
 Regression models are quite flexible. They can incorporate a variety of measurements for your outcome variable and can provide for risk adjustments to your outcome variable.
 
 This is not a data analysis class, but I do want to provide you with enough information so you can write a good data analysis plan. More likely than not, your data analysis plan will involve a regression model of some type.
@@ -222,6 +227,7 @@ This is not a data analysis class, but I do want to provide you with enough info
   + Parameter, statistic
   + Basic hypotheses
 + What's coming next
+  + Directional alternatives
   + Text hypotheses
   + Type I and Type II errors
 
@@ -238,6 +244,8 @@ This is not a data analysis class, but I do want to provide you with enough info
 <div class="notes">
 
 It is a bit unusual, but there are situations where changes in the "wrong" direction are considered impossible or irrelevant or equivalent to no change.
+
+Example: in a study of a robotic object hitting game, patients with Parkinson's disease were compared to age matched controls. The null hypothesis was that the score was equivalent between the two groups. The alternative was that the score would be worse in the Parkinson's group. An improved score for the Parkinson's group would not be interesting because there is no scientifically reason to believe that having a condition like Parkinson's would provide a beneift in a test of motor skills. The mean scores for the control group and the Parkinson's group were 8.40 and 4.85 respectively. The difference in the sample means was 3.65 which was sufficiently large to reject the null hypothesis. The game was intended to be a test of motor skills and showing a difference in the Parkinson's group would demonstrate validity of this measure. Other tests involved just the Parkinson's disease patients on and off a drug, levodopa, that can relieve some of the symptoms of Parkinson's disease. The authors concluded that there was a "dynamic interaction between cognitive and kinematic skills while the PD patients performed a virtual reality game."
 
 Consider the situation where you are testing a new drug versus placebo. A drug could be worse than a placebo. It happens all the time. But there is no reason to test for this. You would not adopt a new drug if it were equivalent to placebo and you would not adopt a new drug if it were inferior to placebo. So your null hypothesis is that the new drug is not better than placebo, meaning equal to placebo or worse than the placebo.
 
@@ -289,9 +297,9 @@ If you have a hypothesis that compares two groups, look for comparative words li
   
 <div class="notes">
 
-Here's an example of a two group comparison. One group gets nilvadipine and the other group gets a placebo. Safety was measured as the proportion of patients who experienced an adverse event. The researchers also measured the proportion of patients who experienced a serious adverse event. So the Greek hypothesis would involve pi's and p's. 
+Here's an example of a two group comparison. One group gets nilvadipine and the other group gets a placebo. Safety was measured as the proportion of patients who experienced an adverse event. The researchers also measured the proportion of patients who experienced a serious adverse event. So the Greek hypothesis would involve pi's. 
 
-Effectiveness was measured using the Alzheimer's Disease Assessment Scale Cognitive Subscale-12 and the Clinical Dementia Rating Scale sum of boxes. Both of these outcome measurements are continuous, so the Greek hypothesis would involve mu's and X-bar's.
+Effectiveness was measured using the Alzheimer's Disease Assessment Scale Cognitive Subscale-12 and the Clinical Dementia Rating Scale sum of boxes. Both of these outcome measurements are continuous, so the Greek hypothesis would involve mu's.
 
 </div>
 
@@ -318,9 +326,13 @@ This study used a regression model, a Cox regression model, to study trends and 
 
 In your research, you specify a null hypothesis (typically labeled H0) and an alternative hypothesis (typically labeled Ha, or sometimes H1). By tradition, the null hypothesis corresponds to no change. When you are using Statistics to decide between these two hypothesis, you have to allow for the possibility of error. Actually, if you are using any other procedure, you should still allow for the possibility of error, but we statisticians are the only ones honest enough to admit this.
 
-A Type I error is rejecting the null hypothesis when the null hypothesis is true. 
+A Type I error is rejecting the null hypothesis when the null hypothesis is true.
 
 Consider a new drug that we will put on the market if we can show that it is better than a placebo. In this context, H0 would represent the hypothesis that the average improvement (or perhaps the probability of improvement) among all patients taking the new drug is equal to the average improvement (probability of improvement) among all patients taking the placebo. A Type I error would be allowing an ineffective drug onto the market.
+
+Remember that the hypotheses involve population paramters. Population parameters are impossible to compute. So you can only talk about Type I errors in an abstract sense. You will never know for certain if you have made a Type I error.
+
+Alpha is the probability of a Type I error, and alpha is a value that you can compute. In most studies, researchers work hard to keep the probability of a Type I error low, typically at 5%.
 
 </div>
 
@@ -341,6 +353,10 @@ Many studies have small sample sizes that make it difficult to reject the null h
 
 Consider a new drug that we will put on the market if we can show that it is better than a placebo. In this context, H0 would represent the hypothesis that the average improvement (or perhaps the probability of improvement) among all patients taking the new drug is equal to the average improvement (probability of improvement) among all patients taking the placebo. A Type II error would be keeping an effective drug off the market.
 
+It bears repeating that population parameters are impossible to compute. So you will never know for certain if you have made a Type I error.
+
+Beta is the probability of a Type II error. Beta is a known quantity. Typically researchers try to keep beta small. 10% is a typical value, though in some settings, a Type II error rate as large as 20% could be tolerated.
+
 Power is defined as 1-beta. I will talk more about power in a little bit.
 
 </div>
@@ -348,6 +364,7 @@ Power is defined as 1-beta. I will talk more about power in a little bit.
 ### Second break
 
 + What have you learned?
+  + Directional alternatives
   + Text hypotheses
   + Type I and Type II errors
 + What's combing next
@@ -365,7 +382,9 @@ Here's the formula for the p-value. It changes depending on what your hypothesis
 
 In English, this formula is telling you that the p-value is the probability that you observe the sample results or a result more extreme, assuming that the null hypothesis is true.
 
-You can think of the p-value as a measure of consistency, consistency between the data and the null hypothesis.
+The p-value is, by far, the most popular statistic reported in research studies. In spite of its popularity, the p-value is quite controversial. One journal, Basic and Applied Social Psychology, banned the use of p-values in its journal.
+
+Fricker (2019) American Statistician, 73(S1): 374-384.
 
 </div>
 
@@ -384,7 +403,9 @@ There are two interpretations that I feel are more practical. You can think of t
 
 On the other hand if the sample results or anything more extreme has a high probability under the assumption that the null hypothesis is true, then you should feel comfortable accepting that assumption.
 
-I have argued that the p-value is a measure of evidence. If the p-value is small, you have lots of evidence against the null hypothesis. If the p-value is large, you have little or no evidence against the null hypothesis.
+I have argued that the p-value is a measure of evidence. Some have called it a poor measure of evidence, but I stand by my interpretation.
+
+If the p-value is small, you have lots of evidence against the null hypothesis. If the p-value is large, you have little or no evidence against the null hypothesis.
 
 </div>
 
@@ -397,7 +418,9 @@ I have argued that the p-value is a measure of evidence. If the p-value is small
 
 <div class="notes">
 
-The p-value is a conditional probability, and you always need to be careful about conditional probabilities. It is a probability about a sample result given an assumption about the population. It is not a probability about a population result given the sample result. There are two reasons for this. First, you can't reorder a conditional probability. The probability of A given B is almost never the same as the probability of B given A. The example I give for this is the probability of being happy given that you are rich. That's a pretty high number, I hope you'll agree. There are a few rich people who lead miserable lives, but from everything I've seen, most rich people are pretty darn happy. The reverse of this is the probability of being rich given that you are happy. That number is much smaller. Because although I believe that money can buy happiness, a lot of other things can also buy happiness just as well. It's not quite as easy to find happiness if you're poor, but somehow, a lot of poor people find a way to be happy anyway.
+The p-value is a conditional probability, and you always need to be careful about conditional probabilities. It is a probability about a sample result given an assumption about the population result. It is not a probability about a population result given the sample result. There are two reasons for this. 
+
+First, you can't reorder a conditional probability. The probability of A given B is almost never the same as the probability of B given A. The example I give for this is the probability of being happy given that you are rich. That's a pretty high number, I hope you'll agree. There are a few rich people who lead miserable lives, but from everything I've seen, most rich people are pretty darn happy. The reverse of this is the probability of being rich given that you are happy. That number is much smaller. Because although I believe that money can buy happiness, a lot of other things can also buy happiness just as well. It's not quite as easy to find happiness if you're poor, but somehow, a lot of poor people find a way to be happy anyway.
 
 A second reason that you can't reverse the order is that you cannot make a probability statement about population parameters. They are numbers computed from the entire population, and are fixed values. You cannot make a probability statement about something that has no sampling error.
 
