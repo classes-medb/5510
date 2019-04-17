@@ -2993,3 +2993,57 @@ http://www.pmean.com/10/BadSurvey.html
   + Sometimes based on empirical findings
 
 
+### Null value
+
+```{r null-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45)
+text(0, 0.55, cex=0.5, "Null\nvalue")
+```
+
+***
+### Critical value
+
+```{r critical-value, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45)
+text(1.2, 0.55, cex=0.5, "Critical\nvalue")
+```
+
+***
+### Alpha level
+
+```{r alpha-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
+
+
+```{r beta-level, echo=FALSE}
+x <- seq(-3.5, 6.5, length=100)
+y <- dnorm(x, m=3)
+lb <- c("\nNull\nvalue", "\nCritical\nvalue")
+plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
+abline(h=0)
+segments(0, 0, 0, 0.45, col="gray")
+text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
+segments(1.2, 0, 1.2, 0.45, col="gray")
+text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
+```
+

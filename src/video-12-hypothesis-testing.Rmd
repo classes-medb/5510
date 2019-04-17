@@ -57,6 +57,8 @@ A research paper computes a confidence interval for a relative risk of 0.82 to 3
 
 The result is statistically significant and clinically important, is not statistically significant, but is clinically important, and so forth. The last answer, the result is ambiguous, is the correct one, which you'll see in a little bit.
 
+By the way, if you weren't writhing in the floor in agony when you saw this interval, I want to change that.
+
 </div>
 
 ### What is a population?
@@ -193,7 +195,7 @@ Another common hypothesis involves a comparison of binary outcomes between two g
 
 Close to zero, as before, means close to zero relative to the amount of sampling error.
 
-Example: in the same study, the researchers hypothesized that the difference in proportions for patients experiencing serious adverse events was zero. The sample proportions were 20% (50/252) and 16% (42/257). Since the differrence in proportions was small, The researchers accepted the null hypothesis and concluded that "Nilvadipine appeared to be safe and well tolerated"
+Example: in the same study, the researchers hypothesized that the difference in proportions for patients experiencing serious adverse events was zero. The sample proportions were 20% (50/252) and 16% (42/257). Since the differrence in proportions was small, the researchers accepted the null hypothesis and concluded that "Nilvadipine appeared to be safe and well tolerated"
 
 </div>
 
@@ -236,16 +238,20 @@ This is not a data analysis class, but I do want to provide you with enough info
 + Used when changes in opposite direction are
   + Impossible
   + Irrelevant/equivalent to no change
-  + Must be stated a priori
 + $H_0 \ \mu_1-\mu_2 \le 0$ 
 + $H_a \ \mu_1-\mu_2 \gt 0$ 
 + Reject $H_0$ if $\bar{X}_1-\bar{X}_2 > t \times se$
++ Must be stated a priori
+  + "Wrong" direction now interesting
+  + Switch for better power
 
 <div class="notes">
 
 It is a bit unusual, but there are situations where changes in the "wrong" direction are considered impossible or irrelevant or equivalent to no change.
 
-Example: in a study of a robotic object hitting game, patients with Parkinson's disease were compared to age matched controls. The null hypothesis was that the score was equivalent between the two groups. The alternative was that the score would be worse in the Parkinson's group. An improved score for the Parkinson's group would not be interesting because there is no scientifically reason to believe that having a condition like Parkinson's would provide a beneift in a test of motor skills. The mean scores for the control group and the Parkinson's group were 8.40 and 4.85 respectively. The difference in the sample means was 3.65 which was sufficiently large to reject the null hypothesis. The game was intended to be a test of motor skills and showing a difference in the Parkinson's group would demonstrate validity of this measure. Other tests involved just the Parkinson's disease patients on and off a drug, levodopa, that can relieve some of the symptoms of Parkinson's disease. The authors concluded that there was a "dynamic interaction between cognitive and kinematic skills while the PD patients performed a virtual reality game."
+Example: in a study of a robotic object hitting game, patients with Parkinson's disease were compared to age matched controls. Here the first group is Parkinson's and the second group is the control.
+
+The null hypothesis was that the score was equivalent between the two groups. The alternative was that the score would be worse in the Parkinson's group. An improved score for the Parkinson's group would not be interesting because there is no scientifically reason to believe that having a condition like Parkinson's would provide a benefit in a test of motor skills. The mean scores for the control group and the Parkinson's group were 8.40 and 4.85 respectively. The difference in the sample means was 3.65 which was sufficiently large to reject the null hypothesis. The game was intended to be a test of motor skills and showing a difference in the Parkinson's group would demonstrate validity of this measure. Other tests involved just the Parkinson's disease patients on and off a drug, levodopa, that can relieve some of the symptoms of Parkinson's disease. The authors concluded that there was a "dynamic interaction between cognitive and kinematic skills while the PD patients performed a virtual reality game."
 
 Consider the situation where you are testing a new drug versus placebo. A drug could be worse than a placebo. It happens all the time. But there is no reason to test for this. You would not adopt a new drug if it were equivalent to placebo and you would not adopt a new drug if it were inferior to placebo. So your null hypothesis is that the new drug is not better than placebo, meaning equal to placebo or worse than the placebo.
 
@@ -257,6 +263,10 @@ In this case, mu1-mu2 a measure where positive values are good and worth reporti
 
 In this setting, you would compute the sample average pain levels in the placebo minus the sample average pain in the treatment group. If that difference was large and positive, you would reject the null hypothesis. How large? Typically you would compare this difference in sample means to a percentile from the t-distribution times the standard error for the difference in sample means.
 
+You must specify a directional alternative prior to data collection, and once you commit to a directional alternative, you can't back out. You run the risk of being accused of fraud. The concern is that a researcher might start with the directional alternative because it provide a bit of a boost to the power of a study. But when the results come back and the results are pointing in the opposite direction, all of a sudden things change. The researcher now thinks that the "wrong" direction is no interesting and relevant and comes up with all sorts of reasons why this finding, which was not anticipated prior to data collection, is now so obvious and worth pursuing.
+
+The opposite type of fraud can occur when you get a p-value for a two-sided alternative and it is just a bit too large. You want to shrink the p-value, and switching to a directional alternative (in the direction that you observed, of course) is what you really wanted all along. The switch cuts your p-value in half and now you have a statistically significant result.
+
 </div>
 
 ### Passive smoking controversy
@@ -267,7 +277,11 @@ In this setting, you would compute the sample average pain levels in the placebo
   
 <div class="notes">
 
-Consider a study of the effects of second-hand smoke. These studies always use directional alternatives. From what we know about active cigarette smoking is that it increases the risk of cancer and cardiovascular disease. So there is no reason to expect that passive smoke exposure should be any different. There is no scientific basis for a protective effect of passive smoking, so it makes sense to test that passive smoking has no effect versus it having an increase in bad outcomes compared to the control group. So your null hypothesis is "not harmful" and your alternative is "harmful". The beneficial hypothesis is lumped into the null hypothesis, but no one would dare claim that passive smoking was protective.
+Consider a study of the effects of second-hand smoke. These studies always use directional alternatives. From what we know about active cigarette smoking is that it increases the risk of cancer and cardiovascular disease. So there is no reason to expect that passive smoke exposure should be any different than active smoking. Maybe it is less toxic, because of dilution and because the smoking coming off a cigarette from one end is different than the smoke coming off the cigarette from the other end. Fair enough, but there is not reason to believe that things are so different that all of a sudden the smoke becomes protective. 
+
+Since there is no scientific basis for a protective effect of passive smoking, it makes sense to test that passive smoking has no effect versus it having an increase in bad outcomes compared to the control group. So your null hypothesis is "not harmful" and your alternative is "harmful". The beneficial hypothesis is lumped into the null hypothesis, but no one would dare claim that passive smoking was protective.
+
+Actually, the tobacco companies did complain that the use of a directional alternative violated the norms of science. They won in a court battle in North Carolina, but lost on appeal.
 
 As another aside, I was involved with prayer study. We planned this study using a one-sided hypothesis (remote prayer has a positive effect on health). The Institutional Review Board suggested changing this to a two-sided hypothesis (remote prayer has either a positive or a negative effect on health). Thankfully, we did not observe an outcome in the opposite tail as that would have been very difficult to explain.
 
@@ -290,7 +304,7 @@ If you have a hypothesis that compares two groups, look for comparative words li
 
 </div>
 
-### Examples of text hypotheses (1 of 1)
+### Example of text hypotheses (1 of 1)
 
 + "... the objective of this 78-week randomised, placebo-controlled study was to determine whether treatment with nilvadipine sustained-release 8 mg, once a day, was effective and safe in slowing the rate of cognitive decline in patients with mild to moderate Alzheimer disease."
   + Lawlor B, Segurado R, Kennelly S, et al. Nilvadipine in mild to moderate Alzheimer disease: A randomised controlled trial. PLoS Med. 2018; 15(9): e1002660. DOI: 10.1371/journal.pmed.1002660
@@ -303,7 +317,7 @@ Effectiveness was measured using the Alzheimer's Disease Assessment Scale Cognit
 
 </div>
 
-### Examples of text hypotheses (2 of 2)
+### Example of text hypotheses (2 of 2)
 
 + "... we investigated trends in BCC incidence over a span of 20 years and the associations between incident BCC and risk factors in a total population of 140,171 participants from 2 large US-based cohort studies: women in the Nurses' Health Study (NHS; 1986–2006) and men in the Health Professionals' Follow-up Study (HPFS; 1988–2006)."
   + Wu S, Han J, Li WQ, Li T, Qureshi AA. Basal-cell carcinoma incidence and associated risk factors in U.S. women and men. Am J Epidemiol. 2013; 178(6): 890–897. DOI: 10.1093/aje/kwt073
@@ -475,69 +489,41 @@ In general, the p-value is not very helpful for large samples. We're seeing this
 
 <div class="notes">
 
-[A girl with a black ponytail runs up to Cueball, who subsequently points off-panel where there are presumably scientists.]
-Girl with black ponytail: Jelly beans cause acne!
-Cueball: Scientists! Investigate!
-Scientist (off screen): But we're playing Minecraft! 
-Scientist (off screen): ...Fine.
+This cartoon is impossible to read, but you can find it on the Canvas site or in the readings. Here's a brief run down.
 
-[Two scientists. The man has safety goggles on, Megan has a sheet of notes.]
-Scientist with goggles: We found no link between jelly beans and acne (p > 0.05).
+In the first panel, a woman runs up to a man and shouts: Jelly beans cause acne!
 
-[Back to the original two.]
-Cueball: That settles that.
-Girl with black ponytail: I hear it's only a certain color that causes it.
-Cueball: Scientists!
-Scientist (off screen): But Miiiinecraft!
+The man replies : Scientists! Investigate!
 
-[20 identical small panels follow, 4 rows 5 columns. The exact same picture as in panel 2 above. The scientist with goggles are stating the results and Megan holds some notes in her hand. The only difference from panel to panel is the color and then in the 14th panel where the result is positive and there is an exclamation from off screen.]
-Scientist with goggles: We found no link between purple jelly beans and acne (p > 0.05).
+In the second panel, one scientist, holind a clipboard announces: We found no link between jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between brown jelly beans and acne (p > 0.05).
+In the third panel, the woman says: I hear it's only a certain color that causes it.
 
-Scientist with goggles: We found no link between pink jelly beans and acne (p > 0.05).
+In a bunch of small panels, the scientist with a clipboard reports: We found no link between purple jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between blue jelly beans and acne (p > 0.05).
+We found no link between brown jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between teal jelly beans and acne (p > 0.05).
+We found no link between pink jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between salmon jelly beans and acne (p > 0.05).
+The same for blue, teal, salmon, red, and so forth. And then...
 
-Scientist with goggles: We found no link between red jelly beans and acne (p > 0.05).
+We found a link between green jelly beans and acne (p < 0.05). An off-screen voice goes: Whoa!
 
-Scientist with goggles: We found no link between turquoise jelly beans and acne (p > 0.05).
+The next six panels show
 
-Scientist with goggles: We found no link between magenta jelly beans and acne (p > 0.05).
+We found no link between mauve jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between yellow jelly beans and acne (p > 0.05).
+We found no link between beige jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between grey jelly beans and acne (p > 0.05).
+We found no link between lilac jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between tan jelly beans and acne (p > 0.05).
+We found no link between black jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between cyan jelly beans and acne (p > 0.05).
+We found no link between peach jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found a link between green jelly beans and acne (p < 0.05).
-Voice (off screen): Whoa!
+We found no link between orange jelly beans and acne (p > 0.05).
 
-Scientist with goggles: We found no link between mauve jelly beans and acne (p > 0.05).
-
-Scientist with goggles: We found no link between beige jelly beans and acne (p > 0.05).
-
-Scientist with goggles: We found no link between lilac jelly beans and acne (p > 0.05).
-
-Scientist with goggles: We found no link between black jelly beans and acne (p > 0.05).
-
-Scientist with goggles: We found no link between peach jelly beans and acne (p > 0.05).
-
-Scientist with goggles: We found no link between orange jelly beans and acne (p > 0.05).
-
-[Newspaper front page with a picture with three green jelly beans. There are several sections with unreadable text below each of the last three readable sentences.]
-News
-Green Jelly Beans Linked To Acne!
-95% Confidence
-Only 5% chance of coincidence!
-Scientists...
+At the bottom is a newspaper with the headline: Green Jelly Beans Linked To Acne! 95% Confidence. Only 5% chance of coincidence!
 
 If you are interested in a transcript and a detailed explanation, https://www.explainxkcd.com/wiki/index.php/882:_Significant
 
@@ -547,17 +533,37 @@ If you are interested in a transcript and a detailed explanation, https://www.ex
 ### p-hacking (2 of 2)
 
 + Abuse of the hypothesis testing framework.
-  + Run multiple tests on the same outcometen tests and choose the one with the smallest p-value
+  + Run multiple tests on the same outcome
   + Test multiple outcome measures
   + Remove outliers and retest
-  + Post hoc changes
 + Defenses against p-hacking
   + Bonferroni
+  + Primary versus secondary
   + Published protocol
 
 <div class="notes">
 
+This is an example of p-hacking. You change the testing process to increase the probability of a Type I error (Rejecting the null hypothesis when the null hypothesis is true). This increases the chance of getting a positive result, which you may find desirable, but only by increasing the probability of a false positive result.
 
+Some examples of p-hacking. Run multiple tests on the same outcome measure. Start with the regular t-test, include the t-test that allows for unequal variances, and run two different non-parametric tests, the Wilcoxon-Mann-Whitney test and the sign test. Choose the test with the smallest p-value.
+
+You also might consider multiple outcome measures. Compare the mortality rate, the relapse rate, and the rehospitalization rate. If any of the three is statistically significant, claim victory.
+
+You could also do this with longitudinal data. Compare pain relief at one hour and at four hours. If you see a difference at one hour, claim that your new medication is faster acting. If you see a difference at four hours, claim that your medication is longer lasting.
+
+You might run a test with the full data set and then with an outlier or two removed. Report for the data set that has the smaller p-value and pretend that this was your original choice all along.
+
+These are only a few of the choices. I don't want to say more because I feel like I'm the devil tempting you.
+
+There are two defenses against p-hacking. Well three if you count being honest. But what I mean is there are two things that you can do that will satisfy others that you are playing fairly.
+
+First, you can adjust your decision rule by using a Bonferroni correction. Bonferroni divides alpha by the number of tests. If you are using three different outcome measures, compare your p-value of 0.0133 instead of 0.05.
+
+Second, you can designate one of your outcome measures as primary. If you achieve statistical significance on your primary outcome, great. The remaining outcome measures are secondary. If you achieve statistical significance on a secondary outcome meausure only, report the results as provisional and requiring independent replication.
+
+You should publish a detailed protocol, either through a clinical trial registry, or now there are journals which accept publications of the research protocols before any data are collected. It's a paper with literature review and methods section, but no results and no discussion section.
+
+Now p-hacking has happened because some people have a skewed view of research. They are interested in using research to promote their own agenda rather than using research to uncover the truth. Perfectly understandable if you are a drug company, but you as an independent researcher should never try to skew the data. It hurts you and it hurts your patients. You need to adopt a disinterested posture in that you are glad when the research points in one direction and you are glad when it points in the opposite direction, because either way, you know more than you did before and you can treat your patients better because of this knowledge.
 
 </div>
 
@@ -575,6 +581,8 @@ If you are interested in a transcript and a detailed explanation, https://www.ex
 Dear Professor Mean:  Can you give me a simple explanation of what a confidence interval is?
 
 + A confidence interval is a range of values that quantifies the size of sampling error.
+  + Also, a range of plausible values.
+  + Not a probability statement about a parameter
 
 <div class="notes">
 
@@ -585,6 +593,8 @@ We qualify our statements, of course, because we are always dealing with imperfe
 A confidence interval is a range of values that tries to quantify this uncertainty. Consider it as a range of plausible values. 
 
 A narrow confidence interval implies high precision; we can specify plausible values to within a tiny range. A wide interval implies poor precision; we can only specify plausible values to a broad and uninformative range.
+
+I also like to think of the confidence interval as a range of plausible values. It is not a probability statement, however, because the confidence interval is a statement about a population parameter, which does not have sampling error.
 
 </div>
 
@@ -656,7 +666,34 @@ Clinical indifference is a medical judgment, and not a statistical judgment. It 
 
 One the other hand, if part of the confidence interval lies outside the range of clinical indifference, then you should consider the possibility that the sample size is too small.
 
+The interval contains zero, so it is plausible to behave as if the difference in population means or proportions is zero. But the interval also contains values that are clinically important. So it is plausible to behave as if there is a clinically important difference in means. How can you have two such different interpretations being plausible at the same time? That's the definition of ambiguity. If you don't like it, get used to it. Statisics will often identify areas of ambiguity, which is a good thing, because it tells us to not act prematurely, but instead demand more data before you make a definitive decision.
+
 </div>
+
+### Quiz question, revisited
+
++ A research paper computes a confidence interval for a relative risk of 0.82 to 3.94. What does this confidence interval tell you that the result is:
+  + statistically significant and clinically important.
+  + not statistically significant, but is clinically important.
+  + statistically significant, but not clinically important.
+  + not statistically significant, and not clinically important.
+  + ambiguous.
+
+
+<div class="notes">
+
+Let's go back to that question I posed earlier.
+
+A research paper computes a confidence interval for a relative risk of 0.82 to 3.94. What does this confidence interval tell you.
+
+Well, it tells you that a relative risk of 1 (equal risks) is plausible, but that a relative risk of 2 (a doubling of risk) is also plausible. A tripling of risk is plausible. Good grief! This is an ambiguous result.
+
+Doesn't this bother you? It should. Someone ran a terrible experiment. An experiment so poorly designed that it can't distinguish between no change in risk, or a tripling of risk.
+
+It's a terrible thing, but it happens all the time and it doesn't seem to bother anyone but me. This is wretched. You got a hundred patients to let you poke and prod them. They took some bitter pills or maybe placebos. They are sacrificing their bodies in the name of science. And the best you can do is a confidence interval that goes from 0.82 to 3.94. Hang your head in shame!
+
+</div>
+
 
 ### Confidence interval interpretation (6 of 7)
 
@@ -664,7 +701,7 @@ One the other hand, if part of the confidence interval lies outside the range of
 
 <div class="notes">
 
-Some studies have sample sizes that are so large that even trivial differences are declared statistically significant. If your confidence interval excludes the null value but still lies entirely within the range of clinical indifference, then you have a result with statistical significance, but no practical significance.
+Some studies have sample sizes that are so large that even trivial differences are declared statistically significant, especially in this era of big data. If your confidence interval excludes the null value but still lies entirely within the range of clinical indifference, then you have a result with statistical significance, but no practical significance.
 
 </div>
 
@@ -675,6 +712,8 @@ Some studies have sample sizes that are so large that even trivial differences a
 <div class="notes">
 
 Finally, if your confidence interval excludes the null value and lies outside the range of clinical indifference, then you have both statistical and practical significance.
+
+Let's talk about one more case. I don't have a picture, but imagine a confidence interval that is mostly in the white region, the region of clinical importance, but the lower limit stretches into the range of clinical indifference. It doesn't quite include the null value, but it comes within kissing distance. That's a result that achieves statistical significance, but it does not provide definitive proof of clinical importance. No one ever talks about this case, but they should. Your confidence interval indicates statistical significance, but just barely. So don't pretend that your results are the final word. You should not stop researching until you get a confidence interval that lies entirely inside or entirely outside the range of clinical indifference.
 
 </div>
 
@@ -730,60 +769,6 @@ Once you have your non-inferiority margin, the rest is easy. Your alternative hy
 
 </div>
 
-### Null value
-
-```{r null-value, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45)
-text(0, 0.55, cex=0.5, "Null\nvalue")
-```
-
-***
-### Critical value
-
-```{r critical-value, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="n", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45)
-text(1.2, 0.55, cex=0.5, "Critical\nvalue")
-```
-
-***
-### Alpha level
-
-```{r alpha-level, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45, col="gray")
-text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
-```
-
-
-```{r beta-level, echo=FALSE}
-x <- seq(-3.5, 6.5, length=100)
-y <- dnorm(x, m=3)
-lb <- c("\nNull\nvalue", "\nCritical\nvalue")
-plot(x, y, xlab=" ", ylab=" ", axes=FALSE, type="l", ylim=c(0, 0.6))
-abline(h=0)
-segments(0, 0, 0, 0.45, col="gray")
-text(0, 0.55, cex=0.5, "Null\nvalue", col="gray")
-segments(1.2, 0, 1.2, 0.45, col="gray")
-text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
-```
-
 ### Sample size justification
 
 + Rules of thumb
@@ -791,60 +776,31 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
   + Rule of 16
 + CI width  
 + Power calculations
-+ Confidence = $\frac{Signal}{Noise}\sqrt{Sample\ size}$
+  + research hypothesis
+  + standard deviation
+  + minimum clinically important difference
 + Effect sizes - never!
-+ Post hoc power - never!
 
 <div class="notes">
 
+There area lot of formulas out there and a lot of software that will help you justify your sample size, but I don't want to talk in detail about them. I do want to mention a few quick rules of thumb that you can apply to see if you are on the right track.
 
+The first of these is the rule of 50. If you are measuring a binary outcome, you need to plan for a large enough sample size so that you see 25 to 50 events in each group. This is a very useful rule for seeing if your sample size needs to be in the hundreds, or if it needs to be in the thousands.
 
-</div>
+I was working with a researcher who wanted to study infants who were breastfeeding while at the hospital, go home and then come back in seven days with breastfeeding jaundice. I said, okay, about how often does this happen. And he said maybe somewhere between a half a percent and two percent of the babies. So I did the math. If the rate is on the high end, 2%, that means one out of every 50 patients will be readmitted. So you needs to get 50 times as many babies to assure that you will get 50 events. Thats 2,500. In one group. And with the numbers on the high end of his interval. So I tell him, you'll probably need to study around 5,000 infants. He was not happy.
 
+No one every got thrown in jail for violating a rule of thumb. But when you do the formal sample size formula, you sure as heck won't get a sample size of 100. A sample of 100 patients would mean that you'd expect to see two infants readmitted. Do you want to hang your hat on two infants?
 
-### Power Analysis 
+The other rule, called the rule of 16, is useful for continuous outcomes. If you believe that a clinically important difference is a certain size, and that size is x% of a standard deviation, then you need to have 16/x-squared patients in each group. So if you believe that the clinically important difference is half a standard deviation, divide 16 by 0.5 squared to get 64 patients per group. If the clinically important difference is only one tenth of a standard deviation, watch out. You need to collect 16 divided by 0.1 squared or 1600 patients per group.
 
-+ Probability of rejecting a false H 0
-	+ This is a GOOD thing!
-	+ Want to maximize this (within reasonable limits!)
-	+ What is power analysis
-	+ “… the probability that his investigation would lead to statistically significant results.”
+You can also justify your sample size by specifying how narrow you'd like your confidence intervals to be. This is especially useful in settings where there is no formal research hypothesis. The calculations here are a bit tedious, but manageable. Suppose you are running a diagnostic test and you want sensitivity and specificity to both have very narrow confidence intervals. You plan to recruit in a population where the prevalence of the disease is only 10%. This means that sensitivity, which has the proportion of diseased patients in the denominator, is your most crucial confidence interval. Trial and error works well here. You'd like any interval to have a maximum width of plus or minus 0.1. If sensitivity were 90%, your 95% confidence interval would be 0.871 to 0.928. Now try 70% sensitivity. Your interval is 0.655 to 0.745. It looks like we could get by with a slightly smaller sample size.
 
-<div class="notes">
+A formal power calculation is the most common way to justify your sample size. I won't show the details, but justificaiton using a power calculation requires you to specify a research hypothesis (using Greek symbols like mu, pi, or beta), the standard deviation of your outcome measure (assuming a continuous outcome measure), and the minimum clinically important difference.
 
-
-
-</div>
-
-### Power Analysis 
-
-+ Statistical power analysis concepts (Cohen)
-	+ Significance criterion – alpha
-	+ Power – desired level
-	+ Sample size
-	+ Effect size
-+ Power analysis method depends on research design
-
-<div class="notes">
-
-
+Never try to justify your sample size after the fact. It is called a post hoc power calculation. It is very bad. If you didn't have the foresight to justify your sample size before collecting your data, rely on the width of your confidence intervals to show that your sample size was adequate.
 
 </div>
 
-***
-### Power Analysis 
-
-+ Performing a power analysis when planning a study
-	+ What is the study design?
-	+ What do you already know about the measure you are interested in?
-	+ What significance level to you want to use for hypothesis testing?
-	+ What level of power do you want to achieve?
-
-<div class="notes">
-
-
-
-</div>
 
 ### Fifth break
 
@@ -901,6 +857,8 @@ text(1.2, 0.55, cex=0.5, "Critical\nvalue", col="gray")
 ![Cartoon showing interpretation of various p-values](../images/12/p_values.png)
 
 <div class="notes">
+
+I have to end with another cartoon. Both of these cartoons were drawn by Scott Munro, the creator of the xkcd comic series.
 
 This is a cartoon showing a table of p-values with various labels.
 
@@ -970,13 +928,13 @@ The first step is to specify P(H), which is called the prior probability. Specif
 
 First, it is impossible to totally remove subjective opinion from a data analysis. You can't do research without adopting some informal rules. These rules may be reasonable, they may be supported to some extent by empirical data, but they are still applied in a largely subjective fashion. Here are some of the subjective beliefs that I use in my work:
 
-you should always prefer a simple model to a complex model if both predict the data with the same level of precision.
+You should always prefer a simple model to a complex model if both predict the data with the same level of precision.
 
-you should be cautious about any subgroup finding that was not pre-specified in the research protocol.
+You should be cautious about any subgroup finding that was not pre-specified in the research protocol.
 
 if you can find a plausible biological mechanism, that adds credibility to your results.
 
-Advocates of Bayesian data analysis will point out that use of prior distributions will force you to explicit some of the subjective opinions that you bring with you to the data analysis.
+Advocates of Bayesian data analysis will point out that use of prior distributions will force you to explicitly state some of the subjective opinions that you bring with you to the data analysis.
 
 Second, the use of a range of prior distributions can help resolve controversies involving conflicting beliefs. For example, an important research question is whether a research finding should "close the book" to further research. If data indicates a negative result, and this result is negative even using an optimistic prior probability, then all researchers, even those with the most optimistic hopes for the therapy, should move on. Similarly, if the data indicates a positive result, and this result is positive even using a pessimistic prior probability, then it's time for everyone to adopt the new therapy. Now, you shouldn't let the research agenda be held hostage by extremely optimistic or pessimistic priors, but if any reasonable prior indicates the same final result, then any reasonable person should close the book on this research area.
 
@@ -984,17 +942,37 @@ Third, while Bayesian data analysis allows you to incorporate subjective opinion
 
 </div>
 
-### Difuse prior
+### Lay out the parameters
 
 ![Blank sheet listing ECMO and control probabilities](../images/12/bayes-blank.png)
 
-### Difuse prior
+<div class="notes">
+
+Here's an example of a very simple Bayesian analysis. The columns, pi1, represent the population proportion of infants on ECMO who survive. We hope that the results will be on the right hand side, but we don't know until we run the experiment.
+
+The rows represent the population proportion of infants in the control group who survive. We'd like to see the values near the bottom rather than the top, but in a population of very premature births, this is not guaranteed.
+
+</div>
+
+### Place half the probability on the diagonal
 
 ![ECMO and control main diagonal prior probabilities](../images/12/bayes-prior-main-diagonal.png)
+
+<div class="notes">
+
+We don't know if ECMO is better or worse, so let's start out by placing half the probability along the diagonal. The diagonal here represents all the cases where the survival probability on ECMO equals the survival probability in the control group. There are ten diagonal cells, so it seems fair to divide the 50% probability into ten pieces of 5% each.
+
+</div>
 
 ### Difuse prior
 
 ![ECMO and control off diagonal prior probabilities](../images/12/bayes-prior-off-diagonal.png)
+
+<div class="notes">
+
+Now spread out the remaining 50% of the probability across the remainder of the table. There are 90 cells remaining, so when you divide 50% by 90, you get 0.56%. Notice that the upper triangle gets just as much probabilty as the lower triangle. if the parameter were found in the upper triangle, that would represent cases where ECMO has a higher survival rate than the control group.
+
+</div>
 
 ### Difuse prior
 
@@ -1002,11 +980,9 @@ Third, while Bayesian data analysis allows you to incorporate subjective opinion
 
 <div class="notes">
 
-Here's a simple example of a diffuse prior that Dr. Albert used for the ECMO versus conventional therapy example. Let's assume that the true survival rate could be either 0, 10%, 20%, ..., 100% in the ECMO group and similarly for the conventional therapy group. This is not an optimal assumption, but it isn't terrible either, and it allows us to see some of the calculations in action. With 11 probabilities for ECMO and 11 probabilities for conventional therapy, we have 121 possible combinations. How should we arrange those probabilities? One possibility is to assign half of the total probability to combinations where the probabilities are the same for ECMO and conventional therapy and the remaining half to combinations where the probabilities are different. Split each of these probabilities evenly over all the combinations.
+Put these two together and check that the total probability is 100%. These represents your prior belief, and since this study was run before there was much research, it makes sense to spread the probability more or less evenly across the table, but also spliting the data so that the probability on the diagonal, the probability of the null hypothesis, is the same as the probabilty off the diagonal, the probability of the alternative hypothesis.
 
-If you split 0.50 among the eleven combinations where the two survival rates are equal, you get 0.04545. Splitting 0.50 among the 110 combinations where the two survival rates are unequal, you get 0.004545.
-
-You can arrange these prior probabilities into a rectangular grid where the columns represent a specific survival rate with ECMO and the rows represent a specific survival rate with conventional therapy. To simplify the display, we multiplied each probability by 1000 and rounded the result. So we have 121 hypotheses, ranging from ECMO and conventional therapy both having 0% survival rates to ECMO having 100% survival and conventional therapy having 0% survival rates to ECMO having 0% and conventional therapy having 100% survival rates to both therapies having 100% surivival rates. Each hypothesis has a probability assigned to it. The probability for ECMO 90% and conventional therapy 60% has a probability of roughly 5 in a thousand and the probability for ECMO 80% and conventional therapy 80% has a probability of roughly 45 in a thousand.
+Now if the thought of assigning probabilities to hypotheses prior to collecting data makes you feel queasy, you are in good company. But bear with me for a moment.
 
 </div>
 
@@ -1018,11 +994,9 @@ You can arrange these prior probabilities into a rectangular grid where the colu
 
 The second step in a Bayesian data analysis is to calculate P(E | H), the probability of the observed data under each hypothesis. If the ECMO survival rate is 90% and the conventional therapy survival rate is 60%, then the probability of observed 28 out of 29 survivors in the ECMO group is 152 out of one thousand, the probability of observing 6 out of 10 survivors in the conventional therapy group is 251 out of one thousand. The product of those two probabilities is 38,152 out of one million which we can round to 38 out of one thousand. If you've forgotten how to calculate probabilities like this, that's okay. It involves the binomial distribution, and there are functions in many programs that will produce this calculation for you. In Microsoft Excel, for example, you can use the following formula.
 
-binomdist(28,29,0.9,FALSE)*binomdist(6,10,0.6,FALSE)
+binomdist(28,29,0.95FALSE)*binomdist(6,10,0.65,FALSE)
 
-The calculation under different hypotheses will lead to different probabilities. If both ECMO and conventional therapy have a survival probability of 0.8, Then the probability of 28 out of 29 for ECMO is 11 out of one thousand, the probability of 6 out of 10 for conventional therapy is 88 out of one thousand. The product of these two probabilities is 968 out of one million, which we round to 1 out of one thousand.
-
-The table above shows the binomial probabilities under each of the 121 different hypotheses.  Many of the probabilities are much smaller than one out of one thousand. The likelihood of seeing 28 survivals out of 29 babies in the ECMO survivals is very small when the hypothesized survival rate is 10%, 30%, or even 50%. Very small probabilities are represented by zeros.
+The table above shows the binomial probabilities under each of the 100 different hypotheses.  Many of the probabilities are much smaller than one out of one thousand. The likelihood of seeing 28 survivals out of 29 babies in the ECMO survivals is very small when the hypothesized survival rate is 15%, 35%, or even 55%. Very small probabilities are represented by zeros.
 
 </div>
 
@@ -1050,7 +1024,7 @@ In the example shown here, this calculation is pretty easy: add up the 121 cells
 
 Here's the table after standardizing all the terms so they add up to 1.
 
-This table is the posterior probabilities, P(H | E). You can combine and manipulate these posterior probabilities far more easily than classical statistics would allow. For example, how likely are we to believe the hypothesis that ECMO and conventional therapy have the same survival rates? Just add the cells along the diagonal (0+0+...+5+57+97+0) to get 159 out of a thousand. Prior to collecting the data, we placed the probability that the two rates were equal at 500 out of a thousand, so the data has greatly (but not completely) dissuaded us from this belief. You can calculate the probability that ECMO is exactly 10% better than conventional therapy (0+0+...+1+13+84+0 = 98 out of a thousand), that ECMO is exactly 20% better (0+0+...+13+218+0 = 231 out of a thousand), exactly 30% better (0+0+...+7+178+0 = 185 out of a thousand), and so forth.
+This table is the posterior probabilities, P(H | E). You can calculate the probability that ECMO is exactly 10% better than conventional therapy (0+0+...+1+13+84+0 = 98 out of a thousand), that ECMO is exactly 20% better (0+0+...+13+218+0 = 231 out of a thousand), exactly 30% better (0+0+...+7+178+0 = 185 out of a thousand), and so forth.
 
 Here's something fun that Dr. Albert didn't show. You could take each of the cells in the table, compute a ratio of survival rates and then calculate the median of these ratios as 1.5 (see above for details). You might argue that 1.33 is a "better" median because 448 is closer to 500 than 666, and I wouldn't argue too much with you about that choice.
 
@@ -1062,7 +1036,7 @@ Here's something fun that Dr. Albert didn't show. You could take each of the cel
 
 <div class="notes">
 
-
+You can combine and manipulate these posterior probabilities far more easily than classical statistics would allow. For example, how likely are we to believe the hypothesis that ECMO and conventional therapy have the same survival rates? Just add the cells along the diagonal to get 6.0%. Prior to collecting the data, we placed the probability that the two rates were equal at 500 out of a thousand, so the data has greatly (but not completely) dissuaded us from this belief. 
 
 </div>
 
@@ -1072,9 +1046,7 @@ Here's something fun that Dr. Albert didn't show. You could take each of the cel
 
 <div class="notes">
 
-Dr. Albert goes on to show an informative prior distribution. There is a fair amount of data to indicate that the survival rate for the conventional therapy is somewhere between 10% and 30%, but little or no data about the survival rates under ECMO.
-
-The table above shows this informative prior distribution. Recall that the rows represent survival rates under conventional therapy. This prior distribution restricts the probabilities for survival rates in the conventional therapy to less than 70%. There is no such absolute restriction for ECMO, though the probabilities for survival rates of 70% and higher are fairly small.
+The probability of the upper triangle is 93.9%. That's pretty strong evidence that ECMO is superior. There's a lot more you can do with this data, but I just wanted to give you a small taste of how a Bayesian analysis works. First, you lay out the possible values for the population parameters. Then specify probabilities for these parameters. If you do not have a strong prior belief, or if you do not want to incorporate your prior beliefs into the analysis, spread out the probabilities in a more or less uniform fashion. Then calculate the likelihood of the data for each set of population parameters. In a survival setting, this is just a binomial distribution. Multiply the prior times the likelihood and standardize. The resulting matrix is a set of probabilities that you can sum up or manipulate in other ways. 
 
 </div>
 
@@ -1097,7 +1069,7 @@ The table above shows this informative prior distribution. Recall that the rows 
 
 + Special cases
   + Binary data
-  + Count data
+  + Count data, rate data
   + Time-to-event
 
 <div class="notes">
@@ -1112,7 +1084,7 @@ Ordinal data is also categorical, but you cannot re-order the list without chang
 
 Interval data and ratio data are two types of continuous data. Don't worry too much about the distinction between interval and ratio. It is not that important. The very important distinction is between ordinal data and interval data.
 
-For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature, dates, and IQ tests.
+For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature and IQ tests.
 
 for a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
 
@@ -1124,9 +1096,28 @@ Count data is a type of ratio data, but it is a bit unsual because it cannot inc
 
 Time-to-event data is also a type of ratio data, but it is also a bit unusual. Time-to-event data almost always has censored values, values where the event has not occurred yet. It also is bounded below by zero. It also tends to violate the same assumptions in linear regression: normality and homogeneity.
 
+A neagtive requirement for ordinal data is that sums computed on an ordinal scale are meaningless. You can't talk about how a private plus a sergeant is equal to two corporals, even though you might code private=1, corporal=2, sergeant=3.
+
 </div>
 
-### Permissible measurements
+### ordinal verus interval controversy
++ Example: grade point average
+  + Two B's equal and A plus a C?
+  + Shift from A to B versus a shift from D to F?
++ Likert scale
+  + Is an average meaningful?
+  + Independent variable for linear regression?
+  + Dependent variable for linear regression?
++ Is a sum of Likert scale items different?
++ Purist versus pragmatist
+
+<div class="notes">
+
+
+
+</div>
+
+### Permissible statistical summaries
 
 + Nominal: percentage, mode
 + Ordinal: median
@@ -1150,31 +1141,17 @@ There is a natural hierarchy to these measurements in that any statistic that ca
 
 ### Permissible models
 
-+ Binary: Logistic regression
-+ Nominal: Chi-square tests, multinomial logistic regression
-+ Ordinal: Non-parametric tests, ordinal logistic regression
++ Special cases
+  + Binary: Logistic regression
+  + Counts: Poisson regression
+  + Time-to-event data: Cox proportional hazards regression
++ Nominal: Chi-square tests
++ Ordinal: Non-parametric tests
 + Interval/ratio: linear regression
-+ Counts: Poisson regression
-+ Time-to-event data: Cox proportional hazards regression
 
 <div class="notes">
 
-
-
-</div>
-
-### Measurement 
-
-+ Why does the scale of measurement matter?
-	+ How it reflects your design and your research question
-	+ How it determines the types of statistical analyses you will do
-	+ How it defines what you can say about your results
-
-<div class="notes">
-
-The level of measurement comes from what you are trying to get at in your research.
-
-Measurement scales can limit what you can say about your results.
+In addition to the permissible statistical summaries, there are permissible statistical models. Let's deal with the special cases first.
 
 </div>
 
@@ -1190,22 +1167,38 @@ Measurement scales can limit what you can say about your results.
 ### Descriptive statistics
 + Part of every quantitative study
 + Table 1, overall summaries
+  + Outcomes and covariates
   + Means and standard deviations
-  + Percentages
+  + Percentages (always show denominator)
 + Key subgroup comparisons
   + Crosstabulations
   + Means/standard deviations by subgroup
-  + Correlations
-  
-### Table of percentages
-
-![](../images/12/percentage2.gif)
 
 <div class="notes">
 
-Dear Professor Mean, My colleagues and I argue over the most appropriate way for displaying tables of percentages. Must the row or column always add to 100%? Also, in cases where it is difficult to know which variable is dependent, how does one decide the best way to present the results? -- Garrulous Gail
+Your descriptive statistics should be a part of any research study. This is done in almost every research paper and it almost always appears as the first table in your paper. So we sometimes call these table 1 statistics.
 
-Dear Garrulous,
+Your descriptive statistics should include your outcome variables, most certainly, but also your covariates. Covariates are variables that are not of direct interest but which can potentially influence your outcome anyway. This includes, in any human study, things like age and gender.
+
+if your data are continuous (interval or ratio scale), summarize your data with a mean and standard deviation. Some people advocate a different summary if your data is skewed, using the median and the range, for example, instead of the mean and standard deviation. There is no consensus on how much the data has to be skewed, or even if you need to switch at all. I, for one, see the mean and standard deviation as useful summaries, even for skewed data, but I am in a minority on this.
+
+For categorical outcomes summarize using a percentage. Always show what your numerator and denominator would be if you report percentages.
+
+If you want to compare across key demographic groups, use crosstabulations for categorical outcomes and means/standard deviations by subgroup for continuous outcomes.
+
+Let me talk a bit about crosstabulations because these are almost always done poorly.
+
+</div>
+
+### Rules for crosstabulations
+
++ Never display multiple statistics
++ Place treatment/exposure categories in the rows
++ Summarize using row percentages
++ Many rows, not many columns
++ Round liberally.
+
+<div class="notes">
 
 When you are deciding how to display two by two (or larger) tables, you have a variety of ways to do this. No way is correct all the time, and some of choices reflect subjective judgment. But here are some rules I use.
 
@@ -1226,6 +1219,13 @@ Whenever you report percentages, always round. A change on the order of tenths o
 Don't worry about whether your percentages add up to 99% or 101%. First of all, it can't happen with a two by two table unless you round incorrectly. For a larger table, it can happen, but your audience is sophisticated enough to understand why this is the case. No one, for example, is going to be upset when 33% plus 33% plus 33% adds up to less than 100%.
 
 When in doubt, write out your table several different ways. Pick out the one that gives the clearest picture of what is really happening. Don't rely on the first draft of your table, just like you would never rely on the first draft of your writing.
+
+</div>
+### Table of percentages
+
+![](../images/12/percentage2.gif)
+
+<div class="notes">
 
 A simple fictitious example will help illustrate these points.
 
@@ -1299,12 +1299,25 @@ If we had a six categories for attitude rather than just two, we might arrange t
 
 Notice that this table would not require any sideways scrolling.
 
+</div>
+
+### Rules for crosstabulations
+
++ Never display multiple statistics
++ Place treatment/exposure categories in the rows
++ Summarize using row percentages
++ Many rows, not many columns
++ Round liberally.
+
+<div class="notes">
+
+Here are those rules again.
 
 Never display more than one type of number in a table.
 
-Row percentages are usually best.
-
 Place the treatment/exposure variable as rows and outcome variable as columns.
+
+Row percentages are usually best.
 
 If one variable has a lot more levels than the other variable, place that variable in rows.
 
@@ -1316,50 +1329,12 @@ When in doubt, write out your table several different ways.
 
 </div>
 
-### Boxplot
-
-![](../images/12/boxplot1.gif)
-
-<div class="notes">
-
-The box plot is a graphical display of a five number summary. Sometimes the box plot is also known as a box and whiskers plot.
-
-Here are the four steps you follow to draw a boxplot.
-
-Draw a box from the 25th to the 75th percentile.
-
-Split the box with a line at the median.
-
-Draw a thin lines (whisker) from the 75th percentile up to the maximum value.
-
-Draw another thin line from the 25th percentile down to the minimum value.
-
-The length of the box in a box plot, i.e., the distance between the 25th and 75th percentiles, is known as the interquartile range. You can use this box length to detect outliers. If any whisker is more than 1.5 times as long as the length of the box, then we have evidence of outliers. A common variation on the box plot is to draw the whisker to the value which is just shy of 1.5 box lengths away, and highlight each individual data point more than 1.5 box lengths away.
-
-</div>
-  
-### Boxplot
-
-![](../images/12/boxplot2.gif)
-
-<div class="notes">
-
-The boxplot is useful for comparing the distributions of two different groups. If the median in one box exceeds the end of the box of the other group, that is evidence of a "large" discrepancy between the two groups. What passes as the median for one group would actually be the 25th or 75th percentile of the other group.
-
-Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can produce boxplots and you can find code to produce boxplots in many programming languages.
-
-</div>
-
-### Scatterplot
-
-![](../images/12/scatter1.png)
-
 ### Graphs
 + Overall summaries
   + Histograms for continuous data
   + Bar/pie charts for categorical data
 + Assessing relationships
-  + Two by two table
+  + Side by side pie/bar charts
   + Boxplots
   + Scatterplots
   
@@ -1375,6 +1350,53 @@ Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can prod
 
 ![Histogram showing a bimodal distribution](../images/12/hist3.gif)
 
+### Side by side pie/bar charts
+
++ Pies and bars only work well for 2 or 3 categories
+  + Pacman charts
++ No good graphs for more categories
++ Avoid cheap 3D effects
+
+### Boxplot
+
+![](../images/12/boxplot2.gif)
+
+<div class="notes">
+
+The box plot is a graphical display of a five number summary. Sometimes the box plot is also known as a box and whiskers plot. It is very useful for examining relationships between a categorical variable and a continuous variable.
+
+Here are the four steps you follow to draw a boxplot.
+
+Draw a box from the 25th to the 75th percentile.
+
+Split the box with a line at the median.
+
+Draw a thin lines (whisker) from the 75th percentile up to the maximum value.
+
+Draw another thin line from the 25th percentile down to the minimum value.
+
+The length of the box in a box plot, i.e., the distance between the 25th and 75th percentiles, is known as the interquartile range. You can use this box length to detect outliers. If any whisker is more than 1.5 times as long as the length of the box, then we have evidence of outliers. A common variation on the box plot is to draw the whisker to the value which is just shy of 1.5 box lengths away, and highlight each individual data point more than 1.5 box lengths away.
+
+The boxplot is useful for comparing the distributions of two different groups. If the median in one box exceeds the end of the box of the other group, that is evidence of a "large" discrepancy between the two groups. What passes as the median for one group would actually be the 25th or 75th percentile of the other group.
+
+Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can produce boxplots and you can find code to produce boxplots in many programming languages.
+
+Notice that these boxplots are horizontal rather than vertical. The main reason to turn these 90 degrees is if your labels and axes fit better this way.
+
+</div>
+
+### Scatterplot
+
+![](../images/12/scatter1.png)
+
+<div class="notes">
+
+This is a scatterplot, a useful way to summarize the association between two continuous variables.
+
+Often a trend line or a smoothing curve helps. This seems to be the case when you have a lot of data, meaning a lot of overprinting, and the data is fairly noisy.
+
+</div>
+
 ### Quality checks (internal use, mostly)
 
 + Minimum and maximum checks
@@ -1384,13 +1406,22 @@ Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can prod
 + List five five rows, last five rows
 + Correlations
 
+<div class="notes">
+
+There are some descriptive statistics that you should run just for your own benefit. Check the minimum and maximum values for every numeric variable in your data set. I received a data set with a bunch of 5 point Likert scale items and for most of the variables, the minimum was 1, but the maximum was 33 or 55. Guess what happened?
+
+Get a missing value count and monitor it closely. See if there are odd patterns, such as the missing values declining over time but then jumping back up at the end. It could be normal, but it could be an indication of a problem.
+
+When you get correlations, look for unexpected patterns, such as a negative correlation where a positive one was expected. It could be okay, or it could mean that the scales on a Likert scale got switched around halfway through the survey due to a misprint.
+
+</div>
+
 ### Data reduction
 
-* Create composite scores
+* Check composite scores
   + Check Cronbach's alpha
   + Examine leaving out single items
-* Factor analysis
-  + Supplanted by Structural Equations Modeling
+  + Factor analysis, Structural Equations Modeling
 
 ### Data transformations
 
@@ -1398,11 +1429,14 @@ Just about any statistical software program (SAS, SPSS, Stata, R, etc.) can prod
   + Sometimes based on precedent
   + Sometimes motivated by theory
   + Sometimes based on empirical findings
++ Log transformation
++ Collapse low frequency categories
   
 ### Linear regression
 
-+ Y = m X + b
-+ m = Δy / Δx
++ High school algebra
+  + Y = m X + b
+  + m = Δy / Δx
 + The slope represents the estimated average change in Y when X increases by one unit.
 + The intercept represents the estimated average value of Y when X equals zero.
 
@@ -1428,8 +1462,6 @@ The intercept represents the estimated average value of Y when X equals zero.
 
 Be cautious with your interpretation of the intercept. Sometimes the value X=0 is impossible, implausible, or represents a dangerous extrapolation outside the range of the data.
 
-The graph shown below represents the relationship between mother's age and the duration of breast feeding in a research study on breast feeding in pre-term infants.
-
 </div>
 
 ### Age vs duration
@@ -1440,11 +1472,21 @@ The graph shown below represents the relationship between mother's age and the d
 
 The graph shown below represents the relationship between mother's age and the duration of breast feeding in a research study on breast feeding in pre-term infants.
 
-The regression coefficients are shown below. The intercept, 6, is represented the estimated average duration of breast feeding for a mother that is zero years old. This is an impossible value, so the interpretation is not useful. What is useful, is the interpretation of the slope, approximately 0.4. The estimated average duration of breast feeding increases by 0.4 weeks for every extra year in the mother's age.
+The regression coefficients are shown below. The intercept, 6, is represented the estimated average duration of breast feeding for a mother that is zero years old. This is an impossible value, so the interpretation is not useful. What is useful, is the interpretation of the slope.
+
+Notice that a 20 year old mother has a duration of 13 weeks. A 40 year old mother has a duration of 21 weeks.
+
+Calculate 21-13 divided by 40-20 equals 8 divided by 20 equals 0.4. The estimated average duration of breast feeding increases by 0.4 weeks for every extra year in the mother's age.
 
 </div>
 
 ### Age vs duration
+
+![](../images/12/linear2.gif)
+
+
+
+### Treatment vs duration
 
 ![](../images/12/linear3.gif)
 
@@ -1454,7 +1496,11 @@ When X is categorical, the interpretation changes somewhat. Let's look at the si
 
 In a study of breast feeding, we have a treatment group and a control group. Let us label the treatment group as 1 and the control group as 0. The outcome variable is the age when breast feeding stopped.
 
-In this situation, the intercept, 13, represents the average duration for the control group. The slope is 7, which is the change in the average duration when we move from the control group to the treatment group.
+In this situation, the intercept, 13, represents the average duration for the control group. 
+
+Calculate 20-13 divided by 1-0.
+
+The slope is 7, which is the change in the average duration when we move from the control group to the treatment group.
 
 When we represent a binary variable using 0-1 coding, the slope represents the estimated average change in Y when you switch from one group to the other.
 
@@ -1462,13 +1508,17 @@ The intercept represents the estimated average value of Y for the group coded as
 
 </div>
 
-### Unadjsted
+### Treatment vs duration
 
-![](../images/12/linear10.gif)
+![](../images/12/linear6.gif)
+
+
+
+### Adjusted
+
+![](../images/12/linear12.gif)
 
 <div class="notes">
-
-
 
 There are two types of models, crude models and adjusted models. A crude model looks at how a single factor affects your outcome measure and ignores potential covariates. An adjusted model incorporates these potential covariaties. Start with a crude model. It's simpler and it helps you to get a quick overview of how things are panning out. Then continue by making adjustments for important confounders.
 
@@ -1485,18 +1535,6 @@ The intercept represents the average duration of breast feeding for the NG tube 
 Shown below is a table of means from the general linear model.
 
 We see that the difference between the two means is roughly 7 weeks, which confirms the results shown previously.
-
-
-
-</div>
-
-### Unadjsted
-
-![](../images/12/linear10.gif)
-
-<div class="notes">
-
-Step 2, Fit an adjusted model
 
 The previous model was a crude model. We see a seven week difference between the two groups, but could some of all of this difference be due to the fact that the NG tube group had older mothers? To answer this, we need to fit an adjusted model.
 
@@ -1547,83 +1585,47 @@ This is not the final model. We should examine the effect of delivery type and a
 
 ### Analysis of Qualitative Data-resources
 
-+ http://blog.pmean.com/semi-structured-interviews/
-+ Positivism versus constructivism, revisited
-  + https://www.sagepub.com/sites/default/files/upm-binaries/29985_Chapter1.pdf
-  + http://blog.pmean.com/recommended-philosophy-news-network-postmodernism-special-report/
 + Typically, a one-hour interview requires a minimum of three to four hours (or more) of analysis.
 + Involve the participants in the process, especially for narrative research.
++ Tools:
+  + focus groups
+  + semi-structured interviews
+  + participant observation
+  + archival records
 
 ### Tools
 
-+ Tools:
-  + semi-structured interviews,
-  + participant observation,
-  + photo elicitation(?),
-  + mapping exercises(?),
-  + web and space design workshops(?),
-  + archival records, 
-  + physical artifacts, 
 
 ### Inductive process
 + Start with the specific (raw data / transcript)
 	+ Develop a theoretical framework from the data
 	+ Conceptual categories emerge from the data
+	+ Iterative process
++ Define the process
+  + Who does the work
+  + Privacy protections
+  + How you will adapt
 
 <div class="notes">
 
+Quantitative analysis is almost always structured and defined in detail prior to data collection. But qualitative analysis is different. You are trying to build a theoretical frame work from data, so you are moving from specific data to a generality. This is known as inductive research. You are using small pieces of text to develop broad themes and establish an overarching pattern or framework.
 
+You data collection may change as you collect information. I was helping a group of nurses who were running some focus groups (I didn't do too much other than observe from a distance). A big pattern emerged with the very first focus group. There was a generational difference in norms and expectations. So much so that the first focus group almost devolved into a shouting match. So the nurses decided to ask lots of questions about generational issues and they also decided wisely to separate the boomer generation from the Xers.
 
-</div>
+So if things can and should change as you collect data, how do you write a methods section? You have to focus on the process. Well there are small things, such as who does the questions in the interviews, how the interviews will be recorded and transcibed, and so forth. You should mention privacy protections.
 
-
-###  Start with a research question
-+ This may provide a potential starting point for analyzing text
-	+ If you do this, DO NOT let it prevent you from seeing what is in the text
-+ Steps
-	+ From raw data to theory building
-	+ “ Iterative ” process
-		+ e.g. , as you are developing categories, check them back against the raw data – do they continue to reflect the original data?
-
-<div class="notes">
-
-Start the study with a research question.
-
-Keep alert and look for things that come out in the material that you were not anticipating. As your categories, go back and compare them against the raw data. Make sure that you allow the data to guide you. Often coding from transcripts. But it is also good to have access to the original recordings. Sometimes there is a doubt about what some was saying (joking or sarcasm). Look for tone of voice and non-verbal cues.
-
-Content analysis is a generic term, but you can look at things like ad messages in magazines that appeal to young adults.
-
-Thematic analysis is looking for patterns.
+Most importantly, if you expect to let the early data drive how you will collect later data collection efforts, say this explicitly and explain what you will be looking for as you decide how and when to make mid-course adaptations.
 
 </div>
 
-
-### Analysis process
-+ Given research question, may have some idea of a general conceptual structure; serve only as a starting point
-	+ Usually work from transcripts
-	+ If possible, refer back to audio recordings when needed
-	+ Qualitative form of analysis
-		+ Content analysis – analysis of the content of communication
-		+ Thematic analysis – identifying patterns or themes in the data
-
-<div class="notes">
-
-Break up the text into "bits" that represent specific thoughts. Open coding lots of themes. Axial coding looks at the relationships between themes, builds a superstructure of ideas.
-
-</div>
-
-
-### Category Formation
-+ Assign sections (data bits) to analytical categories/themes "coding"
-+ Summarizing the data by identifying similarities and differences / commonalities and contrasts
-	+ Categories:
-		+ More manageable units of information
-		+ "open coding"
-		+ Descriptive – Concrete
-		+ Interpretive – Abstract
-		+ Relational
-	+ Cross-reference categories back to text
-		+ Makes it easier to revise coding as needed
+### Analysis process for qualitative data
++ Your research question is only your starting point.
++ Don't let your question blind you to new information
++ Build themes before you complete your data collection
+	+ Check back against the  raw data
+	+ Look for negative examples
+	+ Don't ignore infrequently voiced themes
++ When have you achieved saturation?
 
 <div class="notes">
 
@@ -1633,53 +1635,9 @@ Categories need to be faithful to the data. This is internal validity. But you n
 
 You need to be careful about trying to quantify this too much. Keep in mind that just because someone talks about something a lot does not mean that this is the most important thing to them. The most important thing might be something that people are uncomfortable talking about.
 
-</div>
-
-
-### Category Formation
-+ Faithful to the data – "internal" aspect
-	+ Meaningful to other categories – "external" aspect
-	+ Balance
-		+ Generality vs Specificity
-		+ Inclusivity vs Exclusivity
-	+ Number of times idea mentioned does NOT necessarily reflect importance
-
-<div class="notes">
-
-
-
-</div>
-
-
-### Labeling / Revising Categories
-+ Member-generated – “ first-order ” account
-	+ Observer-generated – “ second-order ” account
-	+ Labels are provisional; may be revised
-	+ Iteration – move back and forth between raw data and labeled categories
-	+ “ Zoom in ” vs “ Wide angle ” view of the coding
-	+ Revision – may end up dividing or combining categories
-	+ May establish criteria for category coding
-
-<div class="notes">
-
 Phrasing of the person versus observations generated by the researcher. Labels should be considered as provisional as you work with more complete information. It is an iterative process. Go back to original data. You're looking at the specific of what's been told versus a broader understanding.
 
 Establishing the criteria may depend on how many people are doing the coding. If you don't have a pre-existing structure, the coding may evolve and may involve 100% review (both raters review everything and resolve discrepancy). Then a third person does an audit.
-
-</div>
-
-
-### Saturation
-
-+ Don't need any additional analysis
-	+ Don't need any additional data collection (if collection & analysis done in parallel)
-	+ Determinant – nature of the information being collection – NOT amount of information
-	+ Keeping notes – of the coding/analysis process
-	+ Help identify categories/relationships
-	+ Help if "stuck"
-	+ Document analysis process
-
-<div class="notes">
 
 The point at which you are not gaining any new insight, no new categories being identified, no new relationships being defined. Saturation is a way to assess your sample size. Have you gotten a representative amount of data. 
 
@@ -1689,30 +1647,13 @@ Really important to keep notes of the coding and analysis process, so you can ch
 
 
 ### Role of Judgment
-+ Balancing act –
++ Balancing act 
 	+ Level of creativity by coder to identify categories/relationships
 	+ Must reflect the informants thoughts
 	+ Audit of the coding by an independent person can check for the match between the coding and the source information
-	+ Low-inference descriptors
 + Look for "negative cases"
 
 <div class="notes">
-
-You develop a framework, but that framework must always represent what the subjects have said.
-
-Low inference descriptors are those things involving just the basic words or text.
-
-</div>
-
-
-### Quantifying Information
-+ Pros & Cons
-	+ When quantifying might be of value
-	+ Simple frequency of occurrence does NOT necessarily reflect importance
-
-<div class="notes">
-
-This was mentioned earlier.
 
 </div>
 

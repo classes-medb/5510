@@ -54,6 +54,8 @@ Sackett DL. Why randomized controlled trials fail but needn’t: 2. Failure to e
 
 Simon SD. Pitch the pie! Ban the bar! StATS website, June 5, 2003. Available in [html format](http://www.pmean.com/03/barpie.html). An updated version is also available in [html format](http://www.pmean.com/news/2009-09.html#3).
 
+Simon SD. Quick sample size calculations. P.Mean website, April 26, 2011. Available in [html format](http://www.pmean.com/01/quick.html).
+
 Simon SD. Displaying tables of percentages. StATS website, November 6, 2002. Available in [html format](http://www.pmean.com/02/percentage.html)
 
 Wasserstein RL, Lazar NA (2016) The ASA's Statement on p-Values: Context, Process, and Purpose, The American Statistician, 70:2, 129-133, DOI: 10.1080/00031305.2016.1154108. Availalble in [html format](https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108) or [PDF format](https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108).
