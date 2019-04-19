@@ -779,6 +779,7 @@ Once you have your non-inferiority margin, the rest is easy. Your alternative hy
   + research hypothesis
   + standard deviation
   + minimum clinically important difference
++ Post hoc power - never!
 + Effect sizes - never!
 
 <div class="notes">
@@ -799,6 +800,10 @@ A formal power calculation is the most common way to justify your sample size. I
 
 Never try to justify your sample size after the fact. It is called a post hoc power calculation. It is very bad. If you didn't have the foresight to justify your sample size before collecting your data, rely on the width of your confidence intervals to show that your sample size was adequate.
 
+Your book and a lot of other books talk about effect sizes. While an effect size is a useful intermediate calculation, you cannot use the effect size, by ifself, as it is impossible to interpret. Imagine a store with a sign in front announcing "Giant sae: all prices reduced by half a standard deviation".
+
+if you want to define a minimum clinically important difference, you must do it in the original scale of measurement, not using some unitless quantity like an effect size.
+
 </div>
 
 
@@ -810,17 +815,34 @@ Never try to justify your sample size after the fact. It is called a post hoc po
 + What is coming next?
   + Criticisms of hypothesis testing
   + Bayesian data analysis
-
+  
 ### Criticisms of hypothesis testing (1 of 4)
 
 + Criticisms of the binary hypothesis
   + Dichotomy is simplistic
   + Point null is never true
   + Cannot prove the null
++ Possible remedy
+  + $H_0 \ -\Delta \le \ \mu_1-\mu_2 \le \Delta$ 
+
   
 <div class="notes">
 
+There are many cricisms of hypothesis testing. You need to be aware of these criticisms, but I am not suggesting that you abandon hypothesis testing because of these criticisms.
 
+The first set of criticisms deals with the binary nature of the hypotheses.
+
+I've said many times that all dichotomies are false dichotomies, and I still hold to that. Hypothesis testing is a double dichotomy. You specify only two hypotheses, and you only two choices are accepting the null hypothesis and rejecting the null hypothesis. Shouldn't there be more than two choices?
+
+Let me give an example. I found a couple of articles that studied the safety of vaccines. Now, vaccines are complicated, but let's try to understand the safety issue more clearly. It depends on the benefits of the vaccination combined with the probability that an individual will receive the benefit. Balance that against the harm caused by the vaccine combined with the probability that an individual will experience the harm. So how much harm and how probable does it need to be before you can say that you have a clinically important difference? Complicated, yes, but let's throw in a curve ball. How much do the harms and the probabilities need to be before you warn someone about those harms. How much do the harms and the probabilities need to be before you decide that you shouldn't be using this vaccine? Two very different questions, and two very different thresholds. So why do we force both of them into a single decision point?
+
+Why shouldn't you allow a gray decision? So you could accept the null hypothesis for some values of the sample statistics, reject it for other values, and choose to neither accept nor reject for values intermediate.
+
+Another thing about hypotheses is that a difference of exactly zero never actually occurs in the population. There's no way that, if you averaged a population of all males with particular disease and you averaged a population of all the females with a particular disease that you'd get the two to be exactly the same, even for a disease that has no association with gender. So what is the point of setting up a hypothesis and making a decision about it when you know in your heart of hearts that the null hypothesis is never true.
+
+The other issue with hypothesis testing is that it does not allow you to prove the null hypothesis. If you really wanted to prove the null hypothesis, you have to do all sort of messy gyrations. Wouldn't it be nice to be able to act with the same level of certainty when you accept the null hypothesis as you do when you reject the null hypothesis? The very phrasing that some people use (fail to reject the null hypothesis in place of accept the null hypothesis) shows how convoluted things get.
+
+Many of these criticisms of the binary hypothesis would disappear if we allowed for testing not equality in the null hypothesis but rather testing whether the difference is within some interval. But this is not going to happen anytime soon.
 
 </div>
 
@@ -834,7 +856,13 @@ Never try to justify your sample size after the fact. It is called a post hoc po
 
 <div class="notes">
 
+The p-value that lies at the heart of hpyothesis testing has also been roundly criticized. It seems backwards in more than one way. It is evidence against a hypothesis rather than for a hypothesis. You get lots of evidence against the null hypothesis when the p-value is small and little or no evidence when the p-value is large. And the conditional probability that your p-value represents, the probability of getting sample results or results more extreme given that the null hypothesis is true represents the reverse of what you really want. What you really want is the probability that the null hypothesis is true given the data that you observed.
 
+A lot of people dislike the idea of looking for a probability involving the sample results or results more extreme. Why, they ask, do you want a probabilty involving results more extreme. You didn't observe a value more extreme. You observed a single vlaue.
+
+The p-vaue ignores clinical importance. This would be easy to fix if people used an interval -delta to delta for the null hypothesis as mentioned earlier, but no one is ready to do this.
+
+Finally, the p-value is unaffected by threats to internal validity. If you conduct the study poorly, such as failing to keep information away from patients in a blineded study, or having a large number of protocol violations, that should be reflected in your p-value. But the p-value ignore these problems.
 
 </div>
 
@@ -848,7 +876,31 @@ Never try to justify your sample size after the fact. It is called a post hoc po
 
 <div class="notes">
 
+Hypothesis testing has been criticized because it is too hard to reject the null hypothesis, especially for small samples in a noisy setting. The conservative inside of you and me probably thinks this is good. Don't make a choice between two therapies or drugs until you've accumulated sufficient evidence. But failing to act quickly can sometimes force you to pay a price. This relates to the tradeoffs that you see all the time between false negative results and false positive results. The hypothesis testing framework is biased towards preventing a false positive result (a Type I error) and it is very difficult to get this framework to work well when a false negative result is worse. This can occur, for example, in a setting with a 100% fatal disease with no known cure.
 
+The opposite problem is also true. It is often too easy to reject the null hypothesis. In this era of big data, you can quickly get millions of data points or more and you have so much precision that any sample statistics even of a trivial size will lead to a statistically significant result. This is not good. Instead of identifying one or two risk factors as being statistically significant, a really big data set will identify hundreds or even thousands of risk factors as being statistically significant.
+
+The p-value is too reliant on a single study and does not consider what previous research has been done.
+
+My biggest criticism of p-values, though, is the thougtless way in which they are applied. I've written about the p-value receptor inside a scientist's brain.
+
+A research team took ten scientists and placed them inside an fMRI. The fMRI shows which parts of your brain are active as your brain processes different types of information. The scientists were shown a variety of graphs taken from actual peer-reviewed publications.
+
+As you might expect, the part of your brain that activates first when you are presented an image of a graph is your visual cortex. For most graphs, this was quickly followed by an activation of the parietal lobe, the part of your brain responsible for numerical computations.
+
+But some graphs showed a different pattern. If the graph included a p-value, activation of the visual cortex is followed by activation of an area of your amygdala that is as yet poorly understood. The research team called this portion of the amygdala the p-value receptor.
+
+If your p-value receptor is activated and the p-value is larger than 0.05, the p-value receptor sends strong signals to the pain centers of the brain. This is clearly an adaptive behavior. Scientists who routinely produce p-values larger than 0.05 will not survive and reproduce.
+
+If the p-value receptor is activated and the p-value is 0.05 or smaller, the p-value receptor sends strong signals to the pleasure centers of the brain. Again this is an adaptive behavior. But the interesting finding is that there is a dose response effect. The p-value receptor produces about the same level of pleasure stimulation for p-values of 0.05, 0.04, 0.03, and 0.02. But p-values of 0.01 show an increase in stimulation that becomes even strong for p-values of 0.0099 and smaller. Perhaps there is some pattern associated with p-values that have two zeros to the right of the decimal place that is stronger then a p-value with just a single zero.
+
+The scientists also examined the effect of p-values reported in scientific notation. There was an increase in latency when the p-value receptor is fed a p-value in scientific notation. This probably represents an attempt to decode the scientific notation. But p-values in scientific notation with exponents of -4 or smaller showed an eventual spike in activation of the pleasure centers of the brain that are comparable to those achieved during orgasm.
+
+The research also noted a second important effect of the p-value receptor. Once the p-value receptor is stimulated, the entire cereberal cortex, the portion of your brain associated with logic and complex thinking, is immediately shut down. This insures that a scientist’s brain will focus only on the pleasure or pain associated with the p-value and will ignore the power of the study, the magnitude of the treatment effect, and other unimportant issues.
+
+The researchers suggest that statisticians who want to earn more consulting income and insure repeated business should do their best to produce only p-values that stimulate the pleasure centers of the brain.
+
+This is from my blog: http://blog.pmean.com/scientist-brain/
 
 </div>
 
@@ -1050,19 +1102,18 @@ The probability of the upper triangle is 93.9%. That's pretty strong evidence th
 
 </div>
 
-### Sixth break
-
-+ What have you learned?
-  + Criticisms of hypothesis testing
-  + Bayesian data analysis
-+ What's coming next?
-  + Scales of measurement
-  + Ordinal verus interval controversy
-
 ### Conclusion
 
-+ Hypothesis testing
-+ p-values and confidence intervals
-+ Bayesian analysis
-+ Sample size justification
++ What have you learned?
+  + Hypothesis testing
+  + p-values and confidence intervals
+  + Sample size justification
+  + Bayesian analysis
++ What's coming next week
+  + Scales of measurement
+  + Descriptive statistics
+  + Linear, logistic, Poisson, and Cox regression
+  + Analysis of qualitative data
+  + Writing a methods section
+
 
