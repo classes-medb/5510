@@ -669,6 +669,7 @@ Really important to keep notes of the coding and analysis process, so you can ch
   + Brag here about your rigor
   + Save limitations for discussion
 + Allow others to replicate
+  + Non-obvious details
 
 ### What should not be included in the methods section
 
@@ -730,8 +731,22 @@ Reason to use and not use Within-Subjects design?
 ### Sections of a methods section
 + Participants, Procedure, Measures/Materials, Analysis section (Frye, no date)
 
+<div class="notes">
+
+https://www.uml.edu/Images/Writing%20a%20Method%20Section-Participants_tcm18-117657.pptx
+https://www.uml.edu/Images/Writing%20a%20Method%20Section-Procedure_tcm18-117659.pptx
+https://www.uml.edu/Images/Writing%20a%20Method%20Section-Measures_tcm18-117658.pptx
+
+</div>
+
 ### Sections of a methods section
 + Subjects, Ethical considerations, Preparations, Protocol design, Measurements and calculations, Data analysis (Kallet 2004)
+
+<div class="notes">
+
+http://rc.rcjournal.com/content/49/10/1229
+
+</div>
 
 ### Sections of a methods section
 + Participants, Materials (Stimuli, Testing materials, Background questionnaire), Procedure (Tasks, Design and analyses)
@@ -739,11 +754,31 @@ Reason to use and not use Within-Subjects design?
 ### Sections of a methods section
 + What materials did you use? Who were the subjects of your study? What was the design of your research? What procedure did you follow? (Kallestinova 2011)
 
-### Sections of a methods section
-+ Selection and description of participants, Technical information, Statistics. International Commitee of Medical Journal Editors 2010.
+<div class="notes">
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/
+
+</div>
 
 ### Sections of a methods section
+
++ Selection and description of participants, Technical information, Statistics. International Commitee of Medical Journal Editors 2010.
+
+<div class="notes">
+
+http://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+
+</div>
+
+### Sections of a methods section
+
 + Materials (Chemical, Experimental materials, Experimental animals, Human subjects), Methods (Study design, Measurements/assessments, Statistical analyses) (Ghasemi 2019)
+
+<div class="notes">
+
+
+
+</div>
 
 ### Conclusion
 
