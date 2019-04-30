@@ -30,15 +30,15 @@ Measurement scales are an important, but controversial, categorization of the ty
 
 There are four categories: nominal, ordinal, interval, and ratio, that were first described by a psychologist, S.S. Stevens, over 80 years ago.
 
-Nominal data is categorical, meaning a small number of values. An additional requirement for nominal data is that order is not important. If you can re-order the list of categories without causing too much fuss, you have nominal data. Examples of nominal data include race, gender, and geographic region.
+Nominal data is categorical, meaning you only have a small number of possible values. An additional requirement for nominal data is that order is not important. If you can re-order the list of categories without causing too much fuss, you have nominal data. Examples of nominal data include race, gender, and geographic region.
 
-Ordinal data is also categorical, but you cannot re-order the list without changing things. Order is important. All Likert scale items are ordinal. Military ranks are ordinal. Education levels are ordinal, more or less, but if you make distinctions along the level of M.D. versus Ph.D., it is not. Use a bit of common sense. It works just fine for High school, some college, two year degree, four year degree, graduate/professional degree. Stages of cancer is another example.
+Ordinal data is also categorical, but you cannot re-arrange the list without changing things. Order is important. All Likert scale items are ordinal. Military ranks are ordinal. Education levels are ordinal, more or less, but if you make distinctions along the level of M.D. versus Ph.D., it is not. Use a bit of common sense. It works just fine for High school, some college, two year degree, four year degree, graduate/professional degree. Stages of cancer is another example.
 
 Interval data and ratio data are two types of continuous data. Don't worry too much about the distinction between interval and ratio. It is not that important. The very important distinction is between ordinal data and interval data.
 
 For an interval scale, the difference of one unit means the same thing when you are on the low end versus the high end of the scale. Examples of interval scales include temperature and IQ tests.
 
-for a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
+For a ratio scale, the ratio of two measurements means the same thing when you are on the low end versus the high end of the scale. Concepts such as "twice as much" are meaningful for ratio data. Ratio data also have a fixed zero point. Examples of ratio scales include birth weight, age, income.
 
 There are three special cases worth describing.
 
@@ -98,7 +98,8 @@ There is a natural hierarchy to these measurements in that any statistic that ca
   + Counts: Poisson regression
   + Time-to-event data: Cox proportional hazards regression
 + Nominal: Chi-square tests
-+ Ordinal: Non-parametric tests
++ Ordinal outcome variable: Non-parametric tests
++ Ordinal indepdent variable" p for trend tests
 + Interval/ratio: linear regression
 
 <div class="notes">
@@ -433,6 +434,12 @@ When you get correlations, look for unexpected patterns, such as a negative corr
 + Collapse low frequency categories
   
 ### Linear regression
++ Continuous outcome variable
++ Either categorical or continuous independent variables
++ Multiple variables (risk adjustment)
++ Interactions
+
+### Linear regression
 
 + High school algebra
   + Y = m X + b
@@ -455,7 +462,7 @@ m = Δy / Δx
 In English, we would say that this is the change in y divided by the change in x.
 
 In linear regression, we use a straight linear to estimate a trend in data. We can't always draw a straight line that passes through every data point, but we can find a line that "comes close" to most of the data. This line is an estimate, and we interpret the slope and the intercept of this line as follows:
-    
+
 The slope represents the estimated average change in Y when X increases by one unit.
 
 The intercept represents the estimated average value of Y when X equals zero.
@@ -556,6 +563,16 @@ This table now adjusts for mother's age. The mean for the bottle fed group is ad
 
 This is not the final model. We should examine the effect of delivery type and account for the fact that we have some data on twins. I hope, though, that this presentation gives you a general idea of what crude and adjusted models are.
 
+</div>
+
+### Continuous outcomes - summary
++ Linear regression
++ Two-sample t-test
++ Analysis of variance
+
+<div class="notes">
+
+
 
 </div>
 
@@ -568,6 +585,375 @@ This is not the final model. We should examine the effect of delivery type and a
   + Logistic regression
   + Poisson regression
   
+### Logistic regression
++ Binary outcome variable
++ Either categorical or continuous independent variables
++ Multiple variables (risk adjustment)
++ Interactions
+
+<div class="notes">
+
+The logistic regression model is a model that uses a binary (two possible values) outcome variable. Examples of a binary variable are mortality (live/dead), and morbidity (healthy/diseased). Sometimes you might take a continuous outcome and convert it into a binary outcome. For example, you might be interested in the length of stay in the hospital for mothers during an unremarkable delivery. A binary outcome might compare mothers who were discharged within 48 hours versus mothers discharged more than 48 hours.
+
+The covariates in a logistic regression model represent variables that might be associated with the outcome variable. Covariates can be either continuous or categorical variables.
+
+For binary outcomes, you might find it helpful to code the variable using indicator variables. An indicator variable equals either zero or one. Use the value of one to represent the presence of a condition and zero to represent absence of that condition. As an example, let 1=diseased, 0=healthy.
+
+Indicator variables have many nice mathematical properties. One simple property is that the average of an indicator variable equals the observed probability in your data of the specific condition for that variable.
+
+A logistic regression model examines the relationship between one or more independent variable and the log odds of your binary outcome variable. Log odds seem like a complex way to describe your data, but when you are dealing with probabilities, this approach leads to the simplest description of your data that is consistent with the rules of probability.
+
+</div>
+
+### A linear model for probability (1/2)
+
+![Table showing a reasonable linear relationship](../images/13/logistic-linear-1.gif)
+
+<div class="notes">
+
+Let's consider an artificial data example where we collect data on the gestational age of infants (GA), which is a continuous variable, and the probability that these infants will be breast feeding at discharge from the hospital (BF), which is a binary variable. We expect an increasing trend in the probability of BF as GA increases. Premature infants are usually sicker and they have to stay in the hospital longer. Both of these present obstacles to BF.
+
+A linear model for probability
+
+A linear model would presume that the probability of BF increases as a linear function of GA. You can represent a linear function algebraically as
+
+prob BF = a + b*GA
+
+This means that each unit increase in GA would add b percentage points to the probability of BF. The table shown below gives an example of a linear function.
+
+This table represents the linear function
+
+prob BF = 4 + 2*GA
+
+which means that you can get the probability of BF by doubling GA and adding 4. So an infant with a gestational age of 30 would have a probability of 4+2*30 = 64.
+
+A simple interpretation of this model is that each additional week of GA adds an extra 2% to the probability of BF. We could call this an additive probability model.
+
+</div>
+
+### A linear model for probability (2/2)
+
+![Table showing an unreasonable linear relationship](../images/13/logistic-linear-2.gif)
+
+<div class="notes">
+
+I'm not an expert on BF; what little experience I've had with the topic occurred over 40 years ago. But I do know that an additive probability model tends to have problems when you get probabilities close to 0% or 100%. Let's change the linear model slightly to the following:
+
+prob BF = 4 + 3*GA
+
+This model would produce the following table of probabilities.
+
+You may find it difficult to explain what a probability of 106% means. This is a reason to avoid using a additive model for estimating probabilities. In particular, try to avoid using an additive model unless you have good reason to expect that all of your estimated probabilities will be between 20% and 80%.
+
+</div>
+
+### A multiplicative model for probability
+
+![A reasonable multiplicative model for probability](../images/13/logistic-multiplicative-1.gif)
+
+<div class="notes">
+
+It's worthwhile to consider a different model here, a multiplicative model for probability, even though it suffers from the same problems as the additive model.
+
+In a multiplicative model, you change the probabilities by multiplying rather than adding. Here's a simple example.
+
+In this example, each extra week of GA produces a tripling in the probability of BF. Contrast this to the linear models shown above, where each extra week of GA adds 2% or 3% to the probability of BF.
+
+A multiplicative model can't produce any probabilities less than 0%, but it's pretty easy to get a probability bigger than 100%. A multiplicative model for probability is actually quite attractive, as long as you have good reason to expect that all of the probabilities are small, say less than 20%.
+
+</div>
+
+### The relationship between odds and probability
++ Usually only seen in gambling contexts
++ Sometimes ambiguous
+  + Odds in favor versus odds against
++ Odds = Prob / (1-Prob)
++ Prob = Odds / (1+Odds)
+
+<div class="notes">
+
+Another approach is to try to model the odds rather than the probability of BF. You see odds mentioned quite frequently in gambling contexts. If the odds are three to one in favor of your favorite football team, that means you would expect a win to occur about three times as often as a loss. If the odds are four to one against your team, you would expect a loss to occur about four times as often as a win.
+
+You need to be careful with odds. Sometimes the odds represent the odds in favor of winning and sometimes they represent the odds against winning. Usually it is pretty clear from the context. When you are told that your odds of winning the lottery are a million to one, you know that this means that you would expect to having a losing ticket about a million times more often than you would expect to hit the jackpot.
+
+It's easy to convert odds into probabilities and vice versa. With odds of three to one in favor, you would expect to see roughly three wins and only one loss out of every four attempts. In other words, your probability for winning is 0.75.
+
+If you expect the probability of winning to be 20%, you would expect to see roughly one win and four losses out of every five attempts. In other words, your odds are 4 to 1 against.
+
+The formulas for conversion are
+
+odds = prob / (1-prob)
+
+and
+
+prob = odds / (1+odds).
+
+In medicine and epidemiology, when an event is less likely to happen and more likely not to happen, we represent the odds as a value less than one. So odds of four to one against an event would be represented by the fraction 1/4 or 0.25. When an event is more likely to happen than not, we represent the odds as a value greater than one. So odds of three to one in favor of an event would be represented simply as an odds of 3. With this convention, odds are bounded below by zero, but have no upper bound.
+
+</div>
+
+### A multiplicative odds model
+
+![A multiplicative model for odds](../images/13/logistic-multiplicative-2.gif)
+
+<div class="notes">
+
+Let's consider a multiplicative model for the odds (not the probability) of BF.
+
+This model implies that each additional week of GA triples the odds of BF. A multiplicative model for odds is nice because it can't produce any meaningless estimates.
+
+It's interesting to look at how the logarithm of the odds behave.
+
+Notice that an extra week of GA adds 1.1 units to the log odds. So you can describe this model as linear (additive) in the log odds. When you run a logistic regression model in SPSS or other statistical software, it uses a model just like this, a model that is linear on the log odds scale. This may not seem too important now, but when you look at the output, you need to remember that SPSS presents all of the results in terms of log odds. If you want to see results in terms of probabilities instead of logs, you have to transform your results.
+
+Let's look at how the probabilities behave in this model.
+
+Notice that even when the odds get as large as 27 to 1, the probability still stays below 100%. Also notice that the probabilities change in neither an additive nor a multiplicative fashion.
+
+</div>
+
+### Linearity on log-odds scale
+
+![Table showing linearity on the log odds scale](../images/13/logistic-log-odds-1.gif)
+
+### The S-shaped logistic curve (1/2)
+
+![Table converting back to probabilities](../images/13/logistic-log-odds-2.gif)
+
+### The S-shaped logistic curve (2/2)
+
+![Graph of  probabilities](../images/13/logistic-log-odds-3.gif)
+
+<div class="notes">
+
+The probabilities follow an S-shaped curve that is characteristic of all logistic regression models. The curve levels off at zero on one side and at one on the other side. This curve ensures that the estimated probabilities are always between 0% and 100%.
+
+</div>
+
+### An example of a log odds model with real data (1/2)
+
+![Log odds model for real data set](../images/13/logistic-ga-example-1.gif)
+
+<div class="notes">
+
+
+
+</div>
+
+### An example of a log odds model with real data (2/2)
+
+![Log odds model for real data set](../images/13/logistic-ga-example-2.gif)
+
+<div class="notes">
+
+There are other approaches that also work well for this type of data, such as a probit model, that I won't discuss here. But I did want to show you what the data relating GA and BF really looks like.
+
+I've simplified this data set by removing some of the extreme gestational ages. The estimated logistic regression model is
+
+log odds = -16.72 + 0.577*GA
+
+The table below shows the predicted log odds, and the calculations needed to transform this estimate back into predicted probabilities.
+
+Let's examine these calculations for GA = 30. The predicted log odds would be
+
+log odds = -16.72 + 0.577*30 = 0.59
+
+Convert from log odds to odds by exponentiating.
+
+odds = exp(0.59) = 1.80
+
+And finally, convert from odds back into probability.
+
+prob = 1.80 / (1+1.80) = 0.643
+
+The predicted probability of 64.3% is reasonably close to the true probability (77.8%).
+
+You might also want to take note of the predicted odds. Notice that the ratio of any odds to the odds in the next row is 1.78. For example,
+
+3.20/1.80 = 1.78
+
+5.70/3.20 = 1.78
+
+It's not a coincidence that you get the same value when you exponentiate the slope term in the log odds equation.
+
+exp(0.59) = 1.78
+
+This is a general property of the logistic model. The slope term in a logistic regression model represents the log of the odds ratio representing the increase (decrease) in risk as the independent variable increases by one unit.
+
+</div>
+
+### Categorical variables in a logistic regression model
+
+</div class="notes">
+
+You treat categorical variables in much the same way as you would in a linear regression model. Let's start with some data that listed survival outcomes on the Titanic. That ship was struck by an iceberg and 863 passengers died out of a total of 1,313. This happened during an era where there was a strong belief in "women and children" first.
+
+You can see this in the crosstabulation shown above. Among females, the odds of dying were 2-1 against, because the number of survivors (308) was twice as big as the number who died (154). Among males, the odds of dying were almost 5 to 1 in favor (actually 4.993 to 1), since the number who survived (142) was about one-fifth the number who died (709).
+
+The odds ratio is 0.1, and we are very confident that this odds ratio is less than one, because the confidence interval goes up to only 0.13. Let's analyze this data by creating an indicator variable for sex.
+
+In SPSS, you would do this by selecting TRANSFORM | RECODE from the menu
+
+Then click on the OLD AND NEW VALUES button.
+
+Here, I use the codes of 0 for female and 1 for male. To run a logistic regression in SPSS, select ANALYZE | REGRESSION | BINARY LOGISTIC from the menu.
+
+Click on the OPTIONS button.
+
+Select the CI for exp(B) option, then click on the CONTINUE button and then on the OK button. Here is what the output looks like:
+
+Let's start with the CONSTANT row of the data. This has an interpretation similar to the intercept in the linear regression model. the B column represents the estimated log odds when SexMale=0. Above, you saw that the odds for dying were 2 to 1 against for females, and the natural logarithm of 2 is 0.693. The last column, EXP(B) represents the odds, or 2.000. You need to be careful with this interpretation, because sometimes SPSS will report the odds in favor of an event and sometimes it will report the odds against an event. You have to look at the crosstabulation to be sure which it is.
+
+The SexMale row has an interpretation similar to the slope term in a linear regression model. The B column represents the estimated change in the log odds when SexMale increases by one unit. This is effectively the log odds ratio. We computed the odds ratio above, and -2.301 is the natural logarithm of 0.1. The last column, EXP(B) provides you with the odds ratio (0.100).
+
+Coding is very important here. Suppose you had chosen the coding for SexFemale where1=female and 0=male.
+
+Then the output would look quite different.
+
+The log odds is now -1.608 which represents the log odds for males. The log odds ratio is now 2.301 and the odds ratio is 9.986 (which you might want to round to 10).
+
+</div>
+  
+### Categorical outcomes -- summary
++ Binary outcome variables
+  + Test of two proportions
+  + Chi-square test
+  + Logistic regression
++ Ordinal outcome variables
+  + Nonparametric tests
+  + Ordinal logistic regression
++ Multiple level nominal variables
+  + Chi-squre test
+  + Multinomial logistic regression.
+
+### Poisson regression
++ The problems with counts
+  + Skewed
+  + Non-negative
+  + Unequal variances
++ Analysis of rates
+
+<div class="notes">
+
+Poisson regression assumes that your outcome variable follows a Poisson distribution, a distribution that we frequently encounter when we are counting a number of events. The distribution was first used to characterize deaths by horse kicks in the Prussian army. Let's hope that your application is not as unpleasant.
+
+Poisson distributions have three special problems that make traditional (i.e., least squares) regression problematic.
+
+The Poisson distribution is skewed; traditional regression assumes a symmetric distribution of errors.
+The Poisson distribution is non-negative; traditional regression might sometimes produce predicted values that are negative.
+For the Poisson distribution, the variance increases as the mean increases; traditional regression assumes a constant variance.
+
+In contrast, the Poisson regression model is not troubled by any of the above conditions. In particular, Poisson regression implicitly uses a log transformation which adjusts for the skewness and prevents the model from producing negative predicted values. Poisson regression also models the variance as a function of the mean.
+
+What if my data is a rate and not a count?
+
+Poisson regression can also be used to analyze rate data. Rates are simply counts divided by a measure like area or time. For example, infection rates are often measured as a number per patient day of exposure. To fit a model using rates, you need to have the original counts (the numerator of the rate) and the measure of time/area (the denominator of the rate). The Poisson model is fit to the counts and uses the log of the denominator as an offset variable. The details are a bit messy, so refer to the appropriate software manual.
+
+</div>
+
+### Example
+
+<div class="notes">
+
+I've been working on an interesting project that requires Poisson regression. A company sends out a mailing and gets a certain number of telephone calls back on each of the days following. The number of phone calls is typically (but not always) highest on the first day afterwards and declines rapidly on successive days. I wanted to develop a simple Poisson regression model for this data.
+
+Here's an example of this data
+
+1 9
+2 4
+3 2
+4 3
+5 0
+6 0
+7 1
+
+You can fit a simple Poisson regression model in R using the following code:
+
+ct <- c(9,4,2,3,0,0,1)
+tm <- 0:6
+pmod <- glm(ct~tm,family=poisson)
+
+Using 0 as the starting point rather than 1 makes the interpretation of this model simpler. When you list the contents of  pmod, you get the following
+
+Call: glm(formula = ct ~ tm, family = poisson)
+
+Coefficients:
+(Intercept)           tm
+     2.1063      -0.5505
+
+Degrees of Freedom: 6 Total (i.e. Null); 5 Residual
+Null Deviance:      22.06
+Residual Deviance: 5.289        AIC: 24.21
+
+How would you interpret these coefficients?  The Poisson regression model uses a log link function. This means that the average value for the data is assumed to be linear on a log scale.
+
+In a linear regression model, the intercept is the estimated average value of the dependent variable when the independent variable is equal to zero. In a Poisson regression model, the antilog of the intercept represents the estimated average count when the independent variable is zero. Since exp(2.1) = 8.2, you would say that the estimated average count at time zero is 8.2.
+
+You might be tempted to make the intercept equal to 9. While this is not an outrageous thing to do, it is not quite as efficient. The Poisson regression model has to fit all of the counts well, not just the count at 0.
+
+In a linear regression model, the slope represents the estimated average change in the dependent variable when the independent variable increases by one unit. In a Poisson regression model, the antilog of the slope represents the estimated average change in the count when the independent variable increases by one unit. An important difference, though, is that the change is a multiplicative change. Since exp(-0.55) = 0.58, you would say that the estimated average count declines by a factor of 0.58 (a 42% decline) when time increases by one day.
+
+A zero slope in a Poisson regression model corresponds to a multiplicative change of 1 which, of course, is no change. A positive slope in a Poisson regression model corresponds to a multiplicative change greater than 1. You could call this an exponential rise. A negative slope in a Poisson regression model corresponds to a multiplicative change less than 1. This is an exponential decline.
+
+The predict function in R produces estimated average values on a log scale for each time point.
+
+> round(predict(pmod),4)
+     1      2      3      4       5       6       7
+2.1063 1.5558 1.0053 0.4548 -0.0957 -0.6462 -1.1967
+
+I've rounded these data slightly from the actual output to save space. Note that R places an index of 1 through 7 above each predicted value. This is a bit confusing, perhaps, because the first value corresponds to time=0 and the last value corresponds to time=6.
+
+If you take the antilog of these values, you get the estimated average count at each time point.
+
+> round(exp(predict(pmod)),4)
+     1      2      3      4      5      6      7
+8.2177 4.7388 2.7327 1.5758 0.9087 0.5240 0.3022
+
+To demonstrate that this is an exponential decline, note that
+
+8.2*0.58^0 = 8.2
+8.2*0.58^1 = 4.8
+8.2*0.58^2 = 2.8
+8.2*0.58^3 = 1.6
+8.2*0.58^4 = 0.93
+8.2*0.58^5 = 0.54
+8.2*0.58^6 = 0.31
+
+There is a bit of rounding here, but the series matches the values shown using the antilog of the predicted values.
+
+You might wonder if you are likely to see any more values beyond time=6. The estimated average counts for times 7, 8, etc. are
+
+8.2*0.58^7 = 0.18
+8.2*0.58^8 = 0.11
+ .
+ .
+ .
+
+You can sum the infinite series from time=0 to time=infinity if you like. Notice that the terms in the above expression can be represented by a classic geometric series
+
+a
+ar
+ar2
+ar3
+ .
+ .
+ .
+
+For r<1, the sum of this infinite series is
+
+a/(1-r)
+
+For a=8.2 and r=0.58, this equals 19.5. Since we've already seen 19 events, we would expect to see half an event on average for the remainder the time. You can use the dpois function to estimate probabilities for a Poisson random variable with a mean of 0.5.
+
+> round(dpois(0:4,0.5),2)
+[1] 0.61 0.30 0.08 0.01 0.00
+
+You would estimate that it is more than likely (61% probability) that you will not see any more events. There is still a reasonable chance (30%) that you will see one more event. It is unlikely (9% probability) that you will see 2 or more events.
+
+This page was written by Steve Simon while working at Children's Mercy Hospital. Although I do not hold the copyright for this material, I am reproducing it here as a service, as it is no longer available on the Children's Mercy Hospital website. Need more information? I have a page with general help resources. You can also browse for pages similar to this one at Category: Poisson regression.
+
+</div>
+
 ### Third break
 
 + What have you learned?
@@ -575,11 +961,120 @@ This is not the final model. We should examine the effect of delivery type and a
   + Poisson regression
 + What's coming next?
   + Cox regression
+  + Longitudinal/hierarchical designs
   
+### Cox regression
+
+![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-01.bmp)
+  
+### Cox regression
+
+![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-02.bmp)
+  
+### Cox regression
+
+![Simple example comparing two Kaplan-Meier curves](../images/13/km-03.bmp)
+  
+### Cox regression
+
+![Illustration of increasing, decreasing, and constant hazards](../images/13/hazard-functions.png)
+
+### Cox regression - summary
++ Time-to-event outcome
++ Continuous or categorical independent variables
++ Mutiple independent variables
+  + Risk adjustment
+  + Interactions
++ Alternatives
+  + Log rank test
+  + Parametric models
+  
+### Hierarchical/longitudinal designs
++ Matching
++ Baseline measures
++ Longitudinal designs
++ Cluster effects
+
+<div class="notes">
+
+If you have a hierarchical or longitudinal design, you must, must, must account for it in your data analysis plan. Failure to do this will lead to invalid statistical results.
+
+A longitudinal or hierarchical design appear in various forms, but I want to talk about four important settings: matching, baseline measaures, longitudinal designs, and cluster effects.
+
+</div>
+
+### Matching
++ Greatly improves precision
++ Logistical issues
+  + Close but not exact matches
+  + Loss of data due to mismatches
++ Analysis methods
+  + Paired t-test
+  + Random effects models
+  
+<div class="notes">
+
+
+
+</div>
+
+### Baseline measures
++ Nice to have
+  + Adjust for baseline imbalance
+  + Improve precision
++ Analysis methods
+  + Change score
+  + Baseline covariate
+  
+<div class="notes">
+
+
+
+</div>
+
+### Longitudinal designs
++ Advantages
+  + Rich, complete picture
+  + Improved precision
++ Disadvantages
+  + Expensive
+  + Dropout
++ Analysis methods
+  + Within subject designs
+  + Nested effects
+  + Repeated measures
+  + Split plot designs
+  + Random effects models
+  
+<div class="notes">
+
+
+
+</div>
+
+### Cluster effects
++ More than one source of variation
++ Sources
+  + Families
+  + Clinics/Hospitals
+  + Schools
+  + Multicenter trials
++ What is the unit of randomization?
++ Analysis methods
+  + Random effects models
+  + Hierarchical models
+
+<div class="notes">
+
+
+
+</div>
+
 ### Fourth break
 
 + What have you learned?
   + Cox regression
+  + Longitudinal/hierarchical designs
 + What's coming next?
   + Qualitative data analysis
 
@@ -592,7 +1087,7 @@ This is not the final model. We should examine the effect of delivery type and a
   + semi-structured interviews
   + participant observation
   + archival records
-
+  
 ### Tools
 
 
