@@ -48,24 +48,38 @@ Count data is a type of ratio data, but it is a bit unsual because it cannot inc
 
 Time-to-event data is also a type of ratio data, but it is also a bit unusual. Time-to-event data almost always has censored values, values where the event has not occurred yet. It also is bounded below by zero. It also tends to violate the same assumptions in linear regression: normality and homogeneity.
 
-A neagtive requirement for ordinal data is that sums computed on an ordinal scale are meaningless. You can't talk about how a private plus a sergeant is equal to two corporals, even though you might code private=1, corporal=2, sergeant=3.
-
 </div>
 
-### ordinal verus interval controversy
-+ Example: grade point average
-  + Two B's equal and A plus a C?
+### Ordinal verus interval controversy
++ Sums of ordinal variables are meaningless
++ Counterexample: grade point average
   + Shift from A to B versus a shift from D to F?
-+ Likert scale
-  + Is an average meaningful?
-  + Independent variable for linear regression?
-  + Dependent variable for linear regression?
-+ Is a sum of Likert scale items different?
+  + Two B's equal and A plus a C?
 + Purist versus pragmatist
++ Is a sum of Likert scale items different?
+  + Unequal scalings average out?
 
 <div class="notes">
 
+A neagtive requirement for ordinal data is that sums computed on an ordinal scale are meaningless. You can't talk about how a private plus a sergeant is equal to two corporals, even though you might code private=1, corporal=2, sergeant=3. If sums are meaningless, then averages are meaningless as well. Any test or statistical model that uses averages is meaningless. So if your outcome is ordinal, no t-tests for you. No ANOVA and no linear regression.
 
+I understand the concern of many researchers about this issue, but, personally, I think it is an overblown controversy. Let me talk about a case where the data is obviously ordinal, but where averages are meaningful.
+
+The grade that you get in this, or any other class, is ordinal. You only have a finite number of values (A, B, C, D, and F) and you can't re-arrange these to put C as the first value without doing serious violence to your data.
+
+A shift of one unit means something quite different on one end of the scale versus the other. A shift from an A down to a B is not good, but a shift from a D to an F is altogether worse.
+
+Futhermore, sums are meaningless. You can't say that a student with two B's is equivalent to a student with an A and a C.
+
+In spite of this, you see people reporting grade point averages with no concern at all about whether this might be an inappropriate measure. For them, assigning a 0 to F and 4 to A is perfectly reasonable.
+
+Now that's not true for everybody. One person I used to work with commented that he would never ever hire someone who had a single F on his transcript. For him the scale was not 4, 3, 2, 1, and 0 for the five possible grades. It was 4, 3, 2, and 1 for A through D and a minus infinity for an F.
+
+Now I would hire you if you had one or two F's on your transcript, but I can't say that my colleague was wrong.
+
+So what do you do? In many senses, the ordinal versus interval controversy mimics the eternal battle between the purists and the pragmatists. The purists would insist that any whiff of an average for ordinal data is wrong, wrong, wrong. A pragmatist would say that it might be wrong, but it is simple and easy and provides a good enough approximation to the more complex approaches that you might need for a "proper" analysis of ordinal data.
+
+There are shades of gray here as well. People are less likely to get upset with you if you are talking about a sum of several Likert scale items than a single Likert scale item. The distances might vary on the low end versus the high end, but when you average across multiple Likert scales, you average out those differences. A sum is also more likely to have a symmetric bell-shaped distribution, and that tends to soothe a few ruffled feathers.
 
 </div>
 
@@ -97,14 +111,26 @@ There is a natural hierarchy to these measurements in that any statistic that ca
   + Binary: Logistic regression
   + Counts: Poisson regression
   + Time-to-event data: Cox proportional hazards regression
-+ Nominal: Chi-square tests
-+ Ordinal outcome variable: Non-parametric tests
++ Nominal: Chi-square tests, multinomial logistic regression
++ Ordinal outcome variable: Non-parametric tests, ordinal logistic regression
 + Ordinal indepdent variable" p for trend tests
-+ Interval/ratio: linear regression
++ Interval/ratio: t-tests, analysis of variance, linear regression
 
 <div class="notes">
 
 In addition to the permissible statistical summaries, there are permissible statistical models. Let's deal with the special cases first.
+
+With a binary outcome, logistic regression is a model that everyone accepts as legitimate. For count data, a special type of ratio data, you should consider a Poisson regression model. And time-to-event outcomes require the use of Cox proportional hazards regression models.
+
+Nominal outcome variables with more than two levels the choices depend strongly on whether your independent variable is continuous or categorical, and I can't cover all the possibilities. Chi-square tests are commonly used.
+
+For an ordinal outcome variable, there are a variety of nonparametric tests that you can choose from. It depends on what your independent variable looks like.
+
+There are some specialized procedures, multinomial logistic regression for a nominal outcome variable with more two levels and ordinal logistic regression for an ordinal outcome variable. A description of these two models is beyond the scope of this class.
+
+An interesting case is when the independent variable is ordinal. There are a variety of p-for-trend tests that you can choose from. A description of this approach is beyond the scope of this class. I do apologize, but I'm already covering way too much material.
+
+for an interval or ratio level outcome variable, the t-test or analysis of variance is sometimes used, but I like the linear regression model because it handles so many different cases.
 
 </div>
 
@@ -117,6 +143,82 @@ In addition to the permissible statistical summaries, there are permissible stat
   + Descriptive statistics
   + Linear regression
 
+### Steps in your data analysis
+
++ Quality check of data
++ Description of sample
++ Test of hypotheses/research questions
++ Additional exploratory analyses
+
+<div class="notes">
+
+Your data analysis should start with a quality check. This can be simple or elaborate depending on the source of your data. THen you need to provide descriptive statistics that help characterize the population you are sampling from. Then you need to test your research hypothesis or address your research questions. There may be additional exploratory analyses.
+
+</div>
+
+***
+### Quality check of data
++ Completeness of data collection
++ Review for responses that are ambiguous, out of range, etc
++ “ Edit ” responses as needed
++ Check response frequencies
+	+ Combine smaller categories, if needed
++ Check for inadequate ranges
++ Count missing values
++ Check subscale coding and scores
+		+ Check inter-item reliability
+
+<div class="notes">
+
+Before you do anything else, make sure that you are comfortable with the quality of your data. How much effort you spend here is a judgement call. Most people don't spend enough time, but it is possible to get so obsessed about quality that you never get your regular analysis started.
+
+Look for responses that clearly don't belong. I attended a talk where they were talking about data values that were obviously so bad that they represented science fiction. Such as an age which is reminiscent of the Yoda quote "when 900 years old you reach, look as good you will not."
+
+Some errors will be easily correctable. If the only permissible values are on a 1 through 5 Likert scale with 9 or no response, an 11 is easily changed to 1. For others, though, you should go back to the original records, if possible, to fix things. Don't assume too much, as a missing value code may do less damage than an incorrectly corrected value. Please document whatever choices you make, and be consistent about your choices.
+
+For important categorical variables, look at the frequency counts for each category. If these are small, consider combining several categories together. So you may not have enough data to represent individual minority groups, so you would combine them with single to represent an overall category, non-white, to compare with white.
+
+In some data sets, you may find that certain variables are constant, or nearly constant. I had a data set with 82 white mothers and 2 non-white mothers. There is no point including race as a covariate in any statistical models when the data is this close to constant.
+
+Track missing value counts very carefully. In complex mutlivariate models, these missing values can accumulate to the point where you end up losing 50% or more of your data. How best to handle missing values is beyond the scope of this course, but no matter what approach you use, please document it carefully.
+
+If you have scales that are a composite score of multiple individual questions, you might want to look at a reliability coefficent like Cronbach's alpha. Some people advocate computing this statistic on a series of scores with individual variables deleted. If you get a sharp jump in alpha after a particular variable is deleted, this may indicate that, for your particular population, perhaps, a simplier composite without the one variable might be needed. You might consider running an exploratory factor analysis to see if the composite score still has a justifiable set of individual components. I, personally, do not like the idea of tampering with composite scores that were developed by others.
+
+</div>
+
+### Quality checks (internal use, mostly)
+
++ Minimum and maximum checks
+  + Out of range
+  + Zero variation
++ Missing value count
++ List five five rows, last five rows
++ Correlations
+
+<div class="notes">
+
+There are some descriptive statistics that you should run just for your own benefit. Check the minimum and maximum values for every numeric variable in your data set. I received a data set with a bunch of 5 point Likert scale items and for most of the variables, the minimum was 1, but the maximum was 33 or 55. Guess what happened?
+
+Get a missing value count and monitor it closely. See if there are odd patterns, such as the missing values declining over time but then jumping back up at the end. It could be normal, but it could be an indication of a problem.
+
+When you get correlations, look for unexpected patterns, such as a negative correlation where a positive one was expected. It could be okay, or it could mean that the scales on a Likert scale got switched around halfway through the survey due to a misprint.
+
+</div>
+
+### Data reduction
+* Check composite scores
+  + Check Cronbach's alpha
+  + Examine leaving out single items
+  + Factor analysis, Structural Equations Modeling
+
+### Data transformations
+* Ideal - selected a priori
+  + Sometimes based on precedent
+  + Sometimes motivated by theory
+  + Sometimes based on empirical findings
++ Log transformation
++ Collapse low frequency categories
+  
 ### Descriptive statistics
 + Part of every quantitative study
 + Table 1, overall summaries
@@ -140,54 +242,6 @@ For categorical outcomes summarize using a percentage. Always show what your num
 If you want to compare across key demographic groups, use crosstabulations for categorical outcomes and means/standard deviations by subgroup for continuous outcomes.
 
 Let me talk a bit about crosstabulations because these are almost always done poorly.
-
-</div>
-
-### Statistical Analysis Selection 
-
-+ Parametric statistics – assumptions
-	+ DV values come from a population of values that is normally distributed (normality)
-	+ Variances of the groups are equal (homogeneity of variance)
-		+ Unequal group sizes and unequal variances <U+F0E8> increased Type I errors
-	+ All participants with a particular group must be independent of each other (independence)
-		+ Also an assumption for nonparametric statistics
-
-<div class="notes">
-
-
-
-</div>
-
-### Data Analysis 
-
-+ What do you need to accomplish with your data analysis?
-	+ Quality check of data
-	+ Description of sample
-	+ Test of hypotheses/research questions
-	+ Additional exploratory analyses
-
-<div class="notes">
-
-
-
-</div>
-
-***
-### Data Analysis 
-
-+ Quality check of data
-	+ Completeness of data collection
-	+ Review for responses that are ambiguous, out of range, etc
-	+ “ Edit ” responses as needed
-	+ Check response frequencies
-		+ Discover need for recoding
-		+ Scale of measurement
-	+ Check subscale coding and scores
-		+ Check inter-item reliability
-
-<div class="notes">
-
-
 
 </div>
 
@@ -398,41 +452,6 @@ Often a trend line or a smoothing curve helps. This seems to be the case when yo
 
 </div>
 
-### Quality checks (internal use, mostly)
-
-+ Minimum and maximum checks
-  + Out of range
-  + Zero variation
-+ Missing value count
-+ List five five rows, last five rows
-+ Correlations
-
-<div class="notes">
-
-There are some descriptive statistics that you should run just for your own benefit. Check the minimum and maximum values for every numeric variable in your data set. I received a data set with a bunch of 5 point Likert scale items and for most of the variables, the minimum was 1, but the maximum was 33 or 55. Guess what happened?
-
-Get a missing value count and monitor it closely. See if there are odd patterns, such as the missing values declining over time but then jumping back up at the end. It could be normal, but it could be an indication of a problem.
-
-When you get correlations, look for unexpected patterns, such as a negative correlation where a positive one was expected. It could be okay, or it could mean that the scales on a Likert scale got switched around halfway through the survey due to a misprint.
-
-</div>
-
-### Data reduction
-
-* Check composite scores
-  + Check Cronbach's alpha
-  + Examine leaving out single items
-  + Factor analysis, Structural Equations Modeling
-
-### Data transformations
-
-* Ideal - selected a priori
-  + Sometimes based on precedent
-  + Sometimes motivated by theory
-  + Sometimes based on empirical findings
-+ Log transformation
-+ Collapse low frequency categories
-  
 ### Linear regression
 + Continuous outcome variable
 + Either categorical or continuous independent variables
@@ -784,7 +803,7 @@ This is a general property of the logistic model. The slope term in a logistic r
 
 ### Categorical variables in a logistic regression model
 
-</div class="notes">
+<div class="notes">
 
 You treat categorical variables in much the same way as you would in a linear regression model. Let's start with some data that listed survival outcomes on the Titanic. That ship was struck by an iceberg and 863 passengers died out of a total of 1,313. This happened during an era where there was a strong belief in "women and children" first.
 
@@ -897,7 +916,7 @@ A zero slope in a Poisson regression model corresponds to a multiplicative chang
 
 The predict function in R produces estimated average values on a log scale for each time point.
 
-> round(predict(pmod),4)
+round(predict(pmod),4)
      1      2      3      4       5       6       7
 2.1063 1.5558 1.0053 0.4548 -0.0957 -0.6462 -1.1967
 
@@ -963,18 +982,158 @@ This page was written by Steve Simon while working at Children's Mercy Hospital.
   + Cox regression
   + Longitudinal/hierarchical designs
   
+### Time to event outcomes
++ Special type of ratio scale outcome
+  + Non-negative
+  + Usually skewed
++ Censoring
+  + Partial information on some subjects
+  + Not the same as missing data
+  
+### Fruit fly experiment - the data
+
+```{}
+Day Prob Day Prob Day Prob
+ 37 96%   40 92%   43 88%
+ 44 84%   45 80%   47 76%
+ 49 72%   54 68%   56 64%
+ 58 60%   59 56%   60 52%
+ 61 48%   62 44%   68 40%
+ 70 36%   71 32%   72 28%
+ 73 24%   75 20%   77 16%
+ 79 12%   89  8%   94  4%
+ 96  0%
+```
+
+<div class="notes">
+
+Survival data models provide interpretation of data representing the time until an event occurs. In many situations, the event is death, but it can also represent the time to other bad events such as cancer relapse or failure of a medical device. It can also be used to denote time to positive events such as pregnancy.
+
+Survival data models also incorporate one of the complexities of "time to event" data, the fact that not all patients experience the event during the time frame of the study. So, if we are doing a five year mortality study, we have the problem of those stubborn patients who refuse to die during the study period. Other patients may move out of town halfway through the study and are lost to follow-up. In a study of medical devices, sometimes the device continues to work up to a certain time, but then has to be removed, not because the device failed, but because the patient got healthier and no longer needed the device.
+
+These observations are called censored observations. With censored observations, the actual time of the event is unknown but we do know that it would not be any earlier than the time that the last evaluation or follow-up visit was done. These censored observations provide partial information. They influence our estimates of survival probability up to the last evaluation or follow-up, but do not provide any information about survival probabilities beyond that point. To disregard this information is dangerous and could seriously bias your results.
+
+The following data represents survival time for a group of fruit flies and is a subset of a larger data set found at the Data and Story Library (DASL). The data set has been slightly modified to simplify some of these explanations.
+
+There are 25 flies in the sample, with the first fly dying on day 37 and the last fly dying on day 96. If you wanted to estimate the survival probability for this data, you would draw a curve that decreases by 4% (1/25) every time a fly dies.
+
+</div>
+
+### Here's a graph of these probabilities over time.
+
+![Plot of survival probabilites from first experiment](../images/13/fruit-fly-1.gif)
+
+<div class="notes">
+
+By tradition and for some rather technical reasons, you should use a stair step pattern rather than a diagonal line to connect adjacent survival probabilities.
+
+Now let's alter the experiment. Suppose that totally by accident, a technician leaves the screen cover open on day 70 and all the flies escape. This includes the fly who was going to die on the afternoon of the 70th day anyway. Oh the sadness of it all; the poor fly has the briefest of tastes of freedom then ends up shriveled up on a window sill.
+
+You're probably worried that the whole experiment has been ruined. But don't be so pessimistic. You still have complete information on survival of the fruit flies up to their 70th day of life. Here's how you would present the data and estimate the survival probabilities.
+
+</div>
+
+### The data, round 2
+
+```{}
+Day Prob  Day Prob  Day Prob
+ 37 96%    40 92%    43 88%
+ 44 84%    45 80%    47 76%
+ 49 72%    54 68%    56 64%
+ 58 60%    59 56%    60 52%
+ 61 48%    62 44%    68 40%
+ 70+ ?     70+ ?     70+ ?
+ 70+ ?     70+ ?     70+ ?
+ 70+ ?     70+ ?     70+ ?
+ 70+ ?
+```
+
+### The graph, round 2
+
+![Plot of survival probabilities from second experiment](../images/13/fruit-fly-2.gif)
+
+<div class="notes">
+
+We clearly have enough data to make several important statements about survival probability. For example, the median survival time is 61 days because roughly half of the flies had died before this day.
+
+Here is a graph of the survival probabilities of the second experiment. This graph is identical to the graph in the first experiment up to day 70 after which you can no longer estimate survival probabilities.
+
+By the way, you might be tempted to ignore the ten flies who escaped. But that would seriously bias your results. All of these flies were tough and hardy flies who lived well beyond the median day of death. If you pretended that they didn't exist, you would seriously underestimate the survival probabilities. The median survival time, for example, of the 15 flies who did not escape, for example, is only 54 days which is much smaller than the actual median.
+
+Let's look at a third experiment, where the screen cover is left open and all but four of the remaining flies escape. It turns out that those four remaining flies who didn't bug out will allow us to still get reasonable estimates of survival probabilities beyond 70 days. Here is the data and the survival probabilities.
+
+</div>
+
+### The data, round 3
+
+```{}
+
+Day Prob  Day Prob  Day Prob
+ 37 96%    40 92%    43 88%
+ 44 84%    45 80%    47 76%
+ 49 72%    54 68%    56 64%
+ 58 60%    59 56%    60 52%
+ 61 48%    62 44%    68 40%
+ 70+ ?     71 30%    70+ ?
+ 70+ ?     75 20%    70+ ?
+ 70+ ?     89 10%    70+ ?
+ 96  0%
+```
+
+### The graph, round 3
+
+![Plot of survival probabilities from second experiment](../images/13/fruit-fly-3.gif)
+
+<div class="notes">
+
+What you do with the six escaped flies is to allocate their survival probabilities equally among the four flies who didn't bug out. This places a great responsibility among each of those four remaining flies since each one is now responsible for 10% of the remaining survival probability, their original 4% plus 6% more which represents a fourth of the 24% survival probability that was lost with the six escaping flies.
+
+Another way of looking at this is that the six flies who escaped influence the denominator of the survival probabilities up to day 70 and then totally drop out of the calculations for any further survival probabilities. Because the denominator has been reduced, the jumps at each remaining death are much larger.
+
+Here is a graph of the survival probability estimates from the third experiment.
+
+These survival probabilities differ only slightly from the survival probabilities in the original experiment. This works out because the mechanism that caused us to lose information on six of the fruit flies was independent of their ultimate survival.
+
+If the censoring mechanism were somehow related to survival prognosis, then you would have the possibility of serious bias in your estimates. Suppose for example, that only the toughest of flies (those with the most days left in their short lives) would have been able to escape. The flies destined to die on days 70, 71, 72, and 73, were already on their deathbeds and unable to fly at all, much les make a difficult escape. Then these censored values would not be randomly interspersed among the remaining survival times, but would constitute some of the larger values. But since these larger values would remain unobserved, you would underestimate survival probabilities beyond the 70th day.
+
+This is known as informative censoring, and it happens more often that you might expect. Suppose someone drops out of a cancer mortality study because they are abandoning the drugs being studied in favor of laetrile treatments down in Mexico. Usually, this is a sign that the current drugs are not working well, so a censored observation here might represent a patient with a poorer prognosis. Excluding these patients would lead to an overestimate of survival probabilities.
+
+</div>
+
+### Interpretation (1/2)
+
+![Schematic of survival curve starting from upper left corner](../images/13/fruit-fly-4.gif)
+
+<div class="notes">
+
+When you see a survival curve in a research paper, there are two ways to interpret it. First, you can get an estimate of the median (or other percentiles) by projecting horizontally until you intersect with the survival curve and then head down to get your estimate. In the survival curve we have just looked at, you would estimate the median survival as slightly more than 60 days.
+
+</div>
+
+### Interpretation (2/2)
+
+![Schematic of survival curve starting from lower left corner](../images/13/fruit-fly-5.gif)
+
+<div class="notes">
+
+
+
+You can also estimate probabilities for survival at any given time by projecting up from the time and then moving to the left to estimate the probability. In the example below, you can see that the 80 day survival probability is a little bit less than 25%.
+
+</div>
+
 ### Cox regression
 
 ![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-01.bmp)
-  
+
 ### Cox regression
 
 ![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-02.bmp)
-  
+
 ### Cox regression
 
 ![Simple example comparing two Kaplan-Meier curves](../images/13/km-03.bmp)
-  
+
 ### Cox regression
 
 ![Illustration of increasing, decreasing, and constant hazards](../images/13/hazard-functions.png)
@@ -1032,13 +1191,15 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
 
 </div>
 
-### Longitudinal designs
+### Longitudinal designs (1/2)
 + Advantages
   + Rich, complete picture
   + Improved precision
 + Disadvantages
   + Expensive
   + Dropout
+  
+### Longitudinal designs (2/2)
 + Analysis methods
   + Within subject designs
   + Nested effects
@@ -1282,4 +1443,19 @@ http://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-sub
 + Linear, logistic, Poisson, and Cox regression
 + Analysis of qualitative data
 + Writing a methods section
+
+### Statistical Analysis Selection 
+
++ Parametric statistics – assumptions
+	+ DV values come from a population of values that is normally distributed (normality)
+	+ Variances of the groups are equal (homogeneity of variance)
+		+ Unequal group sizes and unequal variances lead to increased Type I errors
+	+ All participants with a particular group must be independent of each other (independence)
+		+ Also an assumption for nonparametric statistics
+
+<div class="notes">
+
+
+
+</div>
 
