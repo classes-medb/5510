@@ -160,7 +160,7 @@ Your data analysis should start with a quality check. This can be simple or elab
 ### Quality check of your data (1/2)
 + Completeness of data collection
 + Review for responses that are ambiguous, out of range, etc
-+ “ Edit ” responses as needed
++ Edit responses as needed
 + Check response frequencies
 	+ Combine smaller categories, if needed
 
@@ -260,6 +260,17 @@ The logarithm also stretches small values apart (values less than 1). The smalle
 
 If your data are skewed to the right, a log transformation can sometimes produce a data set that is closer to symmetric. Recall that in a skewed right distribution, the left tail (the smaller values) is tightly packed together and the right tail (the larger values) is widely spread apart. The logarithm will squeeze the right tail of the distribution and stretch the left tail, which produces a greater degree of symmetry. If the data are symmetric or skewed to the left, a log transformation could actually make things worse. Also, a log transformation is unlikely to be effective if the data has a narrow range (if the largest value is not more than three times bigger than the smallest value).
 
+</div>
+
+### Log transformation fixes
++ Skewness
++ Outliers
++ Unequal variation
++ Multiplicative models
+  + log(ab) = log(a)+log(b)
+
+<div class="notes">
+
 Outliers: If your data has outliers on the high end, a log transformation can sometimes help. The squeezing of large values might pull that outlier back in closer to the rest of the data. If your data has outliers on the low end, the log transformation might actually make the outlier worse, since it stretches small values.
 
 Unequal variation: Many statistical procedures require that all of your subject groups have comparable variation. If you data has unequal variation, then the some of your tests and confidence intervals may be invalid. A log transformation can help with certain types of unequal variation.
@@ -282,6 +293,16 @@ Therefore, a logarithm converts multiplication/division into addition/subtractio
 
 When should you consider a log transformation?
 
+</div>
+
+### When should you use the log transformation?
++ Data bounded below by zero.
+  + Mean < Standard deviation
++ Ratio data
++ Max > 3*Min
+
+<div class="notes">
+
 There are several situations where a log transformation should be given special consideration.
 
 Is your data bounded below by zero? When your data are bounded below by zero, you often have problems with skewness. The bound of zero prevents outliers on the low end, and constrains the left tail of the distribution to be tightly packed. Also groups with means close to zero are more constrained (hence less variable) than groups with means far away from zero.
@@ -291,6 +312,7 @@ It does matter how close you are to zero. If your mean is within a standard devi
 Is your data defined as a ratio? Ratios tend to be skewed by their very nature. They also tend to have models that are multiplicative.
 
 Is the largest value in your data more than three times larger than the smallest value? The relative stretching and squeezing of the logarithm only has an impact if your data has a wide range. If the maximum of your data is not at least three times as big as your minimum, then the logarithm can't squeeze and stretch your data enough to have any useful impact.
+
 </div>
 
 ### Log transformation
@@ -311,30 +333,49 @@ The log transformed data, while not perfectly symmetric, does tend to have a bet
 
 <div class="notes">
 
+Here's some data where the left hand side represents the original data. Even though it doesn't look that extreme the largest value is 6.9 standard deviations above the mean. That's because most of the data are scrunched together at the bottom. They deviate very little, keeping the standard deviation small.
 
+On the right hand side, you have the log transformed data. It is not perfect, and perhaps there is now an outlier on the low end. Nevertheless, the worst outlier is still within 4 standard deviations of the mean. The influence of outliers is much less extreme with the log transformed data.
 
 </div>
 
-### Log transformation
+### Standard deviations, untransformed
 
 ![](../images/13/log06.gif)
 
 <div class="notes">
 
-
+When we compute standard deviations for the patients with no functional alleles and the patients with one or more functional alleles, we see that the former group has a much larger standard deviation. This is not too surprising. The patients with no functional alleles are further from the lower bound and thus have much more room to vary.
 
 </div>
 
-### Log transformation
+### Standard deviations, log transformed
 
 ![](../images/13/log07.gif)
 
 <div class="notes">
 
-
+After a log transformation, the standard deviations are much closer.
 
 </div>
 
+### Log transformation, summary
++ Removes skewness
++ Removes outliers
++ Stabilizes variances
++ Does not always work
++ Best when
+  + Data bounded below by zero
+  + Mean < Standard deviation
+  + Max/Min > 3
+  
+<div class="notes">
+
+This is important, so it is worth reviewing. The log transformation is a miracle transformation. It stretches the small values and squeezes the large value. This can sometimes remove the impact of skewness and outliers. It can sometimes stablize your variances. But it doesn't always work, and can sometimes cause more problems than it can solve.
+
+The log transformation is best when your data is bounded below by zero, your mean is smaller than your standard deviation, and the relative range (the maximum value in your data set divided by the minimum value) is greater than 3.
+
+</div>
 
 ### Descriptive statistics
 + Part of every quantitative study
@@ -348,7 +389,7 @@ The log transformed data, while not perfectly symmetric, does tend to have a bet
 
 <div class="notes">
 
-Your descriptive statistics should be a part of any research study. This is done in almost every research paper and it almost always appears as the first table in your paper. So we sometimes call these table 1 statistics.
+Your descriptive statistics should be a part of any research study. This is done in almost every research paper and it almost always appears as the first table in your paper. So we sometimes call these "Table 1 statistics."
 
 Your descriptive statistics should include your outcome variables, most certainly, but also your covariates. Covariates are variables that are not of direct interest but which can potentially influence your outcome anyway. This includes, in any human study, things like age and gender.
 
@@ -401,7 +442,7 @@ When in doubt, write out your table several different ways. Pick out the one tha
 
 A simple fictitious example will help illustrate these points.
 
-We classify people by their income (rich/poor) and also by their attitude (happy/miserable). There are, for example,  30 rich happy people in our sample and 70 poor miserable people.
+We classify people by their income (rich/poor) and also by their attitude (happy/miserable). The first row shows 30 rich happy people and 10 rich miserable people, for a total of 40 rich people in our sample. The second row shows 90 poor happy people and 70 poor miserable people, for a toal of 160 poor people. The third row shows a total of 120 happy people and 80 miserable people. The last number in the lower right hand corner of the table is 200 the total across everyone rich and poor, happy and miserable.
 
 </div>
   
@@ -413,7 +454,7 @@ We classify people by their income (rich/poor) and also by their attitude (happy
 
 This figure shows column percentages. We compute this by dividing each number by the column total.
 
-We see for example that only 25% of all happy people are rich. This is a conditional probability and is usually written as P[Rich | Happy]. Read the vertical bar as "given." So this probability is read as the probability of being rich given that you are happy.
+We see for example in the first column that only 25% of all happy people are rich. The remaining 75% of happy people are poor. The total percentage is 100% in the first column (and in every other column). That's how you can tell that these numbers are column percentages. The second column shows that 12% of all miserable people are rich, 88% are poor, adding to a column total of 100%. The last column shows that 20% of our sample is rich, irregardless of their mood and the 80% of our sample is poor. 
 
 </div>
   
@@ -425,9 +466,11 @@ We see for example that only 25% of all happy people are rich. This is a conditi
 
 This figure shows row percentages. We compute this by dividing each number by the row total.
 
-We see, for example that 75% of rich people are happy. This is a different conditional probability, P[Happy | Rich]. Read this as the probability of being happy given that you are rich.
+We see, for example that 75% of rich people are happy and only 25% are miserable. This is a different conditional probability, the probability of being happy given that you are rich.
 
 Notice the distinction between the two probabilities. Only a few happy people are rich, but most rich people are happy.
+
+Row percentages are percentages that add up to 100 within each row.
 
 </div>
   
@@ -437,7 +480,9 @@ Notice the distinction between the two probabilities. Only a few happy people ar
 
 <div class="notes">
 
-This figure shows cell percentages. We compute this by dividing each number by the grand total. Each percentage represents the probability of having two conditions. For example, there is a 15% chance of being rich and happy.
+This figure shows cell percentages. We compute this by dividing each number by the grand total. Each percentage represents the probability of having two conditions. The first row tells us that there is a 15% chance of being rich and happy and a 5% probability of being rich and poor. There is a 45% chance that someone is poor and happy and a 35% chance that someone is poor and miserable.
+
+The total percentages don't add up until you get to the lower right hand corner. That's how you can tell that these are cell percentages.
 
 </div>
   
@@ -447,7 +492,7 @@ This figure shows cell percentages. We compute this by dividing each number by t
 
 <div class="notes">
 
-The table above shows a good format for combining two numbers in a single table.
+The table above shows a good format for combining two numbers in a single table. Put the more important number first (and the more important number is almost always a percentage) and the less important number goes to the right and in parentheses.
 
 </div>
   
@@ -459,8 +504,6 @@ The table above shows a good format for combining two numbers in a single table.
 
 This is an alternate way of displaying cell percentages.
 
-If we had a six categories for attitude rather than just two, we might arrange the table differently.
-
 </div>
   
 ### Table of percentages
@@ -469,12 +512,13 @@ If we had a six categories for attitude rather than just two, we might arrange t
 
 <div class="notes">
 
+If we had a six categories for attitude rather than just two, we might arrange the table differently.
+
 Notice that this table would not require any sideways scrolling.
 
 </div>
 
 ### Rules for crosstabulations
-
 + Never display multiple statistics
 + Place treatment/exposure categories in the rows
 + Summarize using row percentages
@@ -483,7 +527,7 @@ Notice that this table would not require any sideways scrolling.
 
 <div class="notes">
 
-Here are those rules again.
+This is imporant, so here are those rules again.
 
 Never display more than one type of number in a table.
 
@@ -510,17 +554,45 @@ When in doubt, write out your table several different ways.
   + Boxplots
   + Scatterplots
   
+<div class="notes">
+
+There are a gazillion different graphs that you can present in a descriptive analysis, but here are the most common choices.
+
+To display information about a single variable, use a histogram for anything continuous and a bar or pie chart for anything categorical.
+
+If you want to display the relationship between two variables, use side by side pie or bar charts if both variables are categorical, boxplots if you have a mix, and scatterplots if both variables are continuous.
+
+</div>
+  
 ### Histogram examples (1 of 3)
 
 ![Histogram showing a roughly bell shaped curve](../images/12/hist1.gif)
+
+<div class="notes">
+
+I shouldn't have to describe this to you, but here is an example of a histrogram for data that roughly follows a bell shaped curve pattern.
+
+</div>
 
 ### Histogram examples (2 of 3)
 
 ![Histogram showing a skewed right distribution](../images/12/hist2.gif)
 
+<div class="notes">
+
+Here is a histogram for data that is skewed to the right.
+
+</div>
+
 ### Histogram examples (3 of 3)
 
 ![Histogram showing a bimodal distribution](../images/12/hist3.gif)
+
+<div class="notes">
+
+Here is a histogram for data that is bimodal.
+
+</div>
 
 ### Side by side pie/bar charts
 
@@ -529,9 +601,61 @@ When in doubt, write out your table several different ways.
 + No good graphs for more categories
 + Avoid cheap 3D effects
 
+<div class="notes">
+
+
+
+</div>
+
+### A very busy pie chart
+
+![Pie chart of populations for all fifty states](../images/13/piechart01.jpg)
+
+<div class="notes">
+
+This image was found on Wikimedia Commons and has been placed in the public domain.
+
+</div>
+
+### Distoring the image
+
+![Pie chart with three dimensions and exploding wedges](../images/13/piechart02.jpg)
+
+<div class="notes">
+
+This image was found on Wikimedia Commons and has is licensed under the creative commons share alike license. It is available at https://commons.wikimedia.org/wiki/File:Atmospheric_air_components_percentage.jpg
+
+</div>
+
+### A bar chart
+
+![Bar chart showing country of orgin for unaccompanied minors](../images/13/barchart01.png)
+
+<div class="notes">
+
+Here's a bar chart showing the number of unaccompanied minors apprehended by the US Border Patrol for each year from 2013 through 2018/ The bar is highest in 2014 and almost as high in 2016. The bar is divided into four colors representing the country of origin: Mexico, El Salvador, Guatemala, and Honduras. The relative share of minors from Mexico has declined over time. 
+
+This bar chart is not terribly bad. I'd rather see a table, personally, but I can't complain.
+
+This image was found on Wikimedia Commons and has been placed in the public domain.
+
+</div>
+
+### A very busy bar chart
+
+![Bar chart showing distribution of computers across countries](../images/13/barchart02.png)
+
+<div class="notes">
+
+This bar chart, however, is almost impossible to read. It would help if they did just two or three countries and then an "other" category.
+
+This image was found on Wikimedia Commons and has is licensed under the creative commons share alike license. It is available at https://commons.wikimedia.org/wiki/File:Top_500_Computers_Chart.svg
+
+</div>
+
 ### Boxplot
 
-![](../images/12/boxplot2.gif)
+![Image of two boxplots](../images/12/boxplot2.gif)
 
 <div class="notes">
 
@@ -569,11 +693,38 @@ Often a trend line or a smoothing curve helps. This seems to be the case when yo
 
 </div>
 
+### Second break
+
++ What have you learned?
+  + Descriptive statistics
++ What's coming next?
+  + Linear regression
+  
+<div class="notes">
+
+That's a lot to digest. There is more good stuff coming. The linear regression model is one of the best statistical models out there to test a hypothesis involving continuous outcome variables.
+
+</div>
+
 ### Linear regression
 + Continuous outcome variable
-+ Either categorical or continuous independent variables
-+ Multiple variables (risk adjustment)
-+ Interactions
++ Very flexible
+  + Either categorical or continuous independent variables
+  + Multiple variables (risk adjustment)
+  + Interactions
++ Alternatives
+  + t-test
+  + Analysis of variance
+
+<div class="notes">
+
+The linear regression model is useful for a hypothesis involving a continuous outcome variable. Continuous means interval or ratio scale. Some people use linear regression for an ordinal outcome, and I'm fine with that, but you will get a big fight at peer review time if you try this.
+
+The linear regression model is very flexible. It can accommodate either a categorical or a continuous independent variable. You can use multiple independent variables, which allows you to do risk adjustments and it also lets you examine interactions.
+
+I'll talk about two other approaches used commonly, the t-test and analysis of variance.
+
+</div>
 
 ### Linear regression
 
@@ -607,7 +758,7 @@ Be cautious with your interpretation of the intercept. Sometimes the value X=0 i
 
 </div>
 
-### Age vs duration
+### Age vs duration - graph
 
 ![](../images/12/linear1.gif)
 
@@ -615,18 +766,22 @@ Be cautious with your interpretation of the intercept. Sometimes the value X=0 i
 
 The graph shown below represents the relationship between mother's age and the duration of breast feeding in a research study on breast feeding in pre-term infants.
 
-The regression coefficients are shown below. The intercept, 6, is represented the estimated average duration of breast feeding for a mother that is zero years old. This is an impossible value, so the interpretation is not useful. What is useful, is the interpretation of the slope.
+</div>
+
+### Age vs duration - output
+
+![](../images/12/linear2.gif)
+
+
+<div class="notes">
+
+The regression coefficients are shown here. The intercept, 6, is represented the estimated average duration of breast feeding for a mother that is zero years old. This is an impossible value, so the interpretation is not useful. What is useful, is the interpretation of the slope.
 
 Notice that a 20 year old mother has a duration of 13 weeks. A 40 year old mother has a duration of 21 weeks.
 
 Calculate 21-13 divided by 40-20 equals 8 divided by 20 equals 0.4. The estimated average duration of breast feeding increases by 0.4 weeks for every extra year in the mother's age.
 
 </div>
-
-### Age vs duration
-
-![](../images/12/linear2.gif)
-
 
 
 ### Treatment vs duration
@@ -639,6 +794,14 @@ When X is categorical, the interpretation changes somewhat. Let's look at the si
 
 In a study of breast feeding, we have a treatment group and a control group. Let us label the treatment group as 1 and the control group as 0. The outcome variable is the age when breast feeding stopped.
 
+</div>
+
+### Treatment vs duration
+
+![](../images/12/linear6.gif)
+
+<div class="notes">
+
 In this situation, the intercept, 13, represents the average duration for the control group. 
 
 Calculate 20-13 divided by 1-0.
@@ -649,30 +812,6 @@ When we represent a binary variable using 0-1 coding, the slope represents the e
 
 The intercept represents the estimated average value of Y for the group coded as zero. 
 
-</div>
-
-### Treatment vs duration
-
-![](../images/12/linear6.gif)
-
-
-
-### Adjusted
-
-![](../images/12/linear12.gif)
-
-<div class="notes">
-
-There are two types of models, crude models and adjusted models. A crude model looks at how a single factor affects your outcome measure and ignores potential covariates. An adjusted model incorporates these potential covariaties. Start with a crude model. It's simpler and it helps you to get a quick overview of how things are panning out. Then continue by making adjustments for important confounders.
-
-A crude model for comparing duration of breast feeding to feeding group would be a t-test. I prefer, however, to present a general linear model because it provides a unifying framework for diverse statistical methods like analysis of variance, analysis of covariance, multiple linear regression, repeated measures designs, and t-tests.
-
-Shown below is the table of tests from the general linear model procedure.
-
-The general linear model uses an F test instead of the t test, but in this context, these two tests are mathematically equivalent. The p-value for comparing feeding groups is .001, which indicates a significant difference between the two groups.
-
-The general linear model also has a table of estimates, which is presented below.
-
 The intercept represents the average duration of breast feeding for the NG tube group. We see that the average duration is 20 weeks for the NG tube group. The (FEED_TYP=1) term is an estimate of how much the average duration changes when we move from the NG tube group to the bottle group. We see that the bottle group has an average duration that is 7 weeks shorter.
 
 Shown below is a table of means from the general linear model.
@@ -681,11 +820,35 @@ We see that the difference between the two means is roughly 7 weeks, which confi
 
 The previous model was a crude model. We see a seven week difference between the two groups, but could some of all of this difference be due to the fact that the NG tube group had older mothers? To answer this, we need to fit an adjusted model.
 
-Shown below is the table of tests for a general linear model that includes mother's age in the model.
+</div>
+
+### Adjusted model
++ Crude model
+  + One independent variable
++ Adjusted model
+  + More than one independent variable
++ Interpretation of slope
+  + Estimated average change in Y
+  + When X1 changes by one unit
+  + And X2 is held  contant.
+
+<div class="notes">
+
+There are two types of models, crude models and adjusted models. A crude model looks at how a single factor affects your outcome measure and ignores potential covariates. An adjusted model incorporates these potential covariaties. Start with a crude model. It's simpler and it helps you to get a quick overview of how things are panning out. Then continue by making adjustments for important confounders.
+
+The adjusted model includes two or more independent variables. The interpretation of the slope changes when you have a second independent variable.
+
+It still represents the estimated average change in Y when X (in this case X1) increases by one unit. But there is an extra provision. It is the estimated change when X2 is held constant.
+
+</div>
+
+### Adjusted model
+
+![](../images/12/linear12.gif)
+
+<div class="notes">
 
 The p-value for feeding group is .009, which is still significant, even after adjusting for the effect of mother's age.
-
-Shown below is the table of estimates from the same general linear model.
 
 This table shows that the effect of bottle feeding is to decrease duration of breast feeding by about six weeks, after adjusting for mother's age. Each year that a mother is older increase the duration of breast feeding by a quarter of a week.
 
@@ -693,33 +856,61 @@ A previous descriptive analysis of this data revealed that the average age for m
 
 This analysis shows that the four year gap only accounts for a small portion of the difference. Since each year of age changes the duration by a quarter week, this means that the difference between mother's ages acounts for just one week in the 7 week difference we saw in the crude model.
 
-Shown below is the table of means.
+</div>
 
-This table now adjusts for mother's age. The mean for the bottle fed group is adjusted upward to what it would be if the average age of the mothers in this group were 27 rather than 25. The mean for the NG tube group is adjusted downward to what it would be if the average age were 27 instead of 29. Note that the adjusted mean duration is half a week higher than the crude mean duration in the bottle group and that the adjusted mean duration is half a week lower than the crude mean duration for the NG tube group. This confirms that the difference between the two feeding groups is roughly 6 weeks, after adjusting for mother's age. This is one week less than the crude model.
+### Some alternatives
++ t-test (two sample t-test)
+  + Continuous outcome
+  + Catregorical independent variable with two levels
++ Disadvantages of the t-test
+  + No risk adjustment or interactions
++ Analysis of variance
+  + Continuous outcome
+  + Categorical independent variable with three or more levels
+  + Can use more than one categorical independent variable
++ Analysis of covariance
+  + Second indepdent variable is continuous
+  
+<div class="notes">
 
-This is not the final model. We should examine the effect of delivery type and account for the fact that we have some data on twins. I hope, though, that this presentation gives you a general idea of what crude and adjusted models are.
+Some people prefer an alternative to the linear regression model in certain special cases. If you have a continuous outcome variable and a single indepdent variable with exactly two levels, you can select the t-test as your statistical model. 
+
+The t-test does not generalize well. It can't do risk adjustments and it can not model an interaction of two independent variables.
+
+If you have three or more levels, use analysis of variance instead. It allows for adjustment for second or third categorical independent variable, and can estimate interactions.
+
+if you want to add a second independent variable and that variable is continuous, you would be using an analysis of covariance instead.
 
 </div>
 
 ### Continuous outcomes - summary
 + Linear regression
+  + Continuous outcome
+  + Can provide risk adjustments
 + Two-sample t-test
 + Analysis of variance
++ Analysis of covariance
 
 <div class="notes">
 
+In summary, the linear regression model is used with a continuous outcome variable. It provides risk adjustments, and I showed a simple example. It can also model the interaction of two or more independent variables.
 
+Some alternatives you might consider with a continuous independent variable are the t-test, analysis of variance, and analysis of covariance.
 
 </div>
 
-### Second break
-
+### Third break
 + What have you learned?
-  + Descriptive statistics
   + Linear regression
 + What's coming next?
   + Logistic regression
   + Poisson regression
+  
+<div class="notes">
+
+I love linear regression models and thought it would be helpful to spend a bit of time on a real example. In the next video, I will talk about logistic and Poisson regression.
+
+</div>
   
 ### Logistic regression
 + Binary outcome variable
@@ -852,9 +1043,21 @@ Notice that even when the odds get as large as 27 to 1, the probability still st
 
 ![Table showing linearity on the log odds scale](../images/13/logistic-log-odds-1.gif)
 
+<div class="notes">
+
+If you take a logarithm of these odds, you will notice an interesting pattern. Each year of gestational age adds 1.1 to the log odds. The geeks will explain this as saying that a logistic regression is linear on the log odds scale.
+
+</div>
+
 ### The S-shaped logistic curve (1/2)
 
 ![Table converting back to probabilities](../images/13/logistic-log-odds-2.gif)
+
+<div class="notes">
+
+You can also convert the odds into probabilities. Remember the formula? The probability of an events is the odds divided by 1 plus the odds.
+
+</div>
 
 ### The S-shaped logistic curve (2/2)
 
@@ -872,7 +1075,7 @@ The probabilities follow an S-shaped curve that is characteristic of all logisti
 
 <div class="notes">
 
-
+Here are the results of a logistic regresion model with real data. 
 
 </div>
 
@@ -918,7 +1121,60 @@ This is a general property of the logistic model. The slope term in a logistic r
 
 </div>
 
-### Categorical variables in a logistic regression model
+### Model computations
++ log odds = -16.72 + 0.577*GA
++ Example: GA=30, estimated probability = 64.3%
+  + log odds = -16.72 + 0.577*30 = 0.59
+  + odds = exp(0.59) = 1.80
+  + prob = 1.80 / (1+1.80) = 0.643
++ GS=31
+  + log odds = 1.16, odds = 3.20, prob = 76.2%
++ GS=32
+  + log odds = 1.74, odds = 5.70, prob = 85.1%
++ Constant odds ratio
+  + 3.20 / 1.80 = 1.78
+  + 5.70 / 3.20 = 1.78
+
+<div class="notes">
+
+The estimated logistic regression model is
+
+log odds = -16.72 + 0.577*GA
+
+The table below shows the predicted log odds, and the calculations needed to transform this estimate back into predicted probabilities.
+
+Let's examine these calculations for GA = 30. The predicted log odds would be
+
+log odds = -16.72 + 0.577*30 = 0.59
+
+Convert from log odds to odds by exponentiating.
+
+odds = exp(0.59) = 1.80
+
+And finally, convert from odds back into probability.
+
+prob = 1.80 / (1+1.80) = 0.643
+
+The predicted probability of 64.3% is reasonably close to the true probability (77.8%).
+
+You might also want to take note of the predicted odds. Notice that the ratio of any odds to the odds in the next row is 1.78. For example,
+
+3.20/1.80 = 1.78
+
+5.70/3.20 = 1.78
+
+It's not a coincidence that you get the same value when you exponentiate the slope term in the log odds equation.
+
+exp(0.59) = 1.78
+
+This is a general property of the logistic model. The slope term in a logistic regression model represents the log of the odds ratio representing the increase (decrease) in risk as the independent variable increases by one unit.
+
+
+</div>
+
+### Categorical variables in a logistic regression (1/2)
+
+![Crosstabulation of gender and mortality on the Titanic](../13/images/titanic01.gif)
 
 <div class="notes">
 
@@ -926,41 +1182,57 @@ You treat categorical variables in much the same way as you would in a linear re
 
 You can see this in the crosstabulation shown above. Among females, the odds of dying were 2-1 against, because the number of survivors (308) was twice as big as the number who died (154). Among males, the odds of dying were almost 5 to 1 in favor (actually 4.993 to 1), since the number who survived (142) was about one-fifth the number who died (709).
 
-The odds ratio is 0.1, and we are very confident that this odds ratio is less than one, because the confidence interval goes up to only 0.13. Let's analyze this data by creating an indicator variable for sex.
+The odds ratio is either 0.1 or 10 depending on whether you look at mortality versus survival and whether the odds for men are in the numerator or the denominator.
 
-In SPSS, you would do this by selecting TRANSFORM | RECODE from the menu
+</div>
 
-Then click on the OLD AND NEW VALUES button.
+### Categorical variables in a logistic regression (2/2)
 
-Here, I use the codes of 0 for female and 1 for male. To run a logistic regression in SPSS, select ANALYZE | REGRESSION | BINARY LOGISTIC from the menu.
+![Logistic output for the Titanic data](../13/titanic02.gif)
 
-Click on the OPTIONS button.
-
-Select the CI for exp(B) option, then click on the CONTINUE button and then on the OK button. Here is what the output looks like:
+<div class="notes">
 
 Let's start with the CONSTANT row of the data. This has an interpretation similar to the intercept in the linear regression model. the B column represents the estimated log odds when SexMale=0. Above, you saw that the odds for dying were 2 to 1 against for females, and the natural logarithm of 2 is 0.693. The last column, EXP(B) represents the odds, or 2.000. You need to be careful with this interpretation, because sometimes SPSS will report the odds in favor of an event and sometimes it will report the odds against an event. You have to look at the crosstabulation to be sure which it is.
 
 The SexMale row has an interpretation similar to the slope term in a linear regression model. The B column represents the estimated change in the log odds when SexMale increases by one unit. This is effectively the log odds ratio. We computed the odds ratio above, and -2.301 is the natural logarithm of 0.1. The last column, EXP(B) provides you with the odds ratio (0.100).
 
-Coding is very important here. Suppose you had chosen the coding for SexFemale where1=female and 0=male.
-
-Then the output would look quite different.
-
-The log odds is now -1.608 which represents the log odds for males. The log odds ratio is now 2.301 and the odds ratio is 9.986 (which you might want to round to 10).
+Coding is very important here. Suppose you had chosen the coding for SexFemale where1=female and 0=male. You would get an odds ratio of 10 (actually 9.986) instead of 0.1.
 
 </div>
+
+### Alternatives to logistic regresion
++ Test of two proportions
+  + Only for a binary independent variable
+  + No risk adjustments or interactions
++ Chisquare test
+  + Only for a categorical independent variable
+  + Either two or more than two levels
   
-### Categorical outcomes -- summary
-+ Binary outcome variables
-  + Test of two proportions
+### What if your outcomes is categorical but not binary?
++ Three of more levels
   + Chi-square test
-  + Logistic regression
-+ Ordinal outcome variables
+  + Multinomial logistic regression
++ Ordinal outcome variable
   + Nonparametric tests
   + Ordinal logistic regression
-+ Multiple level nominal variables
-  + Chi-squre test
+
+### Categorical outcomes -- summary
++ Logistic regression
+  + Binary outcome variable
+  + Both categorical and continuous independent variables
+  + Risk adjustmentsn and interactions possible
++ Alternative methods
+  + Test of two proportions
+  + Chi-square test
   + Multinomial logistic regression.
+  + Nonparametric tests
+  + Ordinal logistic regression
+  
+<div class="notes">
+
+We spent a lot of time on logistic regression. It was worth it because logistic regression is useful in many research settings. We'll go a bit faster for the remaining models.
+
+</div>
 
 ### Poisson regression
 + The problems with counts
@@ -976,7 +1248,9 @@ Poisson regression assumes that your outcome variable follows a Poisson distribu
 Poisson distributions have three special problems that make traditional (i.e., least squares) regression problematic.
 
 The Poisson distribution is skewed; traditional regression assumes a symmetric distribution of errors.
+
 The Poisson distribution is non-negative; traditional regression might sometimes produce predicted values that are negative.
+
 For the Poisson distribution, the variance increases as the mean increases; traditional regression assumes a constant variance.
 
 In contrast, the Poisson regression model is not troubled by any of the above conditions. In particular, Poisson regression implicitly uses a log transformation which adjusts for the skewness and prevents the model from producing negative predicted values. Poisson regression also models the variance as a function of the mean.
@@ -987,30 +1261,26 @@ Poisson regression can also be used to analyze rate data. Rates are simply count
 
 </div>
 
-### Example
+### Poisson regression example - data
+
++ Responses to a mailing
+  + 0 9
+  + 1 4
+  + 2 2
+  + 3 3
+  + 4 0
+  + 5 0
+  + 6 1
 
 <div class="notes">
 
 I've been working on an interesting project that requires Poisson regression. A company sends out a mailing and gets a certain number of telephone calls back on each of the days following. The number of phone calls is typically (but not always) highest on the first day afterwards and declines rapidly on successive days. I wanted to develop a simple Poisson regression model for this data.
 
-Here's an example of this data
+</div>
 
-1 9
-2 4
-3 2
-4 3
-5 0
-6 0
-7 1
+### Poisson regression example - output
 
-You can fit a simple Poisson regression model in R using the following code:
-
-ct <- c(9,4,2,3,0,0,1)
-tm <- 0:6
-pmod <- glm(ct~tm,family=poisson)
-
-Using 0 as the starting point rather than 1 makes the interpretation of this model simpler. When you list the contents of  pmod, you get the following
-
+```{}
 Call: glm(formula = ct ~ tm, family = poisson)
 
 Coefficients:
@@ -1018,8 +1288,12 @@ Coefficients:
      2.1063      -0.5505
 
 Degrees of Freedom: 6 Total (i.e. Null); 5 Residual
-Null Deviance:      22.06
-Residual Deviance: 5.289        AIC: 24.21
+```
+
++ exp(2.1063) = 8.2
++ exp(-0.5505) = 0.58
+
+<div class="notes">
 
 How would you interpret these coefficients?  The Poisson regression model uses a log link function. This means that the average value for the data is assumed to be linear on a log scale.
 
@@ -1033,60 +1307,26 @@ A zero slope in a Poisson regression model corresponds to a multiplicative chang
 
 The predict function in R produces estimated average values on a log scale for each time point.
 
+### Poisson regression example: Predictions 
+
+```{}
 round(predict(pmod),4)
      1      2      3      4       5       6       7
 2.1063 1.5558 1.0053 0.4548 -0.0957 -0.6462 -1.1967
 
-I've rounded these data slightly from the actual output to save space. Note that R places an index of 1 through 7 above each predicted value. This is a bit confusing, perhaps, because the first value corresponds to time=0 and the last value corresponds to time=6.
-
-If you take the antilog of these values, you get the estimated average count at each time point.
-
 > round(exp(predict(pmod)),4)
      1      2      3      4      5      6      7
 8.2177 4.7388 2.7327 1.5758 0.9087 0.5240 0.3022
+```
 
-To demonstrate that this is an exponential decline, note that
++ 4.7388 / 8.2177 = 0.58
++ 2.7327 / 4.7388 = 0.58
 
-8.2*0.58^0 = 8.2
-8.2*0.58^1 = 4.8
-8.2*0.58^2 = 2.8
-8.2*0.58^3 = 1.6
-8.2*0.58^4 = 0.93
-8.2*0.58^5 = 0.54
-8.2*0.58^6 = 0.31
+<div class="notes">
 
-There is a bit of rounding here, but the series matches the values shown using the antilog of the predicted values.
+I've rounded these data slightly from the actual output to save space. Note that R places an index of 1 through 7 above each predicted value. This is a bit confusing, perhaps, because the first value corresponds to time=0 and the last value corresponds to time=6.
 
-You might wonder if you are likely to see any more values beyond time=6. The estimated average counts for times 7, 8, etc. are
-
-8.2*0.58^7 = 0.18
-8.2*0.58^8 = 0.11
- .
- .
- .
-
-You can sum the infinite series from time=0 to time=infinity if you like. Notice that the terms in the above expression can be represented by a classic geometric series
-
-a
-ar
-ar2
-ar3
- .
- .
- .
-
-For r<1, the sum of this infinite series is
-
-a/(1-r)
-
-For a=8.2 and r=0.58, this equals 19.5. Since we've already seen 19 events, we would expect to see half an event on average for the remainder the time. You can use the dpois function to estimate probabilities for a Poisson random variable with a mean of 0.5.
-
-> round(dpois(0:4,0.5),2)
-[1] 0.61 0.30 0.08 0.01 0.00
-
-You would estimate that it is more than likely (61% probability) that you will not see any more events. There is still a reasonable chance (30%) that you will see one more event. It is unlikely (9% probability) that you will see 2 or more events.
-
-This page was written by Steve Simon while working at Children's Mercy Hospital. Although I do not hold the copyright for this material, I am reproducing it here as a service, as it is no longer available on the Children's Mercy Hospital website. Need more information? I have a page with general help resources. You can also browse for pages similar to this one at Category: Poisson regression.
+If you take the antilog of these values, you get the estimated average count at each time point.
 
 </div>
 
@@ -1099,6 +1339,12 @@ This page was written by Steve Simon while working at Children's Mercy Hospital.
   + Cox regression
   + Longitudinal/hierarchical designs
   
+<div class="notes">
+
+We talked about logistic regression in some detail and spent a bit of time on Poisson regression. Next up is Cox regression and longitudinal and hierarchical designs.
+
+</div>
+  
 ### Time to event outcomes
 + Special type of ratio scale outcome
   + Non-negative
@@ -1106,6 +1352,16 @@ This page was written by Steve Simon while working at Children's Mercy Hospital.
 + Censoring
   + Partial information on some subjects
   + Not the same as missing data
+  
+<div class="notes">
+
+Survival data models provide interpretation of data representing the time until an event occurs. In many situations, the event is death, but it can also represent the time to other bad events such as cancer relapse or failure of a medical device. It can also be used to denote time to positive events such as pregnancy.
+
+Survival data models also incorporate one of the complexities of "time to event" data, the fact that not all patients experience the event during the time frame of the study. So, if we are doing a five year mortality study, we have the problem of those stubborn patients who refuse to die during the study period. Other patients may move out of town halfway through the study and are lost to follow-up. In a study of medical devices, sometimes the device continues to work up to a certain time, but then has to be removed, not because the device failed, but because the patient got healthier and no longer needed the device.
+
+These observations are called censored observations. With censored observations, the actual time of the event is unknown but we do know that it would not be any earlier than the time that the last evaluation or follow-up visit was done. These censored observations provide partial information. They influence our estimates of survival probability up to the last evaluation or follow-up, but do not provide any information about survival probabilities beyond that point. To disregard this information is dangerous and could seriously bias your results.
+
+</div>
   
 ### Fruit fly experiment - the data
 
@@ -1123,12 +1379,6 @@ Day Prob Day Prob Day Prob
 ```
 
 <div class="notes">
-
-Survival data models provide interpretation of data representing the time until an event occurs. In many situations, the event is death, but it can also represent the time to other bad events such as cancer relapse or failure of a medical device. It can also be used to denote time to positive events such as pregnancy.
-
-Survival data models also incorporate one of the complexities of "time to event" data, the fact that not all patients experience the event during the time frame of the study. So, if we are doing a five year mortality study, we have the problem of those stubborn patients who refuse to die during the study period. Other patients may move out of town halfway through the study and are lost to follow-up. In a study of medical devices, sometimes the device continues to work up to a certain time, but then has to be removed, not because the device failed, but because the patient got healthier and no longer needed the device.
-
-These observations are called censored observations. With censored observations, the actual time of the event is unknown but we do know that it would not be any earlier than the time that the last evaluation or follow-up visit was done. These censored observations provide partial information. They influence our estimates of survival probability up to the last evaluation or follow-up, but do not provide any information about survival probabilities beyond that point. To disregard this information is dangerous and could seriously bias your results.
 
 The following data represents survival time for a group of fruit flies and is a subset of a larger data set found at the Data and Story Library (DASL). The data set has been slightly modified to simplify some of these explanations.
 
@@ -1242,6 +1492,16 @@ You can also estimate probabilities for survival at any given time by projecting
 ### Cox regression
 
 ![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-01.bmp)
+
+<div class="notes">
+
+Let's also talk about the happy and sad regions of a Kaplan-Meier graph.
+
+Normally the Kaplan-Meier curve starts in the upper left corner of the graph. At time = 0, everyone has survived. Now there are two possibilities. Everyone could die very quickly and the curve drops rapidly to the lower left region. This is the unhappy region. Most people are dead in a very short time.
+
+If the curve is not very steep and extends in the the 
+
+</div>
 
 ### Cox regression
 
