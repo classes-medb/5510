@@ -617,16 +617,6 @@ This image was found on Wikimedia Commons and has been placed in the public doma
 
 </div>
 
-### Distoring the image
-
-![Pie chart with three dimensions and exploding wedges](../images/13/piechart02.jpg)
-
-<div class="notes">
-
-This image was found on Wikimedia Commons and has is licensed under the creative commons share alike license. It is available at https://commons.wikimedia.org/wiki/File:Atmospheric_air_components_percentage.jpg
-
-</div>
-
 ### A bar chart
 
 ![Bar chart showing country of orgin for unaccompanied minors](../images/13/barchart01.png)
@@ -1174,7 +1164,7 @@ This is a general property of the logistic model. The slope term in a logistic r
 
 ### Categorical variables in a logistic regression (1/2)
 
-![Crosstabulation of gender and mortality on the Titanic](../13/images/titanic01.gif)
+![Crosstabulation of gender and mortality on the Titanic](../images/13/titanic01.gif)
 
 <div class="notes">
 
@@ -1188,7 +1178,7 @@ The odds ratio is either 0.1 or 10 depending on whether you look at mortality ve
 
 ### Categorical variables in a logistic regression (2/2)
 
-![Logistic output for the Titanic data](../13/titanic02.gif)
+![Logistic output for the Titanic data](../images/13/titanic02.gif)
 
 <div class="notes">
 
@@ -1307,6 +1297,8 @@ A zero slope in a Poisson regression model corresponds to a multiplicative chang
 
 The predict function in R produces estimated average values on a log scale for each time point.
 
+</div>
+
 ### Poisson regression example: Predictions 
 
 ```{}
@@ -1330,7 +1322,7 @@ If you take the antilog of these values, you get the estimated average count at 
 
 </div>
 
-### Third break
+### Fourth break
 
 + What have you learned?
   + Logistic regression
@@ -1467,29 +1459,7 @@ This is known as informative censoring, and it happens more often that you might
 
 </div>
 
-### Interpretation (1/2)
-
-![Schematic of survival curve starting from upper left corner](../images/13/fruit-fly-4.gif)
-
-<div class="notes">
-
-When you see a survival curve in a research paper, there are two ways to interpret it. First, you can get an estimate of the median (or other percentiles) by projecting horizontally until you intersect with the survival curve and then head down to get your estimate. In the survival curve we have just looked at, you would estimate the median survival as slightly more than 60 days.
-
-</div>
-
-### Interpretation (2/2)
-
-![Schematic of survival curve starting from lower left corner](../images/13/fruit-fly-5.gif)
-
-<div class="notes">
-
-
-
-You can also estimate probabilities for survival at any given time by projecting up from the time and then moving to the left to estimate the probability. In the example below, you can see that the 80 day survival probability is a little bit less than 25%.
-
-</div>
-
-### Cox regression
+### Happy and sad corners for the Kaplan-Meier curve
 
 ![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-01.bmp)
 
@@ -1499,21 +1469,88 @@ Let's also talk about the happy and sad regions of a Kaplan-Meier graph.
 
 Normally the Kaplan-Meier curve starts in the upper left corner of the graph. At time = 0, everyone has survived. Now there are two possibilities. Everyone could die very quickly and the curve drops rapidly to the lower left region. This is the unhappy region. Most people are dead in a very short time.
 
-If the curve is not very steep and extends in the the 
+If the curve is not very steep and extends in the upper right corner, that means that most people are still alive after a long amount of time. Hooray! This is the happy corner for the Kaplan-Meier curve. 
 
 </div>
 
 ### Cox regression
 
-![conceptual illustration of Kaplan-Meier curve regions](../images/13/km-02.bmp)
+![Stair steps in a Kaplan-Meier curve](../images/13/km-03.bmp)
+
+<div class="notes">
+
+The sudden drops in a Kaplan-Meier curve occur at any event. The size of the drops is a rough indication of the sample size. A small sample size has big drops, and a large sample size, where you divide up the mortality probability among a larger number of people, has smaller drops.
+
+Because of censoring, the size of the drops will increase over time. Sometimes this is barely noticeable. But if you get from a region with small drops to a region with large drops, this represents a loss of precision because many of your patients dropped out before they could contribute to the mortality probability at the later time points.
+
+</div>
 
 ### Cox regression
 
-![Simple example comparing two Kaplan-Meier curves](../images/13/km-03.bmp)
+![Simple example comparing two Kaplan-Meier curves](../images/13/km-04.jpg)
+
+<div class="notes">
+
+Here's a nice pair of Kaplan-Meier curves. The outcome is a composite: recurrence-free survival. An event is either death or cancer recurrence. p16 is a genetic marker. The vertical lines represent censored observations. The survival probability does not change when a patient drops out, only when they die or have a recurrence.
+
+Notice that the green curve, p16+, is closer to the happy upper right hand corner. The blue curve, p16-, is closer to the sad lower left hand corner. The drops get pretty big after 6 years indicating that we have not so much precision this far out in time.
+
+</div>
+
+### Estimating the median and other percentiles
+
+![Schematic of survival curve starting from upper left corner](../images/13/fruit-fly-4.gif)
+
+<div class="notes">
+
+When you see a survival curve in a research paper, there are two ways to interpret it. First, you can get an estimate of the median (or other percentiles) by projecting horizontally until you intersect with the survival curve and then head down to get your estimate. In the survival curve we have just looked at, you would estimate the median survival as slightly more than 60 days.
+
+</div>
+
+### Estimating a fixed time survival probability
+
+![Schematic of survival curve starting from lower left corner](../images/13/fruit-fly-5.gif)
+
+<div class="notes">
+
+You can also estimate probabilities for survival at any given time by projecting up from the time and then moving to the left to estimate the probability. In the example below, you can see that the 80 day survival probability is a little bit less than 25%.
+
+</div>
 
 ### Cox regression
 
 ![Illustration of increasing, decreasing, and constant hazards](../images/13/hazard-functions.png)
+
+<div class="notes">
+
+The Cox regression model is written in terms of the hazard function. The hazard function is the short term rate of death adjusted for the number of people still alive and still in the study. These graphs show an increasing, decreasing, and constant hazard.
+
+The math for hazard functions gets a bit messy, so I only want to talk about hazard functions in a conceptual sense.
+
+An increasing hazard means that the older you get, the higher the probability that you will experience the event. This is the most common pattern and it shows a deterioration with age.
+
+Once in a while you see the reverse pattern, though. A decreasing hazard means that the older you get, the tougher you get. You are at greater risk of dying early in your life. This actually does happen in the neonatology ward. The most dangerous day in your lifetime was the very first day of your life.
+
+An even more unusual pattern is the constant hazard. This is a Peter Pan model. Your short term risk of dying never changes. You don't get weaker over time, and you don't get stronger. The Grim Reaper gets us all eventually, but he doesn't spend most of his time at the old folks home.
+
+These last two examples occur more frequently in Engineering applications than in medicine.
+
+</div>
+
+### Alternatives to Cox regression
++ Log rank test
+  + Single categorical indpendent variable
+  + Any number of levels
++ Parametric survival models
+  + Requires much stronger assumptions
+  + Exponential, Weibull, or other distribution
+  + Can extrapolare beyond the range of the data
+  
+<div class="notes">
+
+The Cox regression model is very flexible, but for simple cases, a single categorical independent variable, the log rank test is sometimes used instead. There are also some parametric survival models where you assume that the survival times follow an exponential, Weibull, or other distribution. These have an advantage in that you can extrapolate beyond the range of the data, but please do this carefully.
+
+</div>
 
 ### Cox regression - summary
 + Time-to-event outcome
@@ -1525,6 +1562,31 @@ If the curve is not very steep and extends in the the
   + Log rank test
   + Parametric models
   
+<div class="notes">
+
+The time to event outcomes use a Cox regression model. We didn't have time for a lot of examples, but the Cox regression model can handle continuous or categorical independent variables, multiple independent variables, risk adjustment, and interactions.
+
+In some simpler setting with just a single independent variable and a categorical one, to boot, you can use the log rank test. Another alternative you might see is a parametric survival model.
+
+</div>
+  
+### Summary - the big four models
++ Linear regression
++ Logistic regression
++ Poisson regression
++ Cox regression
++ All very flexible
+  + Allow categorical and continuous independent variables
+  + Allow for risk adjustments and interactions
+
+<div class="notes">
+
+I tend to choose almost exclusively from these four regression models because they are all very flexible. It doesn;t matter whether your independent variable is categorical or continuous. You can have multiple independent variables, risk adjustment, and interactions.
+
+There are lots of alternatives, but they typically have lots of limitations or can only accept certain types of independent variables.
+
+</div>
+
 ### Hierarchical/longitudinal designs
 + Matching
 + Baseline measures
@@ -1544,13 +1606,18 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
 + Logistical issues
   + Close but not exact matches
   + Loss of data due to mismatches
+  + Best when controls come from a large pool
 + Analysis methods
   + Paired t-test
   + Random effects models
   
 <div class="notes">
 
+Matching is a great thing if you can do it. It greatly improves your precision. Matching is typically done by finding pairs of subjects with similar demographics: same gender, same race, and same age (plus or minus three years). Once in a while you are lucky and the pairs appear naturally. A study of children might have a child with a certain disease and a healthy sibling close in age. Identical twin studies are even better.
 
+The logistics of matching are tough. You have to decide how close is close enough to call a pair a match. You will end up losing some data for patients who don't have a good match. If you have a large pool of control subjects to draw your matches from, you may be okay.
+
+When you have matched data, you need to adjust your statistical model. Analysis of matched data uses either the paired t-test or a random effects model. I won't go into the details of a random effects model, but this is covered in Biostats 3, taught by An-Lin Cheng.
 
 </div>
 
@@ -1561,10 +1628,13 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
 + Analysis methods
   + Change score
   + Baseline covariate
+  + Bonate, Analysis of Pretest-Posttest Designs
   
 <div class="notes">
 
+You also have to adjust your model if you have baseline measurements. This is a small added complication, but baseline measures allow you to adjust for baseline imbalance and can often greatly improve your precision.
 
+There are two competing methods for baseline data, change scores and using the baseline value as a covariate. There is a lot of controversy about these competing approaches and I can't afford the time to discuss them in detail. There's a great book by Peter Bonate that talks about this.
 
 </div>
 
@@ -1575,6 +1645,14 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
 + Disadvantages
   + Expensive
   + Dropout
+
+<div class="notes">
+
+I love longitudinal data. It provides a rich and complete picture of health care over both short term and long term time frames. Longitudinal designs also provide extra precision, much in the same way that baseline measurements provide added precision. 
+
+But only if they weren't so darned expensive. Dropouts are also a big issue in longitudinal designs.
+
+</div>
   
 ### Longitudinal designs (2/2)
 + Analysis methods
@@ -1586,7 +1664,9 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
   
 <div class="notes">
 
+There are a variety of analysis methods for longitudinal data. Many of these, within subjects designs, nested effects, repeated measures, and split plot designs have fallen out of common use because they are complicated and require assumptions that are rarely met in the real world. Almost everyone these days use some time of random effects model for longitudinal data or generalized estimating equations.
 
+If you want more information about these approaches, take An-Lin's class.
 
 </div>
 
@@ -1604,17 +1684,29 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
 
 <div class="notes">
 
+Cluster effects occur when you have more than one source of variation. Two measurements from patients in the same cluster tend to be less variable than measurements from two patients in different clusters.
 
+Sources of cluster variations occur when you make measuremnts on multiple members of multiple different families. Siblings and parents share a common environment and most of the genes stay the same, so there is less variation within a family than variation between two unrelated patients. Clinics, hospitals, and schools all produce cluster effects.
+
+Be careful when you describe clusters in a randomized setting. Do you randomly assign within each cluster, or does everyone in a cluster get exactly the same treatment, but that treatment varies randomly from one cluster to another. It makes a really big difference.
+
+The two analysis methods used here are random effects models and hierarchical models. The math is too messy to describe here. Take An-Line's class. Please!
 
 </div>
 
-### Fourth break
+### Fifth break
 
 + What have you learned?
   + Cox regression
   + Longitudinal/hierarchical designs
 + What's coming next?
   + Qualitative data analysis
+  
+<div class="notes">
+
+I want to talk next about qualitative research methods.
+
+</div>
 
 ### Analysis of Qualitative Data-resources
 
@@ -1626,8 +1718,16 @@ A longitudinal or hierarchical design appear in various forms, but I want to tal
   + participant observation
   + archival records
   
-### Tools
 
+<div class="notes">
+
+When you are planning a qualitative study, expect a lot of time in data preparation and analysis, about three to four hours for every hour of interviews.
+
+You want to involve the participants in the design. This means letting them determine how the questions and the data collection might evovle over time.
+
+Qualitative data is usually collected as part of a focus group, semi-structured interviews, participant observations (watching the process of delivery of health care), and analysis of records (meaning items with textual information).
+
+</div>
 
 ### Inductive process
 + Start with the specific (raw data / transcript)
@@ -1679,7 +1779,7 @@ Really important to keep notes of the coding and analysis process, so you can ch
 </div>
 
 
-### Role of Judgment
+### Coding the texts
 + Balancing act 
 	+ Level of creativity by coder to identify categories/relationships
 	+ Must reflect the informants thoughts
@@ -1688,26 +1788,72 @@ Really important to keep notes of the coding and analysis process, so you can ch
 
 <div class="notes">
 
+The data from a qualitative analysis is a stream of words, broken into small snippets of text. You need to assign each of these snippets to one or more categories. Software can help with this, but you need to think carefully about your role in the analysis. You can't be a disinterested bystander. 
+
+When you analyze qualitative data, you want to think intelligently about the data in front of you but you don't want to force your pre-conceived ideas on top of the data that you collect. You need to remain true to what the participants are telling you.
+
+Coding the data is, by necessity, a subjective process. You should plan on having two people code the data into categories independently. You also need an auditor, someone who looks critically at the match between the raw text and the themes you have developed.
+
+One way to avoid pre-conceptions is to be constantly on the lookout for negative cases, cases that would tend to disprove any conclusions you might be tempted to draw prematurely from the data.
+
 </div>
 
-### Tenth break
+### What goes in the methods section of a qualitative study
++ Recruitment process
++ Structure of the interview/focus group
++ Recording and transcription details
++ Softare used to create categories
++ Process to insure reliability
+  + Multiple raters
+  + Adjudication of disagreement
+  + Other audits
+  
+<div class="notes">
+
+The methods that you document in a qualitative study are quite different than those you use for a qualitative study. Here are some of the elements that you need to talk about.
+
+</div>
+
+### Sixth break
 
 + What have you learned?
   + Qualitative data analysis
 + What's coming next?
   + Writing a methods section
   
+<div class="notes">
+
+We are done, but let me take some time to talk about how you put all this together in a written summary of your methods.
+
+</div>
+  
 ### What purpose does a methods section serve?
 + Assessment of the quality of your research
   + Brag here about your rigor
   + Save limitations for discussion
-+ Allow others to replicate
++ Allow others to replicate/extend
   + Non-obvious details
+  
+<div class="notes">
+
+When you write a methods section, keep the two set of readers in mind: those who want to evaluate your research and those who want to use your research as a model for their own replication or extension of your work.
+
+</div>
 
 ### What should not be included in the methods section
 
 + "The Methods section should include only information that was available at the time the plan or protocol for the study was being written; all information obtained during the study belongs in the Results section."
-  + International Commitee of Medical Journal Editors. Uniform requirements for manuscripts submitted to biomedical journals: Writing and editing for biomedical publication. J Pharmacol Pharmacother. 2010;1(1):42–58.
+  + Uniform requirements for manuscripts submitted to biomedical journals: Writing and editing for biomedical publication. J Pharmacol Pharmacother. 2010;1(1):42–58.
++ Exceptions
+  + Patient counts, Dropout rates, Protocol changes
+  
+<div class="notes">
+
+There is a sharp dividing line, according to some, about what goes in methods and what does in the results section.
+
+some people will put a few details like patient counts and dropout ratesin the methods section, but in general, you should only put information in methods if it was known prior to data collection. The one exception, perhaps, would be changes in the protocol that occur during the study. Ideally, you do not have this, but it happens and you must document these changes.
+
+</div>
 
 ### What belongs in the methods section
 + Every methods section is different
@@ -1718,10 +1864,22 @@ Really important to keep notes of the coding and analysis process, so you can ch
   + Measures
   + Analysis
   
+<div class="notes">
+
+There is no consensus on the organization of material in a methods section. Here is one strucure that I developed by synthesizing several of the structures that I liked.
+
+</div>
+  
 ### Participants
 + Where you will find your participants
 + Inclusion/exclusion criteria
 + Efforts to insure representativeness
+
+<div class="notes">
+
+Since clinical research almost always involves humans, tell us where you find those humans.
+
+</div>
 
 ### Materials/Procedures
 + Only document the non-routine
@@ -1731,6 +1889,12 @@ Really important to keep notes of the coding and analysis process, so you can ch
 + Procedures
   + Running complex equipment
   + Multiple step laboratory methods
+  
+<div class="notes">
+
+For materials and procedures, only document the stuff that is non-obvious. Anyone with a reasonable medical background knows how to take a blood pressure, so don't mention any details, unless you are deviating from a common norm (e.g., taking blood pressure from a leg).
+
+</div>
 
 ### Measures
 + Outcome variables
@@ -1738,12 +1902,26 @@ Really important to keep notes of the coding and analysis process, so you can ch
 + Covariates
 + Validity/reliability
 
+<div class="notes">
+
+Define your variables and classify them into outcomes, independent variables, and covariates. For those variables where it is appropriate, discuss what you already know about validity and reliability.
+
+</div>
+
 
 ### Analysis
 + Research hypotheses / questions
 + Sample size justification
-+ Descriptive methods (see boilerplate)
++ Descriptive methods 
   + Boilerplate: "Continuous variables were summarized as means and SDs, and categorical variables were summarized as percentages." Saleem 2019.
+
+<div class="notes">
+
+Boilerplate refers to text that is used so often and without any changes that you can safely use it in your publication without fear of being accused of plagiarism. The first boilerplate comes early in your data analysis methods, and describes how you are summarizing continuous variables using means and standard deviations and summarizing categorical variables using percentages. The second boilerplate mentions that all of your statistical tests are two sided (which they are 90% of the time) and that you use an alpha level of 0.05 to decide what is statistically significant (which you do 99.99% of the time).
+
+</div>
+
+### Analysis
 + Statistical model
 + Adjustments for multiplicity
 + Handling missing values/dropout
@@ -1752,66 +1930,9 @@ Really important to keep notes of the coding and analysis process, so you can ch
 
 <div class="notes">
 
-Boilerplate refers to text that is used so often and without any changes that you can safely use it in your publication without fear of being accused of plagiarism. The first boilerplate comes early in your data analysis methods, and describes how you are summarizing continuous variables using means and standard deviations and summarizing categorical variables using percentages. The second boilerplate mentions that all of your statistical tests are two sided (which they are 90% of the time) and that you use an alpha level of 0.05 to decide what is statistically significant (which you do 99.99% of the time).
-
-Between-Groups Designs: Each person "... is in one and only one condition or group."
-Within-Subjects (Repeated Measures) Designs: Each person "...receives or experiences all of the conditions or levels of the independent variable"
-
-Reason to use and not use Within-Subjects design?
 
 </div>
 
-### Sections of a methods section
-+ Participants, Procedure, Measures/Materials, Analysis section (Frye, no date)
-
-<div class="notes">
-
-https://www.uml.edu/Images/Writing%20a%20Method%20Section-Participants_tcm18-117657.pptx
-https://www.uml.edu/Images/Writing%20a%20Method%20Section-Procedure_tcm18-117659.pptx
-https://www.uml.edu/Images/Writing%20a%20Method%20Section-Measures_tcm18-117658.pptx
-
-</div>
-
-### Sections of a methods section
-+ Subjects, Ethical considerations, Preparations, Protocol design, Measurements and calculations, Data analysis (Kallet 2004)
-
-<div class="notes">
-
-http://rc.rcjournal.com/content/49/10/1229
-
-</div>
-
-### Sections of a methods section
-+ Participants, Materials (Stimuli, Testing materials, Background questionnaire), Procedure (Tasks, Design and analyses)
-
-### Sections of a methods section
-+ What materials did you use? Who were the subjects of your study? What was the design of your research? What procedure did you follow? (Kallestinova 2011)
-
-<div class="notes">
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3178846/
-
-</div>
-
-### Sections of a methods section
-
-+ Selection and description of participants, Technical information, Statistics. International Commitee of Medical Journal Editors 2010.
-
-<div class="notes">
-
-http://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
-
-</div>
-
-### Sections of a methods section
-
-+ Materials (Chemical, Experimental materials, Experimental animals, Human subjects), Methods (Study design, Measurements/assessments, Statistical analyses) (Ghasemi 2019)
-
-<div class="notes">
-
-
-
-</div>
 
 ### Conclusion
 
@@ -1821,18 +1942,9 @@ http://icmje.org/recommendations/browse/manuscript-preparation/preparing-for-sub
 + Analysis of qualitative data
 + Writing a methods section
 
-### Statistical Analysis Selection 
-
-+ Parametric statistics – assumptions
-	+ DV values come from a population of values that is normally distributed (normality)
-	+ Variances of the groups are equal (homogeneity of variance)
-		+ Unequal group sizes and unequal variances lead to increased Type I errors
-	+ All participants with a particular group must be independent of each other (independence)
-		+ Also an assumption for nonparametric statistics
-
 <div class="notes">
 
-
+We're done. Start on your final project, and stop by if you have any questions.
 
 </div>
 
