@@ -92,7 +92,7 @@ The reason to ask a series of questions, rather than one question is that it (fr
 
 I realize this image might be difficult to read on your computer. If you are curious, I have placed the image on the Canvas website.
 
-Here's a second example of a composite score, the neighborhood environment survey. It is eighten questions long with questions like "There are plenty of safe places to walk or play outdorrs in my neighborhood" and "Every few weeks, some ki in my neighborhood gets beat-up or mugged." These question are answered true/false and points of 0 or 1 are assigned. Notice that some of the questions get a 1 for true and some of the questions get a 1 for false. The total score is 0 to 18 (the paper incorrectly lists the range as 1 to 18).
+Here's a second example of a composite score, the neighborhood environment survey. It is eighten questions long with questions like "There are plenty of safe places to walk or play outdoors in my neighborhood" and "Every few weeks, some ki in my neighborhood gets beat-up or mugged." These question are answered true/false and points of 0 or 1 are assigned. Notice that some of the questions get a 1 for true and some of the questions get a 1 for false. The total score is 0 to 18 (the paper incorrectly lists the range as 1 to 18).
 
 Some of the approaches for establishing reliability and validity only work for composite measures.
 
