@@ -11,6 +11,22 @@ output:
 source("prelims.R", echo=FALSE)
 ```
 
+### Outline
++ Why do you need to worry about reliability and validity?
++ Two dichotomies of measurement
+  + Patient Reported Outcomes versus Subjective researcher evaluations
+  + Single measurements versus Composite scores
++ Theory behind reliability studies
++ Test-retest reliability (only for patient reported outcomes)
++ Inter-rater reliability (only for researcher evaluations)
++ Parallel forms (only for composite scores)
++ Internal consistency (only for composite scores)
++ When can you rely on previous literature?
++ Theory behind validity studies
++ Face and content validity (only for composite measures)
++ Internal structure (only for composite measures)
++ Criterion and construct validity (potentially for any measure)
+
 ### Measurement quotes (1 of 2)
   
 * "The government is extremely fond of amassing great quantities of statistics. These are raised to the Nth degree, the cube roots are extracted, and the results are arranged into elaborate and impressive displays. What must be kept ever in mind, however, is that in every case, the figures are first put down by a village watchman, and he puts down anything he damn well pleases." 
