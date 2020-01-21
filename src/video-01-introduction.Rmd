@@ -140,13 +140,13 @@ There are many reasons to conduct research. You can develop knowledge for its ow
 
 <div class="notes">
 
-Your book emphasizes six (actually seven) research dichotomies. All dichotomies are false dichotomies. Some dichotomies are actually three levels (trichotomies) or more and some dichotomies are creating a division that doesn't really exist (monochotomies). 
+Your book emphasizes six (actually seven) research dichotomies. Now I believe that all dichotomies are false dichotomies. So I hate what they do, but they do have value. Some dichotomies are actually three levels (trichotomies) or more and some dichotomies are creating a division that doesn't really exist (monochotomies). 
 
-What you might call a dichotomy may actually be a continuum like a spectrum or gradient and the choice between what goes on the left side versus what goes on the right is purely arbitrary. Imagine a sunrise on a cloudy day. It starts out dark but gradually gets a bit brighter until eventually is becomes daylight. Where is the dividing line between day and night when you can't see when, exactly, the sun peeks over the horizon?
+What you might call a dichotomy may actually be a continuum like a spectrum or gradient and the choice between what goes on the left side versus what goes on the right is purely arbitrary. So, imagine a sunrise on a cloudy day. It starts out dark but gradually gets a bit brighter until eventually is becomes daylight. Where is the dividing line between day and night when you can't see when, exactly, the sun peeks over the horizon?
 
 But these are still useful because classifying research into category A versus category B provides a shorthand that helps others understand your research. It also provides guidance as to what sort of statistical analysis is most appropriate and helps with critical appraisal of the research literature.
 
-There is a tendency for some people to embrace one end of the dichotomy and sneer at anyone who adopts the other end. This is a big mistake and something that I have very little patience for. A good researcher uses more than one approach to research. To say, for example, that quantitative research is "hard" science and qualitative research is "soft" science is both inaccurate and fails to recognize that both approaches are needed if we want to make any scientific progress.
+There is a tendency for some people to embrace one end of the dichotomy and sneer at anyone who adopts the other end. This is a big big mistake and something that I have very little patience for. A good researcher uses more than one approach to research. To say, for example, that quantitative research is "hard" science and qualitative research is "soft" science is both inaccurate and fails to recognize that both approaches are needed if we want to make any scientific progress.
 
 There's nothing wrong with using both ends of a dichotomy in a single research study. This goes by the term "mixed methods."
 
@@ -162,7 +162,7 @@ There's nothing wrong with using both ends of a dichotomy in a single research s
 
 <div class="notes">
 
-I wanted to share this image with you early because it shows some of the dichotomies in research and how it influences what statistics you should use. I have never liked these sorts of diagrams because there are always so many exceptions to the rules they propose. But a diagram like this is still useful because it gives you a starting point for your work. Just don't let yourself be constrained too much by this diagram. Consider it a recommendation rather than a requirement.
+I wanted to share this image with you early because it shows some of the dichotomies in research and how it influences what statistics you should use. I have never liked these sorts of diagrams because there are always so many exceptions to the rules they propose. But a diagram like this is still useful because it gives you a starting point for your research. Just don't let yourself be constrained too much by this diagram. It's a recommendation rather than a requirement.
 
 We'll come back to this diagram later in this video.
 
@@ -184,7 +184,7 @@ We'll come back to this diagram later in this video.
 
 The distinction between theoretical and applied research is in when you expect to see something of value to your patients. Theoretical research has no immediate benefit to your patients, and could potentially never offer direct benefits to your patients.
 
-There's a tendency of some applied researchers to sneer at theoretical research. But this is terribly wrong as this quote from W. Edwards Deming explains. Theory is what allows us to make sense of our observations of the world.
+There's a tendency of some applied researchers to sneer at theoretical research. Now remember that I don't want you to sneer. This is terribly wrong as this quote from W. Edwards Deming explains. Theory is what allows us to make sense of our observations of the world.
 
 Without a theoretical framework to support it, applied research is impossible. The other value of theory is that it allows you to generalize to new settings where observations have never been made before. So I'm a big fan of theory, myself.
 
@@ -208,7 +208,7 @@ Without a theoretical framework to support it, applied research is impossible. T
 
 <div class="notes">
 
-The second dichotomy is laboratory versus field research. Laboratory research is done in a controlled setting and has a greater level of control. The big criticism of laboratory studies is that they are "unnatural" and do not reflect how clinical care is actually provided. In fairness, almost all research has an artificiality associated with it. It's just that the laboratory is even more artificial than field research.
+The second dichotomy is laboratory versus field research. Laboratory research is done in a controlled setting and has a greater level of control. The big criticism of laboratory studies is that they are "unnatural" and do not reflect how clinical care is actually provided. In fairness, almost all research has an artificiality associated with it. It's just that the laboratory is a bit more artificial than field research.
 
 Field settings provide what the authors describe as "ecologic validity." This is a term I'd not heard before but the definition is quite simple. The Wikipedia definition is as good as any.
 
@@ -268,13 +268,15 @@ The next dichotomy is between qualitative research and quantitative research, bu
 
 There are synonyms for these approaches: positivism for quantitative research and constructivism for qualitative research.
 
+If anyone has good references for these approaches, please post them in the discussion board.
+
 The quantitative/positivist approach to research tries to separate the researcher from the research process. You specify all (or as many as possible) details of the research prior to data collection so that the researcher does not influence the objective collection of data.
 
 The qualitative/constructivist approach to research rejects the idea of objective collection of data. Biases in the data collection process are inevitable because they are dependent on the paradigm or common way of thinking that researchers share. Rather than separate the researcher from the data collection once the protocol is writen, a qualitative approach inserts the researcher directly into the data collection and explicitly specifies the paradigm that should be used during the research process. The researcher influences the data collection and is simultaneously influenced by the data collection.
 
 A defining characteristic of the qualitative/constructivist approach is the use of open ended questions that allow the participants to describe things from their own perspective.
 
-There  are attempts to reconcile these two philosophies. Postpositivism recognizes that you can't totally remove the researcher from the data collection process but sees the quantitative philosophy as a way to minimize the unavoidable biases that all researchers have.
+There  are attempts to reconcile these two philosophies. Postpositivism (don't you love that word) recognizes that you can't totally remove the researcher from the data collection process but sees the quantitative philosophy as a way to minimize the unavoidable biases that all researchers have.
 
 I tried to find some good resources on the web that discuss the quantitative and qualitative approaches to research, but I was not happy with any of them. I'd encourage you students to google this and share any resources that you find helpful.
 
@@ -306,7 +308,7 @@ Your book uses the adjectives quantitative/qualitative again to describe not the
 
 If this weren't confusing enough, qualitative data is sometimes defined as categorical data. I will try to avoid that language, because it makes qualitative data a subset of quantitative data. I prefer the terms categorical and continuous.
 
-Although I don't agree with it, I have to include this Lord Kelvin quote that argues for the superiority of quantitative data.
+Although I don't agree with it, I have to include this quote from Lord Kelvin that argues for the superiority of quantitative data.
 
 Quantitative data is data that is easily reduced to a number or category, while qualitative data is not so easily reduced. This is kind of a squishy definition because you can create categories (themes) from qualitative data, but it takes a lot of effort.
 
@@ -430,7 +432,7 @@ Triangulation in research is alternating between a constructivist approach that 
 
 At the end of the chapter, your book offers what I think is a thoughtful choice: the pragmatic approach. A good researcher does not specialize in one particular type of research, but uses whatever approach is best for the particular research question.
 
-I need to emphasize again that you never stand at one end of a dichotomy and criticize the other end. Don't be an applied researcher who sneers at theoretical research.
+I need to emphasize again that you never stand at one end of a dichotomy and criticize the other end. Don't be an applied researcher who sneers at theoretical research. Don't be a qualitative researcher who sneers at a quantitative approach.
 
 </div>
 

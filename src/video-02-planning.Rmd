@@ -16,7 +16,7 @@ source("prelims.R", echo=FALSE)
 
 <div class="notes">
 
-Welcome back. Here's what we plan to cover in this video.
+Here are your objectives.
 
 </div>
 
@@ -36,9 +36,9 @@ If you haven't done these readings yet, please do so before continuing with this
 
 <div class="notes">
 
-This figure from your book provides a nice overview of the research process. The first two steps, identifying a research problem and conducting a literature review are steps we will discuss today. The remaining steps are topics for later weeks. This table includes the chapters associated with each step.
+This figure from your book provides a nice overview of the research process. The first two steps, identifying a research problem and conducting a literature review are steps we will discuss today. Actually, we will not discuss the literature review today. The remaining steps are topics for later weeks. This table includes the chapters associated with each step.
 
-The process is for a quantitative study, but it still matches the process that you would use for a qualitative study.Certainly the literature review, setting up a research hypothesis (if you have one), and the human subjects review are pretty much the same no matter what the type of study.
+The process is for a quantitative study, but it still closely matches the process that you would use for a qualitative study. Certainly the literature review, setting up a research hypothesis (if you have one), and the human subjects review are pretty much the same no matter what the type of study.
 
 `r read_text("gliner-2017-figure-2-1", path="images")`
 
@@ -53,7 +53,7 @@ The process is for a quantitative study, but it still matches the process that y
   
 <div class="notes">
 
-The first step in this flow chart is to identify your research problem. We talked a bit about this in the first week of class and we will talk a bit more about it this week as well. Keep in mind that there is no approach that is uniformly good or uniformly bad. A good researcher should be comfortable with both qualitative and quantitative methods, with applied and theoretical research, with field and laboratory studies, and so forth.
+The first step in this flow chart is to identify your research problem. We talked a bit about this in the first week of class and we will talk a bit more about it this week as well. Keep in mind that there is no approach that is uniformly good or uniformly bad. A good researcher should be comfortable with both qualitative and quantitative methods, with applied and theoretical research, with field and laboratory studies, and so forth. You pick the approach that best fits the problem. Don't sneer at other types of research. That's bad, bad, bad.
 
 </div>
 
@@ -111,7 +111,7 @@ There are three different research approaches that you can choose from. In a ran
 
 <div class="notes">
 
-Your research plan should mention how you get your sample, which we will cover in Week 7 and how you measure variables, which we will cover in Week 8.
+Your research plan should mention how you get your sample, which we will cover in Week 7 and how you measure variables, which we is what we'll cover in Week 8.
 
 </div>
 
@@ -125,7 +125,7 @@ Your research plan should mention how you get your sample, which we will cover i
   
 <div class="notes">
 
-Your book places the material on ethical improvement fairly late in the book, but we will cover it very early (this week) because ethical conduct will often influence choices in your research hypothesis and yours research design.
+Your book places the material on ethical improvement (ethical conduct, I should say) fairly late in the book, but we will cover it very early (this week) because ethical conduct will often influence choices in your research hypothesis and yours research design.
 
 
 </div>
@@ -139,9 +139,11 @@ Your book places the material on ethical improvement fairly late in the book, bu
   
 <div class="notes">
 
-Collecting your data takes a lot of time and if you don't plan for this well, a lot of the time will be wasted in rework.
+Boy, we're getting into it. Collecting your data takes a lot of time and if you don't plan for this well, a lot of the time will be wasted in rework.
 
 How you collect your data will depend in a large part on what type of data you collect. Qualitative data, of course, is in a world all it's own. Within quantitative data, though, you need to think about collection issues for self-report data versus investigator collected data. A codebook is vital, especially if you are doing the data entry yourself.
+
+I've not done a lot of qualitative research but I've read a lot about it and advocate its use whenever I think it is appropriate.
 
 </div>
 
@@ -188,7 +190,9 @@ Research is not complete until you disseminate your findings. The different form
 
 As the class goes along, if there is a particular topic that you want me to spend more time on, I'm happy to do it.
 
-If I can brag here a bit, there is no one in the Kansas City area who understands the research process as well as I do. There are some very good people, including Mary Gerkovich, who I have leaned on to produce this class. There are people who have greater depth--they know more about one or two areas than I do. But no one else has the breadth of knowledge that I do. It comes in part with being old. There's nothing that I haven't seen before. Also a big part of it is that I understand the research process from a very fundamental  and foundational level.
+If I can brag here a bit, there is no one in the Kansas City area who understands the research process as well as I do. There are some very good people, including Mary Gerkovich, who I have leaned on to produce this class. There are people who have greater depth--they know more about one or two areas than I do. But no one else has the breadth of knowledge that I do. It comes in part with being old. There's nothing that I haven't seen before. Also a big part of it is that I understand the research process from a very fundamental and very foundational level.
+
+In particular, if there is something you are interested in, please, please, please get that information to you. I will present that information, either formally in this class or informally outside of this class.
 
 </div>
 
@@ -219,13 +223,13 @@ You can find your research problem during your literature review. You can look a
 
 Pure replications are rare because of resource limitations, but there is a lot of research showing that many important research findings are not replicable.
 
-You may also get good research ideas from attending other research presentations, such as thesis defenses of your fellow students or at regional/national conference.
+You may also get good research ideas from attending other research presentations, such as thesis defenses of your fellow students or at regional/national research conference. Good stuff, good stuff.
 
-You may hear about topics in the classes that you take. I, for example, am doing some interesting work on patient accrual models using a Bayesian approach. Ask me anytime, and I'll tell you all about it.
+You may hear about topics in the classes that you take. I, for example, am doing some interesting work on patient accrual models using a Bayesian approach. Ask me anytime, and I'll tell you more about it than you really want to hear.
 
 If you are already working, what comes up in that environment? Watch what is going on and think about ways that you might improve things.
 
-Community or participatory research is another way to develop research ideas. You ask people who are affected by the research you are thinking about doing what they think would work. It forces you to distill your ideas and explain them at a lay person's level. It also requires great listening skills and an open mind.
+I want to put in a big plug for community or participatory research. This is another way to develop research ideas. You ask people who are affected by the research you are thinking about doing what they think would work. It forces you to distill your ideas and explain them at a lay person's level and I think that it is good. It also requires great listening skills and an open mind. The people who you want to do research on have quite a different feeling.
 
 </div>
 
@@ -242,19 +246,21 @@ Community or participatory research is another way to develop research ideas. Yo
 
 <div class="notes">
 
-A good research problem. How broad versus narrow? Narrow enough to be feasible, but broad enough to be of interest to a large audience. I have helped a lot of students over the years with their thesis or dissertation work, and when I ask them afterwards what they would have changed, the most frequent comment was "I wish I had collected less data." 
+A good research problem. How broad versus narrow? Narrow enough to be feasible, but broad enough to be of interest to a large audience. I need to warn you here. I have helped a lot of students over the years with their thesis or dissertation work, and when I ask them afterwards what they would have changed, the most frequent comment was "I wish I had collected less data." They really didn't take advantage of all the data they collected.
 
-You should think of your thesis or disseration not as a single shot, but the first shot in a series of volleys. If your research yields more questions to be answered, that's actually a good thing. You're not going to answer every question or solve every problem with just one study.
+You should think of your thesis or disseration not as a single shot, but the first shot in a series of volleys. If your research yields more questions to be answered, that's actually a good thing. Let's be honest. You're not going to answer every question or solve every problem with just one study.
 
-Should you work in an area where there is wide-spread interest. That's good in some ways, but you need to make sure that you are very current with what is being done (or that you are being advised by someone who knows what is currently being done). Otherwise, you run the risk of having new research published that make your proposed study obsolete. Attending research conferences is great if you want to know what the current work is in an area with broad interest.
+Should you work in an area where there is wide-spread interest. That's good in some ways, but you need to make sure that you are very current with what is being done (or that you are being advised by someone who knows what is currently being done). Otherwise, you run the risk of having new research published while you're halfway through your study that make your study obsolete. Attending research conferences is great if you want to know what the current work is in an area with broad interest.
 
-There's less risk if you're working in an area that is not "hot." I also think it is advisable to do things that other people are not doing, rather than doing something that someone else could easily do as well as you could. Work in a neglected area has a lot of value, but always beware. Is a neglected field being neglected because it is an area that is unlikely to bear any fruit?
+There's less risk if you're working in an area that is not "hot." I also think it is advisable to do things that other people are not doing. This is what I do in my career, rather than doing something that someone else could easily do as well as you could. Work in a neglected area has a lot of value, but always beware. Is a neglected field being neglected because it is an area that is unlikely to bear any fruit?
+
+Working in a neglected area a good thing? I can't answer that question.
 
 It all comes down to the question: do you want to be a big fish in a small pond or a small fish in a big pond?
 
 Closely related is whether you want to be a pioneer and the first to embark in a new area, or do you want to add to a problem that has already been researched.
 
-Both are important. If you want to be a pioneer, think about small scale "proof of concept" studies. These study a narrowly defined population and may not be set in a very realistic field setting. If you want to work in a well-researched area, consider a pragmatic study, one that studies and broad base of patients with few artificial restrictions. It uses a setting that very closely approximates how health care is actually delivered in the real world.  Also make sure, if there is still a gap that needs to be filled. Stay away from a research area that is so well researched that there are no important problems left to solve.
+Both are important. Whenever I present a dichotomoy it is not because I want you to "go to the left" or "go to the right." If you want to be a pioneer, think about small scale "proof of concept" studies. These study a narrowly defined population and may not be set in a very realistic field setting. If you want to work in a well-researched area, consider a pragmatic study, one that studies and broad base of patients with few artificial restrictions. It uses a setting that very closely approximates how health care is actually delivered in the real world.  Also make sure, if there is still a gap that needs to be filled. Stay away from a research area that is so well researched that there are no important problems left to solve.
 
 </div>
 
@@ -283,10 +289,11 @@ Both are important. If you want to be a pioneer, think about small scale "proof 
 
 <div class="notes">
 
-Whatever type of research problem you tackle, the most important thing is that it has to be interesting to you.
+There's more to say about this. Whatever type of research problem you tackle, the most important thing is that it has to be interesting to you. You're going to be spending a fair amount of your life on this.
+
 Don't let your enthusiasm blind you, however. Get feedack from others.
 
-Timing is especially important in this program. Prospective studies and especially prospective longitudinal studies take more time than you may have available. 
+Timing is especially important in this program. Prospective studies and especially prospective longitudinal studies take more time than you may have available.  We've had some students who have done a prospective study but most of them to retrospective students. 
 
 Randomized studies, because they have to put much more machinery in place than observational studies, are more expensive than obervational studies. 
 
@@ -296,7 +303,7 @@ Also make sure you have access to the patients that you need for your research. 
 
 Are you in a position of sufficient authority to get the research done, or do you have someone on your team who has that authority? You can't just walk into a clinic and start ordering people around.
 
-What resources you have at your disposal will identify that scope of the problem that you are able to tackle. Don't bite off more than you can chew, as the saying goes. Don't try to solve every problem all at once.
+What resources you have at your disposal will identify that scope of the problem that you are able to tackle. Don't bite off more than you can chew, as the saying goes. Don't try to solve every problem all at once. Bite size pieces is what it important here.
 
 Contribution to the profession addresses the "so what" question. Is it going to be publishable. You shouldn't be obsessed about publication, but it is a marker of whether the problem is considered important to others besides yourself.
 
