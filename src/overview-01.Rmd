@@ -25,6 +25,8 @@ This is a list of assignments, readings, and discussion questions for the week s
 
 `r read_text("copyright")`
 
+`r read_text("handouts" %0% wk)`
+
 `r read_text("quiz" %0% wk)`
 
 ## Discussion boards

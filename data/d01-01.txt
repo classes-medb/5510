@@ -1,4 +1,4 @@
-#### D01-01. Introduce yourself
+### D01-01. Introduce yourself
 
 Graded: 3 points, 1 point deduction if late.
 
