@@ -1,0 +1,12 @@
+## Readings for this week.
+
+#### Required reading
+
++ Chapter 1
++ Conroy. Where do research ideas come from? Available in [html format](http://www.pmean.com/99/ideas.html).
+
+#### Additional resources (recommended, but not required)
+
++ Locklear. Patient Reported Outcomes. Available in [html format](http://rethinkingclinicaltrials.org/resources/patient-reported-outcomes-3/).
++ Deshpande. Patient-reported outcomes: A new era in clinical research. Available in [html format](http://www.picronline.org/article.asp?issn=2229-3485;year=2011;volume=2;issue=4;spage=137;epage=144;aulast=Deshpande) and [pdf format](http://www.picronline.org/article.asp?issn=2229-3485;year=2011;volume=2;issue=4;spage=137;epage=144;aulast=Deshpande;type=2).
+

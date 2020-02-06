@@ -21,18 +21,6 @@ Here are the objectives for this week.
 
 </div>
 
-***
-
-`r read_text("readings01")`
-
-<div class="notes">
-
-This is what you should have read already. If you haven't done the reading yet, pause this video and read this material. You'll get more out of the video if you do so.
-
-</div>
-
-***
-
 ### What is research?
 
 * " systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to generalizable knowledge"
@@ -242,7 +230,7 @@ In contrast to a patient report, the physician or other care giver could provide
 
 ***
 
-### Quantitative research versus qualitative research
+### Quantitative research versus qualitative research (1/2)
 
 Quantitative research.
 
@@ -252,6 +240,22 @@ Quantitative research.
   
   + Separates the researcher from the research.
   
+<div class="notes">
+
+The next dichotomy is between qualitative research and quantitative research, but represents more of a philosohpical approach to research rather than any particular method of research. 
+
+There are synonyms for these approaches: positivism for quantitative research and constructivism for qualitative research.
+
+If anyone has good references for these approaches, please post them in the discussion board.
+
+The quantitative/positivist approach to research tries to separate the researcher from the research process. You specify all (or as many as possible) details of the research prior to data collection so that the researcher does not influence the objective collection of data.
+
+</div>
+
+***
+
+### Quantitative research versus qualitative research
+
 * Qualitative research.
 
   + Synoynms(?): Constructivist, humanist.
@@ -263,14 +267,6 @@ Quantitative research.
 * Postpositivism tries to reconcile quantitative and qualitative approaches.  
 
 <div class="notes">
-
-The next dichotomy is between qualitative research and quantitative research, but represents more of a philosohpical approach to research rather than any particular method of research. 
-
-There are synonyms for these approaches: positivism for quantitative research and constructivism for qualitative research.
-
-If anyone has good references for these approaches, please post them in the discussion board.
-
-The quantitative/positivist approach to research tries to separate the researcher from the research process. You specify all (or as many as possible) details of the research prior to data collection so that the researcher does not influence the objective collection of data.
 
 The qualitative/constructivist approach to research rejects the idea of objective collection of data. Biases in the data collection process are inevitable because they are dependent on the paradigm or common way of thinking that researchers share. Rather than separate the researcher from the data collection once the protocol is writen, a qualitative approach inserts the researcher directly into the data collection and explicitly specifies the paradigm that should be used during the research process. The researcher influences the data collection and is simultaneously influenced by the data collection.
 
@@ -298,22 +294,29 @@ I tried to find some good resources on the web that discuss the quantitative and
   
   + Perceptions, feelings, attitudes.
   
-* "When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarely, in your thoughts advanced to the stage of science."
-
-  + Lord Kelvin, as quoted at [Goodreads](https://www.goodreads.com/quotes/166961-when-you-can-measure-what-you-are-speaking-about-and)
-
 <div class="notes">
 
 Your book uses the adjectives quantitative/qualitative again to describe not the research approach, but the data itself. 
 
 If this weren't confusing enough, qualitative data is sometimes defined as categorical data. I will try to avoid that language, because it makes qualitative data a subset of quantitative data. I prefer the terms categorical and continuous.
 
-Although I don't agree with it, I have to include this quote from Lord Kelvin that argues for the superiority of quantitative data.
-
 Quantitative data is data that is easily reduced to a number or category, while qualitative data is not so easily reduced. This is kind of a squishy definition because you can create categories (themes) from qualitative data, but it takes a lot of effort.
 
 Why would you ever use qualitative data if it takes more effort? Qualitative data offers a richness that cannot often get captured by quantitative data.
 
+</div>
+
+***
+
+### Quote in support of quantitative data
+
+* "When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarely, in your thoughts advanced to the stage of science."
+
+  + Lord Kelvin, as quoted at [Goodreads](https://www.goodreads.com/quotes/166961-when-you-can-measure-what-you-are-speaking-about-and)
+
+<div class="notes">
+
+Here's a quote that I like, though it is really too extreme. In general, I find great value in both quantitative and qualitative data. 
 
 </div>
 
@@ -448,17 +451,4 @@ Don't take this chart as a mandate, and certain research approaches are not conf
 
 </div>
 
-***
-
-`r read_text("hw01")`
-
-<div class="notes">
-
-This is your homework assignment for this week.
-
-</div>
-
-***
-
-`r read_text("discussion01")`
 

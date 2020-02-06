@@ -1,7 +1,13 @@
-semester_start <- "2019-01-21"
+semester_start <- "2020-01-20"
 
 suppressMessages(suppressWarnings(library(lubridate)))
 suppressMessages(suppressWarnings(library(magrittr)))
+suppressMessages(suppressWarnings(library(stringr)))
+suppressMessages(suppressWarnings(library(tidyverse)))
+
+
+source(file="standard_functions.R", echo=FALSE)
+
 dat1 <- as.Date(semester_start, format="%Y-%m-%d")
 d <- dat1+(0:15)*7
 f <- "%A, %B %d, %Y"

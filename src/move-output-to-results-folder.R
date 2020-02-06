@@ -16,7 +16,7 @@ display_info <- function(x_list, x_name) {
 pdf_list <- list.files(src_path, pattern="*.pdf")
 for (i in pdf_list) {
   fn <- paste(src_path, i, sep="/")
-  file.copy(fn, doc_path, overwrite=TRUE)
+  file.copy(fn, res_path, overwrite=TRUE)
   file.remove(fn)
 }
 
@@ -29,7 +29,7 @@ for (i in html_list) {
 pptx_list <- list.files(src_path, pattern="*.pptx")
 for (i in pptx_list) {
   fn <- paste(src_path, i, sep="/")
-  file.copy(fn, doc_path, overwrite=TRUE)
+  file.copy(fn, res_path, overwrite=TRUE)
   file.remove(fn)
 }
 
