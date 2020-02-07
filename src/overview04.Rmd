@@ -1,5 +1,5 @@
 ---
-title: "Clinical Research Methods, Overview for Module 2"
+title: "Clinical Research Methods, Overview for Module 4"
 author: "Steve Simon"
 output:
   html_document: default
@@ -7,7 +7,7 @@ output:
 
 ```{r echo=FALSE}
 source(file="prelims.R", echo=FALSE)
-wk <- "02"
+wk <- "04"
 no <- as.numeric(wk)
 ```
 
@@ -29,12 +29,8 @@ This is a list of assignments, readings, and discussion questions for module`r w
 
 `r read_text("quiz" %0% wk)`
 
-## Discussion boards
+### Discussion boards
 
 `r read_text("d" %0% wk %0% "-01")`
-
-`r read_text("d" %0% wk %0% "-02")`
-
-`r read_text("d" %0% wk %0% "-03")`
 
 `r read_text("d" %0% wk %0% "-ec")`

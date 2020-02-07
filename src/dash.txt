@@ -1,0 +1,2 @@
+The character on the next line looks like a minus sign (dash) but it is not.
+ – 

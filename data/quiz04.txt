@@ -1,0 +1,15 @@
+### Quiz for this module.
+
+Graded: 5 points, one point deduction if submitted after the due date.
+
+There are five questions about the videos in this module. Please prepare a PDF file with the original questions and your answers and submit it via Canvas.
+
+1. For what reason would you want to use sealed envelopes in a randomized study?
+
+2. What is the problem with alternating treatment assignments (ABABAB) compared to randomization?
+ 
+3. True or False. Randomization protects you against covariate imbalance in both measured and unmeasured covariates.
+ 
+4. Name one setting where you cannot or would not want to use randomization.
+
+5. Intention to treat analysis is quite controversial. List one reason why some researchers prefer to use this approach.

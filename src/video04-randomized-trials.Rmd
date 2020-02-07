@@ -21,19 +21,10 @@ Here are the objectives for this week.
 </div>
 
 ***
-`r read_text("readings04", char_max=500)`
-
-<div class="notes">
-
-I'm departing a bit from your book's format for the next few weeks. There are important issues with respect to blinding, intention to treat, etc. that I want to make sure you cover. Read Chapter 5 anyway, and skim through a few of the suggested readings listed here for more backgound in an area you might want to know a bit more about.
-
-</div>
-
-***
 ### Cameron and Pauling study of Vitamin C.
 
 * Linus Pauling
-  + Two-time Nobel prize winner (Chemisty, Peace)
+  + Two-time Nobel prize winner (Chemistry, Peace)
   + Fervent advocate of mega-doses of Vitamin C
 * Non-randomized study of cancer
   + All patients got Vitamin C
@@ -240,7 +231,7 @@ What you should have done was to assign each fish randomly to a tank. That way e
 * Difficult or impossible to measure covariates
   + Severity of illness
   + Co-medications
-  + co-morbidities
+  + Co-morbidities
   + Patient's psychological state
 * Avoids selection bias
 
@@ -323,6 +314,7 @@ It is dangerous to speculate on the motives of the author, but this article was 
 ### Some alternatives
 
 * Wait list control groups
+* Add on trials
 * Intensive versus standard advice
 * Randomly assign from a different end
 * Early stopping
@@ -571,23 +563,3 @@ A baseline measurement also provides a nice quality check for drop outs. You sho
 
 </div>
 
-
-***
-`r read_text("hw04", fri[7])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion04", fri[4])`
-
-<div class="notes">
-
-
-
-</div>
-
-***

@@ -1,0 +1,21 @@
+### Answers for quiz04.
+
+1. For what reason would you want to use sealed envelopes in a randomized study?
+
+To prevent the recruiting physicians from subverting the randomization process by steering some of their patients to a preferred treatment arm in a study.
+
+2. What is the problem with alternating treatment assignments (ABABAB) compared to randomization?
+
+In many settings, a sequence of patients will exhibit an alternating pattern of large values followed by small values and vice versa. If this happens, alternating treatment assignments will show a difference that is purely an artefact of the selection process.
+ 
+3. True or False. Randomization protects you against covariate imbalance in both measured and unmeasured covariates.
+
+True
+ 
+4. Name one setting where you cannot or would not want to use randomization.
+
+There are many possible answers here. It is impractical to use randomization for a disease that has a long latency period, such as many types of cancer.
+
+5. Intention to treat analysis is quite controversial. List one reason why some researchers prefer to use this approach.
+
+There are several answers here that would be acceptable. You might want to use intention to treat analysis because it preserves the advantages of randomization and it provides a more realistic estimate of a treatment effect that is difficult to tolerate and might cause a substantial drop out rate.

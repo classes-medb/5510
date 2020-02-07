@@ -16,13 +16,15 @@ tue <- format(d+1, f)
 wed <- format(d+2, f)
 thu <- format(d+3, f)
 fri <- format(d+4, f)
-read_text <- function(fn, due="", path="data", char_max=999999) {
+read_text <- function(fn, due="", path="data", char_max=999999, start_line=1) {
   "../" %>%
     paste0(path) %>%
     paste0("/") %>%
     paste0(fn) %>% 
     paste0(".txt") %>%
     readLines  -> text_lines
+  n_lines <- length(text_lines)
+  text_lines <- text_lines[start_line:n_lines]
   text_lines %>%
     nchar %>%
     cumsum %>%
@@ -30,7 +32,7 @@ read_text <- function(fn, due="", path="data", char_max=999999) {
   n <- sum(line_count==char_max)
   if (n==0) {n <- 1}
   if (n < length(text_lines)) {
-    text_lines <- text_lines[1:n]
+    text_lines <- text_lines[start_line:n]
     text_lines[n+1] <- "..."
   }  
   text_lines %>% 
