@@ -24,15 +24,6 @@ This is what we will cover this week.
 </div>
 
 ***
-`r read_text("readings03", char_max=char_limit)`
-
-<div class="notes">
-
-Here are the readings for this week. If you have not read these yet, please do so before viewing this video.
-
-</div>
-
-***
 ### What is a literature review 
 
 Definition (from your book): "An interpretation of a selection of documents (published or unpublished) on a specific topic that involves summarization, analysis, evaluation, and synthesis of the documents."
@@ -56,17 +47,14 @@ What all of this means is that you have to live and breath these studies. You ca
 ***
 ### Why do a literature review?
 
-0. Because you have to.
-
 (From your book)
 
-1. "Identify gaps in the literature"
++ "Identify gaps in the literature"
++ "Help to select appropriate methods for your new topic"
++ "Describe the inferences that have come from past research"
++ Other reasons???
+  + Because you have to.
 
-2. "Help to select appropriate methods for your new topic"
-
-3. "Describe the inferences that have come from past research"
-
-4. Other reasons???
 
 <div class="notes">
 
@@ -513,10 +501,7 @@ It's really hard to give examples here because there are so many different thema
 ### Some last thoughts
 
 * Revisit your literature review after writing the discussion section of your paper.
-
 * Standard format for a thesis. 
-
-When you've written up 
 
 <div class="notes">
 
@@ -526,28 +511,4 @@ There is a standard format for the literature review for a thesis. This is more 
 
 </div>
 
-"It's great news, if you're a rat."
-
-
-We will doing a session with Sue Sykesbury. You need to start your research review and will soon have to provide a brief summary of your research.
-
-</div>
-
 ***
-`r read_text("hw03", fri[3], char_max=char_limit)`
-
-<div class="notes">
-
-There's no official homework this week, but please start thinking about your research problem. Most of the future assignments (including developing a literature review) are dependent on you picking out a research problem that you are interested in.
-
-</div>
-
-***
-`r read_text("discussion03", fri[3], char_max=char_limit)`
-
-<div class="notes">
-
-There are several discussion questions. You've done great so far, and this is an important componenet of the research.
-
-</div>
-

@@ -1,0 +1,25 @@
+### Answers for the quiz in module 3.
+
+1. Give two specific ways that a literature review can help you.
+
+There are several possible acceptable answers. Here is one possible response.
+
+A literature review can help you identify important gaps in a research area. It can help you select appropriate methods that have been used successfully by others.
+
+2. The distinction between a literature review and an annotated bibliography is that
+
+An annotated blbliogrpahy summarizes each paper without evaluating it
+ 
+3. True or False. With the exception of a systematic overview, a primary source is written by the people who conducted the research.
+
+True
+
+4. Which bibliographic software stores its information in a plain text file?
+
+BibTeX
+
+5. Name one negative features that you should consider when evaluating a study?
+
+There are several possible areas: a high dropout rate, a poor compliance rate, post hoc changes. You could also cite a negation of some of the positive features: no randomization, no blinding, etc. 
+
+
