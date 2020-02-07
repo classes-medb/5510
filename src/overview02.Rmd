@@ -11,13 +11,13 @@ wk <- "02"
 no <- as.numeric(wk)
 ```
 
-Created: Friday, February 7, 2020
+Created: Friday, February 07, 2020
 
 Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
 
 This is a list of assignments, readings, and discussion questions for the week starting on `r mon[no]`. Please complete all work by the stated deadlines to receive full credit.
 
-**If you notice a discrepancy between this overview and what appears on the Canvas website, please contact me. But please note that the Canvas website always takes precence over this overview.**
+**If you notice a discrepancy between this overview and what appears on the Canvas website, please contact me. But do note that the Canvas website always takes precence over this overview.**
 
 `r read_text("objectives" %0% wk)`
 
@@ -34,5 +34,7 @@ This is a list of assignments, readings, and discussion questions for the week s
 `r read_text("d" %0% wk %0% "-01")`
 
 `r read_text("d" %0% wk %0% "-02")`
+
+`r read_text("d" %0% wk %0% "-03")`
 
 `r read_text("d" %0% wk %0% "-ec")`
