@@ -3,7 +3,6 @@ title: "Video 6 - Non-experimental studies"
 author: "Steve Simon"
 output: 
   powerpoint_presentation:
-    reference_doc: ../doc/template.pptx
     slide_level: 3
 ---
 
@@ -1317,24 +1316,5 @@ You also have the advantage of understanding the standards of research, ESPECIAL
 <div class="notes">
 
 What you are looking for in the community is insights into the local context. The community knows best what their specific needs are and can help you prioritize. They know where to find volunteers, and can tell you what they will do and what they will refuse to do. They know how to adapt your proposed intervention to the special features of their community. In general, they offer very pragmatic advice about how to make a good fit between your research and their community.
-
-</div>
-
-
-***
-`r read_text("hw06", fri[6])`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion06", fri[6])`
-
-<div class="notes">
-
-
 
 </div>
