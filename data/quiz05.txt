@@ -1,0 +1,15 @@
+### Quiz for this module.
+
+Graded: 5 points, one point deduction if submitted after the due date.
+
+There are five questions about the videos in this module. Please prepare a PDF file with the original questions and your answers and submit it via Canvas.
+
+1. Name one of the three statisticians who pioneered the use of quality improvement.
+
+2. What is the name for a chart that shows all the root causes of a quality problem.
+
+3. What does the acronym SMART stand for?
+
+4. What type of pattern in an interrupted time series design would provide strong support that your intervention was effective.
+
+5. What is the name of the research design where you implement an intervention in discrete pieces over time?

@@ -621,12 +621,12 @@ Note that trying to run a randomized study here is ludicrous for more reasons th
 
 </div>
 
-### Phased design (4 of 4)
+### Withdrawal design (2 of 2)
 
 ```{r time-series-8, echo=FALSE, comment=""}
 x <- 1:3
 y1 <- c(1.1, 2.3, 1.3)
-y2 <- c(1.2, 2.1, 3.2)
+y2 <- c(1.2, 2.6, 3.2)
 par(mar=c(2.6, 0.6, 1.6, 0.1), mfrow=c(2, 1))
 plot(x, y1, axes=FALSE, type="b", ylim=c(0.7, 3.5))
 text(1.5, 0.9, "X")
@@ -635,7 +635,7 @@ text(2.5, 0.9, "-X")
 segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
 axis(side=1, at=x, labels=paste0("O", x))
 title("Good")
-plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 2.5))
+plot(x, y2, axes=FALSE, type="b", ylim=c(0.7, 3.5))
 text(1.5, 0.9, "X")
 segments(1.5, 1.1, 1.5, 3.5, lty="dotted", col="gray")
 text(2.5, 0.9, "-X")
@@ -643,22 +643,3 @@ segments(2.5, 1.1, 2.5, 3.5, lty="dotted", col="gray")
 axis(side=1, at=x, labels=paste0("O", x))
 title("Bad")
 ```
-
-***
-`r read_text("hw05", fri[5], char_max=500)`
-
-<div class="notes">
-
-
-
-</div>
-
-***
-`r read_text("discussion05", char_max=500)`
-
-<div class="notes">
-
-
-
-</div>
-

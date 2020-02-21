@@ -162,7 +162,7 @@ An example of the ecologic fallacy: Sales of cigarettes are greater in states th
 * Start with an existing database
 * Get familiar with the data
   + What variables are there?
-  + WHat variables are not there?
+  + What variables are not there?
   + How are the variables coded?
   + Identify potential pairs for associational studies
 * Make sure you are answering an interesting question
