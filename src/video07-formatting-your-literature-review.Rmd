@@ -210,3 +210,153 @@ There are minor details involving words following marks of punctuation (colons a
 Also there are contradictions from one source to another, but these are fairly minor.
 
 </div>
+
+### Section heads and subheads
+
+![](../images/07/heads-and-subheads-1.png)
+
+<div class="notes">
+
+Here's an example of someone who did fine with the main heading, but not for the first level beneath the main head.
+
+</div>
+
+### Section heads and subheads
+
+![](../images/07/heads-and-subheads-4.png)
+
+<div class="notes">
+
+This person got the subhead correct, but not the main head. "Literature Review" should be all caps and centered. If you want to get realy fussy, it should be preceded by a line with "CHAPTER 2" also centered and all caps.
+
+</div>
+
+
+### Section heads and subheads
+
+![](../images/07/heads-and-subheads-2.png)
+
+<div class="notes">
+
+This is an example of how it should be done.
+
+</div>
+
+### References
+
++ Use any style, but be consistent!
++ Common inconsistencies
+  + Journal abbreviations
+  + Use of "et al"
+  + Placement of year
+  + Unneeded elements
+  
+<div class="notes">
+
+In your references, use any style you like, but follow that style consistently. Inconsistencies are very easy to notice.
+
+</div>
+
+### References
+
+![](../images/07/references-page-1.png)
+
+<div class="notes">
+
+Notice that the first reference has a journal with three abbreviations: Med for Medical, J for Journal, and Aust for Australia and leaves out the "of". The second journal spells 
+Diabetic, Metaboloc, and Syndrome and includes the word "and".
+
+I don't know what citation style this person was using, but clearly one of these two has to be incorrect.
+
+</div>
+
+### References
+
+![](../images/07/references-page-2.png)
+
+<div class="notes">
+
+This person cut-and-pasted from PubMed, but then accidentally left in some information that doesn't belong.
+
+</div>
+
+### References
+
+![](../images/07/references-page-3.png)
+
+<div class="notes">
+
+This person had several references to the Morbidity and Mortality Weekly Report ahd in one location is is fully abbreviated (MMWR) and in another it is partially spelled out. Also notice that it is italicized in one spot but not the other.
+
+</div>
+
+### References
+
+![](../images/07/references-page-4.png)
+
+<div class="notes">
+
+There is no date here. The date in non-standard references (webpages, pamphlets, booklets) are often hard to find. Look in your guideline to see if you need an option like "no date" expicitly places on your reference.
+
+</div>
+
+### References
+
+![](../images/07/references-page-5.png)
+
+<div class="notes">
+
+Without seeing the actual style guide, I can only guess, but most guides do not use single letter abbreviations like JAMA and NEJM.
+
+</div>
+
+### References
+
+![](../images/07/references-page-6.png)
+
+<div class="notes">
+
+Normally URLs are not included in a bibliography. Certainly not URLs that use a proxy server available only as a single site.
+
+</div>
+
+### References
+
+![](../images/07/references-page-7.png)
+
+<div class="notes">
+
+There are several issues with this bibliography. Notice that a website is in the list. Websites are very tricky in a bibliography as important details like the author and date are often difficult to track down. Pretty much every style is different as well. The one thing, though, that many bibliographies ask for is an access date. This is an acknowledgement that websites are often dynamic and can change frequently.
+
+Notice that most of the authors are last name followed by initials. But some styles put periods in and others don't. Either is fine, but don't mix them. 
+
+Finally, when you do get a journal article rather than a web page, you have to find the page numbers, the volume, and the issue. For a journal that is only published online, this can be tricky. What is the page number, for example, when an article appears only online. Even so, with a bit of effort, you can find these. 
+
+</div>
+
+### References
+
+![](../images/07/references-page-8.png)
+
+<div class="notes">
+
+This bibliography has two inconsistencies. One journal is spelled out and another is abbreviated. One author list has four authors followed by et al and another has three authors followed by et al.
+
+</div>
+
+### Do I really need to be this detail oriented?
++ Yes
+
+<div class="notes">
+
+In the examples I've shown, it must seem like I am the world's worst nit picker. That may be true, but you still have to master most of these details. Some are very important and some not at all, but you won't know which are which.
+
+Close attention to details will impress everyone who reviews your work. It will help you get your scholarship taken more seriously. It is well worth the effort.
+
+But why, do you ask, can't I just be marching to a different drummer. In some settings that is fine. On my website, I can choose whatever style I want. I am the judge and the jury.
+
+That's also true in my classroom, though I really should be more respectful of standards here, as I am setting a bad example at times. My only defense is that my lectures are an evolving standard.
+
+But you are not the judge and jury in a thesis. This also carries over to pretty much any research publication that you send you thesis work to.
+
+</div>
