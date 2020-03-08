@@ -1,0 +1,176 @@
+---
+title: "Video 7 - Grading details on your literature review"
+author: "Steve Simon"
+output: 
+  powerpoint_presentation:
+    slide_level: 3
+---
+
+### Your literature review
+
++ Submit as a PDF file
++ Use UMKC guidelines
++ Due date on Canvas
+  + Reasonable extensions okay with advance notice
++ Total 75 points.
+
+<div class="notes">
+
+Submit your literature review. Use the format style suggested for the School of Graduate Studies, even if you do not plan to submit to use this work for a thesis. Several guides are available, including YouTube vidoes on this page in html format (Links to an external site.). If this link doesn't work, download the pdf file from my Canvas site (look in module 7).
+
+</div>
+
+### Your literature review
++ Cover page
++ Copyright notice
++ Approval page
++ Abstract page
+  + "To be added later" or
+  + Include partial abstract if you like
+
+<div class="notes">
+
+It may seem like overkill, but please use the suggested format for the
+
+cover page,
+copyright notice, and
+approval page.
+Where the abstract would normally go, just place the word “ABSTRACT” in the proper font size, followed by the text line “To be added later"
+
+You can include a partial abstract if you like. I won't grade on it, but I will offer comments and suggestions.
+
+</div>
+
+### Your literature review
++ List of illustrations
+  + "To be added later"
++ List of tables
+  + "To be added later"
++ Acknowledgement and Dedication pages
+  + Totally optional
+  
+<div class="notes">
+
+Do the same for the list of illustrations, and the list of tables. You can include an acknowledgements page and/or a dedication page if you like, but these are optional.
+
+</div>
+
+### Your literature review
++ Table of contents
+  + Most page numbers left out
+  + Most later sections left out
+  + Note the change in page numbers
++ Introduction  
+  + "To be added later" or
+  + Include an introduction if you like
+
+
+<div class="notes">
+
+Again, it seems like overkill, but include a table of contents. No page numbers are needed here, but please note the use of roman numerals for the preliminary pages in this format.
+
+Please follow the recommendations for margins and location of page numbers. You will be graded on the accuracy of details like these.
+
+The first chapter of your thesis will be your introduction. You can defer work on the introduction if you like by using the text "To be added later." Alternately, you can put in an introduction. I will not grade anything in the introduction but will offer comments and suggestions.
+
+</div>
+
+### Your literature review
++ Chapter 2. Literature review
+  + Formatting and margins are important
++ Chapter 3. Methodology
+  + "To be added later"
++ Chapter 4. Results
+  + "To be added later"
++ Chapter 5. Discussion
+  + "To be added later"
+  
+  
+<div class="notes">
+
+The next section is where you insert your literature review. If you have not already stated your research problem/hypothesis in the introduction, please include it in the first or the last paragraph of your literature review.
+
+You will not have anything for the methodology chapter, the results chapter, or the discussion chapter. Put in a page for each with the phrase "To be added later".
+
+</div>
+
+### Your literature review
++ References
+  + Must conform with a standard
+  + Your choice for standard
++ Vita
+  + Optional
+
+<div class="notes">
+
+End with your reference list. For now, only include references that are part of your literature review. Your references MUST conform either with a commonly used standard, but I do not require you to use any particular standard. You should consider a standard that you expect to use with a future journal you might publish in. Please include a link to whichever bibliographic standard you choose at the bottom of your reference list.
+
+You can include your vita (note that the example is just a brief narrative). I think it would fun for you to brag about all the great things you’ve already done, but it is optional.
+
+</div>
+
+### Grading
++ You will not be graded on any optional sections that you decide to include.
++ No page or length requirements
++ At least five references in your bibliography
+
+<div class="notes">
+
+There are no page requirements and no requirements for a particular number of references. You do need to present a reasonable comprehensive literature review, but the length may vary depending on your topic.
+
+</div>
+
+### Grading rubric
++ Formatting of main paper
+  + Unsatisfactory. No serious attempt made to use the layout required.
+  + Marginal. Major deviations from the layout.
+  + Satisfactory. Follows the required format with only minor departures from the layout.
+  + Outstanding. No deviations from the required format.
+
+### Grading rubric
++ Formatting of the bibliography
+  + Unsatisfactory. Bibliography is incomplete. References are formatted inconsistently.
+  + Marginal. Bibliography is formatted consistently, but fails to conform to major aspects of the standard you have chosen.
+  + Satisfactory. The bibliography follows the general structure of the standard you have chosen but there are more than a few minor deviations.
+  + Outstanding. No more than two minor deviations from the bibliographic standard.
+
+### Grading rubric
++ Organization
+  + Unsatisfactory. References are described in a totally random or haphazard fashion.
+  + Marginal. Organization is difficult to follow and is applied inconsistently.
+  + Satisfactory. Similar references are grouped in the same paragraph and each paragraph states a clear theme.
+  + Outstanding. References organized clearly with logical transitions within a paragraph. Individual paragraphs defined clearly with a topic sentence and follow from one paragraph to another using coherent organizational style.
+
+### Grading rubric
++ Grammar/spelling
+  + Unsatisfactory. Spelling errors and grammar mistakes make the literature review impossible to follow.
+  + Marginal. Serious spelling or grammar errors which interfere with readability.
+  + Satisfactory. More than a few errors, but most are minor and none interfere substantially with readability.
+  + Outstanding. Only two or three errors at most and all errors are minor.
+
+### Grading rubric
++ Clarity
+  + Unsatisfactory. Writing is impossible to follow.
+  + Marginal. Heavy use of jargon, acronyms, and undefined terms.
+  + Satisfactory. Writing is difficult at times, but the general idea comes across.
+  + Outstanding. Clear and simple explanations of concept topics. Language avoids excessive use of jargon.
+
+<div class="notes">
+
+(Note: I understand that research requires the description of concepts that are difficult for the average person to understand. Try to write in a style that allows a an expert from a different discipline to follow what you are talking about).
+
+</div>
+
+### Looking ahead: End of semester
++ Revision and expansion
+  + Use feedback to improve literature review, bibliography
+  + Write introduction and methodology sections
+  + No discussion or results sections
++ Worth 150 points
+  + Similar grading rubric
+  
+<div class="notes">
+
+The second half of the class will equip you to prepare a methodology section. So your final project will be a revision of the literature review to include a methodology section and a revision of the literature review and bibliography based on the feedback you get.
+
+</div>
