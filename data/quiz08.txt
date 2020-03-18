@@ -1,0 +1,15 @@
+### Quiz for this module.
+
+Graded: 5 points, one point deduction if submitted after the due date.
+
+There are five questions about the videos in this module. Please prepare a PDF file with the original questions and your answers and submit it via Canvas.
+
+1. What is the definition of a simple random sample?
+
+2. If you flipped a coin and chose every even numbered value in your sampling frame for heads and every odd numbered value for tails, what type of sample would you have?
+
+3. Why can't you use a cross-over trial to compare one type of training method to another?
+
+4. What might cause problems with a matching approach to sampling?
+
+5. In what type of sampling approach do you use recommendations from existing patients to find new patients?

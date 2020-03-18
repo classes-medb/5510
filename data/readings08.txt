@@ -1,10 +1,8 @@
-### Reading
+### Required reading
 
-#### Required
+1. Chapter 10
 
-Chapter 10
-
-#### Optional
+### Optional reading
 
 Wainer H, Palmer S, Bradlow ET. A Selection of Selection Anomalies. Chance Magazine 1998: 11(2); 3-7.
 
@@ -22,3 +20,4 @@ Morrow KM, Vargas S, Rosen RK, et al. The utility of non-proportional quota samp
 
 Sadler GR, Lee HC, Lim RS, Fullerton J. Recruitment of hard-to-reach population subgroups via adaptations of the snowball sampling strategy. Nurs Health Sci. 2010;12(3):369-74. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222300/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222300/pdf/nihms-226073.pdf).
 
+Prasad V, Grady C. The misguided ethics of crossover trials. Contemp Clin Trials. 2013;37(2):167-9. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3981898/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3981898/pdf/nihms555591.pdf).

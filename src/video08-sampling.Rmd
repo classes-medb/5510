@@ -191,7 +191,7 @@ In a probability sample, every person in the population has a known non-zero pro
 
 In simple random sampling, each patient has an equal and independent probability of being selected.
 
-I do not recommend a systematic sample. It is easy. If you want a sample that is one-tenth the size of the population, select every tenth observation from the sampling frame. Randomly choose whether you start. With ten percent systematic sample, that possible starting points are the first, second, third, ... all the woay through the tenth observation in the sampling frame. If you started with the eleventh value or later, you would be selecting less than 10% of the sampling frame.
+I do not recommend a systematic sample. It is easy. If you want a sample that is one-tenth the size of the population, select every tenth observation from the sampling frame. Randomly choose whether you start. With ten percent systematic sample, that possible starting points are the first, second, third, ... all the way through the tenth observation in the sampling frame. If you started with the eleventh value or later, you would be selecting less than 10% of the sampling frame.
 
 For a stratified sample, you divide your sampling frame into layers or strata. You might do this by geographic regions, age groups, gender. Then select a simple random sample within each strata.
 
@@ -331,7 +331,7 @@ Snowball sampling has been used to identify drug addicts, for example, because t
 
 This table, from the Wheelock artice in recommended readings, shows an example of a purposive sample. If you have trouble reading this table, open up the link to the Wheelock paper in the recommended readings for this week.
 
-In each country, researchers had to select 20 patients and they had to make sure that some of these patients had and some did not have the eligible chronic condition. They also had to get a minimum number from particular demographic groups like gender, age, socioeconomic status, and vaccination status.
+In each country, researchers had to select 20 patients and they had to make sure that some of these patients h ad and some did not have the eligible chronic condition. They also had to get a minimum number from particular demographic groups like gender, age, socioeconomic status, and vaccination status.
 
 Now, if this sounds more like a quota sample than a purposive sample, I couldn't disagree with you. There is a subtle distinction between many of these non-probability samples.
 
