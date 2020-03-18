@@ -1,7 +1,0 @@
-### Discussion questions
-
-1. What are the basic elements of a research design that help determine the appropriate statistical technique?
-
-2. What is the distinction between "significance level" and "effect size" and why are both desirable?
-
-3. What analyses will you propose for your research project?
