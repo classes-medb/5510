@@ -1,5 +1,7 @@
 ### Required reading
 
-1. Chapters 16, 17
+Chapters 16, 17
 
-2. Cohen. "A power primer"
+### Recommended reading <a name="optional"></a>
+
+Cohen. "A power primer"

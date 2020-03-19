@@ -1,0 +1,24 @@
+---
+title: "List of all readings"
+author: "Steve Simon"
+output: html_document
+---
+
+Created: 2020-03-19
+
+Last modified: `r Sys.Date()`
+
+```{r read, echo=FALSE}
+discussion_files <- list.files(pattern="^readings")
+compiled_text <- NULL
+for (i_file in discussion_files) {
+  compiled_text <- 
+    append(
+      compiled_text, 
+      c("", paste("##", i_file), "", readLines(i_file)))
+}
+```
+
+`r length(compiled_text)`
+
+`r paste0(compiled_text, collapse="\n")`

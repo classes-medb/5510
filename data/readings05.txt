@@ -2,7 +2,7 @@
 
 1. Chapter 6 (also re-read Chapter 5)
 
-Optional reading
+### Recommended reading <a name="optional"></a>
 
 Mike Evans. Quality Improvement in Healthcare. YouTube, November 26, 2014. Available as a [video (11 minutes)](https://www.youtube.com/watch?v=jq52ZjMzqyI).
 

@@ -1,10 +1,8 @@
-### Readings for this week.
-
-#### Required reading
+### Required reading
 
 + Chapters 2, 3, 14
 
-#### Additional resources (recommended, but not required)
+### Recommended reading <a name="optional"></a>
 
 Pauline W. Chen. Bending the Rules of Clinical Trials. The New York Times, October 29, 2009. Available in [html format](https://www.nytimes.com/2009/10/29/health/29chen.html).
 

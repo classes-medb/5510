@@ -11,11 +11,11 @@ wk <- "01"
 no <- as.numeric(wk)
 ```
 
-Created: Monday, January 21, 2019
+Created: 2019-01-21
 
-Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+Updated: `r Sys.Date()`
 
-This is a list of assignments, readings, and discussion questions for module`r wk`. This module should be released sometime during the week starting on `r mon[no]`, but if it is delayed, I will adjust all the deadlines appropriately. Please complete all work by the stated deadlines to receive full credit.
+This is a list of assignments, readings, and discussion questions for module`r wk`. This module should be released on `r mon[no]`, but if it is delayed, I will adjust all the deadlines appropriately. Please complete all work by the stated deadlines to receive full credit.
 
 **If you notice a discrepancy between this overview and what appears on the Canvas website, please contact me. But please note that the Canvas website always takes precence over this overview.**
 

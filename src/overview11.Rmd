@@ -1,0 +1,38 @@
+---
+title: "Clinical Research Methods, Overview for Module11"
+author: "Steve Simon"
+output:
+  html_document: default
+---
+
+```{r echo=FALSE}
+source(file="prelims.R", echo=FALSE)
+wk <- "11"
+no <- as.numeric(wk)
+```
+
+Created: Thursday, March 19, 2020
+
+Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+
+This is a list of assignments, readings, and discussion questions for module`r wk`. This module should be released sometime during the week starting on `r mon[no]`, but if it is delayed, I will adjust all the deadlines appropriately. Please complete all work by the stated deadlines to receive full credit.
+
+**If you notice a discrepancy between this overview and what appears on the Canvas website, please contact me. But do note that the Canvas website always takes precence over this overview.**
+
+`r read_text("objectives" %0% wk)`
+
+`r read_text("readings" %0% wk)`
+
+`r read_text("copyright")`
+
+`r read_text("handouts" %0% wk)`
+
+`r read_text("quiz" %0% wk)`
+
+### Discussion boards
+
+`r read_text("d" %0% wk %0% "-01")`
+
+`r read_text("d" %0% wk %0% "-02")`
+
+`r read_text("d" %0% wk %0% "-ec")`

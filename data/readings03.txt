@@ -1,10 +1,8 @@
-### Readings for this week.
-
-#### Required reading
+### Required reading
 
 + Chapters 2
 
-#### Additional resources (recommended, but not required)
+### Recommended reading <a name="optional"></a>
 
 UMKC University Libraries. Literature Reviews: Graduate Writing Resources. Available in [html format](https://libguides.library.umkc.edu/gradwriting/lit-reviews).
 
