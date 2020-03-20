@@ -2,7 +2,7 @@
 
 Chapter 5.
 
-### Recommended reading <a name="optional"></a>
+### Recommended reading <a name="recommended"></a>
 
 Richard Feinman. Intention-to-treat. What is the question?. Nutrition & Metabolism. 2009;6(1):1. Available in [html format](https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/1743-7075-6-1) and [PDF format](https://nutritionandmetabolism.biomedcentral.com/track/pdf/10.1186/1743-7075-6-1).
 

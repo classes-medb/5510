@@ -2,7 +2,7 @@
 
 + Chapters 2
 
-### Recommended reading <a name="optional"></a>
+### Recommended reading <a name="recommended"></a>
 
 UMKC University Libraries. Literature Reviews: Graduate Writing Resources. Available in [html format](https://libguides.library.umkc.edu/gradwriting/lit-reviews).
 

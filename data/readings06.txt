@@ -2,7 +2,7 @@
 
 Chapters 7
 
-### Recommended reading <a name="optional"></a>
+### Recommended reading <a name="recommended"></a>
 
 Simon SD. Census Bureau (U.S.). to appear in The Encyclopedia of Big Data. Schintler LA, McNeely CL (eds.). Available on the Canvas website (please do not share beyond this class).
 
