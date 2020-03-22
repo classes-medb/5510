@@ -4,4 +4,12 @@ Graded: 5 points, one point deduction if submitted after the due date.
 
 There are five questions about the videos in this module. Please prepare a PDF file with the original questions and your answers and submit it via Canvas.
 
-1. 
+1. You can only calculate measures of internal consistency for what types of measures?
+
+2. What is the difference between predictive evidence and concurrent evidence?
+
+3. If you can show that your measure has previously been shown to have good reliability and validity, when do you still have to do additional efforts in this area?
+
+4. True or false. A large value for Cronbach's alpha implies that your measurement is unidimensional.
+
+5. True or false. You establish face validity and content validity largely through qualitative methods.
