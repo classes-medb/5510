@@ -17,11 +17,15 @@ source("prelims.R", echo=FALSE)
   + Patient Reported Outcomes versus Subjective researcher evaluations
   + Single measurements versus Composite scores
 + Theory behind reliability studies
+
+### Outline
 + Test-retest reliability (only for patient reported outcomes)
 + Inter-rater reliability (only for researcher evaluations)
 + Parallel forms (only for composite scores)
 + Internal consistency (only for composite scores)
 + When can you rely on previous literature?
+
+### Outline
 + Theory behind validity studies
 + Face and content validity (only for composite measures)
 + Internal structure (only for composite measures)
