@@ -338,6 +338,16 @@ This is an example of the visual analog scale. You are measruing pain, with the 
   + Very frequently, Frequently, Occasionally, Rarely
   + Never, Rarely, Sometimes, Often
   + Every day, Two or three times a week, Once a week, Less than once a week
+  
+<div class="notes">
+
+The Likert scale is a sequence of discrete values to represent an ordinal concept. Most Likert scales have anchors, single words or short phrases attached to every discrete value.
+
+The Likert scale could measure frequency. The choices could be Very frequently, Frequently, Occasionally, Rarely. Another choice would be Never, Rarely, Sometimes, Often. You could refer to a calendar with responses like Every day, Two or three times a week, Once a week, Less than once a week.
+
+</div>
+
+### Likert scale  
 * Satisfaction (Very satisfied, satisfied, dissatistfied, very dissatisfied)
 * Quality (Very good, Good, Fair, Poor)
 * Agreement scale (5 points)
@@ -346,10 +356,6 @@ This is an example of the visual analog scale. You are measruing pain, with the 
   + Strongly disagree, disagree, slightly disagree, slightly agree, agree, strongly agree
   
 <div class="notes">
-
-The Likert scale is a sequence of discrete values to represent an ordinal concept. Most Likert scales have anchors, single words or short phrases attached to every discrete value.
-
-The Likert scale could measure frequency. The choices could be Very frequently, Frequently, Occasionally, Rarely. Another choice would be Never, Rarely, Sometimes, Often. You could refer to a calendar with responses like Every day, Two or three times a week, Once a week, Less than once a week.
 
 If you are measuring satisfaction, you might choose Very satisfied, Satisfied, Dissatisfied, Very dissatisfied.
 
@@ -406,7 +412,7 @@ Reverse scaling is the inclusion of questions where a positive result is sometim
 
 ### Time for a third break
 
-* what have you learned?
+* What have you learned?
   + Visual analog scales
   + Likert scales
 * What's next?
