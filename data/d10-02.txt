@@ -1,3 +1,5 @@
-#### D10-02.
+#### D10-02. Describe your sample and data collection method
 
 Graded: 3 points, one point deduction if submitted after the due date.
+
+You need to start thinking about the methods section for the research proposal. After reminding me what your research question/hypothesis is, describe briefly the type of sample you will collect (simple random sample, stratified sample, cluster sample, convenience sample, etc.) and the data collection approach you will use (focus group, interview, questionnaire, existing data source, etc.). If you are considering different alternatives for the sample and/or the data collection approach, that’s okay. Just describe the choices you’ve narrowed it down to. This should just be a brief note, no more than a paragraph, but eventually you will need to prepare a formal write-up.

@@ -493,7 +493,7 @@ Also get an estimate on how much labor is needed to distribute and recollect all
 ### Take a fourth break
 
 * What have we learned
-  + Nominal scal questions on questionnaires
+  + Nominal scale questions on questionnaires
 * What is coming up next
   + Existing data sources
   + Advantages of different data collection approaches

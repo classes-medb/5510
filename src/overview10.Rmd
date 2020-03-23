@@ -11,9 +11,9 @@ wk <- "10"
 no <- as.numeric(wk)
 ```
 
-Created: Thursday, March 19, 2020
+Created: 2020-03-19
 
-Updated: `r format(Sys.Date(), "%A, %B %d, %Y")`
+Updated: `r Sys.Date()`
 
 This is a list of assignments, readings, and discussion questions for module`r wk`. This module should be released sometime during the week starting on `r mon[no]`, but if it is delayed, I will adjust all the deadlines appropriately. Please complete all work by the stated deadlines to receive full credit.
 
