@@ -1,7 +1,15 @@
-#### D10-01. Comment on one of the recommended readings for this week.
+#### D10-01. Review these resources on case report forms and list the best suggestion.
 
 Graded: 3 points, one point deduction if submitted after the due date.
 
-There are several recommended readings in this module. Select one and offer a brief commentary (three or four sentences is fine).
+I left an important section out of this module, and it is a big, big oversight. I should have had a section on case report forms. Case report forms are a way to standardize your data collection in a prospective clinical trial. If it is designed well, it will speed up the data collection, improve data quality, and simplify the data analysis. At the bottom of this page are three resources that discuss principles for designing a good case report form.
 
-You are also welcome (and encouraged) to respond to someone else’s commentary rather than providing your own original commentary, though please do this respectfully. Also make sure that your comments are constructive and add something of value to the discussion.
+Review one or more of these resources. State the one most valuable lesson that you learned.
+
+Bellary S, Krishnankutty B, Latha MS. Basics of case report form designing in clinical research. Perspect Clin Res. 2014;5(4):159–166. doi:10.4103/2229-3485.140555. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4170533/).
+
+Venable LT, Hamilton J. Do's and Don'ts of CRF Design. Available as a slide show in [html format](https://www.slideshare.net/BioPharmSystems/2009-ohsugdosanddontsofcrfdesign).
+
+Good M. Data Management & Case Report Form Development in Clinical Trials. Introduction to the Principles and Practice of Clinical Research. Published 2016-02-02. Available as a slide show in [pdf format](https://ippcr.nihtraining.com/handouts/2018/Good_Marge-02-02-16-Full_Slides.pdf).
+
+Note: I normally do not recommend slide shows because they leave too many details out. These two are exceptions to that rule.
