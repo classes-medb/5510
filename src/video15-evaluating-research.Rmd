@@ -469,7 +469,7 @@ source("prelims.R", echo=FALSE)
 + GM&L framework –
 	+ 19 questions
 	+ 8 rating scales
-+ 19 questions <U+F0E8> 3 main groups
++ 19 questions - 3 main groups
 	+ Key aspects of the design and methods (1 – 8)
 	+ Evaluative ratings (9 – 16)
 	+ General evaluation questions (17 – 19)

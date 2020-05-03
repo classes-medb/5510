@@ -1,3 +1,17 @@
+### Videos
+
+There are five videos this week. Links to these videos are available only on the Canvas website.
+
+V11-01. Variable names and labels, missing value codes (19 minutes)
+
+V11-02. Dates, Value labels, and reverse coding (24 minutes) Note: the earlier link to this video was incorrect. It is now fixed. Sorry about that!
+
+V11-03. Multiple response, longitudinal/repeated measures (19 minutes)
+
+V11-04. Double entry coding, Excel files (12 minutes)
+
+V11-05. Text files, database files (13 minutes)
+
 ### Handouts
 
 A set of slides and speaker notes is available in [pdf format](http://www.pmean.com/clinical-research-methods/video11-slides-and-speaker-notes.pdf).
