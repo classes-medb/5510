@@ -28,3 +28,4 @@ David leonhardt. Making Health Care Better. New York Times Magazine 2009 (Novemb
 
 Lilford RJ, Brown CA, Nicholl J. Use of process measures to monitor the quality of clinical practice. BMJ. 2007;335(7621):648-50. Avialable in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1995522/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1995522/pdf/bmj-335-7621-ac-00648.pdf).
 
+McQuillan RF, Silver SA, Harel Z, et al. How to Measure and Interpret Quality Improvement Data. Clin J Am Soc Nephrol. 2016;11(5):908‐914. doi:10.2215/CJN.1151101. Available in [html format](https://cjasn.asnjournals.org/content/11/5/908.long) or [pdf format](https://cjasn.asnjournals.org/content/clinjasn/11/5/908.full-text.pdf).

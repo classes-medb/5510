@@ -48,3 +48,19 @@ Noble H, Mitchell G. What is grounded theory? Evidence-Based Nursing 2016;19:34-
 Genzuk M. A Synthesis of Ethnographic Research. Occasional Paper Series. Center for Multilingual, Multicultural Research. Available on the Canvas website.
 
 Cochran PA, Marshall CA, Garcia-Downing C, et al. Indigenous ways of knowing: implications for participatory research and community. Am J Public Health. 2008;98(1):22-7. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2156045/) or [PDF format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2156045/pdf/0980022.pdf).
+
+Albine Moser & Irene Korstjens (2017) Series: Practical guidance to qualitative research. European Journal of General Practice.
+
++ Part 1: Introduction, 23:1, 271-273, DOI: 10.1080/13814788.2017.1375093. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/13814788.2017.1375093).
++ Part 2: Context, research questions and designs, 23:1, 274-279, DOI: 10.1080/13814788.2017.1375090. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/13814788.2017.1375090). 
++ Part 3: Sampling, data collection and analysis, 24:1, 9-18, DOI: 10.1080/13814788.2017.1375091. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/13814788.2017.1375091). 
++ Part 4: Trustworthiness and publishing. 24:1, 120-124, DOI: 10.1080/13814788.2017.1375092. Available in [html format](https://www.tandfonline.com/doi/full/10.1080/13814788.2017.1375092).
+
+Johnston MP. Secondary Data Analysis: A Method of which the Time Has Come. Qualitative and Quantitative Methods in Libraries, 2017-05; 3(3): 619-626. Available in [html format](http://www.qqml-journal.net/index.php/qqml/article/view/169).
+
+Cristancho SM, Goldszmidt M, Lingard L, Watling C. Qualitative research essentials for medical education. Singapore Med J. 2018;59(12):622‐627. doi:10.11622/smedj.2018093. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6301871/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6301871/pdf/SMJ-59-622.pdf).
+
+Cheng HG, Phillips MR. Secondary analysis of existing data: opportunities and implementation. Shanghai Arch Psychiatry. 2014;26(6):371‐375. doi:10.11919/j.issn.1002-0829.214171. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311114/pdf/sap-26-06-371.pdf).
+
+Sutton J, Austin Z. Qualitative Research: Data Collection, Analysis, and Management. Can J Hosp Pharm. 2015;68(3):226‐231. doi:10.4212/cjhp.v68i3.145. Available in [html format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4485510/) or [pdf format](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4485510/pdf/cjhp-68-226.pdf).
+
